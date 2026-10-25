@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-
+import MobileNav from "./components/MobileNav";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -51,35 +51,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   {children}
 </div>
 
-{/* Mobile Bottom Navigation */}
-<nav className="fixed bottom-0 left-0 right-0 z-50 border-t border-white/10 bg-[#0d1d30] pb-[env(safe-area-inset-bottom)] md:hidden">
-  <div className="flex items-center justify-around py-3 text-xs text-slate-300">
-    <Link href="/" className="flex flex-col items-center gap-1">
-      <span>⌂</span>
-      <span>Home</span>
-    </Link>
-
-    <Link href="/stats" className="flex flex-col items-center gap-1">
-      <span>▥</span>
-      <span>Stats</span>
-    </Link>
-
-    <Link href="/compare" className="flex flex-col items-center gap-1">
-      <span>⇄</span>
-      <span>Compare</span>
-    </Link>
-
-    <Link href="/trends" className="flex flex-col items-center gap-1">
-  <span>📈</span>
-  <span>Trends</span>
-</Link>
-
-    <Link href="/more" className="flex flex-col items-center gap-1">
-  <span>☰</span>
-  <span>More</span>
-</Link>
-  </div>
-</nav>
+<MobileNav />
 
 </body>
     </html>
