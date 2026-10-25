@@ -27,9 +27,13 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <body className="min-h-full flex flex-col bg-[#081321] text-white">
   <header className="border-b border-white/10 bg-[#0d1d30]">
     <nav className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-5 px-6 py-5">
-      <Link href="/" className="text-2xl font-bold">
-        <span className="text-blue-400">◆</span> DiamondIQ
-      </Link>
+      <Link href="/" className="flex items-center">
+  <img
+    src="/diamondiq-logo.png"
+    alt="DiamondIQ Baseball Analytics"
+    className="w-32 h-auto"
+  />
+</Link>
 
       <div className="flex flex-wrap gap-5 text-sm text-slate-300">
         <Link href="/stats" className="hover:text-blue-400">MLB Stats</Link>
