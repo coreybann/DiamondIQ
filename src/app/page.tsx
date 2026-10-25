@@ -115,18 +115,16 @@ export default function Home() {
           </div>
           <div>
             <p className="text-4xl font-bold text-blue-400">6</p>
-            <p className="mt-2 text-slate-400"><span className="md:hidden">Sections</span>
-<span className="hidden md:inline">Planned Website Sections</span></p>
+            <p className="mt-2 text-slate-400">Website Sections</p>
           </div>
           <div>
             <p className="text-4xl font-bold text-blue-400">1</p>
-            <p className="mt-2 text-slate-400"><span className="md:hidden">Better Decisions</span>
-<span className="hidden md:inline">Goal: Better Baseball Decisions</span></p>
+            <p className="mt-2 text-slate-400">Better Baseball Decisions</p>
           </div>
         </div>
       </section>
 
-      <section className="mx-auto hidden max-w-7xl px-6 py-20 md:block">
+      <section className="mx-auto max-w-7xl px-6 py-20 max-md:hidden">
         <h2 className="text-3xl font-bold">Explore DiamondIQ</h2>
         <p className="mt-3 text-slate-400">
           Advanced tools and research for understanding the game.
