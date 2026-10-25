@@ -114,7 +114,14 @@ export default async function PitchingStats({
                   "Player", "G", "W", "L", "ERA",
                   "WHIP", "IP", "SO", "BB"
                 ].map((heading) => (
-                  <th key={heading} className="px-4 py-4">
+                  <th
+  key={heading}
+  className={`px-4 py-4 whitespace-nowrap ${
+    heading === "Player"
+      ? "sticky left-0 z-20 min-w-[150px] bg-[#162a43] md:static"
+      : ""
+  }`}
+>
                     {heading}
                   </th>
                 ))}
@@ -126,7 +133,7 @@ export default async function PitchingStats({
                   key={player.id}
                   className="border-t border-slate-700 hover:bg-white/5"
                 >
-                  <td className="px-4 py-4 font-semibold">
+                  <td className="sticky left-0 z-10 min-w-[150px] bg-[#081321] px-4 py-4 font-semibold whitespace-nowrap md:static md:bg-transparent">
                     {player.name}
                   </td>
                   <td className="px-4 py-4">{player.games}</td>
