@@ -2,7 +2,9 @@ import { NextRequest, NextResponse } from "next/server";
 
 export async function GET(request: NextRequest) {
   const playerId = request.nextUrl.searchParams.get("id");
-  const season = request.nextUrl.searchParams.get("season") ?? "2026";
+  const season =
+  request.nextUrl.searchParams.get("season") ??
+  String(new Date().getFullYear());
 const group =
   request.nextUrl.searchParams.get("group") === "pitching"
     ? "pitching"

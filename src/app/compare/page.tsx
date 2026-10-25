@@ -13,7 +13,9 @@ type Player = {
 export default function ComparePage() {
   const [player1, setPlayer1] = useState<Player | null>(null);
   const [player2, setPlayer2] = useState<Player | null>(null);
-  const [season, setSeason] = useState<number>(2026);
+  const [season, setSeason] = useState<number>(
+  new Date().getFullYear()
+);
   const [statGroup, setStatGroup] = useState<"hitting" | "pitching">("hitting");
   
   return (
@@ -47,7 +49,7 @@ export default function ComparePage() {
     onChange={(e) => setSeason(Number(e.target.value))}
     className="rounded-lg border border-slate-700 bg-slate-900 px-4 py-3 text-white"
   >
-    {Array.from({ length: 11 }, (_, i) => 2026 - i).map((year) => (
+    {Array.from({ length: 11 }, (_, i) => new Date().getFullYear() - i).map((year) => (
       <option key={year} value={year}>
         {year}
       </option>

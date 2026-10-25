@@ -1,0 +1,20 @@
+name: Daily MLB Stats Update
+
+on:
+  schedule:
+    - cron: "0 7 * * *"
+      timezone: "America/New_York"
+
+  workflow_dispatch:
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+
+        steps:
+      - name: Trigger DiamondIQ stats refresh
+        run: |
+          curl --fail-with-body --show-error --silent \
+            --request POST \
+            --url "${{ secrets.DIAMONDIQ_REFRESH_URL }}" \
+            --header "Authorization: Bearer ${{ secrets.CRON_SECRET }}"

@@ -1,4 +1,4 @@
-
+import { getDefaultMLBSeason } from "@/lib/mlbSeason";
 type Hitter = {
   id: number;
   name: string;
@@ -12,8 +12,9 @@ type Hitter = {
 };
 
 async function getBattingStats(teamId: string): Promise<Hitter[]> {
+  const season = getDefaultMLBSeason();
   const response = await fetch(
-    `https://statsapi.mlb.com/api/v1/teams/${teamId}/roster?rosterType=fullSeason&season=2026&hydrate=person(stats(type=season,group=hitting,season=2026))`,
+    `https://statsapi.mlb.com/api/v1/teams/${teamId}/roster?rosterType=fullSeason&sseason=${season}&hydrate=person(stats(type=season,group=hitting,season=2026))`,
     { next: { revalidate: 3600 } }
   );
 
@@ -66,7 +67,7 @@ export default async function BattingStats({
   return (
     <section className="mt-14">
       <h2 className="mb-2 text-3xl font-bold">
-        2026 Batting Statistics
+        {getDefaultMLBSeason()} Batting Statistics
       </h2>
 
       <p className="mb-6 text-sm text-slate-400">
