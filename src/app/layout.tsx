@@ -1,3 +1,4 @@
+import Link from "next/link";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
@@ -23,7 +24,27 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col bg-[#081321] text-white">
+  <header className="border-b border-white/10 bg-[#0d1d30]">
+    <nav className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-5 px-6 py-5">
+      <Link href="/" className="text-2xl font-bold">
+        <span className="text-blue-400">◆</span> DiamondIQ
+      </Link>
+
+      <div className="flex flex-wrap gap-5 text-sm text-slate-300">
+        <Link href="/stats" className="hover:text-blue-400">MLB Stats</Link>
+        <Link href="/trends" className="hover:text-blue-400">Player Trends</Link>
+        <Link href="/compare" className="hover:text-blue-400">Compare</Link>
+        <Link href="/scouting" className="hover:text-blue-400">Scouting</Link>
+        <Link href="/front-office" className="hover:text-blue-400">Front Office</Link>
+        <Link href="/research" className="hover:text-blue-400">Research</Link>
+        <Link href="/about" className="hover:text-blue-400">About Me</Link>
+      </div>
+    </nav>
+  </header>
+
+  {children}
+</body>
     </html>
   );
 }

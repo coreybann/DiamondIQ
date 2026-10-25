@@ -1,69 +1,135 @@
-import Image from "next/image";
+
+import Link from "next/link";
+
+const features = [
+  {
+    icon: "⚾",
+    title: "MLB Statistics",
+    description:
+      "Explore player performance, advanced metrics, and team statistics.",
+    href: "/stats",
+  },
+  {
+    icon: "🔎",
+    title: "Scouting Hub",
+    description:
+      "Evaluate players, analyze strengths, and discover future talent.",
+    href: "/scouting",
+  },
+  {
+    icon: "📊",
+    title: "Player Comparisons",
+    description:
+      "Compare players using performance metrics and visualizations.",
+    href: "/compare",
+  },
+  {
+    icon: "🏟️",
+    title: "Front Office Lab",
+    description:
+      "Explore roster construction, player value, and baseball strategy.",
+    href: "/front-office",
+  },
+  {
+    icon: "💻",
+    title: "Research & Projects",
+    description:
+      "Explore original baseball analytics projects and research.",
+    href: "/research",
+  },
+  {
+    icon: "👤",
+    title: "About Me",
+    description:
+      "Learn about my background, experience, and career goals.",
+    href: "/about",
+  },
+];
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert h-5 w-[100px]"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the{" "}
-            <code className="rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]">
-              page.tsx
-            </code>{" "}
-            file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+    <main className="min-h-screen bg-[#081321] text-white">
+      
+
+      <section className="mx-auto max-w-7xl px-6 py-24">
+        <div className="max-w-4xl">
+          <p className="mb-5 text-sm font-bold uppercase tracking-[0.25em] text-blue-400">
+            Baseball Analytics & Scouting
           </p>
+          <h1 className="text-5xl font-black leading-tight tracking-tight md:text-7xl">
+            Baseball Intelligence.
+            <span className="block text-blue-400">
+              Better Decisions.
+            </span>
+          </h1>
+          <p className="mt-7 max-w-2xl text-lg leading-8 text-slate-400">
+            Explore advanced MLB statistics, player evaluations,
+            scouting insights, and front office analysis through
+            data-driven baseball research.
+          </p>
+          <div className="mt-9 flex flex-wrap gap-4">
+            <Link
+              href="/stats"
+              className="rounded-lg bg-blue-500 px-6 py-3 font-semibold text-white hover:bg-blue-600"
+            >
+              Explore MLB Stats →
+            </Link>
+            <Link
+              href="/research"
+              className="rounded-lg border border-slate-600 px-6 py-3 font-semibold hover:bg-white/10"
+            >
+              View My Research
+            </Link>
+          </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert h-[14px] w-4"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+      </section>
+
+      <section className="border-y border-white/10 bg-[#0d1d30]">
+        <div className="mx-auto grid max-w-7xl gap-6 px-6 py-10 md:grid-cols-3">
+          <div>
+            <p className="text-4xl font-bold text-blue-400">30</p>
+            <p className="mt-2 text-slate-400">MLB Teams</p>
+          </div>
+          <div>
+            <p className="text-4xl font-bold text-blue-400">6</p>
+            <p className="mt-2 text-slate-400">Planned Website Sections</p>
+          </div>
+          <div>
+            <p className="text-4xl font-bold text-blue-400">1</p>
+            <p className="mt-2 text-slate-400">Goal: Better Baseball Decisions</p>
+          </div>
         </div>
-      </main>
-    </div>
+      </section>
+
+      <section className="mx-auto max-w-7xl px-6 py-20">
+        <h2 className="text-3xl font-bold">Explore DiamondIQ</h2>
+        <p className="mt-3 text-slate-400">
+          Advanced tools and research for understanding the game.
+        </p>
+
+        <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+          {features.map((feature) => (
+            <Link
+              key={feature.title}
+              href={feature.href}
+              className="rounded-xl border border-slate-700 bg-[#12243a] p-7 transition hover:-translate-y-1 hover:border-blue-400"
+            >
+              <div className="mb-5 text-3xl">{feature.icon}</div>
+              <h3 className="text-xl font-bold">{feature.title}</h3>
+              <p className="mt-3 leading-7 text-slate-400">
+                {feature.description}
+              </p>
+              <p className="mt-6 font-semibold text-blue-400">
+                Explore →
+              </p>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      <footer className="border-t border-white/10 px-6 py-8 text-center text-sm text-slate-500">
+        © 2026 DiamondIQ. Independent baseball analytics and research.
+      </footer>
+    </main>
   );
 }
