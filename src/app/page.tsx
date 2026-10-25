@@ -51,12 +51,12 @@ export default function Home() {
     <main className="min-h-screen bg-[#081321] text-white">
       
 
-      <section className="mx-auto max-w-7xl px-6 py-24">
+      <section className="mx-auto max-w-7xl px-6 py-12 md:py-24">
         <div className="max-w-4xl">
           <p className="mb-5 text-sm font-bold uppercase tracking-[0.25em] text-blue-400">
             Baseball Analytics & Scouting
           </p>
-          <h1 className="text-5xl font-black leading-tight tracking-tight md:text-7xl">
+          <h1 className="text-4xl font-black leading-tight tracking-tight sm:text-5xl md:text-7xl">
             Baseball Intelligence.
             <span className="block text-blue-400">
               Better Decisions.
@@ -83,25 +83,50 @@ export default function Home() {
           </div>
         </div>
       </section>
+{/* Mobile Quick Access */}
+<section className="mx-auto max-w-7xl px-6 pt-8 md:hidden">
+  <h2 className="mb-4 text-xl font-bold">
+    Quick Access
+  </h2>
 
+  <div className="grid grid-cols-2 gap-3">
+    {[
+      { name: "MLB Stats", href: "/stats", icon: "📊" },
+      { name: "Compare", href: "/compare", icon: "⇄" },
+      { name: "Player Trends", href: "/trends", icon: "📈" },
+      { name: "Scouting", href: "/scouting", icon: "⚾" },
+    ].map((item) => (
+      <Link
+        key={item.href}
+        href={item.href}
+        className="flex min-h-28 flex-col justify-center gap-2 rounded-xl border border-slate-700 bg-[#12243a] p-4 transition-colors active:bg-[#1b3654]"
+      >
+        <span className="text-2xl">{item.icon}</span>
+        <span className="text-sm font-semibold">{item.name}</span>
+      </Link>
+    ))}
+  </div>
+</section>
       <section className="border-y border-white/10 bg-[#0d1d30]">
-        <div className="mx-auto grid max-w-7xl gap-6 px-6 py-10 md:grid-cols-3">
+        <div className="mx-auto grid max-w-7xl grid-cols-3 gap-3 px-4 py-6 text-center md:gap-6 md:px-6 md:py-10 md:text-left">
           <div>
             <p className="text-4xl font-bold text-blue-400">30</p>
             <p className="mt-2 text-slate-400">MLB Teams</p>
           </div>
           <div>
             <p className="text-4xl font-bold text-blue-400">6</p>
-            <p className="mt-2 text-slate-400">Planned Website Sections</p>
+            <p className="mt-2 text-slate-400"><span className="md:hidden">Sections</span>
+<span className="hidden md:inline">Planned Website Sections</span></p>
           </div>
           <div>
             <p className="text-4xl font-bold text-blue-400">1</p>
-            <p className="mt-2 text-slate-400">Goal: Better Baseball Decisions</p>
+            <p className="mt-2 text-slate-400"><span className="md:hidden">Better Decisions</span>
+<span className="hidden md:inline">Goal: Better Baseball Decisions</span></p>
           </div>
         </div>
       </section>
 
-      <section className="mx-auto max-w-7xl px-6 py-20">
+      <section className="mx-auto hidden max-w-7xl px-6 py-20 md:block">
         <h2 className="text-3xl font-bold">Explore DiamondIQ</h2>
         <p className="mt-3 text-slate-400">
           Advanced tools and research for understanding the game.
