@@ -11,10 +11,13 @@ jobs:
   update-stats:
     runs-on: ubuntu-latest
 
-        steps:
+    steps:
       - name: Trigger DiamondIQ stats refresh
+        env:
+          REFRESH_URL: ${{ secrets.DIAMONDIQ_REFRESH_URL }}
+          CRON_SECRET: ${{ secrets.CRON_SECRET }}
         run: |
           curl --fail-with-body --show-error --silent \
             --request POST \
-            --url "${{ secrets.DIAMONDIQ_REFRESH_URL }}" \
-            --header "Authorization: Bearer ${{ secrets.CRON_SECRET }}"
+            --url "$REFRESH_URL" \
+            --header "Authorization: Bearer $CRON_SECRET"
