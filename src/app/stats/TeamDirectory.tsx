@@ -76,7 +76,7 @@ export default function TeamDirectory({
         </select>
       </div>
 
-      <h2 className="mb-6 text-2xl font-bold">
+      <h2 id="teams" className="mb-6 scroll-mt-6 text-2xl font-bold">
         MLB Teams ({filteredTeams.length})
       </h2>
 

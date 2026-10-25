@@ -35,7 +35,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   />
 </Link>
 
-      <div className="flex flex-wrap gap-5 text-sm text-slate-300">
+      <div className="flex flex-wrap gap-5 text-sm text-slate-300 max-md:hidden">
         <Link href="/stats" className="hover:text-blue-400">MLB Stats</Link>
         <Link href="/trends" className="hover:text-blue-400">Player Trends</Link>
         <Link href="/compare" className="hover:text-blue-400">Compare</Link>
@@ -47,7 +47,40 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     </nav>
   </header>
 
+  <div className="flex-1 pb-24 md:pb-0">
   {children}
+</div>
+
+{/* Mobile Bottom Navigation */}
+<nav className="fixed bottom-0 left-0 right-0 z-50 border-t border-white/10 bg-[#0d1d30] pb-[env(safe-area-inset-bottom)] md:hidden">
+  <div className="flex items-center justify-around py-3 text-xs text-slate-300">
+    <Link href="/" className="flex flex-col items-center gap-1">
+      <span>⌂</span>
+      <span>Home</span>
+    </Link>
+
+    <Link href="/stats" className="flex flex-col items-center gap-1">
+      <span>▥</span>
+      <span>Stats</span>
+    </Link>
+
+    <Link href="/compare" className="flex flex-col items-center gap-1">
+      <span>⇄</span>
+      <span>Compare</span>
+    </Link>
+
+    <Link href="/trends" className="flex flex-col items-center gap-1">
+  <span>📈</span>
+  <span>Trends</span>
+</Link>
+
+    <Link href="/more" className="flex flex-col items-center gap-1">
+  <span>☰</span>
+  <span>More</span>
+</Link>
+  </div>
+</nav>
+
 </body>
     </html>
   );
