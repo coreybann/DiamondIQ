@@ -2,7 +2,7 @@
 "use client";
 
 import { useState } from "react";
-
+import Link from "next/link";
 type Signing = {
   id: number;
   date: string;
@@ -66,8 +66,17 @@ export default function SigningsSearch({
                 className="border-b border-slate-800"
               >
                 <td className="whitespace-nowrap px-4 py-4 font-medium">
-                  {signing.playerName}
-                </td>
+  {signing.playerId !== null ? (
+    <Link
+      href={`/free-agency/player/${signing.playerId}`}
+      className="text-blue-400 hover:text-blue-300 hover:underline"
+    >
+      {signing.playerName}
+    </Link>
+  ) : (
+    signing.playerName
+  )}
+</td>
 <td className="whitespace-nowrap px-4 py-4">
   {signing.playerId !== null
     ? playerPositions[signing.playerId] ?? "N/A"
