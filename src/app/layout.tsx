@@ -41,6 +41,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <Link href="/compare" className="hover:text-blue-400">Compare</Link>
         <Link href="/scouting" className="hover:text-blue-400">Scouting</Link>
         <Link href="/front-office" className="hover:text-blue-400">Front Office</Link>
+        <Link href="/free-agency" className="hover:text-blue-400">Free Agency</Link>
         <Link href="/research" className="hover:text-blue-400">Research</Link>
         <Link href="/about" className="hover:text-blue-400">About Me</Link>
       </div>

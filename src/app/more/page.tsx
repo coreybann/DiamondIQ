@@ -14,6 +14,12 @@ const morePages = [
     icon: "⚾",
   },
   {
+  title: "Free Agency",
+  description: "Track MLB free agents, offseason signings, and player positions.",
+  href: "/free-agency",
+  icon: "📝",
+},
+  {
     title: "Research",
     description: "View baseball analytics projects and research.",
     href: "/research",
