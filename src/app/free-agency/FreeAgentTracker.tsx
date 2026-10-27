@@ -92,7 +92,7 @@ export default function FreeAgentTracker({ players }: Props) {
                 "Player",
                 "Position",
                 "Age",
-                "Previous Team",
+                "Last Known Organization",
                 "Status",
                 "Signed Team",
               ].map((heading) => (

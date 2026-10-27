@@ -165,663 +165,380 @@
     "Eugenio Suárez": "Cincinnati Reds",
     "Edmundo Sosa": "Philadelphia Phillies",
     "Mauricio Dubón": "Atlanta Braves",
-    "Michael Conforto": "Chicago Cubs"
+    "Michael Conforto": "Chicago Cubs",
+    "Jake Rogers": "Chicago White Sox",
+    "Jonah Heim": "Athletics",
+    "Nathaniel Lowe": "Cleveland Guardians",
+    "Christopher Morel": "New York Mets",
+    "Luis Arraez": "Philadelphia Phillies",
+    "Lenyn Sosa": "Toronto Blue Jays",
+    "Zack Short": "New York Mets",
+    "Jorge Mateo": "Tampa Bay Rays",
+    "Daulton Varsho": "Houston Astros",
+    "Tyrone Taylor": "Chicago Cubs",
+    "Luis Robert Jr.": "Baltimore Orioles",
+    "Lane Thomas": "Atlanta Braves",
+    "Austin Slater": "Tampa Bay Rays",
+    "Tarik Skubal": "Los Angeles Dodgers",
+    "Kevin Gausman": "Chicago Cubs",
+    "Freddy Peralta": "Tampa Bay Rays",
+    "Casey Mize": "San Diego Padres",
+    "Kris Bubic": "Los Angeles Dodgers",
+    "Tyler Mahle": "Atlanta Braves",
+    "Clay Holmes": "Chicago Cubs",
+    "Dustin May": "Milwaukee Brewers",
+    "Robbie Ray": "San Diego Padres",
+    "Foster Griffin": "Cleveland Guardians",
+    "Aaron Civale": "Chicago Cubs",
+    "Michael Lorenzen": "Toronto Blue Jays",
+    "Trevor Williams": "Texas Rangers",
+    "José Urquidy": "Philadelphia Phillies",
+    "Zack Littell": "Arizona Diamondbacks",
+    "Jameson Taillon": "Toronto Blue Jays",
+    "Lance McCullers Jr.": "Milwaukee Brewers",
+    "Brooks Raley": "Philadelphia Phillies",
+    "JoJo Romero": "Milwaukee Brewers",
+    "Hoby Milner": "Seattle Mariners",
+    "Dennis Santana": "Arizona Diamondbacks",
+    "Antonio Senzatela": "Milwaukee Brewers",
+    "José Suarez": "Athletics",
+    "Brent Suter": "Atlanta Braves",
+    "Caleb Ferguson": "St. Louis Cardinals",
+    "Tyler Kinley": "Detroit Tigers",
+    "Justin Topa": "New York Yankees",
+    "A.J. Minter": "Minnesota Twins",
+    "John Schreiber": "New York Yankees",
+    "Jordan Romano": "Colorado Rockies",
+    "Drew Pomeranz": "Chicago Cubs",
+    "Jake Woodford": "Tampa Bay Rays",
+    "Lou Trivino III": "Philadelphia Phillies",
+    "Chris Devenski": "New York Mets",
+    "Joe Ross": "Texas Rangers",
+    "Aaron Bummer": "Kansas City Royals",
+    "Paul Sewald": "Toronto Blue Jays",
+    "Nick Madrigal": "Tampa Bay Rays",
+    "Luis Rengifo": "San Diego Padres",
+    "Taylor Ward": "Seattle Mariners",
+    "Randal Grichuk": "Chicago White Sox",
+    "Austin Hays": "San Diego Padres",
+    "Tommy Pham": "Chicago White Sox",
+    "Kiké Hernández": "Los Angeles Dodgers",
+    "Brendan Rodgers": "Boston Red Sox",
+    "Alex Verdugo": "San Diego Padres",
+    "Mike Tauchman": "New York Mets",
+    "José Berríos": "Toronto Blue Jays",
+    "Frankie Montas": "New York Mets",
+    "Austin Gomber": "Detroit Tigers",
+    "Andrew Chafin": "Cincinnati Reds",
+    "Ryan Brasier": "Texas Rangers",
+    "Yimi García": "Toronto Blue Jays",
+    "Rafael Montero": "New York Yankees",
+    "Robert Stephenson": "Los Angeles Angels",
+    "Matt Bowman": "Minnesota Twins",
+    "Brusdar Graterol": "Los Angeles Dodgers",
+    "Joe Jiménez": "Atlanta Braves",
+    "A.J. Puk": "Arizona Diamondbacks",
+    "Drew Smith": "Minnesota Twins",
+    "Hunter Strickland": "Los Angeles Angels",
+    "Rowan Wick": "San Francisco Giants",
+    "Dan Altavilla": "Kansas City Royals",
+    "Luke Jackson": "Kansas City Royals",
+    "José Leclerc": "San Diego Padres",
+    "Jorge Alcala": "Toronto Blue Jays",
+    "Génesis Cabrera": "Kansas City Royals",
+    "Gavin Lux": "Tampa Bay Rays",
+    "Cavan Biggio": "Houston Astros",
+    "Paul DeJong": "Detroit Tigers",
+    "Kevin Newman": "Kansas City Royals",
+    "Trevor Stephan": "Cleveland Guardians",
+    "David Peterson": "Chicago Cubs",
+    "Luis Garcia": "New York Yankees",
+    "Tyler Alexander": "Texas Rangers",
+    "Luis García": "Minnesota Twins",
+    "Jacob Webb": "Chicago Cubs",
+    "Emmanuel Clase": "Cleveland Guardians"
   },
-  "review": [
+  "review": [],
+  "resolvedByGameLog": [
     {
       "name": "Jake Rogers",
-      "mlbId": 668670,
-      "reason": "Multiple 2026 teams",
-      "teams": [
-        "Baltimore Orioles",
-        "Boston Red Sox",
-        "Chicago White Sox",
-        "Detroit Tigers"
-      ]
+      "team": "Chicago White Sox",
+      "lastGame": "2026-09-17"
     },
     {
       "name": "Jonah Heim",
-      "mlbId": 641680,
-      "reason": "Multiple 2026 teams",
-      "teams": [
-        "Athletics",
-        "Atlanta Braves"
-      ]
+      "team": "Athletics",
+      "lastGame": "2026-09-26"
     },
     {
       "name": "Nathaniel Lowe",
-      "mlbId": 663993,
-      "reason": "Multiple 2026 teams",
-      "teams": [
-        "Cincinnati Reds",
-        "Cleveland Guardians"
-      ]
+      "team": "Cleveland Guardians",
+      "lastGame": "2026-09-27"
     },
     {
       "name": "Christopher Morel",
-      "mlbId": 666624,
-      "reason": "Multiple 2026 teams",
-      "teams": [
-        "Miami Marlins",
-        "New York Mets"
-      ]
+      "team": "New York Mets",
+      "lastGame": "2026-09-25"
     },
     {
       "name": "Luis Arraez",
-      "mlbId": 650333,
-      "reason": "Multiple 2026 teams",
-      "teams": [
-        "Philadelphia Phillies",
-        "San Francisco Giants"
-      ]
+      "team": "Philadelphia Phillies",
+      "lastGame": "2026-09-24"
     },
     {
       "name": "Lenyn Sosa",
-      "mlbId": 672820,
-      "reason": "Multiple 2026 teams",
-      "teams": [
-        "Chicago White Sox",
-        "Toronto Blue Jays"
-      ]
-    },
-    {
-      "name": "Brendan Rodgers",
-      "mlbId": 663898,
-      "reason": "No 2026 MLB team found"
+      "team": "Toronto Blue Jays",
+      "lastGame": "2026-05-26"
     },
     {
       "name": "Zack Short",
-      "mlbId": 670097,
-      "reason": "Multiple 2026 teams",
-      "teams": [
-        "Detroit Tigers",
-        "New York Mets"
-      ]
+      "team": "New York Mets",
+      "lastGame": "2026-07-12"
     },
     {
       "name": "Jorge Mateo",
-      "mlbId": 622761,
-      "reason": "Multiple 2026 teams",
-      "teams": [
-        "Atlanta Braves",
-        "Tampa Bay Rays"
-      ]
-    },
-    {
-      "name": "Alex Verdugo",
-      "mlbId": 657077,
-      "reason": "No 2026 MLB team found"
+      "team": "Tampa Bay Rays",
+      "lastGame": "2026-09-27"
     },
     {
       "name": "Daulton Varsho",
-      "mlbId": 662139,
-      "reason": "Multiple 2026 teams",
-      "teams": [
-        "Houston Astros",
-        "Toronto Blue Jays"
-      ]
+      "team": "Houston Astros",
+      "lastGame": "2026-09-19"
     },
     {
       "name": "Tyrone Taylor",
-      "mlbId": 621438,
-      "reason": "Multiple 2026 teams",
-      "teams": [
-        "Chicago Cubs",
-        "New York Mets"
-      ]
+      "team": "Chicago Cubs",
+      "lastGame": "2026-09-27"
     },
     {
       "name": "Luis Robert Jr.",
-      "mlbId": 673357,
-      "reason": "Multiple 2026 teams",
-      "teams": [
-        "Baltimore Orioles",
-        "New York Mets"
-      ]
+      "team": "Baltimore Orioles",
+      "lastGame": "2026-09-04"
     },
     {
       "name": "Lane Thomas",
-      "mlbId": 657041,
-      "reason": "Multiple 2026 teams",
-      "teams": [
-        "Atlanta Braves",
-        "Kansas City Royals"
-      ]
-    },
-    {
-      "name": "Mike Tauchman",
-      "mlbId": 643565,
-      "reason": "No 2026 MLB team found"
+      "team": "Atlanta Braves",
+      "lastGame": "2026-09-07"
     },
     {
       "name": "Austin Slater",
-      "mlbId": 596103,
-      "reason": "Multiple 2026 teams",
-      "teams": [
-        "Miami Marlins",
-        "New York Mets",
-        "Tampa Bay Rays"
-      ]
+      "team": "Tampa Bay Rays",
+      "lastGame": "2026-06-17"
     },
     {
       "name": "Tarik Skubal",
-      "mlbId": 669373,
-      "reason": "Multiple 2026 teams",
-      "teams": [
-        "Detroit Tigers",
-        "Los Angeles Dodgers"
-      ]
+      "team": "Los Angeles Dodgers",
+      "lastGame": "2026-09-25"
     },
     {
       "name": "Kevin Gausman",
-      "mlbId": 592332,
-      "reason": "Multiple 2026 teams",
-      "teams": [
-        "Chicago Cubs",
-        "Toronto Blue Jays"
-      ]
+      "team": "Chicago Cubs",
+      "lastGame": "2026-09-23"
     },
     {
       "name": "Freddy Peralta",
-      "mlbId": 642547,
-      "reason": "Multiple 2026 teams",
-      "teams": [
-        "New York Mets",
-        "Tampa Bay Rays"
-      ]
+      "team": "Tampa Bay Rays",
+      "lastGame": "2026-09-25"
     },
     {
       "name": "Casey Mize",
-      "mlbId": 663554,
-      "reason": "Multiple 2026 teams",
-      "teams": [
-        "Detroit Tigers",
-        "San Diego Padres"
-      ]
+      "team": "San Diego Padres",
+      "lastGame": "2026-09-25"
     },
     {
       "name": "Kris Bubic",
-      "mlbId": 663460,
-      "reason": "Multiple 2026 teams",
-      "teams": [
-        "Kansas City Royals",
-        "Los Angeles Dodgers"
-      ]
+      "team": "Los Angeles Dodgers",
+      "lastGame": "2026-09-26"
     },
     {
       "name": "Tyler Mahle",
-      "mlbId": 641816,
-      "reason": "Multiple 2026 teams",
-      "teams": [
-        "Atlanta Braves",
-        "San Francisco Giants"
-      ]
+      "team": "Atlanta Braves",
+      "lastGame": "2026-09-24"
     },
     {
       "name": "Clay Holmes",
-      "mlbId": 605280,
-      "reason": "Multiple 2026 teams",
-      "teams": [
-        "Chicago Cubs",
-        "New York Mets"
-      ]
+      "team": "Chicago Cubs",
+      "lastGame": "2026-09-25"
     },
     {
       "name": "Dustin May",
-      "mlbId": 669160,
-      "reason": "Multiple 2026 teams",
-      "teams": [
-        "Milwaukee Brewers",
-        "St. Louis Cardinals"
-      ]
+      "team": "Milwaukee Brewers",
+      "lastGame": "2026-09-26"
     },
     {
       "name": "Robbie Ray",
-      "mlbId": 592662,
-      "reason": "Multiple 2026 teams",
-      "teams": [
-        "San Diego Padres",
-        "San Francisco Giants"
-      ]
+      "team": "San Diego Padres",
+      "lastGame": "2026-09-23"
     },
     {
       "name": "Foster Griffin",
-      "mlbId": 656492,
-      "reason": "Multiple 2026 teams",
-      "teams": [
-        "Cleveland Guardians",
-        "Washington Nationals"
-      ]
+      "team": "Cleveland Guardians",
+      "lastGame": "2026-09-23"
     },
     {
       "name": "Aaron Civale",
-      "mlbId": 650644,
-      "reason": "Multiple 2026 teams",
-      "teams": [
-        "Athletics",
-        "Chicago Cubs"
-      ]
+      "team": "Chicago Cubs",
+      "lastGame": "2026-09-25"
     },
     {
       "name": "Michael Lorenzen",
-      "mlbId": 547179,
-      "reason": "Multiple 2026 teams",
-      "teams": [
-        "Colorado Rockies",
-        "Toronto Blue Jays"
-      ]
-    },
-    {
-      "name": "José Berríos",
-      "mlbId": 621244,
-      "reason": "No 2026 MLB team found"
+      "team": "Toronto Blue Jays",
+      "lastGame": "2026-09-15"
     },
     {
       "name": "Trevor Williams",
-      "mlbId": 592866,
-      "reason": "Multiple 2026 teams",
-      "teams": [
-        "Texas Rangers",
-        "Washington Nationals"
-      ]
+      "team": "Texas Rangers",
+      "lastGame": "2026-09-25"
     },
     {
       "name": "José Urquidy",
-      "mlbId": 664353,
-      "reason": "Multiple 2026 teams",
-      "teams": [
-        "Chicago White Sox",
-        "Philadelphia Phillies",
-        "Pittsburgh Pirates"
-      ]
+      "team": "Philadelphia Phillies",
+      "lastGame": "2026-09-26"
     },
     {
       "name": "Zack Littell",
-      "mlbId": 641793,
-      "reason": "Multiple 2026 teams",
-      "teams": [
-        "Arizona Diamondbacks",
-        "Washington Nationals"
-      ]
+      "team": "Arizona Diamondbacks",
+      "lastGame": "2026-08-22"
     },
     {
       "name": "Jameson Taillon",
-      "mlbId": 592791,
-      "reason": "Multiple 2026 teams",
-      "teams": [
-        "Chicago Cubs",
-        "Toronto Blue Jays"
-      ]
-    },
-    {
-      "name": "Frankie Montas",
-      "mlbId": 593423,
-      "reason": "No 2026 MLB team found"
+      "team": "Toronto Blue Jays",
+      "lastGame": "2026-09-04"
     },
     {
       "name": "Lance McCullers Jr.",
-      "mlbId": 621121,
-      "reason": "Multiple 2026 teams",
-      "teams": [
-        "Houston Astros",
-        "Milwaukee Brewers"
-      ]
-    },
-    {
-      "name": "Austin Gomber",
-      "mlbId": 596295,
-      "reason": "No 2026 MLB team found"
+      "team": "Milwaukee Brewers",
+      "lastGame": "2026-07-25"
     },
     {
       "name": "Brooks Raley",
-      "mlbId": 548384,
-      "reason": "Multiple 2026 teams",
-      "teams": [
-        "New York Mets",
-        "Philadelphia Phillies"
-      ]
-    },
-    {
-      "name": "Emmanuel Clase",
-      "mlbId": 661403,
-      "reason": "No 2026 MLB team found"
+      "team": "Philadelphia Phillies",
+      "lastGame": "2026-09-26"
     },
     {
       "name": "JoJo Romero",
-      "mlbId": 668941,
-      "reason": "Multiple 2026 teams",
-      "teams": [
-        "Milwaukee Brewers",
-        "St. Louis Cardinals"
-      ]
+      "team": "Milwaukee Brewers",
+      "lastGame": "2026-09-26"
     },
     {
       "name": "Hoby Milner",
-      "mlbId": 571948,
-      "reason": "Multiple 2026 teams",
-      "teams": [
-        "Chicago Cubs",
-        "Seattle Mariners"
-      ]
+      "team": "Seattle Mariners",
+      "lastGame": "2026-09-27"
     },
     {
       "name": "Dennis Santana",
-      "mlbId": 642701,
-      "reason": "Multiple 2026 teams",
-      "teams": [
-        "Arizona Diamondbacks",
-        "Pittsburgh Pirates"
-      ]
+      "team": "Arizona Diamondbacks",
+      "lastGame": "2026-09-26"
     },
     {
       "name": "Antonio Senzatela",
-      "mlbId": 622608,
-      "reason": "Multiple 2026 teams",
-      "teams": [
-        "Colorado Rockies",
-        "Milwaukee Brewers"
-      ]
+      "team": "Milwaukee Brewers",
+      "lastGame": "2026-09-26"
     },
     {
       "name": "José Suarez",
-      "mlbId": 660761,
-      "reason": "Multiple 2026 teams",
-      "teams": [
-        "Athletics",
-        "Atlanta Braves",
-        "Seattle Mariners"
-      ]
+      "team": "Athletics",
+      "lastGame": "2026-09-01"
     },
     {
       "name": "Brent Suter",
-      "mlbId": 608718,
-      "reason": "Multiple 2026 teams",
-      "teams": [
-        "Atlanta Braves",
-        "Los Angeles Angels"
-      ]
+      "team": "Atlanta Braves",
+      "lastGame": "2026-09-26"
     },
     {
       "name": "Caleb Ferguson",
-      "mlbId": 657571,
-      "reason": "Multiple 2026 teams",
-      "teams": [
-        "Cincinnati Reds",
-        "St. Louis Cardinals"
-      ]
+      "team": "St. Louis Cardinals",
+      "lastGame": "2026-08-28"
     },
     {
       "name": "Tyler Kinley",
-      "mlbId": 641755,
-      "reason": "Multiple 2026 teams",
-      "teams": [
-        "Atlanta Braves",
-        "Detroit Tigers"
-      ]
+      "team": "Detroit Tigers",
+      "lastGame": "2026-09-26"
     },
     {
       "name": "Justin Topa",
-      "mlbId": 623437,
-      "reason": "Multiple 2026 teams",
-      "teams": [
-        "Minnesota Twins",
-        "New York Yankees"
-      ]
-    },
-    {
-      "name": "Andrew Chafin",
-      "mlbId": 605177,
-      "reason": "No 2026 MLB team found"
+      "team": "New York Yankees",
+      "lastGame": "2026-08-29"
     },
     {
       "name": "A.J. Minter",
-      "mlbId": 621345,
-      "reason": "Multiple 2026 teams",
-      "teams": [
-        "Minnesota Twins",
-        "New York Mets"
-      ]
-    },
-    {
-      "name": "Ryan Brasier",
-      "mlbId": 518489,
-      "reason": "No 2026 MLB team found"
+      "team": "Minnesota Twins",
+      "lastGame": "2026-09-27"
     },
     {
       "name": "John Schreiber",
-      "mlbId": 670167,
-      "reason": "Multiple 2026 teams",
-      "teams": [
-        "Kansas City Royals",
-        "New York Yankees"
-      ]
-    },
-    {
-      "name": "Yimi García",
-      "mlbId": 554340,
-      "reason": "No 2026 MLB team found"
-    },
-    {
-      "name": "Rafael Montero",
-      "mlbId": 606160,
-      "reason": "No 2026 MLB team found"
+      "team": "New York Yankees",
+      "lastGame": "2026-09-25"
     },
     {
       "name": "Jordan Romano",
-      "mlbId": 605447,
-      "reason": "Multiple 2026 teams",
-      "teams": [
-        "Colorado Rockies",
-        "Los Angeles Angels"
-      ]
-    },
-    {
-      "name": "Robert Stephenson",
-      "mlbId": 596112,
-      "reason": "No 2026 MLB team found"
-    },
-    {
-      "name": "Matt Bowman",
-      "mlbId": 621199,
-      "reason": "No 2026 MLB team found"
-    },
-    {
-      "name": "Brusdar Graterol",
-      "mlbId": 660813,
-      "reason": "No 2026 MLB team found"
-    },
-    {
-      "name": "Joe Jiménez",
-      "mlbId": 641729,
-      "reason": "No 2026 MLB team found"
+      "team": "Colorado Rockies",
+      "lastGame": "2026-09-26"
     },
     {
       "name": "Drew Pomeranz",
-      "mlbId": 519141,
-      "reason": "Multiple 2026 teams",
-      "teams": [
-        "Chicago Cubs",
-        "Los Angeles Angels"
-      ]
-    },
-    {
-      "name": "A.J. Puk",
-      "mlbId": 640462,
-      "reason": "No 2026 MLB team found"
-    },
-    {
-      "name": "Drew Smith",
-      "mlbId": 622098,
-      "reason": "No 2026 MLB team found"
-    },
-    {
-      "name": "Trevor Stephan",
-      "mlbId": 663986,
-      "reason": "No 2026 MLB team found"
-    },
-    {
-      "name": "Hunter Strickland",
-      "mlbId": 519326,
-      "reason": "No 2026 MLB team found"
-    },
-    {
-      "name": "Rowan Wick",
-      "mlbId": 592858,
-      "reason": "No 2026 MLB team found"
+      "team": "Chicago Cubs",
+      "lastGame": "2026-07-19"
     },
     {
       "name": "Jake Woodford",
-      "mlbId": 663765,
-      "reason": "Multiple 2026 teams",
-      "teams": [
-        "Chicago Cubs",
-        "Milwaukee Brewers",
-        "Tampa Bay Rays"
-      ]
+      "team": "Tampa Bay Rays",
+      "lastGame": "2026-09-24"
     },
     {
       "name": "Lou Trivino III",
-      "mlbId": 642152,
-      "reason": "Multiple 2026 teams",
-      "teams": [
-        "Baltimore Orioles",
-        "Philadelphia Phillies"
-      ]
-    },
-    {
-      "name": "Dan Altavilla",
-      "mlbId": 656186,
-      "reason": "No 2026 MLB team found"
+      "team": "Philadelphia Phillies",
+      "lastGame": "2026-07-06"
     },
     {
       "name": "Chris Devenski",
-      "mlbId": 606965,
-      "reason": "Multiple 2026 teams",
-      "teams": [
-        "New York Mets",
-        "Pittsburgh Pirates"
-      ]
-    },
-    {
-      "name": "Luke Jackson",
-      "mlbId": 592426,
-      "reason": "No 2026 MLB team found"
-    },
-    {
-      "name": "José Leclerc",
-      "mlbId": 600917,
-      "reason": "No 2026 MLB team found"
+      "team": "New York Mets",
+      "lastGame": "2026-09-09"
     },
     {
       "name": "Joe Ross",
-      "mlbId": 605452,
-      "reason": "Multiple 2026 teams",
-      "teams": [
-        "Arizona Diamondbacks",
-        "Texas Rangers"
-      ]
-    },
-    {
-      "name": "Jorge Alcala",
-      "mlbId": 660896,
-      "reason": "No 2026 MLB team found"
+      "team": "Texas Rangers",
+      "lastGame": "2026-06-27"
     },
     {
       "name": "Aaron Bummer",
-      "mlbId": 607481,
-      "reason": "Multiple 2026 teams",
-      "teams": [
-        "Atlanta Braves",
-        "Kansas City Royals"
-      ]
+      "team": "Kansas City Royals",
+      "lastGame": "2026-08-06"
     },
     {
       "name": "Paul Sewald",
-      "mlbId": 623149,
-      "reason": "Multiple 2026 teams",
-      "teams": [
-        "Arizona Diamondbacks",
-        "Toronto Blue Jays"
-      ]
-    },
-    {
-      "name": "Génesis Cabrera",
-      "mlbId": 650893,
-      "reason": "No 2026 MLB team found"
-    },
-    {
-      "name": "Gavin Lux",
-      "mlbId": 666158,
-      "reason": "No 2026 MLB team found"
+      "team": "Toronto Blue Jays",
+      "lastGame": "2026-09-27"
     },
     {
       "name": "Nick Madrigal",
-      "mlbId": 663611,
-      "reason": "Multiple 2026 teams",
-      "teams": [
-        "Los Angeles Angels",
-        "Tampa Bay Rays"
-      ]
-    },
-    {
-      "name": "Cavan Biggio",
-      "mlbId": 624415,
-      "reason": "No 2026 MLB team found"
+      "team": "Tampa Bay Rays",
+      "lastGame": "2026-09-16"
     },
     {
       "name": "Luis Rengifo",
-      "mlbId": 650859,
-      "reason": "Multiple 2026 teams",
-      "teams": [
-        "Milwaukee Brewers",
-        "San Diego Padres"
-      ]
-    },
-    {
-      "name": "Paul DeJong",
-      "mlbId": 657557,
-      "reason": "No 2026 MLB team found"
-    },
-    {
-      "name": "Kevin Newman",
-      "mlbId": 621028,
-      "reason": "No 2026 MLB team found"
+      "team": "San Diego Padres",
+      "lastGame": "2026-08-29"
     },
     {
       "name": "Taylor Ward",
-      "mlbId": 621493,
-      "reason": "Multiple 2026 teams",
-      "teams": [
-        "Baltimore Orioles",
-        "Seattle Mariners"
-      ]
+      "team": "Seattle Mariners",
+      "lastGame": "2026-09-26"
     },
     {
       "name": "Randal Grichuk",
-      "mlbId": 545341,
-      "reason": "Multiple 2026 teams",
-      "teams": [
-        "Chicago White Sox",
-        "New York Yankees"
-      ]
+      "team": "Chicago White Sox",
+      "lastGame": "2026-09-27"
     },
     {
       "name": "Austin Hays",
-      "mlbId": 669720,
-      "reason": "Multiple 2026 teams",
-      "teams": [
-        "Chicago White Sox",
-        "San Diego Padres"
-      ]
+      "team": "San Diego Padres",
+      "lastGame": "2026-09-27"
     },
     {
       "name": "Tommy Pham",
-      "mlbId": 502054,
-      "reason": "Multiple 2026 teams",
-      "teams": [
-        "Chicago White Sox",
-        "New York Mets"
-      ]
+      "team": "Chicago White Sox",
+      "lastGame": "2026-09-27"
     }
   ]
 }

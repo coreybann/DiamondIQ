@@ -250,123 +250,13 @@
     "Randal Grichuk": 545341,
     "Austin Hays": 669720,
     "Michael Conforto": 624424,
-    "Tommy Pham": 502054
+    "Tommy Pham": 502054,
+    "David Peterson": 656849,
+    "Luis Garcia": 677651,
+    "Tyler Alexander": 641302,
+    "Luis García": 472610,
+    "Jacob Webb": 657097,
+    "Kiké Hernández": 571771
   },
-  "review": [
-    {
-      "name": "Kiké Hernández",
-      "expectedPosition": "3B",
-      "candidates": []
-    },
-    {
-      "name": "David Peterson",
-      "expectedPosition": "SP",
-      "candidates": [
-        {
-          "id": 656849,
-          "name": "David Peterson",
-          "position": "P"
-        },
-        {
-          "id": 543639,
-          "name": "David Peterson",
-          "position": "P"
-        }
-      ]
-    },
-    {
-      "name": "Luis Garcia",
-      "expectedPosition": "SP",
-      "candidates": [
-        {
-          "id": 671277,
-          "name": "Luis García Jr.",
-          "position": "1B"
-        },
-        {
-          "id": 472610,
-          "name": "Luis García",
-          "position": "P"
-        },
-        {
-          "id": 677651,
-          "name": "Luis Garcia",
-          "position": "P"
-        },
-        {
-          "id": 677593,
-          "name": "Luis García",
-          "position": "SS"
-        },
-        {
-          "id": 150193,
-          "name": "Luis Garcia",
-          "position": "SS"
-        }
-      ]
-    },
-    {
-      "name": "Tyler Alexander",
-      "expectedPosition": "RP",
-      "candidates": [
-        {
-          "id": 641302,
-          "name": "Tyler Alexander",
-          "position": "P"
-        },
-        {
-          "id": 622066,
-          "name": "Tyler Alexander",
-          "position": "P"
-        }
-      ]
-    },
-    {
-      "name": "Luis García",
-      "expectedPosition": "RP",
-      "candidates": [
-        {
-          "id": 671277,
-          "name": "Luis García Jr.",
-          "position": "1B"
-        },
-        {
-          "id": 472610,
-          "name": "Luis García",
-          "position": "P"
-        },
-        {
-          "id": 677651,
-          "name": "Luis Garcia",
-          "position": "P"
-        },
-        {
-          "id": 677593,
-          "name": "Luis García",
-          "position": "SS"
-        },
-        {
-          "id": 150193,
-          "name": "Luis Garcia",
-          "position": "SS"
-        }
-      ]
-    },
-    {
-      "name": "Jacob Webb",
-      "expectedPosition": "RP",
-      "candidates": [
-        {
-          "id": 657097,
-          "name": "Jacob Webb",
-          "position": "P"
-        },
-        {
-          "id": 701288,
-          "name": "Jacob Webb",
-          "position": "P"
-        }
-      ]
-    }
-  ]
+  "review": []
 }
