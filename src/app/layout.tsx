@@ -26,7 +26,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-[#081321] text-white">
-  <header className="sticky top-0 z-40 hidden border-b border-white/10 bg-[#0d1d30]/95 backdrop-blur-md md:block">
+  <header className="sticky top-0 z-40 border-b border-white/10 bg-[#0d1d30]/95 backdrop-blur-md">
     <DesktopNav />
   </header>
 
