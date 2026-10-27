@@ -1,0 +1,402 @@
+[
+  {
+    "player": "Blake Snell",
+    "actualYears": 5,
+    "projectedYears": 6,
+    "actualAAV": 36.4,
+    "projectedAAV": 23.1,
+    "aavError": -13.299999999999997,
+    "absoluteAAVError": 13.299999999999997,
+    "yearsMatch": false
+  },
+  {
+    "player": "Max Fried",
+    "actualYears": 8,
+    "projectedYears": 3,
+    "actualAAV": 27.25,
+    "projectedAAV": 17.9,
+    "aavError": -9.350000000000001,
+    "absoluteAAVError": 9.350000000000001,
+    "yearsMatch": false
+  },
+  {
+    "player": "Corbin Burnes",
+    "actualYears": 6,
+    "projectedYears": 6,
+    "actualAAV": 35,
+    "projectedAAV": 23.4,
+    "aavError": -11.600000000000001,
+    "absoluteAAVError": 11.600000000000001,
+    "yearsMatch": true
+  },
+  {
+    "player": "Juan Soto",
+    "actualYears": 15,
+    "projectedYears": 13,
+    "actualAAV": 51,
+    "projectedAAV": 42.1,
+    "aavError": -8.899999999999999,
+    "absoluteAAVError": 8.899999999999999,
+    "yearsMatch": false
+  },
+  {
+    "player": "Willy Adames",
+    "actualYears": 7,
+    "projectedYears": 7,
+    "actualAAV": 26,
+    "projectedAAV": 28.1,
+    "aavError": 2.1000000000000014,
+    "absoluteAAVError": 2.1000000000000014,
+    "yearsMatch": true
+  },
+  {
+    "player": "Alex Bregman",
+    "actualYears": 3,
+    "projectedYears": 5,
+    "actualAAV": 40,
+    "projectedAAV": 24.5,
+    "aavError": -15.5,
+    "absoluteAAVError": 15.5,
+    "yearsMatch": false
+  },
+  {
+    "player": "Sean Manaea",
+    "actualYears": 3,
+    "projectedYears": 2,
+    "actualAAV": 25,
+    "projectedAAV": 14.3,
+    "aavError": -10.7,
+    "absoluteAAVError": 10.7,
+    "yearsMatch": false
+  },
+  {
+    "player": "Nathan Eovaldi",
+    "actualYears": 3,
+    "projectedYears": 2,
+    "actualAAV": 25,
+    "projectedAAV": 14.3,
+    "aavError": -10.7,
+    "absoluteAAVError": 10.7,
+    "yearsMatch": false
+  },
+  {
+    "player": "Yusei Kikuchi",
+    "actualYears": 3,
+    "projectedYears": 3,
+    "actualAAV": 21,
+    "projectedAAV": 17.3,
+    "aavError": -3.6999999999999993,
+    "absoluteAAVError": 3.6999999999999993,
+    "yearsMatch": true
+  },
+  {
+    "player": "Jeff Hoffman",
+    "actualYears": 3,
+    "projectedYears": 3,
+    "actualAAV": 11,
+    "projectedAAV": 10.2,
+    "aavError": -0.8000000000000007,
+    "absoluteAAVError": 0.8000000000000007,
+    "yearsMatch": true
+  },
+  {
+    "player": "Tanner Scott",
+    "actualYears": 4,
+    "projectedYears": 3,
+    "actualAAV": 18,
+    "projectedAAV": 12.1,
+    "aavError": -5.9,
+    "absoluteAAVError": 5.9,
+    "yearsMatch": false
+  },
+  {
+    "player": "Christian Walker",
+    "actualYears": 3,
+    "projectedYears": 4,
+    "actualAAV": 20,
+    "projectedAAV": 16.4,
+    "aavError": -3.6000000000000014,
+    "absoluteAAVError": 3.6000000000000014,
+    "yearsMatch": false
+  },
+  {
+    "player": "Teoscar Hernández",
+    "actualYears": 3,
+    "projectedYears": 3,
+    "actualAAV": 22,
+    "projectedAAV": 16.3,
+    "aavError": -5.699999999999999,
+    "absoluteAAVError": 5.699999999999999,
+    "yearsMatch": true
+  },
+  {
+    "player": "Anthony Santander",
+    "actualYears": 5,
+    "projectedYears": 3,
+    "actualAAV": 18.5,
+    "projectedAAV": 17.5,
+    "aavError": -1,
+    "absoluteAAVError": 1,
+    "yearsMatch": false
+  },
+  {
+    "player": "Pete Alonso",
+    "actualYears": 2,
+    "projectedYears": 3,
+    "actualAAV": 27,
+    "projectedAAV": 14.3,
+    "aavError": -12.7,
+    "absoluteAAVError": 12.7,
+    "yearsMatch": false
+  },
+  {
+    "player": "Gleyber Torres",
+    "actualYears": 1,
+    "projectedYears": 3,
+    "actualAAV": 15,
+    "projectedAAV": 18.2,
+    "aavError": 3.1999999999999993,
+    "absoluteAAVError": 3.1999999999999993,
+    "yearsMatch": false
+  },
+  {
+    "player": "Joc Pederson",
+    "actualYears": 2,
+    "projectedYears": 2,
+    "actualAAV": 18.5,
+    "projectedAAV": 11.3,
+    "aavError": -7.199999999999999,
+    "absoluteAAVError": 7.199999999999999,
+    "yearsMatch": true
+  },
+  {
+    "player": "Jurickson Profar",
+    "actualYears": 3,
+    "projectedYears": 2,
+    "actualAAV": 14,
+    "projectedAAV": 9.5,
+    "aavError": -4.5,
+    "absoluteAAVError": 4.5,
+    "yearsMatch": false
+  },
+  {
+    "player": "Nick Pivetta",
+    "actualYears": 4,
+    "projectedYears": 2,
+    "actualAAV": 13.75,
+    "projectedAAV": 13.8,
+    "aavError": 0.05000000000000071,
+    "absoluteAAVError": 0.05000000000000071,
+    "yearsMatch": false
+  },
+  {
+    "player": "Luis Severino",
+    "actualYears": 2,
+    "projectedYears": 1,
+    "actualAAV": 22.5,
+    "projectedAAV": 7.7,
+    "aavError": -14.8,
+    "absoluteAAVError": 14.8,
+    "yearsMatch": false
+  },
+  {
+    "player": "Walker Buehler",
+    "actualYears": 1,
+    "projectedYears": 1,
+    "actualAAV": 21.05,
+    "projectedAAV": 3.3,
+    "aavError": -17.75,
+    "absoluteAAVError": 17.75,
+    "yearsMatch": true
+  },
+  {
+    "player": "Kyle Gibson",
+    "actualYears": 1,
+    "projectedYears": 2,
+    "actualAAV": 5.25,
+    "projectedAAV": 10.4,
+    "aavError": 5.15,
+    "absoluteAAVError": 5.15,
+    "yearsMatch": false
+  },
+  {
+    "player": "Carlos Estévez",
+    "actualYears": 2,
+    "projectedYears": 2,
+    "actualAAV": 11,
+    "projectedAAV": 6.8,
+    "aavError": -4.2,
+    "absoluteAAVError": 4.2,
+    "yearsMatch": true
+  },
+  {
+    "player": "Kirby Yates",
+    "actualYears": 1,
+    "projectedYears": 2,
+    "actualAAV": 13,
+    "projectedAAV": 4.3,
+    "aavError": -8.7,
+    "absoluteAAVError": 8.7,
+    "yearsMatch": false
+  },
+  {
+    "player": "Michael Conforto",
+    "actualYears": 1,
+    "projectedYears": 2,
+    "actualAAV": 17,
+    "projectedAAV": 7.8,
+    "aavError": -9.2,
+    "absoluteAAVError": 9.2,
+    "yearsMatch": false
+  },
+  {
+    "player": "Ha-Seong Kim",
+    "actualYears": 2,
+    "projectedYears": 4,
+    "actualAAV": 14.5,
+    "projectedAAV": 24.5,
+    "aavError": 10,
+    "absoluteAAVError": 10,
+    "yearsMatch": false
+  },
+  {
+    "player": "Jorge Polanco",
+    "actualYears": 1,
+    "projectedYears": 1,
+    "actualAAV": 7.75,
+    "projectedAAV": 7,
+    "aavError": -0.75,
+    "absoluteAAVError": 0.75,
+    "yearsMatch": true
+  },
+  {
+    "player": "Clay Holmes",
+    "actualYears": 3,
+    "projectedYears": 1,
+    "actualAAV": 12.6667,
+    "projectedAAV": 10.7,
+    "aavError": -1.9667000000000012,
+    "absoluteAAVError": 1.9667000000000012,
+    "yearsMatch": false
+  },
+  {
+    "player": "Max Scherzer",
+    "actualYears": 1,
+    "projectedYears": 1,
+    "actualAAV": 15.5,
+    "projectedAAV": 7.7,
+    "aavError": -7.8,
+    "absoluteAAVError": 7.8,
+    "yearsMatch": true
+  },
+  {
+    "player": "Justin Verlander",
+    "actualYears": 1,
+    "projectedYears": 1,
+    "actualAAV": 15,
+    "projectedAAV": 10,
+    "aavError": -5,
+    "absoluteAAVError": 5,
+    "yearsMatch": true
+  },
+  {
+    "player": "Matthew Boyd",
+    "actualYears": 2,
+    "projectedYears": 1,
+    "actualAAV": 14.5,
+    "projectedAAV": 7,
+    "aavError": -7.5,
+    "absoluteAAVError": 7.5,
+    "yearsMatch": false
+  },
+  {
+    "player": "Frankie Montas",
+    "actualYears": 2,
+    "projectedYears": 1,
+    "actualAAV": 17,
+    "projectedAAV": 6.6,
+    "aavError": -10.4,
+    "absoluteAAVError": 10.4,
+    "yearsMatch": false
+  },
+  {
+    "player": "Paul Goldschmidt",
+    "actualYears": 1,
+    "projectedYears": 2,
+    "actualAAV": 12.5,
+    "projectedAAV": 9.5,
+    "aavError": -3,
+    "absoluteAAVError": 3,
+    "yearsMatch": false
+  },
+  {
+    "player": "Andrew Heaney",
+    "actualYears": 1,
+    "projectedYears": 2,
+    "actualAAV": 5.25,
+    "projectedAAV": 10.5,
+    "aavError": 5.25,
+    "absoluteAAVError": 5.25,
+    "yearsMatch": false
+  },
+  {
+    "player": "Alex Cobb",
+    "actualYears": 1,
+    "projectedYears": 1,
+    "actualAAV": 15,
+    "projectedAAV": 6.4,
+    "aavError": -8.6,
+    "absoluteAAVError": 8.6,
+    "yearsMatch": true
+  },
+  {
+    "player": "Carlos Santana",
+    "actualYears": 1,
+    "projectedYears": 1,
+    "actualAAV": 12,
+    "projectedAAV": 9.5,
+    "aavError": -2.5,
+    "absoluteAAVError": 2.5,
+    "yearsMatch": true
+  },
+  {
+    "player": "Tyler O'Neill",
+    "actualYears": 3,
+    "projectedYears": 2,
+    "actualAAV": 16.5,
+    "projectedAAV": 12.4,
+    "aavError": -4.1,
+    "absoluteAAVError": 4.1,
+    "yearsMatch": false
+  },
+  {
+    "player": "Blake Treinen",
+    "actualYears": 2,
+    "projectedYears": 2,
+    "actualAAV": 11,
+    "projectedAAV": 3.3,
+    "aavError": -7.7,
+    "absoluteAAVError": 7.7,
+    "yearsMatch": true
+  },
+  {
+    "player": "A.J. Minter",
+    "actualYears": 2,
+    "projectedYears": 2,
+    "actualAAV": 11,
+    "projectedAAV": 5.5,
+    "aavError": -5.5,
+    "absoluteAAVError": 5.5,
+    "yearsMatch": true
+  },
+  {
+    "player": "Danny Jansen",
+    "actualYears": 1,
+    "projectedYears": 2,
+    "actualAAV": 8.5,
+    "projectedAAV": 10.7,
+    "aavError": 2.1999999999999993,
+    "absoluteAAVError": 2.1999999999999993,
+    "yearsMatch": false
+  }
+]

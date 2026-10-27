@@ -1,0 +1,87 @@
+
+{
+  "description": "Verified historical MLB free agent contracts for DiamondIQ model validation.",
+  "currency": "USD",
+  "valueUnit": "millions",
+  "contracts": [
+    {
+      "player": "Blake Snell",
+      "position": "SP",
+      "ageAtSigning": 31,
+"priorTwoYearWar": 5.3,
+      "team": "Los Angeles Dodgers",
+      "contractStartYear": 2025,
+      "years": 5,
+      "totalMillions": 182,
+      "aavMillions": 36.4,
+      "source": "https://www.mlb.com/news/blake-snell-dodgers-deal",
+      "notes": "Includes deferred money and a signing bonus."
+    },
+    {
+      "player": "Max Fried",
+      "position": "SP",
+      "ageAtSigning": 30,
+"priorTwoYearWar": 7.2,
+      "team": "New York Yankees",
+      "contractStartYear": 2025,
+      "years": 8,
+      "totalMillions": 218,
+      "aavMillions": 27.25,
+      "source": "https://www.spotrac.com/mlb/player/_/id/21155/max-fried/contract/"
+    },
+    {
+      "player": "Corbin Burnes",
+      "position": "SP",
+      "ageAtSigning": 30,
+"priorTwoYearWar": 7.3,
+      "team": "Arizona Diamondbacks",
+      "contractStartYear": 2025,
+      "years": 6,
+      "totalMillions": 210,
+      "aavMillions": 35,
+      "source": "https://www.mlb.com/dbacks/news/corbin-burnes-contract-with-d-backs",
+      "notes": "Includes an opt-out clause after the 2026 season."
+    },
+
+
+{
+  "player": "Juan Soto",
+  "position": "RF",
+  "ageAtSigning": 26,
+  "priorTwoYearWar": 14.1,
+  "team": "New York Mets",
+  "contractStartYear": 2025,
+  "years": 15,
+  "totalMillions": 765,
+  "aavMillions": 51,
+  "source": "https://www.mlb.com/news/juan-soto-agrees-to-contract-with-mets",
+  "notes": "Includes a signing bonus and an opt-out clause."
+},
+{
+  "player": "Willy Adames",
+  "position": "SS",
+  "ageAtSigning": 29,
+  "priorTwoYearWar": 8.1,
+  "team": "San Francisco Giants",
+  "contractStartYear": 2025,
+  "years": 7,
+  "totalMillions": 182,
+  "aavMillions": 26,
+  "source": "https://www.mlb.com/giants/news/willy-adames-giants-contract"
+},
+{
+  "player": "Alex Bregman",
+  "position": "3B",
+  "ageAtSigning": 30,
+  "priorTwoYearWar": 8.6,
+  "team": "Boston Red Sox",
+  "contractStartYear": 2025,
+  "years": 3,
+  "totalMillions": 120,
+  "aavMillions": 40,
+  "source": "https://www.mlb.com/redsox/news/alex-bregman-red-sox-free-agent-contract",
+  "notes": "Includes deferred money and opt-out clauses."
+}
+
+  ]
+}

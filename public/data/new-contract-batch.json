@@ -1,0 +1,50 @@
+[
+  {
+    "player": "Max Scherzer",
+    "position": "SP",
+    "ageAtSigning": 40,
+    "priorTwoYearWar": 2.8,
+    "team": "Toronto Blue Jays",
+    "contractStartYear": 2025,
+    "years": 1,
+    "totalMillions": 15.5,
+    "aavMillions": 15.5,
+    "source": "https://www.mlb.com/bluejays/news/max-scherzer-blue-jays-contract"
+  },
+  {
+    "player": "Justin Verlander",
+    "position": "SP",
+    "ageAtSigning": 41,
+    "priorTwoYearWar": 4.0,
+    "team": "San Francisco Giants",
+    "contractStartYear": 2025,
+    "years": 1,
+    "totalMillions": 15,
+    "aavMillions": 15,
+    "source": "https://www.mlb.com/giants/news/justin-verlander-giants-contract"
+  },
+  {
+    "player": "Matthew Boyd",
+    "position": "SP",
+    "ageAtSigning": 33,
+    "priorTwoYearWar": 1.8,
+    "team": "Chicago Cubs",
+    "contractStartYear": 2025,
+    "years": 2,
+    "totalMillions": 29,
+    "aavMillions": 14.5,
+    "source": "https://www.mlb.com/cubs/news/matthew-boyd-cubs-contract"
+  },
+  {
+    "player": "Frankie Montas",
+    "position": "SP",
+    "ageAtSigning": 31,
+    "priorTwoYearWar": 1.2,
+    "team": "New York Mets",
+    "contractStartYear": 2025,
+    "years": 2,
+    "totalMillions": 34,
+    "aavMillions": 17,
+    "source": "https://www.mlb.com/mets/news/frankie-montas-mets-contract"
+  }
+]
