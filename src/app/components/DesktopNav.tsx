@@ -38,7 +38,7 @@ export default function DesktopNav() {
     }`;
 
   return (
-    <nav className="mx-auto flex w-full max-w-7xl items-center justify-between gap-6 px-6 py-4">
+    <nav className="mx-auto grid w-full max-w-7xl grid-cols-[1fr_auto_1fr] items-center gap-6 px-6 py-4">
       <Link
         href="/"
         aria-label="DiamondIQ home"
@@ -47,11 +47,11 @@ export default function DesktopNav() {
         <img
           src="/diamondiq-logo.png"
           alt="DiamondIQ Baseball Analytics"
-          className="h-auto w-28"
+          className="h-auto w-36"
         />
       </Link>
 
-      <div className="flex items-center gap-1">
+      <div className="col-start-2 flex items-center gap-2">
         {primaryLinks.map((item) => (
           <Link
             key={item.href}
