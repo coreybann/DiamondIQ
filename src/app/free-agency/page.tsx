@@ -1,3 +1,4 @@
+import FreeAgentTracker from "./FreeAgentTracker";
 import {
   getFreeAgentSignings,
   getMLBPlayerPositions,
@@ -104,64 +105,7 @@ const historicalSignings = await getFreeAgentSignings(
             </span>
           </div>
 
-          <div className="overflow-x-auto">
-            <table className="w-full text-left text-sm">
-              <thead className="border-b border-slate-700 text-gray-400">
-                <tr>
-                  {[
-                    "Player",
-                    "Position",
-                    "Age",
-                    "Previous Team",
-                    "Status",
-                    "Signed Team",
-                  ].map((heading) => (
-                    <th
-                      key={heading}
-                      className="whitespace-nowrap px-4 py-3 font-semibold"
-                    >
-                      {heading}
-                    </th>
-                  ))}
-                </tr>
-              </thead>
-
-              <tbody>
-                {currentFreeAgents.map((player) => (
-                  <tr
-                    key={player.id}
-                    className="border-b border-slate-800"
-                  >
-                    <td className="px-4 py-4 font-medium">
-                      {player.name}
-                    </td>
-                    <td className="px-4 py-4">
-                      {player.position}
-                    </td>
-                    <td className="px-4 py-4">
-                      {player.age ?? "N/A"}
-                    </td>
-                    <td className="px-4 py-4">
-                      {player.previousTeam}
-                    </td>
-                    <td className="px-4 py-4">
-                      {player.status}
-                    </td>
-                    <td className="px-4 py-4">
-                      {player.signedTeam ?? "—"}
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-
-            {currentFreeAgents.length === 0 && (
-              <p className="py-10 text-center text-gray-400">
-                No verified free agent records have been added for
-                the {offseason} offseason yet.
-              </p>
-            )}
-          </div>
+          <FreeAgentTracker players={currentFreeAgents} />
         </div>
 <div className="mt-8 rounded-xl border border-slate-700 bg-[#0d1d30] p-6">
   <div className="mb-6 flex flex-wrap items-center justify-between gap-3">

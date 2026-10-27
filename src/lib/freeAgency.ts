@@ -1,3 +1,4 @@
+import freeAgentTeams from "../../public/data/free-agent-teams-2026.json";
 export type FreeAgentStatus = "Potential Free Agent" | "Available" | "Signing Reported" | "Signed";
 
 export type FreeAgent = {
@@ -34,7 +35,7 @@ export const freeAgents: FreeAgent[] = freeAgentData.players.map(
     name: player.name,
     position: player.position,
     age: player.age,
-    previousTeam: "Unverified",
+    previousTeam: (freeAgentTeams.teams as Record<string, string>)[player.name] ?? "N/A",
     status: "Potential Free Agent",
     offseason: "2026-2027",
   })
