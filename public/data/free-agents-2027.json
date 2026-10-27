@@ -1,0 +1,2312 @@
+{
+  "season": 2027,
+  "source": "https://www.mlb.com/news/mlb-free-agents-2026-2027",
+  "sourceDate": "2026-10-08",
+  "lastUpdated": "2026-10-27T04:11:06.641Z",
+  "players": [
+    {
+      "name": "Ryan Jeffers",
+      "position": "C",
+      "age": 30,
+      "war2025_2026": 4.7,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Carson Kelly",
+      "position": "C",
+      "age": 32,
+      "war2025_2026": 4.3,
+      "throwingHand": null,
+      "contractOption": "mutual option",
+      "status": "unverified"
+    },
+    {
+      "name": "Tyler Stephenson",
+      "position": "C",
+      "age": 30,
+      "war2025_2026": 2.6,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Austin Hedges",
+      "position": "C",
+      "age": 34,
+      "war2025_2026": 2.1,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Kyle Higashioka",
+      "position": "C",
+      "age": 37,
+      "war2025_2026": 1.4,
+      "throwingHand": null,
+      "contractOption": "mutual option",
+      "status": "unverified"
+    },
+    {
+      "name": "James McCann",
+      "position": "C",
+      "age": 37,
+      "war2025_2026": 1.2,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Gary Sánchez",
+      "position": "C",
+      "age": 34,
+      "war2025_2026": 0.7,
+      "throwingHand": null,
+      "contractOption": "mutual option",
+      "status": "unverified"
+    },
+    {
+      "name": "Reese McGuire",
+      "position": "C",
+      "age": 32,
+      "war2025_2026": 0.5,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Jake Rogers",
+      "position": "C",
+      "age": 32,
+      "war2025_2026": 0.4,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Christian Vázquez",
+      "position": "C",
+      "age": 36,
+      "war2025_2026": 0.4,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Luke Maile",
+      "position": "C",
+      "age": 36,
+      "war2025_2026": 0.3,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Mitch Garver",
+      "position": "C",
+      "age": 36,
+      "war2025_2026": 0.1,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Travis d'Arnaud",
+      "position": "C",
+      "age": 38,
+      "war2025_2026": -0.7,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Jonah Heim",
+      "position": "C",
+      "age": 32,
+      "war2025_2026": -1,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Ty France",
+      "position": "1B",
+      "age": 32,
+      "war2025_2026": 4.5,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Jake Bauers",
+      "position": "1B",
+      "age": 31,
+      "war2025_2026": 4.4,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Paul Goldschmidt",
+      "position": "1B",
+      "age": 39,
+      "war2025_2026": 2.3,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Rhys Hoskins",
+      "position": "1B",
+      "age": 34,
+      "war2025_2026": 0.5,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Nathaniel Lowe",
+      "position": "1B",
+      "age": 31,
+      "war2025_2026": 0.1,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Rowdy Tellez",
+      "position": "1B",
+      "age": 32,
+      "war2025_2026": 0.1,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Dominic Smith",
+      "position": "1B",
+      "age": 32,
+      "war2025_2026": -0.1,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Carlos Santana",
+      "position": "1B",
+      "age": 41,
+      "war2025_2026": -0.2,
+      "throwingHand": null,
+      "contractOption": "mutual option",
+      "status": "unverified"
+    },
+    {
+      "name": "Ryan Mountcastle",
+      "position": "1B",
+      "age": 30,
+      "war2025_2026": -0.3,
+      "throwingHand": null,
+      "contractOption": "club option",
+      "status": "unverified"
+    },
+    {
+      "name": "Christopher Morel",
+      "position": "1B",
+      "age": 28,
+      "war2025_2026": -1.1,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Jazz Chisholm Jr.",
+      "position": "2B",
+      "age": 29,
+      "war2025_2026": 7.8,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Brandon Lowe",
+      "position": "2B",
+      "age": 32,
+      "war2025_2026": 6.6,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Luis Arraez",
+      "position": "2B",
+      "age": 30,
+      "war2025_2026": 5,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Gleyber Torres",
+      "position": "2B",
+      "age": 30,
+      "war2025_2026": 3.5,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Ozzie Albies",
+      "position": "2B",
+      "age": 30,
+      "war2025_2026": 2.5,
+      "throwingHand": null,
+      "contractOption": "club option",
+      "status": "unverified"
+    },
+    {
+      "name": "Jeff McNeil",
+      "position": "2B",
+      "age": 35,
+      "war2025_2026": 2.1,
+      "throwingHand": null,
+      "contractOption": "club option",
+      "status": "unverified"
+    },
+    {
+      "name": "Isiah Kiner-Falefa",
+      "position": "2B",
+      "age": 32,
+      "war2025_2026": 1.7,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Adam Frazier",
+      "position": "2B",
+      "age": 35,
+      "war2025_2026": 0.9,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Lenyn Sosa",
+      "position": "2B",
+      "age": 27,
+      "war2025_2026": 0.7,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Ildemaro Vargas",
+      "position": "2B",
+      "age": 35,
+      "war2025_2026": 0.7,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Gavin Lux",
+      "position": "2B",
+      "age": 29,
+      "war2025_2026": 0.5,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Nick Madrigal",
+      "position": "2B",
+      "age": 30,
+      "war2025_2026": 0.3,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Luis Urías",
+      "position": "2B",
+      "age": 30,
+      "war2025_2026": 0.2,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Cavan Biggio",
+      "position": "2B",
+      "age": 32,
+      "war2025_2026": -0.2,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Jonathan India",
+      "position": "2B",
+      "age": 30,
+      "war2025_2026": -0.2,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Dylan Moore",
+      "position": "2B",
+      "age": 34,
+      "war2025_2026": -0.3,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Brendan Rodgers",
+      "position": "2B",
+      "age": 30,
+      "war2025_2026": -0.3,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Kyle Farmer",
+      "position": "2B",
+      "age": 36,
+      "war2025_2026": -1.1,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Bo Bichette",
+      "position": "3B",
+      "age": 29,
+      "war2025_2026": 5.7,
+      "throwingHand": null,
+      "contractOption": "opt-out",
+      "status": "unverified"
+    },
+    {
+      "name": "Eugenio Suárez",
+      "position": "3B",
+      "age": 35,
+      "war2025_2026": 4.2,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Edmundo Sosa",
+      "position": "3B",
+      "age": 31,
+      "war2025_2026": 2.4,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Alec Bohm",
+      "position": "3B",
+      "age": 30,
+      "war2025_2026": 1.8,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Ramón Urías",
+      "position": "3B",
+      "age": 33,
+      "war2025_2026": 0.7,
+      "throwingHand": null,
+      "contractOption": "mutual option",
+      "status": "unverified"
+    },
+    {
+      "name": "Yoán Moncada",
+      "position": "3B",
+      "age": 32,
+      "war2025_2026": 0.5,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Luis Rengifo",
+      "position": "3B",
+      "age": 30,
+      "war2025_2026": 0.2,
+      "throwingHand": null,
+      "contractOption": "mutual option",
+      "status": "unverified"
+    },
+    {
+      "name": "Amed Rosario",
+      "position": "3B",
+      "age": 31,
+      "war2025_2026": 0.2,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Santiago Espinal",
+      "position": "3B",
+      "age": 32,
+      "war2025_2026": -0.1,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Kiké Hernández",
+      "position": "3B",
+      "age": 35,
+      "war2025_2026": -0.3,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Jeimer Candelario",
+      "position": "3B",
+      "age": 33,
+      "war2025_2026": -1.1,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Leo Jiménez",
+      "position": "3B",
+      "age": 26,
+      "war2025_2026": -1.2,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Josh Rojas",
+      "position": "3B",
+      "age": 33,
+      "war2025_2026": -1.5,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Mauricio Dubón",
+      "position": "SS",
+      "age": 32,
+      "war2025_2026": 4.6,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "J.P. Crawford",
+      "position": "SS",
+      "age": 32,
+      "war2025_2026": 4,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Paul DeJong",
+      "position": "SS",
+      "age": 33,
+      "war2025_2026": 0.1,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Zack Short",
+      "position": "SS",
+      "age": 32,
+      "war2025_2026": -0.2,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Kevin Newman",
+      "position": "SS",
+      "age": 33,
+      "war2025_2026": -0.6,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Orlando Arcia",
+      "position": "SS",
+      "age": 32,
+      "war2025_2026": -0.7,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Jorge Mateo",
+      "position": "SS",
+      "age": 32,
+      "war2025_2026": -0.7,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Ha-Seong Kim",
+      "position": "SS",
+      "age": 31,
+      "war2025_2026": -0.9,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Randy Arozarena",
+      "position": "LF",
+      "age": 32,
+      "war2025_2026": 8.4,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Ian Happ",
+      "position": "LF",
+      "age": 32,
+      "war2025_2026": 5.4,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Taylor Ward",
+      "position": "LF",
+      "age": 33,
+      "war2025_2026": 4.1,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Ramón Laureano",
+      "position": "LF",
+      "age": 32,
+      "war2025_2026": 3.2,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Randal Grichuk",
+      "position": "LF",
+      "age": 35,
+      "war2025_2026": 1.3,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Austin Hays",
+      "position": "LF",
+      "age": 31,
+      "war2025_2026": 1.3,
+      "throwingHand": null,
+      "contractOption": "mutual option",
+      "status": "unverified"
+    },
+    {
+      "name": "Michael Conforto",
+      "position": "LF",
+      "age": 34,
+      "war2025_2026": 0.2,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Sam Haggerty",
+      "position": "LF",
+      "age": 33,
+      "war2025_2026": 0,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Lourdes Gurriel Jr.",
+      "position": "LF",
+      "age": 33,
+      "war2025_2026": -0.2,
+      "throwingHand": null,
+      "contractOption": "club option",
+      "status": "unverified"
+    },
+    {
+      "name": "Tommy Pham",
+      "position": "LF",
+      "age": 39,
+      "war2025_2026": -0.2,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Dylan Carlson",
+      "position": "LF",
+      "age": 28,
+      "war2025_2026": -0.5,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Alex Verdugo",
+      "position": "LF",
+      "age": 31,
+      "war2025_2026": -0.9,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Trent Grisham",
+      "position": "CF",
+      "age": 30,
+      "war2025_2026": 3.8,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Daulton Varsho",
+      "position": "CF",
+      "age": 30,
+      "war2025_2026": 3,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Tyrone Taylor",
+      "position": "CF",
+      "age": 33,
+      "war2025_2026": 2.2,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Myles Straw",
+      "position": "CF",
+      "age": 32,
+      "war2025_2026": 2.5,
+      "throwingHand": null,
+      "contractOption": "club option",
+      "status": "unverified"
+    },
+    {
+      "name": "TJ Friedl",
+      "position": "CF",
+      "age": 31,
+      "war2025_2026": 2.4,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Cedric Mullins",
+      "position": "CF",
+      "age": 32,
+      "war2025_2026": 2.4,
+      "throwingHand": null,
+      "contractOption": "mutual option",
+      "status": "unverified"
+    },
+    {
+      "name": "Luis Robert Jr.",
+      "position": "CF",
+      "age": 29,
+      "war2025_2026": 1.8,
+      "throwingHand": null,
+      "contractOption": "club option",
+      "status": "unverified"
+    },
+    {
+      "name": "Lane Thomas",
+      "position": "CF",
+      "age": 31,
+      "war2025_2026": 0.2,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Seiya Suzuki",
+      "position": "RF",
+      "age": 32,
+      "war2025_2026": 7.2,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Ronald Acuña Jr.",
+      "position": "RF",
+      "age": 29,
+      "war2025_2026": 5.3,
+      "throwingHand": null,
+      "contractOption": "club option",
+      "status": "unverified"
+    },
+    {
+      "name": "Mike Tauchman",
+      "position": "RF",
+      "age": 36,
+      "war2025_2026": 1.5,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Adolis García",
+      "position": "RF",
+      "age": 34,
+      "war2025_2026": 0.8,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Jake Fraley",
+      "position": "RF",
+      "age": 32,
+      "war2025_2026": 0.4,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Victor Robles",
+      "position": "RF",
+      "age": 30,
+      "war2025_2026": 0.3,
+      "throwingHand": null,
+      "contractOption": "club option",
+      "status": "unverified"
+    },
+    {
+      "name": "Starling Marte",
+      "position": "RF",
+      "age": 38,
+      "war2025_2026": 0.1,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Austin Slater",
+      "position": "RF",
+      "age": 34,
+      "war2025_2026": 0,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Nick Castellanos",
+      "position": "RF",
+      "age": 35,
+      "war2025_2026": -1.6,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "George Springer",
+      "position": "DH",
+      "age": 37,
+      "war2025_2026": 6.1,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Miguel Andujar",
+      "position": "DH",
+      "age": 32,
+      "war2025_2026": 1,
+      "throwingHand": null,
+      "contractOption": "mutual option",
+      "status": "unverified"
+    },
+    {
+      "name": "Josh Bell",
+      "position": "DH",
+      "age": 34,
+      "war2025_2026": 0.6,
+      "throwingHand": null,
+      "contractOption": "mutual option",
+      "status": "unverified"
+    },
+    {
+      "name": "Joc Pederson",
+      "position": "DH",
+      "age": 35,
+      "war2025_2026": 0.6,
+      "throwingHand": null,
+      "contractOption": "mutual option",
+      "status": "unverified"
+    },
+    {
+      "name": "Marcell Ozuna",
+      "position": "DH",
+      "age": 36,
+      "war2025_2026": 0.2,
+      "throwingHand": null,
+      "contractOption": "mutual option",
+      "status": "unverified"
+    },
+    {
+      "name": "Rob Refsnyder",
+      "position": "DH",
+      "age": 36,
+      "war2025_2026": 0,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Andrew McCutchen",
+      "position": "DH",
+      "age": 40,
+      "war2025_2026": -0.6,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Jorge Soler",
+      "position": "DH",
+      "age": 35,
+      "war2025_2026": -0.9,
+      "throwingHand": null,
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Tarik Skubal",
+      "position": "SP",
+      "age": 30,
+      "war2025_2026": 11.9,
+      "throwingHand": "LHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Drew Rasmussen",
+      "position": "SP",
+      "age": 31,
+      "war2025_2026": 7.5,
+      "throwingHand": "RHP",
+      "contractOption": "club option",
+      "status": "unverified"
+    },
+    {
+      "name": "Trevor Rogers",
+      "position": "SP",
+      "age": 29,
+      "war2025_2026": 7.3,
+      "throwingHand": "LHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Kevin Gausman",
+      "position": "SP",
+      "age": 36,
+      "war2025_2026": 7.2,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Sonny Gray",
+      "position": "SP",
+      "age": 37,
+      "war2025_2026": 7,
+      "throwingHand": "RHP",
+      "contractOption": "mutual option",
+      "status": "unverified"
+    },
+    {
+      "name": "Freddy Peralta",
+      "position": "SP",
+      "age": 31,
+      "war2025_2026": 5.5,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Matthew Boyd",
+      "position": "SP",
+      "age": 36,
+      "war2025_2026": 5,
+      "throwingHand": "LHP",
+      "contractOption": "mutual option",
+      "status": "unverified"
+    },
+    {
+      "name": "Nick Pivetta",
+      "position": "SP",
+      "age": 34,
+      "war2025_2026": 5,
+      "throwingHand": "RHP",
+      "contractOption": "club option",
+      "status": "unverified"
+    },
+    {
+      "name": "Sandy Alcantara",
+      "position": "SP",
+      "age": 31,
+      "war2025_2026": 4.9,
+      "throwingHand": "RHP",
+      "contractOption": "club option",
+      "status": "unverified"
+    },
+    {
+      "name": "Nick Martinez",
+      "position": "SP",
+      "age": 36,
+      "war2025_2026": 4.9,
+      "throwingHand": "RHP",
+      "contractOption": "mutual option",
+      "status": "unverified"
+    },
+    {
+      "name": "David Peterson",
+      "position": "SP",
+      "age": 31,
+      "war2025_2026": 4.8,
+      "throwingHand": "LHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Casey Mize",
+      "position": "SP",
+      "age": 30,
+      "war2025_2026": 4.7,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Kris Bubic",
+      "position": "SP",
+      "age": 29,
+      "war2025_2026": 4.4,
+      "throwingHand": "LHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Tyler Mahle",
+      "position": "SP",
+      "age": 32,
+      "war2025_2026": 4,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Jack Flaherty",
+      "position": "SP",
+      "age": 31,
+      "war2025_2026": 3.9,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Michael Soroka",
+      "position": "SP",
+      "age": 29,
+      "war2025_2026": 3.9,
+      "throwingHand": "RHP",
+      "contractOption": "mutual option",
+      "status": "unverified"
+    },
+    {
+      "name": "Clay Holmes",
+      "position": "SP",
+      "age": 34,
+      "war2025_2026": 3.7,
+      "throwingHand": "RHP",
+      "contractOption": "opt-out",
+      "status": "unverified"
+    },
+    {
+      "name": "Michael King",
+      "position": "SP",
+      "age": 32,
+      "war2025_2026": 3.6,
+      "throwingHand": "RHP",
+      "contractOption": "opt-out",
+      "status": "unverified"
+    },
+    {
+      "name": "Luis Severino",
+      "position": "SP",
+      "age": 33,
+      "war2025_2026": 3.6,
+      "throwingHand": "RHP",
+      "contractOption": "player option",
+      "status": "unverified"
+    },
+    {
+      "name": "Dustin May",
+      "position": "SP",
+      "age": 29,
+      "war2025_2026": 3.5,
+      "throwingHand": "RHP",
+      "contractOption": "mutual option",
+      "status": "unverified"
+    },
+    {
+      "name": "Chris Bassitt",
+      "position": "SP",
+      "age": 38,
+      "war2025_2026": 3.4,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Robbie Ray",
+      "position": "SP",
+      "age": 35,
+      "war2025_2026": 3.1,
+      "throwingHand": "LHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Brady Singer",
+      "position": "SP",
+      "age": 30,
+      "war2025_2026": 2.9,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Brandon Woodruff",
+      "position": "SP",
+      "age": 34,
+      "war2025_2026": 2.9,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Shota Imanaga",
+      "position": "SP",
+      "age": 33,
+      "war2025_2026": 2.7,
+      "throwingHand": "LHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Foster Griffin",
+      "position": "SP",
+      "age": 31,
+      "war2025_2026": 2.6,
+      "throwingHand": "LHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Martín Pérez",
+      "position": "SP",
+      "age": 36,
+      "war2025_2026": 2.3,
+      "throwingHand": "LHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Colin Rea",
+      "position": "SP",
+      "age": 36,
+      "war2025_2026": 2.3,
+      "throwingHand": "RHP",
+      "contractOption": "club option",
+      "status": "unverified"
+    },
+    {
+      "name": "Cal Quantrill",
+      "position": "SP",
+      "age": 32,
+      "war2025_2026": 1.9,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Aaron Civale",
+      "position": "SP",
+      "age": 32,
+      "war2025_2026": 1.7,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Lucas Giolito",
+      "position": "SP",
+      "age": 32,
+      "war2025_2026": 1.7,
+      "throwingHand": "RHP",
+      "contractOption": "mutual option",
+      "status": "unverified"
+    },
+    {
+      "name": "Jeffrey Springs",
+      "position": "SP",
+      "age": 34,
+      "war2025_2026": 1.7,
+      "throwingHand": "LHP",
+      "contractOption": "club option",
+      "status": "unverified"
+    },
+    {
+      "name": "Michael Lorenzen",
+      "position": "SP",
+      "age": 35,
+      "war2025_2026": 1.6,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "José Berríos",
+      "position": "SP",
+      "age": 33,
+      "war2025_2026": 1.5,
+      "throwingHand": "RHP",
+      "contractOption": "opt-out",
+      "status": "unverified"
+    },
+    {
+      "name": "Trevor Williams",
+      "position": "SP",
+      "age": 35,
+      "war2025_2026": 1.4,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Patrick Sandoval",
+      "position": "SP",
+      "age": 30,
+      "war2025_2026": 1.3,
+      "throwingHand": "LHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Walker Buehler",
+      "position": "SP",
+      "age": 32,
+      "war2025_2026": 1.1,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Griffin Canning",
+      "position": "SP",
+      "age": 31,
+      "war2025_2026": 1.1,
+      "throwingHand": "RHP",
+      "contractOption": "mutual option",
+      "status": "unverified"
+    },
+    {
+      "name": "Zac Gallen",
+      "position": "SP",
+      "age": 31,
+      "war2025_2026": 1.1,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Max Scherzer",
+      "position": "SP",
+      "age": 42,
+      "war2025_2026": 0.7,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Jose Quintana",
+      "position": "SP",
+      "age": 38,
+      "war2025_2026": 0.7,
+      "throwingHand": "LHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Tatsuya Imai",
+      "position": "SP",
+      "age": 29,
+      "war2025_2026": 0.5,
+      "throwingHand": "RHP",
+      "contractOption": "opt-out",
+      "status": "unverified"
+    },
+    {
+      "name": "Tomoyuki Sugano",
+      "position": "SP",
+      "age": 37,
+      "war2025_2026": 0.5,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "José Urquidy",
+      "position": "SP",
+      "age": 32,
+      "war2025_2026": 0.5,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Shane Bieber",
+      "position": "SP",
+      "age": 32,
+      "war2025_2026": 0.4,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Corbin Burnes",
+      "position": "SP",
+      "age": 32,
+      "war2025_2026": 0.4,
+      "throwingHand": "RHP",
+      "contractOption": "opt-out",
+      "status": "unverified"
+    },
+    {
+      "name": "Zack Littell",
+      "position": "SP",
+      "age": 31,
+      "war2025_2026": 0.4,
+      "throwingHand": "RHP",
+      "contractOption": "mutual option",
+      "status": "unverified"
+    },
+    {
+      "name": "Luis Garcia",
+      "position": "SP",
+      "age": 30,
+      "war2025_2026": 0.1,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Jordan Montgomery",
+      "position": "SP",
+      "age": 34,
+      "war2025_2026": 0.1,
+      "throwingHand": "LHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Jameson Taillon",
+      "position": "SP",
+      "age": 35,
+      "war2025_2026": 0.1,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Taijuan Walker",
+      "position": "SP",
+      "age": 34,
+      "war2025_2026": 0.1,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Frankie Montas",
+      "position": "SP",
+      "age": 34,
+      "war2025_2026": 0,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Lance McCullers Jr.",
+      "position": "SP",
+      "age": 33,
+      "war2025_2026": -0.1,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Zach Eflin",
+      "position": "SP",
+      "age": 33,
+      "war2025_2026": -0.2,
+      "throwingHand": "RHP",
+      "contractOption": "mutual option",
+      "status": "unverified"
+    },
+    {
+      "name": "Tony Gonsolin",
+      "position": "SP",
+      "age": 33,
+      "war2025_2026": -0.2,
+      "throwingHand": "RHP",
+      "contractOption": "club option",
+      "status": "unverified"
+    },
+    {
+      "name": "Erick Fedde",
+      "position": "SP",
+      "age": 34,
+      "war2025_2026": -0.3,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Austin Gomber",
+      "position": "SP",
+      "age": 33,
+      "war2025_2026": -0.4,
+      "throwingHand": "LHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Germán Márquez",
+      "position": "SP",
+      "age": 32,
+      "war2025_2026": -0.4,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Miles Mikolas",
+      "position": "SP",
+      "age": 38,
+      "war2025_2026": -0.6,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Adrian Morejon",
+      "position": "RP",
+      "age": 28,
+      "war2025_2026": 5.1,
+      "throwingHand": "LHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Garrett Whitlock",
+      "position": "RP",
+      "age": 31,
+      "war2025_2026": 4.2,
+      "throwingHand": "RHP",
+      "contractOption": "club option",
+      "status": "unverified"
+    },
+    {
+      "name": "David Bednar",
+      "position": "RP",
+      "age": 32,
+      "war2025_2026": 4,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Sean Newcomb",
+      "position": "RP",
+      "age": 34,
+      "war2025_2026": 3.5,
+      "throwingHand": "LHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Steven Okert",
+      "position": "RP",
+      "age": 35,
+      "war2025_2026": 2.8,
+      "throwingHand": "LHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Andrés Muñoz",
+      "position": "RP",
+      "age": 28,
+      "war2025_2026": 2.7,
+      "throwingHand": "RHP",
+      "contractOption": "club option",
+      "status": "unverified"
+    },
+    {
+      "name": "Tyler Alexander",
+      "position": "RP",
+      "age": 32,
+      "war2025_2026": 2.4,
+      "throwingHand": "LHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Raisel Iglesias",
+      "position": "RP",
+      "age": 37,
+      "war2025_2026": 2.1,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Alex Vesia",
+      "position": "RP",
+      "age": 31,
+      "war2025_2026": 2.1,
+      "throwingHand": "LHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Gregory Soto",
+      "position": "RP",
+      "age": 32,
+      "war2025_2026": 2,
+      "throwingHand": "LHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Bryan Abreu",
+      "position": "RP",
+      "age": 30,
+      "war2025_2026": 1.9,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Emilio Pagán",
+      "position": "RP",
+      "age": 36,
+      "war2025_2026": 1.5,
+      "throwingHand": "RHP",
+      "contractOption": "opt-out",
+      "status": "unverified"
+    },
+    {
+      "name": "Shawn Armstrong",
+      "position": "RP",
+      "age": 36,
+      "war2025_2026": 1.3,
+      "throwingHand": "RHP",
+      "contractOption": "mutual option",
+      "status": "unverified"
+    },
+    {
+      "name": "Andrew Kittredge",
+      "position": "RP",
+      "age": 37,
+      "war2025_2026": 1.3,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Brooks Raley",
+      "position": "RP",
+      "age": 39,
+      "war2025_2026": 1.3,
+      "throwingHand": "LHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Mark Leiter Jr.",
+      "position": "RP",
+      "age": 36,
+      "war2025_2026": 1.2,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Jason Adam",
+      "position": "RP",
+      "age": 35,
+      "war2025_2026": 1.1,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Emmanuel Clase",
+      "position": "RP",
+      "age": 29,
+      "war2025_2026": 1.1,
+      "throwingHand": "RHP",
+      "contractOption": "club option",
+      "status": "unverified"
+    },
+    {
+      "name": "JoJo Romero",
+      "position": "RP",
+      "age": 30,
+      "war2025_2026": 1.1,
+      "throwingHand": "LHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "José Alvarado",
+      "position": "RP",
+      "age": 32,
+      "war2025_2026": 1,
+      "throwingHand": "LHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Brock Burke",
+      "position": "RP",
+      "age": 30,
+      "war2025_2026": 1,
+      "throwingHand": "LHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Kevin Ginkel",
+      "position": "RP",
+      "age": 33,
+      "war2025_2026": 1,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Jakob Junis",
+      "position": "RP",
+      "age": 34,
+      "war2025_2026": 1,
+      "throwingHand": "RHP",
+      "contractOption": "mutual option",
+      "status": "unverified"
+    },
+    {
+      "name": "Paul Blackburn",
+      "position": "RP",
+      "age": 33,
+      "war2025_2026": 0.9,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Taylor Clarke",
+      "position": "RP",
+      "age": 34,
+      "war2025_2026": 0.9,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Carlos Estévez",
+      "position": "RP",
+      "age": 34,
+      "war2025_2026": 0.9,
+      "throwingHand": "RHP",
+      "contractOption": "club option",
+      "status": "unverified"
+    },
+    {
+      "name": "Pete Fairbanks",
+      "position": "RP",
+      "age": 33,
+      "war2025_2026": 0.9,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Hoby Milner",
+      "position": "RP",
+      "age": 36,
+      "war2025_2026": 0.9,
+      "throwingHand": "LHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Wandy Peralta",
+      "position": "RP",
+      "age": 35,
+      "war2025_2026": 0.9,
+      "throwingHand": "LHP",
+      "contractOption": "player option",
+      "status": "unverified"
+    },
+    {
+      "name": "Dennis Santana",
+      "position": "RP",
+      "age": 31,
+      "war2025_2026": 0.9,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Antonio Senzatela",
+      "position": "RP",
+      "age": 32,
+      "war2025_2026": 0.9,
+      "throwingHand": "RHP",
+      "contractOption": "club option",
+      "status": "unverified"
+    },
+    {
+      "name": "Caleb Thielbar",
+      "position": "RP",
+      "age": 40,
+      "war2025_2026": 0.9,
+      "throwingHand": "LHP",
+      "contractOption": "mutual option",
+      "status": "unverified"
+    },
+    {
+      "name": "Kenley Jansen",
+      "position": "RP",
+      "age": 39,
+      "war2025_2026": 0.8,
+      "throwingHand": "RHP",
+      "contractOption": "club option",
+      "status": "unverified"
+    },
+    {
+      "name": "José Suarez",
+      "position": "RP",
+      "age": 29,
+      "war2025_2026": 0.8,
+      "throwingHand": "LHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Brent Suter",
+      "position": "RP",
+      "age": 37,
+      "war2025_2026": 0.8,
+      "throwingHand": "LHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Ryan Yarbrough",
+      "position": "RP",
+      "age": 35,
+      "war2025_2026": 0.8,
+      "throwingHand": "LHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Drew Anderson",
+      "position": "RP",
+      "age": 33,
+      "war2025_2026": 0.7,
+      "throwingHand": "RHP",
+      "contractOption": "club option",
+      "status": "unverified"
+    },
+    {
+      "name": "Enyel De Los Santos",
+      "position": "RP",
+      "age": 31,
+      "war2025_2026": 0.7,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Caleb Ferguson",
+      "position": "RP",
+      "age": 30,
+      "war2025_2026": 0.7,
+      "throwingHand": "LHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Kolby Allard",
+      "position": "RP",
+      "age": 29,
+      "war2025_2026": 0.6,
+      "throwingHand": "LHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Dietrich Enns",
+      "position": "RP",
+      "age": 36,
+      "war2025_2026": 0.6,
+      "throwingHand": "LHP",
+      "contractOption": "club option",
+      "status": "unverified"
+    },
+    {
+      "name": "Jonathan Loáisiga",
+      "position": "RP",
+      "age": 32,
+      "war2025_2026": 0.6,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Danny Coulombe",
+      "position": "RP",
+      "age": 37,
+      "war2025_2026": 0.5,
+      "throwingHand": "LHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Luis García",
+      "position": "RP",
+      "age": 40,
+      "war2025_2026": 0.5,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Tyler Kinley",
+      "position": "RP",
+      "age": 36,
+      "war2025_2026": 0.5,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Evan Phillips",
+      "position": "RP",
+      "age": 32,
+      "war2025_2026": 0.5,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Ryan Thompson",
+      "position": "RP",
+      "age": 35,
+      "war2025_2026": 0.5,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Justin Topa",
+      "position": "RP",
+      "age": 36,
+      "war2025_2026": 0.5,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Jacob Webb",
+      "position": "RP",
+      "age": 33,
+      "war2025_2026": 0.5,
+      "throwingHand": "RHP",
+      "contractOption": "club option",
+      "status": "unverified"
+    },
+    {
+      "name": "Andrew Chafin",
+      "position": "RP",
+      "age": 37,
+      "war2025_2026": 0.4,
+      "throwingHand": "LHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Kyle Hart",
+      "position": "RP",
+      "age": 34,
+      "war2025_2026": 0.4,
+      "throwingHand": "LHP",
+      "contractOption": "club option",
+      "status": "unverified"
+    },
+    {
+      "name": "A.J. Minter",
+      "position": "RP",
+      "age": 33,
+      "war2025_2026": 0.4,
+      "throwingHand": "LHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Ryan Brasier",
+      "position": "RP",
+      "age": 39,
+      "war2025_2026": 0.3,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Hunter Harvey",
+      "position": "RP",
+      "age": 32,
+      "war2025_2026": 0.3,
+      "throwingHand": "RHP",
+      "contractOption": "mutual option",
+      "status": "unverified"
+    },
+    {
+      "name": "Chris Martin",
+      "position": "RP",
+      "age": 41,
+      "war2025_2026": 0.3,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Taylor Rogers",
+      "position": "RP",
+      "age": 36,
+      "war2025_2026": 0.3,
+      "throwingHand": "LHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Matt Strahm",
+      "position": "RP",
+      "age": 35,
+      "war2025_2026": 0.3,
+      "throwingHand": "LHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Ryan Helsley",
+      "position": "RP",
+      "age": 32,
+      "war2025_2026": 0.2,
+      "throwingHand": "RHP",
+      "contractOption": "opt-out",
+      "status": "unverified"
+    },
+    {
+      "name": "Pierce Johnson",
+      "position": "RP",
+      "age": 36,
+      "war2025_2026": 0.2,
+      "throwingHand": "RHP",
+      "contractOption": "mutual option",
+      "status": "unverified"
+    },
+    {
+      "name": "Sam Moll",
+      "position": "RP",
+      "age": 35,
+      "war2025_2026": 0.2,
+      "throwingHand": "LHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "John Schreiber",
+      "position": "RP",
+      "age": 33,
+      "war2025_2026": 0.2,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Blake Treinen",
+      "position": "RP",
+      "age": 39,
+      "war2025_2026": 0.2,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Yimi García",
+      "position": "RP",
+      "age": 36,
+      "war2025_2026": 0.1,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Yuki Matsui",
+      "position": "RP",
+      "age": 31,
+      "war2025_2026": 0.1,
+      "throwingHand": "LHP",
+      "contractOption": "opt-out",
+      "status": "unverified"
+    },
+    {
+      "name": "Rafael Montero",
+      "position": "RP",
+      "age": 36,
+      "war2025_2026": 0.1,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Jordan Romano",
+      "position": "RP",
+      "age": 34,
+      "war2025_2026": 0.1,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Ryne Stanek",
+      "position": "RP",
+      "age": 35,
+      "war2025_2026": 0.1,
+      "throwingHand": "RHP",
+      "contractOption": "club option",
+      "status": "unverified"
+    },
+    {
+      "name": "Robert Stephenson",
+      "position": "RP",
+      "age": 34,
+      "war2025_2026": 0.1,
+      "throwingHand": "RHP",
+      "contractOption": "club option",
+      "status": "unverified"
+    },
+    {
+      "name": "Matt Bowman",
+      "position": "RP",
+      "age": 36,
+      "war2025_2026": 0,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Brusdar Graterol",
+      "position": "RP",
+      "age": 28,
+      "war2025_2026": 0,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Joe Jiménez",
+      "position": "RP",
+      "age": 32,
+      "war2025_2026": 0,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Drew Pomeranz",
+      "position": "RP",
+      "age": 38,
+      "war2025_2026": 0,
+      "throwingHand": "LHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "A.J. Puk",
+      "position": "RP",
+      "age": 32,
+      "war2025_2026": 0,
+      "throwingHand": "LHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Tanner Rainey",
+      "position": "RP",
+      "age": 34,
+      "war2025_2026": 0,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Drew Smith",
+      "position": "RP",
+      "age": 33,
+      "war2025_2026": 0,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Trevor Stephan",
+      "position": "RP",
+      "age": 31,
+      "war2025_2026": 0,
+      "throwingHand": "RHP",
+      "contractOption": "club option",
+      "status": "unverified"
+    },
+    {
+      "name": "Hunter Strickland",
+      "position": "RP",
+      "age": 38,
+      "war2025_2026": 0,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Rowan Wick",
+      "position": "RP",
+      "age": 34,
+      "war2025_2026": 0,
+      "throwingHand": "RHP",
+      "contractOption": "club option",
+      "status": "unverified"
+    },
+    {
+      "name": "Jake Woodford",
+      "position": "RP",
+      "age": 30,
+      "war2025_2026": 0,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Jalen Beeks",
+      "position": "RP",
+      "age": 33,
+      "war2025_2026": -0.1,
+      "throwingHand": "LHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Ryan Borucki",
+      "position": "RP",
+      "age": 33,
+      "war2025_2026": -0.1,
+      "throwingHand": "LHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Lou Trivino III",
+      "position": "RP",
+      "age": 35,
+      "war2025_2026": -0.1,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Dan Altavilla",
+      "position": "RP",
+      "age": 34,
+      "war2025_2026": -0.2,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Chris Devenski",
+      "position": "RP",
+      "age": 36,
+      "war2025_2026": -0.2,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Luke Jackson",
+      "position": "RP",
+      "age": 35,
+      "war2025_2026": -0.2,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "José Leclerc",
+      "position": "RP",
+      "age": 33,
+      "war2025_2026": -0.2,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Tommy Kahnle",
+      "position": "RP",
+      "age": 37,
+      "war2025_2026": -0.3,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Joe Ross",
+      "position": "RP",
+      "age": 34,
+      "war2025_2026": -0.3,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Keegan Akin",
+      "position": "RP",
+      "age": 32,
+      "war2025_2026": -0.4,
+      "throwingHand": "LHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Jorge Alcala",
+      "position": "RP",
+      "age": 31,
+      "war2025_2026": -0.5,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Scott Barlow",
+      "position": "RP",
+      "age": 34,
+      "war2025_2026": -0.5,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Aaron Bummer",
+      "position": "RP",
+      "age": 33,
+      "war2025_2026": -0.5,
+      "throwingHand": "LHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Paul Sewald",
+      "position": "RP",
+      "age": 37,
+      "war2025_2026": -0.5,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Ryan Weiss",
+      "position": "RP",
+      "age": 30,
+      "war2025_2026": -0.6,
+      "throwingHand": "RHP",
+      "contractOption": "club option",
+      "status": "unverified"
+    },
+    {
+      "name": "Trent Thornton",
+      "position": "RP",
+      "age": 33,
+      "war2025_2026": -0.8,
+      "throwingHand": "RHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Génesis Cabrera",
+      "position": "RP",
+      "age": 30,
+      "war2025_2026": -0.9,
+      "throwingHand": "LHP",
+      "contractOption": null,
+      "status": "unverified"
+    },
+    {
+      "name": "Tim Hill",
+      "position": "RP",
+      "age": 37,
+      "war2025_2026": -1.1,
+      "throwingHand": "LHP",
+      "contractOption": null,
+      "status": "unverified"
+    }
+  ]
+}

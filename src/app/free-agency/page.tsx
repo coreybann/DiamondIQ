@@ -62,6 +62,14 @@ const historicalSignings = await getFreeAgentSignings(
 >
   Explore Team Fit Analysis →
 </a>
+
+<a
+  href="/free-agency/rankings"
+  className="mt-6 ml-3 inline-block rounded-lg bg-blue-600 px-6 py-3 font-semibold text-white transition hover:bg-blue-500"
+>
+  Explore Free Agent Rankings →
+</a>
+
         <div className="mt-10 rounded-xl border border-slate-700 bg-[#0d1d30] p-6">
           <div className="mb-6 flex flex-wrap items-center justify-between gap-3">
             <h2 className="text-xl font-semibold">
