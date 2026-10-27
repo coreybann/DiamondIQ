@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import MobileNav from "./components/MobileNav";
+import DesktopNav from "./components/DesktopNav";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -25,28 +26,8 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-[#081321] text-white">
-  <header className="border-b border-white/10 bg-[#0d1d30]">
-    <nav className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-5 px-6 py-5">
-      <Link href="/" className="flex items-center">
-  <img
-    src="/diamondiq-logo.png"
-    alt="DiamondIQ Baseball Analytics"
-    className="w-32 h-auto"
-  />
-</Link>
-
-      <div className="flex flex-wrap gap-5 text-sm text-slate-300 max-md:hidden">
-        <Link href="/stats" className="hover:text-blue-400">MLB Stats</Link>
-        <Link href="/trends" className="hover:text-blue-400">Player Trends</Link>
-        <Link href="/compare" className="hover:text-blue-400">Compare</Link>
-        <Link href="/scouting" className="hover:text-blue-400">Scouting</Link>
-        <Link href="/front-office" className="hover:text-blue-400">Front Office</Link>
-        <Link href="/trade-analyzer" className="hover:text-blue-400">Trade Analyzer</Link>
-        <Link href="/free-agency" className="hover:text-blue-400">Free Agency</Link>
-        <Link href="/research" className="hover:text-blue-400">Research</Link>
-        <Link href="/about" className="hover:text-blue-400">About Me</Link>
-      </div>
-    </nav>
+  <header className="sticky top-0 z-40 border-b border-white/10 bg-[#0d1d30]/95 backdrop-blur-md">
+    <DesktopNav />
   </header>
 
   <div className="flex-1 pb-24 md:pb-0">
