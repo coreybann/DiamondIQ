@@ -38,7 +38,7 @@ export default function DesktopNav() {
     }`;
 
   return (
-    <nav className="mx-auto grid w-full max-w-7xl grid-cols-[1fr_auto_1fr] items-center gap-6 px-6 py-4">
+    <nav className="mx-auto grid w-full max-w-7xl grid-cols-[1fr_auto_1fr] items-center gap-6 px-6 py-3">
       <Link
         href="/"
         aria-label="DiamondIQ home"
