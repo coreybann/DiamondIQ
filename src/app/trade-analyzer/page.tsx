@@ -319,7 +319,7 @@ export default function TradeAnalyzerPage() {
                       {player.team} · {player.position}
                     </p>
                     <p className="mt-2 text-sm">
-                      2027 Projected WAR: {player.war?.toFixed(2) ?? "Unavailable"}
+                      DiamondIQ 2027 WAR Projection: {player.war?.toFixed(2) ?? "Unavailable"}
                     </p>
                   </div>
 
