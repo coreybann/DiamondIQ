@@ -14,6 +14,12 @@ const morePages = [
     icon: "⚾",
   },
   {
+    title: "Trade Analyzer",
+    description: "Evaluate hypothetical MLB trades using projected WAR, contract years, and salary value.",
+    href: "/trade-analyzer",
+    icon: "🔄",
+  },
+  {
   title: "Free Agency",
   description: "Track MLB free agents, offseason signings, and player positions.",
   href: "/free-agency",
