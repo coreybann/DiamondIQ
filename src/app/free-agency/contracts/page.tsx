@@ -6,6 +6,7 @@ import { useState } from "react";
 import freeAgentData from "../../../../public/data/free-agents-2027.json";
 import { projectContract } from "@/lib/contractProjections";
 import contractData from "../../../../public/data/mlb-contract-comparables.json";
+import contractData2024 from "../../../../public/data/mlb-contract-comparables-2024.json";
 type FreeAgent = {
   name: string;
   position: string;
@@ -29,9 +30,28 @@ export default function ContractProjectionsPage() {
   const player = players.find((p) => p.name === selectedPlayer);
 const projection = player ? projectContract(player) : null;
 const comparableContracts = player
-  ? contractData.contracts.filter(
-      (contract) => contract.position === player.position
-    )
+  ? [...contractData.contracts, ...contractData2024.contracts]
+      .filter((contract) => contract.position === player.position)
+      .map((contract) => {
+        const playerAverageWar = player.war2025_2026 / 2;
+        const contractAverageWar = contract.priorTwoYearWar / 2;
+
+        const warDifference = Math.abs(
+          playerAverageWar - contractAverageWar
+        );
+
+        const ageDifference = Math.abs(
+          player.age - contract.ageAtSigning
+        );
+
+        const similarityScore =
+          0.7 * (warDifference / 2) +
+          0.3 * (ageDifference / 5);
+
+        return { ...contract, similarityScore };
+      })
+      .sort((a, b) => a.similarityScore - b.similarityScore)
+      .slice(0, 3)
   : [];
   return (
     <main className="min-h-screen bg-[#081321] px-6 py-12 text-white">
