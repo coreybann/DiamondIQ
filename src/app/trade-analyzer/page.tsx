@@ -319,7 +319,7 @@ export default function TradeAnalyzerPage() {
                       {player.team} · {player.position}
                     </p>
                     <p className="mt-2 text-sm">
-                      2026 WAR: {player.war?.toFixed(2) ?? "Unavailable"}
+                      2027 Projected WAR: {player.war?.toFixed(2) ?? "Unavailable"}
                     </p>
                   </div>
 
@@ -498,41 +498,50 @@ export default function TradeAnalyzerPage() {
           contract length, salary obligations, and estimated surplus value.
         </p>
 
-        <section className="mt-8 grid gap-5 rounded-2xl border border-slate-700 bg-[#12243a] p-6 sm:grid-cols-2">
-          <label className="text-sm text-slate-400">
-            Market Value per WAR ($M)
-            <input
-              type="number"
-              min={1}
-              max={30}
-              step={0.5}
-              value={warPrice}
-              onChange={(event) =>
-                setWarPrice(
-                  Math.max(1, Math.min(30, Number(event.target.value) || 1))
-                )
-              }
-              className="mt-2 w-full rounded-lg border border-slate-600 bg-[#081321] p-3 text-white"
-            />
-          </label>
+        <details className="mt-8 rounded-2xl border border-slate-700 bg-[#12243a]">
+          <summary className="cursor-pointer p-5 font-semibold text-slate-200 hover:text-blue-400">
+            Advanced Valuation Assumptions
+            <span className="ml-2 text-sm font-normal text-slate-400">
+              · $9M per WAR · 5% annual decline by default
+            </span>
+          </summary>
 
-          <label className="text-sm text-slate-400">
-            Annual WAR Decline (%)
-            <input
-              type="number"
-              min={0}
-              max={30}
-              step={1}
-              value={decline}
-              onChange={(event) =>
-                setDecline(
-                  Math.max(0, Math.min(30, Number(event.target.value) || 0))
-                )
-              }
-              className="mt-2 w-full rounded-lg border border-slate-600 bg-[#081321] p-3 text-white"
-            />
-          </label>
-        </section>
+          <div className="grid gap-5 border-t border-slate-700 p-5 sm:grid-cols-2">
+            <label className="text-sm text-slate-400">
+              Market Value per WAR ($M)
+              <input
+                type="number"
+                min={1}
+                max={30}
+                step={0.5}
+                value={warPrice}
+                onChange={(event) =>
+                  setWarPrice(
+                    Math.max(1, Math.min(30, Number(event.target.value) || 1))
+                  )
+                }
+                className="mt-2 w-full rounded-lg border border-slate-600 bg-[#081321] p-3 text-white"
+              />
+            </label>
+
+            <label className="text-sm text-slate-400">
+              Annual WAR Decline (%)
+              <input
+                type="number"
+                min={0}
+                max={30}
+                step={1}
+                value={decline}
+                onChange={(event) =>
+                  setDecline(
+                    Math.max(0, Math.min(30, Number(event.target.value) || 0))
+                  )
+                }
+                className="mt-2 w-full rounded-lg border border-slate-600 bg-[#081321] p-3 text-white"
+              />
+            </label>
+          </div>
+        </details>
 
         {loading && (
           <p className="mt-8 text-blue-400">Loading MLB player data...</p>
