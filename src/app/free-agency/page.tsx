@@ -37,9 +37,27 @@ const historicalSignings = await getFreeAgentSignings(
     .filter((id): id is number => id !== null)
 );
 
-  const currentFreeAgents = freeAgents.filter(
-    (player) => player.offseason === offseason
+  const signingByPlayerId = new Map(
+    [...currentSignings]
+      .filter((signing) => signing.playerId !== null)
+      .sort((a, b) => a.date.localeCompare(b.date))
+      .map((signing) => [signing.playerId, signing])
   );
+
+  const currentFreeAgents = freeAgents
+    .filter((player) => player.offseason === offseason)
+    .map((player) => {
+      const signing =
+        player.id > 0 ? signingByPlayerId.get(player.id) : undefined;
+
+      return {
+        ...player,
+        status: signing
+          ? ("Signing Reported" as const)
+          : player.status,
+        signedTeam: signing?.toTeam ?? player.signedTeam,
+      };
+    });
 
   return (
     <main className="min-h-screen bg-[#081321] px-6 py-12 text-white">
@@ -96,6 +114,7 @@ const historicalSignings = await getFreeAgentSignings(
                     "Age",
                     "Previous Team",
                     "Status",
+                    "Signed Team",
                   ].map((heading) => (
                     <th
                       key={heading}
@@ -127,6 +146,9 @@ const historicalSignings = await getFreeAgentSignings(
                     </td>
                     <td className="px-4 py-4">
                       {player.status}
+                    </td>
+                    <td className="px-4 py-4">
+                      {player.signedTeam ?? "—"}
                     </td>
                   </tr>
                 ))}

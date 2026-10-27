@@ -51,12 +51,36 @@ export async function getFreeAgentSignings(
   startDate: string,
   endDate: string
 ): Promise<MLBTransaction[]> {
-  const transactions = await getMLBTransactions(
-    startDate,
-    endDate
-  );
+  if (startDate > endDate) {
+    return [];
+  }
 
-  return transactions.filter((transaction) => {
+  const allTransactions: MLBTransaction[] = [];
+  let cursor = new Date(`${startDate}T00:00:00Z`);
+  const finalDate = new Date(`${endDate}T00:00:00Z`);
+
+  while (cursor <= finalDate) {
+    const batchStart = cursor.toISOString().slice(0, 10);
+
+    const batchEndDate = new Date(
+      Math.min(
+        cursor.getTime() + 6 * 86400000,
+        finalDate.getTime()
+      )
+    );
+
+    const batchEnd = batchEndDate.toISOString().slice(0, 10);
+
+    const transactions = await getMLBTransactions(
+      batchStart,
+      batchEnd
+    );
+
+    allTransactions.push(...transactions);
+    cursor = new Date(batchEndDate.getTime() + 86400000);
+  }
+
+  return allTransactions.filter((transaction) => {
     const description = transaction.description;
 
     const isFreeAgentSigning =

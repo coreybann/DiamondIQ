@@ -1,4 +1,4 @@
-export type FreeAgentStatus = "Available" | "Signed";
+export type FreeAgentStatus = "Potential Free Agent" | "Available" | "Signing Reported" | "Signed";
 
 export type FreeAgent = {
   id: number;
@@ -23,4 +23,19 @@ export function getCurrentOffseason(): string {
   return `${startYear}-${startYear + 1}`;
 }
 
-export const freeAgents: FreeAgent[] = [];
+import freeAgentData from "../../public/data/free-agents-2027.json";
+import playerIdData from "../../public/data/free-agent-mlb-ids-2027.json";
+
+const matchedIds: Record<string, number> = playerIdData.matched;
+
+export const freeAgents: FreeAgent[] = freeAgentData.players.map(
+  (player, index) => ({
+    id: matchedIds[player.name] ?? -(index + 1),
+    name: player.name,
+    position: player.position,
+    age: player.age,
+    previousTeam: "Unverified",
+    status: "Potential Free Agent",
+    offseason: "2026-2027",
+  })
+);
