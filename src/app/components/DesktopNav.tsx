@@ -2,10 +2,11 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { ChevronDown } from "lucide-react";
 
 const primaryLinks = [
+  { label: "Rosters", href: "/rosters" },
   { label: "MLB Stats", href: "/stats" },
   { label: "Player Trends", href: "/trends" },
   { label: "Compare", href: "/compare" },
@@ -25,14 +26,22 @@ function isActive(pathname: string, href: string) {
 
 export default function DesktopNav() {
   const pathname = usePathname();
+  const [mounted, setMounted] = useState(false);
   const [toolsOpen, setToolsOpen] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  // Keep server and initial client rendering consistent.
+  const activePathname = mounted ? pathname : "";
   const toolsActive = toolLinks.some((item) =>
-    isActive(pathname, item.href)
+    isActive(activePathname, item.href)
   );
 
   const linkClass = (href: string) =>
     `whitespace-nowrap rounded-lg px-3 py-2 text-sm transition-colors ${
-      isActive(pathname, href)
+      isActive(activePathname, href)
         ? "bg-blue-500/10 font-semibold text-blue-400"
         : "text-slate-300 hover:bg-white/5 hover:text-white"
     }`;
@@ -56,7 +65,7 @@ export default function DesktopNav() {
           <Link
             key={item.href}
             href={item.href}
-            aria-current={pathname === item.href ? "page" : undefined}
+            aria-current={activePathname === item.href ? "page" : undefined}
             className={linkClass(item.href)}
           >
             {item.label}
@@ -99,9 +108,9 @@ export default function DesktopNav() {
                     key={item.href}
                     href={item.href}
                     onClick={() => setToolsOpen(false)}
-                    aria-current={pathname === item.href ? "page" : undefined}
+                    aria-current={activePathname === item.href ? "page" : undefined}
                     className={`block rounded-lg px-3 py-2.5 text-sm transition-colors ${
-                      isActive(pathname, item.href)
+                      isActive(activePathname, item.href)
                         ? "bg-blue-500/10 font-semibold text-blue-400"
                         : "text-slate-300 hover:bg-white/5 hover:text-white"
                     }`}
@@ -116,7 +125,7 @@ export default function DesktopNav() {
 
         <Link
           href="/about"
-          aria-current={pathname === "/about" ? "page" : undefined}
+          aria-current={activePathname === "/about" ? "page" : undefined}
           className={linkClass("/about")}
         >
           About Me

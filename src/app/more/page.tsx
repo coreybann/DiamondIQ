@@ -2,6 +2,12 @@ import Link from "next/link";
 
 const morePages = [
   {
+    title: "Rosters",
+    description: "View active MLB team rosters without statistics.",
+    href: "/rosters",
+    icon: "📋",
+  },
+  {
     title: "Scouting",
     description: "Explore player scouting reports and evaluations.",
     href: "/scouting",
