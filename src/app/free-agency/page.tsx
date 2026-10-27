@@ -58,18 +58,23 @@ const historicalSignings = await getFreeAgentSignings(
         </p>
 <a
   href="/free-agency/team-fit"
-  className="mt-6 inline-block rounded-lg bg-blue-600 px-6 py-3 font-semibold text-white transition hover:bg-blue-500"
+  className="mt-3 block w-full rounded-lg bg-blue-600 px-6 py-3 text-center font-semibold text-white transition hover:bg-blue-500 sm:mr-3 sm:inline-block sm:w-auto"
 >
   Explore Team Fit Analysis →
 </a>
 
 <a
   href="/free-agency/rankings"
-  className="mt-6 ml-3 inline-block rounded-lg bg-blue-600 px-6 py-3 font-semibold text-white transition hover:bg-blue-500"
+  className="mt-3 block w-full rounded-lg bg-blue-600 px-6 py-3 text-center font-semibold text-white transition hover:bg-blue-500 sm:mr-3 sm:inline-block sm:w-auto"
 >
   Explore Free Agent Rankings →
 </a>
-
+<a
+  href="/free-agency/contracts"
+  className="mt-3 block w-full rounded-lg bg-blue-600 px-6 py-3 text-center font-semibold text-white transition hover:bg-blue-500 sm:mr-3 sm:inline-block sm:w-auto"
+>
+  Explore Contract Projections →
+</a>
         <div className="mt-10 rounded-xl border border-slate-700 bg-[#0d1d30] p-6">
           <div className="mb-6 flex flex-wrap items-center justify-between gap-3">
             <h2 className="text-xl font-semibold">
