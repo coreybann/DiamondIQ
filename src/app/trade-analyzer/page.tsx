@@ -8,11 +8,16 @@ type Player = {
   position: string;
   salary: number;
   war: number | null;
+  contractYearsRemaining?: number;
+  contractSalaryByYear?: number[];
+  contractStatus?: string;
+  contractSource?: string;
 };
 
 type TradePlayer = Player & {
   yearsRemaining: number;
   annualSalary: number;
+  salaryByYear?: number[];
   projectedWar: number | null;
 };
 
@@ -87,7 +92,8 @@ function projectPlayer(
       player.projectedWar! * Math.pow(1 - decline / 100, year - 1);
 
     const warValue = projectedWar * warPrice;
-    const salary = player.annualSalary;
+    const salary =
+      player.salaryByYear?.[year - 1] ?? player.annualSalary;
 
     projections.push({
       year,
@@ -147,10 +153,12 @@ export default function TradeAnalyzerPage() {
   useEffect(() => {
     async function loadData() {
       try {
-        const [salaryResponse, projectionResponse] = await Promise.all([
-          fetch("/data/mlb-salaries-2026.csv"),
-          fetch("/data/trade-war-projections-2027.json"),
-        ]);
+        const [salaryResponse, projectionResponse, contractResponse] =
+          await Promise.all([
+            fetch("/data/mlb-salaries-2026.csv"),
+            fetch("/data/trade-war-projections-2027.json"),
+            fetch("/data/mlb-contracts-2026.json"),
+          ]);
 
         if (!salaryResponse.ok || !projectionResponse.ok) {
           throw new Error("Unable to load player datasets.");
@@ -161,6 +169,113 @@ export default function TradeAnalyzerPage() {
           player_name: string;
           projected_total_fwar: number;
         }[];
+
+        type ContractRecord = {
+          player: string;
+          team_code: string;
+          contract_status: string;
+          source: string;
+          salary_by_year: Record<string, {
+            raw: string;
+            salary_millions: number | null;
+            status: string;
+          }>;
+        };
+
+        type ContractDatabase = {
+          records: ContractRecord[];
+        };
+
+        const contractDatabase: ContractDatabase | null =
+          contractResponse.ok
+            ? await contractResponse.json() as ContractDatabase
+            : null;
+
+        const teamCodes: Record<string, string> = {
+          arizonadiamondbacks: "ARI",
+          atlantabraves: "ATL",
+          baltimoreorioles: "BAL",
+          bostonredsox: "BOS",
+          chicagocubs: "CHC",
+          chicagowhitesox: "CHW",
+          cincinnatireds: "CIN",
+          clevelandguardians: "CLE",
+          coloradorockies: "COL",
+          detroittigers: "DET",
+          houstonastros: "HOU",
+          kansascityroyals: "KCR",
+          losangelesangels: "LAA",
+          losangelesdodgers: "LAD",
+          miamimarlins: "MIA",
+          milwaukeebrewers: "MIL",
+          minnesotatwins: "MIN",
+          newyorkmets: "NYM",
+          newyorkyankees: "NYY",
+          athletics: "OAK",
+          oaklandathletics: "OAK",
+          philadelphiaphillies: "PHI",
+          pittsburghpirates: "PIT",
+          sandiegopadres: "SDP",
+          sanfranciscogiants: "SFG",
+          seattlemariners: "SEA",
+          stlouiscardinals: "STL",
+          tampabayrays: "TBR",
+          texasrangers: "TEX",
+          torontobluejays: "TOR",
+          washingtonnationals: "WSN",
+        };
+
+        const contractMap = new Map<string, ContractRecord>();
+
+        for (const record of contractDatabase?.records ?? []) {
+          const key = `${record.team_code}:${normalize(record.player)}`;
+          contractMap.set(key, record);
+        }
+
+        function contractDetails(
+          record: ContractRecord | undefined
+        ): {
+          years: number;
+          salaries: number[];
+        } | null {
+          if (!record) return null;
+
+          // Use the base contract term, excluding separately stated
+          // team, player, and mutual option years.
+          const range = record.contract_status.match(
+            /\((\d{2})-(\d{2})\)/
+          );
+
+          if (!range) return null;
+
+          const endYear = 2000 + Number(range[2]);
+          const years = endYear - 2027 + 1;
+
+          if (years < 1 || years > 14) return null;
+
+          const salaries: number[] = [];
+
+          for (let year = 2027; year <= endYear; year++) {
+            const entry = record.salary_by_year[String(year)];
+
+            // Do not assume an option, free-agent marker, or missing
+            // value is a guaranteed salary obligation.
+            if (
+              !entry ||
+              entry.status !== "salary_listed" ||
+              entry.salary_millions === null ||
+              !Number.isFinite(entry.salary_millions)
+            ) {
+              break;
+            }
+
+            salaries.push(entry.salary_millions);
+          }
+
+          if (salaries.length === 0) return null;
+
+          return { years: salaries.length, salaries };
+        }
 
         const projectionMap = new Map<string, number>();
         const duplicateNames = new Set<string>();
@@ -182,13 +297,27 @@ export default function TradeAnalyzerPage() {
         const loadedPlayers: Player[] = salaryRows
           .slice(1)
           .filter((row) => row.length >= 4 && row[0]?.trim())
-          .map((row) => ({
-            name: row[0].trim(),
-            team: row[1]?.trim() || "Unknown",
-            position: row[2]?.trim() || "Unknown",
-            salary: Number(row[3].replace(/[$,]/g, "")),
-            war: projectionMap.get(normalize(row[0])) ?? null,
-          }))
+          .map((row) => {
+            const name = row[0].trim();
+            const team = row[1]?.trim() || "Unknown";
+            const teamCode = teamCodes[normalize(team)];
+            const contract = teamCode
+              ? contractMap.get(`${teamCode}:${normalize(name)}`)
+              : undefined;
+            const details = contractDetails(contract);
+
+            return {
+              name,
+              team,
+              position: row[2]?.trim() || "Unknown",
+              salary: Number(row[3].replace(/[$,]/g, "")),
+              war: projectionMap.get(normalize(name)) ?? null,
+              contractYearsRemaining: details?.years,
+              contractSalaryByYear: details?.salaries,
+              contractStatus: contract?.contract_status,
+              contractSource: contract?.source,
+            };
+          })
           .filter((player) => Number.isFinite(player.salary));
 
         setPlayers(loadedPlayers);
@@ -213,8 +342,10 @@ export default function TradeAnalyzerPage() {
   function addPlayer(player: Player, side: "A" | "B") {
     const tradePlayer: TradePlayer = {
       ...player,
-      yearsRemaining: 1,
-      annualSalary: player.salary / 1_000_000,
+      yearsRemaining: player.contractYearsRemaining ?? 1,
+      annualSalary:
+        player.contractSalaryByYear?.[0] ?? player.salary / 1_000_000,
+      salaryByYear: player.contractSalaryByYear,
       projectedWar: player.war,
     };
 
@@ -390,7 +521,7 @@ export default function TradeAnalyzerPage() {
                   </label>
 
                   <label className="text-sm text-slate-400">
-                    Annual Salary ($M)
+                    Year 1 Salary ($M)
                     <input
                       type="number"
                       min={0}
