@@ -56,7 +56,12 @@ const historicalSignings = await getFreeAgentSignings(
           Track MLB free agents, evaluate player performance,
           analyze team fits, and explore contract projections.
         </p>
-
+<a
+  href="/free-agency/team-fit"
+  className="mt-6 inline-block rounded-lg bg-blue-600 px-6 py-3 font-semibold text-white transition hover:bg-blue-500"
+>
+  Explore Team Fit Analysis →
+</a>
         <div className="mt-10 rounded-xl border border-slate-700 bg-[#0d1d30] p-6">
           <div className="mb-6 flex flex-wrap items-center justify-between gap-3">
             <h2 className="text-xl font-semibold">
