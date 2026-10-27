@@ -32,6 +32,8 @@ def fetch_war(year, stats):
     return response.json()["data"]
 
 def main():
+    start_year = int(input("First WAR season (example: 2022): "))
+
     names = input(
         "Enter player names separated by commas: "
     ).split(",")
@@ -39,12 +41,14 @@ def main():
     names = [name.strip() for name in names if name.strip()]
 
     for name in names:
-        print(f"\n{name}")
+        print(f"\\n{name}")
 
-        for stat_type, label in [("pit", "Pitching"), ("bat", "Batting")]:
+        results = {}
+
+        for stat_type, label in [("bat", "Batting"), ("pit", "Pitching")]:
             seasons = {}
 
-            for year in (2023, 2024):
+            for year in (start_year, start_year + 1):
                 try:
                     players = fetch_war(year, stat_type)
                 except Exception as error:
@@ -57,24 +61,36 @@ def main():
                     if clean_name(player.get("Name", "")) == clean_name(name)
                 ]
 
-                if matches:
-                    seasons[year] = sum(
-                        float(player.get("WAR") or 0)
-                        for player in matches
-                    )
+                seasons[year] = sum(
+                    float(player.get("WAR") or 0)
+                    for player in matches
+                )
 
             if seasons:
-                for year, war in seasons.items():
-                    print(f"  {label} {year}: {war:.2f}")
+                results[label] = seasons
 
-                if len(seasons) == 2:
-                    print(
-                        f"  {label} combined: "
-                        f"{sum(seasons.values()):.2f}"
-                    )
-                break
-        else:
-            print("  Player not found in batting or pitching results.")
+        if not results:
+            print("  No results available.")
+            continue
+
+        batting = results.get("Batting", {})
+        pitching = results.get("Pitching", {})
+
+        batting_total = sum(batting.values())
+        pitching_total = sum(pitching.values())
+
+        label = (
+            "Batting"
+            if batting_total >= pitching_total
+            else "Pitching"
+        )
+
+        seasons = results[label]
+
+        for year, war in seasons.items():
+            print(f"  {label} {year}: {war:.2f}")
+
+        print(f"  {label} combined: {sum(seasons.values()):.2f}")
 
 if __name__ == "__main__":
     main()

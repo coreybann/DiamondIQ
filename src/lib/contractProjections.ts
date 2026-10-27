@@ -1,3 +1,5 @@
+import { predictContractAAV } from "./contractRegression";
+
 
 export type ContractProjectionInput = {
   age: number;
@@ -103,14 +105,7 @@ years = Math.min(years, maxYears);
     player.age <= 32 ? 1 :
     player.age <= 35 ? 0.85 : 0.7;
 
-  const aavMillions = Math.round(
-    Math.max(
-      1,
-      (baselineAav + averageWar * dollarsPerWar) *
-        positionMultiplier *
-        ageMultiplier
-    ) * 10
-  ) / 10;
+  const aavMillions = predictContractAAV(player);
 
   const totalMillions =
     Math.round(years * aavMillions * 10) / 10;

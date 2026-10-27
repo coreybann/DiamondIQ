@@ -10,7 +10,7 @@ export type HistoricalContract = {
   years: number;
   totalMillions: number;
   aavMillions: number;
-  source: string;
+  source?: string;
     guaranteedYears?: number;
   guaranteedTotalMillions?: number;
   maximumYears?: number;
