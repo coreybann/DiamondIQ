@@ -49,7 +49,11 @@ const historicalSignings = await getFreeAgentSignings(
 
   const signingByPlayerId = new Map(
     [...currentSignings]
-      .filter((signing) => signing.playerId !== null)
+      .filter(
+        (signing) =>
+          signing.playerId !== null &&
+          signing.toTeam !== null
+      )
       .sort(
         (a, b) =>
           a.date.localeCompare(b.date) ||
