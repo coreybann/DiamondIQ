@@ -360,7 +360,7 @@ return (
 ) : (
   pitchingSeasonStats.length === 0 ? (
     <p className="mt-6 text-slate-400">
-      No MLB season statistics available.
+      Search for a player to explore their performance trends.
     </p>
   ) : null
 )}
