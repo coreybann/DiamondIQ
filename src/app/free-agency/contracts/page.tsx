@@ -48,7 +48,12 @@ const comparableContracts = player
           0.7 * (warDifference / 2) +
           0.3 * (ageDifference / 5);
 
-        return { ...contract, similarityScore };
+        return {
+  ...contract,
+  similarityScore,
+  warDifference,
+  ageDifference,
+};
       })
       .sort((a, b) => a.similarityScore - b.similarityScore)
       .slice(0, 3)
@@ -190,13 +195,27 @@ const comparableContracts = player
           </p>
 
           <p className="mt-4 text-blue-400">
-            {contract.years} Years · ${contract.totalMillions}M
+            {contract.years} {contract.years === 1 ? "Year" : "Years"} · ${contract.totalMillions}M
           </p>
 
           <p className="mt-1 text-sm text-gray-400">
             ${contract.aavMillions.toFixed(2)}M AAV
           </p>
+<div className="mt-4 grid grid-cols-2 gap-3">
+  <div className="rounded-md bg-[#0d1d30] p-3">
+    <p className="text-xs text-gray-400">WAR Difference</p>
+    <p className="mt-1 font-semibold text-white">
+      {contract.warDifference.toFixed(2)}
+    </p>
+  </div>
 
+  <div className="rounded-md bg-[#0d1d30] p-3">
+    <p className="text-xs text-gray-400">Age Difference</p>
+    <p className="mt-1 font-semibold text-white">
+      {contract.ageDifference.toFixed(0)} {contract.ageDifference === 1 ? "year" : "years"}
+    </p>
+  </div>
+</div>
           <a
             href={contract.source}
             target="_blank"
