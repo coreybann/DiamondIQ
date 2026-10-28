@@ -78,33 +78,6 @@ const maxYears =
 
 years = Math.min(years, maxYears);
 
-
-  // Preliminary annual salary estimate in millions.
-  // These are model assumptions, not historical market estimates.
-  const baselineAav = 3;
-  const dollarsPerWar = 5;
-
-  const positionMultipliers: Record<string, number> = {
-    C: 1.05,
-    "1B": 0.95,
-    "2B": 1,
-    "3B": 1,
-    SS: 1.1,
-    LF: 0.95,
-    CF: 1.05,
-    RF: 1,
-    DH: 0.9,
-    SP: 1.1,
-    RP: 0.85,
-  };
-
-  const positionMultiplier = positionMultipliers[player.position] ?? 1;
-
-  const ageMultiplier =
-    player.age <= 29 ? 1.1 :
-    player.age <= 32 ? 1 :
-    player.age <= 35 ? 0.85 : 0.7;
-
   const aavMillions = predictContractAAV(player);
 
   const totalMillions =

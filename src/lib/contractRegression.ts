@@ -1,21 +1,29 @@
-import type { ContractProjectionInput } from "./contractProjections";
+import type {
+  ContractProjectionInput,
+} from "./contractProjections";
 
 export function predictContractAAV(
   player: ContractProjectionInput
 ): number {
+  // Final historical regression trained on 91 contracts.
+  // Approximation: the public input contains combined two-year WAR,
+  // so the model cannot reconstruct the 40/60 seasonal weighting.
   const war = player.war2025_2026 / 2;
   const age = player.age - 32;
+
   const isSP = player.position === "SP" ? 1 : 0;
   const isRP = player.position === "RP" ? 1 : 0;
 
   const predictedAAV =
-    (0.1938821893)
-    + (6.6907492367 * war)
-    + (-0.4164730610 * age)
-    + (10.4983116048 * isSP)
-    + (2.6729918096 * isRP)
-    + (-2.7165647801 * war * isSP)
-    + (-1.0567022203 * war * isRP);
+    -0.07425823 +
+    6.75149087 * war +
+    -0.39674341 * age +
+    10.51197535 * isSP +
+    2.48478913 * isRP +
+    -2.71066105 * war * isSP +
+    -0.61546841 * war * isRP;
 
-  return Math.round(Math.max(1, predictedAAV) * 10) / 10;
+  return Math.round(
+    Math.max(1, predictedAAV) * 10
+  ) / 10;
 }
