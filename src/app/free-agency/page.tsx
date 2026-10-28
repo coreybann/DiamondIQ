@@ -13,10 +13,11 @@ import {
 
 export default async function FreeAgencyPage() {
  const offseason = getCurrentOffseason();    
+const lastUpdated = new Date().toISOString();
 const offseasonStartYear = Number(offseason.split("-")[0]);
 
 const today = new Date().toISOString().slice(0, 10);
-const currentOffseasonStart = `${offseasonStartYear}-11-01`;
+const currentOffseasonStart = `${offseasonStartYear}-10-01`;
 const currentOffseasonEnd = `${offseasonStartYear + 1}-03-31`;
 
 const currentSignings =
@@ -43,7 +44,11 @@ const historicalSignings = await getFreeAgentSignings(
   const signingByPlayerId = new Map(
     [...currentSignings]
       .filter((signing) => signing.playerId !== null)
-      .sort((a, b) => a.date.localeCompare(b.date))
+      .sort(
+        (a, b) =>
+          a.date.localeCompare(b.date) ||
+          a.id - b.id
+      )
       .map((signing) => [signing.playerId, signing])
   );
 
@@ -108,6 +113,18 @@ const historicalSignings = await getFreeAgentSignings(
             </span>
           </div>
 
+          <p className="mb-4 text-xs text-gray-400">
+            Page data generated:{" "}
+            {new Date(lastUpdated).toLocaleString("en-US", {
+              timeZone: "America/New_York",
+              month: "short",
+              day: "numeric",
+              year: "numeric",
+              hour: "numeric",
+              minute: "2-digit",
+              timeZoneName: "short",
+            })}
+          </p>
           <FreeAgentTracker players={currentFreeAgents} />
         </div>
 <div className="mt-8 rounded-xl border border-slate-700 bg-[#0d1d30] p-6">
