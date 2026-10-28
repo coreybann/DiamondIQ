@@ -1,3 +1,5 @@
+export const revalidate = 3600;
+
 import FreeAgentTracker from "./FreeAgentTracker";
 import {
   getFreeAgentSignings,
@@ -57,6 +59,7 @@ const historicalSignings = await getFreeAgentSignings(
           ? ("Signing Reported" as const)
           : player.status,
         signedTeam: signing?.toTeam ?? player.signedTeam,
+        signingDate: signing?.date ?? player.signingDate,
       };
     });
 

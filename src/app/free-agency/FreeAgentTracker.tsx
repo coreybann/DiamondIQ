@@ -95,6 +95,7 @@ export default function FreeAgentTracker({ players }: Props) {
                 "Last Known Organization",
                 "Status",
                 "Signed Team",
+                "Signing Date",
               ].map((heading) => (
                 <th
                   key={heading}
@@ -135,6 +136,9 @@ export default function FreeAgentTracker({ players }: Props) {
                 </td>
                 <td className="whitespace-nowrap px-4 py-4">
                   {player.signedTeam ?? "—"}
+                </td>
+                <td className="whitespace-nowrap px-4 py-4">
+                  {player.signingDate ?? "—"}
                 </td>
               </tr>
             ))}

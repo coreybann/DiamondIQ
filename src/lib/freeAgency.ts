@@ -10,6 +10,7 @@ export type FreeAgent = {
   status: FreeAgentStatus;
   offseason: string;
   signedTeam?: string;
+  signingDate?: string;
   contractYears?: number;
   contractValue?: number;
 };
