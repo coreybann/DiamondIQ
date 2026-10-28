@@ -59,8 +59,7 @@ const features = [
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-[#081321] text-white">
-      
+<main className="min-h-screen w-full min-w-0 overflow-x-hidden bg-[#081321] text-white">      
 
       <section className="mx-auto max-w-7xl px-6 py-12 md:py-24">
         <div className="max-w-4xl">
