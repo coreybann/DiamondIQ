@@ -44,16 +44,14 @@ export default async function TeamPage({
 
   return (
     <main className="min-h-screen bg-[#081321] text-white">
-      <header className="border-b border-white/10 bg-[#0d1d30] px-6 py-5">
-        <nav className="mx-auto flex max-w-7xl items-center justify-between">
-          <Link href="/" className="text-2xl font-bold">
-            <span className="text-blue-400">◆</span> DiamondIQ
-          </Link>
-          <Link href="/stats" className="text-sm text-blue-400">
-            ← All MLB Teams
-          </Link>
-        </nav>
-      </header>
+      <div className="mx-auto max-w-7xl px-6 pt-6">
+  <Link
+    href="/stats"
+    className="inline-block text-sm text-blue-400 hover:text-blue-300"
+  >
+    ← All MLB Teams
+  </Link>
+</div>
 
       <section className="mx-auto max-w-7xl px-6 py-16">
         <p className="mb-4 text-sm font-bold uppercase tracking-widest text-blue-400">
