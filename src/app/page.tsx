@@ -1,50 +1,61 @@
 
 import Link from "next/link";
+import {
+  Activity,
+  ArrowLeftRight,
+  BarChart3,
+  BookOpen,
+  ChartNoAxesCombined,
+  Search,
+  UserRound,
+  Users,
+} from "lucide-react";
 
 const features = [
   {
-    icon: "⚾",
+    icon: BarChart3,
     title: "MLB Statistics",
     description:
       "Explore player performance, advanced metrics, and team statistics.",
     href: "/stats",
   },
   {
-    icon: "🔎",
+    icon: Search,
     title: "Scouting Hub",
     description:
       "Evaluate players, analyze strengths, and discover future talent.",
     href: "/scouting",
   },
   {
-    icon: "📊",
+    icon: ArrowLeftRight,
     title: "Player Comparisons",
     description:
       "Compare players using performance metrics and visualizations.",
     href: "/compare",
   },
   {
-    icon: "🏟️",
+    icon: Users,
     title: "Front Office Lab",
     description:
       "Explore roster construction, player value, and baseball strategy.",
     href: "/front-office",
   },
   {
-    icon: "💻",
+    icon: BookOpen,
     title: "Research & Projects",
     description:
       "Explore original baseball analytics projects and research.",
     href: "/research",
   },
   {
-    icon: "👤",
+    icon: UserRound,
     title: "About Me",
     description:
       "Learn about my background, experience, and career goals.",
     href: "/about",
   },
 ];
+
 
 export default function Home() {
   return (
@@ -63,10 +74,10 @@ export default function Home() {
             </span>
           </h1>
           <p className="mt-7 max-w-2xl text-lg leading-8 text-slate-400">
-            Explore advanced MLB statistics, player evaluations,
-            scouting insights, and front office analysis through
-            data-driven baseball research.
-          </p>
+  Explore MLB statistics, scouting reports, player comparisons,
+  contract projections, and trade analysis through an
+  interactive baseball analytics platform.
+</p>
           <div className="mt-9 flex flex-wrap gap-4">
             <Link
               href="/stats"
@@ -91,17 +102,17 @@ export default function Home() {
 
   <div className="grid grid-cols-2 gap-3">
     {[
-      { name: "MLB Stats", href: "/stats", icon: "📊" },
-      { name: "Compare", href: "/compare", icon: "⇄" },
-      { name: "Player Trends", href: "/trends", icon: "📈" },
-      { name: "Scouting", href: "/scouting", icon: "⚾" },
-    ].map((item) => (
+  { name: "MLB Stats", href: "/stats", icon: BarChart3 },
+  { name: "Compare", href: "/compare", icon: ArrowLeftRight },
+  { name: "Player Trends", href: "/trends", icon: ChartNoAxesCombined },
+  { name: "Scouting", href: "/scouting", icon: Search },
+].map((item) => (
       <Link
         key={item.href}
         href={item.href}
         className="flex min-h-28 flex-col justify-center gap-2 rounded-xl border border-slate-700 bg-[#12243a] p-4 transition-colors active:bg-[#1b3654]"
       >
-        <span className="text-2xl">{item.icon}</span>
+        <item.icon size={26} strokeWidth={1.8} className="text-blue-400" />
         <span className="text-sm font-semibold">{item.name}</span>
       </Link>
     ))}
@@ -115,11 +126,11 @@ export default function Home() {
           </div>
           <div>
             <p className="text-4xl font-bold text-blue-400">6</p>
-            <p className="mt-2 text-slate-400">Website Sections</p>
+<p className="mt-2 text-slate-400">Core Features</p>
           </div>
           <div>
-            <p className="text-4xl font-bold text-blue-400">1</p>
-            <p className="mt-2 text-slate-400">Better Baseball Decisions</p>
+            <p className="text-4xl font-bold text-blue-400">100%</p>
+<p className="mt-2 text-slate-400">Independent Research</p>
           </div>
         </div>
       </section>
@@ -137,7 +148,9 @@ export default function Home() {
               href={feature.href}
               className="rounded-xl border border-slate-700 bg-[#12243a] p-7 transition hover:-translate-y-1 hover:border-blue-400"
             >
-              <div className="mb-5 text-3xl">{feature.icon}</div>
+              <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-lg bg-blue-500/10 text-blue-400">
+  <feature.icon size={26} strokeWidth={1.8} />
+</div>
               <h3 className="text-xl font-bold">{feature.title}</h3>
               <p className="mt-3 leading-7 text-slate-400">
                 {feature.description}
