@@ -1,3 +1,5 @@
+import { getTeamFwar } from "@/lib/teamFwar";
+import SortableBattingTable from "./SortableBattingTable";
 import { getDefaultMLBSeason } from "@/lib/mlbSeason";
 type Hitter = {
   id: number;
@@ -9,12 +11,14 @@ type Hitter = {
   ops: string;
   homeRuns: number;
   rbi: number;
+  plateAppearances: number;
+  fwar: number | null;
 };
 
 async function getBattingStats(teamId: string): Promise<Hitter[]> {
   const season = getDefaultMLBSeason();
   const response = await fetch(
-    `https://statsapi.mlb.com/api/v1/teams/${teamId}/roster?rosterType=fullSeason&sseason=${season}&hydrate=person(stats(type=season,group=hitting,season=2026))`,
+    `https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=${season}&teamId=${teamId}&playerPool=ALL&gameType=R`,
     { next: { revalidate: 3600 } }
   );
 
@@ -23,31 +27,25 @@ async function getBattingStats(teamId: string): Promise<Hitter[]> {
   }
 
   const data = await response.json();
+  const splits = data.stats?.[0]?.splits ?? [];
+const warLookup = await getTeamFwar(teamId, season, "bat");
+  return splits.map((entry: any) => {
+    const stat = entry.stat ?? {};
 
-  return (data.roster ?? [])
-    .map((entry: any) => {
-      const statGroup = entry.person?.stats?.find(
-        (group: any) => group.group?.displayName === "hitting"
-      );
-
-      const stat = statGroup?.splits?.[0]?.stat;
-
-      if (!stat) return null;
-
-      return {
-        id: entry.person.id,
-        name: entry.person.fullName,
-        games: stat.gamesPlayed ?? 0,
-        avg: stat.avg ?? ".000",
-        obp: stat.obp ?? ".000",
-        slg: stat.slg ?? ".000",
-        ops: stat.ops ?? ".000",
-        homeRuns: stat.homeRuns ?? 0,
-        rbi: stat.rbi ?? 0,
-      };
-    })
-    .filter((player: Hitter | null): player is Hitter => player !== null)
-    .sort((a: Hitter, b: Hitter) => b.homeRuns - a.homeRuns);
+    return {
+      id: entry.player.id,
+      name: entry.player.fullName,
+      games: stat.gamesPlayed ?? 0,
+      avg: stat.avg ?? ".000",
+      obp: stat.obp ?? ".000",
+      slg: stat.slg ?? ".000",
+      ops: stat.ops ?? ".000",
+      homeRuns: stat.homeRuns ?? 0,
+      rbi: stat.rbi ?? 0,
+plateAppearances: stat.plateAppearances ?? 0,
+fwar: warLookup.get(entry.player.id) ?? null,
+    };
+  });
 }
 
 export default async function BattingStats({
@@ -83,47 +81,7 @@ export default async function BattingStats({
           No 2026 batting statistics are currently available.
         </p>
       ) : (
-        <div className="overflow-x-auto rounded-xl border border-slate-700">
-          <table className="w-full text-left text-sm">
-            <thead className="bg-[#162a43] text-slate-300">
-              <tr>
-                {["Player", "G", "AVG", "OBP", "SLG", "OPS", "HR", "RBI"].map(
-                  (heading) => (
-                    <th
-  key={heading}
-  className={`px-4 py-4 whitespace-nowrap ${
-    heading === "Player"
-      ? "sticky left-0 z-20 min-w-[150px] bg-[#162a43] md:static"
-      : ""
-  }`}
->
-                      {heading}
-                    </th>
-                  )
-                )}
-              </tr>
-            </thead>
-            <tbody>
-              {hitters.map((player) => (
-                <tr
-                  key={player.id}
-                  className="border-t border-slate-700 hover:bg-white/5"
-                >
-                  <td className="sticky left-0 z-10 min-w-[150px] bg-[#081321] px-4 py-4 font-semibold whitespace-nowrap md:static md:bg-transparent">
-                    {player.name}
-                  </td>
-                  <td className="px-4 py-4">{player.games}</td>
-                  <td className="px-4 py-4">{player.avg}</td>
-                  <td className="px-4 py-4">{player.obp}</td>
-                  <td className="px-4 py-4">{player.slg}</td>
-                  <td className="px-4 py-4">{player.ops}</td>
-                  <td className="px-4 py-4">{player.homeRuns}</td>
-                  <td className="px-4 py-4">{player.rbi}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
+        <SortableBattingTable hitters={hitters} />
       )}
     </section>
   );
