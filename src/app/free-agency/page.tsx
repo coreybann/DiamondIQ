@@ -1,6 +1,7 @@
 export const revalidate = 3600;
 
 import FreeAgentTracker from "./FreeAgentTracker";
+import { getWorldSeriesEndDate } from "@/lib/worldSeries";
 import {
   getFreeAgentSignings,
   getMLBPlayerPositions,
@@ -17,11 +18,16 @@ const lastUpdated = new Date().toISOString();
 const offseasonStartYear = Number(offseason.split("-")[0]);
 
 const today = new Date().toISOString().slice(0, 10);
-const currentOffseasonStart = `${offseasonStartYear}-10-01`;
+const worldSeriesEndDate = await getWorldSeriesEndDate(offseasonStartYear);
+const currentOffseasonStart = worldSeriesEndDate
+  ? new Date(
+      new Date(`${worldSeriesEndDate}T00:00:00Z`).getTime() + 86400000
+    ).toISOString().slice(0, 10)
+  : null;
 const currentOffseasonEnd = `${offseasonStartYear + 1}-03-31`;
 
 const currentSignings =
-  today >= currentOffseasonStart
+  currentOffseasonStart !== null && today >= currentOffseasonStart
     ? await getFreeAgentSignings(
         currentOffseasonStart,
         today < currentOffseasonEnd
