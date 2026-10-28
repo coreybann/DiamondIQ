@@ -12,9 +12,41 @@ export default function FreeAgentTracker({ players }: Props) {
   const [search, setSearch] = useState("");
   const [position, setPosition] = useState("All");
   const [status, setStatus] = useState("All");
+  const [team, setTeam] = useState("All");
+
+  const teams = useMemo(() => {
+    return [...new Set(
+      players
+        .map((player) => player.previousTeam)
+        .filter((name) => name && name !== "Unknown")
+    )].sort((a, b) => a.localeCompare(b));
+  }, [players]);
+
+  type SortKey =
+    | "name"
+    | "position"
+    | "age"
+    | "previousTeam"
+    | "status"
+    | "signedTeam"
+    | "signingDate";
+
+  const [sortKey, setSortKey] = useState<SortKey>("name");
+  const [sortDirection, setSortDirection] = useState<"asc" | "desc">("asc");
+
+  const handleSort = (key: SortKey) => {
+    if (sortKey === key) {
+      setSortDirection((current) =>
+        current === "asc" ? "desc" : "asc"
+      );
+    } else {
+      setSortKey(key);
+      setSortDirection("asc");
+    }
+  };
 
   const filteredPlayers = useMemo(() => {
-    return players.filter((player) => {
+    const filtered = players.filter((player) => {
       const matchesSearch = player.name
         .toLowerCase()
         .includes(search.trim().toLowerCase());
@@ -34,9 +66,34 @@ export default function FreeAgentTracker({ players }: Props) {
       const matchesStatus =
         status === "All" || player.status === status;
 
-      return matchesSearch && matchesPosition && matchesStatus;
+      const matchesTeam =
+        team === "All" || player.previousTeam === team;
+
+      return matchesSearch && matchesPosition && matchesStatus && matchesTeam;
     });
-  }, [players, search, position, status]);
+    return filtered.sort((a, b) => {
+      const aValue = a[sortKey];
+      const bValue = b[sortKey];
+
+      const aMissing = aValue === null || aValue === undefined || aValue === "";
+      const bMissing = bValue === null || bValue === undefined || bValue === "";
+
+      if (aMissing && bMissing) return a.name.localeCompare(b.name);
+      if (aMissing) return 1;
+      if (bMissing) return -1;
+
+      const comparison =
+        typeof aValue === "number" && typeof bValue === "number"
+          ? aValue - bValue
+          : String(aValue).localeCompare(String(bValue), undefined, {
+              numeric: true,
+              sensitivity: "base",
+            });
+
+      return (sortDirection === "asc" ? comparison : -comparison) ||
+        a.name.localeCompare(b.name);
+    });
+  }, [players, search, position, status, team, sortKey, sortDirection]);
 
   return (
     <>
@@ -68,6 +125,20 @@ export default function FreeAgentTracker({ players }: Props) {
         </select>
 
         <select
+          value={team}
+          onChange={(event) => setTeam(event.target.value)}
+          aria-label="Filter by last known organization"
+          className="rounded-lg border border-slate-600 bg-[#081321] px-4 py-2 text-sm text-white"
+        >
+          <option value="All">All Teams</option>
+          {teams.map((teamName) => (
+            <option key={teamName} value={teamName}>
+              {teamName}
+            </option>
+          ))}
+        </select>
+
+        <select
           value={status}
           onChange={(event) => setStatus(event.target.value)}
           className="rounded-lg border border-slate-600 bg-[#081321] px-4 py-2 text-sm text-white"
@@ -84,6 +155,18 @@ export default function FreeAgentTracker({ players }: Props) {
         Showing {filteredPlayers.length} of {players.length} players
       </p>
 
+      <div className="mb-5 rounded-lg border border-slate-700 bg-[#081321] p-4">
+        <p className="mb-3 text-sm font-semibold text-white">
+          Understanding Signing Statuses
+        </p>
+        <div className="grid gap-2 text-xs text-gray-400 sm:grid-cols-2">
+          <p><span className="font-semibold text-slate-300">Potential Free Agent:</span> Expected to reach free agency; eligibility not yet confirmed.</p>
+          <p><span className="font-semibold text-green-300">Available:</span> Confirmed free agent without a reported signing.</p>
+          <p><span className="font-semibold text-amber-300">Signing Reported:</span> Signing detected in MLB transaction records.</p>
+          <p><span className="font-semibold text-blue-300">Signed:</span> Signing independently confirmed.</p>
+        </div>
+      </div>
+
       <div className="overflow-x-auto">
         <table className="w-full text-left text-sm">
           <thead className="border-b border-slate-700 text-gray-400">
@@ -96,14 +179,48 @@ export default function FreeAgentTracker({ players }: Props) {
                 "Status",
                 "Signed Team",
                 "Signing Date",
-              ].map((heading) => (
-                <th
-                  key={heading}
-                  className="whitespace-nowrap px-4 py-3 font-semibold"
-                >
-                  {heading}
-                </th>
-              ))}
+              ].map((heading, index) => {
+                const keys: SortKey[] = [
+                  "name",
+                  "position",
+                  "age",
+                  "previousTeam",
+                  "status",
+                  "signedTeam",
+                  "signingDate",
+                ];
+                const key = keys[index];
+
+                return (
+                  <th
+                    key={heading}
+                    scope="col"
+                    aria-sort={
+                      sortKey === key
+                        ? sortDirection === "asc"
+                          ? "ascending"
+                          : "descending"
+                        : "none"
+                    }
+                    className="whitespace-nowrap px-4 py-3 font-semibold"
+                  >
+                    <button
+                      type="button"
+                      onClick={() => handleSort(key)}
+                      className="flex items-center gap-2 text-left hover:text-blue-400"
+                    >
+                      {heading}
+                      <span className="text-blue-400">
+                        {sortKey === key
+                          ? sortDirection === "asc"
+                            ? "↑"
+                            : "↓"
+                          : "↕"}
+                      </span>
+                    </button>
+                  </th>
+                );
+              })}
             </tr>
           </thead>
 
@@ -132,7 +249,19 @@ export default function FreeAgentTracker({ players }: Props) {
                   {player.previousTeam}
                 </td>
                 <td className="whitespace-nowrap px-4 py-4">
-                  {player.status}
+                  <span
+                    className={`inline-flex rounded-full border px-3 py-1 text-xs font-semibold ${
+                      player.status === "Signed"
+                        ? "border-blue-500/30 bg-blue-500/10 text-blue-300"
+                        : player.status === "Signing Reported"
+                          ? "border-amber-500/30 bg-amber-500/10 text-amber-300"
+                          : player.status === "Available"
+                            ? "border-green-500/30 bg-green-500/10 text-green-300"
+                            : "border-slate-500/30 bg-slate-500/10 text-slate-300"
+                    }`}
+                  >
+                    {player.status}
+                  </span>
                 </td>
                 <td className="whitespace-nowrap px-4 py-4">
                   {player.signedTeam ?? "—"}
