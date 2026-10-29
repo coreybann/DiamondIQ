@@ -1,5 +1,6 @@
 import freeAgentTeams from "../../public/data/free-agent-teams-2026.json";
 import verifiedStatusData from "../../public/data/free-agent-status-2027.json";
+import mlbpaData from "../../public/data/mlbpa-confirmed-free-agents-2027.json";
 export type FreeAgentStatus =
   | "Potential Free Agent"
   | "Pending Option"
@@ -45,6 +46,9 @@ const verifiedStatuses = verifiedStatusData.players as Record<
     source: string;
   }
 >;
+const mlbpaConfirmedNames = new Set(
+  mlbpaData.players.map((player) => player.name)
+);
 const freeAgencyStart = new Date("2026-10-29T09:00:00-04:00");
 const freeAgencyHasStarted = new Date() >= freeAgencyStart;
 export const freeAgents: FreeAgent[] = freeAgentData.players.map(
@@ -57,11 +61,13 @@ export const freeAgents: FreeAgent[] = freeAgentData.players.map(
   contractOption: player.contractOption,
 status:
   verifiedStatuses[player.name]?.status ??
-  (player.contractOption
-    ? "Pending Option"
-    : freeAgencyHasStarted
-      ? "Available"
-      : "Potential Free Agent"),
+  (mlbpaConfirmedNames.has(player.name)
+    ? "Available"
+    : player.contractOption
+      ? "Pending Option"
+      : freeAgencyHasStarted
+        ? "Available"
+        : "Potential Free Agent"),
     offseason: "2026-2027",
   })
 );

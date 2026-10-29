@@ -1,0 +1,583 @@
+{
+  "season": 2027,
+  "source": "https://www.mlbplayers.com/post/144-players-become-xx-b-free-agents",
+  "sourceDate": "2026-10-29",
+  "players": [
+    {
+      "name": "Taylor Clarke",
+      "team": "Arizona Diamondbacks"
+    },
+    {
+      "name": "Zac Gallen",
+      "team": "Arizona Diamondbacks"
+    },
+    {
+      "name": "Kevin Ginkel",
+      "team": "Arizona Diamondbacks"
+    },
+    {
+      "name": "Jonathan Loaisiga",
+      "team": "Arizona Diamondbacks"
+    },
+    {
+      "name": "James McCann",
+      "team": "Arizona Diamondbacks"
+    },
+    {
+      "name": "A.J. Puk",
+      "team": "Arizona Diamondbacks"
+    },
+    {
+      "name": "Dennis Santana",
+      "team": "Arizona Diamondbacks"
+    },
+    {
+      "name": "Ryan Thompson",
+      "team": "Arizona Diamondbacks"
+    },
+    {
+      "name": "Ildemaro Vargas",
+      "team": "Arizona Diamondbacks"
+    },
+    {
+      "name": "Jonah Heim",
+      "team": "Athletics"
+    },
+    {
+      "name": "Brooks Kriske",
+      "team": "Athletics"
+    },
+    {
+      "name": "Mark Leiter Jr.",
+      "team": "Athletics"
+    },
+    {
+      "name": "Mauricio Dubon",
+      "team": "Atlanta Braves"
+    },
+    {
+      "name": "Kyle Farmer",
+      "team": "Atlanta Braves"
+    },
+    {
+      "name": "Raisel Iglesias",
+      "team": "Atlanta Braves"
+    },
+    {
+      "name": "Joe Jimenez",
+      "team": "Atlanta Braves"
+    },
+    {
+      "name": "Ha-Seong Kim",
+      "team": "Atlanta Braves"
+    },
+    {
+      "name": "Tyler Mahle",
+      "team": "Atlanta Braves"
+    },
+    {
+      "name": "Martin Perez",
+      "team": "Atlanta Braves"
+    },
+    {
+      "name": "Dominic Smith",
+      "team": "Atlanta Braves"
+    },
+    {
+      "name": "Brent Suter",
+      "team": "Atlanta Braves"
+    },
+    {
+      "name": "Rowdy Tellez",
+      "team": "Atlanta Braves"
+    },
+    {
+      "name": "Lane Thomas",
+      "team": "Atlanta Braves"
+    },
+    {
+      "name": "Keegan Akin",
+      "team": "Baltimore Orioles"
+    },
+    {
+      "name": "Chris Bassitt",
+      "team": "Baltimore Orioles"
+    },
+    {
+      "name": "Andrew Kittredge",
+      "team": "Baltimore Orioles"
+    },
+    {
+      "name": "Trevor Rogers",
+      "team": "Baltimore Orioles"
+    },
+    {
+      "name": "Isiah Kiner-Falefa",
+      "team": "Boston Red Sox"
+    },
+    {
+      "name": "Patrick Sandoval",
+      "team": "Boston Red Sox"
+    },
+    {
+      "name": "Aaron Civale",
+      "team": "Chicago Cubs"
+    },
+    {
+      "name": "Michael Conforto",
+      "team": "Chicago Cubs"
+    },
+    {
+      "name": "Kevin Gausman",
+      "team": "Chicago Cubs"
+    },
+    {
+      "name": "Ian Happ",
+      "team": "Chicago Cubs"
+    },
+    {
+      "name": "Shota Imanaga",
+      "team": "Chicago Cubs"
+    },
+    {
+      "name": "David Peterson",
+      "team": "Chicago Cubs"
+    },
+    {
+      "name": "Seiya Suzuki",
+      "team": "Chicago Cubs"
+    },
+    {
+      "name": "Tyrone Taylor",
+      "team": "Chicago Cubs"
+    },
+    {
+      "name": "Trent Thornton",
+      "team": "Chicago Cubs"
+    },
+    {
+      "name": "Erick Fedde",
+      "team": "Chicago White Sox"
+    },
+    {
+      "name": "Randal Grichuk",
+      "team": "Chicago White Sox"
+    },
+    {
+      "name": "Sean Newcomb",
+      "team": "Chicago White Sox"
+    },
+    {
+      "name": "Tommy Pham",
+      "team": "Chicago White Sox"
+    },
+    {
+      "name": "Trevor Richards",
+      "team": "Chicago White Sox"
+    },
+    {
+      "name": "Jake Rogers",
+      "team": "Chicago White Sox"
+    },
+    {
+      "name": "Brock Burke",
+      "team": "Cincinnati Reds"
+    },
+    {
+      "name": "Brandon Leibrandt",
+      "team": "Cincinnati Reds"
+    },
+    {
+      "name": "Brady Singer",
+      "team": "Cincinnati Reds"
+    },
+    {
+      "name": "Tyler Stephenson",
+      "team": "Cincinnati Reds"
+    },
+    {
+      "name": "Foster Griffin",
+      "team": "Cleveland Guardians"
+    },
+    {
+      "name": "Austin Hedges",
+      "team": "Cleveland Guardians"
+    },
+    {
+      "name": "Rhys Hoskins",
+      "team": "Cleveland Guardians"
+    },
+    {
+      "name": "Nathaniel Lowe",
+      "team": "Cleveland Guardians"
+    },
+    {
+      "name": "Kyle Freeland",
+      "team": "Colorado Rockies"
+    },
+    {
+      "name": "Jose Quintana",
+      "team": "Colorado Rockies"
+    },
+    {
+      "name": "Jordan Romano",
+      "team": "Colorado Rockies"
+    },
+    {
+      "name": "Tomoyuki Sugano",
+      "team": "Colorado Rockies"
+    },
+    {
+      "name": "Jack Flaherty",
+      "team": "Detroit Tigers"
+    },
+    {
+      "name": "Tyler Kinley",
+      "team": "Detroit Tigers"
+    },
+    {
+      "name": "Burch Smith",
+      "team": "Detroit Tigers"
+    },
+    {
+      "name": "Gleyber Torres",
+      "team": "Detroit Tigers"
+    },
+    {
+      "name": "Justin Verlander",
+      "team": "Detroit Tigers"
+    },
+    {
+      "name": "Jacob Waguespack",
+      "team": "Detroit Tigers"
+    },
+    {
+      "name": "Bryan Abreu",
+      "team": "Houston Astros"
+    },
+    {
+      "name": "Enyel De Los Santos",
+      "team": "Houston Astros"
+    },
+    {
+      "name": "Steven Okert",
+      "team": "Houston Astros"
+    },
+    {
+      "name": "Daulton Varsho",
+      "team": "Houston Astros"
+    },
+    {
+      "name": "Christian Vazquez",
+      "team": "Houston Astros"
+    },
+    {
+      "name": "LaMonte Wade Jr.",
+      "team": "Houston Astros"
+    },
+    {
+      "name": "Jonathan India",
+      "team": "Kansas City Royals"
+    },
+    {
+      "name": "Craig Kimbrel",
+      "team": "Kansas City Royals"
+    },
+    {
+      "name": "Luke Maile",
+      "team": "Kansas City Royals"
+    },
+    {
+      "name": "Josh Rojas",
+      "team": "Kansas City Royals"
+    },
+    {
+      "name": "Travis d'Arnaud",
+      "team": "Los Angeles Angels"
+    },
+    {
+      "name": "Adam Frazier",
+      "team": "Los Angeles Angels"
+    },
+    {
+      "name": "Yoan Moncada",
+      "team": "Los Angeles Angels"
+    },
+    {
+      "name": "Anthony Rendon",
+      "team": "Los Angeles Angels"
+    },
+    {
+      "name": "Kris Bubic",
+      "team": "Los Angeles Dodgers"
+    },
+    {
+      "name": "Brusdar Graterol",
+      "team": "Los Angeles Dodgers"
+    },
+    {
+      "name": "Enrique Hernandez",
+      "team": "Los Angeles Dodgers"
+    },
+    {
+      "name": "Eric Lauer",
+      "team": "Los Angeles Dodgers"
+    },
+    {
+      "name": "Evan Phillips",
+      "team": "Los Angeles Dodgers"
+    },
+    {
+      "name": "Miguel Rojas",
+      "team": "Los Angeles Dodgers"
+    },
+    {
+      "name": "Tarik Skubal",
+      "team": "Los Angeles Dodgers"
+    },
+    {
+      "name": "Blake Treinen",
+      "team": "Los Angeles Dodgers"
+    },
+    {
+      "name": "Alex Vesia",
+      "team": "Los Angeles Dodgers"
+    },
+    {
+      "name": "Pete Fairbanks",
+      "team": "Miami Marlins"
+    },
+    {
+      "name": "Jake Bauers",
+      "team": "Milwaukee Brewers"
+    },
+    {
+      "name": "JoJo Romero",
+      "team": "Milwaukee Brewers"
+    },
+    {
+      "name": "Brandon Woodruff",
+      "team": "Milwaukee Brewers"
+    },
+    {
+      "name": "Ryan Jeffers",
+      "team": "Minnesota Twins"
+    },
+    {
+      "name": "A.J. Minter",
+      "team": "Minnesota Twins"
+    },
+    {
+      "name": "Taylor Rogers",
+      "team": "Minnesota Twins"
+    },
+    {
+      "name": "David Bednar",
+      "team": "New York Yankees"
+    },
+    {
+      "name": "Paul Blackburn",
+      "team": "New York Yankees"
+    },
+    {
+      "name": "Jazz Chisholm Jr.",
+      "team": "New York Yankees"
+    },
+    {
+      "name": "Michael Fulmer",
+      "team": "New York Yankees"
+    },
+    {
+      "name": "Paul Goldschmidt",
+      "team": "New York Yankees"
+    },
+    {
+      "name": "Trent Grisham",
+      "team": "New York Yankees"
+    },
+    {
+      "name": "Tim Hill",
+      "team": "New York Yankees"
+    },
+    {
+      "name": "Amed Rosario",
+      "team": "New York Yankees"
+    },
+    {
+      "name": "John Schreiber",
+      "team": "New York Yankees"
+    },
+    {
+      "name": "Ryan Yarbrough",
+      "team": "New York Yankees"
+    },
+    {
+      "name": "Jose Alvarado",
+      "team": "Philadelphia Phillies"
+    },
+    {
+      "name": "Luis Arraez",
+      "team": "Philadelphia Phillies"
+    },
+    {
+      "name": "Alec Bohm",
+      "team": "Philadelphia Phillies"
+    },
+    {
+      "name": "Nestor Cortes",
+      "team": "Philadelphia Phillies"
+    },
+    {
+      "name": "Adolis Garcia",
+      "team": "Philadelphia Phillies"
+    },
+    {
+      "name": "Brooks Raley",
+      "team": "Philadelphia Phillies"
+    },
+    {
+      "name": "Edmundo Sosa",
+      "team": "Philadelphia Phillies"
+    },
+    {
+      "name": "Brandon Lowe",
+      "team": "Pittsburgh Pirates"
+    },
+    {
+      "name": "Gregory Soto",
+      "team": "Pittsburgh Pirates"
+    },
+    {
+      "name": "Kirby Yates",
+      "team": "Pittsburgh Pirates"
+    },
+    {
+      "name": "Jason Adam",
+      "team": "San Diego Padres"
+    },
+    {
+      "name": "Walker Buehler",
+      "team": "San Diego Padres"
+    },
+    {
+      "name": "Ty France",
+      "team": "San Diego Padres"
+    },
+    {
+      "name": "Austin Hays",
+      "team": "San Diego Padres"
+    },
+    {
+      "name": "Ramon Laureano",
+      "team": "San Diego Padres"
+    },
+    {
+      "name": "Casey Mize",
+      "team": "San Diego Padres"
+    },
+    {
+      "name": "Adrian Morejon",
+      "team": "San Diego Padres"
+    },
+    {
+      "name": "Robbie Ray",
+      "team": "San Diego Padres"
+    },
+    {
+      "name": "Luis Rengifo",
+      "team": "San Diego Padres"
+    },
+    {
+      "name": "JT Brubaker",
+      "team": "San Francisco Giants"
+    },
+    {
+      "name": "Randy Arozarena",
+      "team": "Seattle Mariners"
+    },
+    {
+      "name": "J.P. Crawford",
+      "team": "Seattle Mariners"
+    },
+    {
+      "name": "Hoby Milner",
+      "team": "Seattle Mariners"
+    },
+    {
+      "name": "Taylor Ward",
+      "team": "Seattle Mariners"
+    },
+    {
+      "name": "Gavin Lux",
+      "team": "Tampa Bay Rays"
+    },
+    {
+      "name": "Jorge Mateo",
+      "team": "Tampa Bay Rays"
+    },
+    {
+      "name": "Freddy Peralta",
+      "team": "Tampa Bay Rays"
+    },
+    {
+      "name": "Tyler Alexander",
+      "team": "Texas Rangers"
+    },
+    {
+      "name": "Jalen Beeks",
+      "team": "Texas Rangers"
+    },
+    {
+      "name": "Elias Diaz",
+      "team": "Texas Rangers"
+    },
+    {
+      "name": "Nicky Lopez",
+      "team": "Texas Rangers"
+    },
+    {
+      "name": "Jordan Montgomery",
+      "team": "Texas Rangers"
+    },
+    {
+      "name": "Cal Quantrill",
+      "team": "Texas Rangers"
+    },
+    {
+      "name": "Trevor Williams",
+      "team": "Texas Rangers"
+    },
+    {
+      "name": "Shane Bieber",
+      "team": "Toronto Blue Jays"
+    },
+    {
+      "name": "Patrick Corbin",
+      "team": "Toronto Blue Jays"
+    },
+    {
+      "name": "Yimi Garcia",
+      "team": "Toronto Blue Jays"
+    },
+    {
+      "name": "Max Scherzer",
+      "team": "Toronto Blue Jays"
+    },
+    {
+      "name": "Paul Sewald",
+      "team": "Toronto Blue Jays"
+    },
+    {
+      "name": "George Springer",
+      "team": "Toronto Blue Jays"
+    },
+    {
+      "name": "Jameson Taillon",
+      "team": "Toronto Blue Jays"
+    },
+    {
+      "name": "Luis Urias",
+      "team": "Toronto Blue Jays"
+    }
+  ]
+}
