@@ -61,12 +61,12 @@ export default function Home() {
   return (
 <main className="min-h-screen w-full min-w-0 overflow-x-hidden bg-[#081321] text-white">      
 
-      <section className="mx-auto max-w-7xl px-6 py-12 md:py-24">
+  <section className="mx-auto w-full max-w-7xl min-w-0 px-4 py-10 sm:px-6 md:py-24">
         <div className="max-w-4xl">
           <p className="mb-5 text-sm font-bold uppercase tracking-[0.25em] text-blue-400">
             Baseball Analytics & Scouting
           </p>
-          <h1 className="text-4xl font-black leading-tight tracking-tight sm:text-5xl md:text-7xl">
+       <h1 className="text-3xl font-black leading-tight tracking-tight [overflow-wrap:anywhere] sm:text-5xl md:text-7xl">
             Baseball Intelligence.
             <span className="block text-blue-400">
               Better Decisions.

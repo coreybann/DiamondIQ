@@ -150,19 +150,62 @@ const selectedPlayerWar = selectedPlayer
   : null;
 
 const warLookup = useMemo(() => {
-  return new Map(
-    warData.map((record) => [
-      normalizePlayerName(record.player_name),
-      record,
-    ])
-  );
+  const lookup = new Map<string, typeof warData>();
+
+  for (const record of warData) {
+    const name = normalizePlayerName(record.player_name);
+    const existing = lookup.get(name) ?? [];
+    lookup.set(name, [...existing, record]);
+  }
+
+  return lookup;
 }, [warData]);
+const resolveWarRecord = (player: {
+  player: string;
+  team: string;
+}) => {
+  const matchingRecords =
+    warLookup.get(normalizePlayerName(player.player)) ?? [];
+
+  if (matchingRecords.length === 1) {
+    return matchingRecords[0];
+  }
+
+  if (normalizePlayerName(player.player) === "maxmuncy") {
+    const playerId =
+      player.team === "Los Angeles Dodgers" ? 571970 :
+      player.team === "Athletics" ? 691777 :
+      null;
+
+    return matchingRecords.find(
+      record => record.player_id === playerId
+    );
+  }
+if (normalizePlayerName(player.player) === "josefermin") {
+  const playerId =
+    player.team === "St. Louis Cardinals" ? 665877 :
+    player.team === "Los Angeles Angels" ? 820862 :
+    null;
+
+  return matchingRecords.find(
+    record => record.player_id === playerId
+  );
+}
+if (normalizePlayerName(player.player) === "luisgarcia") {
+  if (player.team === "Washington Nationals") {
+    return matchingRecords.find(
+      record => record.player_id === 671277
+    );
+  }
+
+  return undefined;
+}
+  return undefined;
+};
 const playerEfficiency = salaryData
   .map((player) => {
 
-const warRecord = warLookup.get(
-  normalizePlayerName(player.player)
-);
+const warRecord = resolveWarRecord(player);
 
 
 
@@ -195,9 +238,7 @@ const highestWarPlayers = salaryData
   .map((player) => {
 
 
-const warRecord = warLookup.get(
-  normalizePlayerName(player.player)
-);
+const warRecord = resolveWarRecord(player);
 
 
 
@@ -243,9 +284,7 @@ const leaderboardPlayers =
 
           
 
-const warRecord = warLookup.get(
-  normalizePlayerName(player.player)
-);
+const warRecord = resolveWarRecord(player);
 
 
 
@@ -288,9 +327,7 @@ const teamRosterValue = Object.values(
     team.payroll += player.salary;
     team.players += 1;
 
-    const warRecord = warLookup.get(
-      normalizePlayerName(player.player)
-    );
+const warRecord = resolveWarRecord(player);
 
     if (warRecord) {
       team.totalWar += warRecord.war;
@@ -447,11 +484,42 @@ const [payrollChartFilter, setPayrollChartFilter] = useState<
 const [selectedPayrollTeam, setSelectedPayrollTeam] = useState("");
 
 const selectedPlayerSalary = selectedPlayer
-  ? salaryData.find(
-      (record) =>
-        record.player.trim().toLowerCase() ===
-        selectedPlayer.fullName.trim().toLowerCase()
-    )
+  ? salaryData.find((record) => {
+      const nameMatches =
+        normalizePlayerName(record.player) ===
+        normalizePlayerName(selectedPlayer.fullName);
+
+      if (!nameMatches) return false;
+
+      if (normalizePlayerName(record.player) === "maxmuncy") {
+        if (selectedPlayer.id === 571970) {
+          return record.team === "Los Angeles Dodgers";
+        }
+
+        if (selectedPlayer.id === 691777) {
+          return record.team === "Athletics";
+        }
+
+        return false;
+      }
+
+   if (normalizePlayerName(record.player) === "josefermin") {
+  if (selectedPlayer.id === 665877) {
+    return record.team === "St. Louis Cardinals";
+  }
+
+  if (selectedPlayer.id === 820862) {
+    return record.team === "Los Angeles Angels";
+  }
+
+  return false;
+}
+if (normalizePlayerName(record.player) === "luisgarcia") {
+  return selectedPlayer.id === 671277 &&
+    record.team === "Washington Nationals";
+}
+return true;
+    })
   : undefined;
 
 
@@ -1344,21 +1412,26 @@ onChange={(e) => {
     
     
 <p className="mt-3 text-sm text-slate-400">
-  {playerEfficiency.length} players qualify with at least{" "}
+{leaderboardPlayers.length}{" "}
+{leaderboardPlayers.length === 1
+  ? "player qualifies"
+  : "players qualify"}{" "}
+with at least{" "}
   {minimumWar.toFixed(1)} WAR
   {selectedTeamFilter === "All Teams"
     ? " across all MLB teams."
     : ` for the ${selectedTeamFilter}.`}
 </p>
 
-{playerEfficiency.length > 0 && (
+{leaderboardView === "Cost Efficiency" &&
+  leaderboardPlayers.length > 0 && (
   <div className="mt-5 rounded-xl border border-blue-500/30 bg-slate-800 p-5">
     <p className="mb-2 text-sm font-semibold text-blue-400">
       Best Value Player
     </p>
 
     <h3 className="text-2xl font-bold text-white">
-      {playerEfficiency[0].player}
+  {leaderboardPlayers[0].player}
     </h3>
 
     <p className="mt-1 text-sm text-slate-400">
@@ -1369,21 +1442,21 @@ onChange={(e) => {
       <div>
         <p className="text-xs text-slate-400">2026 Salary</p>
         <p className="font-semibold text-white">
-          ${playerEfficiency[0].salary.toLocaleString()}
+    ${leaderboardPlayers[0].salary.toLocaleString()}
         </p>
       </div>
 
       <div>
         <p className="text-xs text-slate-400">2026 bWAR</p>
         <p className="font-semibold text-white">
-          {playerEfficiency[0].war.toFixed(2)}
+      {leaderboardPlayers[0].war?.toFixed(2)}
         </p>
       </div>
 
       <div>
         <p className="text-xs text-slate-400">Salary / WAR</p>
         <p className="font-bold text-blue-400">
-          ${Math.round(playerEfficiency[0].salaryPerWar).toLocaleString()}
+        ${Math.round(leaderboardPlayers[0].salaryPerWar ?? 0).toLocaleString()}
         </p>
       </div>
     </div>
@@ -1392,32 +1465,33 @@ onChange={(e) => {
 
   </div>
 )}
-  {leaderboardView === "Highest WAR" && highestWarPlayers.length > 0 && (
+{leaderboardView === "Highest WAR" &&
+  highestWarPlayers.filter(matchesPlayerSearch).length > 0 && (
   <div className="mb-6 rounded-xl border border-blue-500/30 bg-slate-800 p-5">
     <p className="mb-2 text-sm font-semibold text-blue-400">
       Highest WAR Player
     </p>
 
     <h3 className="text-2xl font-bold text-white">
-      {highestWarPlayers[0].player}
+{highestWarPlayers.filter(matchesPlayerSearch)[0].player}
     </h3>
 
     <p className="mt-1 text-sm text-slate-400">
-      {highestWarPlayers[0].team}
+{highestWarPlayers.filter(matchesPlayerSearch)[0].team}
     </p>
 
     <div className="mt-4 grid grid-cols-1 gap-4 sm:grid-cols-2">
       <div>
         <p className="text-xs text-slate-400">2026 bWAR</p>
         <p className="text-xl font-bold text-blue-400">
-          {highestWarPlayers[0].war.toFixed(2)}
+{highestWarPlayers.filter(matchesPlayerSearch)[0].war.toFixed(2)}
         </p>
       </div>
 
       <div>
         <p className="text-xs text-slate-400">2026 Salary</p>
         <p className="text-xl font-semibold text-white">
-          ${highestWarPlayers[0].salary.toLocaleString()}
+{highestWarPlayers.filter(matchesPlayerSearch)[0].salary.toLocaleString()}
         </p>
       </div>
     </div>
