@@ -1,11 +1,21 @@
 {
   "season": 2027,
-  "lastVerified": "2026-10-29T16:26:30.557968+00:00",
+  "lastVerified": "2026-10-29T16:57:51.602386+00:00",
   "players": {
     "Michael King": {
       "status": "Available",
       "verifiedAt": "2026-10-29T16:26:30.557968+00:00",
       "source": "https://www.mlbtraderumors.com/2026/10/michael-king-declines-player-option.html"
+    },
+    "Clay Holmes": {
+      "status": "Available",
+      "verifiedAt": "2026-10-29T16:57:51.602386+00:00",
+      "source": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQYjIxRk1xeTN6aVcwOGdKMDdCMmNBTVgydXFBdU16aVBmNGpjMTd5Y0xBQmNzdFlWLVdXN2tockljc1ZzRHVHUk9QbVI2azhLanZoQzlvN2NxSWx5VEF6NTVkREFqWVl6NjBRQ2VZTF9qT2hVUlE5WTJESEU1SGI2WXh6akVJQ3k3TktJX052ODNYVlA0X1F3?oc=5"
+    },
+    "Matthew Boyd": {
+      "status": "Available",
+      "verifiedAt": "2026-10-29T16:57:51.602386+00:00",
+      "source": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPTmhlZkhOOW40cUxVN2pZb2ppVGZQVV9GZFFSWWxRNVIwYnVUMFQzSnlQcGJkOGYyNHZZVkJjcDFYQzRaUURpZFdac2xzSlo2TjEtVGVnUDBBZTBRR0Rneno5OEtjbHFhUUo4czVBMTRuYlZmTnd1b0V5UWlIdzdpZWZabDJiVDBQaWRjRHB3?oc=5"
     }
   }
 }
