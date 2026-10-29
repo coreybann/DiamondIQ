@@ -1,0 +1,296 @@
+CATCHERS
+Ryan Jeffers (30 years old, 4.7 WAR)
+Carson Kelly (32, 4.3) -- mutual option
+Tyler Stephenson (30, 2.6)
+Austin Hedges (34, 2.1)
+Kyle Higashioka (37, 1.4) -- mutual option
+James McCann (37, 1.2)
+Gary Sánchez (34, 0.7) -- mutual option
+Reese McGuire (32, 0.5)
+Jake Rogers (32, 0.4)
+Christian Vázquez (36, 0.4)
+Luke Maile (36, 0.3)
+Mitch Garver (36, 0.1)
+Travis d'Arnaud (38, -0.7)
+Jonah Heim (32, -1.0)
+
+
+FIRST BASEMEN
+Ty France (32 years old, 4.5 WAR)
+Jake Bauers (31, 4.4)
+Paul Goldschmidt (39, 2.3)
+Rhys Hoskins (34, 0.5)
+Nathaniel Lowe (31, 0.1)
+Rowdy Tellez (32, 0.1)
+Dominic Smith (32, -0.1)
+Carlos Santana (41, -0.2) -- mutual option
+Ryan Mountcastle (30, -0.3) -- club option
+Christopher Morel (28, -1.1)
+
+
+
+SECOND BASEMEN
+Jazz Chisholm Jr. (29 years old, 7.8 WAR)
+Brandon Lowe (32, 6.6)
+Luis Arraez (30, 5.0)
+Gleyber Torres (30, 3.5)
+Ozzie Albies (30, 2.5) -- club option
+Jeff McNeil (35, 2.1) -- club option
+Isiah Kiner-Falefa (32, 1.7)
+Adam Frazier (35, 0.9)
+Lenyn Sosa (27, 0.7)
+Ildemaro Vargas (35, 0.7)
+Gavin Lux (29, 0.5)
+Nick Madrigal (30, 0.3)
+Luis Urías (30, 0.2)
+Cavan Biggio (32, -0.2)
+Jonathan India (30, -0.2)
+Dylan Moore (34, -0.3)
+Brendan Rodgers (30, -0.3)
+Kyle Farmer (36, -1.1)
+
+
+THIRD BASEMEN
+Bo Bichette (29 years old, 5.7 WAR) -- opt-out
+Eugenio Suárez (35, 4.2)
+Edmundo Sosa (31, 2.4)
+Alec Bohm (30, 1.8)
+Ramón Urías (33, 0.7) -- mutual option
+Yoán Moncada (32, 0.5)
+Luis Rengifo (30, 0.2) -- mutual option
+Amed Rosario (31, 0.2)
+Santiago Espinal (32, -0.1)
+Kiké Hernández (35, -0.3)
+Jeimer Candelario (33, -1.1)
+Leo Jiménez (26, -1.2)
+Josh Rojas (33, -1.5)
+
+
+SHORTSTOPS
+Mauricio Dubón (32 years old, 4.6 WAR)
+J.P. Crawford (32, 4.0)
+Paul DeJong (33, 0.1)
+Zack Short (32, -0.2)
+Kevin Newman (33, -0.6)
+Orlando Arcia (32, -0.7)
+Jorge Mateo (32, -0.7)
+Ha-Seong Kim (31, -0.9)
+
+
+LEFT FIELDERS
+Randy Arozarena (32 years old, 8.4 WAR)
+Ian Happ (32, 5.4)
+Taylor Ward (33, 4.1)
+Ramón Laureano (32, 3.2)
+Randal Grichuk (35, 1.3)
+Austin Hays (31, 1.3) -- mutual option
+Michael Conforto (34, 0.2)
+Sam Haggerty (33, 0.0)
+Lourdes Gurriel Jr. (33, -0.2) -- club option
+Tommy Pham (39, -0.2)
+Dylan Carlson (28, -0.5)
+Alex Verdugo (31, -0.9)
+
+
+CENTER FIELDERS
+Trent Grisham (30 years old, 3.8 WAR)
+Daulton Varsho (30, 3.0)
+Tyrone Taylor (33, 2.2)
+Myles Straw (32, 2.5) -- club option
+TJ Friedl (31, 2.4)
+Cedric Mullins (32, 2.4) -- mutual option
+Luis Robert Jr. (29, 1.8) -- club option
+Lane Thomas (31, 0.2)
+
+
+RIGHT FIELDERS
+Seiya Suzuki (32 years old, 7.2 WAR)
+Ronald Acuña Jr. (29, 5.3) -- club option
+Mike Tauchman (36, 1.5)
+Adolis García (34, 0.8)
+Jake Fraley (32, 0.4)
+Victor Robles (30, 0.3) -- club option
+Starling Marte (38, 0.1)
+Austin Slater (34, 0.0)
+Nick Castellanos (35, -1.6)
+
+
+
+DESIGNATED HITTERS
+George Springer (37 years old, 6.1 WAR)
+Miguel Andujar (32, 1.0) -- mutual option
+Josh Bell (34, 0.6) -- mutual option
+Joc Pederson (35, 0.6) -- mutual option
+Marcell Ozuna (36, 0.2) -- mutual option
+Rob Refsnyder (36, 0.0)
+Andrew McCutchen (40, -0.6)
+Jorge Soler (35, -0.9)
+
+
+STARTING PITCHERS
+LHP Tarik Skubal (30 years old, 11.9 WAR)
+RHP Drew Rasmussen (31, 7.5) -- club option
+LHP Trevor Rogers (29, 7.3)
+RHP Kevin Gausman (36, 7.2)
+RHP Sonny Gray (37, 7.0) -- mutual option
+RHP Freddy Peralta (31, 5.5)
+LHP Matthew Boyd (36, 5.0) -- mutual option
+RHP Nick Pivetta (34, 5.0) -- club option
+RHP Sandy Alcantara (31, 4.9) -- club option
+RHP Nick Martinez (36, 4.9) -- mutual option
+LHP David Peterson (31, 4.8)
+RHP Casey Mize (30, 4.7)
+LHP Kris Bubic (29, 4.4)
+RHP Tyler Mahle (32, 4.0)
+RHP Jack Flaherty (31, 3.9)
+RHP Michael Soroka (29, 3.9) -- mutual option
+RHP Clay Holmes (34, 3.7) -- opt-out
+RHP Michael King (32, 3.6) -- opt-out 
+RHP Luis Severino (33, 3.6) -- player option
+RHP Dustin May (29, 3.5) -- mutual option
+RHP Chris Bassitt (38, 3.4)
+LHP Robbie Ray (35, 3.1)
+RHP Brady Singer (30, 2.9)
+RHP Brandon Woodruff (34, 2.9)
+LHP Shota Imanaga (33, 2.7)
+LHP Foster Griffin (31, 2.6)
+LHP Martín Pérez (36, 2.3)
+RHP Colin Rea (36, 2.3) -- club option
+RHP Cal Quantrill (32, 1.9)
+RHP Aaron Civale (32, 1.7)
+RHP Lucas Giolito (32, 1.7) -- mutual option
+LHP Jeffrey Springs (34, 1.7) -- club option
+RHP Michael Lorenzen (35, 1.6)
+RHP José Berríos (33, 1.5) -- opt-out
+RHP Trevor Williams (35, 1.4)
+LHP Patrick Sandoval (30, 1.3)
+RHP Walker Buehler (32, 1.1)
+RHP Griffin Canning (31, 1.1) -- mutual option
+RHP Zac Gallen (31, 1.1)
+RHP Max Scherzer (42, 0.7)
+LHP Jose Quintana (38, 0.7)
+RHP Tatsuya Imai (29, 0.5) -- opt-out
+RHP Tomoyuki Sugano (37, 0.5)
+RHP José Urquidy (32, 0.5)
+RHP Shane Bieber (32, 0.4)
+RHP Corbin Burnes (32, 0.4) -- opt-out
+RHP Zack Littell (31, 0.4) -- mutual option
+RHP Luis Garcia (30, 0.1)
+LHP Jordan Montgomery (34, 0.1)
+RHP Jameson Taillon (35, 0.1)
+RHP Taijuan Walker (34, 0.1)
+RHP Frankie Montas (34, 0.0)
+RHP Lance McCullers Jr. (33, -0.1)
+RHP Zach Eflin (33, -0.2) -- mutual option
+RHP Tony Gonsolin (33, -0.2) -- club option
+RHP Erick Fedde (34, -0.3)
+LHP Austin Gomber (33, -0.4)
+RHP Germán Márquez (32, -0.4)
+RHP Miles Mikolas (38, -0.6)
+
+
+
+Get the Latest From MLB
+Sign up to receive our daily Morning Lineup to stay in the know about the latest trending topics around Major League Baseball.
+
+Enter your email
+Sign up
+
+RELIEF PITCHERS
+LHP Adrian Morejon (28 years old, 5.1 WAR)
+RHP Garrett Whitlock (31, 4.2) -- club option
+RHP David Bednar (32, 4.0)
+LHP Sean Newcomb (34, 3.5)
+LHP Steven Okert (35, 2.8)
+RHP Andrés Muñoz (28, 2.7) -- club option
+LHP Tyler Alexander (32, 2.4)
+RHP Raisel Iglesias (37, 2.1)
+LHP Alex Vesia (31, 2.1)
+LHP Gregory Soto (32, 2.0)
+RHP Bryan Abreu (30, 1.9)
+RHP Emilio Pagán (36, 1.5) -- opt-out
+RHP Shawn Armstrong (36, 1.3) -- mutual option
+RHP Andrew Kittredge (37, 1.3)
+LHP Brooks Raley (39, 1.3)
+RHP Mark Leiter Jr. (36, 1.2)
+RHP Jason Adam (35, 1.1)
+RHP Emmanuel Clase (29, 1.1) -- club option
+LHP JoJo Romero (30, 1.1)
+LHP José Alvarado (32, 1.0)
+LHP Brock Burke (30, 1.0)
+RHP Kevin Ginkel (33, 1.0)
+RHP Jakob Junis (34, 1.0) -- mutual option
+RHP Paul Blackburn (33, 0.9)
+RHP Taylor Clarke (34, 0.9)
+RHP Carlos Estévez (34, 0.9) -- club option
+RHP Pete Fairbanks (33, 0.9)
+LHP Hoby Milner (36, 0.9)
+LHP Wandy Peralta (35, 0.9) -- player option
+RHP Dennis Santana (31, 0.9)
+RHP Antonio Senzatela (32, 0.9) -- club option
+LHP Caleb Thielbar (40, 0.9) -- mutual option
+RHP Kenley Jansen (39, 0.8) -- club option
+LHP José Suarez (29, 0.8)
+LHP Brent Suter (37, 0.8)
+LHP Ryan Yarbrough (35, 0.8)
+RHP Drew Anderson (33, 0.7) -- club option
+RHP Enyel De Los Santos (31, 0.7)
+LHP Caleb Ferguson (30, 0.7)
+LHP Kolby Allard (29, 0.6)
+LHP Dietrich Enns (36, 0.6) -- club option
+RHP Jonathan Loáisiga (32, 0.6)
+LHP Danny Coulombe (37, 0.5)
+RHP Luis García (40, 0.5)
+RHP Tyler Kinley (36, 0.5)
+RHP Evan Phillips (32, 0.5)
+RHP Ryan Thompson (35, 0.5)
+RHP Justin Topa (36, 0.5)
+RHP Jacob Webb (33, 0.5) -- club option
+LHP Andrew Chafin (37, 0.4)
+LHP Kyle Hart (34, 0.4) -- club option
+LHP A.J. Minter (33, 0.4)
+RHP Ryan Brasier (39, 0.3)
+RHP Hunter Harvey (32, 0.3) -- mutual option
+RHP Chris Martin (41, 0.3)
+LHP Taylor Rogers (36, 0.3)
+LHP Matt Strahm (35, 0.3)
+RHP Ryan Helsley (32, 0.2) -- opt-out
+RHP Pierce Johnson (36, 0.2) -- mutual option
+LHP Sam Moll (35, 0.2)
+RHP John Schreiber (33, 0.2)
+RHP Blake Treinen (39, 0.2)
+RHP Yimi García (36, 0.1)
+LHP Yuki Matsui (31, 0.1) -- opt-out
+RHP Rafael Montero (36, 0.1)
+RHP Jordan Romano (34, 0.1)
+RHP Ryne Stanek (35, 0.1) -- club option
+RHP Robert Stephenson (34, 0.1) -- club option
+RHP Matt Bowman (36, 0.0)
+RHP Brusdar Graterol (28, 0.0)
+RHP Joe Jiménez (32, 0.0)
+LHP Drew Pomeranz (38, 0.0)
+LHP A.J. Puk (32, 0.0)
+RHP Tanner Rainey (34, 0.0)
+RHP Drew Smith (33, 0.0)
+RHP Trevor Stephan (31, 0.0) -- club option
+RHP Hunter Strickland (38, 0.0)
+RHP Rowan Wick (34, 0.0) -- club option
+RHP Jake Woodford (30, 0.0)
+LHP Jalen Beeks (33, -0.1)
+LHP Ryan Borucki (33, -0.1)
+RHP Lou Trivino III (35, -0.1)
+RHP Dan Altavilla (34, -0.2)
+RHP Chris Devenski (36, -0.2)
+RHP Luke Jackson (35, -0.2)
+RHP José Leclerc (33, -0.2)
+RHP Tommy Kahnle (37, -0.3)
+RHP Joe Ross (34, -0.3)
+LHP Keegan Akin (32, -0.4)
+RHP Jorge Alcala (31, -0.5)
+RHP Scott Barlow (34, -0.5)
+LHP Aaron Bummer (33, -0.5)
+RHP Paul Sewald (37, -0.5)
+RHP Ryan Weiss (30, -0.6) -- club option
+RHP Trent Thornton (33, -0.8)
+LHP Génesis Cabrera (30, -0.9)
+LHP Tim Hill (37, -1.1)

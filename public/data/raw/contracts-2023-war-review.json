@@ -1,0 +1,97 @@
+{
+  "internationalPlayers": [
+    "Scott McGough",
+    "Drew Rucinski",
+    "Masataka Yoshida",
+    "Kodai Senga",
+    "Shintaro Fujinami"
+  ],
+  "missingSeasons": [
+    {
+      "player": "Nick Martinez",
+      "year": 2021
+    },
+    {
+      "player": "Mike Clevinger",
+      "year": 2021
+    },
+    {
+      "player": "Ty Blach",
+      "year": 2021
+    },
+    {
+      "player": "Tommy Kahnle",
+      "year": 2021
+    },
+    {
+      "player": "Trevor Gott",
+      "year": 2021
+    },
+    {
+      "player": "Michael Conforto",
+      "year": 2022
+    },
+    {
+      "player": "Jimmy Nelson",
+      "year": 2022
+    },
+    {
+      "player": "Luke Jackson",
+      "year": 2022
+    },
+    {
+      "player": "Scott McGough",
+      "year": 2021
+    },
+    {
+      "player": "Scott McGough",
+      "year": 2022
+    },
+    {
+      "player": "Drew Rucinski",
+      "year": 2021
+    },
+    {
+      "player": "Drew Rucinski",
+      "year": 2022
+    },
+    {
+      "player": "Alex Reyes",
+      "year": 2022
+    },
+    {
+      "player": "Nick Anderson",
+      "year": 2022
+    },
+    {
+      "player": "Masataka Yoshida",
+      "year": 2021
+    },
+    {
+      "player": "Masataka Yoshida",
+      "year": 2022
+    },
+    {
+      "player": "Kodai Senga",
+      "year": 2021
+    },
+    {
+      "player": "Kodai Senga",
+      "year": 2022
+    },
+    {
+      "player": "Shintaro Fujinami",
+      "year": 2021
+    },
+    {
+      "player": "Shintaro Fujinami",
+      "year": 2022
+    },
+    {
+      "player": "Julio Teheran",
+      "year": 2022
+    }
+  ],
+  "ambiguousMatches": [],
+  "unmatchedPlayers": []
+}

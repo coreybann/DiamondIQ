@@ -1,0 +1,122 @@
+{
+  "contracts": [
+    {
+      "player": "Aaron Nola",
+      "position": "SP",
+      "ageAtSigning": 30,
+      "priorTwoYearWar": 10.12,
+      "team": "Philadelphia Phillies",
+      "contractStartYear": 2024,
+      "years": 7,
+      "totalMillions": 172,
+      "aavMillions": 24.57
+    },
+    {
+      "player": "Sonny Gray",
+      "position": "SP",
+      "ageAtSigning": 34,
+      "priorTwoYearWar": 7.8,
+      "team": "St. Louis Cardinals",
+      "contractStartYear": 2024,
+      "years": 3,
+      "totalMillions": 75,
+      "aavMillions": 25
+    },
+    {
+      "player": "Josh Hader",
+      "position": "RP",
+      "ageAtSigning": 29,
+      "priorTwoYearWar": 2.49,
+      "team": "Houston Astros",
+      "contractStartYear": 2024,
+      "years": 5,
+      "totalMillions": 95,
+      "aavMillions": 19
+    },
+    {
+      "player": "Eduardo Rodriguez",
+      "position": "SP",
+      "ageAtSigning": 30,
+      "priorTwoYearWar": 3.71,
+      "team": "Arizona Diamondbacks",
+      "contractStartYear": 2024,
+      "years": 4,
+      "totalMillions": 80,
+      "aavMillions": 20
+    },
+    {
+      "player": "Cody Bellinger",
+      "position": "CF",
+      "ageAtSigning": 28,
+      "priorTwoYearWar": 5.82,
+      "team": "Chicago Cubs",
+      "contractStartYear": 2024,
+      "years": 3,
+      "totalMillions": 80,
+      "aavMillions": 26.67
+    },
+    {
+      "player": "Jordan Montgomery",
+      "position": "SP",
+      "ageAtSigning": 31,
+      "priorTwoYearWar": 7.01,
+      "team": "Arizona Diamondbacks",
+      "contractStartYear": 2024,
+      "years": 1,
+      "totalMillions": 25,
+      "aavMillions": 25,
+      "source": "https://www.mlb.com/dbacks/news/jordan-montgomery-d-backs-deal",
+      "notes": "One year guaranteed; 2025 vesting player option excluded."
+    },
+    {
+      "player": "Matt Chapman",
+      "position": "3B",
+      "ageAtSigning": 30,
+      "priorTwoYearWar": 6.83,
+      "team": "San Francisco Giants",
+      "contractStartYear": 2024,
+      "years": 3,
+      "totalMillions": 54,
+      "aavMillions": 18,
+      "source": "https://www.fangraphs.com/roster-resource/free-agent-tracker?season=2024",
+      "notes": "Original 2024 free-agent contract, not later extension."
+    },
+    {
+      "player": "Jeimer Candelario",
+      "position": "3B",
+      "ageAtSigning": 30,
+      "priorTwoYearWar": 3.2,
+      "team": "Cincinnati Reds",
+      "contractStartYear": 2024,
+      "years": 3,
+      "totalMillions": 45,
+      "aavMillions": 15,
+      "source": "https://www.fangraphs.com/roster-resource/free-agent-tracker?season=2024"
+    },
+    {
+      "player": "Michael Wacha",
+      "position": "SP",
+      "ageAtSigning": 32,
+      "priorTwoYearWar": 4.17,
+      "team": "Kansas City Royals",
+      "contractStartYear": 2024,
+      "years": 2,
+      "totalMillions": 32,
+      "aavMillions": 16,
+      "source": "https://www.mlb.com/news/michael-wacha-deal-with-royals",
+      "notes": "Original 2024 deal included a 2025 player option; not later extension."
+    },
+    {
+      "player": "Jorge Soler",
+      "position": "DH",
+      "ageAtSigning": 31,
+      "priorTwoYearWar": 2.25,
+      "team": "San Francisco Giants",
+      "contractStartYear": 2024,
+      "years": 3,
+      "totalMillions": 42,
+      "aavMillions": 14,
+      "source": "https://www.fangraphs.com/roster-resource/free-agent-tracker?season=2024"
+    }
+  ]
+}

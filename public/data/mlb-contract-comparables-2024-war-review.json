@@ -1,0 +1,158 @@
+{
+  "records": [
+    {
+      "player": "Colin Rea",
+      "position": "SP",
+      "issues": [
+        "2022: no matching pit record"
+      ],
+      "matchedWar": {
+        "2023": 0.752
+      }
+    },
+    {
+      "player": "Erick Fedde",
+      "position": "SP",
+      "issues": [
+        "2023: no matching pit record"
+      ],
+      "matchedWar": {
+        "2022": 0.295
+      }
+    },
+    {
+      "player": "Joe Ross",
+      "position": "SP",
+      "issues": [
+        "2022: no matching pit record",
+        "2023: no matching pit record"
+      ],
+      "matchedWar": {}
+    },
+    {
+      "player": "Jose Iglesias",
+      "position": "POSITION",
+      "issues": [
+        "2023: no matching bat record"
+      ],
+      "matchedWar": {
+        "2022": 1.331
+      }
+    },
+    {
+      "player": "Julio Teheran",
+      "position": "SP",
+      "issues": [
+        "2022: no matching pit record"
+      ],
+      "matchedWar": {
+        "2023": 0.307
+      }
+    },
+    {
+      "player": "Jung Hoo Lee",
+      "position": "POSITION",
+      "issues": [
+        "2022: no matching bat record",
+        "2023: no matching bat record"
+      ],
+      "matchedWar": {}
+    },
+    {
+      "player": "Justin Wilson",
+      "position": "RP",
+      "issues": [
+        "2023: no matching pit record"
+      ],
+      "matchedWar": {
+        "2022": 0.204
+      }
+    },
+    {
+      "player": "Lou Trivino III",
+      "position": "RP",
+      "issues": [
+        "2023: no matching pit record"
+      ],
+      "matchedWar": {
+        "2022": 0.256
+      }
+    },
+    {
+      "player": "Luis García",
+      "position": "RP",
+      "issues": [
+        "2022: multiple player IDs",
+        "2023: multiple player IDs"
+      ],
+      "matchedWar": {}
+    },
+    {
+      "player": "Michael Tonkin",
+      "position": "RP",
+      "issues": [
+        "2022: no matching pit record"
+      ],
+      "matchedWar": {
+        "2023": 0.065
+      }
+    },
+    {
+      "player": "Miguel Sanó",
+      "position": "POSITION",
+      "issues": [
+        "2023: no matching bat record"
+      ],
+      "matchedWar": {
+        "2022": -0.915
+      }
+    },
+    {
+      "player": "Shintaro Fujinami",
+      "position": "RP",
+      "issues": [
+        "2022: no matching pit record"
+      ],
+      "matchedWar": {
+        "2023": 0.233
+      }
+    },
+    {
+      "player": "Shota Imanaga",
+      "position": "SP",
+      "issues": [
+        "2022: no matching pit record",
+        "2023: no matching pit record"
+      ],
+      "matchedWar": {}
+    },
+    {
+      "player": "Spencer Turnbull",
+      "position": "SP",
+      "issues": [
+        "2022: no matching pit record"
+      ],
+      "matchedWar": {
+        "2023": -0.026
+      }
+    },
+    {
+      "player": "Yoshinobu Yamamoto",
+      "position": "SP",
+      "issues": [
+        "2022: no matching pit record",
+        "2023: no matching pit record"
+      ],
+      "matchedWar": {}
+    },
+    {
+      "player": "Yuki Matsui",
+      "position": "RP",
+      "issues": [
+        "2022: no matching pit record",
+        "2023: no matching pit record"
+      ],
+      "matchedWar": {}
+    }
+  ]
+}

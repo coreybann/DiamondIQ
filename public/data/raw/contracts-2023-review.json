@@ -1,0 +1,486 @@
+{
+  "skipped": [
+    {
+      "player": "Gary Sánchez",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Jose Iglesias",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Dylan Bundy",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Rafael Ortega",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Jonathan Davis",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Chris Archer",
+      "reason": "No MLB contract"
+    },
+    {
+      "player": "Odúbel Herrera",
+      "reason": "No MLB contract"
+    },
+    {
+      "player": "César Hernández",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Tyler Naquin",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Alex Young",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Jake Marisnick",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Jorge Alfaro",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Cody Stashak",
+      "reason": "No MLB contract"
+    },
+    {
+      "player": "Sean Doolittle",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Nomar Mazara",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Archie Bradley",
+      "reason": "No MLB contract"
+    },
+    {
+      "player": "Jeff Hoffman",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Johan Camargo",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Aaron Sanchez",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Matt Wisler",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Roman Quinn",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Kyle Crick",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Reyes Moronta",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Colin Moran",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Steven Brault",
+      "reason": "No MLB contract"
+    },
+    {
+      "player": "Nick Wittgren",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Chase Anderson",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Ben Gamel",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Hunter Strickland",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Jay Jackson",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Pedro Severino",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Touki Toussaint",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Ken Giles",
+      "reason": "No MLB contract"
+    },
+    {
+      "player": "Wily Peralta",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Dominic Leone",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Victor Reyes",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Tyler Thornburg",
+      "reason": "No MLB contract"
+    },
+    {
+      "player": "Austin Adams",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Corey Knebel",
+      "reason": "No MLB contract"
+    },
+    {
+      "player": "Chris Devenski",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Abraham Almonte",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Alex Colomé",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Clint Frazier",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Anthony Gose",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Aaron Brooks",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Andrelton Simmons",
+      "reason": "No MLB contract"
+    },
+    {
+      "player": "Garrett Hampson",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Zack Britton",
+      "reason": "No MLB contract"
+    },
+    {
+      "player": "Billy Hamilton",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Sandy León",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Jhoulys Chacín",
+      "reason": "No MLB contract"
+    },
+    {
+      "player": "Aníbal Sánchez",
+      "reason": "No MLB contract"
+    },
+    {
+      "player": "Zack Littell",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Jacob Barnes",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Bradley Zimmer",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Dee Strange-Gordon",
+      "reason": "No MLB contract"
+    },
+    {
+      "player": "Alcides Escobar",
+      "reason": "No MLB contract"
+    },
+    {
+      "player": "Willie Calhoun",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Alex Dickerson",
+      "reason": "No MLB contract"
+    },
+    {
+      "player": "T.J. McFarland",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Tommy Milone",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Dallas Keuchel",
+      "reason": "No MLB contract"
+    },
+    {
+      "player": "Mike Minor",
+      "reason": "No MLB contract"
+    },
+    {
+      "player": "Niko Goodrum",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Justin Upton",
+      "reason": "No MLB contract"
+    },
+    {
+      "player": "Jose Alvarez",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Charlie Culberson",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Craig Stammen",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Daniel Norris",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Tyler Duffey",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Didi Gregorius",
+      "reason": "No MLB contract"
+    },
+    {
+      "player": "Kevin Plawecki",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Michael Pineda",
+      "reason": "No MLB contract"
+    },
+    {
+      "player": "Andrew Knapp",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Bryan Shaw",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Chad Pinder",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Stephen Piscotty",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Alec Mills",
+      "reason": "No MLB contract"
+    },
+    {
+      "player": "Chris Owings",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Ryan Borucki",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Hansel Robles",
+      "reason": "No MLB contract"
+    },
+    {
+      "player": "Noé Ramirez",
+      "reason": "No MLB contract"
+    },
+    {
+      "player": "Heath Hembree",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Sergio Romo",
+      "reason": "No MLB contract"
+    },
+    {
+      "player": "Caleb Smith",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Joe Smith",
+      "reason": "No MLB contract"
+    },
+    {
+      "player": "Miguel Sanó",
+      "reason": "No MLB contract"
+    },
+    {
+      "player": "Jonathan Villar",
+      "reason": "No MLB contract"
+    },
+    {
+      "player": "Kole Calhoun",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Robinson Chirinos",
+      "reason": "No MLB contract"
+    },
+    {
+      "player": "Yoshi Tsutsugo",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Robinson Canó",
+      "reason": "No MLB contract"
+    },
+    {
+      "player": "Trevor Rosenthal",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Casey Sadler",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Leonys Martin",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Joe Ross",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Josh James",
+      "reason": "No MLB contract"
+    },
+    {
+      "player": "Kyle Funkhouser",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Will Harris",
+      "reason": "No MLB contract"
+    },
+    {
+      "player": "Danny Duffy",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Tyler Chatwood",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Wilmer Font",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Julio Teheran",
+      "reason": "Minor league deal"
+    },
+    {
+      "player": "Deolis Guerra",
+      "reason": "Minor league deal"
+    }
+  ],
+  "flagged": [
+    {
+      "player": "Justin Verlander",
+      "reason": "AAV does not match total divided by years",
+      "years": 3,
+      "totalMillions": 121.67,
+      "listedAavMillions": 43.33,
+      "calculatedAavMillions": 40.557
+    },
+    {
+      "player": "Edwin Díaz",
+      "reason": "AAV does not match total divided by years",
+      "years": 3,
+      "totalMillions": 65.0,
+      "listedAavMillions": 18.6,
+      "calculatedAavMillions": 21.667
+    },
+    {
+      "player": "Jean Segura",
+      "reason": "AAV does not match total divided by years",
+      "years": 2,
+      "totalMillions": 17.0,
+      "listedAavMillions": 6.5,
+      "calculatedAavMillions": 8.5
+    },
+    {
+      "player": "Zach Eflin",
+      "reason": "AAV does not match total divided by years",
+      "years": 3,
+      "totalMillions": 41.0,
+      "listedAavMillions": 13.33,
+      "calculatedAavMillions": 13.667
+    },
+    {
+      "player": "Nathan Eovaldi",
+      "reason": "AAV does not match total divided by years",
+      "years": 3,
+      "totalMillions": 54.0,
+      "listedAavMillions": 17.0,
+      "calculatedAavMillions": 18.0
+    },
+    {
+      "player": "Robert Suarez",
+      "reason": "AAV does not match total divided by years",
+      "years": 3,
+      "totalMillions": 30.0,
+      "listedAavMillions": 9.2,
+      "calculatedAavMillions": 10.0
+    },
+    {
+      "player": "Chad Green",
+      "reason": "AAV does not match total divided by years",
+      "years": 3,
+      "totalMillions": 23.25,
+      "listedAavMillions": 2.25,
+      "calculatedAavMillions": 7.75
+    },
+    {
+      "player": "Miguel Castro",
+      "reason": "AAV does not match total divided by years",
+      "years": 2,
+      "totalMillions": 8.5,
+      "listedAavMillions": 3.5,
+      "calculatedAavMillions": 4.25
+    }
+  ]
+}

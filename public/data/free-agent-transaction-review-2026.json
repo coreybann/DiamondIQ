@@ -1,0 +1,1471 @@
+[
+  {
+    "name": "Brendan Rodgers",
+    "mlbId": 663898,
+    "transactions": [
+      {
+        "date": "2025-11-02",
+        "fromTeam": null,
+        "toTeam": "Houston Astros",
+        "description": "2B Brendan Rodgers elected free agency."
+      },
+      {
+        "date": "2026-02-09",
+        "fromTeam": null,
+        "toTeam": "Boston Red Sox",
+        "description": "Boston Red Sox signed free agent 2B Brendan Rodgers to a minor league contract and invited him to spring training."
+      },
+      {
+        "date": "2026-02-09",
+        "fromTeam": null,
+        "toTeam": "Worcester Red Sox",
+        "description": "2B Brendan Rodgers assigned to Worcester Red Sox."
+      },
+      {
+        "date": "2026-03-24",
+        "fromTeam": null,
+        "toTeam": "Worcester Red Sox",
+        "description": "Worcester Red Sox released 2B Brendan Rodgers."
+      },
+      {
+        "date": "2026-03-27",
+        "fromTeam": null,
+        "toTeam": "Boston Red Sox",
+        "description": "Boston Red Sox signed free agent 2B Brendan Rodgers to a minor league contract."
+      },
+      {
+        "date": "2026-03-28",
+        "fromTeam": null,
+        "toTeam": "Worcester Red Sox",
+        "description": "2B Brendan Rodgers assigned to Worcester Red Sox."
+      },
+      {
+        "date": "2026-03-28",
+        "fromTeam": null,
+        "toTeam": "Worcester Red Sox",
+        "description": "Worcester Red Sox placed 2B Brendan Rodgers on the 7-day injured list."
+      },
+      {
+        "date": "2026-04-02",
+        "fromTeam": null,
+        "toTeam": "Worcester Red Sox",
+        "description": "Worcester Red Sox transferred 2B Brendan Rodgers from the 7-day injured list to the 60-day injured list."
+      },
+      {
+        "date": "2026-05-06",
+        "fromTeam": null,
+        "toTeam": "Worcester Red Sox",
+        "description": "Worcester Red Sox placed 2B Brendan Rodgers on the full-season injured list."
+      }
+    ]
+  },
+  {
+    "name": "Alex Verdugo",
+    "mlbId": 657077,
+    "transactions": [
+      {
+        "date": "2026-03-01",
+        "fromTeam": null,
+        "toTeam": "San Diego Padres",
+        "description": "San Diego Padres signed free agent LF Alex Verdugo to a minor league contract."
+      },
+      {
+        "date": "2026-03-01",
+        "fromTeam": null,
+        "toTeam": "El Paso Chihuahuas",
+        "description": "LF Alex Verdugo assigned to El Paso Chihuahuas."
+      },
+      {
+        "date": "2026-03-30",
+        "fromTeam": null,
+        "toTeam": "ACL Padres",
+        "description": "LF Alex Verdugo assigned to ACL Padres."
+      },
+      {
+        "date": "2026-03-30",
+        "fromTeam": null,
+        "toTeam": "ACL Padres",
+        "description": "ACL Padres activated LF Alex Verdugo."
+      },
+      {
+        "date": "2026-05-11",
+        "fromTeam": null,
+        "toTeam": "ACL Padres",
+        "description": "ACL Padres released LF Alex Verdugo."
+      }
+    ]
+  },
+  {
+    "name": "Mike Tauchman",
+    "mlbId": 643565,
+    "transactions": [
+      {
+        "date": "2025-11-21",
+        "fromTeam": null,
+        "toTeam": "Chicago White Sox",
+        "description": "RF Mike Tauchman elected free agency."
+      },
+      {
+        "date": "2026-02-19",
+        "fromTeam": null,
+        "toTeam": "New York Mets",
+        "description": "New York Mets signed free agent RF Mike Tauchman to a minor league contract."
+      },
+      {
+        "date": "2026-02-20",
+        "fromTeam": null,
+        "toTeam": "Syracuse Mets",
+        "description": "RF Mike Tauchman assigned to Syracuse Mets."
+      },
+      {
+        "date": "2026-03-27",
+        "fromTeam": null,
+        "toTeam": "Syracuse Mets",
+        "description": "Syracuse Mets placed RF Mike Tauchman on the 7-day injured list."
+      },
+      {
+        "date": "2026-06-29",
+        "fromTeam": null,
+        "toTeam": "Syracuse Mets",
+        "description": "Syracuse Mets transferred RF Mike Tauchman from the 7-day injured list to the 60-day injured list."
+      },
+      {
+        "date": "2026-07-07",
+        "fromTeam": "Syracuse Mets",
+        "toTeam": "FCL Mets",
+        "description": "Syracuse Mets sent RF Mike Tauchman on a rehab assignment to FCL Mets."
+      },
+      {
+        "date": "2026-07-07",
+        "fromTeam": "Syracuse Mets",
+        "toTeam": "FCL Mets",
+        "description": "Syracuse Mets sent RF Mike Tauchman on a rehab assignment to FCL Mets."
+      },
+      {
+        "date": "2026-07-11",
+        "fromTeam": "Syracuse Mets",
+        "toTeam": "St. Lucie Mets",
+        "description": "Syracuse Mets sent RF Mike Tauchman on a rehab assignment to St. Lucie Mets."
+      },
+      {
+        "date": "2026-07-11",
+        "fromTeam": "Syracuse Mets",
+        "toTeam": "St. Lucie Mets",
+        "description": "Syracuse Mets sent RF Mike Tauchman on a rehab assignment to St. Lucie Mets."
+      },
+      {
+        "date": "2026-07-14",
+        "fromTeam": "Syracuse Mets",
+        "toTeam": "FCL Mets",
+        "description": "Syracuse Mets sent RF Mike Tauchman on a rehab assignment to FCL Mets."
+      },
+      {
+        "date": "2026-07-18",
+        "fromTeam": "Syracuse Mets",
+        "toTeam": "St. Lucie Mets",
+        "description": "Syracuse Mets sent RF Mike Tauchman on a rehab assignment to St. Lucie Mets."
+      },
+      {
+        "date": "2026-07-21",
+        "fromTeam": "Syracuse Mets",
+        "toTeam": "Binghamton Rumble Ponies",
+        "description": "RF Mike Tauchman assigned to Binghamton Rumble Ponies from Syracuse Mets."
+      },
+      {
+        "date": "2026-07-24",
+        "fromTeam": "Binghamton Rumble Ponies",
+        "toTeam": "Syracuse Mets",
+        "description": "RF Mike Tauchman assigned to Syracuse Mets from Binghamton Rumble Ponies."
+      },
+      {
+        "date": "2026-07-24",
+        "fromTeam": null,
+        "toTeam": "Syracuse Mets",
+        "description": "Syracuse Mets activated RF Mike Tauchman."
+      },
+      {
+        "date": "2026-07-24",
+        "fromTeam": null,
+        "toTeam": "Syracuse Mets",
+        "description": "Syracuse Mets activated RF Mike Tauchman."
+      },
+      {
+        "date": "2026-08-05",
+        "fromTeam": null,
+        "toTeam": "Syracuse Mets",
+        "description": "Syracuse Mets released RF Mike Tauchman."
+      }
+    ]
+  },
+  {
+    "name": "José Berríos",
+    "mlbId": 621244,
+    "transactions": [
+      {
+        "date": "2025-10-04",
+        "fromTeam": null,
+        "toTeam": "Toronto Blue Jays",
+        "description": "RHP José Berríos roster status changed by Toronto Blue Jays."
+      },
+      {
+        "date": "2025-11-02",
+        "fromTeam": null,
+        "toTeam": "Toronto Blue Jays",
+        "description": "Toronto Blue Jays activated RHP José Berríos."
+      },
+      {
+        "date": "2026-03-25",
+        "fromTeam": null,
+        "toTeam": "Toronto Blue Jays",
+        "description": "Toronto Blue Jays placed RHP José Berríos on the 15-day injured list retroactive to March 22, 2026. Right elbow stress fracture."
+      },
+      {
+        "date": "2026-04-16",
+        "fromTeam": "Toronto Blue Jays",
+        "toTeam": "Dunedin Blue Jays",
+        "description": "Toronto Blue Jays sent RHP José Berríos on a rehab assignment to Dunedin Blue Jays."
+      },
+      {
+        "date": "2026-04-28",
+        "fromTeam": "Toronto Blue Jays",
+        "toTeam": "Buffalo Bisons",
+        "description": "Toronto Blue Jays sent RHP José Berríos on a rehab assignment to Buffalo Bisons."
+      },
+      {
+        "date": "2026-05-27",
+        "fromTeam": null,
+        "toTeam": "Toronto Blue Jays",
+        "description": "Toronto Blue Jays placed RHP José Berríos on the 60-day injured list. Right elbow stress fracture."
+      }
+    ]
+  },
+  {
+    "name": "Frankie Montas",
+    "mlbId": 593423,
+    "transactions": [
+      {
+        "date": "2025-11-06",
+        "fromTeam": null,
+        "toTeam": "New York Mets",
+        "description": "New York Mets activated RHP Frankie Montas from the 60-day injured list."
+      },
+      {
+        "date": "2025-11-18",
+        "fromTeam": null,
+        "toTeam": "New York Mets",
+        "description": "New York Mets designated RHP Frankie Montas for assignment."
+      },
+      {
+        "date": "2025-11-19",
+        "fromTeam": null,
+        "toTeam": "New York Mets",
+        "description": "New York Mets released RHP Frankie Montas."
+      }
+    ]
+  },
+  {
+    "name": "Austin Gomber",
+    "mlbId": 596295,
+    "transactions": [
+      {
+        "date": "2025-11-06",
+        "fromTeam": null,
+        "toTeam": "Iowa Cubs",
+        "description": "LHP Austin Gomber elected free agency."
+      },
+      {
+        "date": "2026-01-29",
+        "fromTeam": null,
+        "toTeam": "Texas Rangers",
+        "description": "Texas Rangers signed free agent LHP Austin Gomber to a minor league contract and invited him to spring training."
+      },
+      {
+        "date": "2026-02-04",
+        "fromTeam": null,
+        "toTeam": "Round Rock Express",
+        "description": "LHP Austin Gomber assigned to Round Rock Express."
+      },
+      {
+        "date": "2026-02-04",
+        "fromTeam": null,
+        "toTeam": "Round Rock Express",
+        "description": "Round Rock Express activated LHP Austin Gomber."
+      },
+      {
+        "date": "2026-05-16",
+        "fromTeam": null,
+        "toTeam": "Round Rock Express",
+        "description": "Round Rock Express released LHP Austin Gomber."
+      },
+      {
+        "date": "2026-05-16",
+        "fromTeam": null,
+        "toTeam": "Atlanta Braves",
+        "description": "Atlanta Braves signed free agent LHP Austin Gomber to a minor league contract."
+      },
+      {
+        "date": "2026-05-16",
+        "fromTeam": null,
+        "toTeam": "Gwinnett Stripers",
+        "description": "LHP Austin Gomber assigned to Gwinnett Stripers."
+      },
+      {
+        "date": "2026-08-03",
+        "fromTeam": null,
+        "toTeam": "Gwinnett Stripers",
+        "description": "Gwinnett Stripers released LHP Austin Gomber."
+      },
+      {
+        "date": "2026-08-05",
+        "fromTeam": null,
+        "toTeam": "Detroit Tigers",
+        "description": "Detroit Tigers signed free agent LHP Austin Gomber to a minor league contract."
+      },
+      {
+        "date": "2026-08-05",
+        "fromTeam": null,
+        "toTeam": "Toledo Mud Hens",
+        "description": "LHP Austin Gomber assigned to Toledo Mud Hens."
+      }
+    ]
+  },
+  {
+    "name": "Emmanuel Clase",
+    "mlbId": 661403,
+    "transactions": []
+  },
+  {
+    "name": "Andrew Chafin",
+    "mlbId": 605177,
+    "transactions": [
+      {
+        "date": "2025-11-02",
+        "fromTeam": null,
+        "toTeam": "Los Angeles Angels",
+        "description": "LHP Andrew Chafin elected free agency."
+      },
+      {
+        "date": "2026-02-14",
+        "fromTeam": null,
+        "toTeam": "Minnesota Twins",
+        "description": "Minnesota Twins signed free agent LHP Andrew Chafin to a minor league contract and invited him to spring training."
+      },
+      {
+        "date": "2026-02-14",
+        "fromTeam": null,
+        "toTeam": "St. Paul Saints",
+        "description": "LHP Andrew Chafin assigned to St. Paul Saints."
+      },
+      {
+        "date": "2026-02-14",
+        "fromTeam": null,
+        "toTeam": "Minnesota Twins",
+        "description": "LHP Andrew Chafin roster status changed by Minnesota Twins."
+      },
+      {
+        "date": "2026-02-14",
+        "fromTeam": null,
+        "toTeam": "St. Paul Saints",
+        "description": "St. Paul Saints activated LHP Andrew Chafin."
+      },
+      {
+        "date": "2026-03-20",
+        "fromTeam": null,
+        "toTeam": "Minnesota Twins",
+        "description": "Minnesota Twins released LHP Andrew Chafin."
+      },
+      {
+        "date": "2026-03-27",
+        "fromTeam": null,
+        "toTeam": "Louisville Bats",
+        "description": "LHP Andrew Chafin assigned to Louisville Bats."
+      },
+      {
+        "date": "2026-03-27",
+        "fromTeam": null,
+        "toTeam": "Cincinnati Reds",
+        "description": "Cincinnati Reds signed free agent LHP Andrew Chafin to a minor league contract."
+      },
+      {
+        "date": "2026-05-03",
+        "fromTeam": null,
+        "toTeam": "Louisville Bats",
+        "description": "Louisville Bats released LHP Andrew Chafin."
+      }
+    ]
+  },
+  {
+    "name": "Ryan Brasier",
+    "mlbId": 518489,
+    "transactions": [
+      {
+        "date": "2025-10-12",
+        "fromTeam": null,
+        "toTeam": "Chicago Cubs",
+        "description": "Chicago Cubs activated RHP Ryan Brasier."
+      },
+      {
+        "date": "2025-11-02",
+        "fromTeam": null,
+        "toTeam": "Chicago Cubs",
+        "description": "RHP Ryan Brasier elected free agency."
+      },
+      {
+        "date": "2026-02-06",
+        "fromTeam": null,
+        "toTeam": "Texas Rangers",
+        "description": "Texas Rangers signed free agent RHP Ryan Brasier to a minor league contract and invited him to spring training."
+      },
+      {
+        "date": "2026-02-06",
+        "fromTeam": null,
+        "toTeam": "Round Rock Express",
+        "description": "RHP Ryan Brasier assigned to Round Rock Express."
+      },
+      {
+        "date": "2026-02-06",
+        "fromTeam": null,
+        "toTeam": "Texas Rangers",
+        "description": "RHP Ryan Brasier roster status changed by Texas Rangers."
+      },
+      {
+        "date": "2026-03-21",
+        "fromTeam": null,
+        "toTeam": "Round Rock Express",
+        "description": "Round Rock Express released RHP Ryan Brasier."
+      },
+      {
+        "date": "2026-03-27",
+        "fromTeam": null,
+        "toTeam": "Texas Rangers",
+        "description": "Texas Rangers signed free agent RHP Ryan Brasier to a minor league contract."
+      },
+      {
+        "date": "2026-03-27",
+        "fromTeam": null,
+        "toTeam": "Round Rock Express",
+        "description": "RHP Ryan Brasier assigned to Round Rock Express."
+      },
+      {
+        "date": "2026-06-01",
+        "fromTeam": null,
+        "toTeam": "Round Rock Express",
+        "description": "Round Rock Express released RHP Ryan Brasier."
+      }
+    ]
+  },
+  {
+    "name": "Yimi García",
+    "mlbId": 554340,
+    "transactions": [
+      {
+        "date": "2025-11-06",
+        "fromTeam": null,
+        "toTeam": "Toronto Blue Jays",
+        "description": "Toronto Blue Jays activated RHP Yimi García from the 60-day injured list."
+      },
+      {
+        "date": "2026-03-25",
+        "fromTeam": null,
+        "toTeam": "Toronto Blue Jays",
+        "description": "Toronto Blue Jays placed RHP Yimi García on the 15-day injured list retroactive to March 22, 2026. Right elbow ulnar nerve and AC joint surgery."
+      },
+      {
+        "date": "2026-04-25",
+        "fromTeam": null,
+        "toTeam": "Toronto Blue Jays",
+        "description": "Toronto Blue Jays transferred RHP Yimi García from the 15-day injured list to the 60-day injured list. Right elbow ulnar nerve and AC joint surgery."
+      },
+      {
+        "date": "2026-05-07",
+        "fromTeam": "Toronto Blue Jays",
+        "toTeam": "FCL Blue Jays",
+        "description": "Toronto Blue Jays sent RHP Yimi García on a rehab assignment to FCL Blue Jays."
+      },
+      {
+        "date": "2026-05-07",
+        "fromTeam": "Toronto Blue Jays",
+        "toTeam": "FCL Blue Jays",
+        "description": "Toronto Blue Jays sent RHP Yimi García on a rehab assignment to FCL Blue Jays."
+      },
+      {
+        "date": "2026-06-03",
+        "fromTeam": "Toronto Blue Jays",
+        "toTeam": "Dunedin Blue Jays",
+        "description": "Toronto Blue Jays sent RHP Yimi García on a rehab assignment to Dunedin Blue Jays."
+      },
+      {
+        "date": "2026-06-03",
+        "fromTeam": "Toronto Blue Jays",
+        "toTeam": "Dunedin Blue Jays",
+        "description": "Toronto Blue Jays sent RHP Yimi García on a rehab assignment to Dunedin Blue Jays."
+      },
+      {
+        "date": "2026-06-10",
+        "fromTeam": "Toronto Blue Jays",
+        "toTeam": "Buffalo Bisons",
+        "description": "Toronto Blue Jays sent RHP Yimi García on a rehab assignment to Buffalo Bisons."
+      },
+      {
+        "date": "2026-07-25",
+        "fromTeam": "Toronto Blue Jays",
+        "toTeam": "Dunedin Blue Jays",
+        "description": "Toronto Blue Jays sent RHP Yimi García on a rehab assignment to Dunedin Blue Jays."
+      },
+      {
+        "date": "2026-07-25",
+        "fromTeam": "Toronto Blue Jays",
+        "toTeam": "Dunedin Blue Jays",
+        "description": "Toronto Blue Jays sent RHP Yimi García on a rehab assignment to Dunedin Blue Jays."
+      }
+    ]
+  },
+  {
+    "name": "Rafael Montero",
+    "mlbId": 606160,
+    "transactions": [
+      {
+        "date": "2025-11-02",
+        "fromTeam": null,
+        "toTeam": "Detroit Tigers",
+        "description": "RHP Rafael Montero elected free agency."
+      },
+      {
+        "date": "2026-02-13",
+        "fromTeam": null,
+        "toTeam": "New York Yankees",
+        "description": "New York Yankees signed free agent RHP Rafael Montero to a minor league contract and invited him to spring training."
+      },
+      {
+        "date": "2026-02-13",
+        "fromTeam": null,
+        "toTeam": "Scranton/Wilkes-Barre RailRiders",
+        "description": "RHP Rafael Montero assigned to Scranton/Wilkes-Barre RailRiders."
+      },
+      {
+        "date": "2026-02-13",
+        "fromTeam": "Scranton/Wilkes-Barre RailRiders",
+        "toTeam": "Scranton/Wilkes-Barre RailRiders",
+        "description": "Scranton/Wilkes-Barre RailRiders placed RHP Rafael Montero on the restricted list."
+      },
+      {
+        "date": "2026-04-01",
+        "fromTeam": null,
+        "toTeam": "Scranton/Wilkes-Barre RailRiders",
+        "description": "Scranton/Wilkes-Barre RailRiders transferred RHP Rafael Montero to the Development List."
+      },
+      {
+        "date": "2026-04-24",
+        "fromTeam": null,
+        "toTeam": "Scranton/Wilkes-Barre RailRiders",
+        "description": "Scranton/Wilkes-Barre RailRiders activated RHP Rafael Montero from the Development List."
+      },
+      {
+        "date": "2026-06-25",
+        "fromTeam": null,
+        "toTeam": "Scranton/Wilkes-Barre RailRiders",
+        "description": "Scranton/Wilkes-Barre RailRiders placed RHP Rafael Montero on the temporarily inactive list."
+      },
+      {
+        "date": "2026-06-25",
+        "fromTeam": null,
+        "toTeam": "Scranton/Wilkes-Barre RailRiders",
+        "description": "Scranton/Wilkes-Barre RailRiders placed RHP Rafael Montero on the temporarily inactive list."
+      },
+      {
+        "date": "2026-07-02",
+        "fromTeam": null,
+        "toTeam": "Scranton/Wilkes-Barre RailRiders",
+        "description": "Scranton/Wilkes-Barre RailRiders activated RHP Rafael Montero from the temporarily inactive list."
+      },
+      {
+        "date": "2026-07-02",
+        "fromTeam": null,
+        "toTeam": "Scranton/Wilkes-Barre RailRiders",
+        "description": "Scranton/Wilkes-Barre RailRiders activated RHP Rafael Montero from the temporarily inactive list."
+      },
+      {
+        "date": "2026-08-10",
+        "fromTeam": null,
+        "toTeam": "Scranton/Wilkes-Barre RailRiders",
+        "description": "Scranton/Wilkes-Barre RailRiders released RHP Rafael Montero."
+      }
+    ]
+  },
+  {
+    "name": "Robert Stephenson",
+    "mlbId": 596112,
+    "transactions": [
+      {
+        "date": "2026-03-24",
+        "fromTeam": null,
+        "toTeam": "Los Angeles Angels",
+        "description": "Los Angeles Angels placed RHP Robert Stephenson on the 60-day injured list. Right elbow inflammation."
+      }
+    ]
+  },
+  {
+    "name": "Matt Bowman",
+    "mlbId": 621199,
+    "transactions": [
+      {
+        "date": "2025-11-06",
+        "fromTeam": null,
+        "toTeam": "Sugar Land Space Cowboys",
+        "description": "RHP Matt Bowman elected free agency."
+      },
+      {
+        "date": "2026-01-26",
+        "fromTeam": null,
+        "toTeam": "Minnesota Twins",
+        "description": "Minnesota Twins signed free agent RHP Matt Bowman to a minor league contract."
+      },
+      {
+        "date": "2026-01-26",
+        "fromTeam": null,
+        "toTeam": "St. Paul Saints",
+        "description": "RHP Matt Bowman assigned to St. Paul Saints."
+      },
+      {
+        "date": "2026-01-26",
+        "fromTeam": null,
+        "toTeam": "Minnesota Twins",
+        "description": "RHP Matt Bowman roster status changed by Minnesota Twins."
+      },
+      {
+        "date": "2026-02-05",
+        "fromTeam": null,
+        "toTeam": "Israel",
+        "description": "Israel activated RHP Matt Bowman."
+      },
+      {
+        "date": "2026-02-05",
+        "fromTeam": null,
+        "toTeam": "Israel",
+        "description": "Israel activated RHP Matt Bowman."
+      },
+      {
+        "date": "2026-03-24",
+        "fromTeam": null,
+        "toTeam": "St. Paul Saints",
+        "description": "St. Paul Saints released RHP Matt Bowman."
+      },
+      {
+        "date": "2026-03-25",
+        "fromTeam": null,
+        "toTeam": "Minnesota Twins",
+        "description": "Minnesota Twins signed free agent RHP Matt Bowman to a minor league contract."
+      },
+      {
+        "date": "2026-03-26",
+        "fromTeam": null,
+        "toTeam": "St. Paul Saints",
+        "description": "RHP Matt Bowman assigned to St. Paul Saints."
+      },
+      {
+        "date": "2026-05-20",
+        "fromTeam": null,
+        "toTeam": "St. Paul Saints",
+        "description": "St. Paul Saints released RHP Matt Bowman."
+      },
+      {
+        "date": "2026-05-27",
+        "fromTeam": null,
+        "toTeam": "Toronto Blue Jays",
+        "description": "Toronto Blue Jays signed free agent RHP Matt Bowman to a minor league contract."
+      },
+      {
+        "date": "2026-05-27",
+        "fromTeam": null,
+        "toTeam": "Buffalo Bisons",
+        "description": "RHP Matt Bowman assigned to Buffalo Bisons."
+      },
+      {
+        "date": "2026-07-01",
+        "fromTeam": null,
+        "toTeam": "Buffalo Bisons",
+        "description": "Buffalo Bisons placed RHP Matt Bowman on the temporarily inactive list."
+      },
+      {
+        "date": "2026-07-04",
+        "fromTeam": null,
+        "toTeam": "Buffalo Bisons",
+        "description": "Buffalo Bisons released RHP Matt Bowman."
+      },
+      {
+        "date": "2026-07-08",
+        "fromTeam": null,
+        "toTeam": "Minnesota Twins",
+        "description": "Minnesota Twins signed free agent RHP Matt Bowman to a minor league contract."
+      },
+      {
+        "date": "2026-07-08",
+        "fromTeam": null,
+        "toTeam": "St. Paul Saints",
+        "description": "RHP Matt Bowman assigned to St. Paul Saints."
+      }
+    ]
+  },
+  {
+    "name": "Brusdar Graterol",
+    "mlbId": 660813,
+    "transactions": [
+      {
+        "date": "2025-11-06",
+        "fromTeam": null,
+        "toTeam": "Los Angeles Dodgers",
+        "description": "Los Angeles Dodgers activated RHP Brusdar Graterol from the 60-day injured list."
+      },
+      {
+        "date": "2026-03-22",
+        "fromTeam": null,
+        "toTeam": "Los Angeles Dodgers",
+        "description": "Los Angeles Dodgers placed RHP Brusdar Graterol on the 60-day injured list."
+      },
+      {
+        "date": "2026-03-23",
+        "fromTeam": null,
+        "toTeam": "Los Angeles Dodgers",
+        "description": "Los Angeles Dodgers placed RHP Brusdar Graterol on the 15-day injured list retroactive to March 22, 2026. Recovery from right shoulder surgery."
+      },
+      {
+        "date": "2026-05-02",
+        "fromTeam": "Los Angeles Dodgers",
+        "toTeam": "Oklahoma City Comets",
+        "description": "Los Angeles Dodgers sent RHP Brusdar Graterol on a rehab assignment to Oklahoma City Comets."
+      }
+    ]
+  },
+  {
+    "name": "Joe Jiménez",
+    "mlbId": 641729,
+    "transactions": [
+      {
+        "date": "2025-11-06",
+        "fromTeam": null,
+        "toTeam": "Atlanta Braves",
+        "description": "Atlanta Braves activated RHP Joe Jiménez from the 60-day injured list."
+      },
+      {
+        "date": "2026-02-10",
+        "fromTeam": null,
+        "toTeam": "Atlanta Braves",
+        "description": "Atlanta Braves placed RHP Joe Jiménez on the 60-day injured list."
+      },
+      {
+        "date": "2026-09-15",
+        "fromTeam": "Atlanta Braves",
+        "toTeam": "Gwinnett Stripers",
+        "description": "Atlanta Braves sent RHP Joe Jiménez on a rehab assignment to Gwinnett Stripers."
+      },
+      {
+        "date": "2026-09-15",
+        "fromTeam": "Atlanta Braves",
+        "toTeam": "Gwinnett Stripers",
+        "description": "Atlanta Braves sent RHP Joe Jiménez on a rehab assignment to Gwinnett Stripers."
+      }
+    ]
+  },
+  {
+    "name": "A.J. Puk",
+    "mlbId": 640462,
+    "transactions": [
+      {
+        "date": "2025-11-06",
+        "fromTeam": null,
+        "toTeam": "Arizona Diamondbacks",
+        "description": "Arizona Diamondbacks activated LHP A.J. Puk from the 60-day injured list."
+      },
+      {
+        "date": "2026-02-15",
+        "fromTeam": null,
+        "toTeam": "Arizona Diamondbacks",
+        "description": "Arizona Diamondbacks placed LHP A.J. Puk on the 60-day injured list. Left ulnar collateral ligament surgery recovery."
+      },
+      {
+        "date": "2026-05-23",
+        "fromTeam": "Arizona Diamondbacks",
+        "toTeam": "ACL D-backs",
+        "description": "Arizona Diamondbacks sent LHP A.J. Puk on a rehab assignment to ACL D-backs."
+      },
+      {
+        "date": "2026-06-02",
+        "fromTeam": "Arizona Diamondbacks",
+        "toTeam": "Reno Aces",
+        "description": "Arizona Diamondbacks sent LHP A.J. Puk on a rehab assignment to Reno Aces."
+      },
+      {
+        "date": "2026-06-02",
+        "fromTeam": "Arizona Diamondbacks",
+        "toTeam": "Reno Aces",
+        "description": "Arizona Diamondbacks sent LHP A.J. Puk on a rehab assignment to Reno Aces."
+      }
+    ]
+  },
+  {
+    "name": "Drew Smith",
+    "mlbId": 622098,
+    "transactions": [
+      {
+        "date": "2025-11-04",
+        "fromTeam": null,
+        "toTeam": "New York Mets",
+        "description": "RHP Drew Smith elected free agency."
+      },
+      {
+        "date": "2026-02-18",
+        "fromTeam": null,
+        "toTeam": "Rochester Red Wings",
+        "description": "RHP Drew Smith assigned to Rochester Red Wings."
+      },
+      {
+        "date": "2026-02-18",
+        "fromTeam": null,
+        "toTeam": "Washington Nationals",
+        "description": "Washington Nationals signed free agent RHP Drew Smith to a minor league contract."
+      },
+      {
+        "date": "2026-02-18",
+        "fromTeam": null,
+        "toTeam": "Washington Nationals",
+        "description": "RHP Drew Smith roster status changed by Washington Nationals."
+      },
+      {
+        "date": "2026-03-02",
+        "fromTeam": null,
+        "toTeam": "Washington Nationals",
+        "description": "RHP Drew Smith assigned to Washington Nationals."
+      },
+      {
+        "date": "2026-03-21",
+        "fromTeam": null,
+        "toTeam": "Rochester Red Wings",
+        "description": "Rochester Red Wings released RHP Drew Smith."
+      },
+      {
+        "date": "2026-03-29",
+        "fromTeam": null,
+        "toTeam": "St. Paul Saints",
+        "description": "RHP Drew Smith assigned to St. Paul Saints."
+      },
+      {
+        "date": "2026-03-29",
+        "fromTeam": null,
+        "toTeam": "Minnesota Twins",
+        "description": "Minnesota Twins signed free agent RHP Drew Smith to a minor league contract."
+      },
+      {
+        "date": "2026-06-19",
+        "fromTeam": null,
+        "toTeam": "St. Paul Saints",
+        "description": "St. Paul Saints released RHP Drew Smith."
+      }
+    ]
+  },
+  {
+    "name": "Trevor Stephan",
+    "mlbId": 663986,
+    "transactions": [
+      {
+        "date": "2026-03-29",
+        "fromTeam": null,
+        "toTeam": "ACL Guardians",
+        "description": "RHP Trevor Stephan assigned to ACL Guardians."
+      },
+      {
+        "date": "2026-06-16",
+        "fromTeam": "ACL Guardians",
+        "toTeam": "Columbus Clippers",
+        "description": "RHP Trevor Stephan assigned to Columbus Clippers from ACL Guardians."
+      }
+    ]
+  },
+  {
+    "name": "Hunter Strickland",
+    "mlbId": 519326,
+    "transactions": [
+      {
+        "date": "2025-11-02",
+        "fromTeam": null,
+        "toTeam": "Los Angeles Angels",
+        "description": "RHP Hunter Strickland elected free agency."
+      },
+      {
+        "date": "2026-02-11",
+        "fromTeam": null,
+        "toTeam": "Los Angeles Angels",
+        "description": "Los Angeles Angels signed free agent RHP Hunter Strickland to a minor league contract and invited him to spring training."
+      },
+      {
+        "date": "2026-02-11",
+        "fromTeam": null,
+        "toTeam": "Salt Lake Bees",
+        "description": "RHP Hunter Strickland assigned to Salt Lake Bees."
+      },
+      {
+        "date": "2026-03-21",
+        "fromTeam": null,
+        "toTeam": "Salt Lake Bees",
+        "description": "Salt Lake Bees released RHP Hunter Strickland."
+      },
+      {
+        "date": "2026-03-23",
+        "fromTeam": null,
+        "toTeam": "Los Angeles Angels",
+        "description": "Los Angeles Angels signed free agent RHP Hunter Strickland to a minor league contract."
+      },
+      {
+        "date": "2026-03-27",
+        "fromTeam": null,
+        "toTeam": "Salt Lake Bees",
+        "description": "RHP Hunter Strickland assigned to Salt Lake Bees."
+      },
+      {
+        "date": "2026-05-04",
+        "fromTeam": null,
+        "toTeam": "Salt Lake Bees",
+        "description": "Salt Lake Bees released RHP Hunter Strickland."
+      }
+    ]
+  },
+  {
+    "name": "Rowan Wick",
+    "mlbId": 592858,
+    "transactions": [
+      {
+        "date": "2026-02-13",
+        "fromTeam": null,
+        "toTeam": "San Francisco Giants",
+        "description": "San Francisco Giants signed free agent RHP Rowan Wick."
+      },
+      {
+        "date": "2026-02-15",
+        "fromTeam": null,
+        "toTeam": "San Francisco Giants",
+        "description": "San Francisco Giants placed RHP Rowan Wick on the 60-day injured list. Recovery from Tommy John surgery."
+      }
+    ]
+  },
+  {
+    "name": "Dan Altavilla",
+    "mlbId": 656186,
+    "transactions": [
+      {
+        "date": "2025-12-16",
+        "fromTeam": null,
+        "toTeam": "Minnesota Twins",
+        "description": "Minnesota Twins signed free agent RHP Dan Altavilla to a minor league contract."
+      },
+      {
+        "date": "2025-12-16",
+        "fromTeam": null,
+        "toTeam": "St. Paul Saints",
+        "description": "RHP Dan Altavilla assigned to St. Paul Saints."
+      },
+      {
+        "date": "2026-02-05",
+        "fromTeam": null,
+        "toTeam": "Italy",
+        "description": "Italy activated RHP Dan Altavilla."
+      },
+      {
+        "date": "2026-05-25",
+        "fromTeam": null,
+        "toTeam": "St. Paul Saints",
+        "description": "St. Paul Saints released RHP Dan Altavilla."
+      },
+      {
+        "date": "2026-05-29",
+        "fromTeam": null,
+        "toTeam": "Kansas City Royals",
+        "description": "Kansas City Royals signed RHP Dan Altavilla."
+      },
+      {
+        "date": "2026-05-30",
+        "fromTeam": null,
+        "toTeam": "Omaha Storm Chasers",
+        "description": "RHP Dan Altavilla assigned to Omaha Storm Chasers."
+      },
+      {
+        "date": "2026-08-04",
+        "fromTeam": null,
+        "toTeam": "Omaha Storm Chasers",
+        "description": "Omaha Storm Chasers released RHP Dan Altavilla."
+      }
+    ]
+  },
+  {
+    "name": "Luke Jackson",
+    "mlbId": 592426,
+    "transactions": [
+      {
+        "date": "2025-11-02",
+        "fromTeam": null,
+        "toTeam": "Seattle Mariners",
+        "description": "RHP Luke Jackson elected free agency."
+      },
+      {
+        "date": "2026-04-04",
+        "fromTeam": null,
+        "toTeam": "New York Mets",
+        "description": "New York Mets signed free agent RHP Luke Jackson to a minor league contract."
+      },
+      {
+        "date": "2026-04-04",
+        "fromTeam": null,
+        "toTeam": "Syracuse Mets",
+        "description": "RHP Luke Jackson assigned to Syracuse Mets."
+      },
+      {
+        "date": "2026-04-04",
+        "fromTeam": null,
+        "toTeam": "New York Mets",
+        "description": "RHP Luke Jackson roster status changed by New York Mets."
+      },
+      {
+        "date": "2026-04-18",
+        "fromTeam": "Syracuse Mets",
+        "toTeam": "St. Lucie Mets",
+        "description": "RHP Luke Jackson assigned to St. Lucie Mets from Syracuse Mets."
+      },
+      {
+        "date": "2026-04-28",
+        "fromTeam": "St. Lucie Mets",
+        "toTeam": "Syracuse Mets",
+        "description": "RHP Luke Jackson assigned to Syracuse Mets from St. Lucie Mets."
+      },
+      {
+        "date": "2026-05-17",
+        "fromTeam": null,
+        "toTeam": "Syracuse Mets",
+        "description": "Syracuse Mets released RHP Luke Jackson."
+      },
+      {
+        "date": "2026-05-22",
+        "fromTeam": null,
+        "toTeam": "Kansas City Royals",
+        "description": "Kansas City Royals signed free agent RHP Luke Jackson to a minor league contract."
+      },
+      {
+        "date": "2026-05-22",
+        "fromTeam": null,
+        "toTeam": "Omaha Storm Chasers",
+        "description": "RHP Luke Jackson assigned to Omaha Storm Chasers."
+      },
+      {
+        "date": "2026-06-23",
+        "fromTeam": null,
+        "toTeam": "Omaha Storm Chasers",
+        "description": "Omaha Storm Chasers released RHP Luke Jackson."
+      }
+    ]
+  },
+  {
+    "name": "José Leclerc",
+    "mlbId": 600917,
+    "transactions": [
+      {
+        "date": "2025-11-02",
+        "fromTeam": null,
+        "toTeam": "Athletics",
+        "description": "RHP José Leclerc elected free agency."
+      },
+      {
+        "date": "2026-03-27",
+        "fromTeam": null,
+        "toTeam": "San Diego Padres",
+        "description": "San Diego Padres signed free agent RHP José Leclerc to a minor league contract."
+      },
+      {
+        "date": "2026-03-27",
+        "fromTeam": null,
+        "toTeam": "El Paso Chihuahuas",
+        "description": "RHP José Leclerc assigned to El Paso Chihuahuas."
+      },
+      {
+        "date": "2026-04-01",
+        "fromTeam": null,
+        "toTeam": "El Paso Chihuahuas",
+        "description": "El Paso Chihuahuas placed RHP José Leclerc on the 60-day injured list."
+      },
+      {
+        "date": "2026-07-03",
+        "fromTeam": "El Paso Chihuahuas",
+        "toTeam": "ACL Padres",
+        "description": "El Paso Chihuahuas sent RHP José Leclerc on a rehab assignment to ACL Padres."
+      },
+      {
+        "date": "2026-07-21",
+        "fromTeam": "El Paso Chihuahuas",
+        "toTeam": "Fort Wayne TinCaps",
+        "description": "El Paso Chihuahuas sent RHP José Leclerc on a rehab assignment to Fort Wayne TinCaps."
+      },
+      {
+        "date": "2026-07-21",
+        "fromTeam": "El Paso Chihuahuas",
+        "toTeam": "Fort Wayne TinCaps",
+        "description": "El Paso Chihuahuas sent RHP José Leclerc on a rehab assignment to Fort Wayne TinCaps."
+      },
+      {
+        "date": "2026-07-29",
+        "fromTeam": "El Paso Chihuahuas",
+        "toTeam": "San Antonio Missions",
+        "description": "RHP José Leclerc assigned to San Antonio Missions from El Paso Chihuahuas."
+      },
+      {
+        "date": "2026-08-18",
+        "fromTeam": "San Antonio Missions",
+        "toTeam": "El Paso Chihuahuas",
+        "description": "RHP José Leclerc assigned to El Paso Chihuahuas from San Antonio Missions."
+      },
+      {
+        "date": "2026-09-07",
+        "fromTeam": null,
+        "toTeam": "El Paso Chihuahuas",
+        "description": "El Paso Chihuahuas released RHP José Leclerc."
+      }
+    ]
+  },
+  {
+    "name": "Jorge Alcala",
+    "mlbId": 660896,
+    "transactions": [
+      {
+        "date": "2025-11-18",
+        "fromTeam": null,
+        "toTeam": "St. Louis Cardinals",
+        "description": "St. Louis Cardinals designated RHP Jorge Alcala for assignment."
+      },
+      {
+        "date": "2025-11-21",
+        "fromTeam": null,
+        "toTeam": "St. Louis Cardinals",
+        "description": "RHP Jorge Alcala elected free agency."
+      },
+      {
+        "date": "2025-12-20",
+        "fromTeam": null,
+        "toTeam": "Toronto Blue Jays",
+        "description": "Toronto Blue Jays signed free agent RHP Jorge Alcala to a minor league contract."
+      },
+      {
+        "date": "2025-12-20",
+        "fromTeam": null,
+        "toTeam": "Buffalo Bisons",
+        "description": "RHP Jorge Alcala assigned to Buffalo Bisons."
+      },
+      {
+        "date": "2026-05-01",
+        "fromTeam": null,
+        "toTeam": "Buffalo Bisons",
+        "description": "Buffalo Bisons placed RHP Jorge Alcala on the 7-day injured list."
+      },
+      {
+        "date": "2026-07-25",
+        "fromTeam": "Buffalo Bisons",
+        "toTeam": "FCL Blue Jays",
+        "description": "Buffalo Bisons sent RHP Jorge Alcala on a rehab assignment to FCL Blue Jays."
+      },
+      {
+        "date": "2026-07-28",
+        "fromTeam": "Buffalo Bisons",
+        "toTeam": "Dunedin Blue Jays",
+        "description": "Buffalo Bisons sent RHP Jorge Alcala on a rehab assignment to Dunedin Blue Jays."
+      },
+      {
+        "date": "2026-07-28",
+        "fromTeam": null,
+        "toTeam": "Dunedin Blue Jays",
+        "description": "sent RHP Jorge Alcala on a rehab assignment to Dunedin Blue Jays."
+      },
+      {
+        "date": "2026-08-04",
+        "fromTeam": null,
+        "toTeam": "Buffalo Bisons",
+        "description": "Buffalo Bisons activated RHP Jorge Alcala from the 7-day injured list."
+      },
+      {
+        "date": "2026-08-04",
+        "fromTeam": null,
+        "toTeam": "Buffalo Bisons",
+        "description": "Buffalo Bisons released RHP Jorge Alcala."
+      },
+      {
+        "date": "2026-10-16",
+        "fromTeam": null,
+        "toTeam": "Aguilas Cibaenas",
+        "description": "RHP Jorge Alcala assigned to Aguilas Cibaenas."
+      }
+    ]
+  },
+  {
+    "name": "Génesis Cabrera",
+    "mlbId": 650893,
+    "transactions": [
+      {
+        "date": "2025-10-20",
+        "fromTeam": null,
+        "toTeam": "Leones del Escogido",
+        "description": "LHP Génesis Cabrera assigned to Leones del Escogido."
+      },
+      {
+        "date": "2025-11-06",
+        "fromTeam": "Minnesota Twins",
+        "toTeam": "St. Paul Saints",
+        "description": "Minnesota Twins sent LHP Génesis Cabrera outright to St. Paul Saints."
+      },
+      {
+        "date": "2025-11-06",
+        "fromTeam": null,
+        "toTeam": "St. Paul Saints",
+        "description": "LHP Génesis Cabrera elected free agency."
+      },
+      {
+        "date": "2025-12-23",
+        "fromTeam": null,
+        "toTeam": "Philadelphia Phillies",
+        "description": "Philadelphia Phillies signed free agent LHP Génesis Cabrera to a minor league contract."
+      },
+      {
+        "date": "2025-12-23",
+        "fromTeam": null,
+        "toTeam": "Lehigh Valley IronPigs",
+        "description": "LHP Génesis Cabrera assigned to Lehigh Valley IronPigs."
+      },
+      {
+        "date": "2025-12-23",
+        "fromTeam": null,
+        "toTeam": "Lehigh Valley IronPigs",
+        "description": "Lehigh Valley IronPigs activated LHP Génesis Cabrera."
+      },
+      {
+        "date": "2026-01-23",
+        "fromTeam": null,
+        "toTeam": "Philadelphia Phillies",
+        "description": "Philadelphia Phillies invited non-roster LHP Génesis Cabrera to spring training."
+      },
+      {
+        "date": "2026-05-16",
+        "fromTeam": null,
+        "toTeam": "Lehigh Valley IronPigs",
+        "description": "Lehigh Valley IronPigs released LHP Génesis Cabrera."
+      },
+      {
+        "date": "2026-05-26",
+        "fromTeam": null,
+        "toTeam": "Kansas City Royals",
+        "description": "Kansas City Royals signed free agent LHP Génesis Cabrera to a minor league contract."
+      },
+      {
+        "date": "2026-05-26",
+        "fromTeam": null,
+        "toTeam": "Omaha Storm Chasers",
+        "description": "LHP Génesis Cabrera assigned to Omaha Storm Chasers."
+      },
+      {
+        "date": "2026-07-17",
+        "fromTeam": null,
+        "toTeam": "Omaha Storm Chasers",
+        "description": "Omaha Storm Chasers released LHP Génesis Cabrera."
+      },
+      {
+        "date": "2026-07-18",
+        "fromTeam": null,
+        "toTeam": "Diablos Rojos del Mexico",
+        "description": "Diablos Rojos del Mexico signed free agent LHP Génesis Cabrera."
+      },
+      {
+        "date": "2026-08-04",
+        "fromTeam": null,
+        "toTeam": "Diablos Rojos del Mexico",
+        "description": "Diablos Rojos del Mexico released LHP Génesis Cabrera."
+      },
+      {
+        "date": "2026-10-16",
+        "fromTeam": null,
+        "toTeam": "Aguilas Cibaenas",
+        "description": "LHP Génesis Cabrera assigned to Aguilas Cibaenas."
+      }
+    ]
+  },
+  {
+    "name": "Gavin Lux",
+    "mlbId": 666158,
+    "transactions": [
+      {
+        "date": "2026-01-16",
+        "fromTeam": "Cincinnati Reds",
+        "toTeam": "Tampa Bay Rays",
+        "description": "Tampa Bay Rays traded RF Josh Lowe to Los Angeles Angels for RHP Chris Clark and LF Gavin Lux."
+      },
+      {
+        "date": "2026-03-24",
+        "fromTeam": null,
+        "toTeam": "Tampa Bay Rays",
+        "description": "Tampa Bay Rays placed LF Gavin Lux on the 10-day injured list retroactive to March 23, 2026. Right shoulder impingement."
+      },
+      {
+        "date": "2026-04-02",
+        "fromTeam": "Tampa Bay Rays",
+        "toTeam": "Durham Bulls",
+        "description": "Tampa Bay Rays sent LF Gavin Lux on a rehab assignment to Durham Bulls."
+      },
+      {
+        "date": "2026-04-21",
+        "fromTeam": "Tampa Bay Rays",
+        "toTeam": "Durham Bulls",
+        "description": "Tampa Bay Rays sent LF Gavin Lux on a rehab assignment to Durham Bulls."
+      },
+      {
+        "date": "2026-05-27",
+        "fromTeam": null,
+        "toTeam": "Tampa Bay Rays",
+        "description": "Tampa Bay Rays placed LF Gavin Lux on the 60-day injured list. Right shoulder impingement."
+      },
+      {
+        "date": "2026-06-30",
+        "fromTeam": "Tampa Bay Rays",
+        "toTeam": "Durham Bulls",
+        "description": "Tampa Bay Rays sent LF Gavin Lux on a rehab assignment to Durham Bulls."
+      },
+      {
+        "date": "2026-06-30",
+        "fromTeam": "Tampa Bay Rays",
+        "toTeam": "Durham Bulls",
+        "description": "Tampa Bay Rays sent LF Gavin Lux on a rehab assignment to Durham Bulls."
+      }
+    ]
+  },
+  {
+    "name": "Cavan Biggio",
+    "mlbId": 624415,
+    "transactions": [
+      {
+        "date": "2025-11-06",
+        "fromTeam": null,
+        "toTeam": "Salt Lake Bees",
+        "description": "1B Cavan Biggio elected free agency."
+      },
+      {
+        "date": "2026-02-15",
+        "fromTeam": null,
+        "toTeam": "Houston Astros",
+        "description": "Houston Astros signed free agent 1B Cavan Biggio to a minor league contract and invited him to spring training."
+      },
+      {
+        "date": "2026-02-15",
+        "fromTeam": null,
+        "toTeam": "Sugar Land Space Cowboys",
+        "description": "1B Cavan Biggio assigned to Sugar Land Space Cowboys."
+      },
+      {
+        "date": "2026-02-15",
+        "fromTeam": null,
+        "toTeam": "Houston Astros",
+        "description": "1B Cavan Biggio roster status changed by Houston Astros."
+      }
+    ]
+  },
+  {
+    "name": "Paul DeJong",
+    "mlbId": 657557,
+    "transactions": [
+      {
+        "date": "2025-11-02",
+        "fromTeam": null,
+        "toTeam": "Washington Nationals",
+        "description": "3B Paul DeJong elected free agency."
+      },
+      {
+        "date": "2026-01-08",
+        "fromTeam": null,
+        "toTeam": "New York Yankees",
+        "description": "New York Yankees signed free agent 3B Paul DeJong to a minor league contract."
+      },
+      {
+        "date": "2026-01-08",
+        "fromTeam": null,
+        "toTeam": "Scranton/Wilkes-Barre RailRiders",
+        "description": "3B Paul DeJong assigned to Scranton/Wilkes-Barre RailRiders."
+      },
+      {
+        "date": "2026-01-08",
+        "fromTeam": null,
+        "toTeam": "Scranton/Wilkes-Barre RailRiders",
+        "description": "Scranton/Wilkes-Barre RailRiders activated 3B Paul DeJong."
+      },
+      {
+        "date": "2026-05-01",
+        "fromTeam": null,
+        "toTeam": "Scranton/Wilkes-Barre RailRiders",
+        "description": "Scranton/Wilkes-Barre RailRiders released 3B Paul DeJong."
+      },
+      {
+        "date": "2026-05-05",
+        "fromTeam": null,
+        "toTeam": "Detroit Tigers",
+        "description": "Detroit Tigers signed free agent 3B Paul DeJong to a minor league contract."
+      },
+      {
+        "date": "2026-05-05",
+        "fromTeam": null,
+        "toTeam": "Toledo Mud Hens",
+        "description": "3B Paul DeJong assigned to Toledo Mud Hens."
+      },
+      {
+        "date": "2026-05-19",
+        "fromTeam": null,
+        "toTeam": "Toledo Mud Hens",
+        "description": "Toledo Mud Hens placed 3B Paul DeJong on the full-season injured list."
+      },
+      {
+        "date": "2026-05-25",
+        "fromTeam": null,
+        "toTeam": "Toledo Mud Hens",
+        "description": "Toledo Mud Hens released 3B Paul DeJong."
+      }
+    ]
+  },
+  {
+    "name": "Kevin Newman",
+    "mlbId": 621028,
+    "transactions": [
+      {
+        "date": "2025-11-06",
+        "fromTeam": null,
+        "toTeam": "Toledo Mud Hens",
+        "description": "3B Kevin Newman elected free agency."
+      },
+      {
+        "date": "2025-12-16",
+        "fromTeam": null,
+        "toTeam": "Kansas City Royals",
+        "description": "Kansas City Royals signed free agent 3B Kevin Newman to a minor league contract."
+      },
+      {
+        "date": "2025-12-17",
+        "fromTeam": null,
+        "toTeam": "Omaha Storm Chasers",
+        "description": "3B Kevin Newman assigned to Omaha Storm Chasers."
+      },
+      {
+        "date": "2026-01-27",
+        "fromTeam": null,
+        "toTeam": "Kansas City Royals",
+        "description": "Kansas City Royals invited non-roster 3B Kevin Newman to spring training."
+      },
+      {
+        "date": "2026-07-08",
+        "fromTeam": null,
+        "toTeam": "Omaha Storm Chasers",
+        "description": "Omaha Storm Chasers placed 3B Kevin Newman on the 7-day injured list."
+      },
+      {
+        "date": "2026-07-25",
+        "fromTeam": null,
+        "toTeam": "Omaha Storm Chasers",
+        "description": "Omaha Storm Chasers released 3B Kevin Newman."
+      }
+    ]
+  }
+]
