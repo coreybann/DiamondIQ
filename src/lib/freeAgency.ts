@@ -45,6 +45,8 @@ const verifiedStatuses = verifiedStatusData.players as Record<
     source: string;
   }
 >;
+const freeAgencyStart = new Date("2026-10-29T09:00:00-04:00");
+const freeAgencyHasStarted = new Date() >= freeAgencyStart;
 export const freeAgents: FreeAgent[] = freeAgentData.players.map(
   (player, index) => ({
     id: matchedIds[player.name] ?? -(index + 1),
@@ -53,11 +55,13 @@ export const freeAgents: FreeAgent[] = freeAgentData.players.map(
     age: player.age,
   previousTeam: (freeAgentTeams.teams as Record<string, string>)[player.name] ?? "N/A",
   contractOption: player.contractOption,
-      status:
-      verifiedStatuses[player.name]?.status ??
-      (player.contractOption
-        ? "Pending Option"
-        : "Potential Free Agent"),
+status:
+  verifiedStatuses[player.name]?.status ??
+  (player.contractOption
+    ? "Pending Option"
+    : freeAgencyHasStarted
+      ? "Available"
+      : "Potential Free Agent"),
     offseason: "2026-2027",
   })
 );
