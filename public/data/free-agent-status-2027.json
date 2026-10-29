@@ -1,5 +1,11 @@
 {
   "season": 2027,
-  "lastVerified": null,
-  "players": {}
+  "lastVerified": "2026-10-29T16:26:30.557968+00:00",
+  "players": {
+    "Michael King": {
+      "status": "Available",
+      "verifiedAt": "2026-10-29T16:26:30.557968+00:00",
+      "source": "https://www.mlbtraderumors.com/2026/10/michael-king-declines-player-option.html"
+    }
+  }
 }
