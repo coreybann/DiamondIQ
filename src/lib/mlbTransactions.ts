@@ -8,6 +8,8 @@ export type MLBFreeAgencyEvent = {
   playerName: string;
   date: string;
   type: MLBFreeAgencyEventType;
+    fromTeamId: number | null;
+  toTeamId: number | null;
   description: string;
 };
 export type MLBTransaction = {
@@ -18,6 +20,8 @@ export type MLBTransaction = {
   playerName: string;
   fromTeam: string | null;
   toTeam: string | null;
+  fromTeamId: number | null;
+toTeamId: number | null;
   position: string | null;
 };
 
@@ -50,9 +54,11 @@ export async function getMLBTransactions(
       playerId: transaction.person?.id ?? null,
       playerName:
         transaction.person?.fullName ?? "Unknown Player",
-      fromTeam: transaction.fromTeam?.name ?? null,
-      toTeam: transaction.toTeam?.name ?? null,
-      position: null,
+fromTeam: transaction.fromTeam?.name ?? null,
+toTeam: transaction.toTeam?.name ?? null,
+fromTeamId: transaction.fromTeam?.id ?? null,
+toTeamId: transaction.toTeam?.id ?? null,
+position: null,
     })
   );
 }
@@ -176,12 +182,20 @@ export function detectFreeAgencyEvents(
     if (!type || transaction.playerId === null) {
       return [];
     }
-
+if (
+  type === "Became Free Agent" &&
+  !isMajorLeagueTeam(transaction.fromTeamId) &&
+  !isMajorLeagueTeam(transaction.toTeamId)
+) {
+  return [];
+}
     return [{
       playerId: transaction.playerId,
       playerName: transaction.playerName,
       date: transaction.date,
       type,
+      fromTeamId: transaction.fromTeamId,
+toTeamId: transaction.toTeamId,
       description,
     }];
   });
@@ -228,4 +242,20 @@ export async function getMLBPlayerPositions(
   }
 
   return positions;
+}
+export function isMajorLeagueTeam(teamId: number | null): boolean {
+  if (teamId === null) {
+    return false;
+  }
+
+  const mlbTeamIds = new Set([
+    108, 109, 110, 111, 112,
+    113, 114, 115, 116, 117,
+    118, 119, 120, 121, 133,
+    134, 135, 136, 137, 138,
+    139, 140, 141, 142, 143,
+    144, 145, 146, 147, 158,
+  ]);
+
+  return mlbTeamIds.has(teamId);
 }

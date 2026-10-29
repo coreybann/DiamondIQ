@@ -6,7 +6,6 @@ import {
   getFreeAgentSignings,
   getMLBPlayerPositions,
   getMLBTransactionsInBatches,
-  detectFreeAgencyEvents,
   detectFreeAgentSignings,
 } from "@/lib/mlbTransactions";
 import SigningSearch from "./SigningSearch";
@@ -40,14 +39,6 @@ const currentTransactions =
       )
     : [];
 const currentSignings = detectFreeAgentSignings(currentTransactions);
-const freeAgencyEvents = detectFreeAgencyEvents(currentTransactions);
-
-const eventsByPlayerId = new Map(
-  freeAgencyEvents
-    .filter((event) => event.playerId !== null)
-    .sort((a, b) => a.date.localeCompare(b.date))
-    .map((event) => [event.playerId, event])
-);
 const historicalSignings = await getFreeAgentSignings(
   `${offseasonStartYear - 1}-11-01`,
   `${offseasonStartYear}-03-31`
@@ -79,22 +70,13 @@ const historicalSignings = await getFreeAgentSignings(
     .map((player) => {
       const signing =
         player.id > 0 ? signingByPlayerId.get(player.id) : undefined;
-const freeAgencyEvent =
-  player.id > 0 ? eventsByPlayerId.get(player.id) : undefined;
-  const hasVerifiedOptionExercise =
-  freeAgencyEvent?.type === "Option Exercised" &&
-  player.contractOption != null &&
-  /\b(?:club|player|mutual)\s+option\b/i.test(
-    freeAgencyEvent.description
-  ) &&
-  /\bexercised\b/i.test(freeAgencyEvent.description);
+
+
       return {
         ...player,
 status: signing
   ? ("Signing Reported" as const)
-  : hasVerifiedOptionExercise
-    ? ("Under Contract" as const)
-    : player.status,
+  : player.status,
         signedTeam: signing?.toTeam ?? player.signedTeam,
         signingDate: signing?.date ?? player.signingDate,
       };
