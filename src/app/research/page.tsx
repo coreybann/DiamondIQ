@@ -1,10 +1,61 @@
 
 const projects = [
-  
-  
-  
+  {
+    number: "01",
+    category: "PITCHER SCOUTING REPORT",
+    title: "Cam Schlittler — 2026 Pitcher Scouting Report",
+    status: "Completed",
+    description:
+      "An in-depth scouting evaluation of New York Yankees pitcher Cam Schlittler, examining his pitch arsenal, swing-and-miss ability, and overall pitching performance during the 2026 season.",
+    methods: [
+      "R Programming",
+      "Statcast",
+      "Pitch Analysis",
+      "Data Visualization",
+    ],
+    takeaway:
+      "Evaluates Schlittler's pitch effectiveness and identifies strengths and areas for improvement using MLB performance data.",
+    href: "/research/Cam_Schlittler_2026_Scouting_Report.pdf",
+    linkLabel: "View Full Scouting Report",
+  }, 
+  {
+    number: "02",
+    category: "HITTER ANALYTICS RESEARCH",
+    title: "Identifying Undervalued MLB Hitters — 2026",
+    status: "Completed",
+    description:
+      "An analysis of MLB hitters whose expected offensive performance exceeds their actual results, using Statcast metrics to identify potentially undervalued players.",
+    methods: [
+      "R Programming",
+      "Statcast",
+      "Expected Statistics",
+      "Data Visualization",
+    ],
+    takeaway:
+      "Identifies hitters with positive underlying offensive indicators by examining xwOBA, wOBA, exit velocity, and hard-hit rate.",
+    href: "/research/MLB_2026_Undervalued_Hitters_Scouting_Report.pdf",
+    linkLabel: "View Full Research Report",
+  },
+   {
+    number: "03",
+    category: "PITCHER MATCHUP STRATEGY",
+    title: "Gerrit Cole vs. Boston Red Sox — Matchup Strategy",
+    status: "Completed",
+    description:
+      "A detailed pitching strategy report evaluating Gerrit Cole against Boston Red Sox hitters using pitch selection, hitter tendencies, and matchup data.",
+    methods: [
+      "R Programming",
+      "Statcast",
+      "Hitter Tendencies",
+      "Pitch Location Analysis",
+    ],
+    takeaway:
+      "Develops matchup recommendations based on hitter weaknesses, swing-and-miss tendencies, and pitch location data.",
+    href: "/research/Gerrit_Cole_2026_Red_Sox_Scouting_Report_Portfolio_Format.pdf",
+    linkLabel: "View Full Matchup Report",
+  }, 
 {
-  number: "01",
+number: "04",
   category: "INTERACTIVE TOOL",
   title: "DiamondIQ Front Office Tools",
   status: "Available",
@@ -18,7 +69,7 @@ const projects = [
 },
 
 {
-  number: "02",
+  number: "05",
   category: "INTERACTIVE TOOL",
   title: "MLB Player Comparison",
   status: "Available",
