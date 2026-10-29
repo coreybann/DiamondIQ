@@ -13,7 +13,7 @@ export async function POST(request: NextRequest) {
 
   revalidatePath("/stats", "page");
   revalidatePath("/stats/team/[id]", "page");
-
+  revalidatePath("/free-agency", "page");
   return NextResponse.json({
     message: "DiamondIQ stats cache invalidation requested",
     status: "success",

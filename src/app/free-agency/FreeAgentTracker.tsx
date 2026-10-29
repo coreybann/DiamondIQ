@@ -145,6 +145,8 @@ export default function FreeAgentTracker({ players }: Props) {
         >
           <option value="All">All Statuses</option>
           <option value="Potential Free Agent">Potential Free Agent</option>
+          <option value="Pending Option">Pending Option</option>
+          <option value="Under Contract">Under Contract</option>
           <option value="Available">Available</option>
           <option value="Signing Reported">Signing Reported</option>
           <option value="Signed">Signed</option>
@@ -161,6 +163,19 @@ export default function FreeAgentTracker({ players }: Props) {
         </p>
         <div className="grid gap-2 text-xs text-gray-400 sm:grid-cols-2">
           <p><span className="font-semibold text-slate-300">Potential Free Agent:</span> Expected to reach free agency; eligibility not yet confirmed.</p>
+         <p>
+  <span className="font-semibold text-orange-300">
+    Pending Option:
+  </span>{" "}
+
+  Player has a contract option awaiting a confirmed decision.
+</p>
+<p>
+  <span className="font-semibold text-purple-300">
+    Under Contract:
+  </span>{" "}
+  The player remains under contract with a team.
+</p>
           <p><span className="font-semibold text-green-300">Available:</span> Confirmed free agent without a reported signing.</p>
           <p><span className="font-semibold text-amber-300">Signing Reported:</span> Signing detected in MLB transaction records.</p>
           <p><span className="font-semibold text-blue-300">Signed:</span> Signing independently confirmed.</p>
@@ -255,9 +270,13 @@ export default function FreeAgentTracker({ players }: Props) {
                         ? "border-blue-500/30 bg-blue-500/10 text-blue-300"
                         : player.status === "Signing Reported"
                           ? "border-amber-500/30 bg-amber-500/10 text-amber-300"
-                          : player.status === "Available"
-                            ? "border-green-500/30 bg-green-500/10 text-green-300"
-                            : "border-slate-500/30 bg-slate-500/10 text-slate-300"
+                         : player.status === "Available"
+  ? "border-green-500/30 bg-green-500/10 text-green-300"
+: player.status === "Pending Option"
+  ? "border-orange-500/30 bg-orange-500/10 text-orange-300"
+  : player.status === "Under Contract"
+    ? "border-purple-500/30 bg-purple-500/10 text-purple-300"
+    : "border-slate-500/30 bg-slate-500/10 text-slate-300"
                     }`}
                   >
                     {player.status}

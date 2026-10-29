@@ -5,6 +5,9 @@ import { getWorldSeriesEndDate } from "@/lib/worldSeries";
 import {
   getFreeAgentSignings,
   getMLBPlayerPositions,
+  getMLBTransactionsInBatches,
+  detectFreeAgencyEvents,
+  detectFreeAgentSignings,
 } from "@/lib/mlbTransactions";
 import SigningSearch from "./SigningSearch";
 import {
@@ -26,16 +29,25 @@ const currentOffseasonStart = worldSeriesEndDate
   : null;
 const currentOffseasonEnd = `${offseasonStartYear + 1}-03-31`;
 
-const currentSignings =
+
+const currentTransactions =
   currentOffseasonStart !== null && today >= currentOffseasonStart
-    ? await getFreeAgentSignings(
+    ? await getMLBTransactionsInBatches(
         currentOffseasonStart,
         today < currentOffseasonEnd
           ? today
           : currentOffseasonEnd
       )
     : [];
+const currentSignings = detectFreeAgentSignings(currentTransactions);
+const freeAgencyEvents = detectFreeAgencyEvents(currentTransactions);
 
+const eventsByPlayerId = new Map(
+  freeAgencyEvents
+    .filter((event) => event.playerId !== null)
+    .sort((a, b) => a.date.localeCompare(b.date))
+    .map((event) => [event.playerId, event])
+);
 const historicalSignings = await getFreeAgentSignings(
   `${offseasonStartYear - 1}-11-01`,
   `${offseasonStartYear}-03-31`
@@ -67,12 +79,22 @@ const historicalSignings = await getFreeAgentSignings(
     .map((player) => {
       const signing =
         player.id > 0 ? signingByPlayerId.get(player.id) : undefined;
-
+const freeAgencyEvent =
+  player.id > 0 ? eventsByPlayerId.get(player.id) : undefined;
+  const hasVerifiedOptionExercise =
+  freeAgencyEvent?.type === "Option Exercised" &&
+  player.contractOption != null &&
+  /\b(?:club|player|mutual)\s+option\b/i.test(
+    freeAgencyEvent.description
+  ) &&
+  /\bexercised\b/i.test(freeAgencyEvent.description);
       return {
         ...player,
-        status: signing
-          ? ("Signing Reported" as const)
-          : player.status,
+status: signing
+  ? ("Signing Reported" as const)
+  : hasVerifiedOptionExercise
+    ? ("Under Contract" as const)
+    : player.status,
         signedTeam: signing?.toTeam ?? player.signedTeam,
         signingDate: signing?.date ?? player.signingDate,
       };

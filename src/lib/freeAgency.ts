@@ -1,5 +1,12 @@
 import freeAgentTeams from "../../public/data/free-agent-teams-2026.json";
-export type FreeAgentStatus = "Potential Free Agent" | "Available" | "Signing Reported" | "Signed";
+import verifiedStatusData from "../../public/data/free-agent-status-2027.json";
+export type FreeAgentStatus =
+  | "Potential Free Agent"
+  | "Pending Option"
+| "Under Contract"
+  | "Available"
+  | "Signing Reported"
+  | "Signed";
 
 export type FreeAgent = {
   id: number;
@@ -8,6 +15,7 @@ export type FreeAgent = {
   age: number | null;
   previousTeam: string;
   status: FreeAgentStatus;
+    contractOption?: string | null;
   offseason: string;
   signedTeam?: string;
   signingDate?: string;
@@ -29,15 +37,27 @@ import freeAgentData from "../../public/data/free-agents-2027.json";
 import playerIdData from "../../public/data/free-agent-mlb-ids-2027.json";
 
 const matchedIds: Record<string, number> = playerIdData.matched;
-
+const verifiedStatuses = verifiedStatusData.players as Record<
+  string,
+  {
+    status: FreeAgentStatus;
+    verifiedAt: string;
+    source: string;
+  }
+>;
 export const freeAgents: FreeAgent[] = freeAgentData.players.map(
   (player, index) => ({
     id: matchedIds[player.name] ?? -(index + 1),
     name: player.name,
     position: player.position,
     age: player.age,
-    previousTeam: (freeAgentTeams.teams as Record<string, string>)[player.name] ?? "N/A",
-    status: "Potential Free Agent",
+  previousTeam: (freeAgentTeams.teams as Record<string, string>)[player.name] ?? "N/A",
+  contractOption: player.contractOption,
+      status:
+      verifiedStatuses[player.name]?.status ??
+      (player.contractOption
+        ? "Pending Option"
+        : "Potential Free Agent"),
     offseason: "2026-2027",
   })
 );

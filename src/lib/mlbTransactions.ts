@@ -1,4 +1,15 @@
+export type MLBFreeAgencyEventType =
+  | "Option Exercised"
+  | "Option Declined"
+  | "Became Free Agent";
 
+export type MLBFreeAgencyEvent = {
+  playerId: number | null;
+  playerName: string;
+  date: string;
+  type: MLBFreeAgencyEventType;
+  description: string;
+};
 export type MLBTransaction = {
   id: number;
   date: string;
@@ -46,7 +57,41 @@ export async function getMLBTransactions(
   );
 }
 
+export async function getMLBTransactionsInBatches(
+  startDate: string,
+  endDate: string
+): Promise<MLBTransaction[]> {
+  if (startDate > endDate) {
+    return [];
+  }
 
+  const allTransactions: MLBTransaction[] = [];
+  let cursor = new Date(`${startDate}T00:00:00Z`);
+  const finalDate = new Date(`${endDate}T00:00:00Z`);
+
+  while (cursor <= finalDate) {
+    const batchStart = cursor.toISOString().slice(0, 10);
+
+    const batchEndDate = new Date(
+      Math.min(
+        cursor.getTime() + 6 * 86400000,
+        finalDate.getTime()
+      )
+    );
+
+    const batchEnd = batchEndDate.toISOString().slice(0, 10);
+
+    const transactions = await getMLBTransactions(
+      batchStart,
+      batchEnd
+    );
+
+    allTransactions.push(...transactions);
+    cursor = new Date(batchEndDate.getTime() + 86400000);
+  }
+
+  return allTransactions;
+}
 export async function getFreeAgentSignings(
   startDate: string,
   endDate: string
@@ -92,7 +137,55 @@ export async function getFreeAgentSignings(
     return isFreeAgentSigning && !isMinorLeagueContract;
   });
 }
+export function detectFreeAgentSignings(
+  transactions: MLBTransaction[]
+): MLBTransaction[] {
+  return transactions.filter((transaction) => {
+    const description = transaction.description;
 
+    const isFreeAgentSigning =
+      /\bsigned (?:a )?free agent\b/i.test(description);
+
+    const isMinorLeagueContract =
+      /minor[\s-]+league contract/i.test(description);
+
+    return isFreeAgentSigning && !isMinorLeagueContract;
+  });
+}
+export function detectFreeAgencyEvents(
+  transactions: MLBTransaction[]
+): MLBFreeAgencyEvent[] {
+  return transactions.flatMap((transaction) => {
+    const description = transaction.description;
+
+    let type: MLBFreeAgencyEventType | null = null;
+
+    if (/\b(option|contract option)\s+(?:was\s+)?exercised\b/i.test(description)) {
+      type = "Option Exercised";
+    } else if (
+      /\b(option|contract option)\s+(?:was\s+)?declined\b/i.test(description)
+    ) {
+      type = "Option Declined";
+    } else if (
+      /\b(elected|declared)\s+free agency\b/i.test(description) &&
+      !/\bminor[\s-]+league\b/i.test(description)
+    ) {
+      type = "Became Free Agent";
+    }
+
+    if (!type || transaction.playerId === null) {
+      return [];
+    }
+
+    return [{
+      playerId: transaction.playerId,
+      playerName: transaction.playerName,
+      date: transaction.date,
+      type,
+      description,
+    }];
+  });
+}
 export async function getMLBPlayerPositions(
   playerIds: number[]
 ): Promise<Record<number, string>> {
