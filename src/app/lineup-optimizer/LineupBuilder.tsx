@@ -71,6 +71,15 @@ const [playerStats, setPlayerStats] = useState<
 
   const [lineup, setLineup] = useState<MLBPlayer[]>([]);
   const [originalLineup, setOriginalLineup] = useState<MLBPlayer[]>([]);
+
+  const [customLineupA, setCustomLineupA] = useState<MLBPlayer[]>([]);
+  const [customLineupB, setCustomLineupB] = useState<MLBPlayer[]>([]);
+
+  const [customComparison, setCustomComparison] = useState<{
+    runsA: number;
+    runsB: number;
+    matchup: PitcherMatchup;
+  } | null>(null);
   const [optimizedLineup, setOptimizedLineup] = useState<MLBPlayer[]>([]);
 const [showComparison, setShowComparison] = useState(false);
 
@@ -88,6 +97,7 @@ const [runComparison, setRunComparison] = useState<{
     optimizerWorkerRef.current = null;
     setOptimizing(false);
     setPitcherMatchup(value);
+    setCustomComparison(null);
     setShowComparison(false);
     setRunComparison(null);
     setOriginalLineup([]);
@@ -259,6 +269,9 @@ useEffect(() => {
 }, [lineup, pitcherMatchup, platoonStats]);
 
 function togglePlayer(player: MLBPlayer) {
+  setCustomLineupA([]);
+  setCustomLineupB([]);
+  setCustomComparison(null);
     optimizerWorkerRef.current?.terminate();
 optimizerWorkerRef.current = null;
 setOptimizing(false);
@@ -299,6 +312,75 @@ function movePlayer(index: number, direction: -1 | 1) {
 
     return updated;
   });
+}
+
+function compareCustomLineups() {
+  if (customLineupA.length !== 9 || customLineupB.length !== 9) {
+    setError("Save two complete nine-player lineups first.");
+    return;
+  }
+
+  const buildHitters = (savedLineup: MLBPlayer[]) =>
+    savedLineup.map((player) => {
+      const stats =
+        pitcherMatchup === "overall"
+          ? playerStats[player.id]
+          : platoonStats[player.id]?.[pitcherMatchup];
+
+      if (!stats) return null;
+
+      const obp = Number(stats.obp);
+      const slg = Number(stats.slg);
+
+      if (!Number.isFinite(obp) || !Number.isFinite(slg)) {
+        return null;
+      }
+
+      return {
+        id: player.id,
+        name: player.name,
+        obp,
+        slg,
+        plateAppearances: Number(stats.plateAppearances),
+        hits: Number(stats.hits),
+        doubles: Number(stats.doubles),
+        triples: Number(stats.triples),
+        homeRuns: Number(stats.homeRuns),
+        walks: Number(stats.baseOnBalls),
+        hitByPitch: Number(stats.hitByPitch),
+      };
+    });
+
+  const hittersA = buildHitters(customLineupA);
+  const hittersB = buildHitters(customLineupB);
+
+  if (hittersA.some((hitter) => hitter === null) ||
+      hittersB.some((hitter) => hitter === null)) {
+    setError("Batting statistics are unavailable for one or more hitters.");
+    return;
+  }
+
+  const validA = hittersA.filter(
+    (hitter): hitter is NonNullable<typeof hitter> => hitter !== null
+  );
+  const validB = hittersB.filter(
+    (hitter): hitter is NonNullable<typeof hitter> => hitter !== null
+  );
+
+  const runsA = estimateRunsPerGame(validA, 5000);
+  const runsB = estimateRunsPerGame(validB, 5000);
+
+  if (runsA === null || runsB === null) {
+    setError("Unable to simulate one or both lineups.");
+    return;
+  }
+
+  setCustomComparison({
+    runsA,
+    runsB,
+    matchup: pitcherMatchup,
+  });
+  setError("");
 }
 
 function optimizeLineup() {
@@ -450,6 +532,9 @@ optimizerWorkerRef.current = null;
 setOptimizing(false);
   setPlayers([]);
   setLineup([]);
+  setCustomLineupA([]);
+  setCustomLineupB([]);
+  setCustomComparison(null);
   setError("");
   setSelectedTeam(event.target.value);
   setOriginalLineup([]);
@@ -576,6 +661,107 @@ setShowComparison(false);
 >
 {optimizing ? "Optimizing Lineup..." : "Optimize Lineup"}
 </button>
+
+  <div className="mb-6 flex flex-wrap gap-3">
+    <button
+      type="button"
+      disabled={lineup.length !== 9}
+      onClick={() => {
+        setCustomLineupA([...lineup]);
+        setCustomComparison(null);
+      }}
+      className="rounded-lg border border-blue-500 bg-[#12243a] px-5 py-3 font-semibold text-white transition hover:bg-blue-600 disabled:cursor-not-allowed disabled:opacity-40"
+    >
+      Save as Lineup A
+    </button>
+
+    <button
+      type="button"
+      disabled={lineup.length !== 9}
+      onClick={() => {
+        setCustomLineupB([...lineup]);
+        setCustomComparison(null);
+      }}
+      className="rounded-lg border border-blue-500 bg-[#12243a] px-5 py-3 font-semibold text-white transition hover:bg-blue-600 disabled:cursor-not-allowed disabled:opacity-40"
+    >
+      Save as Lineup B
+    </button>
+  </div>
+
+  <div className="mb-6 rounded-xl border border-slate-700 bg-[#0d1d30] p-5">
+    <h3 className="mb-3 text-lg font-bold text-white">
+      Custom Lineup Comparison
+    </h3>
+
+    <p className="mb-4 text-sm text-slate-400">
+      Save two batting orders, then compare their estimated offensive production.
+    </p>
+
+    <div className="mb-4 flex flex-wrap gap-4 text-sm">
+      <span className={customLineupA.length === 9 ? "text-green-400" : "text-slate-400"}>
+        Lineup A: {customLineupA.length === 9 ? "Saved" : "Not saved"}
+      </span>
+      <span className={customLineupB.length === 9 ? "text-green-400" : "text-slate-400"}>
+        Lineup B: {customLineupB.length === 9 ? "Saved" : "Not saved"}
+      </span>
+    </div>
+
+    <button
+      type="button"
+      onClick={compareCustomLineups}
+      disabled={customLineupA.length !== 9 || customLineupB.length !== 9}
+      className="rounded-lg bg-blue-600 px-5 py-3 font-semibold text-white hover:bg-blue-500 disabled:cursor-not-allowed disabled:opacity-40"
+    >
+      Compare Lineups
+    </button>
+
+    {customComparison && (
+      <div className="mt-6">
+        <p className="mb-4 text-sm text-slate-400">
+          Matchup: {customComparison.matchup === "overall"
+            ? "Overall 2026"
+            : customComparison.matchup === "vsLeft"
+              ? "Against Left-Handed Pitching"
+              : "Against Right-Handed Pitching"}
+        </p>
+
+        <div className="grid gap-4 md:grid-cols-2">
+          {[
+            { label: "Lineup A", players: customLineupA, runs: customComparison.runsA },
+            { label: "Lineup B", players: customLineupB, runs: customComparison.runsB },
+          ].map((result) => (
+            <div
+              key={result.label}
+              className="rounded-xl border border-slate-700 bg-[#12243a] p-4"
+            >
+              <h4 className="mb-2 font-bold text-white">{result.label}</h4>
+              <p className="mb-4 text-2xl font-bold text-blue-400">
+                {result.runs.toFixed(2)} runs/game
+              </p>
+              <ol className="space-y-2">
+                {result.players.map((player, index) => (
+                  <li key={player.id} className="text-sm text-slate-300">
+                    <span className="mr-2 text-blue-400">{index + 1}.</span>
+                    {player.name}
+                  </li>
+                ))}
+              </ol>
+            </div>
+          ))}
+        </div>
+
+        <p className="mt-5 font-semibold text-white">
+          Projected difference:{" "}
+          {Math.abs(customComparison.runsA - customComparison.runsB).toFixed(2)}
+          {" "}runs per game
+        </p>
+        <p className="mt-2 text-xs text-slate-400">
+          Experimental estimates from 5,000 simulated games per lineup.
+          Results are not validated projections.
+        </p>
+      </div>
+    )}
+  </div>
 
   <div className="space-y-2">
     {lineup.map((player, index) => (
