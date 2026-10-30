@@ -8,6 +8,8 @@ export type HitterProbabilities = {
   homeRun: number;
   walk: number;
   out: number;
+  doublePlay: number;
+  sacrificeFly: number;
 };
 
 export function calculateHitterProbabilities(
@@ -27,6 +29,9 @@ export function calculateHitterProbabilities(
   const onBaseEvents = hits + walks + hbp;
   const outs = pa - onBaseEvents;
 
+  const doublePlays = hitter.groundIntoDoublePlay ?? 0;
+  const sacrificeFlies = hitter.sacFlies ?? 0;
+
   const counts = [
     singles,
     doubles,
@@ -34,6 +39,8 @@ export function calculateHitterProbabilities(
     homeRuns,
     walks + hbp,
     outs,
+    doublePlays,
+    sacrificeFlies,
   ];
 
   if (
@@ -48,7 +55,9 @@ export function calculateHitterProbabilities(
     triple: triples / pa,
     homeRun: homeRuns / pa,
     walk: (walks + hbp) / pa,
-    out: outs / pa,
+    out: Math.max(0, outs - doublePlays - sacrificeFlies) / pa,
+    doublePlay: Math.min(doublePlays, outs) / pa,
+    sacrificeFly: Math.min(sacrificeFlies, Math.max(0, outs - doublePlays)) / pa,
   };
 }
 
@@ -62,7 +71,8 @@ export type PlateAppearanceOutcome = keyof HitterProbabilities;
 
 export function applyPlateAppearance(
   bases: Bases,
-  outcome: PlateAppearanceOutcome
+  outcome: PlateAppearanceOutcome,
+  random: () => number = Math.random
 ): {
   bases: Bases;
   runs: number;
@@ -84,19 +94,29 @@ export function applyPlateAppearance(
     }
 
     case "single": {
-      runs = bases.third ? 1 : 0;
-      next.third = bases.second;
+      const secondScores =
+        bases.second && random() < 0.6;
+
+      runs =
+        Number(bases.third) +
+        Number(secondScores);
+
+      next.third = bases.second && !secondScores;
       next.second = bases.first;
       next.first = true;
       break;
     }
 
     case "double": {
+      const firstScores =
+        bases.first && random() < 0.4;
+
       runs =
         Number(bases.third) +
-        Number(bases.second);
+        Number(bases.second) +
+        Number(firstScores);
 
-      next.third = bases.first;
+      next.third = bases.first && !firstScores;
       next.second = true;
       next.first = false;
       break;
@@ -127,6 +147,23 @@ export function applyPlateAppearance(
       break;
     }
 
+    case "sacrificeFly":
+      return {
+        bases: {
+          ...next,
+          third: false,
+        },
+        runs: bases.third ? 1 : 0,
+        outs: 1,
+      };
+
+    case "doublePlay":
+      return {
+        bases: { ...next, first: false },
+        runs: 0,
+        outs: 2,
+      };
+
     case "out":
       return { bases: next, runs: 0, outs: 1 };
   }
@@ -148,6 +185,8 @@ function sampleOutcome(
     "homeRun",
     "walk",
     "out",
+    "doublePlay",
+    "sacrificeFly",
   ];
 
   for (const outcome of outcomes) {
@@ -195,9 +234,23 @@ export function simulateNineInnings(
     while (outs < 3 && plateAppearances < 100) {
       const hitter = validProbabilities[battingIndex];
 
-      const outcome = sampleOutcome(hitter, random);
+      let outcome = sampleOutcome(hitter, random);
 
-      const result = applyPlateAppearance(bases, outcome);
+      if (
+        outcome === "doublePlay" &&
+        (!bases.first || outs >= 2)
+      ) {
+        outcome = "out";
+      }
+
+      if (
+        outcome === "sacrificeFly" &&
+        (!bases.third || outs >= 2)
+      ) {
+        outcome = "out";
+      }
+
+      const result = applyPlateAppearance(bases, outcome, random);
 
       bases = result.bases;
       runs += result.runs;

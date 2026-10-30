@@ -17,6 +17,8 @@ export type LineupHitter = {
   hitByPitch?: number;
   strikeouts?: number;
   stolenBases?: number;
+  groundIntoDoublePlay?: number;
+  sacFlies?: number;
 };
 
 

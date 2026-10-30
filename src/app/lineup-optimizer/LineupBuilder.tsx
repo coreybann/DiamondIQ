@@ -348,6 +348,8 @@ function compareCustomLineups() {
         homeRuns: Number(stats.homeRuns),
         walks: Number(stats.baseOnBalls),
         hitByPitch: Number(stats.hitByPitch),
+        groundIntoDoublePlay: Number(stats.groundIntoDoublePlay),
+        sacFlies: Number(stats.sacFlies),
       };
     });
 
@@ -419,6 +421,8 @@ return {
   hitByPitch: Number(stats.hitByPitch),
   strikeouts: Number(stats.strikeOuts),
   stolenBases: Number(stats.stolenBases),
+  groundIntoDoublePlay: Number(stats.groundIntoDoublePlay),
+  sacFlies: Number(stats.sacFlies),
 };
 
   });
