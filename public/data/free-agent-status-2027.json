@@ -1,6 +1,6 @@
 {
   "season": 2027,
-  "lastVerified": "2026-10-30T14:05:19.451669+00:00",
+  "lastVerified": "2026-10-30T15:56:39.769838+00:00",
   "players": {
     "Michael King": {
       "status": "Available",
@@ -90,6 +90,12 @@
       "status": "Available",
       "verifiedAt": "2026-10-30T14:05:19.451669+00:00",
       "source": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWk5sUUwtdHZYOHBjTkdjUElnamllakFBdWVzcU9KZVA4WUt5LVdtVGh5X05kaE9rMGpLMVNaZlpBLXVSS2kxMk1xRm9kcTd5eWlvUTI1X3IyQ0NrM1YxaDNxUDVCZXZOc21oUUV2dFNNQ1JSRW5QQm9PeTM3SEFscUhuMWtJLXk2Um1tU3Zqd1BjR0NY?oc=5",
+      "optionDecisionDate": "2026-10-30"
+    },
+    "Sandy Alcantara": {
+      "status": "Under Contract",
+      "verifiedAt": "2026-10-30T15:56:39.769838+00:00",
+      "source": "https://news.google.com/rss/articles/CBMimAFBVV95cUxObTlOSWZNMjRGQjFGWEdlN2ZRTzhvVXdycGRUN3UxZFFIQUxWWUltU3BqY3JTbUNWVGwwVGkxdVNKWklhZ1VDQTM5TTVuY0tHRzJVZ2hweEFCT1ZqaHYzQnc5S1hYakFjZ25qb1N1dDdPNEtXMFhlcnYyTzRDMHRrZTBPNWhlM0x6WFZGTDhOYkV2OXA4MjlhcQ?oc=5",
       "optionDecisionDate": "2026-10-30"
     }
   }
