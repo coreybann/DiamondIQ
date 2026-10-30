@@ -1,6 +1,6 @@
 {
   "season": 2027,
-  "lastVerified": "2026-10-30T15:56:39.769838+00:00",
+  "lastVerified": "2026-10-30T17:48:36.521910+00:00",
   "players": {
     "Michael King": {
       "status": "Available",
@@ -96,6 +96,12 @@
       "status": "Under Contract",
       "verifiedAt": "2026-10-30T15:56:39.769838+00:00",
       "source": "https://news.google.com/rss/articles/CBMimAFBVV95cUxObTlOSWZNMjRGQjFGWEdlN2ZRTzhvVXdycGRUN3UxZFFIQUxWWUltU3BqY3JTbUNWVGwwVGkxdVNKWklhZ1VDQTM5TTVuY0tHRzJVZ2hweEFCT1ZqaHYzQnc5S1hYakFjZ25qb1N1dDdPNEtXMFhlcnYyTzRDMHRrZTBPNWhlM0x6WFZGTDhOYkV2OXA4MjlhcQ?oc=5",
+      "optionDecisionDate": "2026-10-30"
+    },
+    "Sonny Gray": {
+      "status": "Available",
+      "verifiedAt": "2026-10-30T17:48:36.521910+00:00",
+      "source": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOcHNKNlRESFZmcjdQdWVYNjBGMmRsM3FQeURpZXY5cGlWdzlLVnhTY2U4SDc3WEtjbnczSW4xRmdjVlZLZkdNYmR2bWgtOFAyNk5QdlEwd3RrMl9xYzBMTnJESzdTdDNid19SVWZBT1ZhMnpnYm9kMi0yTWxBNkVFS041R19nU3c4R1pzVFNvUXQtMDhydDVXTUhhUVV0di1wMmNWOEVZdnQ?oc=5",
       "optionDecisionDate": "2026-10-30"
     }
   }
