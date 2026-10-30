@@ -173,8 +173,22 @@ export function applyPlateAppearance(
 
 function sampleOutcome(
   probabilities: HitterProbabilities,
+  bases: Bases,
+  outs: number,
   random: () => number = Math.random
 ): PlateAppearanceOutcome {
+  const adjusted = { ...probabilities };
+
+  if (!bases.first || outs >= 2) {
+    adjusted.out += adjusted.doublePlay;
+    adjusted.doublePlay = 0;
+  }
+
+  if (!bases.third || outs >= 2) {
+    adjusted.out += adjusted.sacrificeFly;
+    adjusted.sacrificeFly = 0;
+  }
+
   const roll = random();
   let cumulative = 0;
 
@@ -190,7 +204,7 @@ function sampleOutcome(
   ];
 
   for (const outcome of outcomes) {
-    cumulative += probabilities[outcome];
+    cumulative += adjusted[outcome];
 
     if (roll < cumulative) {
       return outcome;
@@ -200,15 +214,14 @@ function sampleOutcome(
   return "out";
 }
 
+
 export function simulateNineInnings(
   hitters: LineupHitter[],
   random: () => number = Math.random
 ): number | null {
   if (hitters.length !== 9) return null;
 
-  const probabilities = hitters.map(
-    calculateHitterProbabilities
-  );
+  const probabilities = hitters.map(calculateHitterProbabilities);
 
   if (probabilities.some((value) => value === null)) {
     return null;
@@ -217,44 +230,197 @@ export function simulateNineInnings(
   const validProbabilities =
     probabilities as HitterProbabilities[];
 
+  type RunnerBases = {
+    first: number | null;
+    second: number | null;
+    third: number | null;
+  };
+
+  const emptyBases = (): RunnerBases => ({
+    first: null,
+    second: null,
+    third: null,
+  });
+
+  // Estimate steal attempts per time on base.
+  // This is a proxy, not an official opportunity rate.
+  const stealRates = hitters.map((hitter) => {
+    const attempts =
+      (hitter.stolenBases ?? 0) +
+      (hitter.caughtStealing ?? 0);
+
+    const timesOnBase =
+      (hitter.hits ?? 0) +
+      (hitter.walks ?? 0) +
+      (hitter.hitByPitch ?? 0);
+
+    return {
+      attempt: timesOnBase > 0
+        ? Math.min(0.5, attempts / timesOnBase)
+        : 0,
+      success: attempts > 0
+        ? (hitter.stolenBases ?? 0) / attempts
+        : 0,
+    };
+  });
+
   let runs = 0;
   let battingIndex = 0;
 
   for (let inning = 0; inning < 9; inning++) {
     let outs = 0;
-
-    let bases: Bases = {
-      first: false,
-      second: false,
-      third: false,
-    };
-
+    let bases = emptyBases();
     let plateAppearances = 0;
 
     while (outs < 3 && plateAppearances < 100) {
+
+      // Situational stolen-base decision model.
+      const stealCandidate =
+        bases.second !== null && bases.third === null
+          ? { base: "second" as const, target: "third" as const }
+          : bases.first !== null && bases.second === null
+            ? { base: "first" as const, target: "second" as const }
+            : null;
+
+if (stealCandidate && outs < 3) {
+        const runnerId = bases[stealCandidate.base];
+        const rate = stealRates[runnerId!];
+
+        const nextHitter = hitters[battingIndex];
+
+        // Reduce attempts when a power hitter is batting.
+        const powerAdjustment =
+          nextHitter.slg >= 0.500 ? 0.65 :
+          nextHitter.slg >= 0.450 ? 0.80 : 1;
+
+        // Be more conservative with two outs.
+const outsAdjustment =
+  outs === 2 ? 0.50 :
+  outs === 1 ? 0.80 : 1;
+
+        const situationalAttemptRate =
+          rate.attempt *
+          powerAdjustment *
+          outsAdjustment;
+
+        if (random() < situationalAttemptRate) {
+          if (random() < rate.success) {
+            bases[stealCandidate.target] = runnerId;
+            bases[stealCandidate.base] = null;
+          } else {
+            bases[stealCandidate.base] = null;
+            outs++;
+          }
+        }
+      }
+      if (outs >= 3) break;
+
       const hitter = validProbabilities[battingIndex];
 
-      let outcome = sampleOutcome(hitter, random);
+      const occupiedBases = {
+        first: bases.first !== null,
+        second: bases.second !== null,
+        third: bases.third !== null,
+      };
 
-      if (
-        outcome === "doublePlay" &&
-        (!bases.first || outs >= 2)
-      ) {
-        outcome = "out";
+      const outcome = sampleOutcome(
+        hitter,
+        occupiedBases,
+        outs,
+        random
+      );
+
+      switch (outcome) {
+        case "walk": {
+          if (
+            bases.first !== null &&
+            bases.second !== null &&
+            bases.third !== null
+          ) runs++;
+
+          if (bases.first !== null) {
+            if (bases.second !== null) {
+              if (bases.third !== null) {
+                bases.third = bases.second;
+              }
+              bases.second = bases.first;
+            }
+            bases.first = battingIndex;
+          } else {
+            bases.first = battingIndex;
+          }
+          break;
+        }
+
+        case "single": {
+          const secondScores =
+            bases.second !== null && random() < 0.6;
+
+          runs += Number(bases.third !== null);
+          runs += Number(secondScores);
+
+          bases.third = secondScores ? null : bases.second;
+          bases.second = bases.first;
+          bases.first = battingIndex;
+          break;
+        }
+
+        case "double": {
+          const firstScores =
+            bases.first !== null && random() < 0.4;
+
+          runs += Number(bases.third !== null);
+          runs += Number(bases.second !== null);
+          runs += Number(firstScores);
+
+          bases.third = firstScores ? null : bases.first;
+          bases.second = battingIndex;
+          bases.first = null;
+          break;
+        }
+
+        case "triple": {
+          runs +=
+            Number(bases.first !== null) +
+            Number(bases.second !== null) +
+            Number(bases.third !== null);
+
+          bases = {
+            first: null,
+            second: null,
+            third: battingIndex,
+          };
+          break;
+        }
+
+        case "homeRun": {
+          runs +=
+            1 +
+            Number(bases.first !== null) +
+            Number(bases.second !== null) +
+            Number(bases.third !== null);
+
+          bases = emptyBases();
+          break;
+        }
+
+        case "sacrificeFly": {
+          runs += Number(bases.third !== null);
+          bases.third = null;
+          outs++;
+          break;
+        }
+
+        case "doublePlay": {
+          bases.first = null;
+          outs += 2;
+          break;
+        }
+
+        case "out":
+          outs++;
+          break;
       }
-
-      if (
-        outcome === "sacrificeFly" &&
-        (!bases.third || outs >= 2)
-      ) {
-        outcome = "out";
-      }
-
-      const result = applyPlateAppearance(bases, outcome, random);
-
-      bases = result.bases;
-      runs += result.runs;
-      outs += result.outs;
 
       battingIndex = (battingIndex + 1) % 9;
       plateAppearances++;

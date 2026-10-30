@@ -37,6 +37,7 @@ type HittingStats = {
   hitByPitch: number;
   strikeOuts: number;
   stolenBases: number;
+  caughtStealing: number;
   sacFlies: number;
   sacBunts: number;
   groundIntoDoublePlay: number;
@@ -149,12 +150,18 @@ const [runComparison, setRunComparison] = useState<{
   }, [selectedTeam]);
 
 useEffect(() => {
-  if (lineup.length === 0) return;
-
   const controller = new AbortController();
 
+  const allLineupPlayers = Array.from(
+    new Map(
+      [...lineup, ...customLineupA, ...customLineupB].map(
+        (player) => [player.id, player]
+      )
+    ).values()
+  );
+
   async function loadStats() {
-    const missingPlayers = lineup.filter(
+    const missingPlayers = allLineupPlayers.filter(
       (player) => !(player.id in playerStats)
     );
 
@@ -203,7 +210,7 @@ useEffect(() => {
   loadStats();
 
   return () => controller.abort();
-}, [lineup, playerStats]);
+}, [lineup, customLineupA, customLineupB, playerStats]);
 
 useEffect(() => {
   if (pitcherMatchup === "overall" || lineup.length === 0) return;
@@ -350,6 +357,8 @@ function compareCustomLineups() {
         hitByPitch: Number(stats.hitByPitch),
         groundIntoDoublePlay: Number(stats.groundIntoDoublePlay),
         sacFlies: Number(stats.sacFlies),
+        stolenBases: Number(playerStats[player.id]?.stolenBases ?? 0),
+        caughtStealing: Number(playerStats[player.id]?.caughtStealing ?? 0),
       };
     });
 
@@ -421,6 +430,7 @@ return {
   hitByPitch: Number(stats.hitByPitch),
   strikeouts: Number(stats.strikeOuts),
   stolenBases: Number(stats.stolenBases),
+  caughtStealing: Number(playerStats[player.id]?.caughtStealing ?? 0),
   groundIntoDoublePlay: Number(stats.groundIntoDoublePlay),
   sacFlies: Number(stats.sacFlies),
 };
