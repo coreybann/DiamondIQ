@@ -289,10 +289,26 @@ export default function FreeAgentTracker({ players }: Props) {
                       : "—")}
                 </td>
                 <td className="whitespace-nowrap px-4 py-4">
-                  {player.signingDate ??
-    (player.status === "Under Contract"
-      ? player.optionDecisionDate ?? "—"
-      : "—")}
+                  {(() => {
+                    const date =
+                      player.signingDate ??
+                      (player.status === "Under Contract"
+                        ? player.optionDecisionDate
+                        : undefined);
+
+                    if (!date) return "—";
+
+                    const [year, month, day] = date.split("-").map(Number);
+
+                    return new Date(
+                      Date.UTC(year, month - 1, day)
+                    ).toLocaleDateString("en-US", {
+                      month: "short",
+                      day: "numeric",
+                      year: "numeric",
+                      timeZone: "UTC",
+                    });
+                  })()}
                 </td>
               </tr>
             ))}
