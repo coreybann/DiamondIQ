@@ -128,7 +128,25 @@ for source, url in all_feeds.items():
             flags=re.IGNORECASE,
         ):
             continue
-
+        # Handle negative opt-out statements before normal classification.
+        if re.search(
+            r"\b(?:will|would|does|did|has|have|had|is)\s+not\s+"
+            r"(?:exercise\s+(?:his\s+|their\s+|the\s+)?(?:opt[- ]out|option)"
+            r"|opt\s+out)\b",
+            title,
+            flags=re.IGNORECASE,
+        ):
+            status = "Under Contract"
+            decisions.append({
+                "name": matches[0],
+                "status": status,
+                "source": article["url"],
+            })
+            print(f"HEADLINE: {title}")
+            print(f"PLAYER: {matches[0]} -> {status}")
+            print(f"SOURCE: {article['url']}")
+            print()
+            continue
         # Only classify explicit decisions involving the matched player.
         declined = re.search(
             r"\b(declines?|declined|rejects?|rejected)\b.*\b(option|options)\b"
