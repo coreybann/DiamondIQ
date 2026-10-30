@@ -289,7 +289,10 @@ export default function FreeAgentTracker({ players }: Props) {
                       : "—")}
                 </td>
                 <td className="whitespace-nowrap px-4 py-4">
-                  {player.signingDate ?? "—"}
+                  {player.signingDate ??
+    (player.status === "Under Contract"
+      ? player.optionDecisionDate ?? "—"
+      : "—")}
                 </td>
               </tr>
             ))}

@@ -20,6 +20,7 @@ export type FreeAgent = {
   offseason: string;
   signedTeam?: string;
   signingDate?: string;
+  optionDecisionDate?: string;
   contractYears?: number;
   contractValue?: number;
 };
@@ -44,6 +45,7 @@ const verifiedStatuses = verifiedStatusData.players as Record<
     status: FreeAgentStatus;
     verifiedAt: string;
     source: string;
+    optionDecisionDate?: string | null;
   }
 >;
 const mlbpaConfirmedNames = new Set(
@@ -59,6 +61,7 @@ export const freeAgents: FreeAgent[] = freeAgentData.players.map(
     age: player.age,
   previousTeam: (freeAgentTeams.teams as Record<string, string>)[player.name] ?? "N/A",
   contractOption: player.contractOption,
+  optionDecisionDate: verifiedStatuses[player.name]?.optionDecisionDate ?? undefined,
 status:
   verifiedStatuses[player.name]?.status ??
   (mlbpaConfirmedNames.has(player.name)

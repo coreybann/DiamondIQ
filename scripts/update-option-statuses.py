@@ -191,6 +191,7 @@ for source, url in all_feeds.items():
                 "status": status,
                 "source": article["url"],
                 "publisher": publisher,
+                "published": article.get("published", ""),
             })
             print(f"HEADLINE: {title}")
             print(f"PLAYER: {name} -> {status}")
@@ -242,6 +243,12 @@ for decision in verified_decisions:
             "status": decision["status"],
             "verifiedAt": now,
             "source": decision["source"],
+            "optionDecisionDate": (
+                parsedate_to_datetime(decision["published"])
+                .date().isoformat()
+                if decision.get("published")
+                else None
+            ),
         }
 
 if args.write and changes:
