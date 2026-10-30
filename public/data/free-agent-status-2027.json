@@ -1,6 +1,6 @@
 {
   "season": 2027,
-  "lastVerified": "2026-10-30T00:16:39.599917+00:00",
+  "lastVerified": "2026-10-30T00:53:17.617284+00:00",
   "players": {
     "Michael King": {
       "status": "Available",
@@ -36,6 +36,41 @@
       "status": "Under Contract",
       "verifiedAt": "2026-10-29T23:43:29.180094+00:00",
       "source": "https://www.mlb.com/news/ronald-acuna-jr-ozzie-albies-club-options-exercised-by-braves"
+    },
+    "Andrés Muñoz": {
+      "status": "Under Contract",
+      "verifiedAt": "2026-10-30T00:53:17.617284+00:00",
+      "source": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB0VUtiTTZiYlVhN1FHQU1jM2JyS01TN3dZcjFXVWExZGZWLVJCTm5LdjNTa2J4RnlPVXk4M2xENXBLRW01NW5RcTU4Y2c3WjVPeldfMG02SzRyaFdTVHJTZHJYU2ZsVVpBdEo4eUhUNTdhbDZYZV9J?oc=5"
+    },
+    "Victor Robles": {
+      "status": "Available",
+      "verifiedAt": "2026-10-30T00:53:17.617284+00:00",
+      "source": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB0VUtiTTZiYlVhN1FHQU1jM2JyS01TN3dZcjFXVWExZGZWLVJCTm5LdjNTa2J4RnlPVXk4M2xENXBLRW01NW5RcTU4Y2c3WjVPeldfMG02SzRyaFdTVHJTZHJYU2ZsVVpBdEo4eUhUNTdhbDZYZV9J?oc=5"
+    },
+    "Carlos Estévez": {
+      "status": "Available",
+      "verifiedAt": "2026-10-30T00:53:17.617284+00:00",
+      "source": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNbzBQVDYtQ2VyQ1k3SE5zazVuTlZydWQ4NURFREFSdGg0Qlc0TWkwVVEzSmlCSXNlZVI0dFc4eWs5ZEc3cUplMWgzcXB3UjJnVmozcXBwLTFyMGxyT2VPYm9pdlZTRFhmVEJqTU1USUE4eHVVTi1COGtsemFxOTY2R3NJNHZsT1BhSTBzNDViUzllcUwyMzdPenNLek1fZjFlLXfSAa4BQVVfeXFMT3JmUHFYMkxwVU1NSFlTSlJ5QU9kaWxyMDd2YllSR1FFbVpQZS12QXBFX0JTNW16Sm9VTmFtaUNyYVJJNUJqemRxWE9Ddno1LWlTLVI3d0VONDhKQXJmODFXN3FCcGc2ek5tQVlwaDBoaGI1U1BtZGpLdXhQWEhRSjhNQXpscElWVDRhNkhCTmNEaTdyeWpBTUNFUDhlYUNvS3NFakViYUFtOEtkdkFR?oc=5"
+    },
+    "Tony Gonsolin": {
+      "status": "Under Contract",
+      "verifiedAt": "2026-10-30T00:53:17.617284+00:00",
+      "source": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNbzBQVDYtQ2VyQ1k3SE5zazVuTlZydWQ4NURFREFSdGg0Qlc0TWkwVVEzSmlCSXNlZVI0dFc4eWs5ZEc3cUplMWgzcXB3UjJnVmozcXBwLTFyMGxyT2VPYm9pdlZTRFhmVEJqTU1USUE4eHVVTi1COGtsemFxOTY2R3NJNHZsT1BhSTBzNDViUzllcUwyMzdPenNLek1fZjFlLXfSAa4BQVVfeXFMT3JmUHFYMkxwVU1NSFlTSlJ5QU9kaWxyMDd2YllSR1FFbVpQZS12QXBFX0JTNW16Sm9VTmFtaUNyYVJJNUJqemRxWE9Ddno1LWlTLVI3d0VONDhKQXJmODFXN3FCcGc2ek5tQVlwaDBoaGI1U1BtZGpLdXhQWEhRSjhNQXpscElWVDRhNkhCTmNEaTdyeWpBTUNFUDhlYUNvS3NFakViYUFtOEtkdkFR?oc=5"
+    },
+    "Ronald Acuña Jr.": {
+      "status": "Under Contract",
+      "verifiedAt": "2026-10-30T00:53:17.617284+00:00",
+      "source": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNemV1eWFuVlBXNlhLc09LSUI0Z2NESkhYVjJ3TThLNFhYbVpFVmJCQ3hXT3dpSTJVMC01LTJRQmJoQkRnT3luQ0ktNGNia0tDaHRkSGl3Wjh1UzZuZVNfSDdFaVpTckYzTU9Od0xEUVNRWURBZVNjYjVRT1luT1E4ZTVHbmdQYXhlTXhmMmRveG9ER0hjYW95UjZPdEo?oc=5"
+    },
+    "Bo Bichette": {
+      "status": "Under Contract",
+      "verifiedAt": "2026-10-30T00:53:17.617284+00:00",
+      "source": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPWUw5eUpEUmR3Y19BbWg0TFlLdy1aUmp6cDBnNjBDTWhxOU9ybThqX3hmRENwRXN4WXJnc0tXVDZBSDliM2N5Q0xDX19ubHAtZVd3SmNweHdDNlFXTkd3VEhfUXpMQXMzMmxGcjFkSV8tcTZpX25LU2FrZVlKN1l6Y0had1ZJT2NNYXRBMA?oc=5"
+    },
+    "Ryan Helsley": {
+      "status": "Under Contract",
+      "verifiedAt": "2026-10-30T00:53:17.617284+00:00",
+      "source": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdXBKS0V6Qkp6aWRVMmJUb1Z3X1RZRnBybkI4NGJNcDV0WlhIbTh2SUo1d3RMeDRjR2M2YW5hRGNOakJ0bVl3amU1ZUh0Z2dXbWF5cGZmeHpvYkkwMjNoYTJpeTlfZHI1dEFTN2dBMXgtcTVZMGJ4MTBPMG1hWGlYRmtHR3IyXzNJM3dTYU1WOXgwUnJNYkl3TU45OW11dw?oc=5"
     }
   }
 }

@@ -50,6 +50,7 @@ def fetch_articles(url):
             "summary": summary,
             "content": content,
             "url": item.findtext("link", ""),
+            "published": item.findtext("pubDate", ""),
         })
 
     return articles
