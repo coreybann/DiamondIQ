@@ -1,6 +1,6 @@
 {
   "season": 2027,
-  "lastVerified": "2026-10-30T19:51:45.342766+00:00",
+  "lastVerified": "2026-10-30T21:44:25.745091+00:00",
   "players": {
     "Michael King": {
       "status": "Available",
@@ -121,6 +121,18 @@
       "verifiedAt": "2026-10-30T19:51:45.342766+00:00",
       "source": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOamhRcEVzakVhTFdmT0dMdFc2U1N4VC1PNUtRRy1yZ2NSVnNoZVdpVVc1dkhCV2RGNDNudEJqc1hEam56ZDNKVzRoeEQxMDFzbXB6bjZRcVg5eXhhdUtyeXhTeGVBR1JlS1BIVHR2bjVZSFBtWW5vVzRCTDRQSW0yN2xlYW90THlZMWFmOU94VEs0eGJCUFRndnNSdVpwNzRnNWVzQ3FZSGRvSHl3QXc?oc=5",
       "optionDecisionDate": "2026-10-29"
+    },
+    "Cedric Mullins": {
+      "status": "Available",
+      "verifiedAt": "2026-10-30T21:44:25.745091+00:00",
+      "source": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZk9GU0lZSThkNzlGNGZSUV9VZG03TmZUU1RPYk5oQXBwbTR4NnRwV0J1OVJ6c1dFR3ZrY0VaQVNnTnVWWFBLTVowdDNHUGRFbWZYWFNIQ1JHOHZKRkF0aGpLSWdMYy0xR0ZxaHFwUDVFTUxZaDF4eVJaNHhybkx6MkFsWlI4VHNRU0p4S3Jid19Edw?oc=5",
+      "optionDecisionDate": "2026-10-30"
+    },
+    "Joc Pederson": {
+      "status": "Available",
+      "verifiedAt": "2026-10-30T21:44:25.745091+00:00",
+      "source": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNNGJKWUVDZnJ6MGZRMVZtNmliMUVla2FBWnBIOVpjeEdQVTZFbnVFNGh0OVpnUjJfcG51UkhDZ3RIR2hET3h0c3VVOXVUTXRPMWpsRzFWa3AtcEE3LXdHV2JuTXRQanB5dXl6UEJRMEh3eTNxVEtoQWhCdkEwMTJ2QjdtZTdrT1hrNzNUT1RlQ2owQ0ktWU80?oc=5",
+      "optionDecisionDate": "2026-10-30"
     }
   }
 }
