@@ -1,0 +1,66 @@
+{
+  "single": {
+    "1B": {
+      "sampleSize": 8631,
+      "probabilities": {
+        "1B": 0.0,
+        "2B": 0.665276,
+        "3B": 0.312942,
+        "score": 0.010428,
+        "out": 0.011354
+      }
+    },
+    "2B": {
+      "sampleSize": 5309,
+      "probabilities": {
+        "1B": 0.0,
+        "2B": 0.014504,
+        "3B": 0.362969,
+        "score": 0.599925,
+        "out": 0.022603
+      }
+    },
+    "3B": {
+      "sampleSize": 2829,
+      "probabilities": {
+        "1B": 0.0,
+        "2B": 0.0,
+        "3B": 0.009897,
+        "score": 0.990103,
+        "out": 0.0
+      }
+    }
+  },
+  "double": {
+    "1B": {
+      "sampleSize": 2529,
+      "probabilities": {
+        "1B": 0.0,
+        "2B": 0.0,
+        "3B": 0.576117,
+        "score": 0.395018,
+        "out": 0.028865
+      }
+    },
+    "2B": {
+      "sampleSize": 1613,
+      "probabilities": {
+        "1B": 0.0,
+        "2B": 0.0,
+        "3B": 0.016119,
+        "score": 0.982021,
+        "out": 0.00186
+      }
+    },
+    "3B": {
+      "sampleSize": 838,
+      "probabilities": {
+        "1B": 0.0,
+        "2B": 0.0,
+        "3B": 0.0,
+        "score": 1.0,
+        "out": 0.0
+      }
+    }
+  }
+}

@@ -1,0 +1,1212 @@
+{
+  "double|0|1B": {
+    "sampleSize": 422,
+    "patterns": [
+      {
+        "movements": {
+          "1B": "3B"
+        },
+        "probability": 0.7037914691943128
+      },
+      {
+        "movements": {
+          "1B": "score"
+        },
+        "probability": 0.27488151658767773
+      },
+      {
+        "movements": {
+          "1B": "out"
+        },
+        "probability": 0.02132701421800948
+      }
+    ]
+  },
+  "double|0|1B,2B": {
+    "sampleSize": 123,
+    "patterns": [
+      {
+        "movements": {
+          "1B": "3B",
+          "2B": "score"
+        },
+        "probability": 0.7804878048780488
+      },
+      {
+        "movements": {
+          "1B": "score",
+          "2B": "score"
+        },
+        "probability": 0.21951219512195122
+      }
+    ]
+  },
+  "double|0|1B,2B,3B": {
+    "sampleSize": 50,
+    "patterns": [
+      {
+        "movements": {
+          "1B": "3B",
+          "2B": "score",
+          "3B": "score"
+        },
+        "probability": 0.7
+      },
+      {
+        "movements": {
+          "1B": "score",
+          "2B": "score",
+          "3B": "score"
+        },
+        "probability": 0.24
+      },
+      {
+        "movements": {
+          "1B": "out",
+          "2B": "score",
+          "3B": "score"
+        },
+        "probability": 0.06
+      }
+    ]
+  },
+  "double|0|1B,3B": {
+    "sampleSize": 48,
+    "patterns": [
+      {
+        "movements": {
+          "1B": "3B",
+          "3B": "score"
+        },
+        "probability": 0.75
+      },
+      {
+        "movements": {
+          "1B": "score",
+          "3B": "score"
+        },
+        "probability": 0.20833333333333334
+      },
+      {
+        "movements": {
+          "1B": "out",
+          "3B": "score"
+        },
+        "probability": 0.041666666666666664
+      }
+    ]
+  },
+  "double|0|2B": {
+    "sampleSize": 154,
+    "patterns": [
+      {
+        "movements": {
+          "2B": "score"
+        },
+        "probability": 0.8896103896103896
+      },
+      {
+        "movements": {
+          "2B": "3B"
+        },
+        "probability": 0.1038961038961039
+      },
+      {
+        "movements": {
+          "2B": "out"
+        },
+        "probability": 0.006493506493506494
+      }
+    ]
+  },
+  "double|0|2B,3B": {
+    "sampleSize": 28,
+    "patterns": [
+      {
+        "movements": {
+          "2B": "score",
+          "3B": "score"
+        },
+        "probability": 0.9285714285714286
+      },
+      {
+        "movements": {
+          "2B": "3B",
+          "3B": "score"
+        },
+        "probability": 0.07142857142857142
+      }
+    ]
+  },
+  "double|0|3B": {
+    "sampleSize": 25,
+    "patterns": [
+      {
+        "movements": {
+          "3B": "score"
+        },
+        "probability": 1.0
+      }
+    ]
+  },
+  "double|1|1B": {
+    "sampleSize": 541,
+    "patterns": [
+      {
+        "movements": {
+          "1B": "3B"
+        },
+        "probability": 0.6709796672828097
+      },
+      {
+        "movements": {
+          "1B": "score"
+        },
+        "probability": 0.3142329020332717
+      },
+      {
+        "movements": {
+          "1B": "out"
+        },
+        "probability": 0.014787430683918669
+      }
+    ]
+  },
+  "double|1|1B,2B": {
+    "sampleSize": 204,
+    "patterns": [
+      {
+        "movements": {
+          "1B": "3B",
+          "2B": "score"
+        },
+        "probability": 0.6568627450980392
+      },
+      {
+        "movements": {
+          "1B": "out",
+          "2B": "score"
+        },
+        "probability": 0.0196078431372549
+      },
+      {
+        "movements": {
+          "1B": "score",
+          "2B": "score"
+        },
+        "probability": 0.31862745098039214
+      },
+      {
+        "movements": {
+          "1B": "3B",
+          "2B": "out"
+        },
+        "probability": 0.004901960784313725
+      }
+    ]
+  },
+  "double|1|1B,2B,3B": {
+    "sampleSize": 89,
+    "patterns": [
+      {
+        "movements": {
+          "1B": "3B",
+          "2B": "score",
+          "3B": "score"
+        },
+        "probability": 0.6179775280898876
+      },
+      {
+        "movements": {
+          "1B": "score",
+          "2B": "score",
+          "3B": "score"
+        },
+        "probability": 0.3707865168539326
+      },
+      {
+        "movements": {
+          "1B": "out",
+          "2B": "score",
+          "3B": "score"
+        },
+        "probability": 0.011235955056179775
+      }
+    ]
+  },
+  "double|1|1B,3B": {
+    "sampleSize": 82,
+    "patterns": [
+      {
+        "movements": {
+          "1B": "3B",
+          "3B": "score"
+        },
+        "probability": 0.6829268292682927
+      },
+      {
+        "movements": {
+          "1B": "score",
+          "3B": "score"
+        },
+        "probability": 0.2804878048780488
+      },
+      {
+        "movements": {
+          "1B": "out",
+          "3B": "score"
+        },
+        "probability": 0.036585365853658534
+      }
+    ]
+  },
+  "double|1|2B": {
+    "sampleSize": 200,
+    "patterns": [
+      {
+        "movements": {
+          "2B": "score"
+        },
+        "probability": 0.975
+      },
+      {
+        "movements": {
+          "2B": "3B"
+        },
+        "probability": 0.025
+      }
+    ]
+  },
+  "double|1|2B,3B": {
+    "sampleSize": 73,
+    "patterns": [
+      {
+        "movements": {
+          "2B": "score",
+          "3B": "score"
+        },
+        "probability": 0.9452054794520548
+      },
+      {
+        "movements": {
+          "2B": "3B",
+          "3B": "score"
+        },
+        "probability": 0.0410958904109589
+      },
+      {
+        "movements": {
+          "2B": "out",
+          "3B": "score"
+        },
+        "probability": 0.0136986301369863
+      }
+    ]
+  },
+  "double|1|3B": {
+    "sampleSize": 75,
+    "patterns": [
+      {
+        "movements": {
+          "3B": "score"
+        },
+        "probability": 1.0
+      }
+    ]
+  },
+  "double|2|1B": {
+    "sampleSize": 526,
+    "patterns": [
+      {
+        "movements": {
+          "1B": "score"
+        },
+        "probability": 0.5247148288973384
+      },
+      {
+        "movements": {
+          "1B": "3B"
+        },
+        "probability": 0.43155893536121676
+      },
+      {
+        "movements": {
+          "1B": "out"
+        },
+        "probability": 0.043726235741444866
+      }
+    ]
+  },
+  "double|2|1B,2B": {
+    "sampleSize": 257,
+    "patterns": [
+      {
+        "movements": {
+          "1B": "score",
+          "2B": "score"
+        },
+        "probability": 0.6342412451361867
+      },
+      {
+        "movements": {
+          "1B": "3B",
+          "2B": "score"
+        },
+        "probability": 0.311284046692607
+      },
+      {
+        "movements": {
+          "1B": "out",
+          "2B": "score"
+        },
+        "probability": 0.054474708171206226
+      }
+    ]
+  },
+  "double|2|1B,2B,3B": {
+    "sampleSize": 79,
+    "patterns": [
+      {
+        "movements": {
+          "1B": "score",
+          "2B": "score",
+          "3B": "score"
+        },
+        "probability": 0.4936708860759494
+      },
+      {
+        "movements": {
+          "1B": "3B",
+          "2B": "score",
+          "3B": "score"
+        },
+        "probability": 0.4810126582278481
+      },
+      {
+        "movements": {
+          "1B": "out",
+          "2B": "score",
+          "3B": "score"
+        },
+        "probability": 0.02531645569620253
+      }
+    ]
+  },
+  "double|2|1B,3B": {
+    "sampleSize": 108,
+    "patterns": [
+      {
+        "movements": {
+          "1B": "score",
+          "3B": "score"
+        },
+        "probability": 0.6018518518518519
+      },
+      {
+        "movements": {
+          "1B": "3B",
+          "3B": "score"
+        },
+        "probability": 0.3611111111111111
+      },
+      {
+        "movements": {
+          "1B": "out",
+          "3B": "score"
+        },
+        "probability": 0.037037037037037035
+      }
+    ]
+  },
+  "double|2|2B": {
+    "sampleSize": 276,
+    "patterns": [
+      {
+        "movements": {
+          "2B": "score"
+        },
+        "probability": 1.0
+      }
+    ]
+  },
+  "double|2|2B,3B": {
+    "sampleSize": 80,
+    "patterns": [
+      {
+        "movements": {
+          "2B": "score",
+          "3B": "score"
+        },
+        "probability": 1.0
+      }
+    ]
+  },
+  "double|2|3B": {
+    "sampleSize": 101,
+    "patterns": [
+      {
+        "movements": {
+          "3B": "score"
+        },
+        "probability": 1.0
+      }
+    ]
+  },
+  "single|0|1B": {
+    "sampleSize": 1562,
+    "patterns": [
+      {
+        "movements": {
+          "1B": "2B"
+        },
+        "probability": 0.7272727272727273
+      },
+      {
+        "movements": {
+          "1B": "3B"
+        },
+        "probability": 0.25224071702944945
+      },
+      {
+        "movements": {
+          "1B": "score"
+        },
+        "probability": 0.0076824583866837385
+      },
+      {
+        "movements": {
+          "1B": "out"
+        },
+        "probability": 0.012804097311139564
+      }
+    ]
+  },
+  "single|0|1B,2B": {
+    "sampleSize": 383,
+    "patterns": [
+      {
+        "movements": {
+          "1B": "2B",
+          "2B": "3B"
+        },
+        "probability": 0.5796344647519582
+      },
+      {
+        "movements": {
+          "1B": "2B",
+          "2B": "score"
+        },
+        "probability": 0.21671018276762402
+      },
+      {
+        "movements": {
+          "1B": "3B",
+          "2B": "score"
+        },
+        "probability": 0.17754569190600522
+      },
+      {
+        "movements": {
+          "1B": "score",
+          "2B": "score"
+        },
+        "probability": 0.010443864229765013
+      },
+      {
+        "movements": {
+          "1B": "out",
+          "2B": "score"
+        },
+        "probability": 0.005221932114882507
+      },
+      {
+        "movements": {
+          "1B": "2B",
+          "2B": "out"
+        },
+        "probability": 0.007832898172323759
+      },
+      {
+        "movements": {
+          "1B": "3B",
+          "2B": "out"
+        },
+        "probability": 0.0026109660574412533
+      }
+    ]
+  },
+  "single|0|1B,2B,3B": {
+    "sampleSize": 141,
+    "patterns": [
+      {
+        "movements": {
+          "1B": "2B",
+          "2B": "3B",
+          "3B": "score"
+        },
+        "probability": 0.6099290780141844
+      },
+      {
+        "movements": {
+          "1B": "3B",
+          "2B": "score",
+          "3B": "score"
+        },
+        "probability": 0.18439716312056736
+      },
+      {
+        "movements": {
+          "1B": "2B",
+          "2B": "score",
+          "3B": "score"
+        },
+        "probability": 0.19858156028368795
+      },
+      {
+        "movements": {
+          "1B": "out",
+          "2B": "score",
+          "3B": "score"
+        },
+        "probability": 0.0070921985815602835
+      }
+    ]
+  },
+  "single|0|1B,3B": {
+    "sampleSize": 160,
+    "patterns": [
+      {
+        "movements": {
+          "1B": "2B",
+          "3B": "score"
+        },
+        "probability": 0.71875
+      },
+      {
+        "movements": {
+          "1B": "3B",
+          "3B": "score"
+        },
+        "probability": 0.2625
+      },
+      {
+        "movements": {
+          "1B": "2B",
+          "3B": "3B"
+        },
+        "probability": 0.0125
+      },
+      {
+        "movements": {
+          "1B": "out",
+          "3B": "score"
+        },
+        "probability": 0.00625
+      }
+    ]
+  },
+  "single|0|2B": {
+    "sampleSize": 579,
+    "patterns": [
+      {
+        "movements": {
+          "2B": "3B"
+        },
+        "probability": 0.5803108808290155
+      },
+      {
+        "movements": {
+          "2B": "score"
+        },
+        "probability": 0.3644214162348877
+      },
+      {
+        "movements": {
+          "2B": "out"
+        },
+        "probability": 0.0069084628670120895
+      },
+      {
+        "movements": {
+          "2B": "2B"
+        },
+        "probability": 0.04835924006908463
+      }
+    ]
+  },
+  "single|0|2B,3B": {
+    "sampleSize": 107,
+    "patterns": [
+      {
+        "movements": {
+          "2B": "3B",
+          "3B": "score"
+        },
+        "probability": 0.5887850467289719
+      },
+      {
+        "movements": {
+          "2B": "score",
+          "3B": "score"
+        },
+        "probability": 0.3177570093457944
+      },
+      {
+        "movements": {
+          "2B": "2B",
+          "3B": "score"
+        },
+        "probability": 0.018691588785046728
+      },
+      {
+        "movements": {
+          "2B": "out",
+          "3B": "score"
+        },
+        "probability": 0.018691588785046728
+      },
+      {
+        "movements": {
+          "2B": "2B",
+          "3B": "3B"
+        },
+        "probability": 0.056074766355140186
+      }
+    ]
+  },
+  "single|0|3B": {
+    "sampleSize": 65,
+    "patterns": [
+      {
+        "movements": {
+          "3B": "score"
+        },
+        "probability": 0.9384615384615385
+      },
+      {
+        "movements": {
+          "3B": "3B"
+        },
+        "probability": 0.06153846153846154
+      }
+    ]
+  },
+  "single|1|1B": {
+    "sampleSize": 1939,
+    "patterns": [
+      {
+        "movements": {
+          "1B": "2B"
+        },
+        "probability": 0.7096441464672512
+      },
+      {
+        "movements": {
+          "1B": "3B"
+        },
+        "probability": 0.2748839608045384
+      },
+      {
+        "movements": {
+          "1B": "out"
+        },
+        "probability": 0.008767405879319236
+      },
+      {
+        "movements": {
+          "1B": "score"
+        },
+        "probability": 0.006704486848891181
+      }
+    ]
+  },
+  "single|1|1B,2B": {
+    "sampleSize": 692,
+    "patterns": [
+      {
+        "movements": {
+          "1B": "3B",
+          "2B": "score"
+        },
+        "probability": 0.2702312138728324
+      },
+      {
+        "movements": {
+          "1B": "2B",
+          "2B": "3B"
+        },
+        "probability": 0.3988439306358382
+      },
+      {
+        "movements": {
+          "1B": "2B",
+          "2B": "out"
+        },
+        "probability": 0.010115606936416185
+      },
+      {
+        "movements": {
+          "1B": "2B",
+          "2B": "score"
+        },
+        "probability": 0.2832369942196532
+      },
+      {
+        "movements": {
+          "1B": "out",
+          "2B": "score"
+        },
+        "probability": 0.014450867052023121
+      },
+      {
+        "movements": {
+          "1B": "score",
+          "2B": "score"
+        },
+        "probability": 0.010115606936416185
+      },
+      {
+        "movements": {
+          "1B": "3B",
+          "2B": "out"
+        },
+        "probability": 0.010115606936416185
+      },
+      {
+        "movements": {
+          "1B": "out",
+          "2B": "3B"
+        },
+        "probability": 0.002890173410404624
+      }
+    ]
+  },
+  "single|1|1B,2B,3B": {
+    "sampleSize": 261,
+    "patterns": [
+      {
+        "movements": {
+          "1B": "3B",
+          "2B": "score",
+          "3B": "score"
+        },
+        "probability": 0.21839080459770116
+      },
+      {
+        "movements": {
+          "1B": "2B",
+          "2B": "score",
+          "3B": "score"
+        },
+        "probability": 0.2720306513409962
+      },
+      {
+        "movements": {
+          "1B": "2B",
+          "2B": "3B",
+          "3B": "score"
+        },
+        "probability": 0.48659003831417624
+      },
+      {
+        "movements": {
+          "1B": "out",
+          "2B": "score",
+          "3B": "score"
+        },
+        "probability": 0.007662835249042145
+      },
+      {
+        "movements": {
+          "1B": "2B",
+          "2B": "out",
+          "3B": "score"
+        },
+        "probability": 0.0038314176245210726
+      },
+      {
+        "movements": {
+          "1B": "score",
+          "2B": "score",
+          "3B": "score"
+        },
+        "probability": 0.011494252873563218
+      }
+    ]
+  },
+  "single|1|1B,3B": {
+    "sampleSize": 309,
+    "patterns": [
+      {
+        "movements": {
+          "1B": "2B",
+          "3B": "score"
+        },
+        "probability": 0.6796116504854369
+      },
+      {
+        "movements": {
+          "1B": "3B",
+          "3B": "score"
+        },
+        "probability": 0.28802588996763756
+      },
+      {
+        "movements": {
+          "1B": "out",
+          "3B": "score"
+        },
+        "probability": 0.009708737864077669
+      },
+      {
+        "movements": {
+          "1B": "2B",
+          "3B": "3B"
+        },
+        "probability": 0.019417475728155338
+      },
+      {
+        "movements": {
+          "1B": "score",
+          "3B": "score"
+        },
+        "probability": 0.003236245954692557
+      }
+    ]
+  },
+  "single|1|2B": {
+    "sampleSize": 698,
+    "patterns": [
+      {
+        "movements": {
+          "2B": "3B"
+        },
+        "probability": 0.4369627507163324
+      },
+      {
+        "movements": {
+          "2B": "score"
+        },
+        "probability": 0.501432664756447
+      },
+      {
+        "movements": {
+          "2B": "out"
+        },
+        "probability": 0.024355300859598854
+      },
+      {
+        "movements": {
+          "2B": "2B"
+        },
+        "probability": 0.03724928366762178
+      }
+    ]
+  },
+  "single|1|2B,3B": {
+    "sampleSize": 266,
+    "patterns": [
+      {
+        "movements": {
+          "2B": "score",
+          "3B": "score"
+        },
+        "probability": 0.4398496240601504
+      },
+      {
+        "movements": {
+          "2B": "3B",
+          "3B": "score"
+        },
+        "probability": 0.48120300751879697
+      },
+      {
+        "movements": {
+          "2B": "out",
+          "3B": "score"
+        },
+        "probability": 0.02631578947368421
+      },
+      {
+        "movements": {
+          "2B": "2B",
+          "3B": "score"
+        },
+        "probability": 0.03383458646616541
+      },
+      {
+        "movements": {
+          "2B": "2B",
+          "3B": "3B"
+        },
+        "probability": 0.018796992481203006
+      }
+    ]
+  },
+  "single|1|3B": {
+    "sampleSize": 298,
+    "patterns": [
+      {
+        "movements": {
+          "3B": "score"
+        },
+        "probability": 0.9899328859060402
+      },
+      {
+        "movements": {
+          "3B": "3B"
+        },
+        "probability": 0.010067114093959731
+      }
+    ]
+  },
+  "single|2|1B": {
+    "sampleSize": 1805,
+    "patterns": [
+      {
+        "movements": {
+          "1B": "2B"
+        },
+        "probability": 0.5933518005540166
+      },
+      {
+        "movements": {
+          "1B": "3B"
+        },
+        "probability": 0.3883656509695291
+      },
+      {
+        "movements": {
+          "1B": "score"
+        },
+        "probability": 0.011634349030470914
+      },
+      {
+        "movements": {
+          "1B": "out"
+        },
+        "probability": 0.006648199445983379
+      }
+    ]
+  },
+  "single|2|1B,2B": {
+    "sampleSize": 744,
+    "patterns": [
+      {
+        "movements": {
+          "1B": "2B",
+          "2B": "score"
+        },
+        "probability": 0.28763440860215056
+      },
+      {
+        "movements": {
+          "1B": "3B",
+          "2B": "score"
+        },
+        "probability": 0.4583333333333333
+      },
+      {
+        "movements": {
+          "1B": "2B",
+          "2B": "3B"
+        },
+        "probability": 0.16666666666666666
+      },
+      {
+        "movements": {
+          "1B": "out",
+          "2B": "score"
+        },
+        "probability": 0.021505376344086023
+      },
+      {
+        "movements": {
+          "1B": "score",
+          "2B": "score"
+        },
+        "probability": 0.025537634408602152
+      },
+      {
+        "movements": {
+          "1B": "2B",
+          "2B": "out"
+        },
+        "probability": 0.036290322580645164
+      },
+      {
+        "movements": {
+          "1B": "out",
+          "2B": "3B"
+        },
+        "probability": 0.004032258064516129
+      }
+    ]
+  },
+  "single|2|1B,2B,3B": {
+    "sampleSize": 276,
+    "patterns": [
+      {
+        "movements": {
+          "1B": "2B",
+          "2B": "3B",
+          "3B": "score"
+        },
+        "probability": 0.18840579710144928
+      },
+      {
+        "movements": {
+          "1B": "score",
+          "2B": "score",
+          "3B": "score"
+        },
+        "probability": 0.025362318840579712
+      },
+      {
+        "movements": {
+          "1B": "3B",
+          "2B": "score",
+          "3B": "score"
+        },
+        "probability": 0.4311594202898551
+      },
+      {
+        "movements": {
+          "1B": "2B",
+          "2B": "score",
+          "3B": "score"
+        },
+        "probability": 0.3079710144927536
+      },
+      {
+        "movements": {
+          "1B": "out",
+          "2B": "score",
+          "3B": "score"
+        },
+        "probability": 0.021739130434782608
+      },
+      {
+        "movements": {
+          "1B": "2B",
+          "2B": "out",
+          "3B": "score"
+        },
+        "probability": 0.021739130434782608
+      },
+      {
+        "movements": {
+          "1B": "out",
+          "2B": "3B",
+          "3B": "score"
+        },
+        "probability": 0.0036231884057971015
+      }
+    ]
+  },
+  "single|2|1B,3B": {
+    "sampleSize": 359,
+    "patterns": [
+      {
+        "movements": {
+          "1B": "2B",
+          "3B": "score"
+        },
+        "probability": 0.6072423398328691
+      },
+      {
+        "movements": {
+          "1B": "3B",
+          "3B": "score"
+        },
+        "probability": 0.3788300835654596
+      },
+      {
+        "movements": {
+          "1B": "score",
+          "3B": "score"
+        },
+        "probability": 0.008356545961002786
+      },
+      {
+        "movements": {
+          "1B": "out",
+          "3B": "score"
+        },
+        "probability": 0.005571030640668524
+      }
+    ]
+  },
+  "single|2|2B": {
+    "sampleSize": 927,
+    "patterns": [
+      {
+        "movements": {
+          "2B": "score"
+        },
+        "probability": 0.7971952535059331
+      },
+      {
+        "movements": {
+          "2B": "3B"
+        },
+        "probability": 0.16612729234088458
+      },
+      {
+        "movements": {
+          "2B": "out"
+        },
+        "probability": 0.03559870550161812
+      },
+      {
+        "movements": {
+          "2B": "2B"
+        },
+        "probability": 0.0010787486515641855
+      }
+    ]
+  },
+  "single|2|2B,3B": {
+    "sampleSize": 235,
+    "patterns": [
+      {
+        "movements": {
+          "2B": "score",
+          "3B": "score"
+        },
+        "probability": 0.774468085106383
+      },
+      {
+        "movements": {
+          "2B": "3B",
+          "3B": "score"
+        },
+        "probability": 0.20425531914893616
+      },
+      {
+        "movements": {
+          "2B": "out",
+          "3B": "score"
+        },
+        "probability": 0.02127659574468085
+      }
+    ]
+  },
+  "single|2|3B": {
+    "sampleSize": 352,
+    "patterns": [
+      {
+        "movements": {
+          "3B": "score"
+        },
+        "probability": 0.9943181818181818
+      },
+      {
+        "movements": {
+          "3B": "3B"
+        },
+        "probability": 0.005681818181818182
+      }
+    ]
+  }
+}

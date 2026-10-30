@@ -1,4 +1,205 @@
+import runnerAdvancement2025 from "../data/runner-advancement-2025.json";
+import historicalPlayOutcomes from "../data/runner-play-outcomes-2025.json";
+type RunnerOutcome = "1B" | "2B" | "3B" | "score" | "out";
+type HitType = "single" | "double";
+type StartingBase = "1B" | "2B" | "3B";
 
+export function getRunnerAdvancementProbabilities(
+  
+  hit: HitType,
+  base: StartingBase
+): Record<RunnerOutcome, number> {
+  return runnerAdvancement2025[hit][base].probabilities;
+}
+function sampleRunnerAdvancement(
+  hit: HitType,
+  base: StartingBase,
+  random: () => number
+): RunnerOutcome {
+  const probabilities = getRunnerAdvancementProbabilities(hit, base);
+
+  const outcomes: RunnerOutcome[] = [
+    "1B",
+    "2B",
+    "3B",
+    "score",
+    "out",
+  ];
+
+  const roll = random();
+  let cumulative = 0;
+
+  for (const outcome of outcomes) {
+    cumulative += probabilities[outcome];
+
+    if (roll < cumulative) {
+      return outcome;
+    }
+  }
+
+  return "out";
+}
+
+function chooseRunnerDestination(
+  hit: HitType,
+  startingBase: StartingBase,
+  occupiedDestinations: Set<string>,
+  random: () => number
+): RunnerOutcome {
+  const probabilities = getRunnerAdvancementProbabilities(
+    hit,
+    startingBase
+  );
+
+  const legalOutcomes = (
+    ["1B", "2B", "3B", "score", "out"] as RunnerOutcome[]
+  ).filter((outcome) => {
+    if (outcome === "score" || outcome === "out") return true;
+
+    const startNumber = Number(startingBase[0]);
+    const endNumber = Number(outcome[0]);
+
+    return (
+      endNumber >= startNumber &&
+      !occupiedDestinations.has(outcome)
+    );
+  });
+
+  const totalProbability = legalOutcomes.reduce(
+    (sum, outcome) => sum + probabilities[outcome],
+    0
+  );
+
+  if (totalProbability <= 0) {
+    return "score";
+  }
+
+  const roll = random() * totalProbability;
+  let cumulative = 0;
+
+  for (const outcome of legalOutcomes) {
+    cumulative += probabilities[outcome];
+
+    if (roll < cumulative) {
+      return outcome;
+    }
+  }
+
+  return legalOutcomes[legalOutcomes.length - 1];
+}
+type HistoricalBases = {
+  first: number | null;
+  second: number | null;
+  third: number | null;
+};
+
+type HistoricalPlayResult = {
+  bases: HistoricalBases;
+  runs: number;
+  outs: number;
+};
+
+function applyHistoricalHit(
+  hit: HitType,
+  bases: HistoricalBases,
+  batterId: number,
+  outsBefore: number,
+  random: () => number
+): HistoricalPlayResult {
+  const startingBases: StartingBase[] = [];
+
+  if (bases.first !== null) startingBases.push("1B");
+  if (bases.second !== null) startingBases.push("2B");
+  if (bases.third !== null) startingBases.push("3B");
+
+  const key = `${hit}|${outsBefore}|${startingBases.join(",")}`;
+
+  const groups = historicalPlayOutcomes as Record<
+    string,
+    {
+      sampleSize: number;
+      patterns: {
+        movements: Partial<Record<StartingBase, RunnerOutcome>>;
+        probability: number;
+      }[];
+    }
+  >;
+
+  const group = groups[key];
+
+  if (!group) {
+    throw new Error(`Missing historical advancement group: ${key}`);
+  }
+
+  const roll = random();
+  let cumulative = 0;
+  let selected = group.patterns[group.patterns.length - 1];
+
+  for (const pattern of group.patterns) {
+    cumulative += pattern.probability;
+
+    if (roll < cumulative) {
+      selected = pattern;
+      break;
+    }
+  }
+
+  const next: HistoricalBases = {
+    first: null,
+    second: null,
+    third: null,
+  };
+
+  let runs = 0;
+  let runnerOuts = 0;
+
+  for (const base of startingBases) {
+    const runner =
+      base === "1B" ? bases.first :
+      base === "2B" ? bases.second :
+      bases.third;
+
+    const destination = selected.movements[base];
+
+    switch (destination) {
+      case "1B":
+        next.first = runner;
+        break;
+      case "2B":
+        next.second = runner;
+        break;
+      case "3B":
+        next.third = runner;
+        break;
+      case "score":
+        runs++;
+        break;
+      case "out":
+        runnerOuts++;
+        break;
+      default:
+        throw new Error(`Missing runner outcome for ${key}`);
+    }
+  }
+
+  if (hit === "single") {
+    if (next.first !== null) {
+      throw new Error(`First base occupied after single: ${key}`);
+    }
+    next.first = batterId;
+  } else {
+    if (next.second !== null) {
+      throw new Error(`Second base occupied after double: ${key}`);
+    }
+    next.second = batterId;
+  }
+
+  return {
+    bases: next,
+    runs,
+    outs: runnerOuts,
+  };
+}
 import type { LineupHitter } from "./lineupOptimizer";
 
 export type HitterProbabilities = {
@@ -353,31 +554,52 @@ const outsAdjustment =
         }
 
         case "single": {
-          const secondScores =
-            bases.second !== null && random() < 0.6;
+  if (
+    bases.first === null &&
+    bases.second === null &&
+    bases.third === null
+  ) {
+    bases.first = battingIndex;
+    break;
+  }
 
-          runs += Number(bases.third !== null);
-          runs += Number(secondScores);
+  const result = applyHistoricalHit(
+    "single",
+    bases,
+    battingIndex,
+    outs,
+    random
+  );
 
-          bases.third = secondScores ? null : bases.second;
-          bases.second = bases.first;
-          bases.first = battingIndex;
-          break;
-        }
+  bases = result.bases;
+  runs += result.runs;
+  outs += result.outs;
+  break;
+}
 
-        case "double": {
-          const firstScores =
-            bases.first !== null && random() < 0.4;
+ case "double": {
+  if (
+    bases.first === null &&
+    bases.second === null &&
+    bases.third === null
+  ) {
+    bases.second = battingIndex;
+    break;
+  }
 
-          runs += Number(bases.third !== null);
-          runs += Number(bases.second !== null);
-          runs += Number(firstScores);
+  const result = applyHistoricalHit(
+    "double",
+    bases,
+    battingIndex,
+    outs,
+    random
+  );
 
-          bases.third = firstScores ? null : bases.first;
-          bases.second = battingIndex;
-          bases.first = null;
-          break;
-        }
+  bases = result.bases;
+  runs += result.runs;
+  outs += result.outs;
+  break;
+}
 
         case "triple": {
           runs +=
