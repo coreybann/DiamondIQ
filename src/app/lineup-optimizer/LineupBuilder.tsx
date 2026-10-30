@@ -43,6 +43,13 @@ type HittingStats = {
 };
 
 
+type PitcherMatchup = "overall" | "vsLeft" | "vsRight";
+
+type PlatoonSplits = {
+  vsLeft: HittingStats | null;
+  vsRight: HittingStats | null;
+};
+
 export default function LineupBuilder({
   teams,
 }: {
@@ -54,6 +61,13 @@ export default function LineupBuilder({
 const [playerStats, setPlayerStats] = useState<
   Record<number, HittingStats | null>
 >({});
+
+  const [pitcherMatchup, setPitcherMatchup] =
+    useState<PitcherMatchup>("overall");
+
+  const [platoonStats, setPlatoonStats] = useState<
+    Record<number, PlatoonSplits>
+  >({});
 
   const [lineup, setLineup] = useState<MLBPlayer[]>([]);
   const [originalLineup, setOriginalLineup] = useState<MLBPlayer[]>([]);
@@ -69,6 +83,18 @@ const [runComparison, setRunComparison] = useState<{
   const [optimizing, setOptimizing] = useState(false);
   const optimizerWorkerRef = useRef<Worker | null>(null);
   const [error, setError] = useState("");
+  function changePitcherMatchup(value: PitcherMatchup) {
+    optimizerWorkerRef.current?.terminate();
+    optimizerWorkerRef.current = null;
+    setOptimizing(false);
+    setPitcherMatchup(value);
+    setShowComparison(false);
+    setRunComparison(null);
+    setOriginalLineup([]);
+    setOptimizedLineup([]);
+    setError("");
+  }
+
 
   useEffect(() => {
     if (!selectedTeam) {
@@ -169,6 +195,69 @@ useEffect(() => {
   return () => controller.abort();
 }, [lineup, playerStats]);
 
+useEffect(() => {
+  if (pitcherMatchup === "overall" || lineup.length === 0) return;
+
+  const controller = new AbortController();
+
+  async function loadPlatoonStats() {
+    const missingPlayers = lineup.filter(
+      (player) => !(player.id in platoonStats)
+    );
+
+    if (missingPlayers.length === 0) return;
+
+    const results = await Promise.all(
+      missingPlayers.map(async (player) => {
+        try {
+          const response = await fetch(
+            `/api/lineup-splits?id=${player.id}&season=2026`,
+            { signal: controller.signal }
+          );
+
+          if (!response.ok) {
+            throw new Error("Unable to load platoon splits");
+          }
+
+          const data = await response.json();
+
+          return {
+            id: player.id,
+            splits: {
+              vsLeft: data.vsLeft as HittingStats | null,
+              vsRight: data.vsRight as HittingStats | null,
+            },
+          };
+        } catch {
+          return {
+            id: player.id,
+            splits: {
+              vsLeft: null,
+              vsRight: null,
+            },
+          };
+        }
+      })
+    );
+
+    if (controller.signal.aborted) return;
+
+    setPlatoonStats((current) => {
+      const updated = { ...current };
+
+      for (const result of results) {
+        updated[result.id] = result.splits;
+      }
+
+      return updated;
+    });
+  }
+
+  loadPlatoonStats();
+
+  return () => controller.abort();
+}, [lineup, pitcherMatchup, platoonStats]);
+
 function togglePlayer(player: MLBPlayer) {
     optimizerWorkerRef.current?.terminate();
 optimizerWorkerRef.current = null;
@@ -216,7 +305,10 @@ function optimizeLineup() {
   if (lineup.length !== 9) return;
 
   const hitters = lineup.map((player) => {
-    const stats = playerStats[player.id];
+    const stats =
+      pitcherMatchup === "overall"
+        ? playerStats[player.id]
+        : platoonStats[player.id]?.[pitcherMatchup];
 
     if (!stats) return null;
 
@@ -433,7 +525,31 @@ setShowComparison(false);
     Your Batting Order
   </h2>
 
-  <p className="mb-5 text-sm text-slate-400">
+    <div className="mb-4 rounded-xl border border-slate-700 bg-[#12243a] p-4">
+    <label
+      htmlFor="pitcher-matchup"
+      className="mb-2 block text-sm font-semibold text-white"
+    >
+      Opposing Pitcher Matchup
+    </label>
+    <select
+      id="pitcher-matchup"
+      value={pitcherMatchup}
+      onChange={(event) =>
+        changePitcherMatchup(event.target.value as PitcherMatchup)
+      }
+      className="w-full rounded-lg border border-slate-600 bg-[#081321] px-3 py-2 text-white"
+    >
+      <option value="overall">Overall 2026 Statistics</option>
+      <option value="vsLeft">Against Left-Handed Pitching</option>
+      <option value="vsRight">Against Right-Handed Pitching</option>
+    </select>
+    <p className="mt-2 text-xs text-slate-400">
+      Matchup modes use actual 2026 MLB batting splits.
+    </p>
+  </div>
+
+<p className="mb-5 text-sm text-slate-400">
     {lineup.length} of 9 hitters selected
   </p>
 
@@ -444,7 +560,10 @@ setShowComparison(false);
   optimizing ||
   lineup.length !== 9 ||
     lineup.some((player) => {
-      const stats = playerStats[player.id];
+      const stats =
+        pitcherMatchup === "overall"
+          ? playerStats[player.id]
+          : platoonStats[player.id]?.[pitcherMatchup];
 
       return (
         !stats ||
