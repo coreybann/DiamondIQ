@@ -1,6 +1,6 @@
 {
   "season": 2027,
-  "lastVerified": "2026-10-29T23:43:29.180094+00:00",
+  "lastVerified": "2026-10-30T00:16:39.599917+00:00",
   "players": {
     "Michael King": {
       "status": "Available",
@@ -23,13 +23,13 @@
       "source": "https://www.mlbtraderumors.com/2026/10/astros-decline-club-option-on-ryan-weiss.html"
     },
     "Tatsuya Imai": {
-      "status": "Available",
-      "verifiedAt": "2026-10-29T18:56:11.351117+00:00",
+      "status": "Under Contract",
+      "verifiedAt": "2026-10-30T00:16:39.599640+00:00",
       "source": "https://www.mlbtraderumors.com/2026/10/tatsuya-imai-will-not-opt-out-of-astros-deal.html"
     },
     "Corbin Burnes": {
-      "status": "Available",
-      "verifiedAt": "2026-10-29T19:53:35.533567+00:00",
+      "status": "Under Contract",
+      "verifiedAt": "2026-10-30T00:16:39.599912+00:00",
       "source": "https://www.mlbtraderumors.com/2026/10/corbin-burnes-will-not-opt-out-of-diamondbacks-deal.html"
     },
     "Ozzie Albies": {
