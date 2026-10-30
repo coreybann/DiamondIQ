@@ -1,6 +1,6 @@
 {
   "season": 2027,
-  "lastVerified": "2026-10-30T18:52:20.700554+00:00",
+  "lastVerified": "2026-10-30T19:51:45.342766+00:00",
   "players": {
     "Michael King": {
       "status": "Available",
@@ -109,6 +109,18 @@
       "verifiedAt": "2026-10-30T18:52:20.700554+00:00",
       "source": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBEZWpCejA1bWpGaEp1LWpGVWNCWHJ4VzVlblZGengwUlZ4TWlyNFdITmI1R01qdlJqcFZockZ1UEZaVmR0MWkxUXNoNzN1S2JzNmxNT2tZYWhzb0h5YzRxUENXMjQyTlp2T0M4Z1A2ejhhMjNxOVNDSVhB?oc=5",
       "optionDecisionDate": "2026-10-30"
+    },
+    "Jeffrey Springs": {
+      "status": "Available",
+      "verifiedAt": "2026-10-30T19:51:45.342766+00:00",
+      "source": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNTl3Qmc1UlEwWGFkZkJUY3dDbndfUml6azE2WVpWaVNsLVYyZzdWbWZ5bUJRYjlIQ1BqMW5CeXNZTmpQSlgzZVo0Q3VTLUJ3M1E3bnFJMUI1MEVZbFB4bnR4QkxHZmdYNzZKSEZTdWFoRDJaYWJPamJtUE94SV9qclNoRDc1UnBNZUlZMV8zMmo5YWdWTWFrX0xBT1UzMzZmTUNueG9tVHFGZ2NKb2U5eVFpMA?oc=5",
+      "optionDecisionDate": "2026-10-29"
+    },
+    "Jeff McNeil": {
+      "status": "Available",
+      "verifiedAt": "2026-10-30T19:51:45.342766+00:00",
+      "source": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOamhRcEVzakVhTFdmT0dMdFc2U1N4VC1PNUtRRy1yZ2NSVnNoZVdpVVc1dkhCV2RGNDNudEJqc1hEam56ZDNKVzRoeEQxMDFzbXB6bjZRcVg5eXhhdUtyeXhTeGVBR1JlS1BIVHR2bjVZSFBtWW5vVzRCTDRQSW0yN2xlYW90THlZMWFmOU94VEs0eGJCUFRndnNSdVpwNzRnNWVzQ3FZSGRvSHl3QXc?oc=5",
+      "optionDecisionDate": "2026-10-29"
     }
   }
 }
