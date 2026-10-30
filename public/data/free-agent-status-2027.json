@@ -1,6 +1,6 @@
 {
   "season": 2027,
-  "lastVerified": "2026-10-30T21:44:25.745091+00:00",
+  "lastVerified": "2026-10-30T22:45:12.922281+00:00",
   "players": {
     "Michael King": {
       "status": "Available",
@@ -132,6 +132,18 @@
       "status": "Available",
       "verifiedAt": "2026-10-30T21:44:25.745091+00:00",
       "source": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNNGJKWUVDZnJ6MGZRMVZtNmliMUVla2FBWnBIOVpjeEdQVTZFbnVFNGh0OVpnUjJfcG51UkhDZ3RIR2hET3h0c3VVOXVUTXRPMWpsRzFWa3AtcEE3LXdHV2JuTXRQanB5dXl6UEJRMEh3eTNxVEtoQWhCdkEwMTJ2QjdtZTdrT1hrNzNUT1RlQ2owQ0ktWU80?oc=5",
+      "optionDecisionDate": "2026-10-30"
+    },
+    "Trevor Stephan": {
+      "status": "Available",
+      "verifiedAt": "2026-10-30T22:45:12.922281+00:00",
+      "source": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQejlBUGhYQ01BbzE4Q3ljOHZXaUxEQmVCOUs3dm0ydWg3dFJYSHFnNDVfLVJkSnNFdTRZUzFDbVZkdDZvS2JCVXhJRm9jdTJxcTFEV3NxdEQxNmdpWXcyaXBlWUN4S0hHSlBaTnZiMEV3bXRnMmZsNUVZSE9wX3QtNlpDazJLeWNVQlZXeTNPaWltOXhVR1prbndhVzlKWmstMzV3d2FkVQ?oc=5",
+      "optionDecisionDate": "2026-10-30"
+    },
+    "Shawn Armstrong": {
+      "status": "Available",
+      "verifiedAt": "2026-10-30T22:45:12.922281+00:00",
+      "source": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQRDMzR2xYMWRUbERjMElEeVF0VW5LVkVSVVpIUHNVVTIybjF0WjYteHFXUVRQX3Vjb25aVVB3eFItRDhGR21oazhFVEhrdk9HeXhTZ3Q3YzJvNDY5UkJVX0J3WVhkbTc1UmdKYlRqN24tOUIyYldWUzZ1S2ZSSm42bWNwcFhITkxqZ29kaEpEdVljY2UxalNsOEMzX1I1c2JFZHJtMnN5MmhrSWNQa21KZC1fU3RIQk0?oc=5",
       "optionDecisionDate": "2026-10-30"
     }
   }
