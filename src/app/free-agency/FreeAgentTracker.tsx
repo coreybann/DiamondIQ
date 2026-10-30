@@ -192,8 +192,8 @@ export default function FreeAgentTracker({ players }: Props) {
                 "Age",
                 "Last Known Organization",
                 "Status",
-                "Signed Team",
-                "Signing Date",
+                "Current Team",
+                "Transaction Date",
               ].map((heading, index) => {
                 const keys: SortKey[] = [
                   "name",
@@ -283,7 +283,10 @@ export default function FreeAgentTracker({ players }: Props) {
                   </span>
                 </td>
                 <td className="whitespace-nowrap px-4 py-4">
-                  {player.signedTeam ?? "—"}
+                  {player.signedTeam ??
+                    (player.status === "Under Contract" && player.contractOption
+                      ? player.previousTeam
+                      : "—")}
                 </td>
                 <td className="whitespace-nowrap px-4 py-4">
                   {player.signingDate ?? "—"}
