@@ -1,6 +1,6 @@
 {
   "season": 2027,
-  "lastVerified": "2026-10-31T22:41:11.477422+00:00",
+  "lastVerified": "2026-10-31T23:40:45.502227+00:00",
   "players": {
     "Michael King": {
       "status": "Available",
@@ -174,6 +174,18 @@
       "status": "Available",
       "verifiedAt": "2026-10-31T22:41:11.477422+00:00",
       "source": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPVlRseGwwY2F6Zll2NkdET2t4SEFhTFAzNlJKMWsxNHloU29JNWZQTVhLV0VxY1ZZUTlDZEZkOXJjUldzWU5idlVFcmxwcS1UWHJYaFUzbi16blBSc1JfRHZ0OEkxTGJxUjAwckktcGcxYkdxVmtpUjdGSHpsSHZvYWY5ZDJqUQ?oc=5",
+      "optionDecisionDate": "2026-10-31"
+    },
+    "Luis Robert Jr.": {
+      "status": "Available",
+      "verifiedAt": "2026-10-31T23:40:45.502227+00:00",
+      "source": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNQ0d2SUtjTVpjb3A2cHVCLTQxcEhHYy10Q1lfYXZETi1QamdwcTlMYnJRbldCVUNnYmxRMFZsNDZHa3JzUlJfR29SUFIwblVRbGRYNVZIX0wyRVphc0pWMUN0QllOd3Rsc1pNbzRUOE5Lei1ZYUhaZnJRcEZPR21vNVlB?oc=5",
+      "optionDecisionDate": "2026-10-31"
+    },
+    "Drew Rasmussen": {
+      "status": "Under Contract",
+      "verifiedAt": "2026-10-31T23:40:45.502227+00:00",
+      "source": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOLXV6MjBzaTR2dGhiV1BTSWNvQnZSOHh4SEY2VWYwYjU4b0JMbjhzZTFINktNam4wcjNUU08wVHl2WWlOdlc3RDdxMTlZWjBwQXBFOThCODVPVXIyMVdDU1NGN1NLOFI5OEdkaWtvTnBqangtbHpSa1pNZDdUTDMtdDM0YjE2QTNTVTJCWUhSR1Q?oc=5",
       "optionDecisionDate": "2026-10-31"
     }
   }
