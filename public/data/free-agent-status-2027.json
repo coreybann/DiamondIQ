@@ -1,6 +1,6 @@
 {
   "season": 2027,
-  "lastVerified": "2026-10-31T01:02:42.977934+00:00",
+  "lastVerified": "2026-10-31T02:00:33.385480+00:00",
   "players": {
     "Michael King": {
       "status": "Available",
@@ -151,6 +151,12 @@
       "verifiedAt": "2026-10-31T01:02:42.977934+00:00",
       "source": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPRC12RW5FYlVZVmk3UEJyX29zN25XcjZBbExreU5ZSDFKZHdzWmx3SWdERUVFZllYMXNsSmtVeUFhX0FYSWFibkxhUnc5QUxSdm5jOVE3UTkyVzRlSWlINjdfSGZtVm9IZG1MMzJSa1RMb05JWk1nMDRBWUV2OXB6SWdRQTBkdy10UkdBRU9rc2E1bWdQbDlOX3Jn?oc=5",
       "optionDecisionDate": "2026-10-31"
+    },
+    "Carson Kelly": {
+      "status": "Available",
+      "verifiedAt": "2026-10-31T02:00:33.385480+00:00",
+      "source": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPU3VxejhXVTZGdmdvNzdCRU5sTGlmVG5mX04zVk5EUjBwYVUzYjhWUVUzOUd2emhUTVZSRGxTZXhjQkZhUWNKaFllSU9VcWI2UF9lWFAwMnBqdzRhNTRvU2I1bTBJcXhzRS05WGhZVVNPYTA5enRSTlpnZjBRTnhra01CcnlMT0puR2EyYzVfd0JwUQ?oc=5",
+      "optionDecisionDate": "2026-10-30"
     }
   }
 }
