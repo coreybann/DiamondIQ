@@ -1,6 +1,6 @@
 {
   "season": 2027,
-  "lastVerified": "2026-10-31T03:51:04.127336+00:00",
+  "lastVerified": "2026-10-31T22:41:11.477422+00:00",
   "players": {
     "Michael King": {
       "status": "Available",
@@ -169,6 +169,12 @@
       "verifiedAt": "2026-10-31T16:34:19.981371+00:00",
       "source": "https://www.mlbtraderumors.com/",
       "optionDecisionDate": "2026-10-30"
+    },
+    "Emilio Pagán": {
+      "status": "Available",
+      "verifiedAt": "2026-10-31T22:41:11.477422+00:00",
+      "source": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPVlRseGwwY2F6Zll2NkdET2t4SEFhTFAzNlJKMWsxNHloU29JNWZQTVhLV0VxY1ZZUTlDZEZkOXJjUldzWU5idlVFcmxwcS1UWHJYaFUzbi16blBSc1JfRHZ0OEkxTGJxUjAwckktcGcxYkdxVmtpUjdGSHpsSHZvYWY5ZDJqUQ?oc=5",
+      "optionDecisionDate": "2026-10-31"
     }
   }
 }
