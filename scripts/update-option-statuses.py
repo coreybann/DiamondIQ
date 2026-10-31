@@ -100,12 +100,17 @@ def classify_clause(clause, name):
     named = [p for p in option_players if mentions_player(clause, p)]
     if len(named) != 1:
         return None
-
+    uncertainty_clause = re.sub(
+        rf"(?<!\w){re.escape(name)}(?!\w)",
+        "",
+        clause,
+        flags=re.I,
+    )
     if re.search(
         r"\b(should|would|may|might|could|expected|likely|"
         r"plans to|intends to|leaning toward)\b"
         r"|\bto\s+(exercise|decline|reject|opt)\b",
-        clause, re.I,
+                uncertainty_clause, re.I,
     ):
         return None
 
