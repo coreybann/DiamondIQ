@@ -1,6 +1,6 @@
 {
   "season": 2027,
-  "lastVerified": "2026-10-30T22:45:12.922281+00:00",
+  "lastVerified": "2026-10-31T01:02:42.977934+00:00",
   "players": {
     "Michael King": {
       "status": "Available",
@@ -145,6 +145,12 @@
       "verifiedAt": "2026-10-30T22:45:12.922281+00:00",
       "source": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQRDMzR2xYMWRUbERjMElEeVF0VW5LVkVSVVpIUHNVVTIybjF0WjYteHFXUVRQX3Vjb25aVVB3eFItRDhGR21oazhFVEhrdk9HeXhTZ3Q3YzJvNDY5UkJVX0J3WVhkbTc1UmdKYlRqN24tOUIyYldWUzZ1S2ZSSm42bWNwcFhITkxqZ29kaEpEdVljY2UxalNsOEMzX1I1c2JFZHJtMnN5MmhrSWNQa21KZC1fU3RIQk0?oc=5",
       "optionDecisionDate": "2026-10-30"
+    },
+    "Michael Soroka": {
+      "status": "Available",
+      "verifiedAt": "2026-10-31T01:02:42.977934+00:00",
+      "source": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPRC12RW5FYlVZVmk3UEJyX29zN25XcjZBbExreU5ZSDFKZHdzWmx3SWdERUVFZllYMXNsSmtVeUFhX0FYSWFibkxhUnc5QUxSdm5jOVE3UTkyVzRlSWlINjdfSGZtVm9IZG1MMzJSa1RMb05JWk1nMDRBWUV2OXB6SWdRQTBkdy10UkdBRU9rc2E1bWdQbDlOX3Jn?oc=5",
+      "optionDecisionDate": "2026-10-31"
     }
   }
 }
