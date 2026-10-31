@@ -1,6 +1,6 @@
 {
   "season": 2027,
-  "lastVerified": "2026-10-31T02:00:33.385480+00:00",
+  "lastVerified": "2026-10-31T03:51:04.127336+00:00",
   "players": {
     "Michael King": {
       "status": "Available",
@@ -156,6 +156,12 @@
       "status": "Available",
       "verifiedAt": "2026-10-31T02:00:33.385480+00:00",
       "source": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPU3VxejhXVTZGdmdvNzdCRU5sTGlmVG5mX04zVk5EUjBwYVUzYjhWUVUzOUd2emhUTVZSRGxTZXhjQkZhUWNKaFllSU9VcWI2UF9lWFAwMnBqdzRhNTRvU2I1bTBJcXhzRS05WGhZVVNPYTA5enRSTlpnZjBRTnhra01CcnlMT0puR2EyYzVfd0JwUQ?oc=5",
+      "optionDecisionDate": "2026-10-30"
+    },
+    "Josh Bell": {
+      "status": "Available",
+      "verifiedAt": "2026-10-31T03:51:04.127336+00:00",
+      "source": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNa1pac0FaOGNSTTNQM050QnAxNmFndVNLcnowSkQyVlpPVEJsTVExTS1lTTdpaGdGeGZTNXRjQmpKQUdmTmc1cVhyV29ud1JHc2ctY0thUmdGbzNYWldSZkxULXlmR1ZqZ1lKZnlkdFY5TTI3UUl6Y1JUSV9TcWMwSjl3SUJZRkZ3?oc=5",
       "optionDecisionDate": "2026-10-30"
     }
   }
