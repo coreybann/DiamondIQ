@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import { freeAgents } from "@/lib/freeAgency";
 import {
   getPlayer2027Salary,
+  getPlayer2027ArbitrationEstimate,
   normalizeTeamCode,
 } from "@/lib/rosterSalaries";
 type MLBTeam = {
@@ -83,7 +84,61 @@ const constructedMissingSalaries =
 
 const knownPayrollChange =
   constructedKnownPayroll - originalKnownPayroll;
+const originalArbitrationValues = originalPlayers.map((player, index) =>
+  originalSalaryValues[index] !== null
+    ? null
+    : getPlayer2027ArbitrationEstimate(
+        player.person.fullName,
+        selectedTeamCode
+      )
+);
 
+const originalArbitrationPayroll = originalArbitrationValues.reduce<number>(
+  (total, salary) => total + (salary ?? 0),
+  0
+);
+
+const constructedArbitrationValues = players.map((player, index) =>
+  constructedSalaryValues[index] !== null
+    ? null
+    : getPlayer2027ArbitrationEstimate(
+        player.person.fullName,
+        player.acquisitionType === "trade"
+          ? normalizeTeamCode(
+              teams.find(
+                (team) => team.name === player.currentTeam
+              )?.abbreviation ?? ""
+            )
+          : selectedTeamCode
+      )
+);
+
+const constructedArbitrationPayroll =
+  constructedArbitrationValues.reduce<number>(
+    (total, salary) => total + (salary ?? 0),
+    0
+  );
+
+const originalProjectedPayroll =
+  originalKnownPayroll + originalArbitrationPayroll;
+
+const constructedProjectedPayroll =
+  constructedKnownPayroll + constructedArbitrationPayroll;
+
+const projectedPayrollChange =
+  constructedProjectedPayroll - originalProjectedPayroll;
+
+const originalStillMissing = originalPlayers.filter(
+  (_, index) =>
+    originalSalaryValues[index] === null &&
+    originalArbitrationValues[index] === null
+).length;
+
+const constructedStillMissing = players.filter(
+  (_, index) =>
+    constructedSalaryValues[index] === null &&
+    constructedArbitrationValues[index] === null
+).length;
   const [playerSearch, setPlayerSearch] = useState("");
   const [transactionType, setTransactionType] = useState<
   "trade" | "free-agent"
@@ -482,51 +537,66 @@ disabled={
 {!loading && selectedTeam && !error && (
   <div className="mt-8 rounded-xl border border-slate-700 bg-[#0d1d30] p-6">
     <h2 className="mb-5 text-xl font-bold">
-      2027 Roster Salary Commitments
+      2027 Projected Roster Payroll
     </h2>
 
     <div className="grid gap-4 md:grid-cols-3">
       <div className="rounded-lg bg-[#12243a] p-4">
         <p className="text-sm text-slate-400">
-          Original Known Salaries
+          Original Projected Payroll
         </p>
         <p className="mt-2 text-2xl font-bold">
-          ${originalKnownPayroll.toFixed(1)}M
+          ${originalProjectedPayroll.toFixed(1)}M
         </p>
         <p className="mt-2 text-xs text-slate-400">
-          {originalMissingSalaries} players with unknown salaries
+          Confirmed: ${originalKnownPayroll.toFixed(1)}M
+        </p>
+        <p className="text-xs text-blue-400">
+          Arbitration estimates: ${originalArbitrationPayroll.toFixed(1)}M
+        </p>
+        <p className="mt-2 text-xs text-slate-400">
+          {originalStillMissing} players with unknown salaries
         </p>
       </div>
 
       <div className="rounded-lg bg-[#12243a] p-4">
         <p className="text-sm text-slate-400">
-          Constructed Known Salaries
+          Constructed Projected Payroll
         </p>
         <p className="mt-2 text-2xl font-bold">
-          ${constructedKnownPayroll.toFixed(1)}M
+          ${constructedProjectedPayroll.toFixed(1)}M
         </p>
         <p className="mt-2 text-xs text-slate-400">
-          {constructedMissingSalaries} players with unknown salaries
+          Confirmed: ${constructedKnownPayroll.toFixed(1)}M
+        </p>
+        <p className="text-xs text-blue-400">
+          Arbitration estimates: ${constructedArbitrationPayroll.toFixed(1)}M
+        </p>
+        <p className="mt-2 text-xs text-slate-400">
+          {constructedStillMissing} players with unknown salaries
         </p>
       </div>
 
       <div className="rounded-lg bg-[#12243a] p-4">
         <p className="text-sm text-slate-400">
-          Change in Known Salaries
+          Change in Projected Payroll
         </p>
         <p className="mt-2 text-2xl font-bold text-blue-400">
-          {knownPayrollChange >= 0 ? "+" : "-"}$
-          {Math.abs(knownPayrollChange).toFixed(1)}M
+          {projectedPayrollChange >= 0 ? "+" : "-"}$
+          {Math.abs(projectedPayrollChange).toFixed(1)}M
         </p>
         <p className="mt-2 text-xs text-slate-400">
-          Excludes missing salaries and new contract estimates
+          Includes confirmed salaries and estimated arbitration costs
         </p>
       </div>
     </div>
 
     <p className="mt-4 text-xs text-slate-400">
-      Based on listed 2027 contract salaries. These are partial
-      salary commitments, not complete team payroll or luxury-tax figures.
+      Payroll figures combine listed 2027 contract salaries with
+      DiamondIQ's provisional arbitration estimates. Unknown salaries,
+      potential free-agent contracts, and other unmodeled costs are
+      excluded. These figures are not complete team payroll or
+      luxury-tax calculations.
     </p>
   </div>
 )}

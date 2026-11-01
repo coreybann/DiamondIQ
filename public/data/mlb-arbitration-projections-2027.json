@@ -1,0 +1,1489 @@
+{
+  "season": 2027,
+  "source": "MLB Trade Rumors",
+  "source_url": "https://www.mlbtraderumors.com/2026/10/projected-arbitration-salaries-for-2027.html",
+  "data_type": "third_party_arbitration_salary_projections",
+  "salary_unit": "millions_usd",
+  "records": [
+    {
+      "player": "Lars Nootbaar",
+      "service_time": "5.076",
+      "projected_salary_millions": 6.3
+    },
+    {
+      "player": "Pavin Smith",
+      "service_time": "4.144",
+      "projected_salary_millions": 2.5
+    },
+    {
+      "player": "Gabriel Moreno",
+      "service_time": "4.061",
+      "projected_salary_millions": 6.1
+    },
+    {
+      "player": "Ryne Nelson",
+      "service_time": "4.020",
+      "projected_salary_millions": 3.4
+    },
+    {
+      "player": "Shea Langeliers",
+      "service_time": "4.051",
+      "projected_salary_millions": 8.7
+    },
+    {
+      "player": "Luis Medina",
+      "service_time": "3.146",
+      "projected_salary_millions": 1.4
+    },
+    {
+      "player": "Zack Gelof",
+      "service_time": "3.050",
+      "projected_salary_millions": 2.9
+    },
+    {
+      "player": "Hogan Harris",
+      "service_time": "2.146",
+      "projected_salary_millions": 2.3
+    },
+    {
+      "player": "Dylan Lee",
+      "service_time": "4.150",
+      "projected_salary_millions": 4.2
+    },
+    {
+      "player": "James Karinchak",
+      "service_time": "4.130",
+      "projected_salary_millions": 1.1
+    },
+    {
+      "player": "Joey Wentz",
+      "service_time": "3.166",
+      "projected_salary_millions": 0.9
+    },
+    {
+      "player": "Michael Grove",
+      "service_time": "3.122",
+      "projected_salary_millions": 1.0
+    },
+    {
+      "player": "Luke Williams",
+      "service_time": "3.070",
+      "projected_salary_millions": 0.9
+    },
+    {
+      "player": "Bryce Elder",
+      "service_time": "3.069",
+      "projected_salary_millions": 4.0
+    },
+    {
+      "player": "Leody Taveras",
+      "service_time": "5.031",
+      "projected_salary_millions": 3.7
+    },
+    {
+      "player": "Félix Bautista",
+      "service_time": "5.000",
+      "projected_salary_millions": 2.4
+    },
+    {
+      "player": "Codi Heuer",
+      "service_time": "4.059",
+      "projected_salary_millions": 1.1
+    },
+    {
+      "player": "Gunnar Henderson",
+      "service_time": "4.036",
+      "projected_salary_millions": 14.1
+    },
+    {
+      "player": "Albert Suárez",
+      "service_time": "3.159",
+      "projected_salary_millions": 1.1
+    },
+    {
+      "player": "Jordan Westburg",
+      "service_time": "3.098",
+      "projected_salary_millions": 1.5
+    },
+    {
+      "player": "Colton Cowser",
+      "service_time": "3.043",
+      "projected_salary_millions": 2.2
+    },
+    {
+      "player": "Tanner Houck",
+      "service_time": "5.100",
+      "projected_salary_millions": 4.1
+    },
+    {
+      "player": "Johan Oviedo",
+      "service_time": "5.079",
+      "projected_salary_millions": 1.8
+    },
+    {
+      "player": "Adley Rutschman",
+      "service_time": "5.000",
+      "projected_salary_millions": 9.1
+    },
+    {
+      "player": "Jarren Duran",
+      "service_time": "4.155",
+      "projected_salary_millions": 11.1
+    },
+    {
+      "player": "Eli White",
+      "service_time": "4.140",
+      "projected_salary_millions": 1.4
+    },
+    {
+      "player": "Kutter Crawford",
+      "service_time": "4.136",
+      "projected_salary_millions": 2.8
+    },
+    {
+      "player": "Connor Wong",
+      "service_time": "4.079",
+      "projected_salary_millions": 2.0
+    },
+    {
+      "player": "Romy González",
+      "service_time": "4.044",
+      "projected_salary_millions": 1.8
+    },
+    {
+      "player": "Triston Casas",
+      "service_time": "4.032",
+      "projected_salary_millions": 1.7
+    },
+    {
+      "player": "Andruw Monasterio",
+      "service_time": "3.099",
+      "projected_salary_millions": 1.6
+    },
+    {
+      "player": "Zack Kelly",
+      "service_time": "3.080",
+      "projected_salary_millions": 0.8
+    },
+    {
+      "player": "Greg Weissert",
+      "service_time": "3.079",
+      "projected_salary_millions": 1.2
+    },
+    {
+      "player": "Wilyer Abreu",
+      "service_time": "3.041",
+      "projected_salary_millions": 4.6
+    },
+    {
+      "player": "Erik Miller",
+      "service_time": "3.000",
+      "projected_salary_millions": 1.5
+    },
+    {
+      "player": "Justin Slaten",
+      "service_time": "3.000",
+      "projected_salary_millions": 1.2
+    },
+    {
+      "player": "Jahmai Jones",
+      "service_time": "2.148",
+      "projected_salary_millions": 0.9
+    },
+    {
+      "player": "Tyron Guerrero",
+      "service_time": "2.133",
+      "projected_salary_millions": 1.1
+    },
+    {
+      "player": "Justin Steele",
+      "service_time": "5.143",
+      "projected_salary_millions": 6.8
+    },
+    {
+      "player": "Edward Cabrera",
+      "service_time": "4.147",
+      "projected_salary_millions": 4.8
+    },
+    {
+      "player": "Braxton Garrett",
+      "service_time": "4.006",
+      "projected_salary_millions": 1.6
+    },
+    {
+      "player": "Javier Assad",
+      "service_time": "3.167",
+      "projected_salary_millions": 2.3
+    },
+    {
+      "player": "Tyler Austin",
+      "service_time": "3.151",
+      "projected_salary_millions": 1.3
+    },
+    {
+      "player": "Miguel Amaya",
+      "service_time": "3.130",
+      "projected_salary_millions": 1.7
+    },
+    {
+      "player": "Gabriel Arias",
+      "service_time": "3.124",
+      "projected_salary_millions": 1.3
+    },
+    {
+      "player": "Ryan Rolison",
+      "service_time": "3.109",
+      "projected_salary_millions": 1.1
+    },
+    {
+      "player": "Ethan Roberts",
+      "service_time": "3.080",
+      "projected_salary_millions": 0.8
+    },
+    {
+      "player": "Michael Busch",
+      "service_time": "3.045",
+      "projected_salary_millions": 5.4
+    },
+    {
+      "player": "Ben Brown",
+      "service_time": "2.169",
+      "projected_salary_millions": 1.3
+    },
+    {
+      "player": "Daniel Palencia",
+      "service_time": "2.154",
+      "projected_salary_millions": 1.2
+    },
+    {
+      "player": "Joey Bart",
+      "service_time": "5.020",
+      "projected_salary_millions": 2.9
+    },
+    {
+      "player": "Huascar Brazobán",
+      "service_time": "3.170",
+      "projected_salary_millions": 1.6
+    },
+    {
+      "player": "Brenton Doyle",
+      "service_time": "3.161",
+      "projected_salary_millions": 3.6
+    },
+    {
+      "player": "Miguel Vargas",
+      "service_time": "3.101",
+      "projected_salary_millions": 5.4
+    },
+    {
+      "player": "Chris Murphy",
+      "service_time": "3.055",
+      "projected_salary_millions": 0.9
+    },
+    {
+      "player": "Jordan Leasure",
+      "service_time": "2.161",
+      "projected_salary_millions": 1.0
+    },
+    {
+      "player": "Tejay Antone",
+      "service_time": "5.145",
+      "projected_salary_millions": 1.5
+    },
+    {
+      "player": "Nick Lodolo",
+      "service_time": "5.000",
+      "projected_salary_millions": 5.7
+    },
+    {
+      "player": "Graham Ashcraft",
+      "service_time": "4.130",
+      "projected_salary_millions": 2.2
+    },
+    {
+      "player": "Tony Santillan",
+      "service_time": "4.099",
+      "projected_salary_millions": 2.5
+    },
+    {
+      "player": "Spencer Steer",
+      "service_time": "4.035",
+      "projected_salary_millions": 5.7
+    },
+    {
+      "player": "JJ Bleday",
+      "service_time": "4.013",
+      "projected_salary_millions": 4.8
+    },
+    {
+      "player": "Matt McLain",
+      "service_time": "3.140",
+      "projected_salary_millions": 4.0
+    },
+    {
+      "player": "Brandon Williamson",
+      "service_time": "3.139",
+      "projected_salary_millions": 1.3
+    },
+    {
+      "player": "Andrew Abbott",
+      "service_time": "3.119",
+      "projected_salary_millions": 4.5
+    },
+    {
+      "player": "Elly De La Cruz",
+      "service_time": "3.118",
+      "projected_salary_millions": 7.9
+    },
+    {
+      "player": "Oswaldo Cabrera",
+      "service_time": "3.069",
+      "projected_salary_millions": 1.1
+    },
+    {
+      "player": "Dane Myers",
+      "service_time": "3.037",
+      "projected_salary_millions": 1.5
+    },
+    {
+      "player": "Jo Adell",
+      "service_time": "5.085",
+      "projected_salary_millions": 9.6
+    },
+    {
+      "player": "Steven Kwan",
+      "service_time": "5.000",
+      "projected_salary_millions": 11.3
+    },
+    {
+      "player": "Colin Holderman",
+      "service_time": "4.108",
+      "projected_salary_millions": 2.3
+    },
+    {
+      "player": "David Fry",
+      "service_time": "3.154",
+      "projected_salary_millions": 1.9
+    },
+    {
+      "player": "Matt Festa",
+      "service_time": "3.153",
+      "projected_salary_millions": 1.5
+    },
+    {
+      "player": "Patrick Bailey",
+      "service_time": "3.136",
+      "projected_salary_millions": 2.3
+    },
+    {
+      "player": "Gavin Williams",
+      "service_time": "3.103",
+      "projected_salary_millions": 4.8
+    },
+    {
+      "player": "Blake Perkins",
+      "service_time": "3.075",
+      "projected_salary_millions": 0.9
+    },
+    {
+      "player": "Hunter Gaddis",
+      "service_time": "3.073",
+      "projected_salary_millions": 2.2
+    },
+    {
+      "player": "Tim Herrin",
+      "service_time": "3.058",
+      "projected_salary_millions": 1.3
+    },
+    {
+      "player": "Brayan Rocchio",
+      "service_time": "3.001",
+      "projected_salary_millions": 3.1
+    },
+    {
+      "player": "Cade Smith",
+      "service_time": "3.000",
+      "projected_salary_millions": 5.5
+    },
+    {
+      "player": "Slade Cecconi",
+      "service_time": "2.155",
+      "projected_salary_millions": 2.0
+    },
+    {
+      "player": "Jimmy Herget",
+      "service_time": "5.069",
+      "projected_salary_millions": 2.4
+    },
+    {
+      "player": "Jake McCarthy",
+      "service_time": "4.074",
+      "projected_salary_millions": 4.6
+    },
+    {
+      "player": "Ryan Feltner",
+      "service_time": "4.071",
+      "projected_salary_millions": 3.8
+    },
+    {
+      "player": "Brennan Bernardino",
+      "service_time": "3.153",
+      "projected_salary_millions": 1.6
+    },
+    {
+      "player": "Hunter Goodman",
+      "service_time": "3.010",
+      "projected_salary_millions": 6.2
+    },
+    {
+      "player": "Jordan Beck",
+      "service_time": "2.133",
+      "projected_salary_millions": 1.2
+    },
+    {
+      "player": "Will Vest",
+      "service_time": "5.100",
+      "projected_salary_millions": 4.4
+    },
+    {
+      "player": "Zach McKinstry",
+      "service_time": "5.099",
+      "projected_salary_millions": 5.0
+    },
+    {
+      "player": "Matt Vierling",
+      "service_time": "5.026",
+      "projected_salary_millions": 3.7
+    },
+    {
+      "player": "Riley Greene",
+      "service_time": "4.110",
+      "projected_salary_millions": 9.3
+    },
+    {
+      "player": "Spencer Torkelson",
+      "service_time": "4.076",
+      "projected_salary_millions": 7.7
+    },
+    {
+      "player": "Kerry Carpenter",
+      "service_time": "4.057",
+      "projected_salary_millions": 4.1
+    },
+    {
+      "player": "Tyler Holton",
+      "service_time": "4.047",
+      "projected_salary_millions": 2.4
+    },
+    {
+      "player": "Beau Brieske",
+      "service_time": "4.007",
+      "projected_salary_millions": 1.5
+    },
+    {
+      "player": "Reese Olson",
+      "service_time": "3.123",
+      "projected_salary_millions": 1.5
+    },
+    {
+      "player": "Wenceel Pérez",
+      "service_time": "3.000",
+      "projected_salary_millions": 1.4
+    },
+    {
+      "player": "Parker Meadows",
+      "service_time": "2.169",
+      "projected_salary_millions": 1.0
+    },
+    {
+      "player": "Isaac Paredes",
+      "service_time": "5.160",
+      "projected_salary_millions": 15.0
+    },
+    {
+      "player": "Peter Lambert",
+      "service_time": "5.069",
+      "projected_salary_millions": 4.6
+    },
+    {
+      "player": "Jeremy Peña",
+      "service_time": "5.000",
+      "projected_salary_millions": 13.1
+    },
+    {
+      "player": "Jake Meyers",
+      "service_time": "4.161",
+      "projected_salary_millions": 3.6
+    },
+    {
+      "player": "Hunter Brown",
+      "service_time": "4.035",
+      "projected_salary_millions": 6.8
+    },
+    {
+      "player": "Yainer Diaz",
+      "service_time": "4.035",
+      "projected_salary_millions": 6.3
+    },
+    {
+      "player": "Hayden Wesneski",
+      "service_time": "3.170",
+      "projected_salary_millions": 1.8
+    },
+    {
+      "player": "Nick Allen",
+      "service_time": "3.164",
+      "projected_salary_millions": 1.8
+    },
+    {
+      "player": "Bennett Sousa",
+      "service_time": "3.156",
+      "projected_salary_millions": 1.3
+    },
+    {
+      "player": "Taylor Trammell",
+      "service_time": "3.143",
+      "projected_salary_millions": 1.5
+    },
+    {
+      "player": "Ronel Blanco",
+      "service_time": "3.100",
+      "projected_salary_millions": 1.4
+    },
+    {
+      "player": "Kyle Isbel",
+      "service_time": "5.043",
+      "projected_salary_millions": 3.5
+    },
+    {
+      "player": "Nate Pearson",
+      "service_time": "5.042",
+      "projected_salary_millions": 2.0
+    },
+    {
+      "player": "Nick Mears",
+      "service_time": "5.022",
+      "projected_salary_millions": 2.2
+    },
+    {
+      "player": "Alex Lange",
+      "service_time": "4.145",
+      "projected_salary_millions": 1.7
+    },
+    {
+      "player": "Daniel Lynch IV",
+      "service_time": "4.136",
+      "projected_salary_millions": 1.8
+    },
+    {
+      "player": "Michael Massey",
+      "service_time": "4.068",
+      "projected_salary_millions": 3.2
+    },
+    {
+      "player": "Anthony Gose",
+      "service_time": "4.019",
+      "projected_salary_millions": 1.1
+    },
+    {
+      "player": "James McArthur",
+      "service_time": "3.150",
+      "projected_salary_millions": 0.8
+    },
+    {
+      "player": "Randy Dobnak",
+      "service_time": "3.148",
+      "projected_salary_millions": 2.3
+    },
+    {
+      "player": "Lucas Erceg",
+      "service_time": "3.125",
+      "projected_salary_millions": 2.3
+    },
+    {
+      "player": "Alec Marsh",
+      "service_time": "3.078",
+      "projected_salary_millions": 1.1
+    },
+    {
+      "player": "Reid Detmers",
+      "service_time": "4.159",
+      "projected_salary_millions": 7.5
+    },
+    {
+      "player": "Jose Siri",
+      "service_time": "4.150",
+      "projected_salary_millions": 2.3
+    },
+    {
+      "player": "Josh Lowe",
+      "service_time": "4.075",
+      "projected_salary_millions": 3.6
+    },
+    {
+      "player": "Tyler Heineman",
+      "service_time": "4.066",
+      "projected_salary_millions": 1.5
+    },
+    {
+      "player": "Tayler Saucedo",
+      "service_time": "4.043",
+      "projected_salary_millions": 1.5
+    },
+    {
+      "player": "Zach Neto",
+      "service_time": "3.170",
+      "projected_salary_millions": 9.8
+    },
+    {
+      "player": "Grayson Rodriguez",
+      "service_time": "3.129",
+      "projected_salary_millions": 2.1
+    },
+    {
+      "player": "Ben Joyce",
+      "service_time": "3.075",
+      "projected_salary_millions": 1.1
+    },
+    {
+      "player": "Nolan Schanuel",
+      "service_time": "3.045",
+      "projected_salary_millions": 3.0
+    },
+    {
+      "player": "Oswald Peraza",
+      "service_time": "3.014",
+      "projected_salary_millions": 1.4
+    },
+    {
+      "player": "Sam Bachman",
+      "service_time": "2.149",
+      "projected_salary_millions": 1.1
+    },
+    {
+      "player": "Brock Stewart",
+      "service_time": "5.093",
+      "projected_salary_millions": 1.8
+    },
+    {
+      "player": "Jake Cousins",
+      "service_time": "4.091",
+      "projected_salary_millions": 1.0
+    },
+    {
+      "player": "Alex Call",
+      "service_time": "3.161",
+      "projected_salary_millions": 1.9
+    },
+    {
+      "player": "Emmet Sheehan",
+      "service_time": "3.063",
+      "projected_salary_millions": 2.1
+    },
+    {
+      "player": "Gavin Stone",
+      "service_time": "3.034",
+      "projected_salary_millions": 1.2
+    },
+    {
+      "player": "Andy Pages",
+      "service_time": "2.155",
+      "projected_salary_millions": 4.9
+    },
+    {
+      "player": "Anthony Bender",
+      "service_time": "5.153",
+      "projected_salary_millions": 3.4
+    },
+    {
+      "player": "Andrew Nardi",
+      "service_time": "4.053",
+      "projected_salary_millions": 1.1
+    },
+    {
+      "player": "Max Meyer",
+      "service_time": "3.166",
+      "projected_salary_millions": 2.7
+    },
+    {
+      "player": "Calvin Faucher",
+      "service_time": "3.156",
+      "projected_salary_millions": 2.9
+    },
+    {
+      "player": "Eury Pérez",
+      "service_time": "3.113",
+      "projected_salary_millions": 3.2
+    },
+    {
+      "player": "Otto Lopez",
+      "service_time": "3.109",
+      "projected_salary_millions": 5.4
+    },
+    {
+      "player": "Tyler Zuber",
+      "service_time": "3.104",
+      "projected_salary_millions": 0.9
+    },
+    {
+      "player": "Esteury Ruiz",
+      "service_time": "3.064",
+      "projected_salary_millions": 1.3
+    },
+    {
+      "player": "Xavier Edwards",
+      "service_time": "3.034",
+      "projected_salary_millions": 3.5
+    },
+    {
+      "player": "Victor Vodnik",
+      "service_time": "3.024",
+      "projected_salary_millions": 1.4
+    },
+    {
+      "player": "Kyle Stowers",
+      "service_time": "3.012",
+      "projected_salary_millions": 3.2
+    },
+    {
+      "player": "Andrew Vaughn",
+      "service_time": "5.142",
+      "projected_salary_millions": 8.5
+    },
+    {
+      "player": "William Contreras",
+      "service_time": "5.112",
+      "projected_salary_millions": 14.6
+    },
+    {
+      "player": "Bryse Wilson",
+      "service_time": "5.049",
+      "projected_salary_millions": 1.1
+    },
+    {
+      "player": "Trevor Megill",
+      "service_time": "5.002",
+      "projected_salary_millions": 8.0
+    },
+    {
+      "player": "Angel Zerpa",
+      "service_time": "4.082",
+      "projected_salary_millions": 1.3
+    },
+    {
+      "player": "Garrett Mitchell",
+      "service_time": "4.040",
+      "projected_salary_millions": 2.7
+    },
+    {
+      "player": "Brice Turang",
+      "service_time": "3.165",
+      "projected_salary_millions": 9.5
+    },
+    {
+      "player": "Akil Baddoo",
+      "service_time": "3.082",
+      "projected_salary_millions": 1.3
+    },
+    {
+      "player": "DL Hall",
+      "service_time": "3.074",
+      "projected_salary_millions": 1.0
+    },
+    {
+      "player": "Sal Frelick",
+      "service_time": "3.072",
+      "projected_salary_millions": 2.4
+    },
+    {
+      "player": "Joey Ortiz",
+      "service_time": "3.030",
+      "projected_salary_millions": 2.4
+    },
+    {
+      "player": "Bo Naylor",
+      "service_time": "3.014",
+      "projected_salary_millions": 1.5
+    },
+    {
+      "player": "David Hamilton",
+      "service_time": "3.011",
+      "projected_salary_millions": 1.6
+    },
+    {
+      "player": "Grant Anderson",
+      "service_time": "3.007",
+      "projected_salary_millions": 1.0
+    },
+    {
+      "player": "Jared Koenig",
+      "service_time": "2.158",
+      "projected_salary_millions": 0.9
+    },
+    {
+      "player": "Quinn Priester",
+      "service_time": "2.134",
+      "projected_salary_millions": 1.3
+    },
+    {
+      "player": "Anthony Banda",
+      "service_time": "5.135",
+      "projected_salary_millions": 2.3
+    },
+    {
+      "player": "Dean Kremer",
+      "service_time": "5.107",
+      "projected_salary_millions": 6.5
+    },
+    {
+      "player": "Bailey Ober",
+      "service_time": "5.093",
+      "projected_salary_millions": 6.9
+    },
+    {
+      "player": "Joe Ryan",
+      "service_time": "5.033",
+      "projected_salary_millions": 9.6
+    },
+    {
+      "player": "Trevor Larnach",
+      "service_time": "5.014",
+      "projected_salary_millions": 6.3
+    },
+    {
+      "player": "Royce Lewis",
+      "service_time": "4.139",
+      "projected_salary_millions": 5.1
+    },
+    {
+      "player": "Cole Sands",
+      "service_time": "4.017",
+      "projected_salary_millions": 1.3
+    },
+    {
+      "player": "Tommy Nance",
+      "service_time": "3.165",
+      "projected_salary_millions": 1.2
+    },
+    {
+      "player": "Kody Clemens",
+      "service_time": "3.134",
+      "projected_salary_millions": 3.6
+    },
+    {
+      "player": "Taj Bradley",
+      "service_time": "3.097",
+      "projected_salary_millions": 4.5
+    },
+    {
+      "player": "Cionel Pérez",
+      "service_time": "5.139",
+      "projected_salary_millions": 1.2
+    },
+    {
+      "player": "Tylor Megill",
+      "service_time": "5.031",
+      "projected_salary_millions": 2.5
+    },
+    {
+      "player": "Christopher Morel",
+      "service_time": "4.080",
+      "projected_salary_millions": 2.1
+    },
+    {
+      "player": "Francisco Alvarez",
+      "service_time": "3.164",
+      "projected_salary_millions": 4.1
+    },
+    {
+      "player": "Reed Garrett",
+      "service_time": "3.143",
+      "projected_salary_millions": 1.3
+    },
+    {
+      "player": "Austin Warren",
+      "service_time": "3.137",
+      "projected_salary_millions": 1.2
+    },
+    {
+      "player": "Mark Vientos",
+      "service_time": "3.102",
+      "projected_salary_millions": 2.4
+    },
+    {
+      "player": "Brett Baty",
+      "service_time": "3.088",
+      "projected_salary_millions": 2.5
+    },
+    {
+      "player": "Cristian Pache",
+      "service_time": "3.086",
+      "projected_salary_millions": 0.8
+    },
+    {
+      "player": "Dedniel Núñez",
+      "service_time": "3.074",
+      "projected_salary_millions": 0.9
+    },
+    {
+      "player": "Clarke Schmidt",
+      "service_time": "5.148",
+      "projected_salary_millions": 4.5
+    },
+    {
+      "player": "Luis García Jr.",
+      "service_time": "5.142",
+      "projected_salary_millions": 11.0
+    },
+    {
+      "player": "Ryan Weathers",
+      "service_time": "4.066",
+      "projected_salary_millions": 3.1
+    },
+    {
+      "player": "Fernando Cruz",
+      "service_time": "4.035",
+      "projected_salary_millions": 2.3
+    },
+    {
+      "player": "José Caballero",
+      "service_time": "3.170",
+      "projected_salary_millions": 3.7
+    },
+    {
+      "player": "Anthony Volpe",
+      "service_time": "3.142",
+      "projected_salary_millions": 4.0
+    },
+    {
+      "player": "Luis Gil",
+      "service_time": "3.119",
+      "projected_salary_millions": 2.3
+    },
+    {
+      "player": "Heliot Ramos",
+      "service_time": "3.103",
+      "projected_salary_millions": 3.2
+    },
+    {
+      "player": "Austin Wells",
+      "service_time": "3.031",
+      "projected_salary_millions": 2.6
+    },
+    {
+      "player": "Garrett Stubbs",
+      "service_time": "5.139",
+      "projected_salary_millions": 1.0
+    },
+    {
+      "player": "Brandon Marsh",
+      "service_time": "5.078",
+      "projected_salary_millions": 8.3
+    },
+    {
+      "player": "Jhoan Duran",
+      "service_time": "5.000",
+      "projected_salary_millions": 10.9
+    },
+    {
+      "player": "Bryson Stott",
+      "service_time": "5.000",
+      "projected_salary_millions": 9.2
+    },
+    {
+      "player": "Tanner Banks",
+      "service_time": "4.092",
+      "projected_salary_millions": 1.4
+    },
+    {
+      "player": "Derek Hill",
+      "service_time": "4.040",
+      "projected_salary_millions": 1.5
+    },
+    {
+      "player": "Rafael Marchán",
+      "service_time": "4.006",
+      "projected_salary_millions": 1.0
+    },
+    {
+      "player": "Bryan De La Cruz",
+      "service_time": "3.148",
+      "projected_salary_millions": 1.2
+    },
+    {
+      "player": "Orion Kerkering",
+      "service_time": "3.010",
+      "projected_salary_millions": 1.5
+    },
+    {
+      "player": "Yohan Ramírez",
+      "service_time": "4.135",
+      "projected_salary_millions": 1.5
+    },
+    {
+      "player": "Oneil Cruz",
+      "service_time": "4.110",
+      "projected_salary_millions": 6.3
+    },
+    {
+      "player": "Carmen Mlodzinski",
+      "service_time": "3.081",
+      "projected_salary_millions": 1.6
+    },
+    {
+      "player": "Jared Triolo",
+      "service_time": "3.071",
+      "projected_salary_millions": 1.8
+    },
+    {
+      "player": "Endy Rodríguez",
+      "service_time": "3.044",
+      "projected_salary_millions": 1.2
+    },
+    {
+      "player": "Henry Davis",
+      "service_time": "3.039",
+      "projected_salary_millions": 1.4
+    },
+    {
+      "player": "Nick Gonzales",
+      "service_time": "3.018",
+      "projected_salary_millions": 3.1
+    },
+    {
+      "player": "Jared Jones",
+      "service_time": "3.000",
+      "projected_salary_millions": 2.1
+    },
+    {
+      "player": "Paul Skenes",
+      "service_time": "3.000",
+      "projected_salary_millions": 7.2
+    },
+    {
+      "player": "Spencer Horwitz",
+      "service_time": "2.152",
+      "projected_salary_millions": 2.5
+    },
+    {
+      "player": "Gavin Sheets",
+      "service_time": "5.076",
+      "projected_salary_millions": 6.5
+    },
+    {
+      "player": "Luis Campusano",
+      "service_time": "4.003",
+      "projected_salary_millions": 1.7
+    },
+    {
+      "player": "Mason Miller",
+      "service_time": "3.166",
+      "projected_salary_millions": 8.1
+    },
+    {
+      "player": "Freddy Fermin",
+      "service_time": "3.165",
+      "projected_salary_millions": 2.6
+    },
+    {
+      "player": "Bryan Hoeing",
+      "service_time": "3.133",
+      "projected_salary_millions": 0.8
+    },
+    {
+      "player": "JP Sears",
+      "service_time": "3.108",
+      "projected_salary_millions": 2.8
+    },
+    {
+      "player": "Jeremiah Estrada",
+      "service_time": "3.069",
+      "projected_salary_millions": 1.3
+    },
+    {
+      "player": "Jhony Brito",
+      "service_time": "2.138",
+      "projected_salary_millions": 0.8
+    },
+    {
+      "player": "Sam Hentges",
+      "service_time": "5.157",
+      "projected_salary_millions": 2.0
+    },
+    {
+      "player": "Andrew Knizner",
+      "service_time": "5.139",
+      "projected_salary_millions": 1.0
+    },
+    {
+      "player": "Camilo Doval",
+      "service_time": "5.071",
+      "projected_salary_millions": 6.6
+    },
+    {
+      "player": "Jason Foley",
+      "service_time": "4.150",
+      "projected_salary_millions": 2.3
+    },
+    {
+      "player": "Rowan Wick",
+      "service_time": "4.114",
+      "projected_salary_millions": 0.8
+    },
+    {
+      "player": "Ryan Walker",
+      "service_time": "3.050",
+      "projected_salary_millions": 1.6
+    },
+    {
+      "player": "Casey Schmitt",
+      "service_time": "3.035",
+      "projected_salary_millions": 2.5
+    },
+    {
+      "player": "José Buttó",
+      "service_time": "2.168",
+      "projected_salary_millions": 0.8
+    },
+    {
+      "player": "Randy Rodríguez",
+      "service_time": "2.148",
+      "projected_salary_millions": 0.8
+    },
+    {
+      "player": "Logan Gilbert",
+      "service_time": "5.144",
+      "projected_salary_millions": 15.4
+    },
+    {
+      "player": "Brendan Donovan",
+      "service_time": "5.000",
+      "projected_salary_millions": 6.1
+    },
+    {
+      "player": "Gabe Speier",
+      "service_time": "5.000",
+      "projected_salary_millions": 3.3
+    },
+    {
+      "player": "George Kirby",
+      "service_time": "4.151",
+      "projected_salary_millions": 9.8
+    },
+    {
+      "player": "Patrick Wisdom",
+      "service_time": "4.135",
+      "projected_salary_millions": 1.1
+    },
+    {
+      "player": "Matt Brash",
+      "service_time": "4.121",
+      "projected_salary_millions": 1.8
+    },
+    {
+      "player": "Luke Raley",
+      "service_time": "4.106",
+      "projected_salary_millions": 3.1
+    },
+    {
+      "player": "Bryce Miller",
+      "service_time": "3.153",
+      "projected_salary_millions": 3.9
+    },
+    {
+      "player": "Bryan Woo",
+      "service_time": "3.121",
+      "projected_salary_millions": 5.2
+    },
+    {
+      "player": "Eduard Bazardo",
+      "service_time": "3.118",
+      "projected_salary_millions": 1.5
+    },
+    {
+      "player": "Jose A. Ferrer",
+      "service_time": "3.094",
+      "projected_salary_millions": 1.6
+    },
+    {
+      "player": "Michael Rucker",
+      "service_time": "3.069",
+      "projected_salary_millions": 0.8
+    },
+    {
+      "player": "Dominic Canzone",
+      "service_time": "3.014",
+      "projected_salary_millions": 3.0
+    },
+    {
+      "player": "Cooper Criswell",
+      "service_time": "2.143",
+      "projected_salary_millions": 0.9
+    },
+    {
+      "player": "Carlos Vargas",
+      "service_time": "2.140",
+      "projected_salary_millions": 0.8
+    },
+    {
+      "player": "Andre Pallante",
+      "service_time": "4.145",
+      "projected_salary_millions": 7.5
+    },
+    {
+      "player": "Nolan Gorman",
+      "service_time": "4.055",
+      "projected_salary_millions": 3.4
+    },
+    {
+      "player": "Alec Burleson",
+      "service_time": "4.029",
+      "projected_salary_millions": 8.3
+    },
+    {
+      "player": "Matthew Liberatore",
+      "service_time": "3.144",
+      "projected_salary_millions": 3.6
+    },
+    {
+      "player": "Masyn Winn",
+      "service_time": "3.045",
+      "projected_salary_millions": 3.3
+    },
+    {
+      "player": "Jordan Walker",
+      "service_time": "3.044",
+      "projected_salary_millions": 5.1
+    },
+    {
+      "player": "Iván Herrera",
+      "service_time": "3.034",
+      "projected_salary_millions": 5.5
+    },
+    {
+      "player": "Pedro Pagés",
+      "service_time": "2.166",
+      "projected_salary_millions": 1.3
+    },
+    {
+      "player": "Kyle Leahy",
+      "service_time": "2.140",
+      "projected_salary_millions": 2.8
+    },
+    {
+      "player": "Shane McClanahan",
+      "service_time": "5.158",
+      "projected_salary_millions": 6.6
+    },
+    {
+      "player": "Nick Madrigal",
+      "service_time": "5.137",
+      "projected_salary_millions": 1.1
+    },
+    {
+      "player": "Tyler Wells",
+      "service_time": "5.132",
+      "projected_salary_millions": 4.0
+    },
+    {
+      "player": "Cole Sulser",
+      "service_time": "5.096",
+      "projected_salary_millions": 1.9
+    },
+    {
+      "player": "Taylor Walls",
+      "service_time": "5.092",
+      "projected_salary_millions": 3.5
+    },
+    {
+      "player": "Griffin Jax",
+      "service_time": "5.091",
+      "projected_salary_millions": 5.7
+    },
+    {
+      "player": "Garrett Cleavinger",
+      "service_time": "5.060",
+      "projected_salary_millions": 3.7
+    },
+    {
+      "player": "Nick Fortes",
+      "service_time": "4.149",
+      "projected_salary_millions": 3.4
+    },
+    {
+      "player": "Bryan Baker",
+      "service_time": "4.049",
+      "projected_salary_millions": 4.1
+    },
+    {
+      "player": "Ryan Pepiot",
+      "service_time": "4.005",
+      "projected_salary_millions": 3.1
+    },
+    {
+      "player": "Kevin Kelly",
+      "service_time": "3.156",
+      "projected_salary_millions": 2.6
+    },
+    {
+      "player": "Richie Palacios",
+      "service_time": "3.156",
+      "projected_salary_millions": 2.0
+    },
+    {
+      "player": "Edwin Uceta",
+      "service_time": "3.150",
+      "projected_salary_millions": 1.5
+    },
+    {
+      "player": "Manuel Rodríguez",
+      "service_time": "3.139",
+      "projected_salary_millions": 0.9
+    },
+    {
+      "player": "Jonny DeLuca",
+      "service_time": "3.085",
+      "projected_salary_millions": 1.7
+    },
+    {
+      "player": "Jesse Scholtens",
+      "service_time": "3.032",
+      "projected_salary_millions": 0.9
+    },
+    {
+      "player": "Jonathan Aranda",
+      "service_time": "3.030",
+      "projected_salary_millions": 4.1
+    },
+    {
+      "player": "MacKenzie Gore",
+      "service_time": "5.000",
+      "projected_salary_millions": 8.7
+    },
+    {
+      "player": "Jake Burger",
+      "service_time": "4.127",
+      "projected_salary_millions": 6.9
+    },
+    {
+      "player": "Ezequiel Durán",
+      "service_time": "4.053",
+      "projected_salary_millions": 4.0
+    },
+    {
+      "player": "Josh Jung",
+      "service_time": "4.027",
+      "projected_salary_millions": 5.2
+    },
+    {
+      "player": "Logan O’Hoppe",
+      "service_time": "3.171",
+      "projected_salary_millions": 3.1
+    },
+    {
+      "player": "Cody Bradford",
+      "service_time": "3.086",
+      "projected_salary_millions": 1.3
+    },
+    {
+      "player": "Robert Garcia",
+      "service_time": "3.086",
+      "projected_salary_millions": 1.1
+    },
+    {
+      "player": "Wyatt Langford",
+      "service_time": "3.000",
+      "projected_salary_millions": 3.3
+    },
+    {
+      "player": "Evan Carter",
+      "service_time": "2.170",
+      "projected_salary_millions": 1.7
+    },
+    {
+      "player": "Jacob Latz",
+      "service_time": "2.170",
+      "projected_salary_millions": 3.0
+    },
+    {
+      "player": "Ernie Clement",
+      "service_time": "4.168",
+      "projected_salary_millions": 7.6
+    },
+    {
+      "player": "José Soriano",
+      "service_time": "4.121",
+      "projected_salary_millions": 5.6
+    },
+    {
+      "player": "Josh Smith",
+      "service_time": "4.116",
+      "projected_salary_millions": 3.7
+    },
+    {
+      "player": "Bowden Francis",
+      "service_time": "3.098",
+      "projected_salary_millions": 1.3
+    },
+    {
+      "player": "Spencer Arrighetti",
+      "service_time": "2.166",
+      "projected_salary_millions": 1.9
+    },
+    {
+      "player": "Louis Varland",
+      "service_time": "2.163",
+      "projected_salary_millions": 3.8
+    },
+    {
+      "player": "Nathan Lukes",
+      "service_time": "2.145",
+      "projected_salary_millions": 2.1
+    },
+    {
+      "player": "Davis Schneider",
+      "service_time": "2.142",
+      "projected_salary_millions": 1.3
+    },
+    {
+      "player": "Josiah Gray",
+      "service_time": "5.075",
+      "projected_salary_millions": 1.6
+    },
+    {
+      "player": "CJ Abrams",
+      "service_time": "4.130",
+      "projected_salary_millions": 10.2
+    },
+    {
+      "player": "Richard Lovelady",
+      "service_time": "4.052",
+      "projected_salary_millions": 1.7
+    },
+    {
+      "player": "Jake Bird",
+      "service_time": "3.169",
+      "projected_salary_millions": 1.3
+    },
+    {
+      "player": "Jake Irvin",
+      "service_time": "3.152",
+      "projected_salary_millions": 3.4
+    },
+    {
+      "player": "Ken Waldichuk",
+      "service_time": "3.150",
+      "projected_salary_millions": 1.0
+    },
+    {
+      "player": "Jacob Young",
+      "service_time": "3.037",
+      "projected_salary_millions": 2.3
+    },
+    {
+      "player": "Mitchell Parker",
+      "service_time": "2.167",
+      "projected_salary_millions": 1.1
+    }
+  ]
+}

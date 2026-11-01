@@ -1,6 +1,6 @@
 
 import contractData from "../../public/data/mlb-contracts-2026.json";
-
+import arbitrationData from "../../public/data/arbitration-salary-projections-2027.json";
 type ContractRecord = {
   player: string;
   team_code: string;
@@ -60,4 +60,35 @@ export function getPlayer2027Salary(
   }
 
   return salary.salary_millions;
+}
+type ArbitrationProjection = {
+  player: string;
+  team_code: string;
+  estimated_salary_2027_millions: number;
+  projection_method: string;
+};
+
+const arbitrationRecords =
+  arbitrationData.records as ArbitrationProjection[];
+
+export function getPlayer2027ArbitrationEstimate(
+  playerName: string,
+  teamCode: string
+): number | null {
+  const matches = arbitrationRecords.filter(
+    (record) =>
+      normalizeTeamCode(record.team_code) ===
+        normalizeTeamCode(teamCode) &&
+      normalizeName(record.player) === normalizeName(playerName)
+  );
+
+  if (matches.length !== 1) return null;
+
+  const estimate = matches[0].estimated_salary_2027_millions;
+
+  if (!Number.isFinite(estimate) || estimate < 0) {
+    return null;
+  }
+
+  return estimate;
 }

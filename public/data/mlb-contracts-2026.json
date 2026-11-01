@@ -29,23 +29,13 @@
     "SFG",
     "SEA",
     "STL",
-    "TBR"
+    "TBR",
+    "TEX",
+    "TOR",
+    "WSN"
   ],
-  "failed_teams": [
-    {
-      "team": "TEX",
-      "error": "HTTP 429"
-    },
-    {
-      "team": "TOR",
-      "error": "HTTP 429"
-    },
-    {
-      "team": "WSN",
-      "error": "HTTP 429"
-    }
-  ],
-  "player_records": 1089,
+  "failed_teams": [],
+  "player_records": 1204,
   "records": [
     {
       "player": "Nolan Arenado",
@@ -54486,7 +54476,7 @@
       "source_checked": "2026-11-01"
     },
     {
-      "player": "Johnathan RodrÃ­guez",
+      "player": "Johnathan Rodríguez",
       "team_code": "OAK",
       "age": "26",
       "service_time": "0.097",
@@ -55299,6 +55289,6436 @@
         }
       },
       "source": "https://www.baseball-reference.com/teams/OAK/athletics-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Corey Seager",
+      "team_code": "TEX",
+      "age": "32",
+      "service_time": "10.032",
+      "contract_status": "10 yrs/$325M (22-31)",
+      "salary_by_year": {
+        "2026": {
+          "raw": "$31.5M",
+          "salary_millions": 31.5,
+          "status": "salary_listed"
+        },
+        "2027": {
+          "raw": "$31.5M",
+          "salary_millions": 31.5,
+          "status": "salary_listed"
+        },
+        "2028": {
+          "raw": "$31.5M",
+          "salary_millions": 31.5,
+          "status": "salary_listed"
+        },
+        "2029": {
+          "raw": "$31.5M",
+          "salary_millions": 31.5,
+          "status": "salary_listed"
+        },
+        "2030": {
+          "raw": "$31.5M",
+          "salary_millions": 31.5,
+          "status": "salary_listed"
+        },
+        "2031": {
+          "raw": "$31.5M",
+          "salary_millions": 31.5,
+          "status": "salary_listed"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TEX/texas-rangers-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Jacob deGrom",
+      "team_code": "TEX",
+      "age": "38",
+      "service_time": "11.139",
+      "contract_status": "5 yrs/$185M (23-27) & 28 mutual option",
+      "salary_by_year": {
+        "2026": {
+          "raw": "$38M",
+          "salary_millions": 38.0,
+          "status": "salary_listed"
+        },
+        "2027": {
+          "raw": "$37M",
+          "salary_millions": 37.0,
+          "status": "salary_listed"
+        },
+        "2028": {
+          "raw": "$0 [FA-*]",
+          "salary_millions": 0.0,
+          "status": "salary_with_fa_marker"
+        },
+        "2029": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2030": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TEX/texas-rangers-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Brandon Nimmo",
+      "team_code": "TEX",
+      "age": "33",
+      "service_time": "9.042",
+      "contract_status": "8 yrs/$162M (23-30)",
+      "salary_by_year": {
+        "2026": {
+          "raw": "$20.5M",
+          "salary_millions": 20.5,
+          "status": "salary_listed"
+        },
+        "2027": {
+          "raw": "$20.5M",
+          "salary_millions": 20.5,
+          "status": "salary_listed"
+        },
+        "2028": {
+          "raw": "$20.5M",
+          "salary_millions": 20.5,
+          "status": "salary_listed"
+        },
+        "2029": {
+          "raw": "$20.5M",
+          "salary_millions": 20.5,
+          "status": "salary_listed"
+        },
+        "2030": {
+          "raw": "$20.5M",
+          "salary_millions": 20.5,
+          "status": "salary_listed"
+        },
+        "2031": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TEX/texas-rangers-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Nathan Eovaldi",
+      "team_code": "TEX",
+      "age": "36",
+      "service_time": "14.013",
+      "contract_status": "3 yrs/$75M (25-27)",
+      "salary_by_year": {
+        "2026": {
+          "raw": "$29M",
+          "salary_millions": 29.0,
+          "status": "salary_listed"
+        },
+        "2027": {
+          "raw": "$24M",
+          "salary_millions": 24.0,
+          "status": "salary_listed"
+        },
+        "2028": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2029": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2030": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TEX/texas-rangers-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Joc Pederson",
+      "team_code": "TEX",
+      "age": "34",
+      "service_time": "11.028",
+      "contract_status": "2 yrs/$37M (25-26) & 27 mutual option",
+      "salary_by_year": {
+        "2026": {
+          "raw": "$21.25M",
+          "salary_millions": 21.25,
+          "status": "salary_listed"
+        },
+        "2027": {
+          "raw": "$0 [FA-*]",
+          "salary_millions": 0.0,
+          "status": "salary_with_fa_marker"
+        },
+        "2028": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2029": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2030": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TEX/texas-rangers-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Danny Jansen",
+      "team_code": "TEX",
+      "age": "31",
+      "service_time": "7.050",
+      "contract_status": "2 yrs/$16.75M (26-27) & 28 mutual option",
+      "salary_by_year": {
+        "2026": {
+          "raw": "$7.25M",
+          "salary_millions": 7.25,
+          "status": "salary_listed"
+        },
+        "2027": {
+          "raw": "$7.25M",
+          "salary_millions": 7.25,
+          "status": "salary_listed"
+        },
+        "2028": {
+          "raw": "$2.25M [FA-*]",
+          "salary_millions": 2.25,
+          "status": "salary_with_fa_marker"
+        },
+        "2029": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2030": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TEX/texas-rangers-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Trevor Williams",
+      "team_code": "TEX",
+      "age": "34",
+      "service_time": "9.027",
+      "contract_status": "2 yrs/$14M (25-26)",
+      "salary_by_year": {
+        "2026": {
+          "raw": "$7M",
+          "salary_millions": 7.0,
+          "status": "salary_listed"
+        },
+        "2027": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2028": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2029": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2030": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TEX/texas-rangers-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Kyle Higashioka",
+      "team_code": "TEX",
+      "age": "36",
+      "service_time": "7.005",
+      "contract_status": "2 yrs/$13.5M (25-26) & 27 mutual option",
+      "salary_by_year": {
+        "2026": {
+          "raw": "$6.75M",
+          "salary_millions": 6.75,
+          "status": "salary_listed"
+        },
+        "2027": {
+          "raw": "$1M [FA-*]",
+          "salary_millions": 1.0,
+          "status": "salary_with_fa_marker"
+        },
+        "2028": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2029": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2030": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TEX/texas-rangers-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "MacKenzie Gore",
+      "team_code": "TEX",
+      "age": "27",
+      "service_time": "4.000",
+      "contract_status": "1 yr/$5.6M (26)",
+      "salary_by_year": {
+        "2026": {
+          "raw": "$5.6M",
+          "salary_millions": 5.6,
+          "status": "salary_listed"
+        },
+        "2027": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2028": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2029": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2030": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TEX/texas-rangers-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Logan O'Hoppe",
+      "team_code": "TEX",
+      "age": "26",
+      "service_time": "3.008",
+      "contract_status": "1 yr/$2.63M (26)",
+      "salary_by_year": {
+        "2026": {
+          "raw": "$2.62M",
+          "salary_millions": 2.62,
+          "status": "salary_listed"
+        },
+        "2027": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2028": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2029": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2030": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TEX/texas-rangers-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Jakob Junis",
+      "team_code": "TEX",
+      "age": "33",
+      "service_time": "8.002",
+      "contract_status": "1 yr/$4M (26) & 27 mutual option",
+      "salary_by_year": {
+        "2026": {
+          "raw": "$2.75M",
+          "salary_millions": 2.75,
+          "status": "salary_listed"
+        },
+        "2027": {
+          "raw": "$1.25M [FA-*]",
+          "salary_millions": 1.25,
+          "status": "salary_with_fa_marker"
+        },
+        "2028": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2029": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2030": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TEX/texas-rangers-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Jake Burger",
+      "team_code": "TEX",
+      "age": "30",
+      "service_time": "3.127",
+      "contract_status": "1 yr/$3.2M (26)",
+      "salary_by_year": {
+        "2026": {
+          "raw": "$3.2M",
+          "salary_millions": 3.2,
+          "status": "salary_listed"
+        },
+        "2027": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2028": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2029": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2030": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TEX/texas-rangers-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Josh Jung",
+      "team_code": "TEX",
+      "age": "28",
+      "service_time": "3.027",
+      "contract_status": "1 yr/$2.9M (26)",
+      "salary_by_year": {
+        "2026": {
+          "raw": "$2.9M",
+          "salary_millions": 2.9,
+          "status": "salary_listed"
+        },
+        "2027": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2028": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2029": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2030": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TEX/texas-rangers-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Jalen Beeks",
+      "team_code": "TEX",
+      "age": "32",
+      "service_time": "7.003",
+      "contract_status": "1 yr/$1.6M (26)",
+      "salary_by_year": {
+        "2026": {
+          "raw": "$1.6M",
+          "salary_millions": 1.6,
+          "status": "salary_listed"
+        },
+        "2027": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2028": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2029": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2030": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TEX/texas-rangers-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "John King",
+      "team_code": "TEX",
+      "age": "31",
+      "service_time": "4.148",
+      "contract_status": "1 yr/$1.5M (26)",
+      "salary_by_year": {
+        "2026": {
+          "raw": "$1.5M",
+          "salary_millions": 1.5,
+          "status": "salary_listed"
+        },
+        "2027": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2028": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2029": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2030": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TEX/texas-rangers-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Ezequiel Duran",
+      "team_code": "TEX",
+      "age": "27",
+      "service_time": "3.053",
+      "contract_status": "1 yr/$1.38M (26)",
+      "salary_by_year": {
+        "2026": {
+          "raw": "$1.38M",
+          "salary_millions": 1.38,
+          "status": "salary_listed"
+        },
+        "2027": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2028": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2029": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2030": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TEX/texas-rangers-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Jordan Montgomery",
+      "team_code": "TEX",
+      "age": "33",
+      "service_time": "8.145",
+      "contract_status": "1 yr/$1.25M (26)",
+      "salary_by_year": {
+        "2026": {
+          "raw": "$1.25M",
+          "salary_millions": 1.25,
+          "status": "salary_listed"
+        },
+        "2027": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2028": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2029": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2030": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TEX/texas-rangers-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Tyler Alexander",
+      "team_code": "TEX",
+      "age": "31",
+      "service_time": "6.011",
+      "contract_status": "1 yr/$1.13M (26)",
+      "salary_by_year": {
+        "2026": {
+          "raw": "$1.12M",
+          "salary_millions": 1.12,
+          "status": "salary_listed"
+        },
+        "2027": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2028": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2029": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2030": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TEX/texas-rangers-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Elias Díaz",
+      "team_code": "TEX",
+      "age": "35",
+      "service_time": "9.087",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2029": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2030": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TEX/texas-rangers-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Josh Sborz",
+      "team_code": "TEX",
+      "age": "32",
+      "service_time": "5.055",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "Arb (~$1.1M)",
+          "salary_millions": 1.1,
+          "status": "salary_listed"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2029": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2030": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TEX/texas-rangers-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Robert Garcia",
+      "team_code": "TEX",
+      "age": "30",
+      "service_time": "2.086",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TEX/texas-rangers-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Cody Bradford",
+      "team_code": "TEX",
+      "age": "28",
+      "service_time": "2.086",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TEX/texas-rangers-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Wyatt Langford",
+      "team_code": "TEX",
+      "age": "24",
+      "service_time": "2.000",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TEX/texas-rangers-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Jacob Latz",
+      "team_code": "TEX",
+      "age": "30",
+      "service_time": "1.170",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TEX/texas-rangers-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Evan Carter",
+      "team_code": "TEX",
+      "age": "23",
+      "service_time": "1.170",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TEX/texas-rangers-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Chase Silseth",
+      "team_code": "TEX",
+      "age": "26",
+      "service_time": "1.105",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TEX/texas-rangers-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Cole Winn",
+      "team_code": "TEX",
+      "age": "26",
+      "service_time": "1.090",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TEX/texas-rangers-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Jack Leiter",
+      "team_code": "TEX",
+      "age": "26",
+      "service_time": "1.033",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TEX/texas-rangers-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Michel Otañez",
+      "team_code": "TEX",
+      "age": "28",
+      "service_time": "0.149",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TEX/texas-rangers-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Justin Foscue",
+      "team_code": "TEX",
+      "age": "27",
+      "service_time": "0.146",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TEX/texas-rangers-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Kumar Rocker",
+      "team_code": "TEX",
+      "age": "26",
+      "service_time": "0.137",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TEX/texas-rangers-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Anthony Veneziano",
+      "team_code": "TEX",
+      "age": "28",
+      "service_time": "0.112",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TEX/texas-rangers-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Alejandro Osuna",
+      "team_code": "TEX",
+      "age": "23",
+      "service_time": "0.107",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TEX/texas-rangers-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Michael Helman",
+      "team_code": "TEX",
+      "age": "30",
+      "service_time": "0.095",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TEX/texas-rangers-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Luis Curvelo",
+      "team_code": "TEX",
+      "age": "25",
+      "service_time": "0.061",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TEX/texas-rangers-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Cody Freeman",
+      "team_code": "TEX",
+      "age": "25",
+      "service_time": "0.051",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TEX/texas-rangers-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Marc Church",
+      "team_code": "TEX",
+      "age": "25",
+      "service_time": "0.024",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TEX/texas-rangers-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Jose Corniell",
+      "team_code": "TEX",
+      "age": "23",
+      "service_time": "0.003",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TEX/texas-rangers-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Vladimir Guerrero Jr.",
+      "team_code": "TOR",
+      "age": "27",
+      "service_time": "6.157",
+      "contract_status": "14 yrs/$500M (26-39)",
+      "salary_by_year": {
+        "2026": {
+          "raw": "$40.2M",
+          "salary_millions": 40.2,
+          "status": "salary_listed"
+        },
+        "2027": {
+          "raw": "$40.2M",
+          "salary_millions": 40.2,
+          "status": "salary_listed"
+        },
+        "2028": {
+          "raw": "$39.2M",
+          "salary_millions": 39.2,
+          "status": "salary_listed"
+        },
+        "2029": {
+          "raw": "$38.2M",
+          "salary_millions": 38.2,
+          "status": "salary_listed"
+        },
+        "2030": {
+          "raw": "$37.7M",
+          "salary_millions": 37.7,
+          "status": "salary_listed"
+        },
+        "2031": {
+          "raw": "$37.7M",
+          "salary_millions": 37.7,
+          "status": "salary_listed"
+        },
+        "2032": {
+          "raw": "$37.7M",
+          "salary_millions": 37.7,
+          "status": "salary_listed"
+        },
+        "2033": {
+          "raw": "$35.7M",
+          "salary_millions": 35.7,
+          "status": "salary_listed"
+        },
+        "2034": {
+          "raw": "$35.7M",
+          "salary_millions": 35.7,
+          "status": "salary_listed"
+        },
+        "2035": {
+          "raw": "$34.7M",
+          "salary_millions": 34.7,
+          "status": "salary_listed"
+        },
+        "2036": {
+          "raw": "$33.7M",
+          "salary_millions": 33.7,
+          "status": "salary_listed"
+        },
+        "2037": {
+          "raw": "$30.2M",
+          "salary_millions": 30.2,
+          "status": "salary_listed"
+        },
+        "2038": {
+          "raw": "$29.46M",
+          "salary_millions": 29.46,
+          "status": "salary_listed"
+        },
+        "2039": {
+          "raw": "$29.46M",
+          "salary_millions": 29.46,
+          "status": "salary_listed"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TOR/toronto-blue-jays-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Dylan Cease",
+      "team_code": "TOR",
+      "age": "30",
+      "service_time": "6.089",
+      "contract_status": "7 yrs/$175M (26-32)",
+      "salary_by_year": {
+        "2026": {
+          "raw": "$20.9M",
+          "salary_millions": 20.9,
+          "status": "salary_listed"
+        },
+        "2027": {
+          "raw": "$28.97M",
+          "salary_millions": 28.97,
+          "status": "salary_listed"
+        },
+        "2028": {
+          "raw": "$27.62M",
+          "salary_millions": 27.62,
+          "status": "salary_listed"
+        },
+        "2029": {
+          "raw": "$26.3M",
+          "salary_millions": 26.3,
+          "status": "salary_listed"
+        },
+        "2030": {
+          "raw": "$25M",
+          "salary_millions": 25.0,
+          "status": "salary_listed"
+        },
+        "2031": {
+          "raw": "$23.73M",
+          "salary_millions": 23.73,
+          "status": "salary_listed"
+        },
+        "2032": {
+          "raw": "$22.47M",
+          "salary_millions": 22.47,
+          "status": "salary_listed"
+        },
+        "2033": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2034": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2035": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2036": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2037": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2038": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2039": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TOR/toronto-blue-jays-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "George Springer",
+      "team_code": "TOR",
+      "age": "36",
+      "service_time": "11.166",
+      "contract_status": "6 yrs/$150M (21-26)",
+      "salary_by_year": {
+        "2026": {
+          "raw": "$24.17M",
+          "salary_millions": 24.17,
+          "status": "salary_listed"
+        },
+        "2027": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2028": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2029": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2030": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2033": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2034": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2035": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2036": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2037": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2038": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2039": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TOR/toronto-blue-jays-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "José Berríos",
+      "team_code": "TOR",
+      "age": "32",
+      "service_time": "9.044",
+      "contract_status": "7 yrs/$131M (22-28)",
+      "salary_by_year": {
+        "2026": {
+          "raw": "$18.71M",
+          "salary_millions": 18.71,
+          "status": "salary_listed"
+        },
+        "2027": {
+          "raw": "$24.71M",
+          "salary_millions": 24.71,
+          "status": "salary_listed"
+        },
+        "2028": {
+          "raw": "$24.71M",
+          "salary_millions": 24.71,
+          "status": "salary_listed"
+        },
+        "2029": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2030": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2033": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2034": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2035": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2036": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2037": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2038": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2039": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TOR/toronto-blue-jays-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Andrés Giménez",
+      "team_code": "TOR",
+      "age": "27",
+      "service_time": "5.106",
+      "contract_status": "7 yrs/$106.5M (23-29) & 30 team option",
+      "salary_by_year": {
+        "2026": {
+          "raw": "$15.57M",
+          "salary_millions": 15.57,
+          "status": "salary_listed"
+        },
+        "2027": {
+          "raw": "$23.57M",
+          "salary_millions": 23.57,
+          "status": "salary_listed"
+        },
+        "2028": {
+          "raw": "$23.57M",
+          "salary_millions": 23.57,
+          "status": "salary_listed"
+        },
+        "2029": {
+          "raw": "$23.57M",
+          "salary_millions": 23.57,
+          "status": "salary_listed"
+        },
+        "2030": {
+          "raw": "$2.5M [FA-*]",
+          "salary_millions": 2.5,
+          "status": "salary_with_fa_marker"
+        },
+        "2031": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2033": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2034": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2035": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2036": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2037": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2038": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2039": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TOR/toronto-blue-jays-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Anthony Santander",
+      "team_code": "TOR",
+      "age": "31",
+      "service_time": "7.162",
+      "contract_status": "5 yrs/$92.5M (25-29) & 30 team option",
+      "salary_by_year": {
+        "2026": {
+          "raw": "$19.2M",
+          "salary_millions": 19.2,
+          "status": "salary_listed"
+        },
+        "2027": {
+          "raw": "$19.2M",
+          "salary_millions": 19.2,
+          "status": "salary_listed"
+        },
+        "2028": {
+          "raw": "$17.45M",
+          "salary_millions": 17.45,
+          "status": "salary_listed"
+        },
+        "2029": {
+          "raw": "$15.45M",
+          "salary_millions": 15.45,
+          "status": "salary_listed"
+        },
+        "2030": {
+          "raw": "$5M [FA-*]",
+          "salary_millions": 5.0,
+          "status": "salary_with_fa_marker"
+        },
+        "2031": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2033": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2034": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2035": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2036": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2037": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2038": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2039": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TOR/toronto-blue-jays-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Jameson Taillon",
+      "team_code": "TOR",
+      "age": "34",
+      "service_time": "9.110",
+      "contract_status": "4 yrs/$68M (23-26)",
+      "salary_by_year": {
+        "2026": {
+          "raw": "$18M",
+          "salary_millions": 18.0,
+          "status": "salary_listed"
+        },
+        "2027": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2028": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2029": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2030": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2033": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2034": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2035": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2036": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2037": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2038": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2039": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TOR/toronto-blue-jays-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Alejandro Kirk",
+      "team_code": "TOR",
+      "age": "27",
+      "service_time": "5.047",
+      "contract_status": "5 yrs/$58M (26-30)",
+      "salary_by_year": {
+        "2026": {
+          "raw": "$8.7M",
+          "salary_millions": 8.7,
+          "status": "salary_listed"
+        },
+        "2027": {
+          "raw": "$12.32M",
+          "salary_millions": 12.32,
+          "status": "salary_listed"
+        },
+        "2028": {
+          "raw": "$12.32M",
+          "salary_millions": 12.32,
+          "status": "salary_listed"
+        },
+        "2029": {
+          "raw": "$12.32M",
+          "salary_millions": 12.32,
+          "status": "salary_listed"
+        },
+        "2030": {
+          "raw": "$12.32M",
+          "salary_millions": 12.32,
+          "status": "salary_listed"
+        },
+        "2031": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2033": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2034": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2035": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2036": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2037": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2038": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2039": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TOR/toronto-blue-jays-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Tyler Rogers",
+      "team_code": "TOR",
+      "age": "35",
+      "service_time": "6.034",
+      "contract_status": "3 yrs/$37M (26-28) & 29 team option",
+      "salary_by_year": {
+        "2026": {
+          "raw": "$8.67M",
+          "salary_millions": 8.67,
+          "status": "salary_listed"
+        },
+        "2027": {
+          "raw": "$13.67M",
+          "salary_millions": 13.67,
+          "status": "salary_listed"
+        },
+        "2028": {
+          "raw": "$13.67M",
+          "salary_millions": 13.67,
+          "status": "salary_listed"
+        },
+        "2029": {
+          "raw": "$1M [FA-*]",
+          "salary_millions": 1.0,
+          "status": "salary_with_fa_marker"
+        },
+        "2030": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2033": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2034": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2035": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2036": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2037": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2038": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2039": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TOR/toronto-blue-jays-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Cody Ponce",
+      "team_code": "TOR",
+      "age": "32",
+      "service_time": "0.126",
+      "contract_status": "3 yrs/$30M (26-28)",
+      "salary_by_year": {
+        "2026": {
+          "raw": "$6M",
+          "salary_millions": 6.0,
+          "status": "salary_listed"
+        },
+        "2027": {
+          "raw": "$12M",
+          "salary_millions": 12.0,
+          "status": "salary_listed"
+        },
+        "2028": {
+          "raw": "$12M",
+          "salary_millions": 12.0,
+          "status": "salary_listed"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2032": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2033": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2034": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2035": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2036": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2037": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2038": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2039": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TOR/toronto-blue-jays-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Yariel Rodríguez",
+      "team_code": "TOR",
+      "age": "29",
+      "service_time": "2.000",
+      "contract_status": "4 yrs/$26M (24-27) & 28 team option",
+      "salary_by_year": {
+        "2026": {
+          "raw": "$6.6M",
+          "salary_millions": 6.6,
+          "status": "salary_listed"
+        },
+        "2027": {
+          "raw": "$7.6M",
+          "salary_millions": 7.6,
+          "status": "salary_listed"
+        },
+        "2028": {
+          "raw": "$1.6M [Arb-*]",
+          "salary_millions": 1.6,
+          "status": "salary_listed"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2033": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2034": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2035": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2036": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2037": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2038": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2039": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TOR/toronto-blue-jays-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Myles Straw",
+      "team_code": "TOR",
+      "age": "31",
+      "service_time": "5.125",
+      "contract_status": "5 yrs/$25.5M (22-26) & 27-28 team option",
+      "salary_by_year": {
+        "2026": {
+          "raw": "$7.4M",
+          "salary_millions": 7.4,
+          "status": "salary_listed"
+        },
+        "2027": {
+          "raw": "$1.75M [FA-*]",
+          "salary_millions": 1.75,
+          "status": "salary_with_fa_marker"
+        },
+        "2028": {
+          "raw": "$500k [FA-*]",
+          "salary_millions": 0.5,
+          "status": "salary_with_fa_marker"
+        },
+        "2029": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2030": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2033": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2034": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2035": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2036": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2037": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2038": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2039": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TOR/toronto-blue-jays-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Yimi García",
+      "team_code": "TOR",
+      "age": "35",
+      "service_time": "10.149",
+      "contract_status": "2 yrs/$15M (25-26)",
+      "salary_by_year": {
+        "2026": {
+          "raw": "$7.5M",
+          "salary_millions": 7.5,
+          "status": "salary_listed"
+        },
+        "2027": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2028": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2029": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2030": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2033": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2034": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2035": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2036": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2037": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2038": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2039": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TOR/toronto-blue-jays-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Ernie Clement",
+      "team_code": "TOR",
+      "age": "30",
+      "service_time": "3.168",
+      "contract_status": "1 yr/$4.6M (26)",
+      "salary_by_year": {
+        "2026": {
+          "raw": "$4.6M",
+          "salary_millions": 4.6,
+          "status": "salary_listed"
+        },
+        "2027": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2028": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2029": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2030": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2033": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2034": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2035": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2036": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2037": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2038": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2039": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TOR/toronto-blue-jays-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Josh Smith",
+      "team_code": "TOR",
+      "age": "28",
+      "service_time": "3.129",
+      "contract_status": "1 yr/$3.23M (26)",
+      "salary_by_year": {
+        "2026": {
+          "raw": "$3.23M",
+          "salary_millions": 3.23,
+          "status": "salary_listed"
+        },
+        "2027": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2028": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2029": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2030": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2033": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2034": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2035": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2036": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2037": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2038": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2039": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TOR/toronto-blue-jays-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Max Scherzer",
+      "team_code": "TOR",
+      "age": "41",
+      "service_time": "17.079",
+      "contract_status": "1 yr/$3M (26)",
+      "salary_by_year": {
+        "2026": {
+          "raw": "$3M",
+          "salary_millions": 3.0,
+          "status": "salary_listed"
+        },
+        "2027": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2028": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2029": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2030": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2033": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2034": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2035": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2036": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2037": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2038": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2039": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TOR/toronto-blue-jays-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "José Soriano",
+      "team_code": "TOR",
+      "age": "27",
+      "service_time": "3.121",
+      "contract_status": "1 yr/$2.9M (26)",
+      "salary_by_year": {
+        "2026": {
+          "raw": "$2.9M",
+          "salary_millions": 2.9,
+          "status": "salary_listed"
+        },
+        "2027": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2028": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2029": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2030": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2033": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2034": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2035": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2036": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2037": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2038": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2039": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TOR/toronto-blue-jays-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Paul Sewald",
+      "team_code": "TOR",
+      "age": "36",
+      "service_time": "7.072",
+      "contract_status": "1 yr/$1.5M (26)",
+      "salary_by_year": {
+        "2026": {
+          "raw": "$1.5M",
+          "salary_millions": 1.5,
+          "status": "salary_listed"
+        },
+        "2027": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2028": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2029": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2030": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2033": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2034": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2035": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2036": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2037": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2038": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2039": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TOR/toronto-blue-jays-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Patrick Corbin",
+      "team_code": "TOR",
+      "age": "36",
+      "service_time": "13.105",
+      "contract_status": "1 yr/$1M (26)",
+      "salary_by_year": {
+        "2026": {
+          "raw": "$1M",
+          "salary_millions": 1.0,
+          "status": "salary_listed"
+        },
+        "2027": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2028": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2029": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2030": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2033": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2034": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2035": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2036": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2037": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2038": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2039": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TOR/toronto-blue-jays-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Shane Bieber",
+      "team_code": "TOR",
+      "age": "31",
+      "service_time": "7.097",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2029": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2030": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2033": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2034": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2035": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2036": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2037": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2038": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2039": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TOR/toronto-blue-jays-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Spencer Arrighetti",
+      "team_code": "TOR",
+      "age": "26",
+      "service_time": "2.000",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2033": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2034": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2035": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2036": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2037": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2038": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2039": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TOR/toronto-blue-jays-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Josh Winckowski",
+      "team_code": "TOR",
+      "age": "28",
+      "service_time": "3.003",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "Arb (~$800k)",
+          "salary_millions": 0.8,
+          "status": "salary_listed"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2029": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2030": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2033": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2034": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2035": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2036": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2037": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2038": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2039": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TOR/toronto-blue-jays-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Bowden Francis",
+      "team_code": "TOR",
+      "age": "30",
+      "service_time": "2.098",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2033": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2034": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2035": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2036": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2037": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2038": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2039": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TOR/toronto-blue-jays-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Davis Schneider",
+      "team_code": "TOR",
+      "age": "27",
+      "service_time": "2.029",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2033": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2034": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2035": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2036": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2037": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2038": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2039": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TOR/toronto-blue-jays-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Louis Varland",
+      "team_code": "TOR",
+      "age": "28",
+      "service_time": "1.163",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2033": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2034": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2035": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2036": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2037": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2038": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2039": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TOR/toronto-blue-jays-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Nathan Lukes",
+      "team_code": "TOR",
+      "age": "31",
+      "service_time": "1.145",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2033": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2034": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2035": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2036": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2037": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2038": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2039": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TOR/toronto-blue-jays-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Brendon Little",
+      "team_code": "TOR",
+      "age": "29",
+      "service_time": "1.135",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2033": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2034": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2035": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2036": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2037": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2038": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2039": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TOR/toronto-blue-jays-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Addison Barger",
+      "team_code": "TOR",
+      "age": "26",
+      "service_time": "1.103",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2033": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2034": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2035": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2036": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2037": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2038": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2039": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TOR/toronto-blue-jays-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Nic Enright",
+      "team_code": "TOR",
+      "age": "29",
+      "service_time": "0.168",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2032": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2033": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2034": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2035": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2036": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2037": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2038": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2039": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TOR/toronto-blue-jays-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Braydon Fisher",
+      "team_code": "TOR",
+      "age": "25",
+      "service_time": "0.145",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2032": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2033": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2034": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2035": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2036": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2037": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2038": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2039": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TOR/toronto-blue-jays-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Mason Fluharty",
+      "team_code": "TOR",
+      "age": "24",
+      "service_time": "0.139",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2032": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2033": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2034": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2035": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2036": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2037": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2038": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2039": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TOR/toronto-blue-jays-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Jonatan Clase",
+      "team_code": "TOR",
+      "age": "24",
+      "service_time": "0.109",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2032": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2033": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2034": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2035": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2036": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2037": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2038": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2039": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TOR/toronto-blue-jays-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Chase Lee",
+      "team_code": "TOR",
+      "age": "27",
+      "service_time": "0.095",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2032": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2033": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2034": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2035": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2036": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2037": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2038": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2039": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TOR/toronto-blue-jays-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Jake Bloss",
+      "team_code": "TOR",
+      "age": "25",
+      "service_time": "0.039",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2032": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2033": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2034": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2035": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2036": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2037": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2038": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2039": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TOR/toronto-blue-jays-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Trey Yesavage",
+      "team_code": "TOR",
+      "age": "22",
+      "service_time": "0.014",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2032": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2033": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2034": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2035": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2036": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2037": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2038": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2039": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TOR/toronto-blue-jays-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Rhylan Thomas",
+      "team_code": "TOR",
+      "age": "26",
+      "service_time": "0.008",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2032": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2033": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2034": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2035": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2036": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2037": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2038": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2039": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TOR/toronto-blue-jays-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "CJ Stubbs",
+      "team_code": "TOR",
+      "age": "29",
+      "service_time": "0.005",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2032": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2033": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2034": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2035": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2036": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2037": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2038": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2039": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TOR/toronto-blue-jays-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Lazaro Estrada",
+      "team_code": "TOR",
+      "age": "27",
+      "service_time": "0.004",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2032": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2033": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2034": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2035": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2036": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2037": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2038": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2039": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TOR/toronto-blue-jays-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Keibert Ruiz",
+      "team_code": "WSN",
+      "age": "27",
+      "service_time": "4.064",
+      "contract_status": "8 yrs/$50M (23-30) & 31-32 team option",
+      "salary_by_year": {
+        "2026": {
+          "raw": "$5.38M",
+          "salary_millions": 5.38,
+          "status": "salary_listed"
+        },
+        "2027": {
+          "raw": "$5.38M",
+          "salary_millions": 5.38,
+          "status": "salary_listed"
+        },
+        "2028": {
+          "raw": "$7.38M",
+          "salary_millions": 7.38,
+          "status": "salary_listed"
+        },
+        "2029": {
+          "raw": "$9.38M",
+          "salary_millions": 9.38,
+          "status": "salary_listed"
+        },
+        "2030": {
+          "raw": "$9.38M",
+          "salary_millions": 9.38,
+          "status": "salary_listed"
+        },
+        "2031": {
+          "raw": "$0 [FA-*]",
+          "salary_millions": 0.0,
+          "status": "salary_with_fa_marker"
+        },
+        "2032": {
+          "raw": "$0 [FA-*]",
+          "salary_millions": 0.0,
+          "status": "salary_with_fa_marker"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/WSN/washington-nationals-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Cade Cavalli",
+      "team_code": "WSN",
+      "age": "27",
+      "service_time": "2.141",
+      "contract_status": "1 yr/$863k (26),4 yrs/$47M (27-30) & 31 team option",
+      "salary_by_year": {
+        "2026": {
+          "raw": "$862.5k",
+          "salary_millions": 0.8625,
+          "status": "salary_listed"
+        },
+        "2027": {
+          "raw": "$5M",
+          "salary_millions": 5.0,
+          "status": "salary_listed"
+        },
+        "2028": {
+          "raw": "$8M",
+          "salary_millions": 8.0,
+          "status": "salary_listed"
+        },
+        "2029": {
+          "raw": "$11M",
+          "salary_millions": 11.0,
+          "status": "salary_listed"
+        },
+        "2030": {
+          "raw": "$21M",
+          "salary_millions": 21.0,
+          "status": "salary_listed"
+        },
+        "2031": {
+          "raw": "$2M [FA-*]",
+          "salary_millions": 2.0,
+          "status": "salary_with_fa_marker"
+        },
+        "2032": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/WSN/washington-nationals-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "CJ Abrams",
+      "team_code": "WSN",
+      "age": "25",
+      "service_time": "3.130",
+      "contract_status": "1 yr/$4.2M (26)",
+      "salary_by_year": {
+        "2026": {
+          "raw": "$4.2M",
+          "salary_millions": 4.2,
+          "status": "salary_listed"
+        },
+        "2027": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2028": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2029": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2030": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/WSN/washington-nationals-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Jake Irvin",
+      "team_code": "WSN",
+      "age": "29",
+      "service_time": "2.152",
+      "contract_status": "1 yr/$2.8M (26)",
+      "salary_by_year": {
+        "2026": {
+          "raw": "$2.8M",
+          "salary_millions": 2.8,
+          "status": "salary_listed"
+        },
+        "2027": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2028": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/WSN/washington-nationals-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Jake Bird",
+      "team_code": "WSN",
+      "age": "30",
+      "service_time": "3.051",
+      "contract_status": "1 yr/$1M (26)",
+      "salary_by_year": {
+        "2026": {
+          "raw": "$1M",
+          "salary_millions": 1.0,
+          "status": "salary_listed"
+        },
+        "2027": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2028": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2029": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2030": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/WSN/washington-nationals-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Josiah Gray",
+      "team_code": "WSN",
+      "age": "28",
+      "service_time": "4.075",
+      "contract_status": "1 yr/$1.35M (26)",
+      "salary_by_year": {
+        "2026": {
+          "raw": "$1.35M",
+          "salary_millions": 1.35,
+          "status": "salary_listed"
+        },
+        "2027": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2028": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2029": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2030": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/WSN/washington-nationals-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Justin Lawrence",
+      "team_code": "WSN",
+      "age": "31",
+      "service_time": "3.167",
+      "contract_status": "1 yr/$1.23M (26)",
+      "salary_by_year": {
+        "2026": {
+          "raw": "$1.23M",
+          "salary_millions": 1.23,
+          "status": "salary_listed"
+        },
+        "2027": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2028": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2029": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2030": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/WSN/washington-nationals-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Ken Waldichuk",
+      "team_code": "WSN",
+      "age": "28",
+      "service_time": "2.150",
+      "contract_status": "1 yr/$825k (26)",
+      "salary_by_year": {
+        "2026": {
+          "raw": "$825k",
+          "salary_millions": 0.825,
+          "status": "salary_listed"
+        },
+        "2027": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2028": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/WSN/washington-nationals-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Riley Adams",
+      "team_code": "WSN",
+      "age": "30",
+      "service_time": "3.171",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "Arb (~$1.5M)",
+          "salary_millions": 1.5,
+          "status": "salary_listed"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2029": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2030": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/WSN/washington-nationals-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Max Kranick",
+      "team_code": "WSN",
+      "age": "28",
+      "service_time": "3.011",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "Arb (~$1M)",
+          "salary_millions": 1.0,
+          "status": "salary_listed"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2029": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2030": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/WSN/washington-nationals-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Kyle Nicolas",
+      "team_code": "WSN",
+      "age": "27",
+      "service_time": "1.090",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/WSN/washington-nationals-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Jacob Young",
+      "team_code": "WSN",
+      "age": "26",
+      "service_time": "2.037",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/WSN/washington-nationals-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Mitchell Parker",
+      "team_code": "WSN",
+      "age": "26",
+      "service_time": "2.000",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/WSN/washington-nationals-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Matt Waldron",
+      "team_code": "WSN",
+      "age": "29",
+      "service_time": "1.107",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/WSN/washington-nationals-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "DJ Herz",
+      "team_code": "WSN",
+      "age": "25",
+      "service_time": "1.104",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/WSN/washington-nationals-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "James Wood",
+      "team_code": "WSN",
+      "age": "23",
+      "service_time": "1.091",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/WSN/washington-nationals-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Nasim Nuñez",
+      "team_code": "WSN",
+      "age": "25",
+      "service_time": "1.086",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/WSN/washington-nationals-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Drew Millas",
+      "team_code": "WSN",
+      "age": "28",
+      "service_time": "1.038",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/WSN/washington-nationals-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Dylan Crews",
+      "team_code": "WSN",
+      "age": "24",
+      "service_time": "1.035",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/WSN/washington-nationals-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "José Tena",
+      "team_code": "WSN",
+      "age": "25",
+      "service_time": "1.031",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/WSN/washington-nationals-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Orlando Ribalta",
+      "team_code": "WSN",
+      "age": "28",
+      "service_time": "1.013",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/WSN/washington-nationals-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Andrés Chaparro",
+      "team_code": "WSN",
+      "age": "27",
+      "service_time": "1.002",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/WSN/washington-nationals-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Brad Lord",
+      "team_code": "WSN",
+      "age": "26",
+      "service_time": "1.000",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/WSN/washington-nationals-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Liover Peguero",
+      "team_code": "WSN",
+      "age": "25",
+      "service_time": "1.000",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/WSN/washington-nationals-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Clayton Beeter",
+      "team_code": "WSN",
+      "age": "27",
+      "service_time": "0.129",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2032": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/WSN/washington-nationals-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Gus Varland",
+      "team_code": "WSN",
+      "age": "29",
+      "service_time": "0.169",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2032": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/WSN/washington-nationals-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Paxton Schultz",
+      "team_code": "WSN",
+      "age": "28",
+      "service_time": "0.078",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2032": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/WSN/washington-nationals-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Daylen Lile",
+      "team_code": "WSN",
+      "age": "23",
+      "service_time": "0.129",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2032": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/WSN/washington-nationals-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Trey Lipscomb",
+      "team_code": "WSN",
+      "age": "26",
+      "service_time": "0.112",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2032": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/WSN/washington-nationals-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Brady House",
+      "team_code": "WSN",
+      "age": "23",
+      "service_time": "0.105",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2032": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/WSN/washington-nationals-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Carson Palmquist",
+      "team_code": "WSN",
+      "age": "25",
+      "service_time": "0.039",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2032": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/WSN/washington-nationals-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Zak Kent",
+      "team_code": "WSN",
+      "age": "28",
+      "service_time": "0.037",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2032": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/WSN/washington-nationals-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Jorbit Vivas",
+      "team_code": "WSN",
+      "age": "25",
+      "service_time": "0.056",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2032": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/WSN/washington-nationals-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "PJ Poulin",
+      "team_code": "WSN",
+      "age": "29",
+      "service_time": "0.055",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2032": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/WSN/washington-nationals-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Matt Krook",
+      "team_code": "WSN",
+      "age": "31",
+      "service_time": "0.055",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2032": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/WSN/washington-nationals-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Harry Ford",
+      "team_code": "WSN",
+      "age": "23",
+      "service_time": "0.028",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2032": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/WSN/washington-nationals-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Andrew Alvarez",
+      "team_code": "WSN",
+      "age": "27",
+      "service_time": "0.028",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2032": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/WSN/washington-nationals-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Andry Lara",
+      "team_code": "WSN",
+      "age": "23",
+      "service_time": "0.026",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2032": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/WSN/washington-nationals-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-01"
+    },
+    {
+      "player": "Connelly Early",
+      "team_code": "WSN",
+      "age": "24",
+      "service_time": "0.020",
+      "contract_status": "",
+      "salary_by_year": {
+        "2026": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2027": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2028": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2029": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "Arb",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2032": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/WSN/washington-nationals-salaries-and-contracts.shtml",
       "source_checked": "2026-11-01"
     }
   ]
