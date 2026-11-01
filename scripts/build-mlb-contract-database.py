@@ -39,7 +39,7 @@ TEAMS = {
     "MIN": "minnesota-twins",
     "NYM": "new-york-mets",
     "NYY": "new-york-yankees",
-    "OAK": "oakland-athletics",
+    "OAK": "athletics",
     "PHI": "philadelphia-phillies",
     "PIT": "pittsburgh-pirates",
     "SDP": "san-diego-padres",
@@ -76,7 +76,19 @@ def parse_salary(raw):
             "salary_millions": None,
             "status": "free_agent",
         }
+    if re.fullmatch(r"Arb(?:-\d+)?", text, re.I):
+        return {
+            "raw": text,
+            "salary_millions": None,
+            "status": "arbitration",
+        }
 
+    if re.fullmatch(r"Pre-Arb(?:-\d+)?", text, re.I):
+        return {
+            "raw": text,
+            "salary_millions": None,
+            "status": "pre_arbitration",
+        }
     match = re.search(r"\$([\d,.]+)\s*([MK]?)", text, re.I)
 
     if not match:
@@ -174,7 +186,21 @@ def main():
             for _, row in table.iterrows():
                 name = clean(row.get("Name"))
 
-                if not name:
+                invalid_names = {
+                    "Name",
+                    "Signed",
+                    "Contract Options",
+                    "Option Values",
+                    "Arb Eligible",
+                    "Other Players",
+                    "Dollars Committed",
+                    "Arb Costs",
+                    "Other Costs",
+                    "Payroll (no options)",
+                    "Payroll (options)",
+                }
+
+                if not name or name in invalid_names:
                     continue
 
                 salaries = {
