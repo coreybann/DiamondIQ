@@ -1,6 +1,6 @@
 {
   "season": 2027,
-  "lastVerified": "2026-10-31T23:40:45.502227+00:00",
+  "lastVerified": "2026-11-01T01:12:06.187039+00:00",
   "players": {
     "Michael King": {
       "status": "Available",
@@ -186,6 +186,12 @@
       "status": "Under Contract",
       "verifiedAt": "2026-10-31T23:40:45.502227+00:00",
       "source": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOLXV6MjBzaTR2dGhiV1BTSWNvQnZSOHh4SEY2VWYwYjU4b0JMbjhzZTFINktNam4wcjNUU08wVHl2WWlOdlc3RDdxMTlZWjBwQXBFOThCODVPVXIyMVdDU1NGN1NLOFI5OEdkaWtvTnBqangtbHpSa1pNZDdUTDMtdDM0YjE2QTNTVTJCWUhSR1Q?oc=5",
+      "optionDecisionDate": "2026-10-31"
+    },
+    "Nick Pivetta": {
+      "status": "Available",
+      "verifiedAt": "2026-11-01T01:12:06.187039+00:00",
+      "source": "https://news.google.com/rss/articles/CBMia0FVX3lxTE40Rk9Wc2FUb2xjUGl0eTFZQTdLQUUxaEV4TEp3U0Jac25JSERrMVJ1eTZvMkxURDk0RGRvRzIzSGxCWmRMakJCQXAwdzhrTU1hMVN4RW9xeFotOXJNVzJ2Ry0yR1dyazd4bEZV?oc=5",
       "optionDecisionDate": "2026-10-31"
     }
   }
