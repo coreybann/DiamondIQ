@@ -1,4 +1,5 @@
-
+import freeAgentData from "../../public/data/free-agents-2027.json";
+import { projectContract } from "./contractProjections";
 import contractData from "../../public/data/mlb-contracts-2026.json";
 import arbitrationData from "../../public/data/arbitration-salary-projections-2027.json";
 import preArbitrationData from "../../public/data/pre-arbitration-salary-projections-2027.json";
@@ -135,4 +136,48 @@ export function getPlayer2027PreArbitrationEstimate(
   }
 
   return estimate;
+}
+type FreeAgentContractInput = {
+  name: string;
+  age: number;
+  position: string;
+  war2025_2026: number;
+};
+
+const freeAgentContractRecords =
+  freeAgentData.players as FreeAgentContractInput[];
+
+export function getPlayer2027FreeAgentProjection(
+  playerName: string
+): ReturnType<typeof projectContract> | null {
+  const matches = freeAgentContractRecords.filter(
+    (player) =>
+      normalizeName(player.name) === normalizeName(playerName)
+  );
+
+  // Do not guess when a name is missing or ambiguous.
+  if (matches.length !== 1) return null;
+
+  const player = matches[0];
+
+  if (
+    !Number.isFinite(player.age) ||
+    !Number.isFinite(player.war2025_2026) ||
+    !player.position
+  ) {
+    return null;
+  }
+
+  const projection = projectContract(player);
+
+  if (
+    !Number.isFinite(projection.aavMillions) ||
+    projection.aavMillions < 0 ||
+    !Number.isFinite(projection.totalMillions) ||
+    projection.years < 1
+  ) {
+    return null;
+  }
+
+  return projection;
 }

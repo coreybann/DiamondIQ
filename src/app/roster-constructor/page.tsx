@@ -7,6 +7,7 @@ import {
   getPlayer2027Salary,
   getPlayer2027ArbitrationEstimate,
   getPlayer2027PreArbitrationEstimate,
+  getPlayer2027FreeAgentProjection,
   normalizeTeamCode,
 } from "@/lib/rosterSalaries";
 type MLBTeam = {
@@ -60,18 +61,19 @@ const originalMissingSalaries = originalSalaryValues.filter(
 ).length;
 
 const constructedSalaryValues = players.map((player) =>
-  getPlayer2027Salary(
-    player.person.fullName,
-    player.acquisitionType === "trade"
-      ? normalizeTeamCode(
-          teams.find(
-            (team) => team.name === player.currentTeam
-          )?.abbreviation ?? ""
-        )
-      : selectedTeamCode
-  )
+  player.acquisitionType === "free-agent"
+    ? null
+    : getPlayer2027Salary(
+        player.person.fullName,
+        player.acquisitionType === "trade"
+          ? normalizeTeamCode(
+              teams.find(
+                (team) => team.name === player.currentTeam
+              )?.abbreviation ?? ""
+            )
+          : selectedTeamCode
+      )
 );
-
 const constructedKnownPayroll =
   constructedSalaryValues.reduce<number>(
     (total, salary) => total + (salary ?? 0),
@@ -100,6 +102,7 @@ const originalArbitrationPayroll = originalArbitrationValues.reduce<number>(
 );
 
 const constructedArbitrationValues = players.map((player, index) =>
+  player.acquisitionType === "free-agent" ||
   constructedSalaryValues[index] !== null
     ? null
     : getPlayer2027ArbitrationEstimate(
@@ -139,6 +142,7 @@ const originalPreArbitrationPayroll =
 
 const constructedPreArbitrationValues = players.map(
   (player, index) =>
+    player.acquisitionType === "free-agent" ||
     constructedSalaryValues[index] !== null ||
     constructedArbitrationValues[index] !== null
       ? null
@@ -159,7 +163,18 @@ const constructedPreArbitrationPayroll =
     (total, salary) => total + (salary ?? 0),
     0
   );
+const constructedFreeAgentProjections = players.map((player) =>
+  player.acquisitionType === "free-agent"
+    ? getPlayer2027FreeAgentProjection(player.person.fullName)
+    : null
+);
 
+const constructedFreeAgentPayroll =
+  constructedFreeAgentProjections.reduce<number>(
+    (total, projection) =>
+      total + (projection?.aavMillions ?? 0),
+    0
+  );
 const originalProjectedPayroll =
   originalKnownPayroll +
   originalArbitrationPayroll +
@@ -168,7 +183,8 @@ const originalProjectedPayroll =
 const constructedProjectedPayroll =
   constructedKnownPayroll +
   constructedArbitrationPayroll +
-  constructedPreArbitrationPayroll;
+  constructedPreArbitrationPayroll +
+  constructedFreeAgentPayroll;
 
 const projectedPayrollChange =
   constructedProjectedPayroll - originalProjectedPayroll;
@@ -184,7 +200,8 @@ const constructedStillMissing = players.filter(
   (_, index) =>
     constructedSalaryValues[index] === null &&
     constructedArbitrationValues[index] === null &&
-    constructedPreArbitrationValues[index] === null
+    constructedPreArbitrationValues[index] === null &&
+    constructedFreeAgentProjections[index] === null
 ).length;
   const [playerSearch, setPlayerSearch] = useState("");
   const [transactionType, setTransactionType] = useState<
@@ -625,6 +642,9 @@ disabled={
 <p className="text-xs text-emerald-400">
   Pre-arbitration estimates: ${constructedPreArbitrationPayroll.toFixed(1)}M
 </p>
+<p className="text-xs text-purple-400">
+  Free-agent contract projections: ${constructedFreeAgentPayroll.toFixed(1)}M
+</p>
         <p className="mt-2 text-xs text-slate-400">
           {constructedStillMissing} players with unknown salaries
         </p>
@@ -638,22 +658,27 @@ disabled={
           {projectedPayrollChange >= 0 ? "+" : "-"}$
           {Math.abs(projectedPayrollChange).toFixed(1)}M
         </p>
-        <p className="mt-2 text-xs text-slate-400">
-Includes confirmed salaries, arbitration estimates, and pre-arbitration estimates
-        </p>
+<p className="mt-2 text-xs text-slate-400">
+  Includes confirmed salaries, arbitration estimates,
+  pre-arbitration estimates, and projected free-agent
+  contract AAV.
+</p>
       </div>
     </div>
 
 <p className="mt-4 text-xs text-slate-400">
   Payroll figures combine listed 2027 contract salaries,
-  provisional arbitration projections, and estimated
-  pre-arbitration salaries. Pre-arbitration estimates use a
-  $780,000 per-player baseline based on the 2026 MLB minimum
-  salary, not an official 2027 minimum. Actual eligibility,
-  roster status, and salaries may differ. Unknown salaries,
-  potential free-agent contracts, and other unmodeled costs
-  are excluded. These figures are not complete team payroll
-  or luxury-tax calculations.
+  provisional arbitration projections, estimated
+  pre-arbitration salaries, and projected free-agent contract
+  annual values (AAV) for hypothetical signings.
+  Pre-arbitration estimates use a $780,000 per-player baseline
+  based on the 2026 MLB minimum salary, not an official 2027
+  minimum. Free-agent projections use DiamondIQ's contract
+  projection model and are not actual signed contracts or
+  guaranteed 2027 salaries. Actual eligibility, roster status,
+  and salaries may differ. Unknown salaries and other
+  unmodeled costs are excluded. These figures are not complete
+  team payroll or luxury-tax calculations.
 </p>
   </div>
 )}
