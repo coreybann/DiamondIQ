@@ -1,6 +1,6 @@
 {
   "season": 2027,
-  "lastVerified": "2026-11-01T08:02:38.866887+00:00",
+  "lastVerified": "2026-11-01T10:45:49.224239+00:00",
   "players": {
     "Michael King": {
       "status": "Available",
@@ -198,6 +198,12 @@
       "status": "Under Contract",
       "verifiedAt": "2026-11-01T08:02:38.866887+00:00",
       "source": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNN050STlGSG9LeWktdmpfOWtFWGRPN1hBYXJlOXJsMDhvdE9NLVJiM1FtQ3dDSjhsUURyRzIwSXUyenVkTExHZGlObXFrbXQtQ2x2ZTQycWx0OEJ6Z3h3c1VINzJhNUxxNGdxMGFta2xJTGMtdTVHX1pCY2IyVmFzMjBYQmFJdFBYTGVUZ0xBSVVLYTRvc25xUnBMUkXSAaIBQVVfeXFMUHZFTFlDMUNwNXhBbFprdmhFZUl3bVZUdFN4WC01dldJTkt3T2tkZU56NkpjRmpyd0tqR2lJZ3FXRHF5NzlJYjJTRXVFMXhZdnZuQmtkaHhOYS1tWGY2RG5GRE5fTExPR3oweXBVeS1naVFXR3FFd3hDQUJGTVJUOEI5bEhnamoxS3oyQ2RERmRUQzJCZjNIeERUM1lKWWxMM25n?oc=5",
+      "optionDecisionDate": "2026-11-01"
+    },
+    "Jakob Junis": {
+      "status": "Available",
+      "verifiedAt": "2026-11-01T10:45:49.224239+00:00",
+      "source": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNR3hGbWZOMXNWenptV2RkMVhNdUFFVFN0bWFkelFLT1ZwN3ZfdU00dlZxRUxyN2xHWG5kbmdtMGtyM1NFVHBINWpIcmIxWGpKUUU1aXk5R2VuRHpMMTZ4bHFFeTRLU2IxTS00ZktRb2g4M09IOTVHRlBtVFZ5X2w3ZVlIVWpCZVJSMGVTbG50ZlVuNmRPSHFhaFA5LVI0XzFVS1NBaE1GVzVOZHZ6MzJOeVVMQmgwOFVQMFFoTzM4MEFTd3pXTnQ3MlBoOVk?oc=5",
       "optionDecisionDate": "2026-11-01"
     }
   }
