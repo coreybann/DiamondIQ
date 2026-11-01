@@ -1,0 +1,5491 @@
+{
+  "season": 2027,
+  "generated_date": "2026-11-01",
+  "salary_baseline_millions": 0.78,
+  "baseline_source": "2026 MLB minimum salary; provisional 2027 modeling assumption",
+  "disclaimer": "These are hypothetical 2027 salary estimates, not confirmed contracts or verified arbitration eligibility. Actual salary and roster status may differ.",
+  "record_count": 609,
+  "records": [
+    {
+      "player": "Blake Walston",
+      "team_code": "ARI",
+      "service_time_2026": "1.096",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Drey Jameson",
+      "team_code": "ARI",
+      "service_time_2026": "2.012",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Tommy Henry",
+      "team_code": "ARI",
+      "service_time_2026": "2.012",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Bryce Jarvis",
+      "team_code": "ARI",
+      "service_time_2026": "1.121",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Juan Burgos",
+      "team_code": "ARI",
+      "service_time_2026": "0.093",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Kade Strowd",
+      "team_code": "ARI",
+      "service_time_2026": "0.074",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Adrian Del Castillo",
+      "team_code": "ARI",
+      "service_time_2026": "0.128",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Cristian Mena",
+      "team_code": "ARI",
+      "service_time_2026": "0.125",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Andrew Saalfrank",
+      "team_code": "ARI",
+      "service_time_2026": "0.118",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Tim Tawa",
+      "team_code": "ARI",
+      "service_time_2026": "0.112",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Juan Morillo",
+      "team_code": "ARI",
+      "service_time_2026": "0.111",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Tyler Locklear",
+      "team_code": "ARI",
+      "service_time_2026": "0.084",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jordan Lawlar",
+      "team_code": "ARI",
+      "service_time_2026": "0.073",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Brandyn Garcia",
+      "team_code": "ARI",
+      "service_time_2026": "0.041",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Bryce Elder",
+      "team_code": "ATL",
+      "service_time_2026": "2.069",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Spencer Schwellenbach",
+      "team_code": "ATL",
+      "service_time_2026": "1.124",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Grant Holmes",
+      "team_code": "ATL",
+      "service_time_2026": "1.106",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Brett Wisely",
+      "team_code": "ATL",
+      "service_time_2026": "1.105",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "AJ Smith-Shawver",
+      "team_code": "ATL",
+      "service_time_2026": "1.099",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Drake Baldwin",
+      "team_code": "ATL",
+      "service_time_2026": "1.000",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "DaShawn Keirsey Jr.",
+      "team_code": "ATL",
+      "service_time_2026": "0.169",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Chuckie Robinson",
+      "team_code": "ATL",
+      "service_time_2026": "0.152",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Dylan Dodd",
+      "team_code": "ATL",
+      "service_time_2026": "0.131",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Maverick Handley",
+      "team_code": "ATL",
+      "service_time_2026": "0.108",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Hurston Waldrep",
+      "team_code": "ATL",
+      "service_time_2026": "0.103",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Victor Mederos",
+      "team_code": "ATL",
+      "service_time_2026": "0.101",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Rolddy Mu\u00f1oz",
+      "team_code": "ATL",
+      "service_time_2026": "0.028",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Didier Fuentes",
+      "team_code": "ATL",
+      "service_time_2026": "0.019",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Cade Povich",
+      "team_code": "BAL",
+      "service_time_2026": "1.080",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jackson Kowar",
+      "team_code": "BAL",
+      "service_time_2026": "2.139",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jordan Westburg",
+      "team_code": "BAL",
+      "service_time_2026": "2.098",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Colton Cowser",
+      "team_code": "BAL",
+      "service_time_2026": "2.043",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Christian Encarnacion-Strand",
+      "team_code": "BAL",
+      "service_time_2026": "2.012",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Rico Garcia",
+      "team_code": "BAL",
+      "service_time_2026": "1.127",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Ryan Noda",
+      "team_code": "BAL",
+      "service_time_2026": "1.117",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jackson Holliday",
+      "team_code": "BAL",
+      "service_time_2026": "1.078",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Blaze Alexander",
+      "team_code": "BAL",
+      "service_time_2026": "1.053",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Yohel Pozo",
+      "team_code": "BAL",
+      "service_time_2026": "1.052",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Heston Kjerstad",
+      "team_code": "BAL",
+      "service_time_2026": "1.041",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Carlos Narv\u00e1ez",
+      "team_code": "BAL",
+      "service_time_2026": "1.038",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Coby Mayo",
+      "team_code": "BAL",
+      "service_time_2026": "0.170",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Colin Selby",
+      "team_code": "BAL",
+      "service_time_2026": "0.161",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Luis V\u00e1zquez",
+      "team_code": "BAL",
+      "service_time_2026": "0.158",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Yosver Zulueta",
+      "team_code": "BAL",
+      "service_time_2026": "0.071",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Josh Walker",
+      "team_code": "BAL",
+      "service_time_2026": "0.122",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Yaramil Hiraldo",
+      "team_code": "BAL",
+      "service_time_2026": "0.053",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Bryan Ramos",
+      "team_code": "BAL",
+      "service_time_2026": "0.097",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Brandon Young",
+      "team_code": "BAL",
+      "service_time_2026": "0.095",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Rece Hinds",
+      "team_code": "BAL",
+      "service_time_2026": "0.089",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Grant Wolfram",
+      "team_code": "BAL",
+      "service_time_2026": "0.084",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jeremiah Jackson",
+      "team_code": "BAL",
+      "service_time_2026": "0.066",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Dylan Beavers",
+      "team_code": "BAL",
+      "service_time_2026": "0.044",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Cam Sanders",
+      "team_code": "BAL",
+      "service_time_2026": "0.037",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jose Espada",
+      "team_code": "BAL",
+      "service_time_2026": "0.020",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jayvien Sandridge",
+      "team_code": "BAL",
+      "service_time_2026": "0.005",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Zack Kelly",
+      "team_code": "BOS",
+      "service_time_2026": "2.134",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Andruw Monasterio",
+      "team_code": "BOS",
+      "service_time_2026": "2.099",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Greg Weissert",
+      "team_code": "BOS",
+      "service_time_2026": "2.079",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Wilyer Abreu",
+      "team_code": "BOS",
+      "service_time_2026": "2.041",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Justin Slaten",
+      "team_code": "BOS",
+      "service_time_2026": "2.000",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Erik Miller",
+      "team_code": "BOS",
+      "service_time_2026": "2.000",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jahmai Jones",
+      "team_code": "BOS",
+      "service_time_2026": "1.148",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jovani Mor\u00e1n",
+      "team_code": "BOS",
+      "service_time_2026": "1.100",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Curtis Mead",
+      "team_code": "BOS",
+      "service_time_2026": "1.094",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Nate Eaton",
+      "team_code": "BOS",
+      "service_time_2026": "1.020",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Caleb Durbin",
+      "team_code": "BOS",
+      "service_time_2026": "0.164",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Mickey Gasper",
+      "team_code": "BOS",
+      "service_time_2026": "0.149",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Nick Sogard",
+      "team_code": "BOS",
+      "service_time_2026": "0.119",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Anthony Seigler",
+      "team_code": "BOS",
+      "service_time_2026": "0.090",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Payton Tolle",
+      "team_code": "BOS",
+      "service_time_2026": "0.031",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Tsung-Che Cheng",
+      "team_code": "BOS",
+      "service_time_2026": "0.010",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Ethan Roberts",
+      "team_code": "CHC",
+      "service_time_2026": "2.131",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Tyler Ferguson",
+      "team_code": "CHC",
+      "service_time_2026": "1.089",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jordan Wicks",
+      "team_code": "CHC",
+      "service_time_2026": "1.070",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Miguel Amaya",
+      "team_code": "CHC",
+      "service_time_2026": "2.130",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Gabriel Arias",
+      "team_code": "CHC",
+      "service_time_2026": "2.124",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Ryan Rolison",
+      "team_code": "CHC",
+      "service_time_2026": "2.114",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Julian Aguiar",
+      "team_code": "CHC",
+      "service_time_2026": "1.042",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Michael Busch",
+      "team_code": "CHC",
+      "service_time_2026": "2.045",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Ben Brown",
+      "team_code": "CHC",
+      "service_time_2026": "1.169",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Daniel Palencia",
+      "team_code": "CHC",
+      "service_time_2026": "1.154",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Porter Hodge",
+      "team_code": "CHC",
+      "service_time_2026": "1.117",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Ryan Zeferjahn",
+      "team_code": "CHC",
+      "service_time_2026": "1.038",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Cade Horton",
+      "team_code": "CHC",
+      "service_time_2026": "1.000",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Gavin Hollowell",
+      "team_code": "CHC",
+      "service_time_2026": "0.110",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Matt Shaw",
+      "team_code": "CHC",
+      "service_time_2026": "0.162",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Luis Peralta",
+      "team_code": "CHC",
+      "service_time_2026": "0.106",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Justin Dean",
+      "team_code": "CHC",
+      "service_time_2026": "0.052",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Kevin Alc\u00e1ntara",
+      "team_code": "CHC",
+      "service_time_2026": "0.033",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jayden Murray",
+      "team_code": "CHC",
+      "service_time_2026": "0.026",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jack Neely",
+      "team_code": "CHC",
+      "service_time_2026": "0.034",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Eduarniel Nu\u00f1ez",
+      "team_code": "CHC",
+      "service_time_2026": "0.025",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Doug Nikhazy",
+      "team_code": "CHC",
+      "service_time_2026": "0.004",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Chris Murphy",
+      "team_code": "CHW",
+      "service_time_2026": "2.071",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jonathan Cannon",
+      "team_code": "CHW",
+      "service_time_2026": "1.114",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Drew Thorpe",
+      "team_code": "CHW",
+      "service_time_2026": "1.111",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Miguel Vargas",
+      "team_code": "CHW",
+      "service_time_2026": "2.101",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Tyler Gilbert",
+      "team_code": "CHW",
+      "service_time_2026": "2.076",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Korey Lee",
+      "team_code": "CHW",
+      "service_time_2026": "2.008",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Shane Smith",
+      "team_code": "CHW",
+      "service_time_2026": "1.000",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jordan Leasure",
+      "team_code": "CHW",
+      "service_time_2026": "1.162",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Davis Martin",
+      "team_code": "CHW",
+      "service_time_2026": "1.117",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Joey Wiemer",
+      "team_code": "CHW",
+      "service_time_2026": "1.089",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Bryan Hudson",
+      "team_code": "CHW",
+      "service_time_2026": "1.070",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Ky Bush",
+      "team_code": "CHW",
+      "service_time_2026": "1.056",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Brooks Baldwin",
+      "team_code": "CHW",
+      "service_time_2026": "1.047",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Prelander Berroa",
+      "team_code": "CHW",
+      "service_time_2026": "1.045",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Sean Burke",
+      "team_code": "CHW",
+      "service_time_2026": "1.011",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Mike Vasil",
+      "team_code": "CHW",
+      "service_time_2026": "1.000",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Edgar Quero",
+      "team_code": "CHW",
+      "service_time_2026": "0.165",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Chase Meidroth",
+      "team_code": "CHW",
+      "service_time_2026": "0.171",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Luisangel Acu\u00f1a",
+      "team_code": "CHW",
+      "service_time_2026": "0.156",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Noelvi Marte",
+      "team_code": "CIN",
+      "service_time_2026": "1.139",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Brandon Williamson",
+      "team_code": "CIN",
+      "service_time_2026": "2.139",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Andrew Abbott",
+      "team_code": "CIN",
+      "service_time_2026": "2.119",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Elly De La Cruz",
+      "team_code": "CIN",
+      "service_time_2026": "2.118",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Michael Toglia",
+      "team_code": "CIN",
+      "service_time_2026": "2.039",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Dane Myers",
+      "team_code": "CIN",
+      "service_time_2026": "2.037",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Carson Spiers",
+      "team_code": "CIN",
+      "service_time_2026": "1.157",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Rhett Lowder",
+      "team_code": "CIN",
+      "service_time_2026": "1.031",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Blake Dunn",
+      "team_code": "CIN",
+      "service_time_2026": "0.089",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Connor Phillips",
+      "team_code": "CIN",
+      "service_time_2026": "0.081",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Zach Maxwell",
+      "team_code": "CIN",
+      "service_time_2026": "0.038",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Luis Mey",
+      "team_code": "CIN",
+      "service_time_2026": "0.057",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Will Banfield",
+      "team_code": "CIN",
+      "service_time_2026": "0.040",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Sal Stewart",
+      "team_code": "CIN",
+      "service_time_2026": "0.028",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Chase Petty",
+      "team_code": "CIN",
+      "service_time_2026": "0.014",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Blake Perkins",
+      "team_code": "CLE",
+      "service_time_2026": "2.133",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Logan Allen",
+      "team_code": "CLE",
+      "service_time_2026": "2.093",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Kyle Manzardo",
+      "team_code": "CLE",
+      "service_time_2026": "1.073",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Patrick Bailey",
+      "team_code": "CLE",
+      "service_time_2026": "2.136",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Luis Ortiz",
+      "team_code": "CLE",
+      "service_time_2026": "2.121",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Gavin Williams",
+      "team_code": "CLE",
+      "service_time_2026": "2.103",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Hunter Gaddis",
+      "team_code": "CLE",
+      "service_time_2026": "2.073",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Tim Herrin",
+      "team_code": "CLE",
+      "service_time_2026": "2.058",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Brayan Rocchio",
+      "team_code": "CLE",
+      "service_time_2026": "2.001",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Cade Smith",
+      "team_code": "CLE",
+      "service_time_2026": "2.000",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Slade Cecconi",
+      "team_code": "CLE",
+      "service_time_2026": "1.155",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Daniel Schneemann",
+      "team_code": "CLE",
+      "service_time_2026": "1.120",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Angel Mart\u00ednez",
+      "team_code": "CLE",
+      "service_time_2026": "1.118",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Dom Nu\u00f1ez",
+      "team_code": "CLE",
+      "service_time_2026": "1.104",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Erik Sabrowski",
+      "team_code": "CLE",
+      "service_time_2026": "1.033",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Andrew Walters",
+      "team_code": "CLE",
+      "service_time_2026": "0.142",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Joey Cantillo",
+      "team_code": "CLE",
+      "service_time_2026": "0.162",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "CJ Kayfus",
+      "team_code": "CLE",
+      "service_time_2026": "0.058",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Craig Yoho",
+      "team_code": "CLE",
+      "service_time_2026": "0.042",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Parker Messick",
+      "team_code": "CLE",
+      "service_time_2026": "0.040",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "George Valera",
+      "team_code": "CLE",
+      "service_time_2026": "0.028",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Petey Halpin",
+      "team_code": "CLE",
+      "service_time_2026": "0.009",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Chase DeLauter",
+      "team_code": "CLE",
+      "service_time_2026": "0.000",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jeff Criswell",
+      "team_code": "COL",
+      "service_time_2026": "1.040",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Hunter Goodman",
+      "team_code": "COL",
+      "service_time_2026": "2.010",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Edouard Julien",
+      "team_code": "COL",
+      "service_time_2026": "2.009",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jordan Beck",
+      "team_code": "COL",
+      "service_time_2026": "1.153",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Connor Norby",
+      "team_code": "COL",
+      "service_time_2026": "1.057",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Valente Bellozo",
+      "team_code": "COL",
+      "service_time_2026": "1.050",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Ryan Ritter",
+      "team_code": "COL",
+      "service_time_2026": "0.115",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Zach Agnos",
+      "team_code": "COL",
+      "service_time_2026": "0.162",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Tanner Gordon",
+      "team_code": "COL",
+      "service_time_2026": "0.156",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Juan Mejia",
+      "team_code": "COL",
+      "service_time_2026": "0.144",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Chase Dollander",
+      "team_code": "COL",
+      "service_time_2026": "0.141",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Braxton Fulford",
+      "team_code": "COL",
+      "service_time_2026": "0.097",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jaden Hill",
+      "team_code": "COL",
+      "service_time_2026": "0.097",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Adael Amador",
+      "team_code": "COL",
+      "service_time_2026": "0.085",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Troy Johnston",
+      "team_code": "COL",
+      "service_time_2026": "0.062",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Pierson Ohl",
+      "team_code": "COL",
+      "service_time_2026": "0.062",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Hayden Harris",
+      "team_code": "COL",
+      "service_time_2026": "0.027",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Kyle Karros",
+      "team_code": "COL",
+      "service_time_2026": "0.052",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "McCade Brown",
+      "team_code": "COL",
+      "service_time_2026": "0.036",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Zac Veen",
+      "team_code": "COL",
+      "service_time_2026": "0.015",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Blas Castano",
+      "team_code": "COL",
+      "service_time_2026": "0.007",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Chad Stevens",
+      "team_code": "COL",
+      "service_time_2026": "0.000",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Drew Avans",
+      "team_code": "COL",
+      "service_time_2026": "0.000",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Sawyer Gipson-Long",
+      "team_code": "DET",
+      "service_time_2026": "2.022",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Brenan Hanifee",
+      "team_code": "DET",
+      "service_time_2026": "1.069",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Reese Olson",
+      "team_code": "DET",
+      "service_time_2026": "2.123",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Brant Hurter",
+      "team_code": "DET",
+      "service_time_2026": "1.042",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "James Outman",
+      "team_code": "DET",
+      "service_time_2026": "2.007",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Wenceel P\u00e9rez",
+      "team_code": "DET",
+      "service_time_2026": "2.000",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Parker Meadows",
+      "team_code": "DET",
+      "service_time_2026": "1.169",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "River Ryan",
+      "team_code": "DET",
+      "service_time_2026": "1.070",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Michael Siani",
+      "team_code": "DET",
+      "service_time_2026": "1.063",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Dillon Dingler",
+      "team_code": "DET",
+      "service_time_2026": "1.063",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Trey Sweeney",
+      "team_code": "DET",
+      "service_time_2026": "1.045",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Ty Madden",
+      "team_code": "DET",
+      "service_time_2026": "1.035",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Keider Montero",
+      "team_code": "DET",
+      "service_time_2026": "1.011",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jackson Jobe",
+      "team_code": "DET",
+      "service_time_2026": "1.006",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Bailey Horn",
+      "team_code": "DET",
+      "service_time_2026": "0.102",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Yilber D\u00edaz",
+      "team_code": "DET",
+      "service_time_2026": "0.041",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jace Jung",
+      "team_code": "DET",
+      "service_time_2026": "0.079",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Andre Granillo",
+      "team_code": "DET",
+      "service_time_2026": "0.076",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Troy Melton",
+      "team_code": "DET",
+      "service_time_2026": "0.068",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Drew Sommers",
+      "team_code": "DET",
+      "service_time_2026": "0.032",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jack Little",
+      "team_code": "DET",
+      "service_time_2026": "0.003",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Ronel Blanco",
+      "team_code": "HOU",
+      "service_time_2026": "2.101",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Zach Dezenzo",
+      "team_code": "HOU",
+      "service_time_2026": "1.055",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Joey Loperfido",
+      "team_code": "HOU",
+      "service_time_2026": "1.021",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jason Alexander",
+      "team_code": "HOU",
+      "service_time_2026": "1.134",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Bryan King",
+      "team_code": "HOU",
+      "service_time_2026": "1.100",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "C\u00e9sar Salazar",
+      "team_code": "HOU",
+      "service_time_2026": "1.077",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Brandon Walter",
+      "team_code": "HOU",
+      "service_time_2026": "1.014",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Cam Smith",
+      "team_code": "HOU",
+      "service_time_2026": "1.000",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Kai-Wei Teng",
+      "team_code": "HOU",
+      "service_time_2026": "0.081",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Mike Burrows",
+      "team_code": "HOU",
+      "service_time_2026": "0.135",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Roddery Mu\u00f1oz",
+      "team_code": "HOU",
+      "service_time_2026": "0.123",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jorge Barrosa",
+      "team_code": "HOU",
+      "service_time_2026": "0.070",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Christian Roa",
+      "team_code": "HOU",
+      "service_time_2026": "0.065",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Braden Shewmake",
+      "team_code": "HOU",
+      "service_time_2026": "0.065",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Logan VanWey",
+      "team_code": "HOU",
+      "service_time_2026": "0.056",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "AJ Blubaugh",
+      "team_code": "HOU",
+      "service_time_2026": "0.038",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Zach Cole",
+      "team_code": "HOU",
+      "service_time_2026": "0.017",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Brice Matthews",
+      "team_code": "HOU",
+      "service_time_2026": "0.030",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Mitch Spence",
+      "team_code": "KCR",
+      "service_time_2026": "1.124",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Lucas Erceg",
+      "team_code": "KCR",
+      "service_time_2026": "2.136",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Alec Marsh",
+      "team_code": "KCR",
+      "service_time_2026": "2.078",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Easton McGee",
+      "team_code": "KCR",
+      "service_time_2026": "1.024",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Luke Little",
+      "team_code": "KCR",
+      "service_time_2026": "1.024",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Drew Waters",
+      "team_code": "KCR",
+      "service_time_2026": "1.149",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Stephen Kolek",
+      "team_code": "KCR",
+      "service_time_2026": "1.099",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Nick Loftin",
+      "team_code": "KCR",
+      "service_time_2026": "1.081",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Spencer Bivens",
+      "team_code": "KCR",
+      "service_time_2026": "1.077",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Steven Cruz",
+      "team_code": "KCR",
+      "service_time_2026": "1.058",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Isaac Collins",
+      "team_code": "KCR",
+      "service_time_2026": "1.022",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Connor Thomas",
+      "team_code": "KCR",
+      "service_time_2026": "1.000",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Ryan Bergert",
+      "team_code": "KCR",
+      "service_time_2026": "0.113",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Tyler Tolbert",
+      "team_code": "KCR",
+      "service_time_2026": "0.144",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Noah Cameron",
+      "team_code": "KCR",
+      "service_time_2026": "0.137",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jac Caglianone",
+      "team_code": "KCR",
+      "service_time_2026": "0.118",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "John Rave",
+      "team_code": "KCR",
+      "service_time_2026": "0.102",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Mason Black",
+      "team_code": "KCR",
+      "service_time_2026": "0.051",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Connor Kaiser",
+      "team_code": "KCR",
+      "service_time_2026": "0.073",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Matthew Lugo",
+      "team_code": "KCR",
+      "service_time_2026": "0.066",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Luinder Avila",
+      "team_code": "KCR",
+      "service_time_2026": "0.033",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Carter Jensen",
+      "team_code": "KCR",
+      "service_time_2026": "0.028",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Nolan Hoffman",
+      "team_code": "KCR",
+      "service_time_2026": "0.002",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Carlos Duran",
+      "team_code": "KCR",
+      "service_time_2026": "0.000",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Alex Faedo",
+      "team_code": "LAA",
+      "service_time_2026": "2.169",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Grayson Rodriguez",
+      "team_code": "LAA",
+      "service_time_2026": "2.129",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Kaleb Ort",
+      "team_code": "LAA",
+      "service_time_2026": "2.108",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Ben Joyce",
+      "team_code": "LAA",
+      "service_time_2026": "2.075",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Nolan Schanuel",
+      "team_code": "LAA",
+      "service_time_2026": "2.045",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Oswald Peraza",
+      "team_code": "LAA",
+      "service_time_2026": "2.014",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Sam Bachman",
+      "team_code": "LAA",
+      "service_time_2026": "1.149",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Vaughn Grissom",
+      "team_code": "LAA",
+      "service_time_2026": "1.086",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jack Kochanowicz",
+      "team_code": "LAA",
+      "service_time_2026": "1.012",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Sebasti\u00e1n Rivero",
+      "team_code": "LAA",
+      "service_time_2026": "0.162",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Nacho Alvarez Jr.",
+      "team_code": "LAA",
+      "service_time_2026": "0.160",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Gustavo Campero",
+      "team_code": "LAA",
+      "service_time_2026": "0.158",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Kyren Paris",
+      "team_code": "LAA",
+      "service_time_2026": "0.124",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Caden Dana",
+      "team_code": "LAA",
+      "service_time_2026": "0.060",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jos\u00e9 Fermin",
+      "team_code": "LAA",
+      "service_time_2026": "0.117",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Christian Moore",
+      "team_code": "LAA",
+      "service_time_2026": "0.108",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Sammy Peralta",
+      "team_code": "LAA",
+      "service_time_2026": "0.097",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Sam Aldegheri",
+      "team_code": "LAA",
+      "service_time_2026": "0.047",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Bryce Teodosio",
+      "team_code": "LAA",
+      "service_time_2026": "0.081",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Ryan Johnson",
+      "team_code": "LAA",
+      "service_time_2026": "0.043",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Mois\u00e9s Ballesteros",
+      "team_code": "LAA",
+      "service_time_2026": "0.030",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Mitch Farris",
+      "team_code": "LAA",
+      "service_time_2026": "0.028",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Wade Meckler",
+      "team_code": "LAA",
+      "service_time_2026": "0.024",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Denzer Guzman",
+      "team_code": "LAA",
+      "service_time_2026": "0.016",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Emmet Sheehan",
+      "team_code": "LAD",
+      "service_time_2026": "2.080",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Kyle Hurt",
+      "team_code": "LAD",
+      "service_time_2026": "1.099",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Seth Halvorsen",
+      "team_code": "LAD",
+      "service_time_2026": "1.031",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Gavin Stone",
+      "team_code": "LAD",
+      "service_time_2026": "2.034",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Andy Pages",
+      "team_code": "LAD",
+      "service_time_2026": "1.155",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Bobby Miller",
+      "team_code": "LAD",
+      "service_time_2026": "1.119",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Tyler Fitzgerald",
+      "team_code": "LAD",
+      "service_time_2026": "1.108",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Ben Casparius",
+      "team_code": "LAD",
+      "service_time_2026": "1.016",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Roki Sasaki",
+      "team_code": "LAD",
+      "service_time_2026": "1.000",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jack Dreyer",
+      "team_code": "LAD",
+      "service_time_2026": "1.000",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Hyeseong Kim",
+      "team_code": "LAD",
+      "service_time_2026": "0.149",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Landon Knack",
+      "team_code": "LAD",
+      "service_time_2026": "0.119",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Edgardo Henriquez",
+      "team_code": "LAD",
+      "service_time_2026": "0.164",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Justin Wrobleski",
+      "team_code": "LAD",
+      "service_time_2026": "0.150",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Dalton Rushing",
+      "team_code": "LAD",
+      "service_time_2026": "0.138",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Hunter Feduccia",
+      "team_code": "LAD",
+      "service_time_2026": "0.095",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Will Klein",
+      "team_code": "LAD",
+      "service_time_2026": "0.081",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Alex Freeland",
+      "team_code": "LAD",
+      "service_time_2026": "0.038",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Ryan Fitzgerald",
+      "team_code": "LAD",
+      "service_time_2026": "0.065",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Paul Gervase",
+      "team_code": "LAD",
+      "service_time_2026": "0.021",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Matt Gorski",
+      "team_code": "LAD",
+      "service_time_2026": "0.000",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Garrett McDaniels",
+      "team_code": "LAD",
+      "service_time_2026": "0.000",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Tyler Zuber",
+      "team_code": "MIA",
+      "service_time_2026": "2.157",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Eury P\u00e9rez",
+      "team_code": "MIA",
+      "service_time_2026": "2.113",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jes\u00fas Tinoco",
+      "team_code": "MIA",
+      "service_time_2026": "2.112",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Otto Lopez",
+      "team_code": "MIA",
+      "service_time_2026": "2.109",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Esteury Ruiz",
+      "team_code": "MIA",
+      "service_time_2026": "2.064",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Xavier Edwards",
+      "team_code": "MIA",
+      "service_time_2026": "2.034",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Victor Vodnik",
+      "team_code": "MIA",
+      "service_time_2026": "2.024",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Kyle Stowers",
+      "team_code": "MIA",
+      "service_time_2026": "2.012",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Ronny Henriquez",
+      "team_code": "MIA",
+      "service_time_2026": "1.115",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Tyler Phillips",
+      "team_code": "MIA",
+      "service_time_2026": "1.048",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Janson Junk",
+      "team_code": "MIA",
+      "service_time_2026": "1.045",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Griffin Conine",
+      "team_code": "MIA",
+      "service_time_2026": "1.035",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Javier Sanoja",
+      "team_code": "MIA",
+      "service_time_2026": "1.023",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Graham Pauley",
+      "team_code": "MIA",
+      "service_time_2026": "1.005",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Ryan Gusto",
+      "team_code": "MIA",
+      "service_time_2026": "0.167",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Agust\u00edn Ram\u00edrez",
+      "team_code": "MIA",
+      "service_time_2026": "0.161",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jared Koenig",
+      "team_code": "MIL",
+      "service_time_2026": "2.043",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Rob Zastryzny",
+      "team_code": "MIL",
+      "service_time_2026": "2.121",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Bo Naylor",
+      "team_code": "MIL",
+      "service_time_2026": "2.113",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "DL Hall",
+      "team_code": "MIL",
+      "service_time_2026": "2.074",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Sal Frelick",
+      "team_code": "MIL",
+      "service_time_2026": "2.072",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Joey Ortiz",
+      "team_code": "MIL",
+      "service_time_2026": "2.030",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "David Hamilton",
+      "team_code": "MIL",
+      "service_time_2026": "2.011",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Grant Anderson",
+      "team_code": "MIL",
+      "service_time_2026": "2.007",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Luis Matos",
+      "team_code": "MIL",
+      "service_time_2026": "1.156",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jihwan Bae",
+      "team_code": "MIL",
+      "service_time_2026": "1.137",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Robert Gasser",
+      "team_code": "MIL",
+      "service_time_2026": "1.136",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Quinn Priester",
+      "team_code": "MIL",
+      "service_time_2026": "1.134",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Abner Uribe",
+      "team_code": "MIL",
+      "service_time_2026": "1.121",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Kyle Harrison",
+      "team_code": "MIL",
+      "service_time_2026": "1.102",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Colton Gordon",
+      "team_code": "MIL",
+      "service_time_2026": "0.112",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Lyon Richardson",
+      "team_code": "MIL",
+      "service_time_2026": "0.150",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Brandon Lockridge",
+      "team_code": "MIL",
+      "service_time_2026": "0.147",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Chad Patrick",
+      "team_code": "MIL",
+      "service_time_2026": "0.125",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jacob Misiorowski",
+      "team_code": "MIL",
+      "service_time_2026": "0.109",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Tyler Black",
+      "team_code": "MIL",
+      "service_time_2026": "0.040",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Logan Henderson",
+      "team_code": "MIL",
+      "service_time_2026": "0.075",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Carlos Rodriguez",
+      "team_code": "MIL",
+      "service_time_2026": "0.045",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Brandon Sproat",
+      "team_code": "MIL",
+      "service_time_2026": "0.022",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Matt Wallner",
+      "team_code": "MIN",
+      "service_time_2026": "2.043",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Tommy Nance",
+      "team_code": "MIN",
+      "service_time_2026": "2.165",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Kody Clemens",
+      "team_code": "MIN",
+      "service_time_2026": "2.134",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Taj Bradley",
+      "team_code": "MIN",
+      "service_time_2026": "2.097",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Ron Marinaccio",
+      "team_code": "MIN",
+      "service_time_2026": "2.064",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Kody Funderburk",
+      "team_code": "MIN",
+      "service_time_2026": "1.122",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Brooks Lee",
+      "team_code": "MIN",
+      "service_time_2026": "1.089",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "David Festa",
+      "team_code": "MIN",
+      "service_time_2026": "1.052",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Austin Martin",
+      "team_code": "MIN",
+      "service_time_2026": "1.041",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Zebby Matthews",
+      "team_code": "MIN",
+      "service_time_2026": "1.010",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Ryan Kreidler",
+      "team_code": "MIN",
+      "service_time_2026": "1.006",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Luke Keaschall",
+      "team_code": "MIN",
+      "service_time_2026": "0.164",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Austin Warren",
+      "team_code": "NYM",
+      "service_time_2026": "2.148",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Mark Vientos",
+      "team_code": "NYM",
+      "service_time_2026": "2.102",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Brett Baty",
+      "team_code": "NYM",
+      "service_time_2026": "2.088",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Dedniel N\u00fa\u00f1ez",
+      "team_code": "NYM",
+      "service_time_2026": "2.074",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Eric Wagaman",
+      "team_code": "NYM",
+      "service_time_2026": "1.020",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Ronny Mauricio",
+      "team_code": "NYM",
+      "service_time_2026": "2.031",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Christian Scott",
+      "team_code": "NYM",
+      "service_time_2026": "1.116",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Tobias Myers",
+      "team_code": "NYM",
+      "service_time_2026": "1.109",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Hayden Senger",
+      "team_code": "NYM",
+      "service_time_2026": "0.102",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jared Young",
+      "team_code": "NYM",
+      "service_time_2026": "0.133",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Chayce McDermott",
+      "team_code": "NYM",
+      "service_time_2026": "0.056",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Justin Hagenman",
+      "team_code": "NYM",
+      "service_time_2026": "0.046",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Nolan McLean",
+      "team_code": "NYM",
+      "service_time_2026": "0.044",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jonah Tong",
+      "team_code": "NYM",
+      "service_time_2026": "0.031",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Philip Abner",
+      "team_code": "NYM",
+      "service_time_2026": "0.011",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jonathan Pintaro",
+      "team_code": "NYM",
+      "service_time_2026": "0.001",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Max Schuemann",
+      "team_code": "NYY",
+      "service_time_2026": "2.000",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jasson Dom\u00ednguez",
+      "team_code": "NYY",
+      "service_time_2026": "1.130",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Heliot Ramos",
+      "team_code": "NYY",
+      "service_time_2026": "2.103",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Angel Chivilli",
+      "team_code": "NYY",
+      "service_time_2026": "1.036",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Austin Wells",
+      "team_code": "NYY",
+      "service_time_2026": "2.031",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Yerry de los Santos",
+      "team_code": "NYY",
+      "service_time_2026": "1.127",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Ben Rice",
+      "team_code": "NYY",
+      "service_time_2026": "1.076",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Will Warren",
+      "team_code": "NYY",
+      "service_time_2026": "1.016",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "J.C. Escarra",
+      "team_code": "NYY",
+      "service_time_2026": "0.139",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Brent Headrick",
+      "team_code": "NYY",
+      "service_time_2026": "0.171",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Marco Luciano",
+      "team_code": "NYY",
+      "service_time_2026": "0.092",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Yanquiel Fern\u00e1ndez",
+      "team_code": "NYY",
+      "service_time_2026": "0.090",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Cam Schlittler",
+      "team_code": "NYY",
+      "service_time_2026": "0.082",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Dom Hamel",
+      "team_code": "NYY",
+      "service_time_2026": "0.019",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Kenedy Corona",
+      "team_code": "NYY",
+      "service_time_2026": "0.012",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Orion Kerkering",
+      "team_code": "PHI",
+      "service_time_2026": "2.010",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Grant Holman",
+      "team_code": "PHI",
+      "service_time_2026": "1.031",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Johan Rojas",
+      "team_code": "PHI",
+      "service_time_2026": "2.036",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Pedro Le\u00f3n",
+      "team_code": "PHI",
+      "service_time_2026": "1.021",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Chase Shugart",
+      "team_code": "PHI",
+      "service_time_2026": "1.001",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Kameron Misner",
+      "team_code": "PHI",
+      "service_time_2026": "0.117",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Kyle Backhus",
+      "team_code": "PHI",
+      "service_time_2026": "0.113",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Otto Kemp",
+      "team_code": "PHI",
+      "service_time_2026": "0.092",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Colby Thomas",
+      "team_code": "PHI",
+      "service_time_2026": "0.091",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Max Lazar",
+      "team_code": "PHI",
+      "service_time_2026": "0.170",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jonathan Bowlan",
+      "team_code": "PHI",
+      "service_time_2026": "0.116",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Daniel Robert",
+      "team_code": "PHI",
+      "service_time_2026": "0.108",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Alan Rangel",
+      "team_code": "PHI",
+      "service_time_2026": "0.039",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Steward Berroa",
+      "team_code": "PHI",
+      "service_time_2026": "0.077",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Andrew Hoffmann",
+      "team_code": "PHI",
+      "service_time_2026": "0.033",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Michael Mercado",
+      "team_code": "PHI",
+      "service_time_2026": "0.043",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Carmen Mlodzinski",
+      "team_code": "PIT",
+      "service_time_2026": "2.081",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Endy Rodr\u00edguez",
+      "team_code": "PIT",
+      "service_time_2026": "2.077",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jared Triolo",
+      "team_code": "PIT",
+      "service_time_2026": "2.071",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Henry Davis",
+      "team_code": "PIT",
+      "service_time_2026": "2.039",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Nick Gonzales",
+      "team_code": "PIT",
+      "service_time_2026": "2.018",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Enmanuel Valdez",
+      "team_code": "PIT",
+      "service_time_2026": "2.018",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Paul Skenes",
+      "team_code": "PIT",
+      "service_time_2026": "2.000",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jared Jones",
+      "team_code": "PIT",
+      "service_time_2026": "2.000",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Spencer Horwitz",
+      "team_code": "PIT",
+      "service_time_2026": "1.152",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Brandon Eisert",
+      "team_code": "PIT",
+      "service_time_2026": "1.034",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Lake Bachar",
+      "team_code": "PIT",
+      "service_time_2026": "1.024",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Mason Montgomery",
+      "team_code": "PIT",
+      "service_time_2026": "1.021",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jake Mangum",
+      "team_code": "PIT",
+      "service_time_2026": "1.000",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Tyler Callihan",
+      "team_code": "PIT",
+      "service_time_2026": "0.152",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Isaac Mattson",
+      "team_code": "PIT",
+      "service_time_2026": "0.161",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Braxton Ashcraft",
+      "team_code": "PIT",
+      "service_time_2026": "0.126",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Evan Sisk",
+      "team_code": "PIT",
+      "service_time_2026": "0.060",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Ronny Simon",
+      "team_code": "PIT",
+      "service_time_2026": "0.088",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Robert Hassell III",
+      "team_code": "PIT",
+      "service_time_2026": "0.085",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Nick Yorke",
+      "team_code": "PIT",
+      "service_time_2026": "0.042",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Bubba Chandler",
+      "team_code": "PIT",
+      "service_time_2026": "0.038",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Billy Cook",
+      "team_code": "PIT",
+      "service_time_2026": "0.025",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Tom Harrington",
+      "team_code": "PIT",
+      "service_time_2026": "0.010",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Michael Darrell-Hicks",
+      "team_code": "PIT",
+      "service_time_2026": "0.018",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jhostynxon Garcia",
+      "team_code": "PIT",
+      "service_time_2026": "0.009",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Rafael Flores",
+      "team_code": "PIT",
+      "service_time_2026": "0.013",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Hunter Barco",
+      "team_code": "PIT",
+      "service_time_2026": "0.006",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Tyler Owens",
+      "team_code": "PIT",
+      "service_time_2026": "0.000",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Noah Murdock",
+      "team_code": "PIT",
+      "service_time_2026": "0.000",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jhony Brito",
+      "team_code": "SDP",
+      "service_time_2026": "2.048",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Hunter Stratton",
+      "team_code": "SDP",
+      "service_time_2026": "1.071",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Bryan Hoeing",
+      "team_code": "SDP",
+      "service_time_2026": "2.133",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jeremiah Estrada",
+      "team_code": "SDP",
+      "service_time_2026": "2.069",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Tucupita Marcano",
+      "team_code": "SDP",
+      "service_time_2026": "2.045",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Randy V\u00e1squez",
+      "team_code": "SDP",
+      "service_time_2026": "1.129",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Bryce Johnson",
+      "team_code": "SDP",
+      "service_time_2026": "1.097",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Alek Jacob",
+      "team_code": "SDP",
+      "service_time_2026": "1.059",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Will Wagner",
+      "team_code": "SDP",
+      "service_time_2026": "0.151",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Mason McCoy",
+      "team_code": "SDP",
+      "service_time_2026": "0.144",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "David Morgan",
+      "team_code": "SDP",
+      "service_time_2026": "0.134",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Samad Taylor",
+      "team_code": "SDP",
+      "service_time_2026": "0.078",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Dustin Harris",
+      "team_code": "SDP",
+      "service_time_2026": "0.061",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Bradgley Rodriguez",
+      "team_code": "SDP",
+      "service_time_2026": "0.020",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Tirso Ornelas",
+      "team_code": "SDP",
+      "service_time_2026": "0.014",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Omar Cruz",
+      "team_code": "SDP",
+      "service_time_2026": "0.014",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Gage Workman",
+      "team_code": "SDP",
+      "service_time_2026": "0.000",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Ryan Walker",
+      "team_code": "SFG",
+      "service_time_2026": "2.136",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Will Brennan",
+      "team_code": "SFG",
+      "service_time_2026": "2.155",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Tristan Beck",
+      "team_code": "SFG",
+      "service_time_2026": "2.067",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Casey Schmitt",
+      "team_code": "SFG",
+      "service_time_2026": "2.035",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jos\u00e9 Butt\u00f3",
+      "team_code": "SFG",
+      "service_time_2026": "1.168",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Reiver Sanmartin",
+      "team_code": "SFG",
+      "service_time_2026": "1.148",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Randy Rodr\u00edguez",
+      "team_code": "SFG",
+      "service_time_2026": "1.148",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Keaton Winn",
+      "team_code": "SFG",
+      "service_time_2026": "1.090",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Landen Roupp",
+      "team_code": "SFG",
+      "service_time_2026": "1.085",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Anthony Molina",
+      "team_code": "SFG",
+      "service_time_2026": "1.074",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Hayden Birdsong",
+      "team_code": "SFG",
+      "service_time_2026": "1.041",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Christian Koss",
+      "team_code": "SFG",
+      "service_time_2026": "1.000",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Matt Gage",
+      "team_code": "SFG",
+      "service_time_2026": "0.155",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Marcelo Mayer",
+      "team_code": "SFG",
+      "service_time_2026": "0.128",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Brett Harris",
+      "team_code": "SFG",
+      "service_time_2026": "0.105",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Grant McCray",
+      "team_code": "SFG",
+      "service_time_2026": "0.096",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Shay Whitcomb",
+      "team_code": "SFG",
+      "service_time_2026": "0.085",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Carson Seymour",
+      "team_code": "SFG",
+      "service_time_2026": "0.074",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Carson Whisenhunt",
+      "team_code": "SFG",
+      "service_time_2026": "0.063",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Drew Gilbert",
+      "team_code": "SFG",
+      "service_time_2026": "0.052",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Joel Peguero",
+      "team_code": "SFG",
+      "service_time_2026": "0.039",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Dylan Smith",
+      "team_code": "SFG",
+      "service_time_2026": "0.020",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Alex Carrillo",
+      "team_code": "SFG",
+      "service_time_2026": "0.017",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Trevor McDonald",
+      "team_code": "SFG",
+      "service_time_2026": "0.014",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Bryce Eldridge",
+      "team_code": "SFG",
+      "service_time_2026": "0.014",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Blade Tidwell",
+      "team_code": "SFG",
+      "service_time_2026": "0.008",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Josh Simpson",
+      "team_code": "SEA",
+      "service_time_2026": "1.108",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Ryan Bliss",
+      "team_code": "SEA",
+      "service_time_2026": "1.061",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Bryan Woo",
+      "team_code": "SEA",
+      "service_time_2026": "2.121",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Eduard Bazardo",
+      "team_code": "SEA",
+      "service_time_2026": "2.118",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jose A. Ferrer",
+      "team_code": "SEA",
+      "service_time_2026": "2.094",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Miles Mastrobuoni",
+      "team_code": "SEA",
+      "service_time_2026": "2.043",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Dominic Canzone",
+      "team_code": "SEA",
+      "service_time_2026": "2.014",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Simeon Woods Richardson",
+      "team_code": "SEA",
+      "service_time_2026": "1.153",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Cooper Criswell",
+      "team_code": "SEA",
+      "service_time_2026": "1.143",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Carlos Vargas",
+      "team_code": "SEA",
+      "service_time_2026": "1.140",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Weston Wilson",
+      "team_code": "SEA",
+      "service_time_2026": "1.097",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Emerson Hancock",
+      "team_code": "SEA",
+      "service_time_2026": "1.059",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Leo Rivas",
+      "team_code": "SEA",
+      "service_time_2026": "1.008",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Willie MacIver",
+      "team_code": "SEA",
+      "service_time_2026": "0.094",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jhonny Pereda",
+      "team_code": "SEA",
+      "service_time_2026": "0.140",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jhonathan D\u00edaz",
+      "team_code": "SEA",
+      "service_time_2026": "0.128",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Logan Evans",
+      "team_code": "SEA",
+      "service_time_2026": "0.124",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Cole Young",
+      "team_code": "SEA",
+      "service_time_2026": "0.121",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Troy Taylor",
+      "team_code": "SEA",
+      "service_time_2026": "0.094",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Will Wilson",
+      "team_code": "SEA",
+      "service_time_2026": "0.074",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Ryan Loutos",
+      "team_code": "SEA",
+      "service_time_2026": "0.057",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Cole Wilcox",
+      "team_code": "SEA",
+      "service_time_2026": "0.012",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Ryan Fernandez",
+      "team_code": "STL",
+      "service_time_2026": "1.090",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Matthew Liberatore",
+      "team_code": "STL",
+      "service_time_2026": "2.144",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Zack Thompson",
+      "team_code": "STL",
+      "service_time_2026": "2.072",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Masyn Winn",
+      "team_code": "STL",
+      "service_time_2026": "2.045",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jordan Walker",
+      "team_code": "STL",
+      "service_time_2026": "2.044",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Iv\u00e1n Herrera",
+      "team_code": "STL",
+      "service_time_2026": "2.034",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Pedro Pag\u00e9s",
+      "team_code": "STL",
+      "service_time_2026": "1.166",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jared Shuster",
+      "team_code": "STL",
+      "service_time_2026": "1.148",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Kyle Leahy",
+      "team_code": "STL",
+      "service_time_2026": "1.140",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Riley O'Brien",
+      "team_code": "STL",
+      "service_time_2026": "1.129",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Justin Bruihl",
+      "team_code": "STL",
+      "service_time_2026": "1.112",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "George Soriano",
+      "team_code": "STL",
+      "service_time_2026": "1.095",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Victor Scott II",
+      "team_code": "STL",
+      "service_time_2026": "1.083",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jos\u00e9 Ferm\u00edn",
+      "team_code": "STL",
+      "service_time_2026": "1.075",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Richard Fitts",
+      "team_code": "STL",
+      "service_time_2026": "0.164",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Matt Svanson",
+      "team_code": "STL",
+      "service_time_2026": "0.116",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Hunter Dobbins",
+      "team_code": "STL",
+      "service_time_2026": "0.152",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Thomas Saggese",
+      "team_code": "STL",
+      "service_time_2026": "0.144",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Michael McGreevy",
+      "team_code": "STL",
+      "service_time_2026": "0.091",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Gordon Graceffo",
+      "team_code": "STL",
+      "service_time_2026": "0.091",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Everson Pereira",
+      "team_code": "STL",
+      "service_time_2026": "0.090",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jimmy Crooks",
+      "team_code": "STL",
+      "service_time_2026": "0.031",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Nathan Church",
+      "team_code": "STL",
+      "service_time_2026": "0.043",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "C\u00e9sar Prieto",
+      "team_code": "STL",
+      "service_time_2026": "0.031",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Mason Englert",
+      "team_code": "TBR",
+      "service_time_2026": "1.168",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Manuel Rodr\u00edguez",
+      "team_code": "TBR",
+      "service_time_2026": "2.139",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jesse Scholtens",
+      "team_code": "TBR",
+      "service_time_2026": "2.091",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jonny DeLuca",
+      "team_code": "TBR",
+      "service_time_2026": "2.085",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jonathan Aranda",
+      "team_code": "TBR",
+      "service_time_2026": "2.030",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Joe Boyle",
+      "team_code": "TBR",
+      "service_time_2026": "1.005",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Casey Legumina",
+      "team_code": "TBR",
+      "service_time_2026": "1.111",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Cam Booser",
+      "team_code": "TBR",
+      "service_time_2026": "1.105",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Junior Caminero",
+      "team_code": "TBR",
+      "service_time_2026": "1.058",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Justyn-Henry Malloy",
+      "team_code": "TBR",
+      "service_time_2026": "1.040",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Liam Hicks",
+      "team_code": "TBR",
+      "service_time_2026": "1.000",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jacob Melton",
+      "team_code": "TBR",
+      "service_time_2026": "0.111",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Luis Guerrero",
+      "team_code": "TBR",
+      "service_time_2026": "0.155",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Chandler Simpson",
+      "team_code": "TBR",
+      "service_time_2026": "0.140",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Ben Williamson",
+      "team_code": "TBR",
+      "service_time_2026": "0.110",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Ian Seymour",
+      "team_code": "TBR",
+      "service_time_2026": "0.085",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Carson Williams",
+      "team_code": "TBR",
+      "service_time_2026": "0.039",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Ryan Vilade",
+      "team_code": "TBR",
+      "service_time_2026": "0.076",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "John Rooney",
+      "team_code": "TBR",
+      "service_time_2026": "0.057",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Brian Van Belle",
+      "team_code": "TBR",
+      "service_time_2026": "0.044",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Logan Davidson",
+      "team_code": "TBR",
+      "service_time_2026": "0.042",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "V\u00edctor Mesa Jr.",
+      "team_code": "TBR",
+      "service_time_2026": "0.034",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Hunter Bigge",
+      "team_code": "OAK",
+      "service_time_2026": "1.049",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Darell Hernaiz",
+      "team_code": "OAK",
+      "service_time_2026": "1.040",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Joey Estes",
+      "team_code": "OAK",
+      "service_time_2026": "1.031",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Zack Gelof",
+      "team_code": "OAK",
+      "service_time_2026": "2.051",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Hogan Harris",
+      "team_code": "OAK",
+      "service_time_2026": "1.146",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Ben Bowden",
+      "team_code": "OAK",
+      "service_time_2026": "1.068",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "J.T. Ginn",
+      "team_code": "OAK",
+      "service_time_2026": "1.041",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Brady Basso",
+      "team_code": "OAK",
+      "service_time_2026": "1.030",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Nick Kurtz",
+      "team_code": "OAK",
+      "service_time_2026": "1.000",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Johnathan Rodr\u00edguez",
+      "team_code": "OAK",
+      "service_time_2026": "0.097",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Justin Sterner",
+      "team_code": "OAK",
+      "service_time_2026": "0.169",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jacob Lopez",
+      "team_code": "OAK",
+      "service_time_2026": "0.160",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Gunnar Hoglund",
+      "team_code": "OAK",
+      "service_time_2026": "0.150",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Chris Roycroft",
+      "team_code": "OAK",
+      "service_time_2026": "0.150",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Max Muncy",
+      "team_code": "OAK",
+      "service_time_2026": "0.144",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Denzel Clarke",
+      "team_code": "OAK",
+      "service_time_2026": "0.129",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Luis Morales",
+      "team_code": "OAK",
+      "service_time_2026": "0.059",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Elvis Alvarado",
+      "team_code": "OAK",
+      "service_time_2026": "0.101",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jack Perkins",
+      "team_code": "OAK",
+      "service_time_2026": "0.099",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Carlos Cortes",
+      "team_code": "OAK",
+      "service_time_2026": "0.076",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jack Winkler",
+      "team_code": "OAK",
+      "service_time_2026": "0.071",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Joe Rock",
+      "team_code": "OAK",
+      "service_time_2026": "0.033",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Seth Johnson",
+      "team_code": "OAK",
+      "service_time_2026": "0.061",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Mason Barnett",
+      "team_code": "OAK",
+      "service_time_2026": "0.034",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Taylor Rashi",
+      "team_code": "OAK",
+      "service_time_2026": "0.033",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Robert Garcia",
+      "team_code": "TEX",
+      "service_time_2026": "2.086",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Cody Bradford",
+      "team_code": "TEX",
+      "service_time_2026": "2.086",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Wyatt Langford",
+      "team_code": "TEX",
+      "service_time_2026": "2.000",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jacob Latz",
+      "team_code": "TEX",
+      "service_time_2026": "1.170",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Evan Carter",
+      "team_code": "TEX",
+      "service_time_2026": "1.170",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Chase Silseth",
+      "team_code": "TEX",
+      "service_time_2026": "1.105",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Cole Winn",
+      "team_code": "TEX",
+      "service_time_2026": "1.090",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jack Leiter",
+      "team_code": "TEX",
+      "service_time_2026": "1.033",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Michel Ota\u00f1ez",
+      "team_code": "TEX",
+      "service_time_2026": "0.149",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Justin Foscue",
+      "team_code": "TEX",
+      "service_time_2026": "0.146",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Kumar Rocker",
+      "team_code": "TEX",
+      "service_time_2026": "0.137",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Anthony Veneziano",
+      "team_code": "TEX",
+      "service_time_2026": "0.112",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Alejandro Osuna",
+      "team_code": "TEX",
+      "service_time_2026": "0.107",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Michael Helman",
+      "team_code": "TEX",
+      "service_time_2026": "0.095",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Luis Curvelo",
+      "team_code": "TEX",
+      "service_time_2026": "0.061",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Cody Freeman",
+      "team_code": "TEX",
+      "service_time_2026": "0.051",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Marc Church",
+      "team_code": "TEX",
+      "service_time_2026": "0.024",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jose Corniell",
+      "team_code": "TEX",
+      "service_time_2026": "0.003",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Spencer Arrighetti",
+      "team_code": "TOR",
+      "service_time_2026": "2.000",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Bowden Francis",
+      "team_code": "TOR",
+      "service_time_2026": "2.098",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Davis Schneider",
+      "team_code": "TOR",
+      "service_time_2026": "2.029",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Louis Varland",
+      "team_code": "TOR",
+      "service_time_2026": "1.163",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Nathan Lukes",
+      "team_code": "TOR",
+      "service_time_2026": "1.145",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Brendon Little",
+      "team_code": "TOR",
+      "service_time_2026": "1.135",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Addison Barger",
+      "team_code": "TOR",
+      "service_time_2026": "1.103",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Nic Enright",
+      "team_code": "TOR",
+      "service_time_2026": "0.168",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Braydon Fisher",
+      "team_code": "TOR",
+      "service_time_2026": "0.145",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Mason Fluharty",
+      "team_code": "TOR",
+      "service_time_2026": "0.139",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jonatan Clase",
+      "team_code": "TOR",
+      "service_time_2026": "0.109",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Chase Lee",
+      "team_code": "TOR",
+      "service_time_2026": "0.095",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jake Bloss",
+      "team_code": "TOR",
+      "service_time_2026": "0.039",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Trey Yesavage",
+      "team_code": "TOR",
+      "service_time_2026": "0.014",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Rhylan Thomas",
+      "team_code": "TOR",
+      "service_time_2026": "0.008",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "CJ Stubbs",
+      "team_code": "TOR",
+      "service_time_2026": "0.005",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Lazaro Estrada",
+      "team_code": "TOR",
+      "service_time_2026": "0.004",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Kyle Nicolas",
+      "team_code": "WSN",
+      "service_time_2026": "1.090",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jacob Young",
+      "team_code": "WSN",
+      "service_time_2026": "2.037",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Mitchell Parker",
+      "team_code": "WSN",
+      "service_time_2026": "2.000",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Matt Waldron",
+      "team_code": "WSN",
+      "service_time_2026": "1.107",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "DJ Herz",
+      "team_code": "WSN",
+      "service_time_2026": "1.104",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "James Wood",
+      "team_code": "WSN",
+      "service_time_2026": "1.091",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Nasim Nu\u00f1ez",
+      "team_code": "WSN",
+      "service_time_2026": "1.086",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Drew Millas",
+      "team_code": "WSN",
+      "service_time_2026": "1.038",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Dylan Crews",
+      "team_code": "WSN",
+      "service_time_2026": "1.035",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jos\u00e9 Tena",
+      "team_code": "WSN",
+      "service_time_2026": "1.031",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Orlando Ribalta",
+      "team_code": "WSN",
+      "service_time_2026": "1.013",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Andr\u00e9s Chaparro",
+      "team_code": "WSN",
+      "service_time_2026": "1.002",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Brad Lord",
+      "team_code": "WSN",
+      "service_time_2026": "1.000",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Liover Peguero",
+      "team_code": "WSN",
+      "service_time_2026": "1.000",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Clayton Beeter",
+      "team_code": "WSN",
+      "service_time_2026": "0.129",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Gus Varland",
+      "team_code": "WSN",
+      "service_time_2026": "0.169",
+      "first_listed_arbitration_year": 2028,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Paxton Schultz",
+      "team_code": "WSN",
+      "service_time_2026": "0.078",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Daylen Lile",
+      "team_code": "WSN",
+      "service_time_2026": "0.129",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Trey Lipscomb",
+      "team_code": "WSN",
+      "service_time_2026": "0.112",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Brady House",
+      "team_code": "WSN",
+      "service_time_2026": "0.105",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Carson Palmquist",
+      "team_code": "WSN",
+      "service_time_2026": "0.039",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Zak Kent",
+      "team_code": "WSN",
+      "service_time_2026": "0.037",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Jorbit Vivas",
+      "team_code": "WSN",
+      "service_time_2026": "0.056",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "PJ Poulin",
+      "team_code": "WSN",
+      "service_time_2026": "0.055",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Matt Krook",
+      "team_code": "WSN",
+      "service_time_2026": "0.055",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Harry Ford",
+      "team_code": "WSN",
+      "service_time_2026": "0.028",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Andrew Alvarez",
+      "team_code": "WSN",
+      "service_time_2026": "0.028",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Andry Lara",
+      "team_code": "WSN",
+      "service_time_2026": "0.026",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    },
+    {
+      "player": "Connelly Early",
+      "team_code": "WSN",
+      "service_time_2026": "0.020",
+      "first_listed_arbitration_year": 2029,
+      "estimated_salary_2027_millions": 0.78,
+      "projection_method": "provisional_minimum_salary_baseline",
+      "status": "likely_pre_arbitration"
+    }
+  ]
+}
