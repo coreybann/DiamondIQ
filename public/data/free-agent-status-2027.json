@@ -1,6 +1,6 @@
 {
   "season": 2027,
-  "lastVerified": "2026-11-01T01:12:06.187039+00:00",
+  "lastVerified": "2026-11-01T08:02:38.866887+00:00",
   "players": {
     "Michael King": {
       "status": "Available",
@@ -193,6 +193,12 @@
       "verifiedAt": "2026-11-01T01:12:06.187039+00:00",
       "source": "https://news.google.com/rss/articles/CBMia0FVX3lxTE40Rk9Wc2FUb2xjUGl0eTFZQTdLQUUxaEV4TEp3U0Jac25JSERrMVJ1eTZvMkxURDk0RGRvRzIzSGxCWmRMakJCQXAwdzhrTU1hMVN4RW9xeFotOXJNVzJ2Ry0yR1dyazd4bEZV?oc=5",
       "optionDecisionDate": "2026-10-31"
+    },
+    "Wandy Peralta": {
+      "status": "Under Contract",
+      "verifiedAt": "2026-11-01T08:02:38.866887+00:00",
+      "source": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNN050STlGSG9LeWktdmpfOWtFWGRPN1hBYXJlOXJsMDhvdE9NLVJiM1FtQ3dDSjhsUURyRzIwSXUyenVkTExHZGlObXFrbXQtQ2x2ZTQycWx0OEJ6Z3h3c1VINzJhNUxxNGdxMGFta2xJTGMtdTVHX1pCY2IyVmFzMjBYQmFJdFBYTGVUZ0xBSVVLYTRvc25xUnBMUkXSAaIBQVVfeXFMUHZFTFlDMUNwNXhBbFprdmhFZUl3bVZUdFN4WC01dldJTkt3T2tkZU56NkpjRmpyd0tqR2lJZ3FXRHF5NzlJYjJTRXVFMXhZdnZuQmtkaHhOYS1tWGY2RG5GRE5fTExPR3oweXBVeS1naVFXR3FFd3hDQUJGTVJUOEI5bEhnamoxS3oyQ2RERmRUQzJCZjNIeERUM1lKWWxMM25n?oc=5",
+      "optionDecisionDate": "2026-11-01"
     }
   }
 }
