@@ -1885,6 +1885,83 @@ with at least{" "}
     </div>
   </div>
 
+  <div className="mt-8 rounded-xl border border-blue-700 bg-slate-900 p-6">
+    <h3 className="text-xl font-bold text-white">
+      Individual Team Strategy Report
+    </h3>
+
+    <p className="mt-2 text-sm text-slate-400">
+      Select an MLB team to review its 2026 spending and production
+      and receive suggested front-office priorities.
+    </p>
+
+    <select
+      value={highlightedTeam}
+      onChange={(e) => setHighlightedTeam(e.target.value)}
+      className="mt-5 w-full max-w-sm rounded-lg border border-slate-600 bg-slate-800 px-4 py-3 text-white"
+    >
+      <option value="All Teams">Select a team</option>
+      {[...teamRosterValue]
+        .sort((a, b) => a.team.localeCompare(b.team))
+        .map((team) => (
+          <option key={team.team} value={team.team}>
+            {team.team}
+          </option>
+        ))}
+    </select>
+
+    {selectedTeamData && (
+      <div className="mt-6 space-y-5">
+        <div className="rounded-lg border border-slate-700 bg-slate-800 p-5">
+          <h4 className="text-lg font-bold text-white">
+            {selectedTeamData.team} — Strategic Assessment
+          </h4>
+          <p className="mt-2 text-blue-400">
+            {selectedTeamQuadrant}
+          </p>
+          <div className="mt-4 grid gap-4 sm:grid-cols-2">
+            <div>
+              <p className="text-sm text-slate-400">Payroll vs. MLB Average</p>
+              <p className="text-xl font-bold text-white">
+                {selectedPayrollDifference >= 0 ? "+" : "-"}$
+                {Math.abs(selectedPayrollDifference).toFixed(1)}M
+              </p>
+            </div>
+            <div>
+              <p className="text-sm text-slate-400">bWAR vs. MLB Average</p>
+              <p className="text-xl font-bold text-white">
+                {selectedWarDifference >= 0 ? "+" : ""}
+                {selectedWarDifference.toFixed(2)}
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="rounded-lg border border-blue-800 bg-slate-800 p-5">
+          <h4 className="font-bold text-blue-400">
+            Recommended Front Office Priorities
+          </h4>
+
+          <p className="mt-3 text-sm leading-6 text-slate-300">
+            {selectedTeamQuadrant === "High Production, Lower Payroll"
+              ? "Prioritize retaining productive players, explore early contract extensions, and preserve payroll flexibility for targeted upgrades."
+              : selectedTeamQuadrant === "High Production, Higher Payroll"
+              ? "Protect the competitive core, evaluate marginal improvements carefully, and monitor long-term payroll commitments."
+              : selectedTeamQuadrant === "Low Production, Lower Payroll"
+              ? "Invest in player development, explore undervalued acquisitions, and identify positions where affordable upgrades could improve team production."
+              : "Evaluate underperforming contracts, review roster allocation, and prioritize improvements that increase production without unnecessary spending."}
+          </p>
+        </div>
+      </div>
+    )}
+
+    <p className="mt-5 text-xs text-slate-500">
+      Based on historical 2026 payroll and matched player bWAR.
+      These recommendations are analytical starting points,
+      not forecasts or transaction-specific advice.
+    </p>
+  </div>
+
   <p className="mt-4 text-xs text-slate-500">
     Analysis uses 2026 historical salary and bWAR data.
     Recommendations are descriptive and do not represent
