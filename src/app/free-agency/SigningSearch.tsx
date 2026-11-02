@@ -9,6 +9,8 @@ type Signing = {
   playerId: number | null;
   playerName: string;
   description: string;
+  status?: "Signed" | "Signing Reported";
+  sourceUrl?: string;
 };
 
 type SigningSearchProps = {
@@ -55,6 +57,7 @@ export default function SigningsSearch({
               <th className="px-4 py-3">Player</th>
 <th className="px-4 py-3">Position</th>
 <th className="px-4 py-3">Date</th>
+<th className="px-4 py-3">Status</th>
 <th className="px-4 py-3">Transaction</th>
             </tr>
           </thead>
@@ -86,8 +89,30 @@ export default function SigningsSearch({
                   {signing.date}
                 </td>
 
+                <td className="whitespace-nowrap px-4 py-4">
+                  <span
+                    className={`rounded-md px-2 py-1 text-xs font-medium ${
+                      signing.status === "Signing Reported"
+                        ? "bg-amber-500/10 text-amber-400"
+                        : "bg-green-500/10 text-green-400"
+                    }`}
+                  >
+                    {signing.status ?? "Signed"}
+                  </span>
+                </td>
+
                 <td className="px-4 py-4 text-gray-300">
                   {signing.description}
+                  {signing.sourceUrl && (
+                    <a
+                      href={signing.sourceUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="ml-2 text-blue-400 hover:underline"
+                    >
+                      Source
+                    </a>
+                  )}
                 </td>
               </tr>
             ))}

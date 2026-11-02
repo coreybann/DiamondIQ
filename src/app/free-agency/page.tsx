@@ -9,6 +9,7 @@ import {
   detectFreeAgentSignings,
 } from "@/lib/mlbTransactions";
 import SigningSearch from "./SigningSearch";
+import signingReportData from "../../../public/data/free-agent-signing-reports-2027.json";
 import {
   freeAgents,
   getCurrentOffseason,
@@ -39,6 +40,32 @@ const currentTransactions =
       )
     : [];
 const currentSignings = detectFreeAgentSignings(currentTransactions);
+
+const officialSigningPlayerIds = new Set(
+  currentSignings
+    .map((signing) => signing.playerId)
+    .filter((id): id is number => id !== null)
+);
+
+const reportedSignings = signingReportData.signings
+  .filter(
+    (report) =>
+      !officialSigningPlayerIds.has(report.playerId)
+  )
+  .map((report) => ({
+    id: -report.playerId,
+    playerId: report.playerId,
+    playerName: report.playerName,
+    date: report.date,
+    description: `Reported agreement with ${report.team} (not yet confirmed by an official MLB transaction)`,
+    status: "Signing Reported" as const,
+    sourceUrl: report.sources[0]?.url,
+  }));
+
+const combinedCurrentSignings = [
+  ...currentSignings,
+  ...reportedSignings,
+].sort((a, b) => b.date.localeCompare(a.date));
 const historicalSignings = await getFreeAgentSignings(
   `${offseasonStartYear - 1}-11-01`,
   `${offseasonStartYear}-03-31`
@@ -65,20 +92,39 @@ const historicalSignings = await getFreeAgentSignings(
       .map((signing) => [signing.playerId, signing])
   );
 
+  const reportedSigningByPlayerId = new Map(
+    signingReportData.signings.map((report) => [
+      report.playerId,
+      report,
+    ])
+  );
+
   const currentFreeAgents = freeAgents
     .filter((player) => player.offseason === offseason)
     .map((player) => {
-      const signing =
+      const officialSigning =
         player.id > 0 ? signingByPlayerId.get(player.id) : undefined;
 
+      const reportedSigning =
+        player.id > 0
+          ? reportedSigningByPlayerId.get(player.id)
+          : undefined;
 
       return {
         ...player,
-status: signing
-  ? ("Signing Reported" as const)
-  : player.status,
-        signedTeam: signing?.toTeam ?? player.signedTeam,
-        signingDate: signing?.date ?? player.signingDate,
+        status: officialSigning
+          ? ("Signed" as const)
+          : reportedSigning
+            ? ("Signing Reported" as const)
+            : player.status,
+        signedTeam:
+          officialSigning?.toTeam ??
+          reportedSigning?.team ??
+          player.signedTeam,
+        signingDate:
+          officialSigning?.date ??
+          reportedSigning?.date ??
+          player.signingDate,
       };
     });
 
@@ -158,7 +204,7 @@ status: signing
 
 <SigningSearch
   title="Current Offseason Signings"
-  signings={currentSignings}
+  signings={combinedCurrentSignings}
   playerPositions={playerPositions}
 />
 </div>
