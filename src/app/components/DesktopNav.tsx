@@ -12,17 +12,35 @@ const primaryLinks = [
   { label: "Compare", href: "/compare" },
 ];
 
-const toolLinks = [
-  { label: "Scouting", href: "/scouting" },
-  { label: "Front Office", href: "/front-office" },
-  { label: "Team Needs", href: "/team-needs" },
-  { label: "Trade Analyzer", href: "/trade-analyzer" },
-  { label: "Trade Target Finder", href: "/trade-target-finder" },
-  { label: "Lineup Optimizer", href: "/lineup-optimizer" },
-  { label: "Roster Constructor", href: "/roster-constructor" },
-  { label: "Free Agency", href: "/free-agency" },
-  { label: "Research", href: "/research" },
+const toolGroups = [
+  {
+    title: "Front Office",
+    links: [
+      { label: "Front Office", href: "/front-office" },
+      { label: "Team Needs", href: "/team-needs" },
+      { label: "Roster Constructor", href: "/roster-constructor" },
+      { label: "Lineup Optimizer", href: "/lineup-optimizer" },
+    ],
+  },
+  {
+    title: "Trades & Free Agency",
+    links: [
+      { label: "Trade Analyzer", href: "/trade-analyzer" },
+      { label: "Trade Target Finder", href: "/trade-target-finder" },
+      { label: "Free Agency", href: "/free-agency" },
+    ],
+  },
+  {
+    title: "Scouting",
+    links: [{ label: "Scouting", href: "/scouting" }],
+  },
+  {
+    title: "Research",
+    links: [{ label: "Research", href: "/research" }],
+  },
 ];
+
+const toolLinks = toolGroups.flatMap((group) => group.links);
 
 function isActive(pathname: string, href: string) {
   return pathname === href || pathname.startsWith(`${href}/`);
@@ -106,22 +124,47 @@ export default function DesktopNav() {
                 className="fixed inset-0 z-40 cursor-default"
                 onClick={() => setToolsOpen(false)}
               />
-              <div className="absolute right-0 top-full z-50 mt-2 w-56 rounded-xl border border-white/10 bg-[#102238] p-2 shadow-2xl">
-                {toolLinks.map((item) => (
+              <div className="absolute right-0 top-full z-50 mt-2 w-[520px] max-w-[calc(100vw-2rem)] rounded-xl border border-white/10 bg-[#102238] p-4 shadow-2xl">
+                <p className="mb-3 px-2 text-sm font-semibold text-white">
+                  DiamondIQ Tools
+                </p>
+
+                <div className="grid grid-cols-2 gap-x-5 gap-y-5">
+                  {toolGroups.map((group) => (
+                    <div key={group.title}>
+                      <p className="mb-2 px-2 text-xs font-semibold uppercase tracking-wide text-blue-400">
+                        {group.title}
+                      </p>
+                      <div className="space-y-1">
+                        {group.links.map((item) => (
+                          <Link
+                            key={item.href}
+                            href={item.href}
+                            onClick={() => setToolsOpen(false)}
+                            aria-current={isActive(activePathname, item.href) ? "page" : undefined}
+                            className={`block rounded-lg px-2 py-2 text-sm transition-colors ${
+                              isActive(activePathname, item.href)
+                                ? "bg-blue-500/10 font-semibold text-blue-400"
+                                : "text-slate-300 hover:bg-white/5 hover:text-white"
+                            }`}
+                          >
+                            {item.label}
+                          </Link>
+                        ))}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+
+                <div className="mt-4 border-t border-white/10 pt-3">
                   <Link
-                    key={item.href}
-                    href={item.href}
+                    href="/more"
                     onClick={() => setToolsOpen(false)}
-                    aria-current={activePathname === item.href ? "page" : undefined}
-                    className={`block rounded-lg px-3 py-2.5 text-sm transition-colors ${
-                      isActive(activePathname, item.href)
-                        ? "bg-blue-500/10 font-semibold text-blue-400"
-                        : "text-slate-300 hover:bg-white/5 hover:text-white"
-                    }`}
+                    className="block rounded-lg px-2 py-2 text-sm font-semibold text-blue-400 transition-colors hover:bg-white/5"
                   >
-                    {item.label}
+                    View All Tools →
                   </Link>
-                ))}
+                </div>
               </div>
             </>
           )}
