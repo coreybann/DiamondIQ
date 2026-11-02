@@ -15,6 +15,7 @@ const primaryLinks = [
 const toolLinks = [
   { label: "Scouting", href: "/scouting" },
   { label: "Front Office", href: "/front-office" },
+  { label: "Team Needs", href: "/team-needs" },
   { label: "Trade Analyzer", href: "/trade-analyzer" },
   { label: "Lineup Optimizer", href: "/lineup-optimizer" },
   { label: "Roster Constructor", href: "/roster-constructor" },

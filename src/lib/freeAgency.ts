@@ -14,6 +14,7 @@ export type FreeAgent = {
   name: string;
   position: string;
   age: number | null;
+  war2025_2026: number | null;
   previousTeam: string;
   status: FreeAgentStatus;
     contractOption?: string | null;
@@ -59,6 +60,7 @@ export const freeAgents: FreeAgent[] = freeAgentData.players.map(
     name: player.name,
     position: player.position,
     age: player.age,
+    war2025_2026: player.war2025_2026 ?? null,
   previousTeam: (freeAgentTeams.teams as Record<string, string>)[player.name] ?? "N/A",
   contractOption: player.contractOption,
   optionDecisionDate: verifiedStatuses[player.name]?.optionDecisionDate ?? undefined,
@@ -74,3 +76,20 @@ status:
     offseason: "2026-2027",
   })
 );
+export function getFreeAgentRecommendations(
+  position: string,
+  limit = 3
+): FreeAgent[] {
+  return freeAgents
+    .filter(
+      (player) =>
+        player.position === position &&
+        player.status === "Available"
+    )
+    .sort(
+      (a, b) =>
+        (b.war2025_2026 ?? -Infinity) -
+        (a.war2025_2026 ?? -Infinity)
+    )
+    .slice(0, limit);
+}

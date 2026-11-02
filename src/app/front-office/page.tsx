@@ -1667,6 +1667,232 @@ with at least{" "}
   </div>
 </div>
 
+
+<div className="mt-8 rounded-xl border border-blue-800 bg-slate-800/60 p-6">
+  <h3 className="text-xl font-bold text-white">
+    Executive Decision Summary
+  </h3>
+
+  <p className="mt-2 text-sm text-slate-400">
+    Front-office recommendations based on 2026 team payroll,
+    production, and cost efficiency.
+  </p>
+
+  <div className="mt-6 grid gap-4 md:grid-cols-2">
+    <div className="rounded-lg border border-green-800 bg-slate-900 p-5">
+      <p className="text-sm font-semibold text-green-400">
+        Most Efficient Team
+      </p>
+
+      {bestValueTeam ? (
+        <>
+          <h4 className="mt-2 text-2xl font-bold text-white">
+            {bestValueTeam.team}
+          </h4>
+          <p className="mt-2 text-sm text-slate-300">
+            ${Math.round(bestValueTeam.costPerWar!).toLocaleString()} per WAR
+          </p>
+          <p className="mt-3 text-sm text-slate-400">
+            Review this team's roster construction and spending
+            efficiency for potential lessons in building
+            cost-effective rosters.
+          </p>
+        </>
+      ) : (
+        <p className="mt-2 text-sm text-slate-400">
+          Insufficient matched data to identify a team.
+        </p>
+      )}
+    </div>
+
+    <div className="rounded-lg border border-orange-800 bg-slate-900 p-5">
+      <p className="text-sm font-semibold text-orange-400">
+        Least Efficient Team
+      </p>
+
+      {leastValueTeam ? (
+        <>
+          <h4 className="mt-2 text-2xl font-bold text-white">
+            {leastValueTeam.team}
+          </h4>
+          <p className="mt-2 text-sm text-slate-300">
+            ${Math.round(leastValueTeam.costPerWar!).toLocaleString()} per WAR
+          </p>
+          <p className="mt-3 text-sm text-slate-400">
+            Review expensive roster commitments and identify
+            opportunities to improve production relative to payroll.
+          </p>
+        </>
+      ) : (
+        <p className="mt-2 text-sm text-slate-400">
+          Insufficient matched data to identify a team.
+        </p>
+      )}
+    </div>
+  </div>
+
+  <div className="mt-5 rounded-lg border border-slate-700 bg-slate-900 p-5">
+    <h4 className="font-semibold text-white">
+      League-Wide Spending Assessment
+    </h4>
+
+    <div className="mt-4 grid grid-cols-2 gap-4">
+      <div>
+        <p className="text-sm text-slate-400">
+          Efficient Spending Teams
+        </p>
+        <p className="mt-1 text-2xl font-bold text-green-400">
+          {quadrantCounts.topLeft}
+        </p>
+        <p className="text-xs text-slate-500">
+          Above-average bWAR, below-average payroll
+        </p>
+      </div>
+
+      <div>
+        <p className="text-sm text-slate-400">
+          Potential Spending Concerns
+        </p>
+        <p className="mt-1 text-2xl font-bold text-orange-400">
+          {quadrantCounts.bottomRight}
+        </p>
+        <p className="text-xs text-slate-500">
+          Below-average bWAR, above-average payroll
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div className="mt-6">
+    <h4 className="text-lg font-bold text-white">
+      Front Office Action Plan
+    </h4>
+    <p className="mt-2 text-sm text-slate-400">
+      Suggested strategic priorities based on each team's
+      historical payroll and production profile.
+    </p>
+
+    <div className="mt-4 grid gap-4 md:grid-cols-2">
+
+      {[
+        {
+          title: "High Production / Lower Payroll",
+          count: quadrantCounts.topLeft,
+          color: "green",
+          teams: teamRosterValue.filter(
+            team => team.payroll / 1_000_000 < averagePayroll &&
+                    team.totalWar >= averageWar
+          ),
+        },
+        {
+          title: "High Production / Higher Payroll",
+          count: quadrantCounts.topRight,
+          color: "blue",
+          teams: teamRosterValue.filter(
+            team => team.payroll / 1_000_000 >= averagePayroll &&
+                    team.totalWar >= averageWar
+          ),
+        },
+        {
+          title: "Low Production / Lower Payroll",
+          count: quadrantCounts.bottomLeft,
+          color: "slate",
+          teams: teamRosterValue.filter(
+            team => team.payroll / 1_000_000 < averagePayroll &&
+                    team.totalWar < averageWar
+          ),
+        },
+        {
+          title: "Low Production / Higher Payroll",
+          count: quadrantCounts.bottomRight,
+          color: "orange",
+          teams: teamRosterValue.filter(
+            team => team.payroll / 1_000_000 >= averagePayroll &&
+                    team.totalWar < averageWar
+          ),
+        },
+      ].map((group) => (
+        <div
+          key={group.title}
+          className="rounded-lg border border-slate-700 bg-slate-900 p-5"
+        >
+          <h5 className={`font-semibold ${
+            group.color === "green" ? "text-green-400" :
+            group.color === "blue" ? "text-blue-400" :
+            group.color === "orange" ? "text-orange-400" :
+            "text-slate-200"
+          }`}>
+            {group.title}
+          </h5>
+
+          <p className="mt-2 text-sm text-white">
+            {group.count} teams identified
+          </p>
+
+          <details className="mt-4 border-t border-slate-700 pt-3">
+            <summary className="cursor-pointer text-sm font-semibold text-blue-400 hover:text-blue-300">
+              View Teams and Metrics
+            </summary>
+
+            <div className="mt-4 space-y-3">
+              {group.teams
+                .sort((a, b) => (a.costPerWar ?? Infinity) - (b.costPerWar ?? Infinity))
+                .map((team) => (
+                  <div
+                    key={team.team}
+                    className="rounded-lg border border-slate-700 bg-slate-800 p-4"
+                  >
+                    <h6 className="font-bold text-white">
+                      {team.team}
+                    </h6>
+
+                    <div className="mt-3 grid grid-cols-3 gap-2">
+                      <div>
+                        <p className="text-xs text-slate-400">Payroll</p>
+                        <p className="mt-1 text-sm font-semibold text-white">
+                          ${(team.payroll / 1_000_000).toFixed(1)}M
+                        </p>
+                      </div>
+
+                      <div>
+                        <p className="text-xs text-slate-400">bWAR</p>
+                        <p className="mt-1 text-sm font-semibold text-white">
+                          {team.totalWar.toFixed(2)}
+                        </p>
+                      </div>
+
+                      <div>
+                        <p className="text-xs text-slate-400">Cost / WAR</p>
+                        <p className="mt-1 text-sm font-semibold text-white">
+                          {team.costPerWar !== null
+                            ? `$${Math.round(team.costPerWar / 1_000_000 * 10) / 10}M`
+                            : "N/A"}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+
+              {group.teams.length === 0 && (
+                <p className="text-sm text-slate-400">
+                  No teams in this category.
+                </p>
+              )}
+            </div>
+          </details>
+        </div>
+      ))}
+    </div>
+  </div>
+
+  <p className="mt-4 text-xs text-slate-500">
+    Analysis uses 2026 historical salary and bWAR data.
+    Recommendations are descriptive and do not represent
+    projected future performance.
+  </p>
+</div>
+
+
   </div>
 )}
 

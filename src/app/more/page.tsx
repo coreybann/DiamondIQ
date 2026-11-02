@@ -26,6 +26,12 @@ const morePages = [
     icon: "🔄",
   },
   {
+    title: "Roster Constructor",
+    description: "Build custom MLB rosters, evaluate projected WAR, and compare 2027 payroll with estimated arbitration salaries.",
+    href: "/roster-constructor",
+    icon: "🧩",
+  },
+  {
   title: "Free Agency",
   description: "Track MLB free agents, offseason signings, and player positions.",
   href: "/free-agency",
