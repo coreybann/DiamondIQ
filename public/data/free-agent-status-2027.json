@@ -1,6 +1,6 @@
 {
   "season": 2027,
-  "lastVerified": "2026-11-02T18:08:58.521609+00:00",
+  "lastVerified": "2026-11-02T18:59:51.079569+00:00",
   "players": {
     "Michael King": {
       "status": "Available",
@@ -271,6 +271,12 @@
       "verifiedAt": "2026-11-02T18:08:58.521609+00:00",
       "source": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNMzR5cFZhUktkVmFTREZGSmJVLVdTeW85Rm5wc053VUlfbFRTd2NzYngzMk9tSENSeTI0TDNDQmVYYWZZaVNwSTlKcEVURU4tNHNSNk1rUW9oR1Y0dXhtWFlhazdobkd5YU5iMmZ2Q1BMSFJzOUJnanRuTG5IbEFVUmpkVmJNWTlEc3NpYU1HbVlramltR1E?oc=5",
       "optionDecisionDate": "2026-10-30"
+    },
+    "Ryan Mountcastle": {
+      "status": "Available",
+      "verifiedAt": "2026-11-02T18:59:51.079569+00:00",
+      "source": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUHJBNjJ0Vk5hYTRBRUpoUURobUJkaV82NXJXV3l0UWlpZ0NPWEZQZkJyM1pWQXdLekVxblpJby1tRmJmclg5Qm05M2w3dDRheDhLYnNWcERtdDBLTmtISEp5X2V0WVBZQlQ1eXhfeGFCVVVucnREMTZsdEZYUm1MSE9wY2JjYXJX?oc=5",
+      "optionDecisionDate": "2026-11-02"
     }
   }
 }
