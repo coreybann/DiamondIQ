@@ -1,6 +1,6 @@
 {
   "season": 2027,
-  "lastVerified": "2026-11-02T22:48:09.102627+00:00",
+  "lastVerified": "2026-11-02T23:43:42.602845+00:00",
   "players": {
     "Michael King": {
       "status": "Available",
@@ -301,6 +301,24 @@
       "verifiedAt": "2026-11-02T22:48:09.102627+00:00",
       "source": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWEFIOVdidHB2bTFYTmpHYmRsT24yU2Q1c3hxSnd0aHdQUEVGR1Bwdk45Mmwwb3AySE9pX04xSlFhRHB1R3lPLW5QaXl6eTZNOFdYV0NMdWhHNDlyaDFNWF9sTGhmeXpZNlZPNjJHMDlySDZacm9MaGFQSkhiWEtqTEpfaFJsSFBkVjFRZ3R3VDRSSzlpcThoVXhQN1VRVVdPd2VZWjFUMHU1UmZFUDVz?oc=5",
       "optionDecisionDate": "2026-11-02"
+    },
+    "Jacob Webb": {
+      "status": "Available",
+      "verifiedAt": "2026-11-02T23:43:42.602845+00:00",
+      "source": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPbXVyWTZSODB5eW8yT1pjTXp4TUE3LUVFXy00OXZQLUU0M2E1RTZ1MW1qZFcxbUhscWJIa0dyOWhLYXQ2ajhiUTZtdW5hTlpqWHlSRXpET2dWSUliRGI5RmFBaXZBcTRvSWdsdE81N3ZSYXUwakNSYTZ1ZW5RSHJSSEhuUXdsUWdSVzdVcGFyblNmLTg?oc=5",
+      "optionDecisionDate": "2026-11-02"
+    },
+    "Kenley Jansen": {
+      "status": "Available",
+      "verifiedAt": "2026-11-02T23:43:42.602845+00:00",
+      "source": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPY3FqZUJoN0FGNzllc3pxQlhaSzJYOXRjTzZGV3BrZVFpUm9jdEQ4UXUwSGZncWhVME1xV0dpZ19jNXdEMWh3aDNNT1NOcFJhTU9FdzVYbEJZdGNGekRCODVVeGVPU0lwOVp4REFRWVJ2V24yMmVWX2d0QVJkeGxLQ1VsdnNTV3FZbUZ1S0lXU3VGS2xDcVNyVl9oU1RxeGtrZERMSjF2NkRQeHpRMDB1Uw?oc=5",
+      "optionDecisionDate": "2026-11-02"
+    },
+    "Drew Anderson": {
+      "status": "Under Contract",
+      "verifiedAt": "2026-11-02T23:43:42.602845+00:00",
+      "source": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdUZiTFpzdnU2UVNiOXRaU2RiSThPSmdJZ2hkOFowN1d0azE0UFBXT3V6LXBfdnJ6M01tcHVZZEcxMl9YWWZjNmNCekxfZVNTTjJUNFBkYzBMWmpUcUdYYS1LcVVfdjNKSkV1RDB3SU5CT2RJaEdSS05TejBNOEZVZ0JvSlBEajRkYmtIVE81RXIxNFhuSWNqemc4Vldkd1B5d3NSTkxUVEFBNzQ0dGRtOA?oc=5",
+      "optionDecisionDate": "2026-10-30"
     }
   }
 }
