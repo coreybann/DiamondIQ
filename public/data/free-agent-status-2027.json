@@ -1,6 +1,6 @@
 {
   "season": 2027,
-  "lastVerified": "2026-11-01T19:44:42.923605+00:00",
+  "lastVerified": "2026-11-02T01:09:35.249977+00:00",
   "players": {
     "Michael King": {
       "status": "Available",
@@ -216,6 +216,18 @@
       "status": "Under Contract",
       "verifiedAt": "2026-11-01T19:44:42.923605+00:00",
       "source": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdW8yU1lNckEwWi1fYTdFQ0xPZEsyM3A1Umk1MHpHN0dPX0pKcW5pQUh6SmpRRGRyYnZyN1g0R0RvajJBcFJScTd1V1NBQXZEWlBuUlBZeWVKQTJPaWY5WkpxVGdtd0dnbW1GUjhmdXNoMXEwZlM0b0RTcWxLZmEwdXRidFVEamNvdGZRY3NJMzl5ZDBoX0pJLVRDd2xVYXlWcHhDTDczMGd4YWJ5NEc1ZXpMcEtHMXM?oc=5",
+      "optionDecisionDate": "2026-11-01"
+    },
+    "Griffin Canning": {
+      "status": "Available",
+      "verifiedAt": "2026-11-02T01:09:35.249977+00:00",
+      "source": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNYXdmVUh4UkZpQmZDRV9uN1RTRkMtbU5jaEVvNkEwRENwSzhrNjItakM0UGRybURJd2wyUDZ5WlVlaVR3V0dmb0FyUHJSOVlHSmtZcUNCR29TdG9WZnYzMm51NzcyODlkNDA3QmZGYloxVjByRmRNZTNFeG43LVBBZXJJX01YNHpuSHRDWmJLODFZX1dSeWM1V253N0NFSkZBcDBhUFZmY2dNaUpfd0kyYVRYbGczUXVpYWNWR3NmNWFUcS16OVMyVC1MTERoT1BackE?oc=5",
+      "optionDecisionDate": "2026-11-01"
+    },
+    "Ryne Stanek": {
+      "status": "Available",
+      "verifiedAt": "2026-11-02T01:09:35.249977+00:00",
+      "source": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdTQ2cFc1RHg4SXcyRlBJV0xFN1VYckswWGxFaTE2bUNDSklGWUF6WEJwN2VITDNqM3VsUENjeXVFcVZwR0FKM1lGaXRvZ0szQXdiY09IYlRSRUpHRHJtREFWX1JyVGpRMTZDMmxKeHY4dHdjY1NveV9QX3FIOWFmMENnbWNZa0VGQi1GSHpwQQ?oc=5",
       "optionDecisionDate": "2026-11-01"
     }
   }
