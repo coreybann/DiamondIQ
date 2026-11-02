@@ -234,23 +234,26 @@ for name, articles in reports.items():
 
     print(f"NEW REPORT: {name} -> {team}")
 
-existing["signings"] = sorted(
+updated_signings = sorted(
     saved.values(),
     key=lambda report: report["date"],
     reverse=True,
 )
-existing["lastUpdated"] = datetime.now(
-    timezone.utc
-).isoformat()
 
 import sys
 
-if "--write" in sys.argv:
+if updated_signings == existing["signings"]:
+    print("No signing report changes. File left unchanged.")
+elif "--write" in sys.argv:
+    existing["signings"] = updated_signings
+    existing["lastUpdated"] = datetime.now(
+        timezone.utc
+    ).isoformat()
     DATA_FILE.write_text(
         json.dumps(existing, indent=2, ensure_ascii=False) + "\n"
     )
     print("Signing reports saved.")
 else:
-    print("DRY RUN: No files were modified.")
+    print("DRY RUN: Changes detected. No files were modified.")
 
 print(f"Total detected reports: {len(existing['signings'])}")

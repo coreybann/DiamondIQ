@@ -1,0 +1,44 @@
+name: Update MLB Signing Reports
+
+on:
+  schedule:
+    - cron: "37 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-signing-reports
+  cancel-in-progress: false
+
+jobs:
+  update-signings:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Check for reported MLB signings
+        run: python3 scripts/update-signing-reports.py --write
+
+      - name: Commit updated signing reports
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add public/data/free-agent-signing-reports-2027.json
+
+          if git diff --cached --quiet; then
+            echo "No signing report changes."
+            exit 0
+          fi
+
+          git commit -m "Update reported MLB free agent signings"
+          git push
