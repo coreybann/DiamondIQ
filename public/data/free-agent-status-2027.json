@@ -1,6 +1,6 @@
 {
   "season": 2027,
-  "lastVerified": "2026-11-02T18:59:51.079569+00:00",
+  "lastVerified": "2026-11-02T22:48:09.102627+00:00",
   "players": {
     "Michael King": {
       "status": "Available",
@@ -276,6 +276,30 @@
       "status": "Available",
       "verifiedAt": "2026-11-02T18:59:51.079569+00:00",
       "source": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUHJBNjJ0Vk5hYTRBRUpoUURobUJkaV82NXJXV3l0UWlpZ0NPWEZQZkJyM1pWQXdLekVxblpJby1tRmJmclg5Qm05M2w3dDRheDhLYnNWcERtdDBLTmtISEp5X2V0WVBZQlQ1eXhfeGFCVVVucnREMTZsdEZYUm1MSE9wY2JjYXJX?oc=5",
+      "optionDecisionDate": "2026-11-02"
+    },
+    "Myles Straw": {
+      "status": "Available",
+      "verifiedAt": "2026-11-02T22:48:09.102627+00:00",
+      "source": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOR181SXN5UjhSdmpsRE5MZERib1Y0Rko2aENNNkhWOV9vY0UxZ1pqcDJOQ1hXQW9OX191WHptZ2pOMFQ5akdtbkFPRUF1LWxTeDhjS1k3Q2FKc2hqeVNwc0s3RlRBNFhVZFRnV2NEYzNlbmdEOFY0eVVralRGTWNXV21LZmdwX2l6NlN3?oc=5",
+      "optionDecisionDate": "2026-11-02"
+    },
+    "Dietrich Enns": {
+      "status": "Available",
+      "verifiedAt": "2026-11-02T22:48:09.102627+00:00",
+      "source": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdV9oM0tfVWE4a1kwa21Ed0ZQZXFrUGl3NS1MTlg5YkQ5SW03QUpPUTVpNnFBTm4xY0ZURGxLdnJVdTZBTWQ5TS00eFE2alhQblZpSkFraV9LX2pRT0JsNmlIcEExa0pzSnFMZE5DM1dqTjJJaUdiejQtOS04Q2VQTjBKRWZJcHdJNnc4S3ZYYjFtUQ?oc=5",
+      "optionDecisionDate": "2026-11-02"
+    },
+    "Gary Sánchez": {
+      "status": "Available",
+      "verifiedAt": "2026-11-02T22:48:09.102627+00:00",
+      "source": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPN3RUSWhnQTZfQVRmSDlrdnZNb254TzZRRkVWQ3A2bHA4bGxSUEFTRGxDTW11bWNrSUtqcGZpcWNjb2l6VGZpUXNrR005MTM3ZVB0YW9OSWhycllJSU1BMUd0ZDZGR3NuUFFEREJma3FRaFJGRV9iazlYMzhoSUFuTjZUM0VZdDd1Skp1OVpyTUdpcXB4Vmh1cmhjYXFQOFZYV1NEZXNwbw?oc=5",
+      "optionDecisionDate": "2026-10-30"
+    },
+    "Caleb Thielbar": {
+      "status": "Available",
+      "verifiedAt": "2026-11-02T22:48:09.102627+00:00",
+      "source": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWEFIOVdidHB2bTFYTmpHYmRsT24yU2Q1c3hxSnd0aHdQUEVGR1Bwdk45Mmwwb3AySE9pX04xSlFhRHB1R3lPLW5QaXl6eTZNOFdYV0NMdWhHNDlyaDFNWF9sTGhmeXpZNlZPNjJHMDlySDZacm9MaGFQSkhiWEtqTEpfaFJsSFBkVjFRZ3R3VDRSSzlpcThoVXhQN1VRVVdPd2VZWjFUMHU1UmZFUDVz?oc=5",
       "optionDecisionDate": "2026-11-02"
     }
   }
