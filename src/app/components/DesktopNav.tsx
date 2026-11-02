@@ -17,6 +17,7 @@ const toolLinks = [
   { label: "Front Office", href: "/front-office" },
   { label: "Team Needs", href: "/team-needs" },
   { label: "Trade Analyzer", href: "/trade-analyzer" },
+  { label: "Trade Target Finder", href: "/trade-target-finder" },
   { label: "Lineup Optimizer", href: "/lineup-optimizer" },
   { label: "Roster Constructor", href: "/roster-constructor" },
   { label: "Free Agency", href: "/free-agency" },
