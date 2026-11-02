@@ -149,15 +149,66 @@ def classify_headline(title, players):
     if re.search(r"(?:'2[0-6]\b|\b202[0-6]\b)", headline, re.I):
         return []
 
-    # Split independent decisions, including comma-separated MLB headlines.
-    clauses = re.split(r"\s*[;:,]\s*", headline)
+    # Recognize a shared decision for a list of players only when the
+    # entire headline clearly describes one outcome.
+    shared_available = re.search(
+        r"\b(?:enter|entered|elect|elected) free agency\b"
+        r".{0,90}\bdeclined?\b.{0,40}\boptions?\b",
+        headline,
+        re.I,
+    )
+
+    if shared_available and not re.search(
+        r"\b(?:exercise|exercised|pick up|picked up)\b",
+        headline,
+        re.I,
+    ):
+        names = [
+            name for name in players
+            if re.search(rf"(?<!\w){re.escape(name)}(?!\w)", headline, re.I)
+        ]
+        if len(names) >= 2:
+            return [(name, "Available") for name in names]
+
+    # Split distinct decisions at semicolons, preserving comma-separated
+    # player lists within each decision.
+    segments = re.split(r"\s*;\s*", headline)
     results = []
-    for clause in clauses:
-        matches = [name for name in players if mentions_player(clause, name)]
-        for name in matches:
-            status = classify_clause(clause, name)
-            if status:
-                results.append((name, status))
+
+    for segment in segments:
+        # A shared outcome applies only when the segment contains a clear
+        # decision and no competing outcome.
+        decline = bool(re.search(
+            r"\b(?:decline|declines|declined|reject|rejects|rejected)\b"
+            r".{0,120}\boptions?\b",
+            segment, re.I,
+        ))
+        exercise = bool(re.search(
+            r"\b(?:exercise|exercises|exercised|pick up|picks up|picked up)\b"
+            r".{0,120}\boptions?\b"
+            r"|\b(?:exercise|exercises|exercised)\s+options?\b",
+            segment, re.I,
+        ))
+
+        names = [
+            name for name in players
+            if re.search(rf"(?<!\w){re.escape(name)}(?!\w)", segment, re.I)
+        ]
+
+        if len(names) >= 2 and decline != exercise:
+            if re.search(
+                r"\b(expected|likely|may|might|could|would|should|plans to)\b",
+                segment, re.I,
+            ):
+                continue
+            status = "Available" if decline else "Under Contract"
+            results.extend((name, status) for name in names)
+        else:
+            for name in names:
+                status = classify_clause(segment, name)
+                if status:
+                    results.append((name, status))
+
     return results
 
 
@@ -226,13 +277,13 @@ for name, reports in reports_by_player.items():
 
     official_report = publishers.get("mlb.com")
     if official_report:
-        print(f"OFFICIAL: {name} confirmed by MLB.com.")
+        print(f"OFFICIAL: {name} reported by MLB.com.")
         verified_decisions.append(official_report)
-    elif len(publishers) >= 2:
-        print(f"CONFIRMED: {name} has {len(publishers)} publishers.")
+    elif publishers:
+        print(f"REPORTED: {name} has {len(publishers)} publisher(s).")
         verified_decisions.append(next(iter(publishers.values())))
     else:
-        print(f"UNCONFIRMED: {name} needs another source.")
+        print(f"NO SOURCE: {name} has no identifiable publisher. Skipping.")
 
 now = datetime.now(timezone.utc).isoformat()
 changes = 0

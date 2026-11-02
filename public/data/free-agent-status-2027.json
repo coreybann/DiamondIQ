@@ -1,6 +1,6 @@
 {
   "season": 2027,
-  "lastVerified": "2026-11-02T16:05:38.115502+00:00",
+  "lastVerified": "2026-11-02T18:08:58.521609+00:00",
   "players": {
     "Michael King": {
       "status": "Available",
@@ -235,6 +235,42 @@
       "verifiedAt": "2026-11-02T16:05:38.115502+00:00",
       "source": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdDg5SVlOSUVvOFpDRU1OWnlLSHBvZGhyOW8tWTBDZU05Nmx3TDYwcFpkdU9FTThGNTZFV1EzVXZmSTc3d3F0eWV2d2FiTU9WQXhJdDBsdTJfRjVVcFF5QXVGTlFzYzExX3pxR1h1WDB1MWRoeXBqX1hZLWRkMldIUUxuQWdHWGxmclhXNC1mMXBpa3R0S3djcDR3?oc=5",
       "optionDecisionDate": "2026-11-02"
+    },
+    "Kyle Higashioka": {
+      "status": "Available",
+      "source": "https://www.mlb.com/amp/news/joc-pederson-kyle-higashioka-jakob-junis-mutual-options-declined.html",
+      "optionDecisionDate": "2026-10-30",
+      "verifiedAt": "2026-11-02T18:00:58.292173+00:00"
+    },
+    "Miguel Andujar": {
+      "status": "Available",
+      "source": "https://www.nbcsports.com/fantasy/baseball/player-news/2026-11-01/miguel-andujar-turns-down-mutual-option",
+      "optionDecisionDate": "2026-11-01",
+      "verifiedAt": "2026-11-02T18:00:58.292173+00:00"
+    },
+    "Lucas Giolito": {
+      "status": "Available",
+      "verifiedAt": "2026-11-02T18:08:58.521609+00:00",
+      "source": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNYXdmVUh4UkZpQmZDRV9uN1RTRkMtbU5jaEVvNkEwRENwSzhrNjItakM0UGRybURJd2wyUDZ5WlVlaVR3V0dmb0FyUHJSOVlHSmtZcUNCR29TdG9WZnYzMm51NzcyODlkNDA3QmZGYloxVjByRmRNZTNFeG43LVBBZXJJX01YNHpuSHRDWmJLODFZX1dSeWM1V253N0NFSkZBcDBhUFZmY2dNaUpfd0kyYVRYbGczUXVpYWNWR3NmNWFUcS16OVMyVC1MTERoT1BackE?oc=5",
+      "optionDecisionDate": "2026-11-01"
+    },
+    "Luis Severino": {
+      "status": "Under Contract",
+      "verifiedAt": "2026-11-02T18:08:58.521609+00:00",
+      "source": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQV0lNRDVna2xvMEtUdktlekQ3SkZITmJnbGRBVXUwVzFIU2ZPN2FiUm1VRkZYbi1Bd1hSMzNicldqQmpVY3pyN0xSclJ3b3ZKU1Bxei1fb2dPT0JWS05MQkFrOVRlS0JMTEdvd2JhUzJXaE9Jc0JGcUM5ekJRV2M1R25TVThldEdUd2VuWnRvUi1RaGNKOUE?oc=5",
+      "optionDecisionDate": "2026-10-31"
+    },
+    "Pierce Johnson": {
+      "status": "Available",
+      "verifiedAt": "2026-11-02T18:08:58.521609+00:00",
+      "source": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNb2RlWnB3NDNmLWYweGFXeE81NGRNN3F6a2tHN1VZemJpbkx1OUxNSjl6NFB0eEl5am5KT28tRmxfdzZiS3RvMHRKbWdIWkcweVZlLURTUlBCTWkwYzVubTJFdE9JWmNXZl9HYWRISms1cWhmazVkUDE2cTJmRVM0SHBRN1JCajc2RXB1YXlWYjJ4ZWZrWmRqcnhUMG9TbENfRnpqNWxRdWU?oc=5",
+      "optionDecisionDate": "2026-10-31"
+    },
+    "Robert Stephenson": {
+      "status": "Available",
+      "verifiedAt": "2026-11-02T18:08:58.521609+00:00",
+      "source": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNMzR5cFZhUktkVmFTREZGSmJVLVdTeW85Rm5wc053VUlfbFRTd2NzYngzMk9tSENSeTI0TDNDQmVYYWZZaVNwSTlKcEVURU4tNHNSNk1rUW9oR1Y0dXhtWFlhazdobkd5YU5iMmZ2Q1BMSFJzOUJnanRuTG5IbEFVUmpkVmJNWTlEc3NpYU1HbVlramltR1E?oc=5",
+      "optionDecisionDate": "2026-10-30"
     }
   }
 }
