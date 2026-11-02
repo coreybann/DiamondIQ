@@ -1,6 +1,6 @@
 {
   "season": 2027,
-  "lastVerified": "2026-11-02T01:09:35.249977+00:00",
+  "lastVerified": "2026-11-02T16:05:38.115502+00:00",
   "players": {
     "Michael King": {
       "status": "Available",
@@ -229,6 +229,12 @@
       "verifiedAt": "2026-11-02T01:09:35.249977+00:00",
       "source": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdTQ2cFc1RHg4SXcyRlBJV0xFN1VYckswWGxFaTE2bUNDSklGWUF6WEJwN2VITDNqM3VsUENjeXVFcVZwR0FKM1lGaXRvZ0szQXdiY09IYlRSRUpHRHJtREFWX1JyVGpRMTZDMmxKeHY4dHdjY1NveV9QX3FIOWFmMENnbWNZa0VGQi1GSHpwQQ?oc=5",
       "optionDecisionDate": "2026-11-01"
+    },
+    "Colin Rea": {
+      "status": "Available",
+      "verifiedAt": "2026-11-02T16:05:38.115502+00:00",
+      "source": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdDg5SVlOSUVvOFpDRU1OWnlLSHBvZGhyOW8tWTBDZU05Nmx3TDYwcFpkdU9FTThGNTZFV1EzVXZmSTc3d3F0eWV2d2FiTU9WQXhJdDBsdTJfRjVVcFF5QXVGTlFzYzExX3pxR1h1WDB1MWRoeXBqX1hZLWRkMldIUUxuQWdHWGxmclhXNC1mMXBpa3R0S3djcDR3?oc=5",
+      "optionDecisionDate": "2026-11-02"
     }
   }
 }
