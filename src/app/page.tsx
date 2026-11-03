@@ -1,3 +1,4 @@
+import UniversalPlayerSearch from "./components/UniversalPlayerSearch";
 
 import Link from "next/link";
 import {
@@ -77,6 +78,8 @@ export default function Home() {
   contract projections, and trade analysis through an
   interactive baseball analytics platform.
 </p>
+          <UniversalPlayerSearch />
+
           <div className="mt-9 flex flex-wrap gap-4">
             <Link
               href="/stats"
