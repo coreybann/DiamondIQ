@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
+import ProspectLeaderboards from "./ProspectLeaderboards";
 import { Search, Users, ArrowLeft } from "lucide-react";
 
 type ProspectPlayer = {
@@ -29,6 +30,7 @@ type Affiliate = {
 };
 
 export default function ProspectsPage() {
+  const [activeTab, setActiveTab] = useState<"directory" | "leaderboards">("directory");
   const [organizations, setOrganizations] = useState<Organization[]>([]);
   const [levels, setLevels] = useState<Level[]>([]);
   const [affiliates, setAffiliates] = useState<Affiliate[]>([]);
@@ -150,6 +152,36 @@ export default function ProspectsPage() {
           and track future MLB talent.
         </p>
 
+        <div className="mt-8 flex flex-wrap gap-3">
+          <button
+            type="button"
+            onClick={() => setActiveTab("directory")}
+            className={`rounded-lg px-5 py-3 font-semibold transition-colors ${
+              activeTab === "directory"
+                ? "bg-blue-500 text-white"
+                : "border border-slate-700 bg-[#12243a] text-slate-300 hover:text-white"
+            }`}
+          >
+            Player Directory
+          </button>
+
+          <button
+            type="button"
+            onClick={() => setActiveTab("leaderboards")}
+            className={`rounded-lg px-5 py-3 font-semibold transition-colors ${
+              activeTab === "leaderboards"
+                ? "bg-blue-500 text-white"
+                : "border border-slate-700 bg-[#12243a] text-slate-300 hover:text-white"
+            }`}
+          >
+            Leaderboards
+          </button>
+        </div>
+
+        {activeTab === "leaderboards" ? (
+          <ProspectLeaderboards />
+        ) : (
+          <>
         <div className="mt-10 rounded-xl border border-slate-700 bg-[#0d1d30] p-6">
           <div className="grid gap-4 md:grid-cols-2">
             <div>
@@ -268,6 +300,8 @@ export default function ProspectsPage() {
           Data: MLB Stats API. Full-season rosters may include MLB rehab
           assignments and are not official prospect rankings.
         </p>
+          </>
+        )}
       </div>
     </main>
   );
