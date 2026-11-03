@@ -7,6 +7,7 @@ import {
   GitCompareArrows,
   LineChart,
   Search,
+  GraduationCap,
   Users,
   Wallet,
   Wrench,
@@ -76,6 +77,18 @@ const toolGroups = [
         description: "View player scouting reports and performance evaluations.",
         href: "/scouting",
         icon: Binoculars,
+      },
+    ],
+  },
+  {
+    title: "Prospects & Player Development",
+    description: "Explore minor-league talent and player development.",
+    tools: [
+      {
+        title: "Prospect Development Hub",
+        description: "Browse minor-league players and explore future MLB talent.",
+        href: "/prospects",
+        icon: GraduationCap,
       },
     ],
   },
