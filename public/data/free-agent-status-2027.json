@@ -1,6 +1,6 @@
 {
   "season": 2027,
-  "lastVerified": "2026-11-03T00:40:27.221326+00:00",
+  "lastVerified": "2026-11-03T00:43:52.423822+00:00",
   "players": {
     "Michael King": {
       "status": "Available",
@@ -331,6 +331,18 @@
       "verifiedAt": "2026-11-03T00:40:27.221326+00:00",
       "source": "https://www.mlb.com/news/yuki-matsui-wandy-peralta-kyle-hart-return-padres-2027",
       "optionDecisionDate": "2026-11-01"
+    },
+    "Rowan Wick": {
+      "status": "Available",
+      "source": "https://www.mlbtraderumors.com/2026/11/giants-dfa-reiver-sanmartin-decline-option-rowan-wick.html",
+      "optionDecisionDate": "2026-11-02",
+      "verifiedAt": "2026-11-03T00:43:52.423822+00:00"
+    },
+    "Hunter Harvey": {
+      "status": "Available",
+      "source": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQeFhWR21vUWotS29KLURqdEl1RmVFZk4zY1lhVmJWbGQwY2h2ODlrTW5ZRnNneWd5SEQ5TmkxSy0xN3F4ZVBrRTJyYVZTdHhzU3R3S0JicnQ4VEFqd2JmRkpvbGdGazRvTGYzZGJwb1loSFlmWDBISlQwZnFhaVdtTmpLRkxzZWxCalFmaDAtWXR5dmJncWlRd3RyV1l1S3hRSjliQ3RheUxxMzNOcEE?oc=5",
+      "optionDecisionDate": "2026-11-02",
+      "verifiedAt": "2026-11-03T00:43:52.423822+00:00"
     }
   }
 }
