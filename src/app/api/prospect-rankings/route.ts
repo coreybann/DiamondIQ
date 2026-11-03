@@ -126,6 +126,10 @@ function getHittingMetrics(stats: Record<string, unknown>) {
     kRate: pa && so !== null ? (so / pa) * 100 : null,
     avg,
     sbRate: pa && sb !== null ? (sb / pa) * 100 : null,
+    adjustedSbSuccess:
+      sb !== null && cs !== null && sb + cs > 0
+        ? ((sb + 10 * 0.75) / (sb + cs + 10)) * 100
+        : null,
     sbSuccess:
       sb !== null && cs !== null && sb + cs > 0
         ? (sb / (sb + cs)) * 100
@@ -160,7 +164,7 @@ function getPitchingMetrics(stats: Record<string, unknown>) {
       outs && num(stats.homeRuns) !== null
         ? ((num(stats.homeRuns) as number) * 27) / outs
         : null,
-    groundBallRate:
+    groundOutShare:
       groundOuts !== null &&
       airOuts !== null &&
       groundOuts + airOuts > 0
@@ -168,6 +172,76 @@ function getPitchingMetrics(stats: Record<string, unknown>) {
         : null,
     pitchesPerInning: num(stats.pitchesPerInning),
   };
+}
+
+function scoreToolsAndSkills(
+  prospects: Prospect[],
+  group: "hitting" | "pitching"
+) {
+  const definitions =
+    group === "hitting"
+      ? [
+          { key: "kRate", weight: 0.25, lower: true },
+          { key: "iso", weight: 0.25, lower: false },
+          { key: "bbRate", weight: 0.30, lower: false },
+          { key: "sbRate", weight: 0.10, lower: false },
+          { key: "adjustedSbSuccess", weight: 0.10, lower: false },
+        ]
+      : [
+          { key: "k9", weight: 0.35, lower: false },
+          { key: "bb9", weight: 0.20, lower: true },
+          { key: "hr9", weight: 0.20, lower: true },
+          { key: "groundOutShare", weight: 0.10, lower: false },
+          { key: "pitchesPerInning", weight: 0.15, lower: true },
+        ];
+
+  for (const level of LEVELS) {
+    const levelPlayers = prospects.filter(
+      (player) => player.levelId === level.id
+    );
+
+    const metrics: Record<string, number | null>[] =
+      levelPlayers.map((player) =>
+        group === "hitting"
+          ? getHittingMetrics(player.stats)
+          : getPitchingMetrics(player.stats)
+      );
+
+    for (let index = 0; index < levelPlayers.length; index++) {
+      let weightedScore = 0;
+      let availableWeight = 0;
+      let availableMetrics = 0;
+
+      for (const definition of definitions) {
+        const value = metrics[index][definition.key];
+
+        if (value === null || value === undefined) continue;
+
+        const population = metrics
+          .map((item) => item[definition.key])
+          .filter(
+            (item): item is number =>
+              typeof item === "number" && Number.isFinite(item)
+          );
+
+        if (population.length < 10) continue;
+
+        weightedScore +=
+          percentile(population, value, definition.lower) *
+          definition.weight;
+
+        availableWeight += definition.weight;
+        availableMetrics++;
+      }
+
+      levelPlayers[index].toolsScore =
+        availableMetrics >= 3 && availableWeight >= 0.70
+          ? Number((weightedScore / availableWeight).toFixed(2))
+          : null;
+    }
+  }
+
+  return prospects;
 }
 
 function scoreProspects(
@@ -192,7 +266,7 @@ function scoreProspects(
           { key: "bb9", weight: 0.12, lower: true },
           { key: "kbb", weight: 0.08, lower: false },
           { key: "hr9", weight: 0.08, lower: true },
-          { key: "groundBallRate", weight: 0.07, lower: false },
+          { key: "groundOutShare", weight: 0.07, lower: false },
           { key: "pitchesPerInning", weight: 0.05, lower: true },
         ];
 
@@ -518,12 +592,18 @@ export async function GET(request: NextRequest) {
     }
 
     const hitters = scoreProspects(
-      eligibleProspects.filter((player) => player.group === "hitting"),
+      scoreToolsAndSkills(
+        eligibleProspects.filter((player) => player.group === "hitting"),
+        "hitting"
+      ),
       "hitting"
     ).sort((a, b) => b.overallScore - a.overallScore);
 
     const pitchers = scoreProspects(
-      eligibleProspects.filter((player) => player.group === "pitching"),
+      scoreToolsAndSkills(
+        eligibleProspects.filter((player) => player.group === "pitching"),
+        "pitching"
+      ),
       "pitching"
     ).sort((a, b) => b.overallScore - a.overallScore);
 

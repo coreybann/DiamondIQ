@@ -15,6 +15,7 @@ type Prospect = {
   group: "hitting" | "pitching";
   overallScore: number;
   performanceScore: number;
+  toolsScore: number | null;
   developmentScore: number | null;
   grade: number;
   rank?: number;
@@ -205,6 +206,7 @@ export default function ProspectRankings() {
                   <th className="px-3 py-3">Level</th>
                   <th className="px-3 py-3">Age</th>
                   <th className="px-3 py-3">Score</th>
+                  <th className="px-3 py-3">Tools and Skills</th>
                   <th className="px-3 py-3">Development Trajectory</th>
                   <th className="px-3 py-3">Grade</th>
                 </tr>
@@ -248,6 +250,12 @@ export default function ProspectRankings() {
 
                     <td className="px-3 py-4 font-semibold text-white">
                       {player.overallScore.toFixed(1)}
+                    </td>
+
+                    <td className="px-3 py-4 font-semibold text-slate-200">
+                      {player.toolsScore != null
+                        ? player.toolsScore.toFixed(1)
+                        : "N/A"}
                     </td>
 
                     <td className="px-3 py-4 font-semibold text-slate-200">
