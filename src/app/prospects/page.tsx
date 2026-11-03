@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import ProspectLeaderboards from "./ProspectLeaderboards";
+import ProspectRankings from "./ProspectRankings";
 import { Search, Users, ArrowLeft } from "lucide-react";
 
 type ProspectPlayer = {
@@ -30,7 +31,7 @@ type Affiliate = {
 };
 
 export default function ProspectsPage() {
-  const [activeTab, setActiveTab] = useState<"directory" | "leaderboards" | "tracker">("directory");
+  const [activeTab, setActiveTab] = useState<"directory" | "leaderboards" | "rankings" | "tracker">("directory");
   const [organizations, setOrganizations] = useState<Organization[]>([]);
   const [levels, setLevels] = useState<Level[]>([]);
   const [affiliates, setAffiliates] = useState<Affiliate[]>([]);
@@ -179,6 +180,18 @@ export default function ProspectsPage() {
 
           <button
             type="button"
+            onClick={() => setActiveTab("rankings")}
+            className={`rounded-lg px-5 py-3 font-semibold transition-colors ${
+              activeTab === "rankings"
+                ? "bg-blue-500 text-white"
+                : "border border-slate-700 bg-[#12243a] text-slate-300 hover:text-white"
+            }`}
+          >
+            Prospect Rankings
+          </button>
+
+          <button
+            type="button"
             onClick={() => setActiveTab("tracker")}
             className={`rounded-lg px-5 py-3 font-semibold transition-colors ${
               activeTab === "tracker"
@@ -192,6 +205,8 @@ export default function ProspectsPage() {
 
         {activeTab === "leaderboards" ? (
           <ProspectLeaderboards />
+        ) : activeTab === "rankings" ? (
+          <ProspectRankings />
         ) : activeTab === "tracker" ? (
           <section className="mt-10 rounded-xl border border-slate-700 bg-[#0d1d30] p-6">
             <h2 className="text-2xl font-bold">
