@@ -30,7 +30,7 @@ type Affiliate = {
 };
 
 export default function ProspectsPage() {
-  const [activeTab, setActiveTab] = useState<"directory" | "leaderboards">("directory");
+  const [activeTab, setActiveTab] = useState<"directory" | "leaderboards" | "tracker">("directory");
   const [organizations, setOrganizations] = useState<Organization[]>([]);
   const [levels, setLevels] = useState<Level[]>([]);
   const [affiliates, setAffiliates] = useState<Affiliate[]>([]);
@@ -176,10 +176,43 @@ export default function ProspectsPage() {
           >
             Leaderboards
           </button>
+
+          <button
+            type="button"
+            onClick={() => setActiveTab("tracker")}
+            className={`rounded-lg px-5 py-3 font-semibold transition-colors ${
+              activeTab === "tracker"
+                ? "bg-blue-500 text-white"
+                : "border border-slate-700 bg-[#12243a] text-slate-300 hover:text-white"
+            }`}
+          >
+            Development Tracker
+          </button>
         </div>
 
         {activeTab === "leaderboards" ? (
           <ProspectLeaderboards />
+        ) : activeTab === "tracker" ? (
+          <section className="mt-10 rounded-xl border border-slate-700 bg-[#0d1d30] p-6">
+            <h2 className="text-2xl font-bold">
+              Prospect Development Tracker
+            </h2>
+
+            <p className="mt-4 max-w-3xl text-slate-400">
+              Analyze how minor-league players develop across seasons
+              and competition levels. Explore interactive performance
+              charts, statistical changes, and development progression
+              directly on each player's profile.
+            </p>
+
+            <button
+              type="button"
+              onClick={() => setActiveTab("directory")}
+              className="mt-6 rounded-lg bg-blue-500 px-5 py-3 font-semibold text-white hover:bg-blue-600"
+            >
+              Find a Player to Track
+            </button>
+          </section>
         ) : (
           <>
         <div className="mt-10 rounded-xl border border-slate-700 bg-[#0d1d30] p-6">

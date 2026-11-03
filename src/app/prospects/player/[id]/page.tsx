@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import ProspectEvaluation from "../../ProspectEvaluation";
+import ProspectDevelopmentTracker from "../../ProspectDevelopmentTracker";
 
 type StatRecord = {
   season?: string;
@@ -307,6 +308,12 @@ export default async function ProspectPlayerPage({
             does not establish prospect eligibility or MLB readiness.
           </p>
         </section>
+
+        <ProspectDevelopmentTracker
+          playerName={player.fullName}
+          isPitcher={isPitcher}
+          records={records}
+        />
 
         {latestRecord?.stat && (
           <ProspectEvaluation
