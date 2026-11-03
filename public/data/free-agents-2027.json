@@ -424,7 +424,7 @@
       "age": 33,
       "war2025_2026": 0.7,
       "throwingHand": null,
-      "contractOption": "mutual option",
+      "contractOption": null,
       "status": "unverified"
     },
     {
@@ -1586,15 +1586,6 @@
       "war2025_2026": 1.1,
       "throwingHand": "RHP",
       "contractOption": null,
-      "status": "unverified"
-    },
-    {
-      "name": "Emmanuel Clase",
-      "position": "RP",
-      "age": 29,
-      "war2025_2026": 1.1,
-      "throwingHand": "RHP",
-      "contractOption": "club option",
       "status": "unverified"
     },
     {
