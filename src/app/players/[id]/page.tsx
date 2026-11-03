@@ -109,31 +109,99 @@ export default async function UniversalPlayerPage({
   );
 
   const columns = isPitcher
-    ? ["Season", "ERA", "WHIP", "SO", "IP", "BB"]
-    : ["Season", "AVG", "OBP", "SLG", "OPS", "HR"];
+    ? [
+        "Season", "G", "IP", "ERA", "WHIP", "SO",
+        "BB", "H", "HR", "K/9", "BB/9", "K/BB",
+      ]
+    : [
+        "Season", "G", "PA", "AB", "H", "2B", "3B",
+        "HR", "RBI", "BB", "SO", "BB%", "K%",
+        "AVG", "OBP", "SLG", "OPS", "ISO", "SB",
+      ];
 
   function statValues(stat: Record<string, string | number>) {
-    return isPitcher
-      ? [
-          stat.era,
-          stat.whip,
-          stat.strikeOuts,
-          stat.inningsPitched,
-          stat.baseOnBalls,
-        ]
-      : [
-          stat.avg,
-          stat.obp,
-          stat.slg,
-          stat.ops,
-          stat.homeRuns,
-        ];
+    const number = (key: string): number | null => {
+      const value = stat[key];
+      if (value === undefined || value === null || value === "") {
+        return null;
+      }
+      const parsed = Number(value);
+      return Number.isFinite(parsed) ? parsed : null;
+    };
+
+    const rate = (
+      numerator: number | null,
+      denominator: number | null,
+      multiplier = 1,
+      digits = 1
+    ): string => {
+      if (numerator === null || denominator === null || denominator === 0) {
+        return "—";
+      }
+      return ((numerator / denominator) * multiplier).toFixed(digits);
+    };
+
+    if (isPitcher) {
+      const inningsText = String(stat.inningsPitched ?? "");
+      const match = /^(\d+)(?:\.([012]))?$/.exec(inningsText);
+      const innings = match
+        ? Number(match[1]) + Number(match[2] ?? 0) / 3
+        : null;
+
+      return [
+        stat.gamesPlayed,
+        stat.inningsPitched,
+        stat.era,
+        stat.whip,
+        stat.strikeOuts,
+        stat.baseOnBalls,
+        stat.hits,
+        stat.homeRuns,
+        rate(number("strikeOuts"), innings, 9, 2),
+        rate(number("baseOnBalls"), innings, 9, 2),
+        rate(number("strikeOuts"), number("baseOnBalls"), 1, 2),
+      ];
+    }
+
+    const pa = number("plateAppearances");
+    const atBats = number("atBats");
+    const hits = number("hits");
+    const doubles = number("doubles");
+    const triples = number("triples");
+    const homeRuns = number("homeRuns");
+
+    const iso =
+      number("slg") !== null && number("avg") !== null
+        ? (number("slg")! - number("avg")!).toFixed(3)
+        : "—";
+
+    return [
+      stat.gamesPlayed,
+      stat.plateAppearances,
+      stat.atBats,
+      hits,
+      doubles,
+      triples,
+      homeRuns,
+      stat.rbi,
+      stat.baseOnBalls,
+      stat.strikeOuts,
+      rate(number("baseOnBalls"), pa, 100, 1) + "%",
+      rate(number("strikeOuts"), pa, 100, 1) + "%",
+      stat.avg,
+      stat.obp,
+      stat.slg,
+      stat.ops,
+      iso,
+      stat.stolenBases,
+    ];
   }
 
   function renderStats(
     title: string,
     splits: StatSplit[],
-    showTeam = false
+    showTeam = false,
+    showLevel = false
   ) {
     return (
       <section className="mt-12">
@@ -155,7 +223,9 @@ export default async function UniversalPlayerPage({
                   ))}
                   {showTeam && (
                     <>
-                      <th className="px-4 py-3">Level</th>
+                      {showLevel && (
+                        <th className="px-4 py-3">Level</th>
+                      )}
                       <th className="px-4 py-3">Team</th>
                     </>
                   )}
@@ -179,9 +249,11 @@ export default async function UniversalPlayerPage({
 
                     {showTeam && (
                       <>
-                        <td className="px-4 py-3">
-                          {levelNames[split.sport?.id ?? 0] ?? "N/A"}
-                        </td>
+                        {showLevel && (
+                          <td className="px-4 py-3">
+                            {levelNames[split.sport?.id ?? 0] ?? "N/A"}
+                          </td>
+                        )}
                         <td className="px-4 py-3">
                           {split.team?.name ?? "N/A"}
                         </td>
@@ -235,8 +307,8 @@ export default async function UniversalPlayerPage({
           </span>
         </div>
 
-        {renderStats("MLB Performance History", mlbStats)}
-        {renderStats("Minor-League Performance History", minorLeagueStats, true)}
+        {renderStats("MLB Performance History", mlbStats, true)}
+        {renderStats("Minor-League Performance History", minorLeagueStats, true, true)}
 
         <p className="mt-10 text-sm text-slate-500">
           Source: MLB Stats API. Statistics are displayed as reported
