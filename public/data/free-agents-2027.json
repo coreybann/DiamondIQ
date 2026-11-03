@@ -199,7 +199,7 @@
       "age": 41,
       "war2025_2026": -0.2,
       "throwingHand": null,
-      "contractOption": "mutual option",
+      "contractOption": null,
       "status": "unverified"
     },
     {
@@ -649,7 +649,7 @@
       "age": 33,
       "war2025_2026": -0.2,
       "throwingHand": null,
-      "contractOption": "club option",
+      "contractOption": null,
       "status": "unverified"
     },
     {
@@ -874,7 +874,7 @@
       "age": 36,
       "war2025_2026": 0.2,
       "throwingHand": null,
-      "contractOption": "mutual option",
+      "contractOption": null,
       "status": "unverified"
     },
     {
