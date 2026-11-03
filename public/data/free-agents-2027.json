@@ -1324,7 +1324,7 @@
       "age": 31,
       "war2025_2026": 0.4,
       "throwingHand": "RHP",
-      "contractOption": "mutual option",
+      "contractOption": null,
       "status": "unverified"
     },
     {
