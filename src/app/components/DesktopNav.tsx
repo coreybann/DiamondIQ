@@ -32,7 +32,10 @@ const toolGroups = [
   },
   {
     title: "Scouting",
-    links: [{ label: "Scouting", href: "/scouting" }],
+    links: [
+      { label: "Scouting", href: "/scouting" },
+      { label: "Prospect Development Hub", href: "/prospects" },
+    ],
   },
   {
     title: "Research",
