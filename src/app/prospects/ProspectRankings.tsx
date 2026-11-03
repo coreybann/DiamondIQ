@@ -17,6 +17,7 @@ type Prospect = {
   performanceScore: number;
   toolsScore: number | null;
   developmentScore: number | null;
+  projectionScore: number | null;
   grade: number;
   rank?: number;
   overallRank?: number;
@@ -197,7 +198,7 @@ export default function ProspectRankings() {
           </p>
 
           <div className="mt-4 overflow-x-auto">
-            <table className="w-full min-w-[1000px] text-left text-sm">
+            <table className="w-full min-w-[1150px] text-left text-sm">
               <thead>
                 <tr className="border-b border-slate-700 text-slate-400">
                   <th className="px-3 py-3">Rank</th>
@@ -208,6 +209,7 @@ export default function ProspectRankings() {
                   <th className="px-3 py-3">Score</th>
                   <th className="px-3 py-3">Tools and Skills</th>
                   <th className="px-3 py-3">Development Trajectory</th>
+                  <th className="px-3 py-3">Projection &amp; Upside</th>
                   <th className="px-3 py-3">Grade</th>
                 </tr>
               </thead>
@@ -261,6 +263,12 @@ export default function ProspectRankings() {
                     <td className="px-3 py-4 font-semibold text-slate-200">
                       {player.developmentScore != null
                         ? player.developmentScore.toFixed(1)
+                        : "N/A"}
+                    </td>
+
+                    <td className="px-3 py-4 font-semibold text-slate-200">
+                      {player.projectionScore != null
+                        ? player.projectionScore.toFixed(1)
                         : "N/A"}
                     </td>
 

@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import developmentData from "../../../../public/data/prospect-development-scores-2026.json";
+import projectionData from "../../../../public/data/prospect-projection-scores-2026.json";
 
 export const revalidate = 3600;
 
@@ -332,6 +333,37 @@ function scoreProspects(
   return prospects;
 }
 
+function calculateFinalProspectScore(player: Prospect) {
+  const categories = [
+    { score: player.performanceScore, weight: 0.35 },
+    { score: player.ageScore, weight: 0.15 },
+    { score: player.toolsScore, weight: 0.20 },
+    { score: player.developmentScore, weight: 0.10 },
+    { score: player.projectionScore, weight: 0.20 },
+  ];
+
+  let weightedTotal = 0;
+  let availableWeight = 0;
+
+  for (const category of categories) {
+    if (
+      category.score === null ||
+      !Number.isFinite(category.score)
+    ) {
+      continue;
+    }
+
+    weightedTotal += category.score * category.weight;
+    availableWeight += category.weight;
+  }
+
+  const score =
+    availableWeight > 0 ? weightedTotal / availableWeight : 50;
+
+  player.overallScore = Number(score.toFixed(2));
+  player.grade = Math.round(20 + player.overallScore * 0.6);
+}
+
 async function fetchJSON(url: string) {
   const response = await fetch(url, {
     next: { revalidate: 3600 },
@@ -591,6 +623,22 @@ export async function GET(request: NextRequest) {
       }
     }
 
+    // Attach historical Projection & Upside scores.
+    // Preserve existing overall ranking weights until the full model is ready.
+    if (season === 2026) {
+      const projectionById = new Map(
+        projectionData.players.map((entry) => [
+          entry.id,
+          entry.projectionScore,
+        ])
+      );
+
+      for (const player of eligibleProspects) {
+        player.projectionScore =
+          projectionById.get(player.id) ?? null;
+      }
+    }
+
     const hitters = scoreProspects(
       scoreToolsAndSkills(
         eligibleProspects.filter((player) => player.group === "hitting"),
@@ -606,6 +654,17 @@ export async function GET(request: NextRequest) {
       ),
       "pitching"
     ).sort((a, b) => b.overallScore - a.overallScore);
+
+    // Apply the five-category model before assigning final ranks.
+    // Keep the original scoring formula for other seasons.
+    if (season === 2026) {
+      for (const player of [...hitters, ...pitchers]) {
+        calculateFinalProspectScore(player);
+      }
+
+      hitters.sort((a, b) => b.overallScore - a.overallScore);
+      pitchers.sort((a, b) => b.overallScore - a.overallScore);
+    }
 
     const overall = [...hitters, ...pitchers].sort(
       (a, b) => b.overallScore - a.overallScore
@@ -649,17 +708,18 @@ export async function GET(request: NextRequest) {
         minimumPlateAppearances: 200,
         minimumInningsPitched: 40,
         ageReferenceDate: `${season}-07-01`,
-        performanceWeight: {
-          hitting: 0.90,
-          pitching: 0.80,
-        },
-        ageWeight: {
-          hitting: 0.10,
-          pitching: 0.20,
-        },
-        developmentTrajectoryWeight: 0,
-        developmentTrajectoryNote:
-          "Development Trajectory is displayed separately and is not yet included in overall rankings.",
+        performanceWeight: season === 2026
+          ? { hitting: 0.35, pitching: 0.35 }
+          : { hitting: 0.90, pitching: 0.80 },
+        ageWeight: season === 2026
+          ? { hitting: 0.15, pitching: 0.15 }
+          : { hitting: 0.10, pitching: 0.20 },
+        toolsAndSkillsWeight: season === 2026 ? 0.20 : 0,
+        developmentTrajectoryWeight: season === 2026 ? 0.10 : 0,
+        projectionAndUpsideWeight: season === 2026 ? 0.20 : 0,
+        scoringNote: season === 2026
+          ? "Five-category scouting index. Missing category weights are redistributed proportionally. Weights are selected, not historically optimized. Projection incorporates performance and age information."
+          : "Overall scores use performance and age only.",
         gradeScale: "20-80 statistical grade",
         note:
           "Percentiles are calculated within minor-league levels. These are statistical rankings, not professional scouting grades.",
