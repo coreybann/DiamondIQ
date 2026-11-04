@@ -37,6 +37,7 @@ export default function ProspectsPage() {
   const [affiliates, setAffiliates] = useState<Affiliate[]>([]);
   const [organizationId, setOrganizationId] = useState(147);
   const [levelId, setLevelId] = useState(11);
+  const [affiliateId, setAffiliateId] = useState<number | null>(null);
   const [players, setPlayers] = useState<ProspectPlayer[]>([]);
   const [search, setSearch] = useState("");
   const [loading, setLoading] = useState(true);
@@ -67,14 +68,23 @@ export default function ProspectsPage() {
     loadAffiliates();
   }, []);
 
+  const availableAffiliates = useMemo(
+    () =>
+      affiliates
+        .filter(
+          (affiliate) =>
+            affiliate.organizationId === organizationId &&
+            affiliate.sportId === levelId
+        )
+        .sort((a, b) => a.name.localeCompare(b.name)),
+    [affiliates, organizationId, levelId]
+  );
+
   const selectedAffiliate = useMemo(
     () =>
-      affiliates.find(
-        (affiliate) =>
-          affiliate.organizationId === organizationId &&
-          affiliate.sportId === levelId
-      ),
-    [affiliates, organizationId, levelId]
+      availableAffiliates.find((affiliate) => affiliate.id === affiliateId) ??
+      availableAffiliates[0],
+    [availableAffiliates, affiliateId]
   );
 
   useEffect(() => {
@@ -274,6 +284,29 @@ export default function ProspectsPage() {
               </select>
             </div>
           </div>
+
+          {availableAffiliates.length > 1 && (
+            <div className="mt-4">
+              <label className="mb-2 block text-sm font-semibold text-slate-300">
+                Affiliate Team
+              </label>
+              <select
+                value={selectedAffiliate?.id ?? ""}
+                onChange={(event) => {
+                  setAffiliateId(Number(event.target.value));
+                  setSearch("");
+                }}
+                disabled={directoryLoading}
+                className="w-full rounded-lg border border-slate-700 bg-[#081321] p-3 text-white"
+              >
+                {availableAffiliates.map((affiliate) => (
+                  <option key={affiliate.id} value={affiliate.id}>
+                    {affiliate.name}
+                  </option>
+                ))}
+              </select>
+            </div>
+          )}
 
           <div className="mt-8 flex items-center gap-3">
             <Users className="text-blue-400" size={24} />

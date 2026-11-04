@@ -13,6 +13,7 @@ const levels = [
   { id: 12, name: "Double-A" },
   { id: 13, name: "High-A" },
   { id: 14, name: "Single-A" },
+  { id: 16, name: "Rookie" },
 ];
 
 export async function GET() {
