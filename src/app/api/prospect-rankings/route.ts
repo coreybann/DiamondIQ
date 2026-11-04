@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import developmentData from "../../../../public/data/prospect-development-scores-2026.json";
 import projectionData from "../../../../public/data/prospect-projection-scores-2026.json";
+import unrankedCandidates from "../../../../public/data/prospect-unranked-candidates-2026.json";
 
 export const revalidate = 3600;
 
@@ -696,9 +697,29 @@ export async function GET(request: NextRequest) {
       ).values()
     ).sort((a, b) => a.name.localeCompare(b.name));
 
+    const rankedIds = new Set(overall.map((player) => player.id));
+
+    const unranked = season === 2026
+      ? unrankedCandidates.players
+          .filter((player) => !rankedIds.has(player.id))
+          .map((player) => ({
+            ...player,
+            rankingStatus: "unranked",
+            overallScore: null,
+            performanceScore: null,
+            toolsScore: null,
+            developmentScore: null,
+            projectionScore: null,
+            grade: null,
+            rank: null,
+            overallRank: null,
+          }))
+      : [];
+
     return NextResponse.json({
       season,
       count: overall.length,
+      unranked,
       organizationCount: organizations.length,
       organizations,
       overall,

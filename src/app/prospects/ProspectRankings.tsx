@@ -13,12 +13,12 @@ type Prospect = {
   position: string;
   age: number | null;
   group: "hitting" | "pitching";
-  overallScore: number;
+  overallScore: number | null;
   performanceScore: number;
   toolsScore: number | null;
   developmentScore: number | null;
   projectionScore: number | null;
-  grade: number;
+  grade: number | null;
   rank?: number;
   overallRank?: number;
 };
@@ -30,9 +30,10 @@ type RankingsData = {
   overall: Prospect[];
   hitters: Prospect[];
   pitchers: Prospect[];
+  unranked: Prospect[];
 };
 
-type Category = "overall" | "hitting" | "pitching";
+type Category = "overall" | "hitting" | "pitching" | "unranked";
 
 export default function ProspectRankings() {
   const [season, setSeason] = useState(2026);
@@ -89,7 +90,9 @@ export default function ProspectRankings() {
         ? data.overall
         : category === "hitting"
           ? data.hitters
-          : data.pitchers;
+          : category === "pitching"
+            ? data.pitchers
+            : data.unranked ?? [];
 
     return source
       .filter(
@@ -100,7 +103,7 @@ export default function ProspectRankings() {
       .filter((player) =>
         player.name.toLowerCase().includes(search.toLowerCase())
       )
-      .slice(0, 100);
+      .slice(0, category === "unranked" ? undefined : 100);
   }, [data, category, organization, search]);
 
   function changeCategory(next: Category) {
@@ -132,6 +135,7 @@ export default function ProspectRankings() {
           ["overall", "Overall"],
           ["hitting", "Top Hitters"],
           ["pitching", "Top Pitchers"],
+          ["unranked", "Unranked Prospects"],
         ] as [Category, string][]).map(([value, label]) => (
           <button
             key={value}
@@ -194,7 +198,11 @@ export default function ProspectRankings() {
         <>
           <p className="mt-5 text-sm text-slate-400">
             Showing {prospects.length} prospects
-            {organization !== "all" ? " · Filtered by organization" : " · Top 100"}
+            {organization !== "all"
+              ? " · Filtered by organization"
+              : category === "unranked"
+                ? " · Unranked prospects"
+                : " · Top 100"}
           </p>
 
           <div className="mt-4 overflow-x-auto">
@@ -221,9 +229,11 @@ export default function ProspectRankings() {
                     className="border-b border-slate-800 hover:bg-[#12243a]"
                   >
                     <td className="px-3 py-4 font-bold text-blue-400">
-                      #{category === "overall"
-                        ? player.overallRank
-                        : player.rank}
+                      {category === "unranked"
+                        ? "Unranked"
+                        : `#${category === "overall"
+                            ? player.overallRank
+                            : player.rank}`}
                     </td>
 
                     <td className="px-3 py-4">
@@ -243,7 +253,7 @@ export default function ProspectRankings() {
                     </td>
 
                     <td className="px-3 py-4 text-slate-300">
-                      {player.level}
+                      {player.level ?? "N/A"}
                     </td>
 
                     <td className="px-3 py-4 text-slate-300">
@@ -251,7 +261,7 @@ export default function ProspectRankings() {
                     </td>
 
                     <td className="px-3 py-4 font-semibold text-white">
-                      {player.overallScore.toFixed(1)}
+                      {player.overallScore != null ? player.overallScore.toFixed(1) : "N/A"}
                     </td>
 
                     <td className="px-3 py-4 font-semibold text-slate-200">
@@ -273,7 +283,7 @@ export default function ProspectRankings() {
                     </td>
 
                     <td className="px-3 py-4 font-semibold text-blue-400">
-                      {player.grade}
+                      {player.grade ?? "N/A"}
                     </td>
                   </tr>
                 ))}
