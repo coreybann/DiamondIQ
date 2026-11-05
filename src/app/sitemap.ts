@@ -39,7 +39,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   try {
     const response = await fetch(
-      "https://statsapi.mlb.com/api/v1/sports/1/players?season=2026",
+      "https://statsapi.mlb.com/api/v1/sports/1/players?season=2026&fields=people,id,active",
       { next: { revalidate: 86400 } }
     );
 

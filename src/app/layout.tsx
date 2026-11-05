@@ -14,6 +14,34 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const structuredData = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://diamondiq-nine.vercel.app/#organization",
+      "name": "DiamondIQ",
+      "url": "https://diamondiq-nine.vercel.app",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://diamondiq-nine.vercel.app/diamondiq-logo.png"
+      },
+      "description": "DiamondIQ is a baseball analytics platform focused on MLB statistics, player evaluation, prospect rankings, scouting, and front office analysis."
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://diamondiq-nine.vercel.app/#website",
+      "name": "DiamondIQ",
+      "url": "https://diamondiq-nine.vercel.app",
+      "description": "MLB baseball analytics, scouting, player evaluation, and front office research.",
+      "publisher": {
+        "@id": "https://diamondiq-nine.vercel.app/#organization"
+      },
+      "inLanguage": "en-US"
+    }
+  ]
+};
+
 export const metadata: Metadata = {
   metadataBase: new URL("https://diamondiq-nine.vercel.app"),
 
@@ -79,6 +107,12 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-[#081321] text-white">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(structuredData).replace(/</g, "\\u003c"),
+          }}
+        />
 <header className="desktop-header sticky top-0 z-40 border-b border-white/10 bg-[#0d1d30]/95 backdrop-blur-md">  <DesktopNav />
 </header>
 
