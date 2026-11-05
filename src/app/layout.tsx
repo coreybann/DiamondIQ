@@ -15,12 +15,57 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "DiamondIQ | Baseball Analytics & Scouting",
+  metadataBase: new URL("https://diamondiq-nine.vercel.app"),
+
+  title: "DiamondIQ | MLB Baseball Analytics, Scouting & Player Evaluation",
+
   description:
-    "DiamondIQ is an interactive baseball analytics platform featuring MLB statistics, player comparisons, scouting reports, contract projections, and front office analysis.",
-    icons: {
+    "Explore MLB baseball analytics with DiamondIQ. Compare players, evaluate prospects, analyze team rosters, research free agents, and explore front office decision-making tools.",
+
+  keywords: [
+    "MLB analytics",
+    "baseball analytics",
+    "MLB player statistics",
+    "baseball scouting",
+    "prospect evaluation",
+    "MLB player comparisons",
+    "baseball front office",
+    "MLB roster construction",
+    "baseball research",
+  ],
+
+  icons: {
     icon: "/diamondiq-logo.png",
     shortcut: "/diamondiq-logo.png",
+  },
+
+  openGraph: {
+    title: "DiamondIQ | MLB Baseball Analytics & Scouting",
+    description:
+      "Explore MLB statistics, player evaluations, prospect rankings, roster construction, and baseball front office analytics.",
+    url: "https://diamondiq-nine.vercel.app",
+    siteName: "DiamondIQ",
+    images: [
+      {
+        url: "/diamondiq-logo.png",
+        alt: "DiamondIQ Baseball Analytics",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "DiamondIQ | MLB Baseball Analytics & Scouting",
+    description:
+      "MLB statistics, player evaluations, prospect rankings, and baseball front office analytics.",
+    images: ["/diamondiq-logo.png"],
+  },
+
+  robots: {
+    index: true,
+    follow: true,
   },
 };
 export const viewport = {
