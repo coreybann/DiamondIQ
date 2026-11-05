@@ -1,4 +1,5 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import { ArrowLeft } from "lucide-react";
 
 type Player = {
@@ -54,6 +55,79 @@ async function getSeasonStats(
     return data.stats?.[0]?.splits ?? [];
   } catch {
     return [];
+  }
+}
+
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ id: string }>;
+}): Promise<Metadata> {
+  const { id } = await params;
+
+  if (!/^\d+$/.test(id)) {
+    return {
+      title: "Player Not Found | DiamondIQ",
+      robots: { index: false, follow: false },
+    };
+  }
+
+  try {
+    const response = await fetch(
+      `https://statsapi.mlb.com/api/v1/people/${id}?hydrate=currentTeam`,
+      { next: { revalidate: 3600 } }
+    );
+
+    if (!response.ok) {
+      return {
+        title: "Player Profile | DiamondIQ",
+        robots: { index: false, follow: true },
+      };
+    }
+
+    const data = await response.json();
+    const player = data.people?.[0];
+
+    if (!player) {
+      return {
+        title: "Player Not Found | DiamondIQ",
+        robots: { index: false, follow: false },
+      };
+    }
+
+    const name = player.fullName;
+    const position = player.primaryPosition?.name;
+    const team = player.currentTeam?.name;
+
+    const title = `${name} Stats, Bio & Career Statistics | DiamondIQ`;
+
+    const description =
+      `Explore ${name}'s MLB player profile, career statistics,` +
+      `${position ? ` ${position} performance,` : ""}` +
+      `${team ? ` current team (${team}),` : ""}` +
+      " and baseball analytics on DiamondIQ.";
+
+    return {
+      title,
+      description,
+      alternates: {
+        canonical: `/players/${id}`,
+      },
+      openGraph: {
+        title,
+        description,
+        url: `https://diamondiq-nine.vercel.app/players/${id}`,
+        siteName: "DiamondIQ",
+        type: "profile",
+        images: ["/diamondiq-logo.png"],
+      },
+    };
+  } catch {
+    return {
+      title: "MLB Player Profile | DiamondIQ",
+      robots: { index: false, follow: true },
+    };
   }
 }
 
