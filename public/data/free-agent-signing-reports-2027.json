@@ -1,7 +1,30 @@
 {
   "season": 2027,
-  "lastUpdated": "2026-11-02T22:20:11.338227+00:00",
+  "lastUpdated": "2026-11-08T09:20:18.294228+00:00",
   "signings": [
+    {
+      "playerId": 669373,
+      "playerName": "Tarik Skubal",
+      "team": "Los Angeles Dodgers",
+      "date": "2026-11-06",
+      "status": "Signing Reported",
+      "sources": [
+        {
+          "team": "Los Angeles Dodgers",
+          "date": "2026-11-06",
+          "headline": "Dodgers rumors: Why LA likely won’t pivot to next best free agent starter if Tarik Skubal signs elsewhere - Yahoo Sports",
+          "publisher": "yahoo sports",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNUEo3QzBMZjJxTEN4V0pSLTJySC0yRnFnX2daVUI0RzZhRjFkbDNXY0pKc1hhbXpUTGY0NW1OTzlfdy1qYXhncWVDQ2VJR00yU1NRVmtmNlk1d0tuZm45azlLU09MVk54dDBUOFVWeFc0c1pFcFlhYldMa0toQ1FQRUpnWQ?oc=5"
+        },
+        {
+          "team": "Los Angeles Dodgers",
+          "date": "2026-11-05",
+          "headline": "Why analyst will still believe in Dodgers even if Tarik Skubal signs elsewhere - ClutchPoints",
+          "publisher": "clutchpoints",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMDRsV3JYS2lUWU5laTgyUVNySEg1dkctTWlDazJUWXFDdGdhczh3TkFwUlpCTHFHNHZWMDd5RGpEZ1Fvb3dSbnlTN29KMWtrWkpjOFBualhNSU1ieUFKaEFSSmlkUTdGaUw5YlVuVWE1Y2JpYTJrU1ZnVU9SNW1icUVWcVpkdHJEU3Q3ZlpUV0NhRWVpaC1KWDJhdVFJbGh3T0NvX3g0MzdPdEtNUVY1b29meGZjYXNIX0pB?oc=5"
+        }
+      ]
+    },
     {
       "playerId": 657097,
       "playerName": "Jacob Webb",
