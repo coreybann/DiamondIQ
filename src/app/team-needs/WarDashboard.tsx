@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import type { FreeAgent } from "@/lib/freeAgency";
 import type {
   TeamBwarSummary,
@@ -222,9 +223,23 @@ const displayedPitchingAverage = bwarAveragePitching;
           <span className="font-medium text-white">
             {index + 1}. {item.position}
           </span>
-          <span className="text-sm text-red-400">
-            {item.teamData!.vsLeagueAverage.toFixed(1)} bWAR
-          </span>
+          <div className="flex flex-wrap items-center justify-end gap-3">
+            <span className="text-sm text-red-400">
+              {item.teamData!.vsLeagueAverage.toFixed(1)} bWAR
+            </span>
+            <Link
+              href={{
+                pathname: "/trade-target-finder",
+                query: {
+                  team: bwarTeamNames[selectedTeam] ?? selectedTeam,
+                  position: item.position,
+                },
+              }}
+              className="text-sm font-medium text-blue-400 hover:text-blue-300"
+            >
+              Explore Trade Targets →
+            </Link>
+          </div>
         </div>
       ))}
     </div>

@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import TradeTargetFinderClient from "./TradeTargetFinderClient";
 import { freeAgents } from "@/lib/freeAgency";
 import {
@@ -84,7 +85,8 @@ export default async function TradeTargetFinderPage() {
   }
 
   return (
-    <TradeTargetFinderClient
+    <Suspense fallback={<p className="p-6 text-slate-400">Loading trade targets...</p>}>
+      <TradeTargetFinderClient
       positionRankings={positionRankings}
       salaryEstimates={salaryEstimates}
       excludedFreeAgentNames={freeAgents
@@ -98,6 +100,7 @@ export default async function TradeTargetFinderPage() {
           ].includes(player.status)
         )
         .map((player) => player.name)}
-    />
+      />
+    </Suspense>
   );
 }

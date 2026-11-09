@@ -43,7 +43,7 @@ const freeAgentRecommendations = Object.fromEntries(
 
         <p className="mt-3 text-slate-400">
           Evaluate MLB team strengths and weaknesses using
-          2026 FanGraphs WAR and league-wide comparisons.
+          2026 Baseball-Reference WAR (bWAR) and league-wide comparisons.
         </p>
         <WarDashboard
   bwarTeams={bwarTeams}
@@ -55,7 +55,7 @@ const freeAgentRecommendations = Object.fromEntries(
        
 
         <p className="mt-4 text-xs text-slate-500">
-          Rankings reflect 2026 historical FanGraphs fWAR,
+          Rankings reflect historical 2026 Baseball-Reference bWAR,
           not projected 2027 performance. Team totals reflect
           the records available in DiamondIQ&apos;s dataset.
         </p>

@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
+import { useSearchParams } from "next/navigation";
 
 type Player = {
   name: string;
@@ -73,6 +74,34 @@ export default function TradeTargetFinderClient({
   const [sortBy, setSortBy] = useState("fit");
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
+  const searchParams = useSearchParams();
+
+  useEffect(() => {
+    const requestedTeam = searchParams.get("team");
+    const requestedPosition = searchParams.get("position");
+
+    if (requestedTeam && teams.includes(requestedTeam)) {
+      setSelectedTeam(requestedTeam);
+    }
+
+    const validPositions = [
+      "All", "P", "C", "1B", "2B", "3B", "SS", "OF", "DH",
+    ];
+
+    const normalizedPosition =
+      requestedPosition === "SP" || requestedPosition === "RP"
+        ? "P"
+        : ["LF", "CF", "RF"].includes(requestedPosition ?? "")
+          ? "OF"
+          : requestedPosition;
+
+    if (
+      normalizedPosition &&
+      validPositions.includes(normalizedPosition)
+    ) {
+      setPosition(normalizedPosition);
+    }
+  }, [searchParams, teams]);
 
   useEffect(() => {
     async function load() {
