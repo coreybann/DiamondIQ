@@ -71,7 +71,14 @@ export default function TradeTargetFinderClient({
   const [players, setPlayers] = useState<Player[]>([]);
   const [teams, setTeams] = useState<string[]>([]);
   const [selectedTeam, setSelectedTeam] = useState("");
+  type ActiveRosterPlayer = {
+    name: string;
+    position: string;
+  };
+
+  const [activeRosterPlayers, setActiveRosterPlayers] = useState<ActiveRosterPlayer[]>([]);
   const [activeRosterNames, setActiveRosterNames] = useState<Set<string>>(new Set());
+  const [comparisonProjections, setComparisonProjections] = useState<Projection[]>([]);
   const [rosterLoading, setRosterLoading] = useState(false);
   const [rosterError, setRosterError] = useState("");
 
@@ -113,6 +120,7 @@ export default function TradeTargetFinderClient({
 
     async function loadActiveRoster() {
       setActiveRosterNames(new Set());
+      setActiveRosterPlayers([]);
       setRosterError("");
 
       if (!selectedTeam) {
@@ -153,12 +161,21 @@ export default function TradeTargetFinderClient({
         const rosterData = await rosterResponse.json();
 
         if (!cancelled) {
+          const rosterPlayers: ActiveRosterPlayer[] =
+            (rosterData.players ?? []).map(
+              (player: { name: string; position: string }) => ({
+                name: player.name,
+                position: ["LF", "CF", "RF"].includes(player.position)
+                  ? "OF"
+                  : ["SP", "RP", "P"].includes(player.position)
+                    ? "P"
+                    : player.position,
+              })
+            );
+
+          setActiveRosterPlayers(rosterPlayers);
           setActiveRosterNames(
-            new Set(
-              (rosterData.players ?? []).map(
-                (player: { name: string }) => normalize(player.name)
-              )
-            )
+            new Set(rosterPlayers.map((player) => normalize(player.name)))
           );
         }
       } catch (error) {
@@ -205,6 +222,7 @@ export default function TradeTargetFinderClient({
           )].sort()
         );
         const projections = (await projectionResponse.json()) as Projection[];
+        setComparisonProjections(projections);
 
         const contracts: { records: ContractRecord[] } =
           contractResponse.ok
@@ -548,13 +566,64 @@ export default function TradeTargetFinderClient({
   const [comparisonPlayer, setComparisonPlayer] = useState("");
 
   const currentRoster = useMemo(() => {
-    if (!selectedTeam) return [];
+    if (!selectedTeam || rosterLoading || rosterError) return [];
 
-    if (rosterLoading || rosterError) return [];
+    const projectionMap = new Map<string, Projection>();
+    const duplicateNames = new Set<string>();
 
-    return players
-      .filter((player) => player.team === selectedTeam)
-      .filter((player) => activeRosterNames.has(normalize(player.name)))
+    for (const projection of comparisonProjections) {
+      const key = normalize(projection.player_name);
+
+      if (projectionMap.has(key)) {
+        duplicateNames.add(key);
+      } else {
+        projectionMap.set(key, projection);
+      }
+    }
+
+    for (const key of duplicateNames) {
+      projectionMap.delete(key);
+    }
+
+    const salaryPlayers = new Map(
+      players.map((player) => [normalize(player.name), player])
+    );
+
+    return activeRosterPlayers
+      .flatMap((rosterPlayer): Player[] => {
+        const projection = projectionMap.get(
+          normalize(rosterPlayer.name)
+        );
+
+        if (
+          !projection ||
+          !Number.isFinite(Number(projection.projected_total_fwar))
+        ) {
+          return [];
+        }
+
+        const existing = salaryPlayers.get(
+          normalize(rosterPlayer.name)
+        );
+
+        return [{
+          name: rosterPlayer.name,
+          team: selectedTeam,
+          position: rosterPlayer.position,
+          war: Number(projection.projected_total_fwar),
+          salary: existing?.salary ?? 0,
+          age: existing?.age ?? null,
+          contractYears: existing?.contractYears ?? null,
+          contractNote: existing?.contractNote ?? null,
+          teamControl: existing?.teamControl ?? "Unverified",
+          rosterStatus2027:
+            existing?.team === selectedTeam
+              ? existing.rosterStatus2027
+              : "2027 Status Unverified",
+          salary2027: existing?.salary2027 ?? null,
+          salaryType: existing?.salaryType ?? "proxy",
+        }];
+      })
       .filter(
         (player) =>
           position === "All" || player.position === position
@@ -564,7 +633,8 @@ export default function TradeTargetFinderClient({
     players,
     selectedTeam,
     position,
-    activeRosterNames,
+    activeRosterPlayers,
+    comparisonProjections,
     rosterLoading,
     rosterError,
   ]);
