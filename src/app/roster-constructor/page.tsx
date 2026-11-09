@@ -34,6 +34,15 @@ export default function RosterConstructorPage() {
     ?.abbreviation ?? ""
 );
   const [players, setPlayers] = useState<RosterPlayer[]>([]);
+
+  type WarProjection = {
+    player_name: string;
+    projected_total_fwar: number;
+  };
+
+  const [warProjections, setWarProjections] = useState<WarProjection[]>([]);
+  const [warLoading, setWarLoading] = useState(true);
+  const [warError, setWarError] = useState("");
   const [transactions, setTransactions] = useState<
   {
     playerId: number;
@@ -203,6 +212,64 @@ const constructedStillMissing = players.filter(
     constructedPreArbitrationValues[index] === null &&
     constructedFreeAgentProjections[index] === null
 ).length;
+  // Match projections by normalized player name.
+  // Ambiguous duplicate names are excluded rather than guessed.
+  function normalizeWarName(name: string): string {
+    return name
+      .normalize("NFD")
+      .replace(/[\\u0300-\\u036f]/g, "")
+      .toLowerCase()
+      .replace(/[^a-z0-9]/g, "");
+  }
+
+  const warProjectionMap = new Map<string, number>();
+  const duplicateWarNames = new Set<string>();
+
+  for (const projection of warProjections) {
+    const key = normalizeWarName(projection.player_name);
+    const value = Number(projection.projected_total_fwar);
+
+    if (!Number.isFinite(value)) continue;
+
+    if (warProjectionMap.has(key)) {
+      duplicateWarNames.add(key);
+    } else {
+      warProjectionMap.set(key, value);
+    }
+  }
+
+  for (const key of duplicateWarNames) {
+    warProjectionMap.delete(key);
+  }
+
+  function calculateRosterWar(roster: RosterPlayer[]) {
+    let total = 0;
+    let missing = 0;
+
+    for (const player of roster) {
+      const projectedWar = warProjectionMap.get(
+        normalizeWarName(player.person.fullName)
+      );
+
+      if (projectedWar === undefined) {
+        missing += 1;
+      } else {
+        total += projectedWar;
+      }
+    }
+
+    return {
+      total,
+      missing,
+      matched: roster.length - missing,
+    };
+  }
+
+  const originalWar = calculateRosterWar(originalPlayers);
+  const constructedWar = calculateRosterWar(players);
+  const projectedWarChange =
+    constructedWar.total - originalWar.total;
+
   const [playerSearch, setPlayerSearch] = useState("");
   const [transactionType, setTransactionType] = useState<
   "trade" | "free-agent"
@@ -212,6 +279,38 @@ const [searchLoading, setSearchLoading] = useState(false);
 const [searchError, setSearchError] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
+
+  useEffect(() => {
+    let cancelled = false;
+
+    async function loadWarProjections() {
+      try {
+        const response = await fetch(
+          "/data/trade-war-projections-2027.json"
+        );
+
+        if (!response.ok) {
+          throw new Error("Unable to load 2027 WAR projections.");
+        }
+
+        const data = (await response.json()) as WarProjection[];
+
+        if (!cancelled) setWarProjections(data);
+      } catch {
+        if (!cancelled) {
+          setWarError("Unable to load 2027 WAR projections.");
+        }
+      } finally {
+        if (!cancelled) setWarLoading(false);
+      }
+    }
+
+    loadWarProjections();
+
+    return () => {
+      cancelled = true;
+    };
+  }, []);
 
   useEffect(() => {
     async function loadTeams() {
@@ -598,91 +697,6 @@ disabled={
 
 </div>
 
-{!loading && selectedTeam && !error && (
-  <div className="mt-8 rounded-xl border border-slate-700 bg-[#0d1d30] p-6">
-    <h2 className="mb-5 text-xl font-bold">
-      2027 Projected Roster Payroll
-    </h2>
-
-    <div className="grid gap-4 md:grid-cols-3">
-      <div className="rounded-lg bg-[#12243a] p-4">
-        <p className="text-sm text-slate-400">
-          Original Projected Payroll
-        </p>
-        <p className="mt-2 text-2xl font-bold">
-          ${originalProjectedPayroll.toFixed(1)}M
-        </p>
-        <p className="mt-2 text-xs text-slate-400">
-          Confirmed: ${originalKnownPayroll.toFixed(1)}M
-        </p>
-        <p className="text-xs text-blue-400">
-          Arbitration estimates: ${originalArbitrationPayroll.toFixed(1)}M
-        </p>
-<p className="text-xs text-emerald-400">
-  Pre-arbitration estimates: ${originalPreArbitrationPayroll.toFixed(1)}M
-</p>
-        <p className="mt-2 text-xs text-slate-400">
-          {originalStillMissing} players with unknown salaries
-        </p>
-      </div>
-
-      <div className="rounded-lg bg-[#12243a] p-4">
-        <p className="text-sm text-slate-400">
-          Constructed Projected Payroll
-        </p>
-        <p className="mt-2 text-2xl font-bold">
-          ${constructedProjectedPayroll.toFixed(1)}M
-        </p>
-        <p className="mt-2 text-xs text-slate-400">
-          Confirmed: ${constructedKnownPayroll.toFixed(1)}M
-        </p>
-        <p className="text-xs text-blue-400">
-          Arbitration estimates: ${constructedArbitrationPayroll.toFixed(1)}M
-        </p>
-<p className="text-xs text-emerald-400">
-  Pre-arbitration estimates: ${constructedPreArbitrationPayroll.toFixed(1)}M
-</p>
-<p className="text-xs text-purple-400">
-  Free-agent contract projections: ${constructedFreeAgentPayroll.toFixed(1)}M
-</p>
-        <p className="mt-2 text-xs text-slate-400">
-          {constructedStillMissing} players with unknown salaries
-        </p>
-      </div>
-
-      <div className="rounded-lg bg-[#12243a] p-4">
-        <p className="text-sm text-slate-400">
-          Change in Projected Payroll
-        </p>
-        <p className="mt-2 text-2xl font-bold text-blue-400">
-          {projectedPayrollChange >= 0 ? "+" : "-"}$
-          {Math.abs(projectedPayrollChange).toFixed(1)}M
-        </p>
-<p className="mt-2 text-xs text-slate-400">
-  Includes confirmed salaries, arbitration estimates,
-  pre-arbitration estimates, and projected free-agent
-  contract AAV.
-</p>
-      </div>
-    </div>
-
-<p className="mt-4 text-xs text-slate-400">
-  Payroll figures combine listed 2027 contract salaries,
-  provisional arbitration projections, estimated
-  pre-arbitration salaries, and projected free-agent contract
-  annual values (AAV) for hypothetical signings.
-  Pre-arbitration estimates use a $780,000 per-player baseline
-  based on the 2026 MLB minimum salary, not an official 2027
-  minimum. Free-agent projections use DiamondIQ's contract
-  projection model and are not actual signed contracts or
-  guaranteed 2027 salaries. Actual eligibility, roster status,
-  and salaries may differ. Unknown salaries and other
-  unmodeled costs are excluded. These figures are not complete
-  team payroll or luxury-tax calculations.
-</p>
-  </div>
-)}
-
         {loading && (
           <p className="mt-6 text-slate-400">Loading roster...</p>
         )}
@@ -839,6 +853,165 @@ disabled={
 
           </div>
         )}
+<div className="mt-6 rounded-xl border border-slate-700 bg-[#0d1d30] p-6">
+  <h2 className="mb-4 text-lg font-bold">
+    2027 Projected Roster WAR
+  </h2>
+
+  {warLoading ? (
+    <p className="text-sm text-slate-400">
+      Loading 2027 WAR projections...
+    </p>
+  ) : warError ? (
+    <p className="text-sm text-red-400">{warError}</p>
+  ) : (
+    <>
+      <div className="grid gap-4 md:grid-cols-3">
+        <div className="rounded-lg bg-[#12243a] p-4">
+          <p className="text-sm text-slate-400">
+            Original Roster WAR
+          </p>
+          <p className="mt-2 text-2xl font-bold">
+            {originalWar.total.toFixed(1)}
+          </p>
+          <p className="mt-1 text-xs text-slate-400">
+            {originalWar.matched} players with projections
+          </p>
+        </div>
+
+        <div className="rounded-lg bg-[#12243a] p-4">
+          <p className="text-sm text-slate-400">
+            Constructed Roster WAR
+          </p>
+          <p className="mt-2 text-2xl font-bold">
+            {constructedWar.total.toFixed(1)}
+          </p>
+          <p className="mt-1 text-xs text-slate-400">
+            {constructedWar.matched} players with projections
+          </p>
+        </div>
+
+        <div className="rounded-lg bg-[#12243a] p-4">
+          <p className="text-sm text-slate-400">
+            Change in Projected WAR
+          </p>
+          <p className={`mt-2 text-2xl font-bold ${
+            projectedWarChange > 0
+              ? "text-green-400"
+              : projectedWarChange < 0
+                ? "text-red-400"
+                : "text-white"
+          }`}>
+            {projectedWarChange > 0 ? "+" : ""}
+            {projectedWarChange.toFixed(1)}
+          </p>
+          <p className="mt-1 text-xs text-slate-400">
+            Compared with original roster
+          </p>
+        </div>
+      </div>
+
+      <p className="mt-4 text-sm text-slate-400">
+        Projection coverage: {originalWar.matched} of{" "}
+        {originalPlayers.length} original players and{" "}
+        {constructedWar.matched} of {players.length} constructed
+        players. Missing projections are excluded from totals.
+      </p>
+
+      <p className="mt-2 text-xs text-slate-500">
+        WAR values are summed 2027 player fWAR projections
+        across the 40-man roster. They do not account for
+        playing-time overlap and are not projected team wins.
+      </p>
+    </>
+  )}
+</div>
+
+{!loading && selectedTeam && !error && (
+  <div className="mt-8 rounded-xl border border-slate-700 bg-[#0d1d30] p-6">
+    <h2 className="mb-5 text-xl font-bold">
+      2027 Projected Roster Payroll
+    </h2>
+
+    <div className="grid gap-4 md:grid-cols-3">
+      <div className="rounded-lg bg-[#12243a] p-4">
+        <p className="text-sm text-slate-400">
+          Original Projected Payroll
+        </p>
+        <p className="mt-2 text-2xl font-bold">
+          ${originalProjectedPayroll.toFixed(1)}M
+        </p>
+        <p className="mt-2 text-xs text-slate-400">
+          Confirmed: ${originalKnownPayroll.toFixed(1)}M
+        </p>
+        <p className="text-xs text-blue-400">
+          Arbitration estimates: ${originalArbitrationPayroll.toFixed(1)}M
+        </p>
+<p className="text-xs text-emerald-400">
+  Pre-arbitration estimates: ${originalPreArbitrationPayroll.toFixed(1)}M
+</p>
+        <p className="mt-2 text-xs text-slate-400">
+          {originalStillMissing} players with unknown salaries
+        </p>
+      </div>
+
+      <div className="rounded-lg bg-[#12243a] p-4">
+        <p className="text-sm text-slate-400">
+          Constructed Projected Payroll
+        </p>
+        <p className="mt-2 text-2xl font-bold">
+          ${constructedProjectedPayroll.toFixed(1)}M
+        </p>
+        <p className="mt-2 text-xs text-slate-400">
+          Confirmed: ${constructedKnownPayroll.toFixed(1)}M
+        </p>
+        <p className="text-xs text-blue-400">
+          Arbitration estimates: ${constructedArbitrationPayroll.toFixed(1)}M
+        </p>
+<p className="text-xs text-emerald-400">
+  Pre-arbitration estimates: ${constructedPreArbitrationPayroll.toFixed(1)}M
+</p>
+<p className="text-xs text-purple-400">
+  Free-agent contract projections: ${constructedFreeAgentPayroll.toFixed(1)}M
+</p>
+        <p className="mt-2 text-xs text-slate-400">
+          {constructedStillMissing} players with unknown salaries
+        </p>
+      </div>
+
+      <div className="rounded-lg bg-[#12243a] p-4">
+        <p className="text-sm text-slate-400">
+          Change in Projected Payroll
+        </p>
+        <p className="mt-2 text-2xl font-bold text-blue-400">
+          {projectedPayrollChange >= 0 ? "+" : "-"}$
+          {Math.abs(projectedPayrollChange).toFixed(1)}M
+        </p>
+<p className="mt-2 text-xs text-slate-400">
+  Includes confirmed salaries, arbitration estimates,
+  pre-arbitration estimates, and projected free-agent
+  contract AAV.
+</p>
+      </div>
+    </div>
+
+<p className="mt-4 text-xs text-slate-400">
+  Payroll figures combine listed 2027 contract salaries,
+  provisional arbitration projections, estimated
+  pre-arbitration salaries, and projected free-agent contract
+  annual values (AAV) for hypothetical signings.
+  Pre-arbitration estimates use a $780,000 per-player baseline
+  based on the 2026 MLB minimum salary, not an official 2027
+  minimum. Free-agent projections use DiamondIQ's contract
+  projection model and are not actual signed contracts or
+  guaranteed 2027 salaries. Actual eligibility, roster status,
+  and salaries may differ. Unknown salaries and other
+  unmodeled costs are excluded. These figures are not complete
+  team payroll or luxury-tax calculations.
+</p>
+  </div>
+)}
+
       </div>
     </main>
   );
