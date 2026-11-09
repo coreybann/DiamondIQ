@@ -270,6 +270,54 @@ const constructedStillMissing = players.filter(
   const projectedWarChange =
     constructedWar.total - originalWar.total;
 
+  type RosterPositionFilter =
+    | "All"
+    | "Pitchers"
+    | "Catchers"
+    | "Infielders"
+    | "Outfielders / DH";
+
+  const [rosterPositionFilter, setRosterPositionFilter] =
+    useState<RosterPositionFilter>("All");
+
+  const rosterPositionFilters: RosterPositionFilter[] = [
+    "All",
+    "Pitchers",
+    "Catchers",
+    "Infielders",
+    "Outfielders / DH",
+  ];
+
+  function getRosterPositionGroup(
+    position: string | undefined
+  ): RosterPositionFilter {
+    const code = (position ?? "").toUpperCase();
+
+    if (["P", "SP", "RP", "TWP"].includes(code)) {
+      return "Pitchers";
+    }
+
+    if (code === "C") {
+      return "Catchers";
+    }
+
+    if (["1B", "2B", "3B", "SS", "IF"].includes(code)) {
+      return "Infielders";
+    }
+
+    return "Outfielders / DH";
+  }
+
+  const filteredRosterPlayers =
+    rosterPositionFilter === "All"
+      ? players
+      : players.filter(
+          (player) =>
+            getRosterPositionGroup(
+              player.position?.abbreviation
+            ) === rosterPositionFilter
+        );
+
   const [playerSearch, setPlayerSearch] = useState("");
   const [transactionType, setTransactionType] = useState<
   "trade" | "free-agent"
@@ -730,38 +778,104 @@ disabled={
                 No roster players were returned.
               </p>
             ) : (
-              <div className="grid gap-3 md:grid-cols-2 lg:grid-cols-3">
-                {players.map((player) => (
-                  <div
-                    key={player.person.id}
-                    className="rounded-xl border border-slate-700 bg-[#0d1d30] p-4"
-                  >
-                    <p className="font-semibold">
-                      {player.person.fullName}
-                    </p>
-                    <p className="mt-1 text-sm text-slate-400">
-                      Position: {player.position?.abbreviation ?? "N/A"}
-                    </p>
+              <>
+                <div className="mb-4 flex flex-wrap gap-2">
+                  {rosterPositionFilters.map((filter) => {
+                    const count =
+                      filter === "All"
+                        ? players.length
+                        : players.filter(
+                            (player) =>
+                              getRosterPositionGroup(
+                                player.position?.abbreviation
+                              ) === filter
+                          ).length;
 
-{player.acquisitionType && (
-  <p className="mt-2 text-sm font-medium text-blue-400">
-    Acquisition:{" "}
-    {player.acquisitionType === "trade"
-      ? "Trade Acquisition"
-      : "Free-Agent Signing"}
-  </p>
-)}
+                    return (
+                      <button
+                        key={filter}
+                        type="button"
+                        onClick={() => setRosterPositionFilter(filter)}
+                        aria-pressed={rosterPositionFilter === filter}
+                        className={`rounded-lg border px-3 py-2 text-sm transition ${
+                          rosterPositionFilter === filter
+                            ? "border-blue-500 bg-blue-500/20 text-blue-300"
+                            : "border-slate-700 text-slate-300 hover:bg-[#12243a]"
+                        }`}
+                      >
+                        {filter} ({count})
+                      </button>
+                    );
+                  })}
+                </div>
 
-                    <button
-  type="button"
-  onClick={() => removePlayer(player.person.id)}
-  className="mt-4 rounded-lg border border-red-500/40 px-3 py-2 text-sm font-medium text-red-400 transition hover:bg-red-500/10"
->
-  Remove from Roster
-</button>
-                  </div>
-                ))}
-              </div>
+                <div className="max-h-[480px] overflow-auto rounded-xl border border-slate-700 bg-[#0d1d30]">
+                  <table className="w-full min-w-[680px] text-left text-sm">
+                  <thead className="border-b border-slate-700 bg-[#12243a] text-slate-300">
+                    <tr>
+                      <th className="px-4 py-3 font-semibold">Player</th>
+                      <th className="px-4 py-3 font-semibold">Position</th>
+                      <th className="px-4 py-3 font-semibold">Acquisition</th>
+                      <th className="px-4 py-3 text-right font-semibold">
+                        2027 fWAR
+                      </th>
+                      <th className="px-4 py-3 text-right font-semibold">
+                        Action
+                      </th>
+                    </tr>
+                  </thead>
+
+                  <tbody className="divide-y divide-slate-800">
+                    {filteredRosterPlayers.map((player) => {
+                      const projectedWar = warProjectionMap.get(
+                        normalizeWarName(player.person.fullName)
+                      );
+
+                      return (
+                        <tr
+                          key={player.person.id}
+                          className="transition hover:bg-[#12243a]"
+                        >
+                          <td className="px-4 py-3 font-medium">
+                            {player.person.fullName}
+                          </td>
+
+                          <td className="px-4 py-3 text-slate-300">
+                            {player.position?.abbreviation ?? "N/A"}
+                          </td>
+
+                          <td className="px-4 py-3 text-slate-300">
+                            {player.acquisitionType === "trade"
+                              ? "Trade"
+                              : player.acquisitionType === "free-agent"
+                                ? "Free Agent"
+                                : "Original Roster"}
+                          </td>
+
+                          <td className="px-4 py-3 text-right font-semibold tabular-nums">
+                            {warLoading
+                              ? "..."
+                              : warError || projectedWar === undefined
+                                ? "—"
+                                : projectedWar.toFixed(2)}
+                          </td>
+
+                          <td className="px-4 py-3 text-right">
+                            <button
+                              type="button"
+                              onClick={() => removePlayer(player.person.id)}
+                              className="rounded-lg border border-red-500/40 px-3 py-2 text-xs font-medium text-red-400 transition hover:bg-red-500/10"
+                            >
+                              Remove
+                            </button>
+                          </td>
+                        </tr>
+                      );
+                    })}
+                  </tbody>
+                  </table>
+                </div>
+              </>
             )}
 
 {originalPlayers.some(
