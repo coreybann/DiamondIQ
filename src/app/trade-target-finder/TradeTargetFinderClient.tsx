@@ -449,7 +449,30 @@ export default function TradeTargetFinderClient({
             : ""),
     };
   }
+  const [comparisonPlayer, setComparisonPlayer] = useState("");
 
+  const currentRoster = useMemo(() => {
+    if (!selectedTeam) return [];
+
+    return players
+      .filter((player) => player.team === selectedTeam)
+      .filter(
+        (player) =>
+          position === "All" || player.position === position
+      )
+      .sort((a, b) => b.war - a.war);
+  }, [players, selectedTeam, position]);
+
+  const selectedComparisonPlayer = currentRoster.find(
+    (player) => `${player.team}:${player.name}` === comparisonPlayer
+  );
+
+  function calculateProjectedWarGain(
+    targetWar: number,
+    currentPlayerWar: number
+  ): number {
+    return Number((targetWar - currentPlayerWar).toFixed(2));
+  }
   const targets = useMemo(() => {
     if (!selectedTeam) return [];
 
@@ -578,11 +601,39 @@ export default function TradeTargetFinderClient({
             roster needs may differ from projected 2027 needs.
           </p>
 
+          <div className="mt-5 rounded-xl border border-slate-700 bg-slate-900 p-4">
+            <label className="block text-sm text-slate-300">
+              Compare Against (Current Roster Player)
+              <select
+                value={currentRoster.some(
+                  (p) => `${p.team}:${p.name}` === comparisonPlayer
+                ) ? comparisonPlayer : ""}
+                onChange={(e) => setComparisonPlayer(e.target.value)}
+                className="mt-2 w-full max-w-md rounded-lg border border-slate-600 bg-slate-800 p-3"
+              >
+                <option value="">Select a player to compare</option>
+                {currentRoster.map((player) => (
+                  <option
+                    key={`${player.team}:${player.name}`}
+                    value={`${player.team}:${player.name}`}
+                  >
+                    {player.name} ({player.position}, {player.war.toFixed(2)} WAR)
+                  </option>
+                ))}
+              </select>
+            </label>
+            <p className="mt-2 text-xs text-slate-400">
+              Hypothetical one-for-one 2027 fWAR comparison. Roster
+              assignments, playing time, and team control are not verified.
+              Select a player at the same position for a meaningful comparison.
+            </p>
+          </div>
+
           <div className="mt-5 overflow-x-auto rounded-xl border border-slate-700">
             <table className="w-full min-w-max text-left text-xs lg:text-sm">
               <thead className="bg-slate-800 text-slate-300">
                 <tr>
-                  {["Rank", "Player", "Team", "Position", "Age", "2027 WAR", "2026 Salary", "2027 Salary", "Team Control", "Est. Surplus", "Team Fit", "Acquisition Difficulty"].map((heading) => (
+                  {["Rank", "Player", "Team", "Position", "Age", "2027 WAR", "WAR Gain", "2026 Salary", "2027 Salary", "Team Control", "Est. Surplus", "Team Fit", "Acquisition Difficulty"].map((heading) => (
                     <th
                       key={heading}
                       className={`whitespace-nowrap px-3 py-3 ${
@@ -607,6 +658,18 @@ export default function TradeTargetFinderClient({
                     <td className="px-4 py-3">{player.position}</td>
                     <td className="px-4 py-3">{player.age ?? "—"}</td>
                     <td className="px-4 py-3">{player.war.toFixed(2)}</td>
+                    <td className="whitespace-nowrap px-4 py-3">
+                      {selectedComparisonPlayer &&
+                      selectedComparisonPlayer.position === player.position
+                        ? (() => {
+                            const gain = calculateProjectedWarGain(
+                              player.war,
+                              selectedComparisonPlayer.war
+                            );
+                            return `${gain > 0 ? "+" : ""}${gain.toFixed(2)}`;
+                          })()
+                        : "—"}
+                    </td>
                     <td className="whitespace-nowrap px-4 py-3">
                       ${(player.salary / 1_000_000).toFixed(2)}M
                     </td>
