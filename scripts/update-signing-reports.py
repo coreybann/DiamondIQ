@@ -62,8 +62,12 @@ agreement_pattern = re.compile(
 )
 
 uncertain_pattern = re.compile(
-    r"\b(rumor|could|might|may sign|interested in|"
-    r"expected to|close to|negotiating|extension talks)\b",
+    r"\b(rumou?rs?|could|might|may sign|interested in|"
+    r"expected to|close to|negotiating|extension talks|"
+    r"if|even if|signs elsewhere|signed elsewhere|"
+    r"would sign|should sign|could sign|"
+    r"potential signing|possible signing|"
+    r"linked to|prediction|predicts?)\b",
     re.I,
 )
 
@@ -170,9 +174,14 @@ for source, url in feeds.items():
             })
 
 existing = json.loads(DATA_FILE.read_text())
+# Known false reports that must not be carried forward.
+# Remove an exclusion only after independently verifying a real signing.
+INVALIDATED_REPORT_IDS = {669373}  # Tarik Skubal
+
 saved = {
     report["playerId"]: report
     for report in existing["signings"]
+    if report["playerId"] not in INVALIDATED_REPORT_IDS
 }
 
 for name, articles in reports.items():
@@ -216,6 +225,10 @@ for name, articles in reports.items():
         continue
 
     if player_id in saved:
+        continue
+
+    if player_id in INVALIDATED_REPORT_IDS:
+        print(f"SKIPPED invalidated report: {name}")
         continue
 
     latest_report = max(
