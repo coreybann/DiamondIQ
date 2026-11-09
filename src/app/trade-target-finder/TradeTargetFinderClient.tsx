@@ -77,7 +77,6 @@ export default function TradeTargetFinderClient({
   };
 
   const [activeRosterPlayers, setActiveRosterPlayers] = useState<ActiveRosterPlayer[]>([]);
-  const [activeRosterNames, setActiveRosterNames] = useState<Set<string>>(new Set());
   const [comparisonProjections, setComparisonProjections] = useState<Projection[]>([]);
   const [rosterLoading, setRosterLoading] = useState(false);
   const [rosterError, setRosterError] = useState("");
@@ -119,7 +118,6 @@ export default function TradeTargetFinderClient({
     let cancelled = false;
 
     async function loadActiveRoster() {
-      setActiveRosterNames(new Set());
       setActiveRosterPlayers([]);
       setRosterError("");
 
@@ -174,9 +172,6 @@ export default function TradeTargetFinderClient({
             );
 
           setActiveRosterPlayers(rosterPlayers);
-          setActiveRosterNames(
-            new Set(rosterPlayers.map((player) => normalize(player.name)))
-          );
         }
       } catch (error) {
         if (!cancelled) {
