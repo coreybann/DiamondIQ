@@ -636,11 +636,7 @@ export default function TradeTargetFinderClient({
                   {["Rank", "Player", "Team", "Position", "Age", "2027 WAR", "WAR Gain", "2026 Salary", "2027 Salary", "Team Control", "Est. Surplus", "Team Fit", "Acquisition Difficulty"].map((heading) => (
                     <th
                       key={heading}
-                      className={`whitespace-nowrap px-3 py-3 ${
-                        heading === "Player"
-                          ? "sticky left-0 z-20 bg-slate-800"
-                          : ""
-                      }`}
+                      className="whitespace-nowrap px-3 py-3"
                     >
                       {heading}
                     </th>
@@ -651,7 +647,7 @@ export default function TradeTargetFinderClient({
                 {targets.map((player, index) => (
                   <tr key={`${player.team}-${player.name}`} className="border-t border-slate-700">
                     <td className="px-4 py-3">{index + 1}</td>
-                    <td className="sticky left-0 z-10 whitespace-nowrap bg-[#081321] px-3 py-3 font-medium">
+                    <td className="whitespace-nowrap px-3 py-3 font-medium">
                       {player.name}
                     </td>
                     <td className="whitespace-nowrap px-4 py-3">{player.team}</td>
