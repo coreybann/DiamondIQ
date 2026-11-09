@@ -461,16 +461,31 @@ export default function TradeTargetFinderClient({
       .filter((p) => !excludedNames.has(normalize(p.name)))
       .filter((p) => p.team !== selectedTeam)
       .filter((p) => position === "All" || p.position === position)
-      .map((p) => ({
-        ...p,
-        acquisition: acquisitionDifficulty(p),
-        surplus: p.war * WAR_PRICE - (p.salary2027 ?? p.salary / 1_000_000),
-        teamNeed: positionNeeds[p.position] ?? 0,
-        fitScore:
-          p.war * 2 +
-          Math.max(0, positionNeeds[p.position] ?? 0) * 1.5 +
-          Math.max(0, p.war * WAR_PRICE - (p.salary2027 ?? p.salary / 1_000_000)) * 0.1,
-      }))
+      .map((p) => {
+        const acquisition = acquisitionDifficulty(p);
+        const surplus =
+          p.war * WAR_PRICE - (p.salary2027 ?? p.salary / 1_000_000);
+        const teamNeed = positionNeeds[p.position] ?? 0;
+
+        const difficultyPenalty =
+          acquisition.level === "High"
+            ? 4
+            : acquisition.level === "Moderate"
+              ? 2
+              : 0;
+
+        return {
+          ...p,
+          acquisition,
+          surplus,
+          teamNeed,
+          fitScore:
+            p.war * 2 +
+            Math.max(0, teamNeed) * 1.5 +
+            Math.max(0, surplus) * 0.1 -
+            difficultyPenalty,
+        };
+      })
       .sort((a, b) =>
         sortBy === "fit"
           ? b.fitScore - a.fitScore
@@ -552,6 +567,15 @@ export default function TradeTargetFinderClient({
 
           <p className="mt-2 text-sm text-slate-400">
             Showing {targets.length} ranked players.
+          </p>
+
+          <p className="mt-3 max-w-4xl text-xs leading-relaxed text-slate-400">
+            Team Fit is a heuristic score combining 2027 projected WAR,
+            2026 positional bWAR gaps, estimated one-year surplus value,
+            and an acquisition difficulty adjustment (Moderate: -2;
+            High: -4). Higher scores indicate stronger estimated fits,
+            not a higher probability of a completed trade. Historical
+            roster needs may differ from projected 2027 needs.
           </p>
 
           <div className="mt-5 overflow-x-auto rounded-xl border border-slate-700">
