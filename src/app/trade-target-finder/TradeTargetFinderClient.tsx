@@ -14,6 +14,7 @@ type Player = {
   contractYears: number | null;
   contractNote: string | null;
   teamControl: string;
+  rosterStatus2027: string;
   salary2027: number | null;
   salaryType: "listed" | "arbitration" | "pre-arbitration" | "proxy";
 };
@@ -70,6 +71,10 @@ export default function TradeTargetFinderClient({
   const [players, setPlayers] = useState<Player[]>([]);
   const [teams, setTeams] = useState<string[]>([]);
   const [selectedTeam, setSelectedTeam] = useState("");
+  const [activeRosterNames, setActiveRosterNames] = useState<Set<string>>(new Set());
+  const [rosterLoading, setRosterLoading] = useState(false);
+  const [rosterError, setRosterError] = useState("");
+
   const [position, setPosition] = useState("All");
   const [sortBy, setSortBy] = useState("fit");
   const [loading, setLoading] = useState(true);
@@ -102,6 +107,79 @@ export default function TradeTargetFinderClient({
       setPosition(normalizedPosition);
     }
   }, [searchParams, teams]);
+
+  useEffect(() => {
+    let cancelled = false;
+
+    async function loadActiveRoster() {
+      setActiveRosterNames(new Set());
+      setRosterError("");
+
+      if (!selectedTeam) {
+        setRosterLoading(false);
+        return;
+      }
+
+      setRosterLoading(true);
+
+      try {
+        const teamsResponse = await fetch(
+          "https://statsapi.mlb.com/api/v1/teams?sportId=1"
+        );
+
+        if (!teamsResponse.ok) {
+          throw new Error("Unable to load MLB team IDs.");
+        }
+
+        const teamsData = await teamsResponse.json();
+
+        const team = (teamsData.teams ?? []).find(
+          (item: { id: number; name: string }) =>
+            item.name === selectedTeam
+        );
+
+        if (!team) {
+          throw new Error("Selected MLB team was not found.");
+        }
+
+        const rosterResponse = await fetch(
+          `/api/rosters/${team.id}`
+        );
+
+        if (!rosterResponse.ok) {
+          throw new Error("Unable to load current active roster.");
+        }
+
+        const rosterData = await rosterResponse.json();
+
+        if (!cancelled) {
+          setActiveRosterNames(
+            new Set(
+              (rosterData.players ?? []).map(
+                (player: { name: string }) => normalize(player.name)
+              )
+            )
+          );
+        }
+      } catch (error) {
+        if (!cancelled) {
+          setRosterError(
+            error instanceof Error
+              ? error.message
+              : "Unable to load current roster."
+          );
+        }
+      } finally {
+        if (!cancelled) setRosterLoading(false);
+      }
+    }
+
+    loadActiveRoster();
+
+    return () => {
+      cancelled = true;
+    };
+  }, [selectedTeam]);
 
   useEffect(() => {
     async function load() {
@@ -284,6 +362,23 @@ export default function TradeTargetFinderClient({
           const hasOption =
             /(?:team|club|player|mutual) option/i.test(contractStatus);
 
+          const rosterStatus2027 =
+            hasOption && !activeTerm
+              ? "Contract Option · Unconfirmed"
+              : activeTerm && !hasOption
+                ? "Under Contract"
+                : activeTerm && hasOption
+                  ? "Contract · Review Options"
+                  : entryStatus === "free_agent"
+                    ? "Free Agent"
+                    : entryStatus === "arbitration" ||
+                        salaryType === "arbitration"
+                      ? "Arbitration Eligible"
+                      : entryStatus === "pre_arbitration" ||
+                          salaryType === "pre-arbitration"
+                        ? "Pre-Arbitration"
+                        : "Unverified";
+
           const teamControl =
             contractYears !== null
               ? `${contractYears} yrs · Contract${contractNote ? "*" : ""}`
@@ -304,6 +399,7 @@ export default function TradeTargetFinderClient({
             contractYears,
             contractNote,
             teamControl,
+            rosterStatus2027,
             salary2027: resolvedSalary,
             salaryType,
             war: Number(projection.projected_total_fwar),
@@ -454,14 +550,24 @@ export default function TradeTargetFinderClient({
   const currentRoster = useMemo(() => {
     if (!selectedTeam) return [];
 
+    if (rosterLoading || rosterError) return [];
+
     return players
       .filter((player) => player.team === selectedTeam)
+      .filter((player) => activeRosterNames.has(normalize(player.name)))
       .filter(
         (player) =>
           position === "All" || player.position === position
       )
       .sort((a, b) => b.war - a.war);
-  }, [players, selectedTeam, position]);
+  }, [
+    players,
+    selectedTeam,
+    position,
+    activeRosterNames,
+    rosterLoading,
+    rosterError,
+  ]);
 
   const selectedComparisonPlayer = currentRoster.find(
     (player) => `${player.team}:${player.name}` === comparisonPlayer
@@ -605,6 +711,7 @@ export default function TradeTargetFinderClient({
             <label className="block text-sm text-slate-300">
               Compare Against (Current Roster Player)
               <select
+                disabled={rosterLoading || Boolean(rosterError)}
                 value={currentRoster.some(
                   (p) => `${p.team}:${p.name}` === comparisonPlayer
                 ) ? comparisonPlayer : ""}
@@ -617,11 +724,27 @@ export default function TradeTargetFinderClient({
                     key={`${player.team}:${player.name}`}
                     value={`${player.team}:${player.name}`}
                   >
-                    {player.name} ({player.position}, {player.war.toFixed(2)} WAR)
+                    {player.name} ({player.position}, {player.war.toFixed(2)} WAR) — {player.rosterStatus2027}
                   </option>
                 ))}
               </select>
             </label>
+            {rosterLoading && (
+              <p className="mt-2 text-xs text-slate-400">
+                Loading current MLB active roster...
+              </p>
+            )}
+            {rosterError && (
+              <p className="mt-2 text-xs text-red-400">
+                {rosterError}
+              </p>
+            )}
+            {!rosterLoading && !rosterError && currentRoster.length === 0 && (
+              <p className="mt-2 text-xs text-amber-400">
+                No active roster players match the selected position
+                and available 2027 WAR projections.
+              </p>
+            )}
             <p className="mt-2 text-xs text-slate-400">
               Hypothetical one-for-one 2027 fWAR comparison. Roster
               assignments, playing time, and team control are not verified.
