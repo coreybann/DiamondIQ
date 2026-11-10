@@ -35,6 +35,36 @@ export default function RosterConstructorPage() {
 );
   const [players, setPlayers] = useState<RosterPlayer[]>([]);
 
+  // IDs of players selected for the 26-man active roster.
+  const [activeRosterIds, setActiveRosterIds] = useState<number[]>([]);
+
+  const activeRosterPlayers = players.filter((player) =>
+    activeRosterIds.includes(player.person.id)
+  );
+
+  const activeRosterCount = activeRosterPlayers.length;
+  const activeRosterLimit = 26;
+
+  // Standard regular-season active roster validation.
+  const activePitcherCount = activeRosterPlayers.filter((player) =>
+    ["P", "SP", "RP"].includes(
+      player.position?.abbreviation?.toUpperCase() ?? ""
+    )
+  ).length;
+
+  const activePositionPlayerCount =
+    activeRosterCount - activePitcherCount;
+
+  const activeRosterIsFull =
+    activeRosterCount === activeRosterLimit;
+
+  const activeRosterPitcherLimitExceeded =
+    activePitcherCount > 13;
+
+  const activeRosterIsValid =
+    activeRosterIsFull && !activeRosterPitcherLimitExceeded;
+
+
   type WarProjection = {
     player_name: string;
     projected_total_fwar: number;
@@ -198,6 +228,58 @@ const constructedProjectedPayroll =
 const projectedPayrollChange =
   constructedProjectedPayroll - originalProjectedPayroll;
 
+// Calculate active roster payroll using existing constructed roster estimates.
+const activeRosterPlayerIds = new Set(activeRosterIds);
+
+const activeRosterSalaryDetails = players
+  .map((player, index) => ({
+    player,
+    confirmed: constructedSalaryValues[index],
+    arbitration: constructedArbitrationValues[index],
+    preArbitration: constructedPreArbitrationValues[index],
+    freeAgent: constructedFreeAgentProjections[index]?.aavMillions ?? null,
+  }))
+  .filter(({ player }) =>
+    activeRosterPlayerIds.has(player.person.id)
+  );
+
+const activeKnownPayroll = activeRosterSalaryDetails.reduce(
+  (total, entry) => total + (entry.confirmed ?? 0),
+  0
+);
+
+const activeArbitrationPayroll = activeRosterSalaryDetails.reduce(
+  (total, entry) => total + (entry.arbitration ?? 0),
+  0
+);
+
+const activePreArbitrationPayroll = activeRosterSalaryDetails.reduce(
+  (total, entry) => total + (entry.preArbitration ?? 0),
+  0
+);
+
+const activeFreeAgentPayroll = activeRosterSalaryDetails.reduce(
+  (total, entry) => total + (entry.freeAgent ?? 0),
+  0
+);
+
+const activeProjectedPayroll =
+  activeKnownPayroll +
+  activeArbitrationPayroll +
+  activePreArbitrationPayroll +
+  activeFreeAgentPayroll;
+
+const activeMissingSalaries = activeRosterSalaryDetails.filter(
+  (entry) =>
+    entry.confirmed === null &&
+    entry.arbitration === null &&
+    entry.preArbitration === null &&
+    entry.freeAgent === null
+).length;
+
+const activePayrollDifference =
+  activeProjectedPayroll - constructedProjectedPayroll;
+
 const originalStillMissing = originalPlayers.filter(
   (_, index) =>
     originalSalaryValues[index] === null &&
@@ -267,8 +349,12 @@ const constructedStillMissing = players.filter(
 
   const originalWar = calculateRosterWar(originalPlayers);
   const constructedWar = calculateRosterWar(players);
+  const activeRosterWar = calculateRosterWar(activeRosterPlayers);
   const projectedWarChange =
     constructedWar.total - originalWar.total;
+
+  const activeRosterWarDifference =
+    activeRosterWar.total - constructedWar.total;
 
   type RosterPositionFilter =
     | "All"
@@ -387,6 +473,7 @@ const [searchError, setSearchError] = useState("");
 if (!selectedTeam) {
   setPlayers([]);
   setOriginalPlayers([]);
+  setActiveRosterIds([]);
   return;
 }
 
@@ -396,6 +483,7 @@ if (!selectedTeam) {
       setLoading(true);
       setError("");
       setPlayers([]);
+      setActiveRosterIds([]);
 
       try {
         const response = await fetch(
@@ -426,6 +514,27 @@ setOriginalPlayers(roster);
     };
   }, [selectedTeam]);
 
+function toggleActiveRosterPlayer(playerId: number) {
+  // Only players on the constructed roster can be selected.
+  if (!players.some((player) => player.person.id === playerId)) {
+    return;
+  }
+
+  setActiveRosterIds((current) => {
+    // Deselect an existing active roster player.
+    if (current.includes(playerId)) {
+      return current.filter((id) => id !== playerId);
+    }
+
+    // Prevent selecting more than 26 players.
+    if (current.length >= activeRosterLimit) {
+      return current;
+    }
+
+    return [...current, playerId];
+  });
+}
+
 function removePlayer(playerId: number) {
   const player = players.find(
     (p) => p.person.id === playerId
@@ -435,6 +544,9 @@ function removePlayer(playerId: number) {
 
   setPlayers((current) =>
     current.filter((p) => p.person.id !== playerId)
+  );
+  setActiveRosterIds((current) =>
+    current.filter((id) => id !== playerId)
   );
 
   setTransactions((current) => [
@@ -450,6 +562,7 @@ function removePlayer(playerId: number) {
 
 function resetRoster() {
   setPlayers([...originalPlayers]);
+  setActiveRosterIds([]);
   setTransactions([]);
 }
 
@@ -765,7 +878,8 @@ disabled={
     onClick={resetRoster}
     disabled={
   transactions.length === 0 &&
-  players.length === originalPlayers.length
+  players.length === originalPlayers.length &&
+  activeRosterCount === 0
 }
     className="rounded-lg border border-blue-500 px-4 py-2 text-sm font-medium text-blue-400 transition hover:bg-blue-500/10 disabled:cursor-not-allowed disabled:opacity-40"
   >
@@ -779,6 +893,82 @@ disabled={
               </p>
             ) : (
               <>
+                <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
+                  <div>
+                    <h3 className="text-base font-semibold text-white">
+                      26-Man Active Roster
+                    </h3>
+                    <p className="text-sm text-slate-400">
+                      Select up to 26 players from your constructed roster.
+                    </p>
+                  </div>
+                  <span className={`rounded-lg border px-3 py-2 text-sm font-semibold ${
+                    activeRosterCount === activeRosterLimit
+                      ? "border-green-500/40 bg-green-500/10 text-green-400"
+                      : "border-blue-500/40 bg-blue-500/10 text-blue-300"
+                  }`}>
+                    {activeRosterCount} / {activeRosterLimit} Selected
+                  </span>
+                </div>
+
+                <div className="mb-4 rounded-xl border border-slate-700 bg-[#0d1d30] p-4">
+                  <div className="mb-3 flex flex-wrap items-center justify-between gap-3">
+                    <h3 className="text-sm font-semibold text-white">
+                      Active Roster Validation
+                    </h3>
+                    <span
+                      role="status"
+                      className={`rounded-lg border px-3 py-1 text-xs font-semibold ${
+                        activeRosterPitcherLimitExceeded
+                          ? "border-red-500/40 bg-red-500/10 text-red-400"
+                          : activeRosterIsValid
+                            ? "border-green-500/40 bg-green-500/10 text-green-400"
+                            : "border-amber-500/40 bg-amber-500/10 text-amber-300"
+                      }`}
+                    >
+                      {activeRosterPitcherLimitExceeded
+                        ? "Pitcher Limit Exceeded"
+                        : activeRosterIsValid
+                          ? "Valid Roster"
+                          : "Incomplete Roster"}
+                    </span>
+                  </div>
+
+                  <div className="grid grid-cols-1 gap-3 sm:grid-cols-3">
+                    <div className="rounded-lg bg-[#12243a] p-3">
+                      <p className="text-xs text-slate-400">Active Players</p>
+                      <p className="mt-1 text-xl font-bold text-white">
+                        {activeRosterCount} / {activeRosterLimit}
+                      </p>
+                    </div>
+
+                    <div className="rounded-lg bg-[#12243a] p-3">
+                      <p className="text-xs text-slate-400">Pitchers</p>
+                      <p className={`mt-1 text-xl font-bold ${
+                        activeRosterPitcherLimitExceeded
+                          ? "text-red-400"
+                          : "text-white"
+                      }`}>
+                        {activePitcherCount} / 13
+                      </p>
+                    </div>
+
+                    <div className="rounded-lg bg-[#12243a] p-3">
+                      <p className="text-xs text-slate-400">Position Players</p>
+                      <p className="mt-1 text-xl font-bold text-white">
+                        {activePositionPlayerCount}
+                      </p>
+                    </div>
+                  </div>
+
+                  {activeRosterPitcherLimitExceeded && (
+                    <p className="mt-3 text-sm text-red-400">
+                      Standard regular-season rosters cannot exceed 13 pitchers.
+                      Deselect a pitcher to resolve this warning.
+                    </p>
+                  )}
+                </div>
+
                 <div className="mb-4 flex flex-wrap gap-2">
                   {rosterPositionFilters.map((filter) => {
                     const count =
@@ -813,6 +1003,9 @@ disabled={
                   <table className="w-full min-w-[680px] text-left text-sm">
                   <thead className="border-b border-slate-700 bg-[#12243a] text-slate-300">
                     <tr>
+                      <th className="px-4 py-3 text-center font-semibold">
+                        Active 26
+                      </th>
                       <th className="px-4 py-3 font-semibold">Player</th>
                       <th className="px-4 py-3 font-semibold">Position</th>
                       <th className="px-4 py-3 font-semibold">Acquisition</th>
@@ -834,8 +1027,27 @@ disabled={
                       return (
                         <tr
                           key={player.person.id}
-                          className="transition hover:bg-[#12243a]"
+                          className={`transition hover:bg-[#12243a] ${
+                            activeRosterIds.includes(player.person.id)
+                              ? "bg-blue-500/10"
+                              : ""
+                          }`}
                         >
+                          <td className="px-4 py-3 text-center">
+                            <input
+                              type="checkbox"
+                              aria-label={`Select ${player.person.fullName} for active roster`}
+                              checked={activeRosterIds.includes(player.person.id)}
+                              disabled={
+                                !activeRosterIds.includes(player.person.id) &&
+                                activeRosterCount >= activeRosterLimit
+                              }
+                              onChange={() =>
+                                toggleActiveRosterPlayer(player.person.id)
+                              }
+                              className="h-4 w-4 cursor-pointer accent-blue-500 disabled:cursor-not-allowed disabled:opacity-40"
+                            />
+                          </td>
                           <td className="px-4 py-3 font-medium">
                             {player.person.fullName}
                           </td>
@@ -980,7 +1192,7 @@ disabled={
     <p className="text-sm text-red-400">{warError}</p>
   ) : (
     <>
-      <div className="grid gap-4 md:grid-cols-3">
+      <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
         <div className="rounded-lg bg-[#12243a] p-4">
           <p className="text-sm text-slate-400">
             Original Roster WAR
@@ -1005,6 +1217,23 @@ disabled={
           </p>
         </div>
 
+        <div className="rounded-lg border border-blue-500/30 bg-[#12243a] p-4">
+          <p className="text-sm text-blue-300">
+            26-Man Active Roster WAR
+          </p>
+          <p className="mt-2 text-2xl font-bold text-white">
+            {activeRosterWar.total.toFixed(1)}
+          </p>
+          <p className="mt-1 text-xs text-slate-400">
+            {activeRosterWar.matched} of {activeRosterCount} selected players
+            with projections
+          </p>
+          <p className="mt-2 text-xs text-slate-400">
+            {activeRosterCount} / {activeRosterLimit} roster spots filled
+          </p>
+
+        </div>
+
         <div className="rounded-lg bg-[#12243a] p-4">
           <p className="text-sm text-slate-400">
             Change in Projected WAR
@@ -1020,8 +1249,24 @@ disabled={
             {projectedWarChange.toFixed(1)}
           </p>
           <p className="mt-1 text-xs text-slate-400">
-            Compared with original roster
+            Constructed vs. Original Roster
           </p>
+
+          <div className="mt-4 border-t border-slate-700 pt-3">
+            <p className="text-xs text-slate-400">
+              26-Man Active vs. Constructed Roster
+            </p>
+            <p className={`mt-2 text-2xl font-bold tabular-nums ${
+              activeRosterWarDifference > 0
+                ? "text-green-400"
+                : activeRosterWarDifference < 0
+                  ? "text-red-400"
+                  : "text-white"
+            }`}>
+              {activeRosterWarDifference > 0 ? "+" : ""}
+              {activeRosterWarDifference.toFixed(1)} WAR
+            </p>
+          </div>
         </div>
       </div>
 
@@ -1033,9 +1278,10 @@ disabled={
       </p>
 
       <p className="mt-2 text-xs text-slate-500">
-        WAR values are summed 2027 player fWAR projections
-        across the 40-man roster. They do not account for
-        playing-time overlap and are not projected team wins.
+        WAR values are summed 2027 player fWAR projections.
+        The active roster total includes only selected players,
+        using their full-season projections. These totals do not
+        account for playing-time overlap and are not projected team wins.
       </p>
     </>
   )}
@@ -1047,7 +1293,7 @@ disabled={
       2027 Projected Roster Payroll
     </h2>
 
-    <div className="grid gap-4 md:grid-cols-3">
+    <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
       <div className="rounded-lg bg-[#12243a] p-4">
         <p className="text-sm text-slate-400">
           Original Projected Payroll
@@ -1093,6 +1339,33 @@ disabled={
         </p>
       </div>
 
+      <div className="rounded-lg border border-blue-500/30 bg-[#12243a] p-4">
+        <p className="text-sm text-blue-300">
+          26-Man Active Roster Payroll
+        </p>
+        <p className="mt-2 text-2xl font-bold">
+          ${activeProjectedPayroll.toFixed(1)}M
+        </p>
+        <p className="mt-2 text-xs text-slate-400">
+          Confirmed: ${activeKnownPayroll.toFixed(1)}M
+        </p>
+        <p className="text-xs text-blue-400">
+          Arbitration estimates: ${activeArbitrationPayroll.toFixed(1)}M
+        </p>
+        <p className="text-xs text-emerald-400">
+          Pre-arbitration estimates: ${activePreArbitrationPayroll.toFixed(1)}M
+        </p>
+        <p className="text-xs text-purple-400">
+          Free-agent projections: ${activeFreeAgentPayroll.toFixed(1)}M
+        </p>
+        <p className="mt-2 text-xs text-slate-400">
+          {activeMissingSalaries} players with unknown salaries
+        </p>
+        <p className="mt-1 text-xs text-slate-400">
+          {activeRosterCount} / {activeRosterLimit} players selected
+        </p>
+      </div>
+
       <div className="rounded-lg bg-[#12243a] p-4">
         <p className="text-sm text-slate-400">
           Change in Projected Payroll
@@ -1102,10 +1375,24 @@ disabled={
           {Math.abs(projectedPayrollChange).toFixed(1)}M
         </p>
 <p className="mt-2 text-xs text-slate-400">
-  Includes confirmed salaries, arbitration estimates,
-  pre-arbitration estimates, and projected free-agent
-  contract AAV.
+  Constructed vs. Original Roster
 </p>
+
+<div className="mt-4 border-t border-slate-700 pt-3">
+  <p className="text-xs text-slate-400">
+    26-Man Active vs. Constructed Roster
+  </p>
+  <p className={`mt-2 text-2xl font-bold tabular-nums ${
+    activePayrollDifference > 0
+      ? "text-red-400"
+      : activePayrollDifference < 0
+        ? "text-green-400"
+        : "text-white"
+  }`}>
+    {activePayrollDifference >= 0 ? "+" : "-"}$
+    {Math.abs(activePayrollDifference).toFixed(1)}M
+  </p>
+</div>
       </div>
     </div>
 
@@ -1120,8 +1407,11 @@ disabled={
   projection model and are not actual signed contracts or
   guaranteed 2027 salaries. Actual eligibility, roster status,
   and salaries may differ. Unknown salaries and other
-  unmodeled costs are excluded. These figures are not complete
-  team payroll or luxury-tax calculations.
+  unmodeled costs are excluded. The active roster payroll
+  represents estimated salaries allocated to selected players,
+  not actual payroll savings from excluding other players.
+  These figures are not complete team payroll or luxury-tax
+  calculations.
 </p>
   </div>
 )}
