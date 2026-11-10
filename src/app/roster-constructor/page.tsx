@@ -38,6 +38,17 @@ export default function RosterConstructorPage() {
   // IDs of players selected for the 26-man active roster.
   const [activeRosterIds, setActiveRosterIds] = useState<number[]>([]);
 
+  // Store optimizer recommendations separately from manual selections.
+  const [optimizerMessage, setOptimizerMessage] = useState("");
+
+  const [optimizerPreview, setOptimizerPreview] = useState<{
+    playerIds: number[];
+    projectedWar: number;
+    rosterSignature: string;
+    projectionSignature: string;
+    teamId: string;
+  } | null>(null);
+
   const activeRosterPlayers = players.filter((player) =>
     activeRosterIds.includes(player.person.id)
   );
@@ -514,6 +525,127 @@ setOriginalPlayers(roster);
     };
   }, [selectedTeam]);
 
+type OptimizerPositionGroup =
+  | "Starting Pitcher"
+  | "Relief Pitcher"
+  | "Pitcher"
+  | "Catcher"
+  | "Infielder"
+  | "Outfielder / DH"
+  | "Unknown";
+
+function getOptimizerPositionGroup(
+  player: RosterPlayer
+): OptimizerPositionGroup {
+  const position = player.position?.abbreviation?.toUpperCase() ?? "";
+
+  if (position === "SP") return "Starting Pitcher";
+  if (position === "RP") return "Relief Pitcher";
+  if (position === "P" || position === "TWP") return "Pitcher";
+  if (position === "C") return "Catcher";
+
+  if (["1B", "2B", "3B", "SS", "IF"].includes(position)) {
+    return "Infielder";
+  }
+
+  if (["LF", "CF", "RF", "OF", "DH"].includes(position)) {
+    return "Outfielder / DH";
+  }
+
+  return "Unknown";
+}
+
+const rosterSignature = players
+  .map((player) => player.person.id)
+  .sort((a, b) => a - b)
+  .join(",");
+
+const projectionSignature = warProjections
+  .map((projection) =>
+    `${projection.player_name}:${projection.projected_total_fwar}`
+  )
+  .sort()
+  .join("|");
+
+const optimizerPreviewIsCurrent =
+  optimizerPreview !== null &&
+  optimizerPreview.teamId === selectedTeam &&
+  optimizerPreview.rosterSignature === rosterSignature &&
+  optimizerPreview.projectionSignature === projectionSignature;
+
+function generateOptimizedRoster() {
+  if (warLoading || warError || players.length === 0) {
+    return null;
+  }
+
+  const targets = {
+    pitchers: 13,
+    catchers: 2,
+    infielders: 6,
+    outfielders: 5,
+  };
+
+  const rankedPlayers = players
+    .map((player) => ({
+      player,
+      group: getOptimizerPositionGroup(player),
+      war: warProjectionMap.get(
+        normalizeWarName(player.person.fullName)
+      ),
+    }))
+    .filter(
+      (entry): entry is typeof entry & { war: number } =>
+        entry.war !== undefined
+    )
+    .sort((a, b) =>
+      b.war - a.war ||
+      a.player.person.id - b.player.person.id
+    );
+
+  const pitchers = rankedPlayers.filter((entry) =>
+    ["Starting Pitcher", "Relief Pitcher", "Pitcher"].includes(
+      entry.group
+    )
+  );
+
+  const catchers = rankedPlayers.filter(
+    (entry) => entry.group === "Catcher"
+  );
+
+  const infielders = rankedPlayers.filter(
+    (entry) => entry.group === "Infielder"
+  );
+
+  const outfielders = rankedPlayers.filter(
+    (entry) => entry.group === "Outfielder / DH"
+  );
+
+  // Require enough projected players in every position group.
+  if (
+    pitchers.length < targets.pitchers ||
+    catchers.length < targets.catchers ||
+    infielders.length < targets.infielders ||
+    outfielders.length < targets.outfielders
+  ) {
+    return null;
+  }
+
+  const selected = [
+    ...pitchers.slice(0, targets.pitchers),
+    ...catchers.slice(0, targets.catchers),
+    ...infielders.slice(0, targets.infielders),
+    ...outfielders.slice(0, targets.outfielders),
+  ];
+
+  return {
+    playerIds: selected.map((entry) => entry.player.person.id),
+    projectedWar: selected.reduce(
+      (total, entry) => total + entry.war,
+      0
+    ),
+  };
+}
+
 function toggleActiveRosterPlayer(playerId: number) {
   // Only players on the constructed roster can be selected.
   if (!players.some((player) => player.person.id === playerId)) {
@@ -902,6 +1034,33 @@ disabled={
                       Select up to 26 players from your constructed roster.
                     </p>
                   </div>
+                  <div className="flex flex-wrap items-center gap-3">
+                    <button
+                      type="button"
+                      onClick={() => {
+                        const recommendation = generateOptimizedRoster();
+                        setOptimizerMessage(
+                          recommendation
+                            ? ""
+                            : "Unable to generate a complete 26-man roster. This team may not have enough players with 2027 WAR projections to meet the positional targets (13 pitchers, 2 catchers, 6 infielders, and 5 outfielders/DH)."
+                        );
+                        setOptimizerPreview(
+                          recommendation
+                            ? {
+                                ...recommendation,
+                                rosterSignature,
+                                projectionSignature,
+                                teamId: selectedTeam,
+                              }
+                            : null
+                        );
+                      }}
+                      disabled={warLoading || !!warError || players.length === 0}
+                      className="rounded-lg border border-emerald-500 px-4 py-2 text-sm font-semibold text-emerald-400 transition hover:bg-emerald-500/10 disabled:cursor-not-allowed disabled:opacity-40"
+                    >
+                      Generate Optimized Roster
+                    </button>
+
                   <span className={`rounded-lg border px-3 py-2 text-sm font-semibold ${
                     activeRosterCount === activeRosterLimit
                       ? "border-green-500/40 bg-green-500/10 text-green-400"
@@ -909,6 +1068,7 @@ disabled={
                   }`}>
                     {activeRosterCount} / {activeRosterLimit} Selected
                   </span>
+                  </div>
                 </div>
 
                 <div className="mb-4 rounded-xl border border-slate-700 bg-[#0d1d30] p-4">
@@ -968,6 +1128,104 @@ disabled={
                     </p>
                   )}
                 </div>
+
+                {optimizerMessage && !optimizerPreviewIsCurrent && (
+                  <p
+                    role="status"
+                    className="mb-4 rounded-lg border border-amber-500/40 bg-amber-500/10 p-4 text-sm text-amber-300"
+                  >
+                    {optimizerMessage}
+                  </p>
+                )}
+
+                {optimizerPreviewIsCurrent && optimizerPreview && (
+                  <div className="mb-4 rounded-xl border border-emerald-500/40 bg-[#0d1d30] p-5">
+                    <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
+                      <div>
+                        <h3 className="text-lg font-bold text-white">
+                          Optimized 26-Man Roster
+                        </h3>
+                        <p className="mt-1 text-sm text-slate-400">
+                          Recommended using projected 2027 fWAR and positional targets.
+                        </p>
+                      </div>
+                      <button
+                        type="button"
+                        disabled={
+                          !optimizerPreviewIsCurrent ||
+                          !optimizerPreview ||
+                          optimizerPreview.playerIds.length !== activeRosterLimit
+                        }
+                        onClick={() => {
+                          if (
+                            !optimizerPreviewIsCurrent ||
+                            !optimizerPreview ||
+                            optimizerPreview.playerIds.length !== activeRosterLimit
+                          ) {
+                            return;
+                          }
+
+                          setActiveRosterIds([...optimizerPreview.playerIds]);
+                        }}
+                        className="rounded-lg bg-emerald-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-emerald-500 disabled:cursor-not-allowed disabled:opacity-40"
+                      >
+                        Apply Recommendation
+                      </button>
+                    </div>
+
+                    <div className="mb-4 grid grid-cols-1 gap-3 sm:grid-cols-3">
+                      <div className="rounded-lg bg-[#12243a] p-3">
+                        <p className="text-xs text-slate-400">Recommended Players</p>
+                        <p className="mt-1 text-xl font-bold text-white">
+                          {optimizerPreview.playerIds.length}
+                        </p>
+                      </div>
+                      <div className="rounded-lg bg-[#12243a] p-3">
+                        <p className="text-xs text-slate-400">Projected 2027 fWAR</p>
+                        <p className="mt-1 text-xl font-bold text-white">
+                          {optimizerPreview.projectedWar.toFixed(1)}
+                        </p>
+                      </div>
+                      <div className="rounded-lg bg-[#12243a] p-3">
+                        <p className="text-xs text-slate-400">vs. Current Active Roster</p>
+                        <p className="mt-1 text-xl font-bold text-emerald-400">
+                          {(optimizerPreview.projectedWar - activeRosterWar.total >= 0 ? "+" : "") +
+                            (optimizerPreview.projectedWar - activeRosterWar.total).toFixed(1)}
+                        </p>
+                      </div>
+                    </div>
+
+                    <div className="grid grid-cols-1 gap-2 sm:grid-cols-2">
+                      {optimizerPreview.playerIds.map((id) => {
+                        const player = players.find((p) => p.person.id === id);
+                        if (!player) return null;
+
+                        const war = warProjectionMap.get(
+                          normalizeWarName(player.person.fullName)
+                        );
+
+                        return (
+                          <div
+                            key={id}
+                            className="flex items-center justify-between rounded-lg bg-[#12243a] px-3 py-2 text-sm"
+                          >
+                            <div>
+                              <span className="font-medium text-white">
+                                {player.person.fullName}
+                              </span>
+                              <span className="ml-2 text-slate-400">
+                                {player.position?.abbreviation ?? "—"}
+                              </span>
+                            </div>
+                            <span className="font-semibold text-emerald-400">
+                              {war === undefined ? "—" : war.toFixed(1)}
+                            </span>
+                          </div>
+                        );
+                      })}
+                    </div>
+                  </div>
+                )}
 
                 <div className="mb-4 flex flex-wrap gap-2">
                   {rosterPositionFilters.map((filter) => {
