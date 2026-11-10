@@ -39,7 +39,10 @@ const toolGroups = [
   },
   {
     title: "Research",
-    links: [{ label: "Research", href: "/research" }],
+    links: [
+      { label: "Research", href: "/research" },
+      { label: "2027 Player Projections", href: "/projections" },
+    ],
   },
 ];
 

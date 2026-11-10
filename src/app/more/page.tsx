@@ -102,6 +102,12 @@ const toolGroups = [
         href: "/research",
         icon: Wrench,
       },
+      {
+        title: "2027 Player Projections",
+        description: "Explore projected MLB hitting performance, debut probabilities, and potential returnees.",
+        href: "/projections",
+        icon: LineChart,
+      },
     ],
   },
 ];
