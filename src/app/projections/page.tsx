@@ -174,8 +174,9 @@ export default function ProjectionsPage() {
         </h1>
 
         <p className="mt-4 max-w-3xl text-slate-400">
-          Explore experimental MLB hitting projections, potential major-league
-          debuts, and players who could return after time away from MLB.
+          Explore experimental 2027 MLB hitting and pitching projections,
+          potential major-league debuts, and players who could return
+          after time away from MLB.
         </p>
 
         <div
