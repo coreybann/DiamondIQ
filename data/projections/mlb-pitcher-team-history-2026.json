@@ -1,0 +1,7843 @@
+{
+  "season": 2026,
+  "description": "Recorded 2026 MLB pitching team affiliations. Multiple teams are not necessarily in chronological order. This file does not establish current contract status.",
+  "count": 812,
+  "players": {
+    "621345": {
+      "name": "A.J. Minter",
+      "teams2026": [
+        {
+          "id": 121,
+          "name": "New York Mets"
+        },
+        {
+          "id": 142,
+          "name": "Minnesota Twins"
+        }
+      ]
+    },
+    "805123": {
+      "name": "AJ Blubaugh",
+      "teams2026": [
+        {
+          "id": 117,
+          "name": "Houston Astros"
+        }
+      ]
+    },
+    "700363": {
+      "name": "AJ Smith-Shawver",
+      "teams2026": [
+        {
+          "id": 144,
+          "name": "Atlanta Braves"
+        }
+      ]
+    },
+    "676879": {
+      "name": "Aaron Ashby",
+      "teams2026": [
+        {
+          "id": 158,
+          "name": "Milwaukee Brewers"
+        }
+      ]
+    },
+    "605156": {
+      "name": "Aaron Brooks",
+      "teams2026": [
+        {
+          "id": 139,
+          "name": "Tampa Bay Rays"
+        }
+      ]
+    },
+    "607481": {
+      "name": "Aaron Bummer",
+      "teams2026": [
+        {
+          "id": 144,
+          "name": "Atlanta Braves"
+        },
+        {
+          "id": 118,
+          "name": "Kansas City Royals"
+        }
+      ]
+    },
+    "650644": {
+      "name": "Aaron Civale",
+      "teams2026": [
+        {
+          "id": 133,
+          "name": "Athletics"
+        },
+        {
+          "id": 112,
+          "name": "Chicago Cubs"
+        }
+      ]
+    },
+    "605400": {
+      "name": "Aaron Nola",
+      "teams2026": [
+        {
+          "id": 143,
+          "name": "Philadelphia Phillies"
+        }
+      ]
+    },
+    "682842": {
+      "name": "Abner Uribe",
+      "teams2026": [
+        {
+          "id": 158,
+          "name": "Milwaukee Brewers"
+        }
+      ]
+    },
+    "671936": {
+      "name": "Adam Macko",
+      "teams2026": [
+        {
+          "id": 141,
+          "name": "Toronto Blue Jays"
+        },
+        {
+          "id": 140,
+          "name": "Texas Rangers"
+        }
+      ]
+    },
+    "605288": {
+      "name": "Adrian Houser",
+      "teams2026": [
+        {
+          "id": 137,
+          "name": "San Francisco Giants"
+        }
+      ]
+    },
+    "670970": {
+      "name": "Adrian Morejon",
+      "teams2026": [
+        {
+          "id": 135,
+          "name": "San Diego Padres"
+        }
+      ]
+    },
+    "660604": {
+      "name": "Alan Rangel",
+      "teams2026": [
+        {
+          "id": 143,
+          "name": "Philadelphia Phillies"
+        }
+      ]
+    },
+    "544150": {
+      "name": "Albert Su\u00e1rez",
+      "teams2026": [
+        {
+          "id": 110,
+          "name": "Baltimore Orioles"
+        }
+      ]
+    },
+    "687941": {
+      "name": "Alec Gamboa",
+      "teams2026": [
+        {
+          "id": 111,
+          "name": "Boston Red Sox"
+        }
+      ]
+    },
+    "689690": {
+      "name": "Alek Jacob",
+      "teams2026": [
+        {
+          "id": 135,
+          "name": "San Diego Padres"
+        }
+      ]
+    },
+    "666201": {
+      "name": "Alek Manoah",
+      "teams2026": [
+        {
+          "id": 108,
+          "name": "Los Angeles Angels"
+        }
+      ]
+    },
+    "702047": {
+      "name": "Alex Cook",
+      "teams2026": [
+        {
+          "id": 139,
+          "name": "Tampa Bay Rays"
+        }
+      ]
+    },
+    "695380": {
+      "name": "Alex Hoppe",
+      "teams2026": [
+        {
+          "id": 136,
+          "name": "Seattle Mariners"
+        },
+        {
+          "id": 110,
+          "name": "Baltimore Orioles"
+        }
+      ]
+    },
+    "656638": {
+      "name": "Alex Lange",
+      "teams2026": [
+        {
+          "id": 118,
+          "name": "Kansas City Royals"
+        }
+      ]
+    },
+    "686934": {
+      "name": "Alex McFarlane",
+      "teams2026": [
+        {
+          "id": 143,
+          "name": "Philadelphia Phillies"
+        }
+      ]
+    },
+    "681911": {
+      "name": "Alex Vesia",
+      "teams2026": [
+        {
+          "id": 119,
+          "name": "Los Angeles Dodgers"
+        }
+      ]
+    },
+    "529017": {
+      "name": "Alexander Cornielle",
+      "teams2026": [
+        {
+          "id": 147,
+          "name": "New York Yankees"
+        }
+      ]
+    },
+    "695001": {
+      "name": "Alimber Santa",
+      "teams2026": [
+        {
+          "id": 117,
+          "name": "Houston Astros"
+        }
+      ]
+    },
+    "701552": {
+      "name": "Andre Granillo",
+      "teams2026": [
+        {
+          "id": 120,
+          "name": "Washington Nationals"
+        }
+      ]
+    },
+    "669467": {
+      "name": "Andre Pallante",
+      "teams2026": [
+        {
+          "id": 138,
+          "name": "St. Louis Cardinals"
+        }
+      ]
+    },
+    "671096": {
+      "name": "Andrew Abbott",
+      "teams2026": [
+        {
+          "id": 113,
+          "name": "Cincinnati Reds"
+        }
+      ]
+    },
+    "674841": {
+      "name": "Andrew Alvarez",
+      "teams2026": [
+        {
+          "id": 120,
+          "name": "Washington Nationals"
+        }
+      ]
+    },
+    "694851": {
+      "name": "Andrew Hoffmann",
+      "teams2026": [
+        {
+          "id": 109,
+          "name": "Arizona Diamondbacks"
+        }
+      ]
+    },
+    "552640": {
+      "name": "Andrew Kittredge",
+      "teams2026": [
+        {
+          "id": 110,
+          "name": "Baltimore Orioles"
+        }
+      ]
+    },
+    "702193": {
+      "name": "Andrew Morris",
+      "teams2026": [
+        {
+          "id": 142,
+          "name": "Minnesota Twins"
+        }
+      ]
+    },
+    "677053": {
+      "name": "Andrew Nardi",
+      "teams2026": [
+        {
+          "id": 146,
+          "name": "Miami Marlins"
+        }
+      ]
+    },
+    "691725": {
+      "name": "Andrew Painter",
+      "teams2026": [
+        {
+          "id": 143,
+          "name": "Philadelphia Phillies"
+        }
+      ]
+    },
+    "808825": {
+      "name": "Andrew Sears",
+      "teams2026": [
+        {
+          "id": 116,
+          "name": "Detroit Tigers"
+        }
+      ]
+    },
+    "681806": {
+      "name": "Andrew Wantz",
+      "teams2026": [
+        {
+          "id": 139,
+          "name": "Tampa Bay Rays"
+        },
+        {
+          "id": 112,
+          "name": "Chicago Cubs"
+        }
+      ]
+    },
+    "662253": {
+      "name": "Andr\u00e9s Mu\u00f1oz",
+      "teams2026": [
+        {
+          "id": 136,
+          "name": "Seattle Mariners"
+        }
+      ]
+    },
+    "683409": {
+      "name": "Angel Chivilli",
+      "teams2026": [
+        {
+          "id": 147,
+          "name": "New York Yankees"
+        }
+      ]
+    },
+    "672582": {
+      "name": "Angel Zerpa",
+      "teams2026": [
+        {
+          "id": 158,
+          "name": "Milwaukee Brewers"
+        }
+      ]
+    },
+    "607455": {
+      "name": "Anthony Banda",
+      "teams2026": [
+        {
+          "id": 142,
+          "name": "Minnesota Twins"
+        }
+      ]
+    },
+    "669622": {
+      "name": "Anthony Bender",
+      "teams2026": [
+        {
+          "id": 146,
+          "name": "Miami Marlins"
+        }
+      ]
+    },
+    "543238": {
+      "name": "Anthony Gose",
+      "teams2026": [
+        {
+          "id": 118,
+          "name": "Kansas City Royals"
+        }
+      ]
+    },
+    "641743": {
+      "name": "Anthony Kay",
+      "teams2026": [
+        {
+          "id": 145,
+          "name": "Chicago White Sox"
+        }
+      ]
+    },
+    "683627": {
+      "name": "Anthony Molina",
+      "teams2026": [
+        {
+          "id": 144,
+          "name": "Atlanta Braves"
+        },
+        {
+          "id": 137,
+          "name": "San Francisco Giants"
+        }
+      ]
+    },
+    "689296": {
+      "name": "Anthony Nunez",
+      "teams2026": [
+        {
+          "id": 110,
+          "name": "Baltimore Orioles"
+        }
+      ]
+    },
+    "681520": {
+      "name": "Antoine Kelly",
+      "teams2026": [
+        {
+          "id": 112,
+          "name": "Chicago Cubs"
+        }
+      ]
+    },
+    "622608": {
+      "name": "Antonio Senzatela",
+      "teams2026": [
+        {
+          "id": 115,
+          "name": "Colorado Rockies"
+        },
+        {
+          "id": 158,
+          "name": "Milwaukee Brewers"
+        }
+      ]
+    },
+    "699008": {
+      "name": "Antwone Kelly",
+      "teams2026": [
+        {
+          "id": 134,
+          "name": "Pittsburgh Pirates"
+        }
+      ]
+    },
+    "547973": {
+      "name": "Aroldis Chapman",
+      "teams2026": [
+        {
+          "id": 111,
+          "name": "Boston Red Sox"
+        }
+      ]
+    },
+    "804926": {
+      "name": "Austin Peterson",
+      "teams2026": [
+        {
+          "id": 114,
+          "name": "Cleveland Guardians"
+        }
+      ]
+    },
+    "608723": {
+      "name": "Austin Voth",
+      "teams2026": [
+        {
+          "id": 141,
+          "name": "Toronto Blue Jays"
+        },
+        {
+          "id": 142,
+          "name": "Minnesota Twins"
+        }
+      ]
+    },
+    "681810": {
+      "name": "Austin Warren",
+      "teams2026": [
+        {
+          "id": 121,
+          "name": "New York Mets"
+        }
+      ]
+    },
+    "663559": {
+      "name": "Bailey Falter",
+      "teams2026": [
+        {
+          "id": 118,
+          "name": "Kansas City Royals"
+        },
+        {
+          "id": 144,
+          "name": "Atlanta Braves"
+        }
+      ]
+    },
+    "641927": {
+      "name": "Bailey Ober",
+      "teams2026": [
+        {
+          "id": 142,
+          "name": "Minnesota Twins"
+        }
+      ]
+    },
+    "689225": {
+      "name": "Beau Brieske",
+      "teams2026": [
+        {
+          "id": 116,
+          "name": "Detroit Tigers"
+        }
+      ]
+    },
+    "694360": {
+      "name": "Beck Way",
+      "teams2026": [
+        {
+          "id": 118,
+          "name": "Kansas City Royals"
+        }
+      ]
+    },
+    "641386": {
+      "name": "Ben Bowden",
+      "teams2026": [
+        {
+          "id": 133,
+          "name": "Athletics"
+        }
+      ]
+    },
+    "676962": {
+      "name": "Ben Brown",
+      "teams2026": [
+        {
+          "id": 112,
+          "name": "Chicago Cubs"
+        }
+      ]
+    },
+    "676508": {
+      "name": "Ben Casparius",
+      "teams2026": [
+        {
+          "id": 119,
+          "name": "Los Angeles Dodgers"
+        }
+      ]
+    },
+    "690829": {
+      "name": "Ben Joyce",
+      "teams2026": [
+        {
+          "id": 108,
+          "name": "Los Angeles Angels"
+        }
+      ]
+    },
+    "687239": {
+      "name": "Ben Peoples",
+      "teams2026": [
+        {
+          "id": 140,
+          "name": "Texas Rangers"
+        }
+      ]
+    },
+    "656986": {
+      "name": "Bennett Sousa",
+      "teams2026": [
+        {
+          "id": 117,
+          "name": "Houston Astros"
+        }
+      ]
+    },
+    "694918": {
+      "name": "Blade Tidwell",
+      "teams2026": [
+        {
+          "id": 137,
+          "name": "San Francisco Giants"
+        }
+      ]
+    },
+    "687060": {
+      "name": "Blake Adams",
+      "teams2026": [
+        {
+          "id": 115,
+          "name": "Colorado Rockies"
+        }
+      ]
+    },
+    "686628": {
+      "name": "Blake Burkhalter",
+      "teams2026": [
+        {
+          "id": 144,
+          "name": "Atlanta Braves"
+        }
+      ]
+    },
+    "605483": {
+      "name": "Blake Snell",
+      "teams2026": [
+        {
+          "id": 119,
+          "name": "Los Angeles Dodgers"
+        }
+      ]
+    },
+    "595014": {
+      "name": "Blake Treinen",
+      "teams2026": [
+        {
+          "id": 119,
+          "name": "Los Angeles Dodgers"
+        }
+      ]
+    },
+    "686796": {
+      "name": "Blake Walston",
+      "teams2026": [
+        {
+          "id": 109,
+          "name": "Arizona Diamondbacks"
+        }
+      ]
+    },
+    "676620": {
+      "name": "Blake Weiman",
+      "teams2026": [
+        {
+          "id": 108,
+          "name": "Los Angeles Angels"
+        }
+      ]
+    },
+    "680604": {
+      "name": "Blas Casta\u00f1o",
+      "teams2026": [
+        {
+          "id": 115,
+          "name": "Colorado Rockies"
+        }
+      ]
+    },
+    "676272": {
+      "name": "Bobby Miller",
+      "teams2026": [
+        {
+          "id": 119,
+          "name": "Los Angeles Dodgers"
+        }
+      ]
+    },
+    "641745": {
+      "name": "Brad Keller",
+      "teams2026": [
+        {
+          "id": 143,
+          "name": "Philadelphia Phillies"
+        }
+      ]
+    },
+    "695418": {
+      "name": "Brad Lord",
+      "teams2026": [
+        {
+          "id": 120,
+          "name": "Washington Nationals"
+        }
+      ]
+    },
+    "699134": {
+      "name": "Bradgley Rodriguez",
+      "teams2026": [
+        {
+          "id": 135,
+          "name": "San Diego Padres"
+        }
+      ]
+    },
+    "687134": {
+      "name": "Bradley Blalock",
+      "teams2026": [
+        {
+          "id": 146,
+          "name": "Miami Marlins"
+        }
+      ]
+    },
+    "690440": {
+      "name": "Bradley Hanner",
+      "teams2026": [
+        {
+          "id": 147,
+          "name": "New York Yankees"
+        }
+      ]
+    },
+    "669620": {
+      "name": "Brady Basso",
+      "teams2026": [
+        {
+          "id": 133,
+          "name": "Athletics"
+        }
+      ]
+    },
+    "663903": {
+      "name": "Brady Singer",
+      "teams2026": [
+        {
+          "id": 113,
+          "name": "Cincinnati Reds"
+        }
+      ]
+    },
+    "684049": {
+      "name": "Brandan Bidois",
+      "teams2026": [
+        {
+          "id": 134,
+          "name": "Pittsburgh Pirates"
+        }
+      ]
+    },
+    "685126": {
+      "name": "Brandon Eisert",
+      "teams2026": [
+        {
+          "id": 145,
+          "name": "Chicago White Sox"
+        },
+        {
+          "id": 134,
+          "name": "Pittsburgh Pirates"
+        }
+      ]
+    },
+    "605335": {
+      "name": "Brandon Leibrandt",
+      "teams2026": [
+        {
+          "id": 113,
+          "name": "Cincinnati Reds"
+        }
+      ]
+    },
+    "694297": {
+      "name": "Brandon Pfaadt",
+      "teams2026": [
+        {
+          "id": 109,
+          "name": "Arizona Diamondbacks"
+        }
+      ]
+    },
+    "687075": {
+      "name": "Brandon Sproat",
+      "teams2026": [
+        {
+          "id": 158,
+          "name": "Milwaukee Brewers"
+        }
+      ]
+    },
+    "682227": {
+      "name": "Brandon Williamson",
+      "teams2026": [
+        {
+          "id": 113,
+          "name": "Cincinnati Reds"
+        }
+      ]
+    },
+    "605540": {
+      "name": "Brandon Woodruff",
+      "teams2026": [
+        {
+          "id": 158,
+          "name": "Milwaukee Brewers"
+        }
+      ]
+    },
+    "687064": {
+      "name": "Brandon Young",
+      "teams2026": [
+        {
+          "id": 110,
+          "name": "Baltimore Orioles"
+        }
+      ]
+    },
+    "805299": {
+      "name": "Brandyn Garcia",
+      "teams2026": [
+        {
+          "id": 109,
+          "name": "Arizona Diamondbacks"
+        }
+      ]
+    },
+    "676428": {
+      "name": "Brant Hurter",
+      "teams2026": [
+        {
+          "id": 116,
+          "name": "Detroit Tigers"
+        }
+      ]
+    },
+    "677952": {
+      "name": "Braxton Ashcraft",
+      "teams2026": [
+        {
+          "id": 134,
+          "name": "Pittsburgh Pirates"
+        }
+      ]
+    },
+    "666129": {
+      "name": "Braxton Garrett",
+      "teams2026": [
+        {
+          "id": 146,
+          "name": "Miami Marlins"
+        },
+        {
+          "id": 112,
+          "name": "Chicago Cubs"
+        }
+      ]
+    },
+    "694820": {
+      "name": "Braxton Roxby",
+      "teams2026": [
+        {
+          "id": 137,
+          "name": "San Francisco Giants"
+        }
+      ]
+    },
+    "678394": {
+      "name": "Brayan Bello",
+      "teams2026": [
+        {
+          "id": 111,
+          "name": "Boston Red Sox"
+        }
+      ]
+    },
+    "680755": {
+      "name": "Braydon Fisher",
+      "teams2026": [
+        {
+          "id": 141,
+          "name": "Toronto Blue Jays"
+        }
+      ]
+    },
+    "669724": {
+      "name": "Brenan Hanifee",
+      "teams2026": [
+        {
+          "id": 116,
+          "name": "Detroit Tigers"
+        }
+      ]
+    },
+    "694341": {
+      "name": "Brendan Beck",
+      "teams2026": [
+        {
+          "id": 147,
+          "name": "New York Yankees"
+        }
+      ]
+    },
+    "676454": {
+      "name": "Brendan Cellucci",
+      "teams2026": [
+        {
+          "id": 141,
+          "name": "Toronto Blue Jays"
+        }
+      ]
+    },
+    "663893": {
+      "name": "Brendon Little",
+      "teams2026": [
+        {
+          "id": 141,
+          "name": "Toronto Blue Jays"
+        }
+      ]
+    },
+    "657514": {
+      "name": "Brennan Bernardino",
+      "teams2026": [
+        {
+          "id": 115,
+          "name": "Colorado Rockies"
+        }
+      ]
+    },
+    "687396": {
+      "name": "Brent Headrick",
+      "teams2026": [
+        {
+          "id": 147,
+          "name": "New York Yankees"
+        }
+      ]
+    },
+    "608718": {
+      "name": "Brent Suter",
+      "teams2026": [
+        {
+          "id": 108,
+          "name": "Los Angeles Angels"
+        },
+        {
+          "id": 144,
+          "name": "Atlanta Braves"
+        }
+      ]
+    },
+    "695049": {
+      "name": "Brett Kerry",
+      "teams2026": [
+        {
+          "id": 108,
+          "name": "Los Angeles Angels"
+        }
+      ]
+    },
+    "702153": {
+      "name": "Brian Fitzpatrick",
+      "teams2026": [
+        {
+          "id": 158,
+          "name": "Milwaukee Brewers"
+        }
+      ]
+    },
+    "662144": {
+      "name": "Brian Keller",
+      "teams2026": [
+        {
+          "id": 143,
+          "name": "Philadelphia Phillies"
+        }
+      ]
+    },
+    "656271": {
+      "name": "Brock Burke",
+      "teams2026": [
+        {
+          "id": 113,
+          "name": "Cincinnati Reds"
+        }
+      ]
+    },
+    "592779": {
+      "name": "Brock Stewart",
+      "teams2026": [
+        {
+          "id": 119,
+          "name": "Los Angeles Dodgers"
+        }
+      ]
+    },
+    "811315": {
+      "name": "Brody Hopkins",
+      "teams2026": [
+        {
+          "id": 139,
+          "name": "Tampa Bay Rays"
+        }
+      ]
+    },
+    "621139": {
+      "name": "Brooks Kriske",
+      "teams2026": [
+        {
+          "id": 133,
+          "name": "Athletics"
+        }
+      ]
+    },
+    "548384": {
+      "name": "Brooks Raley",
+      "teams2026": [
+        {
+          "id": 121,
+          "name": "New York Mets"
+        },
+        {
+          "id": 143,
+          "name": "Philadelphia Phillies"
+        }
+      ]
+    },
+    "669145": {
+      "name": "Bruce Zimmermann",
+      "teams2026": [
+        {
+          "id": 138,
+          "name": "St. Louis Cardinals"
+        }
+      ]
+    },
+    "650556": {
+      "name": "Bryan Abreu",
+      "teams2026": [
+        {
+          "id": 117,
+          "name": "Houston Astros"
+        }
+      ]
+    },
+    "641329": {
+      "name": "Bryan Baker",
+      "teams2026": [
+        {
+          "id": 139,
+          "name": "Tampa Bay Rays"
+        }
+      ]
+    },
+    "663542": {
+      "name": "Bryan Hudson",
+      "teams2026": [
+        {
+          "id": 145,
+          "name": "Chicago White Sox"
+        }
+      ]
+    },
+    "687911": {
+      "name": "Bryan King",
+      "teams2026": [
+        {
+          "id": 117,
+          "name": "Houston Astros"
+        }
+      ]
+    },
+    "693433": {
+      "name": "Bryan Woo",
+      "teams2026": [
+        {
+          "id": 136,
+          "name": "Seattle Mariners"
+        }
+      ]
+    },
+    "693821": {
+      "name": "Bryce Elder",
+      "teams2026": [
+        {
+          "id": 144,
+          "name": "Atlanta Braves"
+        }
+      ]
+    },
+    "682243": {
+      "name": "Bryce Miller",
+      "teams2026": [
+        {
+          "id": 136,
+          "name": "Seattle Mariners"
+        }
+      ]
+    },
+    "802408": {
+      "name": "Brycen Mautz",
+      "teams2026": [
+        {
+          "id": 138,
+          "name": "St. Louis Cardinals"
+        }
+      ]
+    },
+    "669060": {
+      "name": "Bryse Wilson",
+      "teams2026": [
+        {
+          "id": 143,
+          "name": "Philadelphia Phillies"
+        },
+        {
+          "id": 112,
+          "name": "Chicago Cubs"
+        },
+        {
+          "id": 158,
+          "name": "Milwaukee Brewers"
+        }
+      ]
+    },
+    "696149": {
+      "name": "Bubba Chandler",
+      "teams2026": [
+        {
+          "id": 134,
+          "name": "Pittsburgh Pirates"
+        }
+      ]
+    },
+    "572143": {
+      "name": "Burch Smith",
+      "teams2026": [
+        {
+          "id": 116,
+          "name": "Detroit Tigers"
+        }
+      ]
+    },
+    "669310": {
+      "name": "CJ Van Eyk",
+      "teams2026": [
+        {
+          "id": 141,
+          "name": "Toronto Blue Jays"
+        }
+      ]
+    },
+    "676917": {
+      "name": "Cade Cavalli",
+      "teams2026": [
+        {
+          "id": 120,
+          "name": "Washington Nationals"
+        }
+      ]
+    },
+    "806188": {
+      "name": "Cade Gibson",
+      "teams2026": [
+        {
+          "id": 146,
+          "name": "Miami Marlins"
+        }
+      ]
+    },
+    "690990": {
+      "name": "Cade Horton",
+      "teams2026": [
+        {
+          "id": 112,
+          "name": "Chicago Cubs"
+        }
+      ]
+    },
+    "700249": {
+      "name": "Cade Povich",
+      "teams2026": [
+        {
+          "id": 110,
+          "name": "Baltimore Orioles"
+        }
+      ]
+    },
+    "671922": {
+      "name": "Cade Smith",
+      "teams2026": [
+        {
+          "id": 114,
+          "name": "Cleveland Guardians"
+        }
+      ]
+    },
+    "685464": {
+      "name": "Cade Winquest",
+      "teams2026": [
+        {
+          "id": 138,
+          "name": "St. Louis Cardinals"
+        }
+      ]
+    },
+    "615698": {
+      "name": "Cal Quantrill",
+      "teams2026": [
+        {
+          "id": 140,
+          "name": "Texas Rangers"
+        }
+      ]
+    },
+    "657571": {
+      "name": "Caleb Ferguson",
+      "teams2026": [
+        {
+          "id": 113,
+          "name": "Cincinnati Reds"
+        },
+        {
+          "id": 138,
+          "name": "St. Louis Cardinals"
+        }
+      ]
+    },
+    "668873": {
+      "name": "Caleb Kilian",
+      "teams2026": [
+        {
+          "id": 137,
+          "name": "San Francisco Giants"
+        },
+        {
+          "id": 143,
+          "name": "Philadelphia Phillies"
+        }
+      ]
+    },
+    "573204": {
+      "name": "Caleb Thielbar",
+      "teams2026": [
+        {
+          "id": 112,
+          "name": "Chicago Cubs"
+        }
+      ]
+    },
+    "676534": {
+      "name": "Calvin Faucher",
+      "teams2026": [
+        {
+          "id": 146,
+          "name": "Miami Marlins"
+        }
+      ]
+    },
+    "592155": {
+      "name": "Cam Booser",
+      "teams2026": [
+        {
+          "id": 139,
+          "name": "Tampa Bay Rays"
+        }
+      ]
+    },
+    "676742": {
+      "name": "Cam Sanders",
+      "teams2026": [
+        {
+          "id": 134,
+          "name": "Pittsburgh Pirates"
+        },
+        {
+          "id": 110,
+          "name": "Baltimore Orioles"
+        }
+      ]
+    },
+    "693645": {
+      "name": "Cam Schlittler",
+      "teams2026": [
+        {
+          "id": 147,
+          "name": "New York Yankees"
+        }
+      ]
+    },
+    "671382": {
+      "name": "Cameron Foster",
+      "teams2026": [
+        {
+          "id": 110,
+          "name": "Baltimore Orioles"
+        }
+      ]
+    },
+    "687721": {
+      "name": "Cameron Weston",
+      "teams2026": [
+        {
+          "id": 110,
+          "name": "Baltimore Orioles"
+        }
+      ]
+    },
+    "666808": {
+      "name": "Camilo Doval",
+      "teams2026": [
+        {
+          "id": 147,
+          "name": "New York Yankees"
+        },
+        {
+          "id": 134,
+          "name": "Pittsburgh Pirates"
+        },
+        {
+          "id": 137,
+          "name": "San Francisco Giants"
+        }
+      ]
+    },
+    "605218": {
+      "name": "Carl Edwards Jr.",
+      "teams2026": [
+        {
+          "id": 121,
+          "name": "New York Mets"
+        }
+      ]
+    },
+    "471911": {
+      "name": "Carlos Carrasco",
+      "teams2026": [
+        {
+          "id": 144,
+          "name": "Atlanta Braves"
+        }
+      ]
+    },
+    "679922": {
+      "name": "Carlos Duran",
+      "teams2026": [
+        {
+          "id": 118,
+          "name": "Kansas City Royals"
+        }
+      ]
+    },
+    "608032": {
+      "name": "Carlos Est\u00e9vez",
+      "teams2026": [
+        {
+          "id": 118,
+          "name": "Kansas City Royals"
+        }
+      ]
+    },
+    "672578": {
+      "name": "Carlos Hern\u00e1ndez",
+      "teams2026": [
+        {
+          "id": 114,
+          "name": "Cleveland Guardians"
+        }
+      ]
+    },
+    "692230": {
+      "name": "Carlos Rodriguez",
+      "teams2026": [
+        {
+          "id": 158,
+          "name": "Milwaukee Brewers"
+        }
+      ]
+    },
+    "607074": {
+      "name": "Carlos Rod\u00f3n",
+      "teams2026": [
+        {
+          "id": 147,
+          "name": "New York Yankees"
+        }
+      ]
+    },
+    "672841": {
+      "name": "Carlos Vargas",
+      "teams2026": [
+        {
+          "id": 136,
+          "name": "Seattle Mariners"
+        }
+      ]
+    },
+    "669387": {
+      "name": "Carmen Mlodzinski",
+      "teams2026": [
+        {
+          "id": 134,
+          "name": "Pittsburgh Pirates"
+        }
+      ]
+    },
+    "687223": {
+      "name": "Carson Palmquist",
+      "teams2026": [
+        {
+          "id": 120,
+          "name": "Washington Nationals"
+        }
+      ]
+    },
+    "693313": {
+      "name": "Carson Seymour",
+      "teams2026": [
+        {
+          "id": 137,
+          "name": "San Francisco Giants"
+        }
+      ]
+    },
+    "686730": {
+      "name": "Carson Spiers",
+      "teams2026": [
+        {
+          "id": 113,
+          "name": "Cincinnati Reds"
+        }
+      ]
+    },
+    "687931": {
+      "name": "Carson Whisenhunt",
+      "teams2026": [
+        {
+          "id": 137,
+          "name": "San Francisco Giants"
+        }
+      ]
+    },
+    "691945": {
+      "name": "Carter Baumler",
+      "teams2026": [
+        {
+          "id": 140,
+          "name": "Texas Rangers"
+        }
+      ]
+    },
+    "668984": {
+      "name": "Casey Legumina",
+      "teams2026": [
+        {
+          "id": 136,
+          "name": "Seattle Mariners"
+        },
+        {
+          "id": 139,
+          "name": "Tampa Bay Rays"
+        }
+      ]
+    },
+    "663554": {
+      "name": "Casey Mize",
+      "teams2026": [
+        {
+          "id": 116,
+          "name": "Detroit Tigers"
+        },
+        {
+          "id": 135,
+          "name": "San Diego Padres"
+        }
+      ]
+    },
+    "702885": {
+      "name": "Cesar Perdomo",
+      "teams2026": [
+        {
+          "id": 137,
+          "name": "San Francisco Giants"
+        }
+      ]
+    },
+    "689149": {
+      "name": "Chad Dallas",
+      "teams2026": [
+        {
+          "id": 141,
+          "name": "Toronto Blue Jays"
+        }
+      ]
+    },
+    "694477": {
+      "name": "Chad Patrick",
+      "teams2026": [
+        {
+          "id": 158,
+          "name": "Milwaukee Brewers"
+        }
+      ]
+    },
+    "656212": {
+      "name": "Charlie Barnes",
+      "teams2026": [
+        {
+          "id": 112,
+          "name": "Chicago Cubs"
+        },
+        {
+          "id": 119,
+          "name": "Los Angeles Dodgers"
+        }
+      ]
+    },
+    "695505": {
+      "name": "Chase Burns",
+      "teams2026": [
+        {
+          "id": 113,
+          "name": "Cincinnati Reds"
+        }
+      ]
+    },
+    "801403": {
+      "name": "Chase Dollander",
+      "teams2026": [
+        {
+          "id": 115,
+          "name": "Colorado Rockies"
+        }
+      ]
+    },
+    "695445": {
+      "name": "Chase Lee",
+      "teams2026": [
+        {
+          "id": 141,
+          "name": "Toronto Blue Jays"
+        }
+      ]
+    },
+    "695534": {
+      "name": "Chase Petty",
+      "teams2026": [
+        {
+          "id": 113,
+          "name": "Cincinnati Reds"
+        }
+      ]
+    },
+    "663767": {
+      "name": "Chase Shugart",
+      "teams2026": [
+        {
+          "id": 143,
+          "name": "Philadelphia Phillies"
+        }
+      ]
+    },
+    "681217": {
+      "name": "Chase Silseth",
+      "teams2026": [
+        {
+          "id": 108,
+          "name": "Los Angeles Angels"
+        },
+        {
+          "id": 140,
+          "name": "Texas Rangers"
+        }
+      ]
+    },
+    "686678": {
+      "name": "Chase Solesky",
+      "teams2026": [
+        {
+          "id": 139,
+          "name": "Tampa Bay Rays"
+        }
+      ]
+    },
+    "694646": {
+      "name": "Chayce McDermott",
+      "teams2026": [
+        {
+          "id": 119,
+          "name": "Los Angeles Dodgers"
+        },
+        {
+          "id": 121,
+          "name": "New York Mets"
+        }
+      ]
+    },
+    "605135": {
+      "name": "Chris Bassitt",
+      "teams2026": [
+        {
+          "id": 110,
+          "name": "Baltimore Orioles"
+        }
+      ]
+    },
+    "606965": {
+      "name": "Chris Devenski",
+      "teams2026": [
+        {
+          "id": 134,
+          "name": "Pittsburgh Pirates"
+        },
+        {
+          "id": 121,
+          "name": "New York Mets"
+        }
+      ]
+    },
+    "455119": {
+      "name": "Chris Martin",
+      "teams2026": [
+        {
+          "id": 140,
+          "name": "Texas Rangers"
+        }
+      ]
+    },
+    "669684": {
+      "name": "Chris Murphy",
+      "teams2026": [
+        {
+          "id": 145,
+          "name": "Chicago White Sox"
+        }
+      ]
+    },
+    "663978": {
+      "name": "Chris Paddack",
+      "teams2026": [
+        {
+          "id": 146,
+          "name": "Miami Marlins"
+        },
+        {
+          "id": 113,
+          "name": "Cincinnati Reds"
+        },
+        {
+          "id": 140,
+          "name": "Texas Rangers"
+        }
+      ]
+    },
+    "688297": {
+      "name": "Chris Roycroft",
+      "teams2026": [
+        {
+          "id": 138,
+          "name": "St. Louis Cardinals"
+        },
+        {
+          "id": 139,
+          "name": "Tampa Bay Rays"
+        },
+        {
+          "id": 133,
+          "name": "Athletics"
+        }
+      ]
+    },
+    "519242": {
+      "name": "Chris Sale",
+      "teams2026": [
+        {
+          "id": 144,
+          "name": "Atlanta Braves"
+        }
+      ]
+    },
+    "685005": {
+      "name": "Christian Roa",
+      "teams2026": [
+        {
+          "id": 117,
+          "name": "Houston Astros"
+        }
+      ]
+    },
+    "681035": {
+      "name": "Christian Scott",
+      "teams2026": [
+        {
+          "id": 121,
+          "name": "New York Mets"
+        }
+      ]
+    },
+    "672335": {
+      "name": "Cionel P\u00e9rez",
+      "teams2026": [
+        {
+          "id": 120,
+          "name": "Washington Nationals"
+        },
+        {
+          "id": 121,
+          "name": "New York Mets"
+        }
+      ]
+    },
+    "657376": {
+      "name": "Clarke Schmidt",
+      "teams2026": [
+        {
+          "id": 147,
+          "name": "New York Yankees"
+        }
+      ]
+    },
+    "605280": {
+      "name": "Clay Holmes",
+      "teams2026": [
+        {
+          "id": 121,
+          "name": "New York Mets"
+        },
+        {
+          "id": 112,
+          "name": "Chicago Cubs"
+        }
+      ]
+    },
+    "690925": {
+      "name": "Clayton Beeter",
+      "teams2026": [
+        {
+          "id": 120,
+          "name": "Washington Nationals"
+        }
+      ]
+    },
+    "676051": {
+      "name": "Codi Heuer",
+      "teams2026": [
+        {
+          "id": 114,
+          "name": "Cleveland Guardians"
+        }
+      ]
+    },
+    "675989": {
+      "name": "Cody Bolton",
+      "teams2026": [
+        {
+          "id": 117,
+          "name": "Houston Astros"
+        }
+      ]
+    },
+    "674003": {
+      "name": "Cody Bradford",
+      "teams2026": [
+        {
+          "id": 140,
+          "name": "Texas Rangers"
+        }
+      ]
+    },
+    "689520": {
+      "name": "Cody Laweryson",
+      "teams2026": [
+        {
+          "id": 142,
+          "name": "Minnesota Twins"
+        }
+      ]
+    },
+    "664074": {
+      "name": "Cody Ponce",
+      "teams2026": [
+        {
+          "id": 141,
+          "name": "Toronto Blue Jays"
+        }
+      ]
+    },
+    "669371": {
+      "name": "Cole Henry",
+      "teams2026": [
+        {
+          "id": 120,
+          "name": "Washington Nationals"
+        }
+      ]
+    },
+    "608344": {
+      "name": "Cole Irvin",
+      "teams2026": [
+        {
+          "id": 119,
+          "name": "Los Angeles Dodgers"
+        }
+      ]
+    },
+    "666142": {
+      "name": "Cole Ragans",
+      "teams2026": [
+        {
+          "id": 118,
+          "name": "Kansas City Royals"
+        }
+      ]
+    },
+    "663485": {
+      "name": "Cole Sands",
+      "teams2026": [
+        {
+          "id": 142,
+          "name": "Minnesota Twins"
+        }
+      ]
+    },
+    "642121": {
+      "name": "Cole Sulser",
+      "teams2026": [
+        {
+          "id": 139,
+          "name": "Tampa Bay Rays"
+        }
+      ]
+    },
+    "677961": {
+      "name": "Cole Wilcox",
+      "teams2026": [
+        {
+          "id": 136,
+          "name": "Seattle Mariners"
+        }
+      ]
+    },
+    "668390": {
+      "name": "Cole Winn",
+      "teams2026": [
+        {
+          "id": 140,
+          "name": "Texas Rangers"
+        }
+      ]
+    },
+    "689441": {
+      "name": "Coleman Crow",
+      "teams2026": [
+        {
+          "id": 158,
+          "name": "Milwaukee Brewers"
+        }
+      ]
+    },
+    "670059": {
+      "name": "Colin Holderman",
+      "teams2026": [
+        {
+          "id": 114,
+          "name": "Cleveland Guardians"
+        }
+      ]
+    },
+    "607067": {
+      "name": "Colin Rea",
+      "teams2026": [
+        {
+          "id": 112,
+          "name": "Chicago Cubs"
+        }
+      ]
+    },
+    "676467": {
+      "name": "Colton Gordon",
+      "teams2026": [
+        {
+          "id": 117,
+          "name": "Houston Astros"
+        },
+        {
+          "id": 158,
+          "name": "Milwaukee Brewers"
+        }
+      ]
+    },
+    "813349": {
+      "name": "Connelly Early",
+      "teams2026": [
+        {
+          "id": 111,
+          "name": "Boston Red Sox"
+        },
+        {
+          "id": 120,
+          "name": "Washington Nationals"
+        }
+      ]
+    },
+    "641401": {
+      "name": "Connor Brogdon",
+      "teams2026": [
+        {
+          "id": 114,
+          "name": "Cleveland Guardians"
+        }
+      ]
+    },
+    "683175": {
+      "name": "Connor Phillips",
+      "teams2026": [
+        {
+          "id": 113,
+          "name": "Cincinnati Reds"
+        }
+      ]
+    },
+    "687570": {
+      "name": "Connor Prielipp",
+      "teams2026": [
+        {
+          "id": 142,
+          "name": "Minnesota Twins"
+        }
+      ]
+    },
+    "657756": {
+      "name": "Connor Seabold",
+      "teams2026": [
+        {
+          "id": 116,
+          "name": "Detroit Tigers"
+        },
+        {
+          "id": 141,
+          "name": "Toronto Blue Jays"
+        },
+        {
+          "id": 118,
+          "name": "Kansas City Royals"
+        }
+      ]
+    },
+    "671162": {
+      "name": "Connor Thomas",
+      "teams2026": [
+        {
+          "id": 144,
+          "name": "Atlanta Braves"
+        },
+        {
+          "id": 118,
+          "name": "Kansas City Royals"
+        }
+      ]
+    },
+    "681867": {
+      "name": "Cooper Criswell",
+      "teams2026": [
+        {
+          "id": 136,
+          "name": "Seattle Mariners"
+        }
+      ]
+    },
+    "687309": {
+      "name": "Cooper Hjerpe",
+      "teams2026": [
+        {
+          "id": 138,
+          "name": "St. Louis Cardinals"
+        }
+      ]
+    },
+    "669203": {
+      "name": "Corbin Burnes",
+      "teams2026": [
+        {
+          "id": 109,
+          "name": "Arizona Diamondbacks"
+        }
+      ]
+    },
+    "656686": {
+      "name": "Corbin Martin",
+      "teams2026": [
+        {
+          "id": 112,
+          "name": "Chicago Cubs"
+        }
+      ]
+    },
+    "518886": {
+      "name": "Craig Kimbrel",
+      "teams2026": [
+        {
+          "id": 121,
+          "name": "New York Mets"
+        },
+        {
+          "id": 139,
+          "name": "Tampa Bay Rays"
+        },
+        {
+          "id": 118,
+          "name": "Kansas City Royals"
+        }
+      ]
+    },
+    "684974": {
+      "name": "Craig Yoho",
+      "teams2026": [
+        {
+          "id": 158,
+          "name": "Milwaukee Brewers"
+        },
+        {
+          "id": 114,
+          "name": "Cleveland Guardians"
+        }
+      ]
+    },
+    "664299": {
+      "name": "Cristian Javier",
+      "teams2026": [
+        {
+          "id": 117,
+          "name": "Houston Astros"
+        }
+      ]
+    },
+    "650911": {
+      "name": "Cristopher S\u00e1nchez",
+      "teams2026": [
+        {
+          "id": 143,
+          "name": "Philadelphia Phillies"
+        }
+      ]
+    },
+    "687792": {
+      "name": "DJ Herz",
+      "teams2026": [
+        {
+          "id": 120,
+          "name": "Washington Nationals"
+        }
+      ]
+    },
+    "669084": {
+      "name": "DL Hall",
+      "teams2026": [
+        {
+          "id": 158,
+          "name": "Milwaukee Brewers"
+        }
+      ]
+    },
+    "650960": {
+      "name": "Daniel Duarte",
+      "teams2026": [
+        {
+          "id": 121,
+          "name": "New York Mets"
+        }
+      ]
+    },
+    "682982": {
+      "name": "Daniel Espino",
+      "teams2026": [
+        {
+          "id": 114,
+          "name": "Cleveland Guardians"
+        }
+      ]
+    },
+    "663738": {
+      "name": "Daniel Lynch IV",
+      "teams2026": [
+        {
+          "id": 118,
+          "name": "Kansas City Royals"
+        }
+      ]
+    },
+    "694037": {
+      "name": "Daniel Palencia",
+      "teams2026": [
+        {
+          "id": 112,
+          "name": "Chicago Cubs"
+        }
+      ]
+    },
+    "543056": {
+      "name": "Danny Coulombe",
+      "teams2026": [
+        {
+          "id": 111,
+          "name": "Boston Red Sox"
+        }
+      ]
+    },
+    "664849": {
+      "name": "Danny Young",
+      "teams2026": [
+        {
+          "id": 144,
+          "name": "Atlanta Braves"
+        }
+      ]
+    },
+    "670280": {
+      "name": "David Bednar",
+      "teams2026": [
+        {
+          "id": 147,
+          "name": "New York Yankees"
+        }
+      ]
+    },
+    "688158": {
+      "name": "David Morgan",
+      "teams2026": [
+        {
+          "id": 135,
+          "name": "San Diego Padres"
+        }
+      ]
+    },
+    "656849": {
+      "name": "David Peterson",
+      "teams2026": [
+        {
+          "id": 121,
+          "name": "New York Mets"
+        },
+        {
+          "id": 112,
+          "name": "Chicago Cubs"
+        }
+      ]
+    },
+    "689818": {
+      "name": "David Sandlin",
+      "teams2026": [
+        {
+          "id": 145,
+          "name": "Chicago White Sox"
+        }
+      ]
+    },
+    "663436": {
+      "name": "Davis Martin",
+      "teams2026": [
+        {
+          "id": 145,
+          "name": "Chicago White Sox"
+        }
+      ]
+    },
+    "690978": {
+      "name": "Dax Fulton",
+      "teams2026": [
+        {
+          "id": 146,
+          "name": "Miami Marlins"
+        }
+      ]
+    },
+    "665152": {
+      "name": "Dean Kremer",
+      "teams2026": [
+        {
+          "id": 110,
+          "name": "Baltimore Orioles"
+        },
+        {
+          "id": 142,
+          "name": "Minnesota Twins"
+        }
+      ]
+    },
+    "673380": {
+      "name": "Dedniel N\u00fa\u00f1ez",
+      "teams2026": [
+        {
+          "id": 121,
+          "name": "New York Mets"
+        }
+      ]
+    },
+    "642701": {
+      "name": "Dennis Santana",
+      "teams2026": [
+        {
+          "id": 134,
+          "name": "Pittsburgh Pirates"
+        },
+        {
+          "id": 109,
+          "name": "Arizona Diamondbacks"
+        }
+      ]
+    },
+    "571882": {
+      "name": "Derek Law",
+      "teams2026": [
+        {
+          "id": 109,
+          "name": "Arizona Diamondbacks"
+        }
+      ]
+    },
+    "642207": {
+      "name": "Devin Williams",
+      "teams2026": [
+        {
+          "id": 121,
+          "name": "New York Mets"
+        }
+      ]
+    },
+    "800311": {
+      "name": "Didier Fuentes",
+      "teams2026": [
+        {
+          "id": 144,
+          "name": "Atlanta Braves"
+        }
+      ]
+    },
+    "608650": {
+      "name": "Dietrich Enns",
+      "teams2026": [
+        {
+          "id": 110,
+          "name": "Baltimore Orioles"
+        }
+      ]
+    },
+    "682445": {
+      "name": "Domingo Gonzalez",
+      "teams2026": [
+        {
+          "id": 136,
+          "name": "Seattle Mariners"
+        }
+      ]
+    },
+    "680951": {
+      "name": "Doug Nikhazy",
+      "teams2026": [
+        {
+          "id": 145,
+          "name": "Chicago White Sox"
+        }
+      ]
+    },
+    "623454": {
+      "name": "Drew Anderson",
+      "teams2026": [
+        {
+          "id": 116,
+          "name": "Detroit Tigers"
+        }
+      ]
+    },
+    "519141": {
+      "name": "Drew Pomeranz",
+      "teams2026": [
+        {
+          "id": 108,
+          "name": "Los Angeles Angels"
+        },
+        {
+          "id": 112,
+          "name": "Chicago Cubs"
+        }
+      ]
+    },
+    "656876": {
+      "name": "Drew Rasmussen",
+      "teams2026": [
+        {
+          "id": 139,
+          "name": "Tampa Bay Rays"
+        }
+      ]
+    },
+    "680723": {
+      "name": "Drew Rom",
+      "teams2026": [
+        {
+          "id": 158,
+          "name": "Milwaukee Brewers"
+        },
+        {
+          "id": 133,
+          "name": "Athletics"
+        }
+      ]
+    },
+    "805427": {
+      "name": "Drew Sommers",
+      "teams2026": [
+        {
+          "id": 116,
+          "name": "Detroit Tigers"
+        }
+      ]
+    },
+    "686753": {
+      "name": "Drey Jameson",
+      "teams2026": [
+        {
+          "id": 109,
+          "name": "Arizona Diamondbacks"
+        }
+      ]
+    },
+    "701474": {
+      "name": "Duncan Davitt",
+      "teams2026": [
+        {
+          "id": 145,
+          "name": "Chicago White Sox"
+        },
+        {
+          "id": 137,
+          "name": "San Francisco Giants"
+        }
+      ]
+    },
+    "669160": {
+      "name": "Dustin May",
+      "teams2026": [
+        {
+          "id": 138,
+          "name": "St. Louis Cardinals"
+        },
+        {
+          "id": 158,
+          "name": "Milwaukee Brewers"
+        }
+      ]
+    },
+    "656302": {
+      "name": "Dylan Cease",
+      "teams2026": [
+        {
+          "id": 141,
+          "name": "Toronto Blue Jays"
+        }
+      ]
+    },
+    "689266": {
+      "name": "Dylan Dodd",
+      "teams2026": [
+        {
+          "id": 144,
+          "name": "Atlanta Braves"
+        }
+      ]
+    },
+    "669276": {
+      "name": "Dylan Lee",
+      "teams2026": [
+        {
+          "id": 144,
+          "name": "Atlanta Braves"
+        }
+      ]
+    },
+    "697811": {
+      "name": "Dylan Ross",
+      "teams2026": [
+        {
+          "id": 121,
+          "name": "New York Mets"
+        }
+      ]
+    },
+    "681916": {
+      "name": "Dylan Smith",
+      "teams2026": [
+        {
+          "id": 137,
+          "name": "San Francisco Giants"
+        }
+      ]
+    },
+    "668834": {
+      "name": "Easton McGee",
+      "teams2026": [
+        {
+          "id": 158,
+          "name": "Milwaukee Brewers"
+        },
+        {
+          "id": 118,
+          "name": "Kansas City Royals"
+        }
+      ]
+    },
+    "678868": {
+      "name": "Eddy Yean",
+      "teams2026": [
+        {
+          "id": 120,
+          "name": "Washington Nationals"
+        }
+      ]
+    },
+    "683618": {
+      "name": "Edgardo Henriquez",
+      "teams2026": [
+        {
+          "id": 119,
+          "name": "Los Angeles Dodgers"
+        }
+      ]
+    },
+    "660825": {
+      "name": "Eduard Bazardo",
+      "teams2026": [
+        {
+          "id": 136,
+          "name": "Seattle Mariners"
+        }
+      ]
+    },
+    "700842": {
+      "name": "Eduardo Rivera",
+      "teams2026": [
+        {
+          "id": 111,
+          "name": "Boston Red Sox"
+        }
+      ]
+    },
+    "593958": {
+      "name": "Eduardo Rodriguez",
+      "teams2026": [
+        {
+          "id": 109,
+          "name": "Arizona Diamondbacks"
+        }
+      ]
+    },
+    "665795": {
+      "name": "Edward Cabrera",
+      "teams2026": [
+        {
+          "id": 112,
+          "name": "Chicago Cubs"
+        }
+      ]
+    },
+    "621242": {
+      "name": "Edwin D\u00edaz",
+      "teams2026": [
+        {
+          "id": 119,
+          "name": "Los Angeles Dodgers"
+        }
+      ]
+    },
+    "682769": {
+      "name": "Eiberson Castellano",
+      "teams2026": [
+        {
+          "id": 115,
+          "name": "Colorado Rockies"
+        }
+      ]
+    },
+    "669212": {
+      "name": "Eli Morgan",
+      "teams2026": [
+        {
+          "id": 118,
+          "name": "Kansas City Royals"
+        }
+      ]
+    },
+    "622694": {
+      "name": "Elieser Hern\u00e1ndez",
+      "teams2026": [
+        {
+          "id": 144,
+          "name": "Atlanta Braves"
+        }
+      ]
+    },
+    "695684": {
+      "name": "Elmer Rodr\u00edguez",
+      "teams2026": [
+        {
+          "id": 147,
+          "name": "New York Yankees"
+        }
+      ]
+    },
+    "665660": {
+      "name": "Elvis Alvarado",
+      "teams2026": [
+        {
+          "id": 133,
+          "name": "Athletics"
+        }
+      ]
+    },
+    "676106": {
+      "name": "Emerson Hancock",
+      "teams2026": [
+        {
+          "id": 136,
+          "name": "Seattle Mariners"
+        }
+      ]
+    },
+    "693713": {
+      "name": "Emiliano Teodo",
+      "teams2026": [
+        {
+          "id": 140,
+          "name": "Texas Rangers"
+        }
+      ]
+    },
+    "641941": {
+      "name": "Emilio Pag\u00e1n",
+      "teams2026": [
+        {
+          "id": 113,
+          "name": "Cincinnati Reds"
+        }
+      ]
+    },
+    "686218": {
+      "name": "Emmet Sheehan",
+      "teams2026": [
+        {
+          "id": 119,
+          "name": "Los Angeles Dodgers"
+        }
+      ]
+    },
+    "646241": {
+      "name": "Enmanuel De Jesus",
+      "teams2026": [
+        {
+          "id": 116,
+          "name": "Detroit Tigers"
+        }
+      ]
+    },
+    "660853": {
+      "name": "Enyel De Los Santos",
+      "teams2026": [
+        {
+          "id": 117,
+          "name": "Houston Astros"
+        }
+      ]
+    },
+    "672021": {
+      "name": "Eric Cerantola",
+      "teams2026": [
+        {
+          "id": 118,
+          "name": "Kansas City Royals"
+        }
+      ]
+    },
+    "641778": {
+      "name": "Eric Lauer",
+      "teams2026": [
+        {
+          "id": 141,
+          "name": "Toronto Blue Jays"
+        },
+        {
+          "id": 119,
+          "name": "Los Angeles Dodgers"
+        }
+      ]
+    },
+    "679358": {
+      "name": "Eric Orze",
+      "teams2026": [
+        {
+          "id": 142,
+          "name": "Minnesota Twins"
+        }
+      ]
+    },
+    "607200": {
+      "name": "Erick Fedde",
+      "teams2026": [
+        {
+          "id": 145,
+          "name": "Chicago White Sox"
+        }
+      ]
+    },
+    "669062": {
+      "name": "Erik Miller",
+      "teams2026": [
+        {
+          "id": 137,
+          "name": "San Francisco Giants"
+        },
+        {
+          "id": 111,
+          "name": "Boston Red Sox"
+        }
+      ]
+    },
+    "681870": {
+      "name": "Erik Sabrowski",
+      "teams2026": [
+        {
+          "id": 114,
+          "name": "Cleveland Guardians"
+        }
+      ]
+    },
+    "680899": {
+      "name": "Erik Tolman",
+      "teams2026": [
+        {
+          "id": 120,
+          "name": "Washington Nationals"
+        }
+      ]
+    },
+    "814490": {
+      "name": "Ethan Pecko",
+      "teams2026": [
+        {
+          "id": 117,
+          "name": "Houston Astros"
+        }
+      ]
+    },
+    "681799": {
+      "name": "Ethan Roberts",
+      "teams2026": [
+        {
+          "id": 112,
+          "name": "Chicago Cubs"
+        }
+      ]
+    },
+    "691587": {
+      "name": "Eury P\u00e9rez",
+      "teams2026": [
+        {
+          "id": 146,
+          "name": "Miami Marlins"
+        }
+      ]
+    },
+    "623465": {
+      "name": "Evan Phillips",
+      "teams2026": [
+        {
+          "id": 119,
+          "name": "Los Angeles Dodgers"
+        }
+      ]
+    },
+    "681895": {
+      "name": "Evan Sisk",
+      "teams2026": [
+        {
+          "id": 134,
+          "name": "Pittsburgh Pirates"
+        }
+      ]
+    },
+    "518585": {
+      "name": "Fernando Cruz",
+      "teams2026": [
+        {
+          "id": 147,
+          "name": "New York Yankees"
+        }
+      ]
+    },
+    "656492": {
+      "name": "Foster Griffin",
+      "teams2026": [
+        {
+          "id": 120,
+          "name": "Washington Nationals"
+        },
+        {
+          "id": 114,
+          "name": "Cleveland Guardians"
+        }
+      ]
+    },
+    "664285": {
+      "name": "Framber Valdez",
+      "teams2026": [
+        {
+          "id": 116,
+          "name": "Detroit Tigers"
+        }
+      ]
+    },
+    "680916": {
+      "name": "Franco Aleman",
+      "teams2026": [
+        {
+          "id": 114,
+          "name": "Cleveland Guardians"
+        }
+      ]
+    },
+    "642547": {
+      "name": "Freddy Peralta",
+      "teams2026": [
+        {
+          "id": 121,
+          "name": "New York Mets"
+        },
+        {
+          "id": 139,
+          "name": "Tampa Bay Rays"
+        }
+      ]
+    },
+    "642585": {
+      "name": "F\u00e9lix Bautista",
+      "teams2026": [
+        {
+          "id": 110,
+          "name": "Baltimore Orioles"
+        }
+      ]
+    },
+    "642100": {
+      "name": "Gabe Speier",
+      "teams2026": [
+        {
+          "id": 136,
+          "name": "Seattle Mariners"
+        }
+      ]
+    },
+    "687312": {
+      "name": "Gabriel Hughes",
+      "teams2026": [
+        {
+          "id": 115,
+          "name": "Colorado Rockies"
+        }
+      ]
+    },
+    "695611": {
+      "name": "Gage Jump",
+      "teams2026": [
+        {
+          "id": 133,
+          "name": "Athletics"
+        }
+      ]
+    },
+    "670183": {
+      "name": "Garrett Acton",
+      "teams2026": [
+        {
+          "id": 142,
+          "name": "Minnesota Twins"
+        }
+      ]
+    },
+    "664076": {
+      "name": "Garrett Cleavinger",
+      "teams2026": [
+        {
+          "id": 139,
+          "name": "Tampa Bay Rays"
+        }
+      ]
+    },
+    "676979": {
+      "name": "Garrett Crochet",
+      "teams2026": [
+        {
+          "id": 111,
+          "name": "Boston Red Sox"
+        }
+      ]
+    },
+    "668831": {
+      "name": "Garrett Stallings",
+      "teams2026": [
+        {
+          "id": 158,
+          "name": "Milwaukee Brewers"
+        }
+      ]
+    },
+    "676477": {
+      "name": "Garrett Whitlock",
+      "teams2026": [
+        {
+          "id": 111,
+          "name": "Boston Red Sox"
+        }
+      ]
+    },
+    "686560": {
+      "name": "Gavin Collyer",
+      "teams2026": [
+        {
+          "id": 140,
+          "name": "Texas Rangers"
+        }
+      ]
+    },
+    "668970": {
+      "name": "Gavin Hollowell",
+      "teams2026": [
+        {
+          "id": 112,
+          "name": "Chicago Cubs"
+        }
+      ]
+    },
+    "668909": {
+      "name": "Gavin Williams",
+      "teams2026": [
+        {
+          "id": 114,
+          "name": "Cleveland Guardians"
+        }
+      ]
+    },
+    "664129": {
+      "name": "Geoff Hartlieb",
+      "teams2026": [
+        {
+          "id": 133,
+          "name": "Athletics"
+        }
+      ]
+    },
+    "669923": {
+      "name": "George Kirby",
+      "teams2026": [
+        {
+          "id": 136,
+          "name": "Seattle Mariners"
+        }
+      ]
+    },
+    "691946": {
+      "name": "George Klassen",
+      "teams2026": [
+        {
+          "id": 108,
+          "name": "Los Angeles Angels"
+        }
+      ]
+    },
+    "666277": {
+      "name": "George Soriano",
+      "teams2026": [
+        {
+          "id": 138,
+          "name": "St. Louis Cardinals"
+        }
+      ]
+    },
+    "672629": {
+      "name": "Gerardo Carrillo",
+      "teams2026": [
+        {
+          "id": 109,
+          "name": "Arizona Diamondbacks"
+        }
+      ]
+    },
+    "608566": {
+      "name": "Germ\u00e1n M\u00e1rquez",
+      "teams2026": [
+        {
+          "id": 135,
+          "name": "San Diego Padres"
+        }
+      ]
+    },
+    "543037": {
+      "name": "Gerrit Cole",
+      "teams2026": [
+        {
+          "id": 147,
+          "name": "New York Yankees"
+        }
+      ]
+    },
+    "700669": {
+      "name": "Gordon Graceffo",
+      "teams2026": [
+        {
+          "id": 138,
+          "name": "St. Louis Cardinals"
+        }
+      ]
+    },
+    "668933": {
+      "name": "Graham Ashcraft",
+      "teams2026": [
+        {
+          "id": 113,
+          "name": "Cincinnati Reds"
+        }
+      ]
+    },
+    "681982": {
+      "name": "Grant Anderson",
+      "teams2026": [
+        {
+          "id": 158,
+          "name": "Milwaukee Brewers"
+        }
+      ]
+    },
+    "680880": {
+      "name": "Grant Holman",
+      "teams2026": [
+        {
+          "id": 143,
+          "name": "Philadelphia Phillies"
+        }
+      ]
+    },
+    "656550": {
+      "name": "Grant Holmes",
+      "teams2026": [
+        {
+          "id": 144,
+          "name": "Atlanta Braves"
+        }
+      ]
+    },
+    "691799": {
+      "name": "Grant Taylor",
+      "teams2026": [
+        {
+          "id": 145,
+          "name": "Chicago White Sox"
+        }
+      ]
+    },
+    "664991": {
+      "name": "Grant Wolfram",
+      "teams2026": [
+        {
+          "id": 110,
+          "name": "Baltimore Orioles"
+        }
+      ]
+    },
+    "680570": {
+      "name": "Grayson Rodriguez",
+      "teams2026": [
+        {
+          "id": 108,
+          "name": "Los Angeles Angels"
+        }
+      ]
+    },
+    "669711": {
+      "name": "Greg Weissert",
+      "teams2026": [
+        {
+          "id": 111,
+          "name": "Boston Red Sox"
+        }
+      ]
+    },
+    "666619": {
+      "name": "Gregory Santos",
+      "teams2026": [
+        {
+          "id": 137,
+          "name": "San Francisco Giants"
+        }
+      ]
+    },
+    "642397": {
+      "name": "Gregory Soto",
+      "teams2026": [
+        {
+          "id": 134,
+          "name": "Pittsburgh Pirates"
+        }
+      ]
+    },
+    "656288": {
+      "name": "Griffin Canning",
+      "teams2026": [
+        {
+          "id": 135,
+          "name": "San Diego Padres"
+        }
+      ]
+    },
+    "643377": {
+      "name": "Griffin Jax",
+      "teams2026": [
+        {
+          "id": 139,
+          "name": "Tampa Bay Rays"
+        }
+      ]
+    },
+    "670871": {
+      "name": "Guillo Zu\u00f1iga",
+      "teams2026": [
+        {
+          "id": 121,
+          "name": "New York Mets"
+        }
+      ]
+    },
+    "681402": {
+      "name": "Gus Varland",
+      "teams2026": [
+        {
+          "id": 120,
+          "name": "Washington Nationals"
+        }
+      ]
+    },
+    "696146": {
+      "name": "Hagen Smith",
+      "teams2026": [
+        {
+          "id": 145,
+          "name": "Chicago White Sox"
+        }
+      ]
+    },
+    "684516": {
+      "name": "Hancel Rincon",
+      "teams2026": [
+        {
+          "id": 138,
+          "name": "St. Louis Cardinals"
+        }
+      ]
+    },
+    "696522": {
+      "name": "Hayden Juenger",
+      "teams2026": [
+        {
+          "id": 141,
+          "name": "Toronto Blue Jays"
+        },
+        {
+          "id": 133,
+          "name": "Athletics"
+        }
+      ]
+    },
+    "669713": {
+      "name": "Hayden Wesneski",
+      "teams2026": [
+        {
+          "id": 117,
+          "name": "Houston Astros"
+        }
+      ]
+    },
+    "571948": {
+      "name": "Hoby Milner",
+      "teams2026": [
+        {
+          "id": 112,
+          "name": "Chicago Cubs"
+        },
+        {
+          "id": 136,
+          "name": "Seattle Mariners"
+        }
+      ]
+    },
+    "663687": {
+      "name": "Hogan Harris",
+      "teams2026": [
+        {
+          "id": 133,
+          "name": "Athletics"
+        }
+      ]
+    },
+    "623211": {
+      "name": "Huascar Brazob\u00e1n",
+      "teams2026": [
+        {
+          "id": 121,
+          "name": "New York Mets"
+        },
+        {
+          "id": 145,
+          "name": "Chicago White Sox"
+        }
+      ]
+    },
+    "682995": {
+      "name": "Hunter Barco",
+      "teams2026": [
+        {
+          "id": 134,
+          "name": "Pittsburgh Pirates"
+        }
+      ]
+    },
+    "685801": {
+      "name": "Hunter Bigge",
+      "teams2026": [
+        {
+          "id": 139,
+          "name": "Tampa Bay Rays"
+        }
+      ]
+    },
+    "686613": {
+      "name": "Hunter Brown",
+      "teams2026": [
+        {
+          "id": 117,
+          "name": "Houston Astros"
+        }
+      ]
+    },
+    "690928": {
+      "name": "Hunter Dobbins",
+      "teams2026": [
+        {
+          "id": 138,
+          "name": "St. Louis Cardinals"
+        }
+      ]
+    },
+    "683769": {
+      "name": "Hunter Gaddis",
+      "teams2026": [
+        {
+          "id": 114,
+          "name": "Cleveland Guardians"
+        }
+      ]
+    },
+    "668881": {
+      "name": "Hunter Greene",
+      "teams2026": [
+        {
+          "id": 113,
+          "name": "Cincinnati Reds"
+        }
+      ]
+    },
+    "640451": {
+      "name": "Hunter Harvey",
+      "teams2026": [
+        {
+          "id": 112,
+          "name": "Chicago Cubs"
+        }
+      ]
+    },
+    "676702": {
+      "name": "Hunter Stratton",
+      "teams2026": [
+        {
+          "id": 144,
+          "name": "Atlanta Braves"
+        },
+        {
+          "id": 134,
+          "name": "Pittsburgh Pirates"
+        }
+      ]
+    },
+    "694462": {
+      "name": "Hurston Waldrep",
+      "teams2026": [
+        {
+          "id": 144,
+          "name": "Atlanta Braves"
+        }
+      ]
+    },
+    "641656": {
+      "name": "Ian Hamilton",
+      "teams2026": [
+        {
+          "id": 144,
+          "name": "Atlanta Braves"
+        }
+      ]
+    },
+    "693855": {
+      "name": "Ian Seymour",
+      "teams2026": [
+        {
+          "id": 139,
+          "name": "Tampa Bay Rays"
+        }
+      ]
+    },
+    "676755": {
+      "name": "Isaac Mattson",
+      "teams2026": [
+        {
+          "id": 134,
+          "name": "Pittsburgh Pirates"
+        }
+      ]
+    },
+    "641585": {
+      "name": "J.P. France",
+      "teams2026": [
+        {
+          "id": 117,
+          "name": "Houston Astros"
+        }
+      ]
+    },
+    "669372": {
+      "name": "J.T. Ginn",
+      "teams2026": [
+        {
+          "id": 133,
+          "name": "Athletics"
+        }
+      ]
+    },
+    "676664": {
+      "name": "JP Sears",
+      "teams2026": [
+        {
+          "id": 135,
+          "name": "San Diego Padres"
+        }
+      ]
+    },
+    "702275": {
+      "name": "JR Ritchie",
+      "teams2026": [
+        {
+          "id": 144,
+          "name": "Atlanta Braves"
+        }
+      ]
+    },
+    "664141": {
+      "name": "JT Brubaker",
+      "teams2026": [
+        {
+          "id": 137,
+          "name": "San Francisco Giants"
+        }
+      ]
+    },
+    "681252": {
+      "name": "Jack Anderson",
+      "teams2026": [
+        {
+          "id": 111,
+          "name": "Boston Red Sox"
+        },
+        {
+          "id": 142,
+          "name": "Minnesota Twins"
+        }
+      ]
+    },
+    "676263": {
+      "name": "Jack Dreyer",
+      "teams2026": [
+        {
+          "id": 119,
+          "name": "Los Angeles Dodgers"
+        }
+      ]
+    },
+    "656427": {
+      "name": "Jack Flaherty",
+      "teams2026": [
+        {
+          "id": 116,
+          "name": "Detroit Tigers"
+        }
+      ]
+    },
+    "686799": {
+      "name": "Jack Kochanowicz",
+      "teams2026": [
+        {
+          "id": 108,
+          "name": "Los Angeles Angels"
+        }
+      ]
+    },
+    "683004": {
+      "name": "Jack Leiter",
+      "teams2026": [
+        {
+          "id": 140,
+          "name": "Texas Rangers"
+        }
+      ]
+    },
+    "678022": {
+      "name": "Jack Perkins",
+      "teams2026": [
+        {
+          "id": 133,
+          "name": "Athletics"
+        }
+      ]
+    },
+    "667652": {
+      "name": "Jack Ralston",
+      "teams2026": [
+        {
+          "id": 146,
+          "name": "Miami Marlins"
+        }
+      ]
+    },
+    "695378": {
+      "name": "Jack Sinclair",
+      "teams2026": [
+        {
+          "id": 120,
+          "name": "Washington Nationals"
+        }
+      ]
+    },
+    "674073": {
+      "name": "Jack Weisenburger",
+      "teams2026": [
+        {
+          "id": 121,
+          "name": "New York Mets"
+        }
+      ]
+    },
+    "695549": {
+      "name": "Jackson Jobe",
+      "teams2026": [
+        {
+          "id": 116,
+          "name": "Detroit Tigers"
+        }
+      ]
+    },
+    "800600": {
+      "name": "Jackson Kent",
+      "teams2026": [
+        {
+          "id": 120,
+          "name": "Washington Nationals"
+        }
+      ]
+    },
+    "671131": {
+      "name": "Jackson Rutledge",
+      "teams2026": [
+        {
+          "id": 120,
+          "name": "Washington Nationals"
+        }
+      ]
+    },
+    "656641": {
+      "name": "Jacob Latz",
+      "teams2026": [
+        {
+          "id": 140,
+          "name": "Texas Rangers"
+        }
+      ]
+    },
+    "682052": {
+      "name": "Jacob Lopez",
+      "teams2026": [
+        {
+          "id": 133,
+          "name": "Athletics"
+        }
+      ]
+    },
+    "694819": {
+      "name": "Jacob Misiorowski",
+      "teams2026": [
+        {
+          "id": 158,
+          "name": "Milwaukee Brewers"
+        }
+      ]
+    },
+    "621097": {
+      "name": "Jacob Waguespack",
+      "teams2026": [
+        {
+          "id": 116,
+          "name": "Detroit Tigers"
+        }
+      ]
+    },
+    "657097": {
+      "name": "Jacob Webb",
+      "teams2026": [
+        {
+          "id": 112,
+          "name": "Chicago Cubs"
+        }
+      ]
+    },
+    "594798": {
+      "name": "Jacob deGrom",
+      "teams2026": [
+        {
+          "id": 140,
+          "name": "Texas Rangers"
+        }
+      ]
+    },
+    "677955": {
+      "name": "Jaden Hill",
+      "teams2026": [
+        {
+          "id": 115,
+          "name": "Colorado Rockies"
+        }
+      ]
+    },
+    "687562": {
+      "name": "Jake Bennett",
+      "teams2026": [
+        {
+          "id": 111,
+          "name": "Boston Red Sox"
+        }
+      ]
+    },
+    "656234": {
+      "name": "Jake Bird",
+      "teams2026": [
+        {
+          "id": 147,
+          "name": "New York Yankees"
+        },
+        {
+          "id": 120,
+          "name": "Washington Nationals"
+        }
+      ]
+    },
+    "671109": {
+      "name": "Jake Eder",
+      "teams2026": [
+        {
+          "id": 119,
+          "name": "Los Angeles Dodgers"
+        }
+      ]
+    },
+    "663623": {
+      "name": "Jake Irvin",
+      "teams2026": [
+        {
+          "id": 120,
+          "name": "Washington Nationals"
+        }
+      ]
+    },
+    "663765": {
+      "name": "Jake Woodford",
+      "teams2026": [
+        {
+          "id": 158,
+          "name": "Milwaukee Brewers"
+        },
+        {
+          "id": 112,
+          "name": "Chicago Cubs"
+        },
+        {
+          "id": 139,
+          "name": "Tampa Bay Rays"
+        }
+      ]
+    },
+    "596001": {
+      "name": "Jakob Junis",
+      "teams2026": [
+        {
+          "id": 140,
+          "name": "Texas Rangers"
+        }
+      ]
+    },
+    "656222": {
+      "name": "Jalen Beeks",
+      "teams2026": [
+        {
+          "id": 140,
+          "name": "Texas Rangers"
+        }
+      ]
+    },
+    "675916": {
+      "name": "James Karinchak",
+      "teams2026": [
+        {
+          "id": 144,
+          "name": "Atlanta Braves"
+        }
+      ]
+    },
+    "592791": {
+      "name": "Jameson Taillon",
+      "teams2026": [
+        {
+          "id": 112,
+          "name": "Chicago Cubs"
+        },
+        {
+          "id": 141,
+          "name": "Toronto Blue Jays"
+        }
+      ]
+    },
+    "676083": {
+      "name": "Janson Junk",
+      "teams2026": [
+        {
+          "id": 146,
+          "name": "Miami Marlins"
+        }
+      ]
+    },
+    "683003": {
+      "name": "Jared Jones",
+      "teams2026": [
+        {
+          "id": 134,
+          "name": "Pittsburgh Pirates"
+        }
+      ]
+    },
+    "657649": {
+      "name": "Jared Koenig",
+      "teams2026": [
+        {
+          "id": 158,
+          "name": "Milwaukee Brewers"
+        }
+      ]
+    },
+    "694363": {
+      "name": "Jared Shuster",
+      "teams2026": [
+        {
+          "id": 138,
+          "name": "St. Louis Cardinals"
+        }
+      ]
+    },
+    "688692": {
+      "name": "Jared Simpson",
+      "teams2026": [
+        {
+          "id": 120,
+          "name": "Washington Nationals"
+        }
+      ]
+    },
+    "592094": {
+      "name": "Jason Adam",
+      "teams2026": [
+        {
+          "id": 135,
+          "name": "San Diego Padres"
+        }
+      ]
+    },
+    "669920": {
+      "name": "Jason Alexander",
+      "teams2026": [
+        {
+          "id": 117,
+          "name": "Houston Astros"
+        }
+      ]
+    },
+    "671345": {
+      "name": "Jason Foley",
+      "teams2026": [
+        {
+          "id": 137,
+          "name": "San Francisco Giants"
+        }
+      ]
+    },
+    "665871": {
+      "name": "Javier Assad",
+      "teams2026": [
+        {
+          "id": 112,
+          "name": "Chicago Cubs"
+        }
+      ]
+    },
+    "681151": {
+      "name": "Jayden Murray",
+      "teams2026": [
+        {
+          "id": 117,
+          "name": "Houston Astros"
+        },
+        {
+          "id": 112,
+          "name": "Chicago Cubs"
+        }
+      ]
+    },
+    "699151": {
+      "name": "Jedixson Paez",
+      "teams2026": [
+        {
+          "id": 145,
+          "name": "Chicago White Sox"
+        },
+        {
+          "id": 111,
+          "name": "Boston Red Sox"
+        }
+      ]
+    },
+    "676105": {
+      "name": "Jeff Criswell",
+      "teams2026": [
+        {
+          "id": 115,
+          "name": "Colorado Rockies"
+        }
+      ]
+    },
+    "656546": {
+      "name": "Jeff Hoffman",
+      "teams2026": [
+        {
+          "id": 141,
+          "name": "Toronto Blue Jays"
+        },
+        {
+          "id": 142,
+          "name": "Minnesota Twins"
+        }
+      ]
+    },
+    "605488": {
+      "name": "Jeffrey Springs",
+      "teams2026": [
+        {
+          "id": 133,
+          "name": "Athletics"
+        }
+      ]
+    },
+    "642376": {
+      "name": "Jefry Yan",
+      "teams2026": [
+        {
+          "id": 121,
+          "name": "New York Mets"
+        }
+      ]
+    },
+    "669093": {
+      "name": "Jeremiah Estrada",
+      "teams2026": [
+        {
+          "id": 135,
+          "name": "San Diego Padres"
+        }
+      ]
+    },
+    "669947": {
+      "name": "Jesse Scholtens",
+      "teams2026": [
+        {
+          "id": 139,
+          "name": "Tampa Bay Rays"
+        }
+      ]
+    },
+    "666200": {
+      "name": "Jes\u00fas Luzardo",
+      "teams2026": [
+        {
+          "id": 143,
+          "name": "Philadelphia Phillies"
+        }
+      ]
+    },
+    "661395": {
+      "name": "Jhoan Duran",
+      "teams2026": [
+        {
+          "id": 143,
+          "name": "Philadelphia Phillies"
+        }
+      ]
+    },
+    "646242": {
+      "name": "Jhonathan D\u00edaz",
+      "teams2026": [
+        {
+          "id": 136,
+          "name": "Seattle Mariners"
+        }
+      ]
+    },
+    "666745": {
+      "name": "Jhony Brito",
+      "teams2026": [
+        {
+          "id": 135,
+          "name": "San Diego Padres"
+        }
+      ]
+    },
+    "623474": {
+      "name": "Jimmy Herget",
+      "teams2026": [
+        {
+          "id": 115,
+          "name": "Colorado Rockies"
+        }
+      ]
+    },
+    "668941": {
+      "name": "JoJo Romero",
+      "teams2026": [
+        {
+          "id": 138,
+          "name": "St. Louis Cardinals"
+        },
+        {
+          "id": 158,
+          "name": "Milwaukee Brewers"
+        }
+      ]
+    },
+    "671212": {
+      "name": "Joe Boyle",
+      "teams2026": [
+        {
+          "id": 139,
+          "name": "Tampa Bay Rays"
+        }
+      ]
+    },
+    "686747": {
+      "name": "Joe La Sorsa",
+      "teams2026": [
+        {
+          "id": 111,
+          "name": "Boston Red Sox"
+        }
+      ]
+    },
+    "573009": {
+      "name": "Joe Mantiply",
+      "teams2026": [
+        {
+          "id": 141,
+          "name": "Toronto Blue Jays"
+        }
+      ]
+    },
+    "697812": {
+      "name": "Joe Rock",
+      "teams2026": [
+        {
+          "id": 145,
+          "name": "Chicago White Sox"
+        },
+        {
+          "id": 133,
+          "name": "Athletics"
+        }
+      ]
+    },
+    "605452": {
+      "name": "Joe Ross",
+      "teams2026": [
+        {
+          "id": 109,
+          "name": "Arizona Diamondbacks"
+        },
+        {
+          "id": 140,
+          "name": "Texas Rangers"
+        }
+      ]
+    },
+    "657746": {
+      "name": "Joe Ryan",
+      "teams2026": [
+        {
+          "id": 142,
+          "name": "Minnesota Twins"
+        }
+      ]
+    },
+    "669270": {
+      "name": "Joel Kuhnel",
+      "teams2026": [
+        {
+          "id": 133,
+          "name": "Athletics"
+        },
+        {
+          "id": 158,
+          "name": "Milwaukee Brewers"
+        },
+        {
+          "id": 137,
+          "name": "San Francisco Giants"
+        }
+      ]
+    },
+    "606303": {
+      "name": "Joel Payamps",
+      "teams2026": [
+        {
+          "id": 144,
+          "name": "Atlanta Braves"
+        }
+      ]
+    },
+    "666711": {
+      "name": "Joel Peguero",
+      "teams2026": [
+        {
+          "id": 137,
+          "name": "San Francisco Giants"
+        }
+      ]
+    },
+    "676282": {
+      "name": "Joey Cantillo",
+      "teams2026": [
+        {
+          "id": 114,
+          "name": "Cleveland Guardians"
+        }
+      ]
+    },
+    "683155": {
+      "name": "Joey Estes",
+      "teams2026": [
+        {
+          "id": 133,
+          "name": "Athletics"
+        }
+      ]
+    },
+    "680702": {
+      "name": "Joey Gerber",
+      "teams2026": [
+        {
+          "id": 121,
+          "name": "New York Mets"
+        }
+      ]
+    },
+    "664192": {
+      "name": "Joey Lucchesi",
+      "teams2026": [
+        {
+          "id": 108,
+          "name": "Los Angeles Angels"
+        }
+      ]
+    },
+    "670912": {
+      "name": "Johan Oviedo",
+      "teams2026": [
+        {
+          "id": 111,
+          "name": "Boston Red Sox"
+        }
+      ]
+    },
+    "605154": {
+      "name": "John Brebbia",
+      "teams2026": [
+        {
+          "id": 115,
+          "name": "Colorado Rockies"
+        }
+      ]
+    },
+    "667463": {
+      "name": "John King",
+      "teams2026": [
+        {
+          "id": 146,
+          "name": "Miami Marlins"
+        }
+      ]
+    },
+    "804619": {
+      "name": "John Klein",
+      "teams2026": [
+        {
+          "id": 142,
+          "name": "Minnesota Twins"
+        },
+        {
+          "id": 141,
+          "name": "Toronto Blue Jays"
+        }
+      ]
+    },
+    "670167": {
+      "name": "John Schreiber",
+      "teams2026": [
+        {
+          "id": 118,
+          "name": "Kansas City Royals"
+        },
+        {
+          "id": 147,
+          "name": "New York Yankees"
+        }
+      ]
+    },
+    "804636": {
+      "name": "Jonah Tong",
+      "teams2026": [
+        {
+          "id": 121,
+          "name": "New York Mets"
+        }
+      ]
+    },
+    "680742": {
+      "name": "Jonathan Bowlan",
+      "teams2026": [
+        {
+          "id": 143,
+          "name": "Philadelphia Phillies"
+        }
+      ]
+    },
+    "686563": {
+      "name": "Jonathan Cannon",
+      "teams2026": [
+        {
+          "id": 145,
+          "name": "Chicago White Sox"
+        }
+      ]
+    },
+    "669169": {
+      "name": "Jonathan Heasley",
+      "teams2026": [
+        {
+          "id": 139,
+          "name": "Tampa Bay Rays"
+        }
+      ]
+    },
+    "642546": {
+      "name": "Jonathan Hern\u00e1ndez",
+      "teams2026": [
+        {
+          "id": 119,
+          "name": "Los Angeles Dodgers"
+        }
+      ]
+    },
+    "642528": {
+      "name": "Jonathan Lo\u00e1isiga",
+      "teams2026": [
+        {
+          "id": 109,
+          "name": "Arizona Diamondbacks"
+        }
+      ]
+    },
+    "702752": {
+      "name": "Jonathan Pintaro",
+      "teams2026": [
+        {
+          "id": 121,
+          "name": "New York Mets"
+        }
+      ]
+    },
+    "663855": {
+      "name": "Jordan Hicks",
+      "teams2026": [
+        {
+          "id": 145,
+          "name": "Chicago White Sox"
+        }
+      ]
+    },
+    "673929": {
+      "name": "Jordan Leasure",
+      "teams2026": [
+        {
+          "id": 145,
+          "name": "Chicago White Sox"
+        }
+      ]
+    },
+    "656756": {
+      "name": "Jordan Montgomery",
+      "teams2026": [
+        {
+          "id": 140,
+          "name": "Texas Rangers"
+        }
+      ]
+    },
+    "605447": {
+      "name": "Jordan Romano",
+      "teams2026": [
+        {
+          "id": 108,
+          "name": "Los Angeles Angels"
+        },
+        {
+          "id": 115,
+          "name": "Colorado Rockies"
+        }
+      ]
+    },
+    "696136": {
+      "name": "Jordan Wicks",
+      "teams2026": [
+        {
+          "id": 112,
+          "name": "Chicago Cubs"
+        }
+      ]
+    },
+    "703615": {
+      "name": "Jose Cabrera",
+      "teams2026": [
+        {
+          "id": 109,
+          "name": "Arizona Diamondbacks"
+        }
+      ]
+    },
+    "692030": {
+      "name": "Jose Corniell",
+      "teams2026": [
+        {
+          "id": 140,
+          "name": "Texas Rangers"
+        }
+      ]
+    },
+    "621016": {
+      "name": "Jose Cuas",
+      "teams2026": [
+        {
+          "id": 118,
+          "name": "Kansas City Royals"
+        }
+      ]
+    },
+    "664744": {
+      "name": "Jose Espada",
+      "teams2026": [
+        {
+          "id": 110,
+          "name": "Baltimore Orioles"
+        }
+      ]
+    },
+    "683742": {
+      "name": "Jose Franco",
+      "teams2026": [
+        {
+          "id": 113,
+          "name": "Cincinnati Reds"
+        }
+      ]
+    },
+    "500779": {
+      "name": "Jose Quintana",
+      "teams2026": [
+        {
+          "id": 115,
+          "name": "Colorado Rockies"
+        }
+      ]
+    },
+    "694795": {
+      "name": "Josh Ekness",
+      "teams2026": [
+        {
+          "id": 146,
+          "name": "Miami Marlins"
+        }
+      ]
+    },
+    "676596": {
+      "name": "Josh Fleming",
+      "teams2026": [
+        {
+          "id": 141,
+          "name": "Toronto Blue Jays"
+        }
+      ]
+    },
+    "623352": {
+      "name": "Josh Hader",
+      "teams2026": [
+        {
+          "id": 117,
+          "name": "Houston Astros"
+        }
+      ]
+    },
+    "681973": {
+      "name": "Josh Hendrickson",
+      "teams2026": [
+        {
+          "id": 117,
+          "name": "Houston Astros"
+        }
+      ]
+    },
+    "681006": {
+      "name": "Josh Simpson",
+      "teams2026": [
+        {
+          "id": 136,
+          "name": "Seattle Mariners"
+        }
+      ]
+    },
+    "677020": {
+      "name": "Josh Walker",
+      "teams2026": [
+        {
+          "id": 110,
+          "name": "Baltimore Orioles"
+        }
+      ]
+    },
+    "687985": {
+      "name": "Josh White",
+      "teams2026": [
+        {
+          "id": 146,
+          "name": "Miami Marlins"
+        }
+      ]
+    },
+    "680686": {
+      "name": "Josiah Gray",
+      "teams2026": [
+        {
+          "id": 120,
+          "name": "Washington Nationals"
+        }
+      ]
+    },
+    "678606": {
+      "name": "Jos\u00e9 A. Ferrer",
+      "teams2026": [
+        {
+          "id": 136,
+          "name": "Seattle Mariners"
+        }
+      ]
+    },
+    "621237": {
+      "name": "Jos\u00e9 Alvarado",
+      "teams2026": [
+        {
+          "id": 143,
+          "name": "Philadelphia Phillies"
+        }
+      ]
+    },
+    "676130": {
+      "name": "Jos\u00e9 Butt\u00f3",
+      "teams2026": [
+        {
+          "id": 137,
+          "name": "San Francisco Giants"
+        }
+      ]
+    },
+    "820862": {
+      "name": "Jos\u00e9 Fermin",
+      "teams2026": [
+        {
+          "id": 108,
+          "name": "Los Angeles Angels"
+        }
+      ]
+    },
+    "692064": {
+      "name": "Jos\u00e9 Rodr\u00edguez",
+      "teams2026": [
+        {
+          "id": 141,
+          "name": "Toronto Blue Jays"
+        }
+      ]
+    },
+    "667755": {
+      "name": "Jos\u00e9 Soriano",
+      "teams2026": [
+        {
+          "id": 108,
+          "name": "Los Angeles Angels"
+        },
+        {
+          "id": 141,
+          "name": "Toronto Blue Jays"
+        }
+      ]
+    },
+    "660761": {
+      "name": "Jos\u00e9 Suarez",
+      "teams2026": [
+        {
+          "id": 144,
+          "name": "Atlanta Braves"
+        },
+        {
+          "id": 136,
+          "name": "Seattle Mariners"
+        },
+        {
+          "id": 133,
+          "name": "Athletics"
+        }
+      ]
+    },
+    "664353": {
+      "name": "Jos\u00e9 Urquidy",
+      "teams2026": [
+        {
+          "id": 134,
+          "name": "Pittsburgh Pirates"
+        },
+        {
+          "id": 145,
+          "name": "Chicago White Sox"
+        },
+        {
+          "id": 143,
+          "name": "Philadelphia Phillies"
+        }
+      ]
+    },
+    "663558": {
+      "name": "Jovani Mor\u00e1n",
+      "teams2026": [
+        {
+          "id": 111,
+          "name": "Boston Red Sox"
+        }
+      ]
+    },
+    "686228": {
+      "name": "Juan Burgos",
+      "teams2026": [
+        {
+          "id": 109,
+          "name": "Arizona Diamondbacks"
+        }
+      ]
+    },
+    "675848": {
+      "name": "Juan Mejia",
+      "teams2026": [
+        {
+          "id": 115,
+          "name": "Colorado Rockies"
+        }
+      ]
+    },
+    "666661": {
+      "name": "Juan Morillo",
+      "teams2026": [
+        {
+          "id": 109,
+          "name": "Arizona Diamondbacks"
+        }
+      ]
+    },
+    "687924": {
+      "name": "Julian Aguiar",
+      "teams2026": [
+        {
+          "id": 113,
+          "name": "Cincinnati Reds"
+        }
+      ]
+    },
+    "642759": {
+      "name": "Julian Fern\u00e1ndez",
+      "teams2026": [
+        {
+          "id": 120,
+          "name": "Washington Nationals"
+        }
+      ]
+    },
+    "670062": {
+      "name": "Julian Garcia",
+      "teams2026": [
+        {
+          "id": 113,
+          "name": "Cincinnati Reds"
+        }
+      ]
+    },
+    "677865": {
+      "name": "Justin Bruihl",
+      "teams2026": [
+        {
+          "id": 138,
+          "name": "St. Louis Cardinals"
+        }
+      ]
+    },
+    "663795": {
+      "name": "Justin Hagenman",
+      "teams2026": [
+        {
+          "id": 121,
+          "name": "New York Mets"
+        }
+      ]
+    },
+    "664875": {
+      "name": "Justin Lawrence",
+      "teams2026": [
+        {
+          "id": 134,
+          "name": "Pittsburgh Pirates"
+        },
+        {
+          "id": 142,
+          "name": "Minnesota Twins"
+        },
+        {
+          "id": 120,
+          "name": "Washington Nationals"
+        }
+      ]
+    },
+    "679885": {
+      "name": "Justin Martinez",
+      "teams2026": [
+        {
+          "id": 109,
+          "name": "Arizona Diamondbacks"
+        }
+      ]
+    },
+    "686580": {
+      "name": "Justin Slaten",
+      "teams2026": [
+        {
+          "id": 111,
+          "name": "Boston Red Sox"
+        }
+      ]
+    },
+    "686993": {
+      "name": "Justin Sterner",
+      "teams2026": [
+        {
+          "id": 133,
+          "name": "Athletics"
+        }
+      ]
+    },
+    "623437": {
+      "name": "Justin Topa",
+      "teams2026": [
+        {
+          "id": 142,
+          "name": "Minnesota Twins"
+        },
+        {
+          "id": 147,
+          "name": "New York Yankees"
+        }
+      ]
+    },
+    "434378": {
+      "name": "Justin Verlander",
+      "teams2026": [
+        {
+          "id": 116,
+          "name": "Detroit Tigers"
+        }
+      ]
+    },
+    "680736": {
+      "name": "Justin Wrobleski",
+      "teams2026": [
+        {
+          "id": 119,
+          "name": "Los Angeles Dodgers"
+        }
+      ]
+    },
+    "807739": {
+      "name": "Kade Anderson",
+      "teams2026": [
+        {
+          "id": 136,
+          "name": "Seattle Mariners"
+        }
+      ]
+    },
+    "695034": {
+      "name": "Kade Morris",
+      "teams2026": [
+        {
+          "id": 133,
+          "name": "Athletics"
+        }
+      ]
+    },
+    "669704": {
+      "name": "Kade Strowd",
+      "teams2026": [
+        {
+          "id": 109,
+          "name": "Arizona Diamondbacks"
+        }
+      ]
+    },
+    "678906": {
+      "name": "Kai-Wei Teng",
+      "teams2026": [
+        {
+          "id": 117,
+          "name": "Houston Astros"
+        }
+      ]
+    },
+    "676775": {
+      "name": "Keaton Winn",
+      "teams2026": [
+        {
+          "id": 137,
+          "name": "San Francisco Giants"
+        }
+      ]
+    },
+    "669211": {
+      "name": "Keegan Akin",
+      "teams2026": [
+        {
+          "id": 110,
+          "name": "Baltimore Orioles"
+        }
+      ]
+    },
+    "624522": {
+      "name": "Keegan Thompson",
+      "teams2026": [
+        {
+          "id": 115,
+          "name": "Colorado Rockies"
+        }
+      ]
+    },
+    "672456": {
+      "name": "Keider Montero",
+      "teams2026": [
+        {
+          "id": 116,
+          "name": "Detroit Tigers"
+        }
+      ]
+    },
+    "686610": {
+      "name": "Ken Waldichuk",
+      "teams2026": [
+        {
+          "id": 120,
+          "name": "Washington Nationals"
+        }
+      ]
+    },
+    "696070": {
+      "name": "Kendry Rojas",
+      "teams2026": [
+        {
+          "id": 142,
+          "name": "Minnesota Twins"
+        }
+      ]
+    },
+    "445276": {
+      "name": "Kenley Jansen",
+      "teams2026": [
+        {
+          "id": 116,
+          "name": "Detroit Tigers"
+        }
+      ]
+    },
+    "592288": {
+      "name": "Kent Emanuel",
+      "teams2026": [
+        {
+          "id": 113,
+          "name": "Cincinnati Reds"
+        }
+      ]
+    },
+    "665645": {
+      "name": "Kervin Castro",
+      "teams2026": [
+        {
+          "id": 147,
+          "name": "New York Yankees"
+        }
+      ]
+    },
+    "592332": {
+      "name": "Kevin Gausman",
+      "teams2026": [
+        {
+          "id": 141,
+          "name": "Toronto Blue Jays"
+        },
+        {
+          "id": 112,
+          "name": "Chicago Cubs"
+        }
+      ]
+    },
+    "656464": {
+      "name": "Kevin Ginkel",
+      "teams2026": [
+        {
+          "id": 109,
+          "name": "Arizona Diamondbacks"
+        }
+      ]
+    },
+    "643361": {
+      "name": "Kevin Herget",
+      "teams2026": [
+        {
+          "id": 121,
+          "name": "New York Mets"
+        }
+      ]
+    },
+    "687330": {
+      "name": "Kevin Kelly",
+      "teams2026": [
+        {
+          "id": 139,
+          "name": "Tampa Bay Rays"
+        }
+      ]
+    },
+    "694753": {
+      "name": "Khristian Curtis",
+      "teams2026": [
+        {
+          "id": 134,
+          "name": "Pittsburgh Pirates"
+        }
+      ]
+    },
+    "489446": {
+      "name": "Kirby Yates",
+      "teams2026": [
+        {
+          "id": 108,
+          "name": "Los Angeles Angels"
+        },
+        {
+          "id": 134,
+          "name": "Pittsburgh Pirates"
+        }
+      ]
+    },
+    "673540": {
+      "name": "Kodai Senga",
+      "teams2026": [
+        {
+          "id": 121,
+          "name": "New York Mets"
+        }
+      ]
+    },
+    "681892": {
+      "name": "Kody Funderburk",
+      "teams2026": [
+        {
+          "id": 142,
+          "name": "Minnesota Twins"
+        }
+      ]
+    },
+    "684442": {
+      "name": "Kohl Drake",
+      "teams2026": [
+        {
+          "id": 109,
+          "name": "Arizona Diamondbacks"
+        }
+      ]
+    },
+    "663465": {
+      "name": "Kolby Allard",
+      "teams2026": [
+        {
+          "id": 114,
+          "name": "Cleveland Guardians"
+        }
+      ]
+    },
+    "663460": {
+      "name": "Kris Bubic",
+      "teams2026": [
+        {
+          "id": 118,
+          "name": "Kansas City Royals"
+        },
+        {
+          "id": 119,
+          "name": "Los Angeles Dodgers"
+        }
+      ]
+    },
+    "677958": {
+      "name": "Kumar Rocker",
+      "teams2026": [
+        {
+          "id": 140,
+          "name": "Texas Rangers"
+        }
+      ]
+    },
+    "679775": {
+      "name": "Kyle Backhus",
+      "teams2026": [
+        {
+          "id": 143,
+          "name": "Philadelphia Phillies"
+        }
+      ]
+    },
+    "680694": {
+      "name": "Kyle Bradish",
+      "teams2026": [
+        {
+          "id": 110,
+          "name": "Baltimore Orioles"
+        }
+      ]
+    },
+    "640448": {
+      "name": "Kyle Finnegan",
+      "teams2026": [
+        {
+          "id": 116,
+          "name": "Detroit Tigers"
+        }
+      ]
+    },
+    "607536": {
+      "name": "Kyle Freeland",
+      "teams2026": [
+        {
+          "id": 115,
+          "name": "Colorado Rockies"
+        }
+      ]
+    },
+    "690986": {
+      "name": "Kyle Harrison",
+      "teams2026": [
+        {
+          "id": 158,
+          "name": "Milwaukee Brewers"
+        }
+      ]
+    },
+    "606996": {
+      "name": "Kyle Hart",
+      "teams2026": [
+        {
+          "id": 135,
+          "name": "San Diego Padres"
+        }
+      ]
+    },
+    "669165": {
+      "name": "Kyle Hurt",
+      "teams2026": [
+        {
+          "id": 119,
+          "name": "Los Angeles Dodgers"
+        }
+      ]
+    },
+    "681517": {
+      "name": "Kyle Leahy",
+      "teams2026": [
+        {
+          "id": 138,
+          "name": "St. Louis Cardinals"
+        }
+      ]
+    },
+    "693312": {
+      "name": "Kyle Nicolas",
+      "teams2026": [
+        {
+          "id": 113,
+          "name": "Cincinnati Reds"
+        }
+      ]
+    },
+    "669199": {
+      "name": "Lake Bachar",
+      "teams2026": [
+        {
+          "id": 146,
+          "name": "Miami Marlins"
+        },
+        {
+          "id": 134,
+          "name": "Pittsburgh Pirates"
+        }
+      ]
+    },
+    "621121": {
+      "name": "Lance McCullers Jr.",
+      "teams2026": [
+        {
+          "id": 117,
+          "name": "Houston Astros"
+        },
+        {
+          "id": 158,
+          "name": "Milwaukee Brewers"
+        }
+      ]
+    },
+    "694738": {
+      "name": "Landen Roupp",
+      "teams2026": [
+        {
+          "id": 137,
+          "name": "San Francisco Giants"
+        }
+      ]
+    },
+    "689017": {
+      "name": "Landon Knack",
+      "teams2026": [
+        {
+          "id": 119,
+          "name": "Los Angeles Dodgers"
+        }
+      ]
+    },
+    "681751": {
+      "name": "Lazaro Estrada",
+      "teams2026": [
+        {
+          "id": 141,
+          "name": "Toronto Blue Jays"
+        }
+      ]
+    },
+    "671106": {
+      "name": "Logan Allen",
+      "teams2026": [
+        {
+          "id": 114,
+          "name": "Cleveland Guardians"
+        }
+      ]
+    },
+    "669302": {
+      "name": "Logan Gilbert",
+      "teams2026": [
+        {
+          "id": 136,
+          "name": "Seattle Mariners"
+        }
+      ]
+    },
+    "701656": {
+      "name": "Logan Henderson",
+      "teams2026": [
+        {
+          "id": 158,
+          "name": "Milwaukee Brewers"
+        }
+      ]
+    },
+    "701121": {
+      "name": "Logan VanWey",
+      "teams2026": [
+        {
+          "id": 117,
+          "name": "Houston Astros"
+        }
+      ]
+    },
+    "657277": {
+      "name": "Logan Webb",
+      "teams2026": [
+        {
+          "id": 137,
+          "name": "San Francisco Giants"
+        }
+      ]
+    },
+    "642152": {
+      "name": "Lou Trivino III",
+      "teams2026": [
+        {
+          "id": 110,
+          "name": "Baltimore Orioles"
+        },
+        {
+          "id": 143,
+          "name": "Philadelphia Phillies"
+        }
+      ]
+    },
+    "686973": {
+      "name": "Louis Varland",
+      "teams2026": [
+        {
+          "id": 141,
+          "name": "Toronto Blue Jays"
+        }
+      ]
+    },
+    "668674": {
+      "name": "Lucas Erceg",
+      "teams2026": [
+        {
+          "id": 118,
+          "name": "Kansas City Royals"
+        }
+      ]
+    },
+    "608337": {
+      "name": "Lucas Giolito",
+      "teams2026": [
+        {
+          "id": 135,
+          "name": "San Diego Padres"
+        }
+      ]
+    },
+    "608371": {
+      "name": "Lucas Sims",
+      "teams2026": [
+        {
+          "id": 145,
+          "name": "Chicago White Sox"
+        }
+      ]
+    },
+    "679883": {
+      "name": "Luinder Avila",
+      "teams2026": [
+        {
+          "id": 118,
+          "name": "Kansas City Royals"
+        }
+      ]
+    },
+    "622491": {
+      "name": "Luis Castillo",
+      "teams2026": [
+        {
+          "id": 136,
+          "name": "Seattle Mariners"
+        },
+        {
+          "id": 145,
+          "name": "Chicago White Sox"
+        }
+      ]
+    },
+    "681168": {
+      "name": "Luis Curvelo",
+      "teams2026": [
+        {
+          "id": 140,
+          "name": "Texas Rangers"
+        }
+      ]
+    },
+    "801725": {
+      "name": "Luis De Le\u00f3n",
+      "teams2026": [
+        {
+          "id": 110,
+          "name": "Baltimore Orioles"
+        }
+      ]
+    },
+    "472610": {
+      "name": "Luis Garc\u00eda",
+      "teams2026": [
+        {
+          "id": 121,
+          "name": "New York Mets"
+        },
+        {
+          "id": 142,
+          "name": "Minnesota Twins"
+        }
+      ]
+    },
+    "703725": {
+      "name": "Luis Gastelum",
+      "teams2026": [
+        {
+          "id": 138,
+          "name": "St. Louis Cardinals"
+        }
+      ]
+    },
+    "661563": {
+      "name": "Luis Gil",
+      "teams2026": [
+        {
+          "id": 147,
+          "name": "New York Yankees"
+        }
+      ]
+    },
+    "665622": {
+      "name": "Luis Medina",
+      "teams2026": [
+        {
+          "id": 133,
+          "name": "Athletics"
+        }
+      ]
+    },
+    "682825": {
+      "name": "Luis Mey",
+      "teams2026": [
+        {
+          "id": 113,
+          "name": "Cincinnati Reds"
+        }
+      ]
+    },
+    "806960": {
+      "name": "Luis Morales",
+      "teams2026": [
+        {
+          "id": 133,
+          "name": "Athletics"
+        }
+      ]
+    },
+    "691384": {
+      "name": "Luis Perales",
+      "teams2026": [
+        {
+          "id": 120,
+          "name": "Washington Nationals"
+        }
+      ]
+    },
+    "622663": {
+      "name": "Luis Severino",
+      "teams2026": [
+        {
+          "id": 133,
+          "name": "Athletics"
+        }
+      ]
+    },
+    "681432": {
+      "name": "Luke Little",
+      "teams2026": [
+        {
+          "id": 112,
+          "name": "Chicago Cubs"
+        }
+      ]
+    },
+    "684665": {
+      "name": "Luke Murphy",
+      "teams2026": [
+        {
+          "id": 108,
+          "name": "Los Angeles Angels"
+        }
+      ]
+    },
+    "596133": {
+      "name": "Luke Weaver",
+      "teams2026": [
+        {
+          "id": 121,
+          "name": "New York Mets"
+        },
+        {
+          "id": 134,
+          "name": "Pittsburgh Pirates"
+        }
+      ]
+    },
+    "680689": {
+      "name": "Lyon Richardson",
+      "teams2026": [
+        {
+          "id": 113,
+          "name": "Cincinnati Reds"
+        },
+        {
+          "id": 158,
+          "name": "Milwaukee Brewers"
+        }
+      ]
+    },
+    "669022": {
+      "name": "MacKenzie Gore",
+      "teams2026": [
+        {
+          "id": 140,
+          "name": "Texas Rangers"
+        }
+      ]
+    },
+    "655889": {
+      "name": "Manuel Rodr\u00edguez",
+      "teams2026": [
+        {
+          "id": 139,
+          "name": "Tampa Bay Rays"
+        }
+      ]
+    },
+    "594835": {
+      "name": "Marco Gonzales",
+      "teams2026": [
+        {
+          "id": 140,
+          "name": "Texas Rangers"
+        }
+      ]
+    },
+    "694397": {
+      "name": "Marco Raya",
+      "teams2026": [
+        {
+          "id": 142,
+          "name": "Minnesota Twins"
+        }
+      ]
+    },
+    "643410": {
+      "name": "Mark Leiter Jr.",
+      "teams2026": [
+        {
+          "id": 133,
+          "name": "Athletics"
+        }
+      ]
+    },
+    "815081": {
+      "name": "Mark Manfredi",
+      "teams2026": [
+        {
+          "id": 115,
+          "name": "Colorado Rockies"
+        }
+      ]
+    },
+    "527048": {
+      "name": "Mart\u00edn P\u00e9rez",
+      "teams2026": [
+        {
+          "id": 144,
+          "name": "Atlanta Braves"
+        }
+      ]
+    },
+    "690279": {
+      "name": "Mason Adams",
+      "teams2026": [
+        {
+          "id": 115,
+          "name": "Colorado Rockies"
+        }
+      ]
+    },
+    "686930": {
+      "name": "Mason Barnett",
+      "teams2026": [
+        {
+          "id": 133,
+          "name": "Athletics"
+        }
+      ]
+    },
+    "696131": {
+      "name": "Mason Black",
+      "teams2026": [
+        {
+          "id": 118,
+          "name": "Kansas City Royals"
+        }
+      ]
+    },
+    "669438": {
+      "name": "Mason Englert",
+      "teams2026": [
+        {
+          "id": 139,
+          "name": "Tampa Bay Rays"
+        }
+      ]
+    },
+    "689254": {
+      "name": "Mason Fluharty",
+      "teams2026": [
+        {
+          "id": 141,
+          "name": "Toronto Blue Jays"
+        }
+      ]
+    },
+    "695243": {
+      "name": "Mason Miller",
+      "teams2026": [
+        {
+          "id": 135,
+          "name": "San Diego Padres"
+        }
+      ]
+    },
+    "682254": {
+      "name": "Mason Montgomery",
+      "teams2026": [
+        {
+          "id": 134,
+          "name": "Pittsburgh Pirates"
+        }
+      ]
+    },
+    "666374": {
+      "name": "Matt Brash",
+      "teams2026": [
+        {
+          "id": 136,
+          "name": "Seattle Mariners"
+        }
+      ]
+    },
+    "670036": {
+      "name": "Matt Festa",
+      "teams2026": [
+        {
+          "id": 114,
+          "name": "Cleveland Guardians"
+        }
+      ]
+    },
+    "657424": {
+      "name": "Matt Gage",
+      "teams2026": [
+        {
+          "id": 137,
+          "name": "San Francisco Giants"
+        }
+      ]
+    },
+    "640454": {
+      "name": "Matt Krook",
+      "teams2026": [
+        {
+          "id": 133,
+          "name": "Athletics"
+        },
+        {
+          "id": 120,
+          "name": "Washington Nationals"
+        }
+      ]
+    },
+    "690155": {
+      "name": "Matt Pushard",
+      "teams2026": [
+        {
+          "id": 138,
+          "name": "St. Louis Cardinals"
+        }
+      ]
+    },
+    "676910": {
+      "name": "Matt Seelinger",
+      "teams2026": [
+        {
+          "id": 121,
+          "name": "New York Mets"
+        }
+      ]
+    },
+    "621381": {
+      "name": "Matt Strahm",
+      "teams2026": [
+        {
+          "id": 118,
+          "name": "Kansas City Royals"
+        }
+      ]
+    },
+    "694335": {
+      "name": "Matt Svanson",
+      "teams2026": [
+        {
+          "id": 138,
+          "name": "St. Louis Cardinals"
+        }
+      ]
+    },
+    "663362": {
+      "name": "Matt Waldron",
+      "teams2026": [
+        {
+          "id": 135,
+          "name": "San Diego Padres"
+        },
+        {
+          "id": 141,
+          "name": "Toronto Blue Jays"
+        },
+        {
+          "id": 120,
+          "name": "Washington Nationals"
+        }
+      ]
+    },
+    "683363": {
+      "name": "Matt Wilkinson",
+      "teams2026": [
+        {
+          "id": 137,
+          "name": "San Francisco Giants"
+        }
+      ]
+    },
+    "571510": {
+      "name": "Matthew Boyd",
+      "teams2026": [
+        {
+          "id": 112,
+          "name": "Chicago Cubs"
+        }
+      ]
+    },
+    "669461": {
+      "name": "Matthew Liberatore",
+      "teams2026": [
+        {
+          "id": 138,
+          "name": "St. Louis Cardinals"
+        }
+      ]
+    },
+    "608331": {
+      "name": "Max Fried",
+      "teams2026": [
+        {
+          "id": 147,
+          "name": "New York Yankees"
+        }
+      ]
+    },
+    "668820": {
+      "name": "Max Kranick",
+      "teams2026": [
+        {
+          "id": 120,
+          "name": "Washington Nationals"
+        }
+      ]
+    },
+    "676661": {
+      "name": "Max Lazar",
+      "teams2026": [
+        {
+          "id": 143,
+          "name": "Philadelphia Phillies"
+        }
+      ]
+    },
+    "676974": {
+      "name": "Max Meyer",
+      "teams2026": [
+        {
+          "id": 146,
+          "name": "Miami Marlins"
+        }
+      ]
+    },
+    "691008": {
+      "name": "Max Rajcic",
+      "teams2026": [
+        {
+          "id": 138,
+          "name": "St. Louis Cardinals"
+        }
+      ]
+    },
+    "453286": {
+      "name": "Max Scherzer",
+      "teams2026": [
+        {
+          "id": 141,
+          "name": "Toronto Blue Jays"
+        }
+      ]
+    },
+    "518876": {
+      "name": "Merrill Kelly",
+      "teams2026": [
+        {
+          "id": 109,
+          "name": "Arizona Diamondbacks"
+        }
+      ]
+    },
+    "605242": {
+      "name": "Michael Fulmer",
+      "teams2026": [
+        {
+          "id": 108,
+          "name": "Los Angeles Angels"
+        },
+        {
+          "id": 147,
+          "name": "New York Yankees"
+        }
+      ]
+    },
+    "675627": {
+      "name": "Michael Grove",
+      "teams2026": [
+        {
+          "id": 139,
+          "name": "Tampa Bay Rays"
+        }
+      ]
+    },
+    "547184": {
+      "name": "Michael Kelly",
+      "teams2026": [
+        {
+          "id": 133,
+          "name": "Athletics"
+        }
+      ]
+    },
+    "650633": {
+      "name": "Michael King",
+      "teams2026": [
+        {
+          "id": 135,
+          "name": "San Diego Padres"
+        }
+      ]
+    },
+    "547179": {
+      "name": "Michael Lorenzen",
+      "teams2026": [
+        {
+          "id": 115,
+          "name": "Colorado Rockies"
+        },
+        {
+          "id": 141,
+          "name": "Toronto Blue Jays"
+        }
+      ]
+    },
+    "700241": {
+      "name": "Michael McGreevy",
+      "teams2026": [
+        {
+          "id": 138,
+          "name": "St. Louis Cardinals"
+        }
+      ]
+    },
+    "656848": {
+      "name": "Michael Petersen",
+      "teams2026": [
+        {
+          "id": 146,
+          "name": "Miami Marlins"
+        }
+      ]
+    },
+    "621074": {
+      "name": "Michael Rucker",
+      "teams2026": [
+        {
+          "id": 136,
+          "name": "Seattle Mariners"
+        }
+      ]
+    },
+    "647336": {
+      "name": "Michael Soroka",
+      "teams2026": [
+        {
+          "id": 109,
+          "name": "Arizona Diamondbacks"
+        }
+      ]
+    },
+    "608379": {
+      "name": "Michael Wacha",
+      "teams2026": [
+        {
+          "id": 118,
+          "name": "Kansas City Royals"
+        }
+      ]
+    },
+    "690953": {
+      "name": "Mick Abel",
+      "teams2026": [
+        {
+          "id": 142,
+          "name": "Minnesota Twins"
+        }
+      ]
+    },
+    "699044": {
+      "name": "Miguel Ullola",
+      "teams2026": [
+        {
+          "id": 117,
+          "name": "Houston Astros"
+        }
+      ]
+    },
+    "681347": {
+      "name": "Mike Burrows",
+      "teams2026": [
+        {
+          "id": 117,
+          "name": "Houston Astros"
+        }
+      ]
+    },
+    "702474": {
+      "name": "Mike Paredes",
+      "teams2026": [
+        {
+          "id": 142,
+          "name": "Minnesota Twins"
+        }
+      ]
+    },
+    "571945": {
+      "name": "Miles Mikolas",
+      "teams2026": [
+        {
+          "id": 120,
+          "name": "Washington Nationals"
+        }
+      ]
+    },
+    "683352": {
+      "name": "Mitch Bratt",
+      "teams2026": [
+        {
+          "id": 109,
+          "name": "Arizona Diamondbacks"
+        }
+      ]
+    },
+    "815083": {
+      "name": "Mitch Farris",
+      "teams2026": [
+        {
+          "id": 108,
+          "name": "Los Angeles Angels"
+        }
+      ]
+    },
+    "656605": {
+      "name": "Mitch Keller",
+      "teams2026": [
+        {
+          "id": 134,
+          "name": "Pittsburgh Pirates"
+        }
+      ]
+    },
+    "687765": {
+      "name": "Mitch Spence",
+      "teams2026": [
+        {
+          "id": 118,
+          "name": "Kansas City Royals"
+        }
+      ]
+    },
+    "680730": {
+      "name": "Mitchell Parker",
+      "teams2026": [
+        {
+          "id": 120,
+          "name": "Washington Nationals"
+        }
+      ]
+    },
+    "681320": {
+      "name": "Nate Lavender",
+      "teams2026": [
+        {
+          "id": 121,
+          "name": "New York Mets"
+        }
+      ]
+    },
+    "663878": {
+      "name": "Nate Pearson",
+      "teams2026": [
+        {
+          "id": 117,
+          "name": "Houston Astros"
+        },
+        {
+          "id": 118,
+          "name": "Kansas City Royals"
+        }
+      ]
+    },
+    "543135": {
+      "name": "Nathan Eovaldi",
+      "teams2026": [
+        {
+          "id": 140,
+          "name": "Texas Rangers"
+        }
+      ]
+    },
+    "689546": {
+      "name": "Nick Davila",
+      "teams2026": [
+        {
+          "id": 136,
+          "name": "Seattle Mariners"
+        }
+      ]
+    },
+    "693308": {
+      "name": "Nick Frasso",
+      "teams2026": [
+        {
+          "id": 115,
+          "name": "Colorado Rockies"
+        }
+      ]
+    },
+    "666157": {
+      "name": "Nick Lodolo",
+      "teams2026": [
+        {
+          "id": 113,
+          "name": "Cincinnati Reds"
+        }
+      ]
+    },
+    "607259": {
+      "name": "Nick Martinez",
+      "teams2026": [
+        {
+          "id": 139,
+          "name": "Tampa Bay Rays"
+        }
+      ]
+    },
+    "683232": {
+      "name": "Nick Mears",
+      "teams2026": [
+        {
+          "id": 118,
+          "name": "Kansas City Royals"
+        }
+      ]
+    },
+    "601713": {
+      "name": "Nick Pivetta",
+      "teams2026": [
+        {
+          "id": 135,
+          "name": "San Diego Padres"
+        }
+      ]
+    },
+    "675919": {
+      "name": "Nick Raquet",
+      "teams2026": [
+        {
+          "id": 110,
+          "name": "Baltimore Orioles"
+        }
+      ]
+    },
+    "680704": {
+      "name": "Nick Sandlin",
+      "teams2026": [
+        {
+          "id": 108,
+          "name": "Los Angeles Angels"
+        }
+      ]
+    },
+    "702070": {
+      "name": "Noah Cameron",
+      "teams2026": [
+        {
+          "id": 118,
+          "name": "Kansas City Royals"
+        }
+      ]
+    },
+    "668716": {
+      "name": "Noah Murdock",
+      "teams2026": [
+        {
+          "id": 134,
+          "name": "Pittsburgh Pirates"
+        }
+      ]
+    },
+    "702273": {
+      "name": "Noah Schultz",
+      "teams2026": [
+        {
+          "id": 145,
+          "name": "Chicago White Sox"
+        }
+      ]
+    },
+    "676510": {
+      "name": "Nolan Hoffman",
+      "teams2026": [
+        {
+          "id": 143,
+          "name": "Philadelphia Phillies"
+        },
+        {
+          "id": 118,
+          "name": "Kansas City Royals"
+        }
+      ]
+    },
+    "663884": {
+      "name": "Nolan Kingham",
+      "teams2026": [
+        {
+          "id": 140,
+          "name": "Texas Rangers"
+        }
+      ]
+    },
+    "690997": {
+      "name": "Nolan McLean",
+      "teams2026": [
+        {
+          "id": 121,
+          "name": "New York Mets"
+        }
+      ]
+    },
+    "689147": {
+      "name": "Orion Kerkering",
+      "teams2026": [
+        {
+          "id": 143,
+          "name": "Philadelphia Phillies"
+        }
+      ]
+    },
+    "687377": {
+      "name": "Orlando Ribalta",
+      "teams2026": [
+        {
+          "id": 120,
+          "name": "Washington Nationals"
+        }
+      ]
+    },
+    "674370": {
+      "name": "Osvaldo Bido",
+      "teams2026": [
+        {
+          "id": 144,
+          "name": "Atlanta Braves"
+        },
+        {
+          "id": 145,
+          "name": "Chicago White Sox"
+        }
+      ]
+    },
+    "702566": {
+      "name": "Owen Murphy",
+      "teams2026": [
+        {
+          "id": 144,
+          "name": "Atlanta Braves"
+        }
+      ]
+    },
+    "676571": {
+      "name": "PJ Poulin",
+      "teams2026": [
+        {
+          "id": 120,
+          "name": "Washington Nationals"
+        }
+      ]
+    },
+    "800048": {
+      "name": "Parker Messick",
+      "teams2026": [
+        {
+          "id": 114,
+          "name": "Cleveland Guardians"
+        }
+      ]
+    },
+    "656786": {
+      "name": "Parker Mushinski",
+      "teams2026": [
+        {
+          "id": 115,
+          "name": "Colorado Rockies"
+        }
+      ]
+    },
+    "571578": {
+      "name": "Patrick Corbin",
+      "teams2026": [
+        {
+          "id": 141,
+          "name": "Toronto Blue Jays"
+        }
+      ]
+    },
+    "687287": {
+      "name": "Patrick Monteverde",
+      "teams2026": [
+        {
+          "id": 146,
+          "name": "Miami Marlins"
+        }
+      ]
+    },
+    "663776": {
+      "name": "Patrick Sandoval",
+      "teams2026": [
+        {
+          "id": 111,
+          "name": "Boston Red Sox"
+        }
+      ]
+    },
+    "621112": {
+      "name": "Paul Blackburn",
+      "teams2026": [
+        {
+          "id": 147,
+          "name": "New York Yankees"
+        }
+      ]
+    },
+    "801434": {
+      "name": "Paul Gervase",
+      "teams2026": [
+        {
+          "id": 119,
+          "name": "Los Angeles Dodgers"
+        }
+      ]
+    },
+    "623149": {
+      "name": "Paul Sewald",
+      "teams2026": [
+        {
+          "id": 109,
+          "name": "Arizona Diamondbacks"
+        },
+        {
+          "id": 141,
+          "name": "Toronto Blue Jays"
+        }
+      ]
+    },
+    "694973": {
+      "name": "Paul Skenes",
+      "teams2026": [
+        {
+          "id": 134,
+          "name": "Pittsburgh Pirates"
+        }
+      ]
+    },
+    "687606": {
+      "name": "Paxton Schultz",
+      "teams2026": [
+        {
+          "id": 120,
+          "name": "Washington Nationals"
+        }
+      ]
+    },
+    "801139": {
+      "name": "Payton Tolle",
+      "teams2026": [
+        {
+          "id": 111,
+          "name": "Boston Red Sox"
+        }
+      ]
+    },
+    "664126": {
+      "name": "Pete Fairbanks",
+      "teams2026": [
+        {
+          "id": 146,
+          "name": "Miami Marlins"
+        }
+      ]
+    },
+    "663567": {
+      "name": "Peter Lambert",
+      "teams2026": [
+        {
+          "id": 117,
+          "name": "Houston Astros"
+        }
+      ]
+    },
+    "657265": {
+      "name": "Peter Strzelecki",
+      "teams2026": [
+        {
+          "id": 138,
+          "name": "St. Louis Cardinals"
+        }
+      ]
+    },
+    "682608": {
+      "name": "Peyton Gray",
+      "teams2026": [
+        {
+          "id": 140,
+          "name": "Texas Rangers"
+        }
+      ]
+    },
+    "688883": {
+      "name": "Peyton Pallette",
+      "teams2026": [
+        {
+          "id": 114,
+          "name": "Cleveland Guardians"
+        }
+      ]
+    },
+    "664208": {
+      "name": "Phil Maton",
+      "teams2026": [
+        {
+          "id": 112,
+          "name": "Chicago Cubs"
+        }
+      ]
+    },
+    "691769": {
+      "name": "Philip Abner",
+      "teams2026": [
+        {
+          "id": 109,
+          "name": "Arizona Diamondbacks"
+        },
+        {
+          "id": 137,
+          "name": "San Francisco Giants"
+        }
+      ]
+    },
+    "572955": {
+      "name": "Pierce Johnson",
+      "teams2026": [
+        {
+          "id": 113,
+          "name": "Cincinnati Reds"
+        }
+      ]
+    },
+    "687273": {
+      "name": "Quinn Mathews",
+      "teams2026": [
+        {
+          "id": 138,
+          "name": "St. Louis Cardinals"
+        }
+      ]
+    },
+    "628452": {
+      "name": "Raisel Iglesias",
+      "teams2026": [
+        {
+          "id": 144,
+          "name": "Atlanta Braves"
+        }
+      ]
+    },
+    "677976": {
+      "name": "Randy Dobnak",
+      "teams2026": [
+        {
+          "id": 118,
+          "name": "Kansas City Royals"
+        }
+      ]
+    },
+    "681190": {
+      "name": "Randy V\u00e1squez",
+      "teams2026": [
+        {
+          "id": 135,
+          "name": "San Diego Padres"
+        }
+      ]
+    },
+    "624133": {
+      "name": "Ranger Suarez",
+      "teams2026": [
+        {
+          "id": 111,
+          "name": "Boston Red Sox"
+        }
+      ]
+    },
+    "678061": {
+      "name": "Ray Kerr",
+      "teams2026": [
+        {
+          "id": 144,
+          "name": "Atlanta Braves"
+        }
+      ]
+    },
+    "670103": {
+      "name": "Raymond Burgos",
+      "teams2026": [
+        {
+          "id": 111,
+          "name": "Boston Red Sox"
+        }
+      ]
+    },
+    "672282": {
+      "name": "Reid Detmers",
+      "teams2026": [
+        {
+          "id": 108,
+          "name": "Los Angeles Angels"
+        }
+      ]
+    },
+    "665665": {
+      "name": "Reiver Sanmartin",
+      "teams2026": [
+        {
+          "id": 137,
+          "name": "San Francisco Giants"
+        }
+      ]
+    },
+    "625643": {
+      "name": "Reynaldo L\u00f3pez",
+      "teams2026": [
+        {
+          "id": 144,
+          "name": "Atlanta Braves"
+        }
+      ]
+    },
+    "695076": {
+      "name": "Rhett Lowder",
+      "teams2026": [
+        {
+          "id": 113,
+          "name": "Cincinnati Reds"
+        }
+      ]
+    },
+    "663992": {
+      "name": "Richard Lovelady",
+      "teams2026": [
+        {
+          "id": 121,
+          "name": "New York Mets"
+        },
+        {
+          "id": 120,
+          "name": "Washington Nationals"
+        }
+      ]
+    },
+    "694357": {
+      "name": "Ricky Tiedemann",
+      "teams2026": [
+        {
+          "id": 141,
+          "name": "Toronto Blue Jays"
+        }
+      ]
+    },
+    "676568": {
+      "name": "Ricky Vanasco",
+      "teams2026": [
+        {
+          "id": 116,
+          "name": "Detroit Tigers"
+        }
+      ]
+    },
+    "670329": {
+      "name": "Rico Garcia",
+      "teams2026": [
+        {
+          "id": 110,
+          "name": "Baltimore Orioles"
+        }
+      ]
+    },
+    "683000": {
+      "name": "Riley Cornelio",
+      "teams2026": [
+        {
+          "id": 120,
+          "name": "Washington Nationals"
+        }
+      ]
+    },
+    "702303": {
+      "name": "Riley Martin",
+      "teams2026": [
+        {
+          "id": 112,
+          "name": "Chicago Cubs"
+        }
+      ]
+    },
+    "676617": {
+      "name": "Riley O'Brien",
+      "teams2026": [
+        {
+          "id": 138,
+          "name": "St. Louis Cardinals"
+        }
+      ]
+    },
+    "689981": {
+      "name": "River Ryan",
+      "teams2026": [
+        {
+          "id": 116,
+          "name": "Detroit Tigers"
+        }
+      ]
+    },
+    "592662": {
+      "name": "Robbie Ray",
+      "teams2026": [
+        {
+          "id": 137,
+          "name": "San Francisco Giants"
+        },
+        {
+          "id": 135,
+          "name": "San Diego Padres"
+        }
+      ]
+    },
+    "695239": {
+      "name": "Robby Ahlstrom",
+      "teams2026": [
+        {
+          "id": 140,
+          "name": "Texas Rangers"
+        }
+      ]
+    },
+    "702281": {
+      "name": "Robby Snelling",
+      "teams2026": [
+        {
+          "id": 146,
+          "name": "Miami Marlins"
+        }
+      ]
+    },
+    "676395": {
+      "name": "Robert Garcia",
+      "teams2026": [
+        {
+          "id": 140,
+          "name": "Texas Rangers"
+        }
+      ]
+    },
+    "688107": {
+      "name": "Robert Gasser",
+      "teams2026": [
+        {
+          "id": 158,
+          "name": "Milwaukee Brewers"
+        }
+      ]
+    },
+    "476594": {
+      "name": "Robert Stock",
+      "teams2026": [
+        {
+          "id": 121,
+          "name": "New York Mets"
+        }
+      ]
+    },
+    "663158": {
+      "name": "Robert Suarez",
+      "teams2026": [
+        {
+          "id": 144,
+          "name": "Atlanta Braves"
+        }
+      ]
+    },
+    "682610": {
+      "name": "Roddery Mu\u00f1oz",
+      "teams2026": [
+        {
+          "id": 117,
+          "name": "Houston Astros"
+        }
+      ]
+    },
+    "808963": {
+      "name": "Roki Sasaki",
+      "teams2026": [
+        {
+          "id": 119,
+          "name": "Los Angeles Dodgers"
+        }
+      ]
+    },
+    "691548": {
+      "name": "Rolddy Mu\u00f1oz",
+      "teams2026": [
+        {
+          "id": 144,
+          "name": "Atlanta Braves"
+        }
+      ]
+    },
+    "676760": {
+      "name": "Ron Marinaccio",
+      "teams2026": [
+        {
+          "id": 135,
+          "name": "San Diego Padres"
+        },
+        {
+          "id": 134,
+          "name": "Pittsburgh Pirates"
+        },
+        {
+          "id": 113,
+          "name": "Cincinnati Reds"
+        }
+      ]
+    },
+    "669854": {
+      "name": "Ronel Blanco",
+      "teams2026": [
+        {
+          "id": 117,
+          "name": "Houston Astros"
+        }
+      ]
+    },
+    "621366": {
+      "name": "Ryan Borucki",
+      "teams2026": [
+        {
+          "id": 137,
+          "name": "San Francisco Giants"
+        }
+      ]
+    },
+    "663372": {
+      "name": "Ryan Feltner",
+      "teams2026": [
+        {
+          "id": 115,
+          "name": "Colorado Rockies"
+        }
+      ]
+    },
+    "681676": {
+      "name": "Ryan Fernandez",
+      "teams2026": [
+        {
+          "id": 138,
+          "name": "St. Louis Cardinals"
+        }
+      ]
+    },
+    "687473": {
+      "name": "Ryan Gusto",
+      "teams2026": [
+        {
+          "id": 146,
+          "name": "Miami Marlins"
+        }
+      ]
+    },
+    "664854": {
+      "name": "Ryan Helsley",
+      "teams2026": [
+        {
+          "id": 110,
+          "name": "Baltimore Orioles"
+        }
+      ]
+    },
+    "696270": {
+      "name": "Ryan Johnson",
+      "teams2026": [
+        {
+          "id": 108,
+          "name": "Los Angeles Angels"
+        }
+      ]
+    },
+    "669020": {
+      "name": "Ryan Rolison",
+      "teams2026": [
+        {
+          "id": 112,
+          "name": "Chicago Cubs"
+        }
+      ]
+    },
+    "657044": {
+      "name": "Ryan Thompson",
+      "teams2026": [
+        {
+          "id": 109,
+          "name": "Arizona Diamondbacks"
+        }
+      ]
+    },
+    "676254": {
+      "name": "Ryan Walker",
+      "teams2026": [
+        {
+          "id": 137,
+          "name": "San Francisco Giants"
+        }
+      ]
+    },
+    "670245": {
+      "name": "Ryan Watson",
+      "teams2026": [
+        {
+          "id": 111,
+          "name": "Boston Red Sox"
+        },
+        {
+          "id": 108,
+          "name": "Los Angeles Angels"
+        }
+      ]
+    },
+    "677960": {
+      "name": "Ryan Weathers",
+      "teams2026": [
+        {
+          "id": 147,
+          "name": "New York Yankees"
+        }
+      ]
+    },
+    "680802": {
+      "name": "Ryan Weiss",
+      "teams2026": [
+        {
+          "id": 117,
+          "name": "Houston Astros"
+        }
+      ]
+    },
+    "642232": {
+      "name": "Ryan Yarbrough",
+      "teams2026": [
+        {
+          "id": 147,
+          "name": "New York Yankees"
+        }
+      ]
+    },
+    "666171": {
+      "name": "Ryan Zeferjahn",
+      "teams2026": [
+        {
+          "id": 108,
+          "name": "Los Angeles Angels"
+        },
+        {
+          "id": 112,
+          "name": "Chicago Cubs"
+        }
+      ]
+    },
+    "669194": {
+      "name": "Ryne Nelson",
+      "teams2026": [
+        {
+          "id": 109,
+          "name": "Arizona Diamondbacks"
+        }
+      ]
+    },
+    "592773": {
+      "name": "Ryne Stanek",
+      "teams2026": [
+        {
+          "id": 138,
+          "name": "St. Louis Cardinals"
+        }
+      ]
+    },
+    "691951": {
+      "name": "Sam Aldegheri",
+      "teams2026": [
+        {
+          "id": 108,
+          "name": "Los Angeles Angels"
+        }
+      ]
+    },
+    "696147": {
+      "name": "Sam Bachman",
+      "teams2026": [
+        {
+          "id": 108,
+          "name": "Los Angeles Angels"
+        }
+      ]
+    },
+    "656529": {
+      "name": "Sam Hentges",
+      "teams2026": [
+        {
+          "id": 137,
+          "name": "San Francisco Giants"
+        }
+      ]
+    },
+    "594580": {
+      "name": "Sam Moll",
+      "teams2026": [
+        {
+          "id": 113,
+          "name": "Cincinnati Reds"
+        }
+      ]
+    },
+    "671111": {
+      "name": "Sammy Peralta",
+      "teams2026": [
+        {
+          "id": 115,
+          "name": "Colorado Rockies"
+        },
+        {
+          "id": 108,
+          "name": "Los Angeles Angels"
+        }
+      ]
+    },
+    "696519": {
+      "name": "Samy Natera Jr.",
+      "teams2026": [
+        {
+          "id": 108,
+          "name": "Los Angeles Angels"
+        }
+      ]
+    },
+    "645261": {
+      "name": "Sandy Alcantara",
+      "teams2026": [
+        {
+          "id": 146,
+          "name": "Miami Marlins"
+        }
+      ]
+    },
+    "605130": {
+      "name": "Scott Barlow",
+      "teams2026": [
+        {
+          "id": 133,
+          "name": "Athletics"
+        }
+      ]
+    },
+    "656240": {
+      "name": "Scott Blewett",
+      "teams2026": [
+        {
+          "id": 138,
+          "name": "St. Louis Cardinals"
+        },
+        {
+          "id": 133,
+          "name": "Athletics"
+        }
+      ]
+    },
+    "680732": {
+      "name": "Sean Burke",
+      "teams2026": [
+        {
+          "id": 145,
+          "name": "Chicago White Sox"
+        }
+      ]
+    },
+    "640455": {
+      "name": "Sean Manaea",
+      "teams2026": [
+        {
+          "id": 121,
+          "name": "New York Mets"
+        }
+      ]
+    },
+    "656794": {
+      "name": "Sean Newcomb",
+      "teams2026": [
+        {
+          "id": 145,
+          "name": "Chicago White Sox"
+        }
+      ]
+    },
+    "807743": {
+      "name": "Sean Sullivan",
+      "teams2026": [
+        {
+          "id": 115,
+          "name": "Colorado Rockies"
+        }
+      ]
+    },
+    "622554": {
+      "name": "Seranthony Dom\u00ednguez",
+      "teams2026": [
+        {
+          "id": 145,
+          "name": "Chicago White Sox"
+        },
+        {
+          "id": 136,
+          "name": "Seattle Mariners"
+        }
+      ]
+    },
+    "678020": {
+      "name": "Seth Halvorsen",
+      "teams2026": [
+        {
+          "id": 115,
+          "name": "Colorado Rockies"
+        },
+        {
+          "id": 119,
+          "name": "Los Angeles Dodgers"
+        }
+      ]
+    },
+    "686751": {
+      "name": "Seth Johnson",
+      "teams2026": [
+        {
+          "id": 143,
+          "name": "Philadelphia Phillies"
+        },
+        {
+          "id": 133,
+          "name": "Athletics"
+        }
+      ]
+    },
+    "675920": {
+      "name": "Seth Lonsway",
+      "teams2026": [
+        {
+          "id": 137,
+          "name": "San Francisco Giants"
+        }
+      ]
+    },
+    "607625": {
+      "name": "Seth Lugo",
+      "teams2026": [
+        {
+          "id": 118,
+          "name": "Kansas City Royals"
+        }
+      ]
+    },
+    "661527": {
+      "name": "Seth Martinez",
+      "teams2026": [
+        {
+          "id": 111,
+          "name": "Boston Red Sox"
+        }
+      ]
+    },
+    "669358": {
+      "name": "Shane Baz",
+      "teams2026": [
+        {
+          "id": 110,
+          "name": "Baltimore Orioles"
+        }
+      ]
+    },
+    "669456": {
+      "name": "Shane Bieber",
+      "teams2026": [
+        {
+          "id": 141,
+          "name": "Toronto Blue Jays"
+        }
+      ]
+    },
+    "675660": {
+      "name": "Shane Drohan",
+      "teams2026": [
+        {
+          "id": 158,
+          "name": "Milwaukee Brewers"
+        }
+      ]
+    },
+    "663556": {
+      "name": "Shane McClanahan",
+      "teams2026": [
+        {
+          "id": 139,
+          "name": "Tampa Bay Rays"
+        }
+      ]
+    },
+    "681343": {
+      "name": "Shane Smith",
+      "teams2026": [
+        {
+          "id": 145,
+          "name": "Chicago White Sox"
+        }
+      ]
+    },
+    "641312": {
+      "name": "Shaun Anderson",
+      "teams2026": [
+        {
+          "id": 108,
+          "name": "Los Angeles Angels"
+        }
+      ]
+    },
+    "542888": {
+      "name": "Shawn Armstrong",
+      "teams2026": [
+        {
+          "id": 114,
+          "name": "Cleveland Guardians"
+        }
+      ]
+    },
+    "660271": {
+      "name": "Shohei Ohtani",
+      "teams2026": [
+        {
+          "id": 119,
+          "name": "Los Angeles Dodgers"
+        }
+      ]
+    },
+    "684007": {
+      "name": "Shota Imanaga",
+      "teams2026": [
+        {
+          "id": 112,
+          "name": "Chicago Cubs"
+        }
+      ]
+    },
+    "680573": {
+      "name": "Simeon Woods Richardson",
+      "teams2026": [
+        {
+          "id": 142,
+          "name": "Minnesota Twins"
+        },
+        {
+          "id": 141,
+          "name": "Toronto Blue Jays"
+        }
+      ]
+    },
+    "677944": {
+      "name": "Slade Cecconi",
+      "teams2026": [
+        {
+          "id": 114,
+          "name": "Cleveland Guardians"
+        }
+      ]
+    },
+    "543243": {
+      "name": "Sonny Gray",
+      "teams2026": [
+        {
+          "id": 111,
+          "name": "Boston Red Sox"
+        }
+      ]
+    },
+    "681293": {
+      "name": "Spencer Arrighetti",
+      "teams2026": [
+        {
+          "id": 117,
+          "name": "Houston Astros"
+        },
+        {
+          "id": 141,
+          "name": "Toronto Blue Jays"
+        }
+      ]
+    },
+    "702352": {
+      "name": "Spencer Bivens",
+      "teams2026": [
+        {
+          "id": 137,
+          "name": "San Francisco Giants"
+        },
+        {
+          "id": 118,
+          "name": "Kansas City Royals"
+        }
+      ]
+    },
+    "693686": {
+      "name": "Spencer Miles",
+      "teams2026": [
+        {
+          "id": 141,
+          "name": "Toronto Blue Jays"
+        }
+      ]
+    },
+    "675911": {
+      "name": "Spencer Strider",
+      "teams2026": [
+        {
+          "id": 144,
+          "name": "Atlanta Braves"
+        }
+      ]
+    },
+    "663568": {
+      "name": "Stephen Kolek",
+      "teams2026": [
+        {
+          "id": 118,
+          "name": "Kansas City Royals"
+        }
+      ]
+    },
+    "674444": {
+      "name": "Steven Cruz",
+      "teams2026": [
+        {
+          "id": 118,
+          "name": "Kansas City Royals"
+        }
+      ]
+    },
+    "571927": {
+      "name": "Steven Matz",
+      "teams2026": [
+        {
+          "id": 139,
+          "name": "Tampa Bay Rays"
+        }
+      ]
+    },
+    "595345": {
+      "name": "Steven Okert",
+      "teams2026": [
+        {
+          "id": 117,
+          "name": "Houston Astros"
+        }
+      ]
+    },
+    "669298": {
+      "name": "TJ Shook",
+      "teams2026": [
+        {
+          "id": 115,
+          "name": "Colorado Rockies"
+        }
+      ]
+    },
+    "592836": {
+      "name": "Taijuan Walker",
+      "teams2026": [
+        {
+          "id": 143,
+          "name": "Philadelphia Phillies"
+        }
+      ]
+    },
+    "671737": {
+      "name": "Taj Bradley",
+      "teams2026": [
+        {
+          "id": 142,
+          "name": "Minnesota Twins"
+        }
+      ]
+    },
+    "681084": {
+      "name": "Tanner Andrews",
+      "teams2026": [
+        {
+          "id": 141,
+          "name": "Toronto Blue Jays"
+        }
+      ]
+    },
+    "621383": {
+      "name": "Tanner Banks",
+      "teams2026": [
+        {
+          "id": 143,
+          "name": "Philadelphia Phillies"
+        }
+      ]
+    },
+    "676440": {
+      "name": "Tanner Bibee",
+      "teams2026": [
+        {
+          "id": 114,
+          "name": "Cleveland Guardians"
+        }
+      ]
+    },
+    "685299": {
+      "name": "Tanner Gordon",
+      "teams2026": [
+        {
+          "id": 115,
+          "name": "Colorado Rockies"
+        }
+      ]
+    },
+    "656557": {
+      "name": "Tanner Houck",
+      "teams2026": [
+        {
+          "id": 111,
+          "name": "Boston Red Sox"
+        }
+      ]
+    },
+    "701780": {
+      "name": "Tanner McDougal",
+      "teams2026": [
+        {
+          "id": 145,
+          "name": "Chicago White Sox"
+        }
+      ]
+    },
+    "663432": {
+      "name": "Tanner Rainey",
+      "teams2026": [
+        {
+          "id": 116,
+          "name": "Detroit Tigers"
+        }
+      ]
+    },
+    "656945": {
+      "name": "Tanner Scott",
+      "teams2026": [
+        {
+          "id": 119,
+          "name": "Los Angeles Dodgers"
+        }
+      ]
+    },
+    "669373": {
+      "name": "Tarik Skubal",
+      "teams2026": [
+        {
+          "id": 116,
+          "name": "Detroit Tigers"
+        },
+        {
+          "id": 119,
+          "name": "Los Angeles Dodgers"
+        }
+      ]
+    },
+    "837227": {
+      "name": "Tatsuya Imai",
+      "teams2026": [
+        {
+          "id": 117,
+          "name": "Houston Astros"
+        }
+      ]
+    },
+    "642048": {
+      "name": "Tayler Saucedo",
+      "teams2026": [
+        {
+          "id": 108,
+          "name": "Los Angeles Angels"
+        }
+      ]
+    },
+    "664199": {
+      "name": "Taylor Clarke",
+      "teams2026": [
+        {
+          "id": 109,
+          "name": "Arizona Diamondbacks"
+        }
+      ]
+    },
+    "688497": {
+      "name": "Taylor Rashi",
+      "teams2026": [
+        {
+          "id": 109,
+          "name": "Arizona Diamondbacks"
+        },
+        {
+          "id": 133,
+          "name": "Athletics"
+        }
+      ]
+    },
+    "573124": {
+      "name": "Taylor Rogers",
+      "teams2026": [
+        {
+          "id": 142,
+          "name": "Minnesota Twins"
+        }
+      ]
+    },
+    "622088": {
+      "name": "Tejay Antone",
+      "teams2026": [
+        {
+          "id": 113,
+          "name": "Cincinnati Reds"
+        }
+      ]
+    },
+    "623381": {
+      "name": "Thomas Pannone",
+      "teams2026": [
+        {
+          "id": 158,
+          "name": "Milwaukee Brewers"
+        }
+      ]
+    },
+    "682120": {
+      "name": "Tim Herrin",
+      "teams2026": [
+        {
+          "id": 114,
+          "name": "Cleveland Guardians"
+        }
+      ]
+    },
+    "657612": {
+      "name": "Tim Hill",
+      "teams2026": [
+        {
+          "id": 147,
+          "name": "New York Yankees"
+        }
+      ]
+    },
+    "641835": {
+      "name": "Tim Mayza",
+      "teams2026": [
+        {
+          "id": 143,
+          "name": "Philadelphia Phillies"
+        }
+      ]
+    },
+    "668964": {
+      "name": "Tobias Myers",
+      "teams2026": [
+        {
+          "id": 121,
+          "name": "New York Mets"
+        }
+      ]
+    },
+    "676680": {
+      "name": "Tom Cosgrove",
+      "teams2026": [
+        {
+          "id": 120,
+          "name": "Washington Nationals"
+        }
+      ]
+    },
+    "592454": {
+      "name": "Tommy Kahnle",
+      "teams2026": [
+        {
+          "id": 111,
+          "name": "Boston Red Sox"
+        }
+      ]
+    },
+    "667297": {
+      "name": "Tommy Nance",
+      "teams2026": [
+        {
+          "id": 141,
+          "name": "Toronto Blue Jays"
+        },
+        {
+          "id": 142,
+          "name": "Minnesota Twins"
+        }
+      ]
+    },
+    "608372": {
+      "name": "Tomoyuki Sugano",
+      "teams2026": [
+        {
+          "id": 115,
+          "name": "Colorado Rockies"
+        }
+      ]
+    },
+    "664062": {
+      "name": "Tony Gonsolin",
+      "teams2026": [
+        {
+          "id": 118,
+          "name": "Kansas City Royals"
+        }
+      ]
+    },
+    "663574": {
+      "name": "Tony Santillan",
+      "teams2026": [
+        {
+          "id": 113,
+          "name": "Cincinnati Reds"
+        }
+      ]
+    },
+    "701519": {
+      "name": "Travis Adams",
+      "teams2026": [
+        {
+          "id": 142,
+          "name": "Minnesota Twins"
+        }
+      ]
+    },
+    "805345": {
+      "name": "Trent Harris",
+      "teams2026": [
+        {
+          "id": 137,
+          "name": "San Francisco Giants"
+        }
+      ]
+    },
+    "663423": {
+      "name": "Trent Thornton",
+      "teams2026": [
+        {
+          "id": 112,
+          "name": "Chicago Cubs"
+        }
+      ]
+    },
+    "694680": {
+      "name": "Trevor Martin",
+      "teams2026": [
+        {
+          "id": 139,
+          "name": "Tampa Bay Rays"
+        },
+        {
+          "id": 108,
+          "name": "Los Angeles Angels"
+        }
+      ]
+    },
+    "686790": {
+      "name": "Trevor McDonald",
+      "teams2026": [
+        {
+          "id": 137,
+          "name": "San Francisco Giants"
+        }
+      ]
+    },
+    "656730": {
+      "name": "Trevor Megill",
+      "teams2026": [
+        {
+          "id": 158,
+          "name": "Milwaukee Brewers"
+        }
+      ]
+    },
+    "670950": {
+      "name": "Trevor Richards",
+      "teams2026": [
+        {
+          "id": 143,
+          "name": "Philadelphia Phillies"
+        },
+        {
+          "id": 145,
+          "name": "Chicago White Sox"
+        }
+      ]
+    },
+    "669432": {
+      "name": "Trevor Rogers",
+      "teams2026": [
+        {
+          "id": 110,
+          "name": "Baltimore Orioles"
+        }
+      ]
+    },
+    "592866": {
+      "name": "Trevor Williams",
+      "teams2026": [
+        {
+          "id": 120,
+          "name": "Washington Nationals"
+        },
+        {
+          "id": 140,
+          "name": "Texas Rangers"
+        }
+      ]
+    },
+    "694346": {
+      "name": "Trey Gibson",
+      "teams2026": [
+        {
+          "id": 110,
+          "name": "Baltimore Orioles"
+        }
+      ]
+    },
+    "702056": {
+      "name": "Trey Yesavage",
+      "teams2026": [
+        {
+          "id": 141,
+          "name": "Toronto Blue Jays"
+        }
+      ]
+    },
+    "663941": {
+      "name": "Tristan Beck",
+      "teams2026": [
+        {
+          "id": 137,
+          "name": "San Francisco Giants"
+        }
+      ]
+    },
+    "675512": {
+      "name": "Troy Melton",
+      "teams2026": [
+        {
+          "id": 116,
+          "name": "Detroit Tigers"
+        }
+      ]
+    },
+    "700187": {
+      "name": "Troy Taylor",
+      "teams2026": [
+        {
+          "id": 136,
+          "name": "Seattle Mariners"
+        }
+      ]
+    },
+    "621389": {
+      "name": "Ty Blach",
+      "teams2026": [
+        {
+          "id": 112,
+          "name": "Chicago Cubs"
+        }
+      ]
+    },
+    "694494": {
+      "name": "Ty Johnson",
+      "teams2026": [
+        {
+          "id": 139,
+          "name": "Tampa Bay Rays"
+        }
+      ]
+    },
+    "680744": {
+      "name": "Ty Madden",
+      "teams2026": [
+        {
+          "id": 116,
+          "name": "Detroit Tigers"
+        }
+      ]
+    },
+    "641302": {
+      "name": "Tyler Alexander",
+      "teams2026": [
+        {
+          "id": 140,
+          "name": "Texas Rangers"
+        }
+      ]
+    },
+    "699823": {
+      "name": "Tyler Davis",
+      "teams2026": [
+        {
+          "id": 145,
+          "name": "Chicago White Sox"
+        }
+      ]
+    },
+    "621053": {
+      "name": "Tyler Ferguson",
+      "teams2026": [
+        {
+          "id": 133,
+          "name": "Athletics"
+        },
+        {
+          "id": 112,
+          "name": "Chicago Cubs"
+        }
+      ]
+    },
+    "656457": {
+      "name": "Tyler Gilbert",
+      "teams2026": [
+        {
+          "id": 145,
+          "name": "Chicago White Sox"
+        }
+      ]
+    },
+    "607192": {
+      "name": "Tyler Glasnow",
+      "teams2026": [
+        {
+          "id": 119,
+          "name": "Los Angeles Dodgers"
+        }
+      ]
+    },
+    "663947": {
+      "name": "Tyler Holton",
+      "teams2026": [
+        {
+          "id": 116,
+          "name": "Detroit Tigers"
+        }
+      ]
+    },
+    "641755": {
+      "name": "Tyler Kinley",
+      "teams2026": [
+        {
+          "id": 144,
+          "name": "Atlanta Braves"
+        },
+        {
+          "id": 116,
+          "name": "Detroit Tigers"
+        }
+      ]
+    },
+    "641816": {
+      "name": "Tyler Mahle",
+      "teams2026": [
+        {
+          "id": 137,
+          "name": "San Francisco Giants"
+        },
+        {
+          "id": 144,
+          "name": "Atlanta Braves"
+        }
+      ]
+    },
+    "663969": {
+      "name": "Tyler Phillips",
+      "teams2026": [
+        {
+          "id": 146,
+          "name": "Miami Marlins"
+        }
+      ]
+    },
+    "643511": {
+      "name": "Tyler Rogers",
+      "teams2026": [
+        {
+          "id": 141,
+          "name": "Toronto Blue Jays"
+        }
+      ]
+    },
+    "701719": {
+      "name": "Tyler Samaniego",
+      "teams2026": [
+        {
+          "id": 111,
+          "name": "Boston Red Sox"
+        }
+      ]
+    },
+    "805326": {
+      "name": "Tyler Schweitzer",
+      "teams2026": [
+        {
+          "id": 145,
+          "name": "Chicago White Sox"
+        }
+      ]
+    },
+    "700413": {
+      "name": "Tyler Uberstine",
+      "teams2026": [
+        {
+          "id": 111,
+          "name": "Boston Red Sox"
+        }
+      ]
+    },
+    "669330": {
+      "name": "Tyler Wells",
+      "teams2026": [
+        {
+          "id": 110,
+          "name": "Baltimore Orioles"
+        },
+        {
+          "id": 139,
+          "name": "Tampa Bay Rays"
+        }
+      ]
+    },
+    "676604": {
+      "name": "Tyler Zuber",
+      "teams2026": [
+        {
+          "id": 146,
+          "name": "Miami Marlins"
+        }
+      ]
+    },
+    "594027": {
+      "name": "Tyron Guerrero",
+      "teams2026": [
+        {
+          "id": 111,
+          "name": "Boston Red Sox"
+        }
+      ]
+    },
+    "678368": {
+      "name": "Valente Bellozo",
+      "teams2026": [
+        {
+          "id": 115,
+          "name": "Colorado Rockies"
+        }
+      ]
+    },
+    "682989": {
+      "name": "Victor Mederos",
+      "teams2026": [
+        {
+          "id": 144,
+          "name": "Atlanta Braves"
+        }
+      ]
+    },
+    "680767": {
+      "name": "Victor Vodnik",
+      "teams2026": [
+        {
+          "id": 115,
+          "name": "Colorado Rockies"
+        },
+        {
+          "id": 146,
+          "name": "Miami Marlins"
+        }
+      ]
+    },
+    "592826": {
+      "name": "Vince Velasquez",
+      "teams2026": [
+        {
+          "id": 112,
+          "name": "Chicago Cubs"
+        }
+      ]
+    },
+    "700712": {
+      "name": "Walbert Ure\u00f1a",
+      "teams2026": [
+        {
+          "id": 108,
+          "name": "Los Angeles Angels"
+        }
+      ]
+    },
+    "621111": {
+      "name": "Walker Buehler",
+      "teams2026": [
+        {
+          "id": 135,
+          "name": "San Diego Padres"
+        }
+      ]
+    },
+    "593974": {
+      "name": "Wandy Peralta",
+      "teams2026": [
+        {
+          "id": 135,
+          "name": "San Diego Padres"
+        }
+      ]
+    },
+    "700327": {
+      "name": "Welinton Herrera",
+      "teams2026": [
+        {
+          "id": 115,
+          "name": "Colorado Rockies"
+        }
+      ]
+    },
+    "696062": {
+      "name": "Wilber Dotel",
+      "teams2026": [
+        {
+          "id": 134,
+          "name": "Pittsburgh Pirates"
+        }
+      ]
+    },
+    "678576": {
+      "name": "Wilkin Ramos",
+      "teams2026": [
+        {
+          "id": 137,
+          "name": "San Francisco Giants"
+        }
+      ]
+    },
+    "702021": {
+      "name": "Will Dion",
+      "teams2026": [
+        {
+          "id": 114,
+          "name": "Cleveland Guardians"
+        },
+        {
+          "id": 120,
+          "name": "Washington Nationals"
+        }
+      ]
+    },
+    "694361": {
+      "name": "Will Klein",
+      "teams2026": [
+        {
+          "id": 119,
+          "name": "Los Angeles Dodgers"
+        }
+      ]
+    },
+    "676684": {
+      "name": "Will Vest",
+      "teams2026": [
+        {
+          "id": 116,
+          "name": "Detroit Tigers"
+        }
+      ]
+    },
+    "701542": {
+      "name": "Will Warren",
+      "teams2026": [
+        {
+          "id": 147,
+          "name": "New York Yankees"
+        }
+      ]
+    },
+    "687531": {
+      "name": "William Kempner",
+      "teams2026": [
+        {
+          "id": 146,
+          "name": "Miami Marlins"
+        }
+      ]
+    },
+    "692437": {
+      "name": "Winston Santos",
+      "teams2026": [
+        {
+          "id": 140,
+          "name": "Texas Rangers"
+        }
+      ]
+    },
+    "808970": {
+      "name": "Woo-Suk Go",
+      "teams2026": [
+        {
+          "id": 142,
+          "name": "Minnesota Twins"
+        }
+      ]
+    },
+    "670090": {
+      "name": "Wyatt Mills",
+      "teams2026": [
+        {
+          "id": 119,
+          "name": "Los Angeles Dodgers"
+        }
+      ]
+    },
+    "681544": {
+      "name": "Wyatt Olds",
+      "teams2026": [
+        {
+          "id": 111,
+          "name": "Boston Red Sox"
+        }
+      ]
+    },
+    "675540": {
+      "name": "Xzavion Curry",
+      "teams2026": [
+        {
+          "id": 121,
+          "name": "New York Mets"
+        }
+      ]
+    },
+    "605441": {
+      "name": "Yacksel R\u00edos",
+      "teams2026": [
+        {
+          "id": 112,
+          "name": "Chicago Cubs"
+        }
+      ]
+    },
+    "682274": {
+      "name": "Yaramil Hiraldo",
+      "teams2026": [
+        {
+          "id": 110,
+          "name": "Baltimore Orioles"
+        }
+      ]
+    },
+    "684320": {
+      "name": "Yariel Rodr\u00edguez",
+      "teams2026": [
+        {
+          "id": 141,
+          "name": "Toronto Blue Jays"
+        }
+      ]
+    },
+    "666974": {
+      "name": "Yennier Cano",
+      "teams2026": [
+        {
+          "id": 110,
+          "name": "Baltimore Orioles"
+        }
+      ]
+    },
+    "660787": {
+      "name": "Yerry De los Santos",
+      "teams2026": [
+        {
+          "id": 147,
+          "name": "New York Yankees"
+        }
+      ]
+    },
+    "700270": {
+      "name": "Yilber D\u00edaz",
+      "teams2026": [
+        {
+          "id": 109,
+          "name": "Arizona Diamondbacks"
+        },
+        {
+          "id": 116,
+          "name": "Detroit Tigers"
+        }
+      ]
+    },
+    "672782": {
+      "name": "Yoendrys G\u00f3mez",
+      "teams2026": [
+        {
+          "id": 139,
+          "name": "Tampa Bay Rays"
+        },
+        {
+          "id": 142,
+          "name": "Minnesota Twins"
+        }
+      ]
+    },
+    "670990": {
+      "name": "Yohan Ram\u00edrez",
+      "teams2026": [
+        {
+          "id": 134,
+          "name": "Pittsburgh Pirates"
+        }
+      ]
+    },
+    "808967": {
+      "name": "Yoshinobu Yamamoto",
+      "teams2026": [
+        {
+          "id": 119,
+          "name": "Los Angeles Dodgers"
+        }
+      ]
+    },
+    "672442": {
+      "name": "Yovanny Cruz",
+      "teams2026": [
+        {
+          "id": 147,
+          "name": "New York Yankees"
+        },
+        {
+          "id": 120,
+          "name": "Washington Nationals"
+        }
+      ]
+    },
+    "673513": {
+      "name": "Yuki Matsui",
+      "teams2026": [
+        {
+          "id": 135,
+          "name": "San Diego Padres"
+        }
+      ]
+    },
+    "628708": {
+      "name": "Yunior Marte",
+      "teams2026": [
+        {
+          "id": 113,
+          "name": "Cincinnati Reds"
+        }
+      ]
+    },
+    "805074": {
+      "name": "Yunior Marte",
+      "teams2026": [
+        {
+          "id": 137,
+          "name": "San Francisco Giants"
+        }
+      ]
+    },
+    "814305": {
+      "name": "Yunior Tur",
+      "teams2026": [
+        {
+          "id": 133,
+          "name": "Athletics"
+        }
+      ]
+    },
+    "579328": {
+      "name": "Yusei Kikuchi",
+      "teams2026": [
+        {
+          "id": 108,
+          "name": "Los Angeles Angels"
+        }
+      ]
+    },
+    "668678": {
+      "name": "Zac Gallen",
+      "teams2026": [
+        {
+          "id": 109,
+          "name": "Arizona Diamondbacks"
+        }
+      ]
+    },
+    "804267": {
+      "name": "Zac Thornton",
+      "teams2026": [
+        {
+          "id": 121,
+          "name": "New York Mets"
+        }
+      ]
+    },
+    "688642": {
+      "name": "Zach Agnos",
+      "teams2026": [
+        {
+          "id": 115,
+          "name": "Colorado Rockies"
+        }
+      ]
+    },
+    "694350": {
+      "name": "Zach Brzykcy",
+      "teams2026": [
+        {
+          "id": 146,
+          "name": "Miami Marlins"
+        }
+      ]
+    },
+    "621107": {
+      "name": "Zach Eflin",
+      "teams2026": [
+        {
+          "id": 110,
+          "name": "Baltimore Orioles"
+        }
+      ]
+    },
+    "687209": {
+      "name": "Zach Maxwell",
+      "teams2026": [
+        {
+          "id": 113,
+          "name": "Cincinnati Reds"
+        }
+      ]
+    },
+    "685112": {
+      "name": "Zach McCambley",
+      "teams2026": [
+        {
+          "id": 113,
+          "name": "Cincinnati Reds"
+        }
+      ]
+    },
+    "647315": {
+      "name": "Zach Pop",
+      "teams2026": [
+        {
+          "id": 143,
+          "name": "Philadelphia Phillies"
+        }
+      ]
+    },
+    "677161": {
+      "name": "Zack Kelly",
+      "teams2026": [
+        {
+          "id": 111,
+          "name": "Boston Red Sox"
+        }
+      ]
+    },
+    "641793": {
+      "name": "Zack Littell",
+      "teams2026": [
+        {
+          "id": 120,
+          "name": "Washington Nationals"
+        },
+        {
+          "id": 109,
+          "name": "Arizona Diamondbacks"
+        }
+      ]
+    },
+    "554430": {
+      "name": "Zack Wheeler",
+      "teams2026": [
+        {
+          "id": 143,
+          "name": "Philadelphia Phillies"
+        }
+      ]
+    },
+    "687849": {
+      "name": "Zak Kent",
+      "teams2026": [
+        {
+          "id": 142,
+          "name": "Minnesota Twins"
+        },
+        {
+          "id": 120,
+          "name": "Washington Nationals"
+        }
+      ]
+    },
+    "805673": {
+      "name": "Zebby Matthews",
+      "teams2026": [
+        {
+          "id": 142,
+          "name": "Minnesota Twins"
+        }
+      ]
+    }
+  }
+}

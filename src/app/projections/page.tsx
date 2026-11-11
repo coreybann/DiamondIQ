@@ -5,6 +5,7 @@ import Link from "next/link";
 import projectionData from "../../../public/data/mlb-player-projections-2027-experimental.json";
 import teamData from "../../../public/data/mlb-projection-team-assignments-2027.json";
 import { freeAgents } from "../../lib/freeAgency";
+import PitchingProjectionsTable from "./PitchingProjectionsTable";
 
 type Player = (typeof projectionData.players)[number];
 type PlayerKey = Extract<keyof Player, string>;
@@ -85,6 +86,7 @@ function formatValue(key: PlayerKey, value: Player[PlayerKey]) {
 }
 
 export default function ProjectionsPage() {
+  const [statGroup, setStatGroup] = useState<"hitting" | "pitching">("hitting");
   const [category, setCategory] = useState<Category>("established_mlb_hitter");
   const [search, setSearch] = useState("");
   const [selectedTeam, setSelectedTeam] = useState("all");
@@ -176,6 +178,32 @@ export default function ProjectionsPage() {
           debuts, and players who could return after time away from MLB.
         </p>
 
+        <div
+          className="mt-8 inline-flex rounded-xl border border-white/10 bg-[#0d1d30] p-1"
+          role="group"
+          aria-label="Projection statistic group"
+        >
+          {(["hitting", "pitching"] as const).map((group) => (
+            <button
+              key={group}
+              type="button"
+              onClick={() => setStatGroup(group)}
+              aria-pressed={statGroup === group}
+              className={`rounded-lg px-6 py-3 text-sm font-semibold transition ${
+                statGroup === group
+                  ? "bg-blue-600 text-white"
+                  : "text-slate-400 hover:text-white"
+              }`}
+            >
+              {group === "hitting" ? "Hitting" : "Pitching"}
+            </button>
+          ))}
+        </div>
+
+        {statGroup === "pitching" ? (
+          <PitchingProjectionsTable />
+        ) : (
+          <>
         <div className="mt-8 grid gap-4 sm:grid-cols-3">
           {tabs.map((tab) => {
             const count = projectionData.players.filter(
@@ -312,6 +340,8 @@ export default function ProjectionsPage() {
           official MLB forecasts and do not account for every injury,
           transaction, roster decision, or future development.
         </p>
+          </>
+        )}
       </div>
     </main>
   );

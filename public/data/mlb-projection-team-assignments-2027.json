@@ -1,6 +1,6 @@
 {
-  "description": "Latest recorded MLB Stats API affiliations; not confirmed 2027 roster assignments.",
-  "generatedAt": "2026-11-11T00:45:24.671058+00:00",
+  "description": "Latest recorded MLB Stats API affiliations; not confirmed 2027 roster assignments. Pitcher additions use last recorded 2026 MLB team affiliations, not confirmed 2027 contracts or rosters.",
+  "generatedAt": "2026-11-11T19:58:17.127472+00:00",
   "organizations": [
     {
       "id": 109,
@@ -17391,6 +17391,4872 @@
       "organization": "Los Angeles Angels",
       "sourceTeamId": 108,
       "sourceTeam": "Los Angeles Angels"
+    },
+    "621345": {
+      "organizationId": 142,
+      "organization": "Minnesota Twins",
+      "sourceTeamId": 142,
+      "sourceTeam": "Minnesota Twins"
+    },
+    "805123": {
+      "organizationId": 117,
+      "organization": "Houston Astros",
+      "sourceTeamId": 117,
+      "sourceTeam": "Houston Astros"
+    },
+    "700363": {
+      "organizationId": 144,
+      "organization": "Atlanta Braves",
+      "sourceTeamId": 144,
+      "sourceTeam": "Atlanta Braves"
+    },
+    "676879": {
+      "organizationId": 158,
+      "organization": "Milwaukee Brewers",
+      "sourceTeamId": 158,
+      "sourceTeam": "Milwaukee Brewers"
+    },
+    "605156": {
+      "organizationId": 139,
+      "organization": "Tampa Bay Rays",
+      "sourceTeamId": 139,
+      "sourceTeam": "Tampa Bay Rays"
+    },
+    "607481": {
+      "organizationId": 118,
+      "organization": "Kansas City Royals",
+      "sourceTeamId": 118,
+      "sourceTeam": "Kansas City Royals"
+    },
+    "650644": {
+      "organizationId": 112,
+      "organization": "Chicago Cubs",
+      "sourceTeamId": 112,
+      "sourceTeam": "Chicago Cubs"
+    },
+    "605400": {
+      "organizationId": 143,
+      "organization": "Philadelphia Phillies",
+      "sourceTeamId": 143,
+      "sourceTeam": "Philadelphia Phillies"
+    },
+    "682842": {
+      "organizationId": 158,
+      "organization": "Milwaukee Brewers",
+      "sourceTeamId": 158,
+      "sourceTeam": "Milwaukee Brewers"
+    },
+    "671936": {
+      "organizationId": 140,
+      "organization": "Texas Rangers",
+      "sourceTeamId": 140,
+      "sourceTeam": "Texas Rangers"
+    },
+    "605288": {
+      "organizationId": 137,
+      "organization": "San Francisco Giants",
+      "sourceTeamId": 137,
+      "sourceTeam": "San Francisco Giants"
+    },
+    "670970": {
+      "organizationId": 135,
+      "organization": "San Diego Padres",
+      "sourceTeamId": 135,
+      "sourceTeam": "San Diego Padres"
+    },
+    "660604": {
+      "organizationId": 143,
+      "organization": "Philadelphia Phillies",
+      "sourceTeamId": 143,
+      "sourceTeam": "Philadelphia Phillies"
+    },
+    "544150": {
+      "organizationId": 110,
+      "organization": "Baltimore Orioles",
+      "sourceTeamId": 110,
+      "sourceTeam": "Baltimore Orioles"
+    },
+    "687941": {
+      "organizationId": 111,
+      "organization": "Boston Red Sox",
+      "sourceTeamId": 111,
+      "sourceTeam": "Boston Red Sox"
+    },
+    "689690": {
+      "organizationId": 135,
+      "organization": "San Diego Padres",
+      "sourceTeamId": 135,
+      "sourceTeam": "San Diego Padres"
+    },
+    "666201": {
+      "organizationId": 108,
+      "organization": "Los Angeles Angels",
+      "sourceTeamId": 108,
+      "sourceTeam": "Los Angeles Angels"
+    },
+    "702047": {
+      "organizationId": 139,
+      "organization": "Tampa Bay Rays",
+      "sourceTeamId": 139,
+      "sourceTeam": "Tampa Bay Rays"
+    },
+    "695380": {
+      "organizationId": 110,
+      "organization": "Baltimore Orioles",
+      "sourceTeamId": 110,
+      "sourceTeam": "Baltimore Orioles"
+    },
+    "656638": {
+      "organizationId": 118,
+      "organization": "Kansas City Royals",
+      "sourceTeamId": 118,
+      "sourceTeam": "Kansas City Royals"
+    },
+    "686934": {
+      "organizationId": 143,
+      "organization": "Philadelphia Phillies",
+      "sourceTeamId": 143,
+      "sourceTeam": "Philadelphia Phillies"
+    },
+    "681911": {
+      "organizationId": 119,
+      "organization": "Los Angeles Dodgers",
+      "sourceTeamId": 119,
+      "sourceTeam": "Los Angeles Dodgers"
+    },
+    "529017": {
+      "organizationId": 147,
+      "organization": "New York Yankees",
+      "sourceTeamId": 147,
+      "sourceTeam": "New York Yankees"
+    },
+    "695001": {
+      "organizationId": 117,
+      "organization": "Houston Astros",
+      "sourceTeamId": 117,
+      "sourceTeam": "Houston Astros"
+    },
+    "701552": {
+      "organizationId": 120,
+      "organization": "Washington Nationals",
+      "sourceTeamId": 120,
+      "sourceTeam": "Washington Nationals"
+    },
+    "669467": {
+      "organizationId": 138,
+      "organization": "St. Louis Cardinals",
+      "sourceTeamId": 138,
+      "sourceTeam": "St. Louis Cardinals"
+    },
+    "671096": {
+      "organizationId": 113,
+      "organization": "Cincinnati Reds",
+      "sourceTeamId": 113,
+      "sourceTeam": "Cincinnati Reds"
+    },
+    "674841": {
+      "organizationId": 120,
+      "organization": "Washington Nationals",
+      "sourceTeamId": 120,
+      "sourceTeam": "Washington Nationals"
+    },
+    "694851": {
+      "organizationId": 109,
+      "organization": "Arizona Diamondbacks",
+      "sourceTeamId": 109,
+      "sourceTeam": "Arizona Diamondbacks"
+    },
+    "552640": {
+      "organizationId": 110,
+      "organization": "Baltimore Orioles",
+      "sourceTeamId": 110,
+      "sourceTeam": "Baltimore Orioles"
+    },
+    "702193": {
+      "organizationId": 142,
+      "organization": "Minnesota Twins",
+      "sourceTeamId": 142,
+      "sourceTeam": "Minnesota Twins"
+    },
+    "677053": {
+      "organizationId": 146,
+      "organization": "Miami Marlins",
+      "sourceTeamId": 146,
+      "sourceTeam": "Miami Marlins"
+    },
+    "691725": {
+      "organizationId": 143,
+      "organization": "Philadelphia Phillies",
+      "sourceTeamId": 143,
+      "sourceTeam": "Philadelphia Phillies"
+    },
+    "808825": {
+      "organizationId": 116,
+      "organization": "Detroit Tigers",
+      "sourceTeamId": 116,
+      "sourceTeam": "Detroit Tigers"
+    },
+    "681806": {
+      "organizationId": 112,
+      "organization": "Chicago Cubs",
+      "sourceTeamId": 112,
+      "sourceTeam": "Chicago Cubs"
+    },
+    "662253": {
+      "organizationId": 136,
+      "organization": "Seattle Mariners",
+      "sourceTeamId": 136,
+      "sourceTeam": "Seattle Mariners"
+    },
+    "683409": {
+      "organizationId": 147,
+      "organization": "New York Yankees",
+      "sourceTeamId": 147,
+      "sourceTeam": "New York Yankees"
+    },
+    "672582": {
+      "organizationId": 158,
+      "organization": "Milwaukee Brewers",
+      "sourceTeamId": 158,
+      "sourceTeam": "Milwaukee Brewers"
+    },
+    "607455": {
+      "organizationId": 142,
+      "organization": "Minnesota Twins",
+      "sourceTeamId": 142,
+      "sourceTeam": "Minnesota Twins"
+    },
+    "669622": {
+      "organizationId": 146,
+      "organization": "Miami Marlins",
+      "sourceTeamId": 146,
+      "sourceTeam": "Miami Marlins"
+    },
+    "543238": {
+      "organizationId": 118,
+      "organization": "Kansas City Royals",
+      "sourceTeamId": 118,
+      "sourceTeam": "Kansas City Royals"
+    },
+    "641743": {
+      "organizationId": 145,
+      "organization": "Chicago White Sox",
+      "sourceTeamId": 145,
+      "sourceTeam": "Chicago White Sox"
+    },
+    "683627": {
+      "organizationId": 137,
+      "organization": "San Francisco Giants",
+      "sourceTeamId": 137,
+      "sourceTeam": "San Francisco Giants"
+    },
+    "689296": {
+      "organizationId": 110,
+      "organization": "Baltimore Orioles",
+      "sourceTeamId": 110,
+      "sourceTeam": "Baltimore Orioles"
+    },
+    "681520": {
+      "organizationId": 112,
+      "organization": "Chicago Cubs",
+      "sourceTeamId": 112,
+      "sourceTeam": "Chicago Cubs"
+    },
+    "622608": {
+      "organizationId": 158,
+      "organization": "Milwaukee Brewers",
+      "sourceTeamId": 158,
+      "sourceTeam": "Milwaukee Brewers"
+    },
+    "699008": {
+      "organizationId": 134,
+      "organization": "Pittsburgh Pirates",
+      "sourceTeamId": 134,
+      "sourceTeam": "Pittsburgh Pirates"
+    },
+    "547973": {
+      "organizationId": 111,
+      "organization": "Boston Red Sox",
+      "sourceTeamId": 111,
+      "sourceTeam": "Boston Red Sox"
+    },
+    "804926": {
+      "organizationId": 114,
+      "organization": "Cleveland Guardians",
+      "sourceTeamId": 114,
+      "sourceTeam": "Cleveland Guardians"
+    },
+    "608723": {
+      "organizationId": 142,
+      "organization": "Minnesota Twins",
+      "sourceTeamId": 142,
+      "sourceTeam": "Minnesota Twins"
+    },
+    "681810": {
+      "organizationId": 121,
+      "organization": "New York Mets",
+      "sourceTeamId": 121,
+      "sourceTeam": "New York Mets"
+    },
+    "663559": {
+      "organizationId": 144,
+      "organization": "Atlanta Braves",
+      "sourceTeamId": 144,
+      "sourceTeam": "Atlanta Braves"
+    },
+    "641927": {
+      "organizationId": 142,
+      "organization": "Minnesota Twins",
+      "sourceTeamId": 142,
+      "sourceTeam": "Minnesota Twins"
+    },
+    "689225": {
+      "organizationId": 116,
+      "organization": "Detroit Tigers",
+      "sourceTeamId": 116,
+      "sourceTeam": "Detroit Tigers"
+    },
+    "694360": {
+      "organizationId": 118,
+      "organization": "Kansas City Royals",
+      "sourceTeamId": 118,
+      "sourceTeam": "Kansas City Royals"
+    },
+    "641386": {
+      "organizationId": 133,
+      "organization": "Athletics",
+      "sourceTeamId": 133,
+      "sourceTeam": "Athletics"
+    },
+    "676962": {
+      "organizationId": 112,
+      "organization": "Chicago Cubs",
+      "sourceTeamId": 112,
+      "sourceTeam": "Chicago Cubs"
+    },
+    "676508": {
+      "organizationId": 119,
+      "organization": "Los Angeles Dodgers",
+      "sourceTeamId": 119,
+      "sourceTeam": "Los Angeles Dodgers"
+    },
+    "690829": {
+      "organizationId": 108,
+      "organization": "Los Angeles Angels",
+      "sourceTeamId": 108,
+      "sourceTeam": "Los Angeles Angels"
+    },
+    "687239": {
+      "organizationId": 140,
+      "organization": "Texas Rangers",
+      "sourceTeamId": 140,
+      "sourceTeam": "Texas Rangers"
+    },
+    "656986": {
+      "organizationId": 117,
+      "organization": "Houston Astros",
+      "sourceTeamId": 117,
+      "sourceTeam": "Houston Astros"
+    },
+    "694918": {
+      "organizationId": 137,
+      "organization": "San Francisco Giants",
+      "sourceTeamId": 137,
+      "sourceTeam": "San Francisco Giants"
+    },
+    "687060": {
+      "organizationId": 115,
+      "organization": "Colorado Rockies",
+      "sourceTeamId": 115,
+      "sourceTeam": "Colorado Rockies"
+    },
+    "686628": {
+      "organizationId": 144,
+      "organization": "Atlanta Braves",
+      "sourceTeamId": 144,
+      "sourceTeam": "Atlanta Braves"
+    },
+    "605483": {
+      "organizationId": 119,
+      "organization": "Los Angeles Dodgers",
+      "sourceTeamId": 119,
+      "sourceTeam": "Los Angeles Dodgers"
+    },
+    "595014": {
+      "organizationId": 119,
+      "organization": "Los Angeles Dodgers",
+      "sourceTeamId": 119,
+      "sourceTeam": "Los Angeles Dodgers"
+    },
+    "686796": {
+      "organizationId": 109,
+      "organization": "Arizona Diamondbacks",
+      "sourceTeamId": 109,
+      "sourceTeam": "Arizona Diamondbacks"
+    },
+    "676620": {
+      "organizationId": 108,
+      "organization": "Los Angeles Angels",
+      "sourceTeamId": 108,
+      "sourceTeam": "Los Angeles Angels"
+    },
+    "680604": {
+      "organizationId": 115,
+      "organization": "Colorado Rockies",
+      "sourceTeamId": 115,
+      "sourceTeam": "Colorado Rockies"
+    },
+    "676272": {
+      "organizationId": 119,
+      "organization": "Los Angeles Dodgers",
+      "sourceTeamId": 119,
+      "sourceTeam": "Los Angeles Dodgers"
+    },
+    "641745": {
+      "organizationId": 143,
+      "organization": "Philadelphia Phillies",
+      "sourceTeamId": 143,
+      "sourceTeam": "Philadelphia Phillies"
+    },
+    "695418": {
+      "organizationId": 120,
+      "organization": "Washington Nationals",
+      "sourceTeamId": 120,
+      "sourceTeam": "Washington Nationals"
+    },
+    "699134": {
+      "organizationId": 135,
+      "organization": "San Diego Padres",
+      "sourceTeamId": 135,
+      "sourceTeam": "San Diego Padres"
+    },
+    "687134": {
+      "organizationId": 146,
+      "organization": "Miami Marlins",
+      "sourceTeamId": 146,
+      "sourceTeam": "Miami Marlins"
+    },
+    "690440": {
+      "organizationId": 147,
+      "organization": "New York Yankees",
+      "sourceTeamId": 147,
+      "sourceTeam": "New York Yankees"
+    },
+    "669620": {
+      "organizationId": 133,
+      "organization": "Athletics",
+      "sourceTeamId": 133,
+      "sourceTeam": "Athletics"
+    },
+    "663903": {
+      "organizationId": 113,
+      "organization": "Cincinnati Reds",
+      "sourceTeamId": 113,
+      "sourceTeam": "Cincinnati Reds"
+    },
+    "684049": {
+      "organizationId": 134,
+      "organization": "Pittsburgh Pirates",
+      "sourceTeamId": 134,
+      "sourceTeam": "Pittsburgh Pirates"
+    },
+    "685126": {
+      "organizationId": 134,
+      "organization": "Pittsburgh Pirates",
+      "sourceTeamId": 134,
+      "sourceTeam": "Pittsburgh Pirates"
+    },
+    "605335": {
+      "organizationId": 113,
+      "organization": "Cincinnati Reds",
+      "sourceTeamId": 113,
+      "sourceTeam": "Cincinnati Reds"
+    },
+    "694297": {
+      "organizationId": 109,
+      "organization": "Arizona Diamondbacks",
+      "sourceTeamId": 109,
+      "sourceTeam": "Arizona Diamondbacks"
+    },
+    "687075": {
+      "organizationId": 158,
+      "organization": "Milwaukee Brewers",
+      "sourceTeamId": 158,
+      "sourceTeam": "Milwaukee Brewers"
+    },
+    "682227": {
+      "organizationId": 113,
+      "organization": "Cincinnati Reds",
+      "sourceTeamId": 113,
+      "sourceTeam": "Cincinnati Reds"
+    },
+    "605540": {
+      "organizationId": 158,
+      "organization": "Milwaukee Brewers",
+      "sourceTeamId": 158,
+      "sourceTeam": "Milwaukee Brewers"
+    },
+    "687064": {
+      "organizationId": 110,
+      "organization": "Baltimore Orioles",
+      "sourceTeamId": 110,
+      "sourceTeam": "Baltimore Orioles"
+    },
+    "805299": {
+      "organizationId": 109,
+      "organization": "Arizona Diamondbacks",
+      "sourceTeamId": 109,
+      "sourceTeam": "Arizona Diamondbacks"
+    },
+    "676428": {
+      "organizationId": 116,
+      "organization": "Detroit Tigers",
+      "sourceTeamId": 116,
+      "sourceTeam": "Detroit Tigers"
+    },
+    "677952": {
+      "organizationId": 134,
+      "organization": "Pittsburgh Pirates",
+      "sourceTeamId": 134,
+      "sourceTeam": "Pittsburgh Pirates"
+    },
+    "666129": {
+      "organizationId": 112,
+      "organization": "Chicago Cubs",
+      "sourceTeamId": 112,
+      "sourceTeam": "Chicago Cubs"
+    },
+    "694820": {
+      "organizationId": 137,
+      "organization": "San Francisco Giants",
+      "sourceTeamId": 137,
+      "sourceTeam": "San Francisco Giants"
+    },
+    "678394": {
+      "organizationId": 111,
+      "organization": "Boston Red Sox",
+      "sourceTeamId": 111,
+      "sourceTeam": "Boston Red Sox"
+    },
+    "680755": {
+      "organizationId": 141,
+      "organization": "Toronto Blue Jays",
+      "sourceTeamId": 141,
+      "sourceTeam": "Toronto Blue Jays"
+    },
+    "669724": {
+      "organizationId": 116,
+      "organization": "Detroit Tigers",
+      "sourceTeamId": 116,
+      "sourceTeam": "Detroit Tigers"
+    },
+    "694341": {
+      "organizationId": 147,
+      "organization": "New York Yankees",
+      "sourceTeamId": 147,
+      "sourceTeam": "New York Yankees"
+    },
+    "676454": {
+      "organizationId": 141,
+      "organization": "Toronto Blue Jays",
+      "sourceTeamId": 141,
+      "sourceTeam": "Toronto Blue Jays"
+    },
+    "663893": {
+      "organizationId": 141,
+      "organization": "Toronto Blue Jays",
+      "sourceTeamId": 141,
+      "sourceTeam": "Toronto Blue Jays"
+    },
+    "657514": {
+      "organizationId": 115,
+      "organization": "Colorado Rockies",
+      "sourceTeamId": 115,
+      "sourceTeam": "Colorado Rockies"
+    },
+    "687396": {
+      "organizationId": 147,
+      "organization": "New York Yankees",
+      "sourceTeamId": 147,
+      "sourceTeam": "New York Yankees"
+    },
+    "608718": {
+      "organizationId": 144,
+      "organization": "Atlanta Braves",
+      "sourceTeamId": 144,
+      "sourceTeam": "Atlanta Braves"
+    },
+    "695049": {
+      "organizationId": 108,
+      "organization": "Los Angeles Angels",
+      "sourceTeamId": 108,
+      "sourceTeam": "Los Angeles Angels"
+    },
+    "702153": {
+      "organizationId": 158,
+      "organization": "Milwaukee Brewers",
+      "sourceTeamId": 158,
+      "sourceTeam": "Milwaukee Brewers"
+    },
+    "662144": {
+      "organizationId": 143,
+      "organization": "Philadelphia Phillies",
+      "sourceTeamId": 143,
+      "sourceTeam": "Philadelphia Phillies"
+    },
+    "656271": {
+      "organizationId": 113,
+      "organization": "Cincinnati Reds",
+      "sourceTeamId": 113,
+      "sourceTeam": "Cincinnati Reds"
+    },
+    "592779": {
+      "organizationId": 119,
+      "organization": "Los Angeles Dodgers",
+      "sourceTeamId": 119,
+      "sourceTeam": "Los Angeles Dodgers"
+    },
+    "811315": {
+      "organizationId": 139,
+      "organization": "Tampa Bay Rays",
+      "sourceTeamId": 139,
+      "sourceTeam": "Tampa Bay Rays"
+    },
+    "621139": {
+      "organizationId": 133,
+      "organization": "Athletics",
+      "sourceTeamId": 133,
+      "sourceTeam": "Athletics"
+    },
+    "548384": {
+      "organizationId": 143,
+      "organization": "Philadelphia Phillies",
+      "sourceTeamId": 143,
+      "sourceTeam": "Philadelphia Phillies"
+    },
+    "669145": {
+      "organizationId": 138,
+      "organization": "St. Louis Cardinals",
+      "sourceTeamId": 138,
+      "sourceTeam": "St. Louis Cardinals"
+    },
+    "650556": {
+      "organizationId": 117,
+      "organization": "Houston Astros",
+      "sourceTeamId": 117,
+      "sourceTeam": "Houston Astros"
+    },
+    "641329": {
+      "organizationId": 139,
+      "organization": "Tampa Bay Rays",
+      "sourceTeamId": 139,
+      "sourceTeam": "Tampa Bay Rays"
+    },
+    "663542": {
+      "organizationId": 145,
+      "organization": "Chicago White Sox",
+      "sourceTeamId": 145,
+      "sourceTeam": "Chicago White Sox"
+    },
+    "687911": {
+      "organizationId": 117,
+      "organization": "Houston Astros",
+      "sourceTeamId": 117,
+      "sourceTeam": "Houston Astros"
+    },
+    "693433": {
+      "organizationId": 136,
+      "organization": "Seattle Mariners",
+      "sourceTeamId": 136,
+      "sourceTeam": "Seattle Mariners"
+    },
+    "693821": {
+      "organizationId": 144,
+      "organization": "Atlanta Braves",
+      "sourceTeamId": 144,
+      "sourceTeam": "Atlanta Braves"
+    },
+    "682243": {
+      "organizationId": 136,
+      "organization": "Seattle Mariners",
+      "sourceTeamId": 136,
+      "sourceTeam": "Seattle Mariners"
+    },
+    "802408": {
+      "organizationId": 138,
+      "organization": "St. Louis Cardinals",
+      "sourceTeamId": 138,
+      "sourceTeam": "St. Louis Cardinals"
+    },
+    "669060": {
+      "organizationId": 158,
+      "organization": "Milwaukee Brewers",
+      "sourceTeamId": 158,
+      "sourceTeam": "Milwaukee Brewers"
+    },
+    "696149": {
+      "organizationId": 134,
+      "organization": "Pittsburgh Pirates",
+      "sourceTeamId": 134,
+      "sourceTeam": "Pittsburgh Pirates"
+    },
+    "572143": {
+      "organizationId": 116,
+      "organization": "Detroit Tigers",
+      "sourceTeamId": 116,
+      "sourceTeam": "Detroit Tigers"
+    },
+    "669310": {
+      "organizationId": 141,
+      "organization": "Toronto Blue Jays",
+      "sourceTeamId": 141,
+      "sourceTeam": "Toronto Blue Jays"
+    },
+    "676917": {
+      "organizationId": 120,
+      "organization": "Washington Nationals",
+      "sourceTeamId": 120,
+      "sourceTeam": "Washington Nationals"
+    },
+    "806188": {
+      "organizationId": 146,
+      "organization": "Miami Marlins",
+      "sourceTeamId": 146,
+      "sourceTeam": "Miami Marlins"
+    },
+    "690990": {
+      "organizationId": 112,
+      "organization": "Chicago Cubs",
+      "sourceTeamId": 112,
+      "sourceTeam": "Chicago Cubs"
+    },
+    "700249": {
+      "organizationId": 110,
+      "organization": "Baltimore Orioles",
+      "sourceTeamId": 110,
+      "sourceTeam": "Baltimore Orioles"
+    },
+    "671922": {
+      "organizationId": 114,
+      "organization": "Cleveland Guardians",
+      "sourceTeamId": 114,
+      "sourceTeam": "Cleveland Guardians"
+    },
+    "685464": {
+      "organizationId": 138,
+      "organization": "St. Louis Cardinals",
+      "sourceTeamId": 138,
+      "sourceTeam": "St. Louis Cardinals"
+    },
+    "615698": {
+      "organizationId": 140,
+      "organization": "Texas Rangers",
+      "sourceTeamId": 140,
+      "sourceTeam": "Texas Rangers"
+    },
+    "657571": {
+      "organizationId": 138,
+      "organization": "St. Louis Cardinals",
+      "sourceTeamId": 138,
+      "sourceTeam": "St. Louis Cardinals"
+    },
+    "668873": {
+      "organizationId": 143,
+      "organization": "Philadelphia Phillies",
+      "sourceTeamId": 143,
+      "sourceTeam": "Philadelphia Phillies"
+    },
+    "573204": {
+      "organizationId": 112,
+      "organization": "Chicago Cubs",
+      "sourceTeamId": 112,
+      "sourceTeam": "Chicago Cubs"
+    },
+    "676534": {
+      "organizationId": 146,
+      "organization": "Miami Marlins",
+      "sourceTeamId": 146,
+      "sourceTeam": "Miami Marlins"
+    },
+    "592155": {
+      "organizationId": 139,
+      "organization": "Tampa Bay Rays",
+      "sourceTeamId": 139,
+      "sourceTeam": "Tampa Bay Rays"
+    },
+    "676742": {
+      "organizationId": 110,
+      "organization": "Baltimore Orioles",
+      "sourceTeamId": 110,
+      "sourceTeam": "Baltimore Orioles"
+    },
+    "693645": {
+      "organizationId": 147,
+      "organization": "New York Yankees",
+      "sourceTeamId": 147,
+      "sourceTeam": "New York Yankees"
+    },
+    "671382": {
+      "organizationId": 110,
+      "organization": "Baltimore Orioles",
+      "sourceTeamId": 110,
+      "sourceTeam": "Baltimore Orioles"
+    },
+    "687721": {
+      "organizationId": 110,
+      "organization": "Baltimore Orioles",
+      "sourceTeamId": 110,
+      "sourceTeam": "Baltimore Orioles"
+    },
+    "666808": {
+      "organizationId": 137,
+      "organization": "San Francisco Giants",
+      "sourceTeamId": 137,
+      "sourceTeam": "San Francisco Giants"
+    },
+    "605218": {
+      "organizationId": 121,
+      "organization": "New York Mets",
+      "sourceTeamId": 121,
+      "sourceTeam": "New York Mets"
+    },
+    "471911": {
+      "organizationId": 144,
+      "organization": "Atlanta Braves",
+      "sourceTeamId": 144,
+      "sourceTeam": "Atlanta Braves"
+    },
+    "679922": {
+      "organizationId": 118,
+      "organization": "Kansas City Royals",
+      "sourceTeamId": 118,
+      "sourceTeam": "Kansas City Royals"
+    },
+    "608032": {
+      "organizationId": 118,
+      "organization": "Kansas City Royals",
+      "sourceTeamId": 118,
+      "sourceTeam": "Kansas City Royals"
+    },
+    "672578": {
+      "organizationId": 114,
+      "organization": "Cleveland Guardians",
+      "sourceTeamId": 114,
+      "sourceTeam": "Cleveland Guardians"
+    },
+    "692230": {
+      "organizationId": 158,
+      "organization": "Milwaukee Brewers",
+      "sourceTeamId": 158,
+      "sourceTeam": "Milwaukee Brewers"
+    },
+    "607074": {
+      "organizationId": 147,
+      "organization": "New York Yankees",
+      "sourceTeamId": 147,
+      "sourceTeam": "New York Yankees"
+    },
+    "672841": {
+      "organizationId": 136,
+      "organization": "Seattle Mariners",
+      "sourceTeamId": 136,
+      "sourceTeam": "Seattle Mariners"
+    },
+    "669387": {
+      "organizationId": 134,
+      "organization": "Pittsburgh Pirates",
+      "sourceTeamId": 134,
+      "sourceTeam": "Pittsburgh Pirates"
+    },
+    "687223": {
+      "organizationId": 120,
+      "organization": "Washington Nationals",
+      "sourceTeamId": 120,
+      "sourceTeam": "Washington Nationals"
+    },
+    "693313": {
+      "organizationId": 137,
+      "organization": "San Francisco Giants",
+      "sourceTeamId": 137,
+      "sourceTeam": "San Francisco Giants"
+    },
+    "686730": {
+      "organizationId": 113,
+      "organization": "Cincinnati Reds",
+      "sourceTeamId": 113,
+      "sourceTeam": "Cincinnati Reds"
+    },
+    "687931": {
+      "organizationId": 137,
+      "organization": "San Francisco Giants",
+      "sourceTeamId": 137,
+      "sourceTeam": "San Francisco Giants"
+    },
+    "691945": {
+      "organizationId": 140,
+      "organization": "Texas Rangers",
+      "sourceTeamId": 140,
+      "sourceTeam": "Texas Rangers"
+    },
+    "668984": {
+      "organizationId": 139,
+      "organization": "Tampa Bay Rays",
+      "sourceTeamId": 139,
+      "sourceTeam": "Tampa Bay Rays"
+    },
+    "663554": {
+      "organizationId": 135,
+      "organization": "San Diego Padres",
+      "sourceTeamId": 135,
+      "sourceTeam": "San Diego Padres"
+    },
+    "702885": {
+      "organizationId": 137,
+      "organization": "San Francisco Giants",
+      "sourceTeamId": 137,
+      "sourceTeam": "San Francisco Giants"
+    },
+    "689149": {
+      "organizationId": 141,
+      "organization": "Toronto Blue Jays",
+      "sourceTeamId": 141,
+      "sourceTeam": "Toronto Blue Jays"
+    },
+    "694477": {
+      "organizationId": 158,
+      "organization": "Milwaukee Brewers",
+      "sourceTeamId": 158,
+      "sourceTeam": "Milwaukee Brewers"
+    },
+    "656212": {
+      "organizationId": 119,
+      "organization": "Los Angeles Dodgers",
+      "sourceTeamId": 119,
+      "sourceTeam": "Los Angeles Dodgers"
+    },
+    "695505": {
+      "organizationId": 113,
+      "organization": "Cincinnati Reds",
+      "sourceTeamId": 113,
+      "sourceTeam": "Cincinnati Reds"
+    },
+    "801403": {
+      "organizationId": 115,
+      "organization": "Colorado Rockies",
+      "sourceTeamId": 115,
+      "sourceTeam": "Colorado Rockies"
+    },
+    "695445": {
+      "organizationId": 141,
+      "organization": "Toronto Blue Jays",
+      "sourceTeamId": 141,
+      "sourceTeam": "Toronto Blue Jays"
+    },
+    "695534": {
+      "organizationId": 113,
+      "organization": "Cincinnati Reds",
+      "sourceTeamId": 113,
+      "sourceTeam": "Cincinnati Reds"
+    },
+    "663767": {
+      "organizationId": 143,
+      "organization": "Philadelphia Phillies",
+      "sourceTeamId": 143,
+      "sourceTeam": "Philadelphia Phillies"
+    },
+    "681217": {
+      "organizationId": 140,
+      "organization": "Texas Rangers",
+      "sourceTeamId": 140,
+      "sourceTeam": "Texas Rangers"
+    },
+    "686678": {
+      "organizationId": 139,
+      "organization": "Tampa Bay Rays",
+      "sourceTeamId": 139,
+      "sourceTeam": "Tampa Bay Rays"
+    },
+    "694646": {
+      "organizationId": 121,
+      "organization": "New York Mets",
+      "sourceTeamId": 121,
+      "sourceTeam": "New York Mets"
+    },
+    "605135": {
+      "organizationId": 110,
+      "organization": "Baltimore Orioles",
+      "sourceTeamId": 110,
+      "sourceTeam": "Baltimore Orioles"
+    },
+    "606965": {
+      "organizationId": 121,
+      "organization": "New York Mets",
+      "sourceTeamId": 121,
+      "sourceTeam": "New York Mets"
+    },
+    "455119": {
+      "organizationId": 140,
+      "organization": "Texas Rangers",
+      "sourceTeamId": 140,
+      "sourceTeam": "Texas Rangers"
+    },
+    "669684": {
+      "organizationId": 145,
+      "organization": "Chicago White Sox",
+      "sourceTeamId": 145,
+      "sourceTeam": "Chicago White Sox"
+    },
+    "663978": {
+      "organizationId": 140,
+      "organization": "Texas Rangers",
+      "sourceTeamId": 140,
+      "sourceTeam": "Texas Rangers"
+    },
+    "688297": {
+      "organizationId": 133,
+      "organization": "Athletics",
+      "sourceTeamId": 133,
+      "sourceTeam": "Athletics"
+    },
+    "519242": {
+      "organizationId": 144,
+      "organization": "Atlanta Braves",
+      "sourceTeamId": 144,
+      "sourceTeam": "Atlanta Braves"
+    },
+    "685005": {
+      "organizationId": 117,
+      "organization": "Houston Astros",
+      "sourceTeamId": 117,
+      "sourceTeam": "Houston Astros"
+    },
+    "681035": {
+      "organizationId": 121,
+      "organization": "New York Mets",
+      "sourceTeamId": 121,
+      "sourceTeam": "New York Mets"
+    },
+    "672335": {
+      "organizationId": 121,
+      "organization": "New York Mets",
+      "sourceTeamId": 121,
+      "sourceTeam": "New York Mets"
+    },
+    "657376": {
+      "organizationId": 147,
+      "organization": "New York Yankees",
+      "sourceTeamId": 147,
+      "sourceTeam": "New York Yankees"
+    },
+    "605280": {
+      "organizationId": 112,
+      "organization": "Chicago Cubs",
+      "sourceTeamId": 112,
+      "sourceTeam": "Chicago Cubs"
+    },
+    "690925": {
+      "organizationId": 120,
+      "organization": "Washington Nationals",
+      "sourceTeamId": 120,
+      "sourceTeam": "Washington Nationals"
+    },
+    "676051": {
+      "organizationId": 114,
+      "organization": "Cleveland Guardians",
+      "sourceTeamId": 114,
+      "sourceTeam": "Cleveland Guardians"
+    },
+    "675989": {
+      "organizationId": 117,
+      "organization": "Houston Astros",
+      "sourceTeamId": 117,
+      "sourceTeam": "Houston Astros"
+    },
+    "674003": {
+      "organizationId": 140,
+      "organization": "Texas Rangers",
+      "sourceTeamId": 140,
+      "sourceTeam": "Texas Rangers"
+    },
+    "689520": {
+      "organizationId": 142,
+      "organization": "Minnesota Twins",
+      "sourceTeamId": 142,
+      "sourceTeam": "Minnesota Twins"
+    },
+    "664074": {
+      "organizationId": 141,
+      "organization": "Toronto Blue Jays",
+      "sourceTeamId": 141,
+      "sourceTeam": "Toronto Blue Jays"
+    },
+    "669371": {
+      "organizationId": 120,
+      "organization": "Washington Nationals",
+      "sourceTeamId": 120,
+      "sourceTeam": "Washington Nationals"
+    },
+    "608344": {
+      "organizationId": 119,
+      "organization": "Los Angeles Dodgers",
+      "sourceTeamId": 119,
+      "sourceTeam": "Los Angeles Dodgers"
+    },
+    "666142": {
+      "organizationId": 118,
+      "organization": "Kansas City Royals",
+      "sourceTeamId": 118,
+      "sourceTeam": "Kansas City Royals"
+    },
+    "663485": {
+      "organizationId": 142,
+      "organization": "Minnesota Twins",
+      "sourceTeamId": 142,
+      "sourceTeam": "Minnesota Twins"
+    },
+    "642121": {
+      "organizationId": 139,
+      "organization": "Tampa Bay Rays",
+      "sourceTeamId": 139,
+      "sourceTeam": "Tampa Bay Rays"
+    },
+    "677961": {
+      "organizationId": 136,
+      "organization": "Seattle Mariners",
+      "sourceTeamId": 136,
+      "sourceTeam": "Seattle Mariners"
+    },
+    "668390": {
+      "organizationId": 140,
+      "organization": "Texas Rangers",
+      "sourceTeamId": 140,
+      "sourceTeam": "Texas Rangers"
+    },
+    "689441": {
+      "organizationId": 158,
+      "organization": "Milwaukee Brewers",
+      "sourceTeamId": 158,
+      "sourceTeam": "Milwaukee Brewers"
+    },
+    "670059": {
+      "organizationId": 114,
+      "organization": "Cleveland Guardians",
+      "sourceTeamId": 114,
+      "sourceTeam": "Cleveland Guardians"
+    },
+    "607067": {
+      "organizationId": 112,
+      "organization": "Chicago Cubs",
+      "sourceTeamId": 112,
+      "sourceTeam": "Chicago Cubs"
+    },
+    "676467": {
+      "organizationId": 158,
+      "organization": "Milwaukee Brewers",
+      "sourceTeamId": 158,
+      "sourceTeam": "Milwaukee Brewers"
+    },
+    "813349": {
+      "organizationId": 120,
+      "organization": "Washington Nationals",
+      "sourceTeamId": 120,
+      "sourceTeam": "Washington Nationals"
+    },
+    "641401": {
+      "organizationId": 114,
+      "organization": "Cleveland Guardians",
+      "sourceTeamId": 114,
+      "sourceTeam": "Cleveland Guardians"
+    },
+    "683175": {
+      "organizationId": 113,
+      "organization": "Cincinnati Reds",
+      "sourceTeamId": 113,
+      "sourceTeam": "Cincinnati Reds"
+    },
+    "687570": {
+      "organizationId": 142,
+      "organization": "Minnesota Twins",
+      "sourceTeamId": 142,
+      "sourceTeam": "Minnesota Twins"
+    },
+    "657756": {
+      "organizationId": 118,
+      "organization": "Kansas City Royals",
+      "sourceTeamId": 118,
+      "sourceTeam": "Kansas City Royals"
+    },
+    "671162": {
+      "organizationId": 118,
+      "organization": "Kansas City Royals",
+      "sourceTeamId": 118,
+      "sourceTeam": "Kansas City Royals"
+    },
+    "681867": {
+      "organizationId": 136,
+      "organization": "Seattle Mariners",
+      "sourceTeamId": 136,
+      "sourceTeam": "Seattle Mariners"
+    },
+    "687309": {
+      "organizationId": 138,
+      "organization": "St. Louis Cardinals",
+      "sourceTeamId": 138,
+      "sourceTeam": "St. Louis Cardinals"
+    },
+    "669203": {
+      "organizationId": 109,
+      "organization": "Arizona Diamondbacks",
+      "sourceTeamId": 109,
+      "sourceTeam": "Arizona Diamondbacks"
+    },
+    "656686": {
+      "organizationId": 112,
+      "organization": "Chicago Cubs",
+      "sourceTeamId": 112,
+      "sourceTeam": "Chicago Cubs"
+    },
+    "518886": {
+      "organizationId": 118,
+      "organization": "Kansas City Royals",
+      "sourceTeamId": 118,
+      "sourceTeam": "Kansas City Royals"
+    },
+    "684974": {
+      "organizationId": 114,
+      "organization": "Cleveland Guardians",
+      "sourceTeamId": 114,
+      "sourceTeam": "Cleveland Guardians"
+    },
+    "664299": {
+      "organizationId": 117,
+      "organization": "Houston Astros",
+      "sourceTeamId": 117,
+      "sourceTeam": "Houston Astros"
+    },
+    "650911": {
+      "organizationId": 143,
+      "organization": "Philadelphia Phillies",
+      "sourceTeamId": 143,
+      "sourceTeam": "Philadelphia Phillies"
+    },
+    "687792": {
+      "organizationId": 120,
+      "organization": "Washington Nationals",
+      "sourceTeamId": 120,
+      "sourceTeam": "Washington Nationals"
+    },
+    "669084": {
+      "organizationId": 158,
+      "organization": "Milwaukee Brewers",
+      "sourceTeamId": 158,
+      "sourceTeam": "Milwaukee Brewers"
+    },
+    "650960": {
+      "organizationId": 121,
+      "organization": "New York Mets",
+      "sourceTeamId": 121,
+      "sourceTeam": "New York Mets"
+    },
+    "682982": {
+      "organizationId": 114,
+      "organization": "Cleveland Guardians",
+      "sourceTeamId": 114,
+      "sourceTeam": "Cleveland Guardians"
+    },
+    "663738": {
+      "organizationId": 118,
+      "organization": "Kansas City Royals",
+      "sourceTeamId": 118,
+      "sourceTeam": "Kansas City Royals"
+    },
+    "694037": {
+      "organizationId": 112,
+      "organization": "Chicago Cubs",
+      "sourceTeamId": 112,
+      "sourceTeam": "Chicago Cubs"
+    },
+    "543056": {
+      "organizationId": 111,
+      "organization": "Boston Red Sox",
+      "sourceTeamId": 111,
+      "sourceTeam": "Boston Red Sox"
+    },
+    "664849": {
+      "organizationId": 144,
+      "organization": "Atlanta Braves",
+      "sourceTeamId": 144,
+      "sourceTeam": "Atlanta Braves"
+    },
+    "670280": {
+      "organizationId": 147,
+      "organization": "New York Yankees",
+      "sourceTeamId": 147,
+      "sourceTeam": "New York Yankees"
+    },
+    "688158": {
+      "organizationId": 135,
+      "organization": "San Diego Padres",
+      "sourceTeamId": 135,
+      "sourceTeam": "San Diego Padres"
+    },
+    "656849": {
+      "organizationId": 112,
+      "organization": "Chicago Cubs",
+      "sourceTeamId": 112,
+      "sourceTeam": "Chicago Cubs"
+    },
+    "689818": {
+      "organizationId": 145,
+      "organization": "Chicago White Sox",
+      "sourceTeamId": 145,
+      "sourceTeam": "Chicago White Sox"
+    },
+    "663436": {
+      "organizationId": 145,
+      "organization": "Chicago White Sox",
+      "sourceTeamId": 145,
+      "sourceTeam": "Chicago White Sox"
+    },
+    "690978": {
+      "organizationId": 146,
+      "organization": "Miami Marlins",
+      "sourceTeamId": 146,
+      "sourceTeam": "Miami Marlins"
+    },
+    "665152": {
+      "organizationId": 142,
+      "organization": "Minnesota Twins",
+      "sourceTeamId": 142,
+      "sourceTeam": "Minnesota Twins"
+    },
+    "673380": {
+      "organizationId": 121,
+      "organization": "New York Mets",
+      "sourceTeamId": 121,
+      "sourceTeam": "New York Mets"
+    },
+    "642701": {
+      "organizationId": 109,
+      "organization": "Arizona Diamondbacks",
+      "sourceTeamId": 109,
+      "sourceTeam": "Arizona Diamondbacks"
+    },
+    "571882": {
+      "organizationId": 109,
+      "organization": "Arizona Diamondbacks",
+      "sourceTeamId": 109,
+      "sourceTeam": "Arizona Diamondbacks"
+    },
+    "642207": {
+      "organizationId": 121,
+      "organization": "New York Mets",
+      "sourceTeamId": 121,
+      "sourceTeam": "New York Mets"
+    },
+    "800311": {
+      "organizationId": 144,
+      "organization": "Atlanta Braves",
+      "sourceTeamId": 144,
+      "sourceTeam": "Atlanta Braves"
+    },
+    "608650": {
+      "organizationId": 110,
+      "organization": "Baltimore Orioles",
+      "sourceTeamId": 110,
+      "sourceTeam": "Baltimore Orioles"
+    },
+    "682445": {
+      "organizationId": 136,
+      "organization": "Seattle Mariners",
+      "sourceTeamId": 136,
+      "sourceTeam": "Seattle Mariners"
+    },
+    "680951": {
+      "organizationId": 145,
+      "organization": "Chicago White Sox",
+      "sourceTeamId": 145,
+      "sourceTeam": "Chicago White Sox"
+    },
+    "623454": {
+      "organizationId": 116,
+      "organization": "Detroit Tigers",
+      "sourceTeamId": 116,
+      "sourceTeam": "Detroit Tigers"
+    },
+    "519141": {
+      "organizationId": 112,
+      "organization": "Chicago Cubs",
+      "sourceTeamId": 112,
+      "sourceTeam": "Chicago Cubs"
+    },
+    "656876": {
+      "organizationId": 139,
+      "organization": "Tampa Bay Rays",
+      "sourceTeamId": 139,
+      "sourceTeam": "Tampa Bay Rays"
+    },
+    "680723": {
+      "organizationId": 133,
+      "organization": "Athletics",
+      "sourceTeamId": 133,
+      "sourceTeam": "Athletics"
+    },
+    "805427": {
+      "organizationId": 116,
+      "organization": "Detroit Tigers",
+      "sourceTeamId": 116,
+      "sourceTeam": "Detroit Tigers"
+    },
+    "686753": {
+      "organizationId": 109,
+      "organization": "Arizona Diamondbacks",
+      "sourceTeamId": 109,
+      "sourceTeam": "Arizona Diamondbacks"
+    },
+    "701474": {
+      "organizationId": 137,
+      "organization": "San Francisco Giants",
+      "sourceTeamId": 137,
+      "sourceTeam": "San Francisco Giants"
+    },
+    "669160": {
+      "organizationId": 158,
+      "organization": "Milwaukee Brewers",
+      "sourceTeamId": 158,
+      "sourceTeam": "Milwaukee Brewers"
+    },
+    "656302": {
+      "organizationId": 141,
+      "organization": "Toronto Blue Jays",
+      "sourceTeamId": 141,
+      "sourceTeam": "Toronto Blue Jays"
+    },
+    "689266": {
+      "organizationId": 144,
+      "organization": "Atlanta Braves",
+      "sourceTeamId": 144,
+      "sourceTeam": "Atlanta Braves"
+    },
+    "669276": {
+      "organizationId": 144,
+      "organization": "Atlanta Braves",
+      "sourceTeamId": 144,
+      "sourceTeam": "Atlanta Braves"
+    },
+    "697811": {
+      "organizationId": 121,
+      "organization": "New York Mets",
+      "sourceTeamId": 121,
+      "sourceTeam": "New York Mets"
+    },
+    "681916": {
+      "organizationId": 137,
+      "organization": "San Francisco Giants",
+      "sourceTeamId": 137,
+      "sourceTeam": "San Francisco Giants"
+    },
+    "668834": {
+      "organizationId": 118,
+      "organization": "Kansas City Royals",
+      "sourceTeamId": 118,
+      "sourceTeam": "Kansas City Royals"
+    },
+    "678868": {
+      "organizationId": 120,
+      "organization": "Washington Nationals",
+      "sourceTeamId": 120,
+      "sourceTeam": "Washington Nationals"
+    },
+    "683618": {
+      "organizationId": 119,
+      "organization": "Los Angeles Dodgers",
+      "sourceTeamId": 119,
+      "sourceTeam": "Los Angeles Dodgers"
+    },
+    "660825": {
+      "organizationId": 136,
+      "organization": "Seattle Mariners",
+      "sourceTeamId": 136,
+      "sourceTeam": "Seattle Mariners"
+    },
+    "700842": {
+      "organizationId": 111,
+      "organization": "Boston Red Sox",
+      "sourceTeamId": 111,
+      "sourceTeam": "Boston Red Sox"
+    },
+    "593958": {
+      "organizationId": 109,
+      "organization": "Arizona Diamondbacks",
+      "sourceTeamId": 109,
+      "sourceTeam": "Arizona Diamondbacks"
+    },
+    "665795": {
+      "organizationId": 112,
+      "organization": "Chicago Cubs",
+      "sourceTeamId": 112,
+      "sourceTeam": "Chicago Cubs"
+    },
+    "621242": {
+      "organizationId": 119,
+      "organization": "Los Angeles Dodgers",
+      "sourceTeamId": 119,
+      "sourceTeam": "Los Angeles Dodgers"
+    },
+    "682769": {
+      "organizationId": 115,
+      "organization": "Colorado Rockies",
+      "sourceTeamId": 115,
+      "sourceTeam": "Colorado Rockies"
+    },
+    "669212": {
+      "organizationId": 118,
+      "organization": "Kansas City Royals",
+      "sourceTeamId": 118,
+      "sourceTeam": "Kansas City Royals"
+    },
+    "622694": {
+      "organizationId": 144,
+      "organization": "Atlanta Braves",
+      "sourceTeamId": 144,
+      "sourceTeam": "Atlanta Braves"
+    },
+    "695684": {
+      "organizationId": 147,
+      "organization": "New York Yankees",
+      "sourceTeamId": 147,
+      "sourceTeam": "New York Yankees"
+    },
+    "665660": {
+      "organizationId": 133,
+      "organization": "Athletics",
+      "sourceTeamId": 133,
+      "sourceTeam": "Athletics"
+    },
+    "676106": {
+      "organizationId": 136,
+      "organization": "Seattle Mariners",
+      "sourceTeamId": 136,
+      "sourceTeam": "Seattle Mariners"
+    },
+    "693713": {
+      "organizationId": 140,
+      "organization": "Texas Rangers",
+      "sourceTeamId": 140,
+      "sourceTeam": "Texas Rangers"
+    },
+    "641941": {
+      "organizationId": 113,
+      "organization": "Cincinnati Reds",
+      "sourceTeamId": 113,
+      "sourceTeam": "Cincinnati Reds"
+    },
+    "686218": {
+      "organizationId": 119,
+      "organization": "Los Angeles Dodgers",
+      "sourceTeamId": 119,
+      "sourceTeam": "Los Angeles Dodgers"
+    },
+    "646241": {
+      "organizationId": 116,
+      "organization": "Detroit Tigers",
+      "sourceTeamId": 116,
+      "sourceTeam": "Detroit Tigers"
+    },
+    "660853": {
+      "organizationId": 117,
+      "organization": "Houston Astros",
+      "sourceTeamId": 117,
+      "sourceTeam": "Houston Astros"
+    },
+    "672021": {
+      "organizationId": 118,
+      "organization": "Kansas City Royals",
+      "sourceTeamId": 118,
+      "sourceTeam": "Kansas City Royals"
+    },
+    "641778": {
+      "organizationId": 119,
+      "organization": "Los Angeles Dodgers",
+      "sourceTeamId": 119,
+      "sourceTeam": "Los Angeles Dodgers"
+    },
+    "679358": {
+      "organizationId": 142,
+      "organization": "Minnesota Twins",
+      "sourceTeamId": 142,
+      "sourceTeam": "Minnesota Twins"
+    },
+    "607200": {
+      "organizationId": 145,
+      "organization": "Chicago White Sox",
+      "sourceTeamId": 145,
+      "sourceTeam": "Chicago White Sox"
+    },
+    "669062": {
+      "organizationId": 111,
+      "organization": "Boston Red Sox",
+      "sourceTeamId": 111,
+      "sourceTeam": "Boston Red Sox"
+    },
+    "681870": {
+      "organizationId": 114,
+      "organization": "Cleveland Guardians",
+      "sourceTeamId": 114,
+      "sourceTeam": "Cleveland Guardians"
+    },
+    "680899": {
+      "organizationId": 120,
+      "organization": "Washington Nationals",
+      "sourceTeamId": 120,
+      "sourceTeam": "Washington Nationals"
+    },
+    "814490": {
+      "organizationId": 117,
+      "organization": "Houston Astros",
+      "sourceTeamId": 117,
+      "sourceTeam": "Houston Astros"
+    },
+    "681799": {
+      "organizationId": 112,
+      "organization": "Chicago Cubs",
+      "sourceTeamId": 112,
+      "sourceTeam": "Chicago Cubs"
+    },
+    "691587": {
+      "organizationId": 146,
+      "organization": "Miami Marlins",
+      "sourceTeamId": 146,
+      "sourceTeam": "Miami Marlins"
+    },
+    "623465": {
+      "organizationId": 119,
+      "organization": "Los Angeles Dodgers",
+      "sourceTeamId": 119,
+      "sourceTeam": "Los Angeles Dodgers"
+    },
+    "681895": {
+      "organizationId": 134,
+      "organization": "Pittsburgh Pirates",
+      "sourceTeamId": 134,
+      "sourceTeam": "Pittsburgh Pirates"
+    },
+    "518585": {
+      "organizationId": 147,
+      "organization": "New York Yankees",
+      "sourceTeamId": 147,
+      "sourceTeam": "New York Yankees"
+    },
+    "656492": {
+      "organizationId": 114,
+      "organization": "Cleveland Guardians",
+      "sourceTeamId": 114,
+      "sourceTeam": "Cleveland Guardians"
+    },
+    "664285": {
+      "organizationId": 116,
+      "organization": "Detroit Tigers",
+      "sourceTeamId": 116,
+      "sourceTeam": "Detroit Tigers"
+    },
+    "680916": {
+      "organizationId": 114,
+      "organization": "Cleveland Guardians",
+      "sourceTeamId": 114,
+      "sourceTeam": "Cleveland Guardians"
+    },
+    "642547": {
+      "organizationId": 139,
+      "organization": "Tampa Bay Rays",
+      "sourceTeamId": 139,
+      "sourceTeam": "Tampa Bay Rays"
+    },
+    "642585": {
+      "organizationId": 110,
+      "organization": "Baltimore Orioles",
+      "sourceTeamId": 110,
+      "sourceTeam": "Baltimore Orioles"
+    },
+    "642100": {
+      "organizationId": 136,
+      "organization": "Seattle Mariners",
+      "sourceTeamId": 136,
+      "sourceTeam": "Seattle Mariners"
+    },
+    "687312": {
+      "organizationId": 115,
+      "organization": "Colorado Rockies",
+      "sourceTeamId": 115,
+      "sourceTeam": "Colorado Rockies"
+    },
+    "695611": {
+      "organizationId": 133,
+      "organization": "Athletics",
+      "sourceTeamId": 133,
+      "sourceTeam": "Athletics"
+    },
+    "670183": {
+      "organizationId": 142,
+      "organization": "Minnesota Twins",
+      "sourceTeamId": 142,
+      "sourceTeam": "Minnesota Twins"
+    },
+    "664076": {
+      "organizationId": 139,
+      "organization": "Tampa Bay Rays",
+      "sourceTeamId": 139,
+      "sourceTeam": "Tampa Bay Rays"
+    },
+    "676979": {
+      "organizationId": 111,
+      "organization": "Boston Red Sox",
+      "sourceTeamId": 111,
+      "sourceTeam": "Boston Red Sox"
+    },
+    "668831": {
+      "organizationId": 158,
+      "organization": "Milwaukee Brewers",
+      "sourceTeamId": 158,
+      "sourceTeam": "Milwaukee Brewers"
+    },
+    "676477": {
+      "organizationId": 111,
+      "organization": "Boston Red Sox",
+      "sourceTeamId": 111,
+      "sourceTeam": "Boston Red Sox"
+    },
+    "686560": {
+      "organizationId": 140,
+      "organization": "Texas Rangers",
+      "sourceTeamId": 140,
+      "sourceTeam": "Texas Rangers"
+    },
+    "668970": {
+      "organizationId": 112,
+      "organization": "Chicago Cubs",
+      "sourceTeamId": 112,
+      "sourceTeam": "Chicago Cubs"
+    },
+    "668909": {
+      "organizationId": 114,
+      "organization": "Cleveland Guardians",
+      "sourceTeamId": 114,
+      "sourceTeam": "Cleveland Guardians"
+    },
+    "664129": {
+      "organizationId": 133,
+      "organization": "Athletics",
+      "sourceTeamId": 133,
+      "sourceTeam": "Athletics"
+    },
+    "669923": {
+      "organizationId": 136,
+      "organization": "Seattle Mariners",
+      "sourceTeamId": 136,
+      "sourceTeam": "Seattle Mariners"
+    },
+    "691946": {
+      "organizationId": 108,
+      "organization": "Los Angeles Angels",
+      "sourceTeamId": 108,
+      "sourceTeam": "Los Angeles Angels"
+    },
+    "666277": {
+      "organizationId": 138,
+      "organization": "St. Louis Cardinals",
+      "sourceTeamId": 138,
+      "sourceTeam": "St. Louis Cardinals"
+    },
+    "672629": {
+      "organizationId": 109,
+      "organization": "Arizona Diamondbacks",
+      "sourceTeamId": 109,
+      "sourceTeam": "Arizona Diamondbacks"
+    },
+    "608566": {
+      "organizationId": 135,
+      "organization": "San Diego Padres",
+      "sourceTeamId": 135,
+      "sourceTeam": "San Diego Padres"
+    },
+    "543037": {
+      "organizationId": 147,
+      "organization": "New York Yankees",
+      "sourceTeamId": 147,
+      "sourceTeam": "New York Yankees"
+    },
+    "700669": {
+      "organizationId": 138,
+      "organization": "St. Louis Cardinals",
+      "sourceTeamId": 138,
+      "sourceTeam": "St. Louis Cardinals"
+    },
+    "668933": {
+      "organizationId": 113,
+      "organization": "Cincinnati Reds",
+      "sourceTeamId": 113,
+      "sourceTeam": "Cincinnati Reds"
+    },
+    "681982": {
+      "organizationId": 158,
+      "organization": "Milwaukee Brewers",
+      "sourceTeamId": 158,
+      "sourceTeam": "Milwaukee Brewers"
+    },
+    "680880": {
+      "organizationId": 143,
+      "organization": "Philadelphia Phillies",
+      "sourceTeamId": 143,
+      "sourceTeam": "Philadelphia Phillies"
+    },
+    "656550": {
+      "organizationId": 144,
+      "organization": "Atlanta Braves",
+      "sourceTeamId": 144,
+      "sourceTeam": "Atlanta Braves"
+    },
+    "691799": {
+      "organizationId": 145,
+      "organization": "Chicago White Sox",
+      "sourceTeamId": 145,
+      "sourceTeam": "Chicago White Sox"
+    },
+    "664991": {
+      "organizationId": 110,
+      "organization": "Baltimore Orioles",
+      "sourceTeamId": 110,
+      "sourceTeam": "Baltimore Orioles"
+    },
+    "680570": {
+      "organizationId": 108,
+      "organization": "Los Angeles Angels",
+      "sourceTeamId": 108,
+      "sourceTeam": "Los Angeles Angels"
+    },
+    "669711": {
+      "organizationId": 111,
+      "organization": "Boston Red Sox",
+      "sourceTeamId": 111,
+      "sourceTeam": "Boston Red Sox"
+    },
+    "666619": {
+      "organizationId": 137,
+      "organization": "San Francisco Giants",
+      "sourceTeamId": 137,
+      "sourceTeam": "San Francisco Giants"
+    },
+    "642397": {
+      "organizationId": 134,
+      "organization": "Pittsburgh Pirates",
+      "sourceTeamId": 134,
+      "sourceTeam": "Pittsburgh Pirates"
+    },
+    "656288": {
+      "organizationId": 135,
+      "organization": "San Diego Padres",
+      "sourceTeamId": 135,
+      "sourceTeam": "San Diego Padres"
+    },
+    "643377": {
+      "organizationId": 139,
+      "organization": "Tampa Bay Rays",
+      "sourceTeamId": 139,
+      "sourceTeam": "Tampa Bay Rays"
+    },
+    "670871": {
+      "organizationId": 121,
+      "organization": "New York Mets",
+      "sourceTeamId": 121,
+      "sourceTeam": "New York Mets"
+    },
+    "681402": {
+      "organizationId": 120,
+      "organization": "Washington Nationals",
+      "sourceTeamId": 120,
+      "sourceTeam": "Washington Nationals"
+    },
+    "696146": {
+      "organizationId": 145,
+      "organization": "Chicago White Sox",
+      "sourceTeamId": 145,
+      "sourceTeam": "Chicago White Sox"
+    },
+    "684516": {
+      "organizationId": 138,
+      "organization": "St. Louis Cardinals",
+      "sourceTeamId": 138,
+      "sourceTeam": "St. Louis Cardinals"
+    },
+    "696522": {
+      "organizationId": 133,
+      "organization": "Athletics",
+      "sourceTeamId": 133,
+      "sourceTeam": "Athletics"
+    },
+    "669713": {
+      "organizationId": 117,
+      "organization": "Houston Astros",
+      "sourceTeamId": 117,
+      "sourceTeam": "Houston Astros"
+    },
+    "571948": {
+      "organizationId": 136,
+      "organization": "Seattle Mariners",
+      "sourceTeamId": 136,
+      "sourceTeam": "Seattle Mariners"
+    },
+    "663687": {
+      "organizationId": 133,
+      "organization": "Athletics",
+      "sourceTeamId": 133,
+      "sourceTeam": "Athletics"
+    },
+    "623211": {
+      "organizationId": 145,
+      "organization": "Chicago White Sox",
+      "sourceTeamId": 145,
+      "sourceTeam": "Chicago White Sox"
+    },
+    "682995": {
+      "organizationId": 134,
+      "organization": "Pittsburgh Pirates",
+      "sourceTeamId": 134,
+      "sourceTeam": "Pittsburgh Pirates"
+    },
+    "685801": {
+      "organizationId": 139,
+      "organization": "Tampa Bay Rays",
+      "sourceTeamId": 139,
+      "sourceTeam": "Tampa Bay Rays"
+    },
+    "686613": {
+      "organizationId": 117,
+      "organization": "Houston Astros",
+      "sourceTeamId": 117,
+      "sourceTeam": "Houston Astros"
+    },
+    "690928": {
+      "organizationId": 138,
+      "organization": "St. Louis Cardinals",
+      "sourceTeamId": 138,
+      "sourceTeam": "St. Louis Cardinals"
+    },
+    "683769": {
+      "organizationId": 114,
+      "organization": "Cleveland Guardians",
+      "sourceTeamId": 114,
+      "sourceTeam": "Cleveland Guardians"
+    },
+    "668881": {
+      "organizationId": 113,
+      "organization": "Cincinnati Reds",
+      "sourceTeamId": 113,
+      "sourceTeam": "Cincinnati Reds"
+    },
+    "640451": {
+      "organizationId": 112,
+      "organization": "Chicago Cubs",
+      "sourceTeamId": 112,
+      "sourceTeam": "Chicago Cubs"
+    },
+    "676702": {
+      "organizationId": 134,
+      "organization": "Pittsburgh Pirates",
+      "sourceTeamId": 134,
+      "sourceTeam": "Pittsburgh Pirates"
+    },
+    "694462": {
+      "organizationId": 144,
+      "organization": "Atlanta Braves",
+      "sourceTeamId": 144,
+      "sourceTeam": "Atlanta Braves"
+    },
+    "641656": {
+      "organizationId": 144,
+      "organization": "Atlanta Braves",
+      "sourceTeamId": 144,
+      "sourceTeam": "Atlanta Braves"
+    },
+    "693855": {
+      "organizationId": 139,
+      "organization": "Tampa Bay Rays",
+      "sourceTeamId": 139,
+      "sourceTeam": "Tampa Bay Rays"
+    },
+    "676755": {
+      "organizationId": 134,
+      "organization": "Pittsburgh Pirates",
+      "sourceTeamId": 134,
+      "sourceTeam": "Pittsburgh Pirates"
+    },
+    "641585": {
+      "organizationId": 117,
+      "organization": "Houston Astros",
+      "sourceTeamId": 117,
+      "sourceTeam": "Houston Astros"
+    },
+    "669372": {
+      "organizationId": 133,
+      "organization": "Athletics",
+      "sourceTeamId": 133,
+      "sourceTeam": "Athletics"
+    },
+    "676664": {
+      "organizationId": 135,
+      "organization": "San Diego Padres",
+      "sourceTeamId": 135,
+      "sourceTeam": "San Diego Padres"
+    },
+    "702275": {
+      "organizationId": 144,
+      "organization": "Atlanta Braves",
+      "sourceTeamId": 144,
+      "sourceTeam": "Atlanta Braves"
+    },
+    "664141": {
+      "organizationId": 137,
+      "organization": "San Francisco Giants",
+      "sourceTeamId": 137,
+      "sourceTeam": "San Francisco Giants"
+    },
+    "681252": {
+      "organizationId": 142,
+      "organization": "Minnesota Twins",
+      "sourceTeamId": 142,
+      "sourceTeam": "Minnesota Twins"
+    },
+    "676263": {
+      "organizationId": 119,
+      "organization": "Los Angeles Dodgers",
+      "sourceTeamId": 119,
+      "sourceTeam": "Los Angeles Dodgers"
+    },
+    "656427": {
+      "organizationId": 116,
+      "organization": "Detroit Tigers",
+      "sourceTeamId": 116,
+      "sourceTeam": "Detroit Tigers"
+    },
+    "686799": {
+      "organizationId": 108,
+      "organization": "Los Angeles Angels",
+      "sourceTeamId": 108,
+      "sourceTeam": "Los Angeles Angels"
+    },
+    "683004": {
+      "organizationId": 140,
+      "organization": "Texas Rangers",
+      "sourceTeamId": 140,
+      "sourceTeam": "Texas Rangers"
+    },
+    "678022": {
+      "organizationId": 133,
+      "organization": "Athletics",
+      "sourceTeamId": 133,
+      "sourceTeam": "Athletics"
+    },
+    "667652": {
+      "organizationId": 146,
+      "organization": "Miami Marlins",
+      "sourceTeamId": 146,
+      "sourceTeam": "Miami Marlins"
+    },
+    "695378": {
+      "organizationId": 120,
+      "organization": "Washington Nationals",
+      "sourceTeamId": 120,
+      "sourceTeam": "Washington Nationals"
+    },
+    "674073": {
+      "organizationId": 121,
+      "organization": "New York Mets",
+      "sourceTeamId": 121,
+      "sourceTeam": "New York Mets"
+    },
+    "695549": {
+      "organizationId": 116,
+      "organization": "Detroit Tigers",
+      "sourceTeamId": 116,
+      "sourceTeam": "Detroit Tigers"
+    },
+    "800600": {
+      "organizationId": 120,
+      "organization": "Washington Nationals",
+      "sourceTeamId": 120,
+      "sourceTeam": "Washington Nationals"
+    },
+    "671131": {
+      "organizationId": 120,
+      "organization": "Washington Nationals",
+      "sourceTeamId": 120,
+      "sourceTeam": "Washington Nationals"
+    },
+    "656641": {
+      "organizationId": 140,
+      "organization": "Texas Rangers",
+      "sourceTeamId": 140,
+      "sourceTeam": "Texas Rangers"
+    },
+    "682052": {
+      "organizationId": 133,
+      "organization": "Athletics",
+      "sourceTeamId": 133,
+      "sourceTeam": "Athletics"
+    },
+    "694819": {
+      "organizationId": 158,
+      "organization": "Milwaukee Brewers",
+      "sourceTeamId": 158,
+      "sourceTeam": "Milwaukee Brewers"
+    },
+    "621097": {
+      "organizationId": 116,
+      "organization": "Detroit Tigers",
+      "sourceTeamId": 116,
+      "sourceTeam": "Detroit Tigers"
+    },
+    "657097": {
+      "organizationId": 112,
+      "organization": "Chicago Cubs",
+      "sourceTeamId": 112,
+      "sourceTeam": "Chicago Cubs"
+    },
+    "594798": {
+      "organizationId": 140,
+      "organization": "Texas Rangers",
+      "sourceTeamId": 140,
+      "sourceTeam": "Texas Rangers"
+    },
+    "677955": {
+      "organizationId": 115,
+      "organization": "Colorado Rockies",
+      "sourceTeamId": 115,
+      "sourceTeam": "Colorado Rockies"
+    },
+    "687562": {
+      "organizationId": 111,
+      "organization": "Boston Red Sox",
+      "sourceTeamId": 111,
+      "sourceTeam": "Boston Red Sox"
+    },
+    "656234": {
+      "organizationId": 120,
+      "organization": "Washington Nationals",
+      "sourceTeamId": 120,
+      "sourceTeam": "Washington Nationals"
+    },
+    "671109": {
+      "organizationId": 119,
+      "organization": "Los Angeles Dodgers",
+      "sourceTeamId": 119,
+      "sourceTeam": "Los Angeles Dodgers"
+    },
+    "663623": {
+      "organizationId": 120,
+      "organization": "Washington Nationals",
+      "sourceTeamId": 120,
+      "sourceTeam": "Washington Nationals"
+    },
+    "663765": {
+      "organizationId": 139,
+      "organization": "Tampa Bay Rays",
+      "sourceTeamId": 139,
+      "sourceTeam": "Tampa Bay Rays"
+    },
+    "596001": {
+      "organizationId": 140,
+      "organization": "Texas Rangers",
+      "sourceTeamId": 140,
+      "sourceTeam": "Texas Rangers"
+    },
+    "656222": {
+      "organizationId": 140,
+      "organization": "Texas Rangers",
+      "sourceTeamId": 140,
+      "sourceTeam": "Texas Rangers"
+    },
+    "675916": {
+      "organizationId": 144,
+      "organization": "Atlanta Braves",
+      "sourceTeamId": 144,
+      "sourceTeam": "Atlanta Braves"
+    },
+    "592791": {
+      "organizationId": 141,
+      "organization": "Toronto Blue Jays",
+      "sourceTeamId": 141,
+      "sourceTeam": "Toronto Blue Jays"
+    },
+    "676083": {
+      "organizationId": 146,
+      "organization": "Miami Marlins",
+      "sourceTeamId": 146,
+      "sourceTeam": "Miami Marlins"
+    },
+    "683003": {
+      "organizationId": 134,
+      "organization": "Pittsburgh Pirates",
+      "sourceTeamId": 134,
+      "sourceTeam": "Pittsburgh Pirates"
+    },
+    "657649": {
+      "organizationId": 158,
+      "organization": "Milwaukee Brewers",
+      "sourceTeamId": 158,
+      "sourceTeam": "Milwaukee Brewers"
+    },
+    "694363": {
+      "organizationId": 138,
+      "organization": "St. Louis Cardinals",
+      "sourceTeamId": 138,
+      "sourceTeam": "St. Louis Cardinals"
+    },
+    "688692": {
+      "organizationId": 120,
+      "organization": "Washington Nationals",
+      "sourceTeamId": 120,
+      "sourceTeam": "Washington Nationals"
+    },
+    "592094": {
+      "organizationId": 135,
+      "organization": "San Diego Padres",
+      "sourceTeamId": 135,
+      "sourceTeam": "San Diego Padres"
+    },
+    "669920": {
+      "organizationId": 117,
+      "organization": "Houston Astros",
+      "sourceTeamId": 117,
+      "sourceTeam": "Houston Astros"
+    },
+    "671345": {
+      "organizationId": 137,
+      "organization": "San Francisco Giants",
+      "sourceTeamId": 137,
+      "sourceTeam": "San Francisco Giants"
+    },
+    "665871": {
+      "organizationId": 112,
+      "organization": "Chicago Cubs",
+      "sourceTeamId": 112,
+      "sourceTeam": "Chicago Cubs"
+    },
+    "681151": {
+      "organizationId": 112,
+      "organization": "Chicago Cubs",
+      "sourceTeamId": 112,
+      "sourceTeam": "Chicago Cubs"
+    },
+    "699151": {
+      "organizationId": 111,
+      "organization": "Boston Red Sox",
+      "sourceTeamId": 111,
+      "sourceTeam": "Boston Red Sox"
+    },
+    "676105": {
+      "organizationId": 115,
+      "organization": "Colorado Rockies",
+      "sourceTeamId": 115,
+      "sourceTeam": "Colorado Rockies"
+    },
+    "656546": {
+      "organizationId": 142,
+      "organization": "Minnesota Twins",
+      "sourceTeamId": 142,
+      "sourceTeam": "Minnesota Twins"
+    },
+    "605488": {
+      "organizationId": 133,
+      "organization": "Athletics",
+      "sourceTeamId": 133,
+      "sourceTeam": "Athletics"
+    },
+    "642376": {
+      "organizationId": 121,
+      "organization": "New York Mets",
+      "sourceTeamId": 121,
+      "sourceTeam": "New York Mets"
+    },
+    "669093": {
+      "organizationId": 135,
+      "organization": "San Diego Padres",
+      "sourceTeamId": 135,
+      "sourceTeam": "San Diego Padres"
+    },
+    "669947": {
+      "organizationId": 139,
+      "organization": "Tampa Bay Rays",
+      "sourceTeamId": 139,
+      "sourceTeam": "Tampa Bay Rays"
+    },
+    "666200": {
+      "organizationId": 143,
+      "organization": "Philadelphia Phillies",
+      "sourceTeamId": 143,
+      "sourceTeam": "Philadelphia Phillies"
+    },
+    "661395": {
+      "organizationId": 143,
+      "organization": "Philadelphia Phillies",
+      "sourceTeamId": 143,
+      "sourceTeam": "Philadelphia Phillies"
+    },
+    "646242": {
+      "organizationId": 136,
+      "organization": "Seattle Mariners",
+      "sourceTeamId": 136,
+      "sourceTeam": "Seattle Mariners"
+    },
+    "666745": {
+      "organizationId": 135,
+      "organization": "San Diego Padres",
+      "sourceTeamId": 135,
+      "sourceTeam": "San Diego Padres"
+    },
+    "623474": {
+      "organizationId": 115,
+      "organization": "Colorado Rockies",
+      "sourceTeamId": 115,
+      "sourceTeam": "Colorado Rockies"
+    },
+    "668941": {
+      "organizationId": 158,
+      "organization": "Milwaukee Brewers",
+      "sourceTeamId": 158,
+      "sourceTeam": "Milwaukee Brewers"
+    },
+    "671212": {
+      "organizationId": 139,
+      "organization": "Tampa Bay Rays",
+      "sourceTeamId": 139,
+      "sourceTeam": "Tampa Bay Rays"
+    },
+    "686747": {
+      "organizationId": 111,
+      "organization": "Boston Red Sox",
+      "sourceTeamId": 111,
+      "sourceTeam": "Boston Red Sox"
+    },
+    "573009": {
+      "organizationId": 141,
+      "organization": "Toronto Blue Jays",
+      "sourceTeamId": 141,
+      "sourceTeam": "Toronto Blue Jays"
+    },
+    "697812": {
+      "organizationId": 133,
+      "organization": "Athletics",
+      "sourceTeamId": 133,
+      "sourceTeam": "Athletics"
+    },
+    "605452": {
+      "organizationId": 140,
+      "organization": "Texas Rangers",
+      "sourceTeamId": 140,
+      "sourceTeam": "Texas Rangers"
+    },
+    "657746": {
+      "organizationId": 142,
+      "organization": "Minnesota Twins",
+      "sourceTeamId": 142,
+      "sourceTeam": "Minnesota Twins"
+    },
+    "669270": {
+      "organizationId": 137,
+      "organization": "San Francisco Giants",
+      "sourceTeamId": 137,
+      "sourceTeam": "San Francisco Giants"
+    },
+    "606303": {
+      "organizationId": 144,
+      "organization": "Atlanta Braves",
+      "sourceTeamId": 144,
+      "sourceTeam": "Atlanta Braves"
+    },
+    "666711": {
+      "organizationId": 137,
+      "organization": "San Francisco Giants",
+      "sourceTeamId": 137,
+      "sourceTeam": "San Francisco Giants"
+    },
+    "676282": {
+      "organizationId": 114,
+      "organization": "Cleveland Guardians",
+      "sourceTeamId": 114,
+      "sourceTeam": "Cleveland Guardians"
+    },
+    "683155": {
+      "organizationId": 133,
+      "organization": "Athletics",
+      "sourceTeamId": 133,
+      "sourceTeam": "Athletics"
+    },
+    "680702": {
+      "organizationId": 121,
+      "organization": "New York Mets",
+      "sourceTeamId": 121,
+      "sourceTeam": "New York Mets"
+    },
+    "664192": {
+      "organizationId": 108,
+      "organization": "Los Angeles Angels",
+      "sourceTeamId": 108,
+      "sourceTeam": "Los Angeles Angels"
+    },
+    "670912": {
+      "organizationId": 111,
+      "organization": "Boston Red Sox",
+      "sourceTeamId": 111,
+      "sourceTeam": "Boston Red Sox"
+    },
+    "605154": {
+      "organizationId": 115,
+      "organization": "Colorado Rockies",
+      "sourceTeamId": 115,
+      "sourceTeam": "Colorado Rockies"
+    },
+    "667463": {
+      "organizationId": 146,
+      "organization": "Miami Marlins",
+      "sourceTeamId": 146,
+      "sourceTeam": "Miami Marlins"
+    },
+    "804619": {
+      "organizationId": 141,
+      "organization": "Toronto Blue Jays",
+      "sourceTeamId": 141,
+      "sourceTeam": "Toronto Blue Jays"
+    },
+    "670167": {
+      "organizationId": 147,
+      "organization": "New York Yankees",
+      "sourceTeamId": 147,
+      "sourceTeam": "New York Yankees"
+    },
+    "804636": {
+      "organizationId": 121,
+      "organization": "New York Mets",
+      "sourceTeamId": 121,
+      "sourceTeam": "New York Mets"
+    },
+    "680742": {
+      "organizationId": 143,
+      "organization": "Philadelphia Phillies",
+      "sourceTeamId": 143,
+      "sourceTeam": "Philadelphia Phillies"
+    },
+    "686563": {
+      "organizationId": 145,
+      "organization": "Chicago White Sox",
+      "sourceTeamId": 145,
+      "sourceTeam": "Chicago White Sox"
+    },
+    "669169": {
+      "organizationId": 139,
+      "organization": "Tampa Bay Rays",
+      "sourceTeamId": 139,
+      "sourceTeam": "Tampa Bay Rays"
+    },
+    "642546": {
+      "organizationId": 119,
+      "organization": "Los Angeles Dodgers",
+      "sourceTeamId": 119,
+      "sourceTeam": "Los Angeles Dodgers"
+    },
+    "642528": {
+      "organizationId": 109,
+      "organization": "Arizona Diamondbacks",
+      "sourceTeamId": 109,
+      "sourceTeam": "Arizona Diamondbacks"
+    },
+    "702752": {
+      "organizationId": 121,
+      "organization": "New York Mets",
+      "sourceTeamId": 121,
+      "sourceTeam": "New York Mets"
+    },
+    "663855": {
+      "organizationId": 145,
+      "organization": "Chicago White Sox",
+      "sourceTeamId": 145,
+      "sourceTeam": "Chicago White Sox"
+    },
+    "673929": {
+      "organizationId": 145,
+      "organization": "Chicago White Sox",
+      "sourceTeamId": 145,
+      "sourceTeam": "Chicago White Sox"
+    },
+    "656756": {
+      "organizationId": 140,
+      "organization": "Texas Rangers",
+      "sourceTeamId": 140,
+      "sourceTeam": "Texas Rangers"
+    },
+    "605447": {
+      "organizationId": 115,
+      "organization": "Colorado Rockies",
+      "sourceTeamId": 115,
+      "sourceTeam": "Colorado Rockies"
+    },
+    "696136": {
+      "organizationId": 112,
+      "organization": "Chicago Cubs",
+      "sourceTeamId": 112,
+      "sourceTeam": "Chicago Cubs"
+    },
+    "703615": {
+      "organizationId": 109,
+      "organization": "Arizona Diamondbacks",
+      "sourceTeamId": 109,
+      "sourceTeam": "Arizona Diamondbacks"
+    },
+    "692030": {
+      "organizationId": 140,
+      "organization": "Texas Rangers",
+      "sourceTeamId": 140,
+      "sourceTeam": "Texas Rangers"
+    },
+    "621016": {
+      "organizationId": 118,
+      "organization": "Kansas City Royals",
+      "sourceTeamId": 118,
+      "sourceTeam": "Kansas City Royals"
+    },
+    "664744": {
+      "organizationId": 110,
+      "organization": "Baltimore Orioles",
+      "sourceTeamId": 110,
+      "sourceTeam": "Baltimore Orioles"
+    },
+    "683742": {
+      "organizationId": 113,
+      "organization": "Cincinnati Reds",
+      "sourceTeamId": 113,
+      "sourceTeam": "Cincinnati Reds"
+    },
+    "500779": {
+      "organizationId": 115,
+      "organization": "Colorado Rockies",
+      "sourceTeamId": 115,
+      "sourceTeam": "Colorado Rockies"
+    },
+    "694795": {
+      "organizationId": 146,
+      "organization": "Miami Marlins",
+      "sourceTeamId": 146,
+      "sourceTeam": "Miami Marlins"
+    },
+    "676596": {
+      "organizationId": 141,
+      "organization": "Toronto Blue Jays",
+      "sourceTeamId": 141,
+      "sourceTeam": "Toronto Blue Jays"
+    },
+    "623352": {
+      "organizationId": 117,
+      "organization": "Houston Astros",
+      "sourceTeamId": 117,
+      "sourceTeam": "Houston Astros"
+    },
+    "681973": {
+      "organizationId": 117,
+      "organization": "Houston Astros",
+      "sourceTeamId": 117,
+      "sourceTeam": "Houston Astros"
+    },
+    "681006": {
+      "organizationId": 136,
+      "organization": "Seattle Mariners",
+      "sourceTeamId": 136,
+      "sourceTeam": "Seattle Mariners"
+    },
+    "677020": {
+      "organizationId": 110,
+      "organization": "Baltimore Orioles",
+      "sourceTeamId": 110,
+      "sourceTeam": "Baltimore Orioles"
+    },
+    "687985": {
+      "organizationId": 146,
+      "organization": "Miami Marlins",
+      "sourceTeamId": 146,
+      "sourceTeam": "Miami Marlins"
+    },
+    "680686": {
+      "organizationId": 120,
+      "organization": "Washington Nationals",
+      "sourceTeamId": 120,
+      "sourceTeam": "Washington Nationals"
+    },
+    "678606": {
+      "organizationId": 136,
+      "organization": "Seattle Mariners",
+      "sourceTeamId": 136,
+      "sourceTeam": "Seattle Mariners"
+    },
+    "621237": {
+      "organizationId": 143,
+      "organization": "Philadelphia Phillies",
+      "sourceTeamId": 143,
+      "sourceTeam": "Philadelphia Phillies"
+    },
+    "676130": {
+      "organizationId": 137,
+      "organization": "San Francisco Giants",
+      "sourceTeamId": 137,
+      "sourceTeam": "San Francisco Giants"
+    },
+    "820862": {
+      "organizationId": 108,
+      "organization": "Los Angeles Angels",
+      "sourceTeamId": 108,
+      "sourceTeam": "Los Angeles Angels"
+    },
+    "692064": {
+      "organizationId": 141,
+      "organization": "Toronto Blue Jays",
+      "sourceTeamId": 141,
+      "sourceTeam": "Toronto Blue Jays"
+    },
+    "667755": {
+      "organizationId": 141,
+      "organization": "Toronto Blue Jays",
+      "sourceTeamId": 141,
+      "sourceTeam": "Toronto Blue Jays"
+    },
+    "660761": {
+      "organizationId": 133,
+      "organization": "Athletics",
+      "sourceTeamId": 133,
+      "sourceTeam": "Athletics"
+    },
+    "664353": {
+      "organizationId": 143,
+      "organization": "Philadelphia Phillies",
+      "sourceTeamId": 143,
+      "sourceTeam": "Philadelphia Phillies"
+    },
+    "663558": {
+      "organizationId": 111,
+      "organization": "Boston Red Sox",
+      "sourceTeamId": 111,
+      "sourceTeam": "Boston Red Sox"
+    },
+    "686228": {
+      "organizationId": 109,
+      "organization": "Arizona Diamondbacks",
+      "sourceTeamId": 109,
+      "sourceTeam": "Arizona Diamondbacks"
+    },
+    "675848": {
+      "organizationId": 115,
+      "organization": "Colorado Rockies",
+      "sourceTeamId": 115,
+      "sourceTeam": "Colorado Rockies"
+    },
+    "666661": {
+      "organizationId": 109,
+      "organization": "Arizona Diamondbacks",
+      "sourceTeamId": 109,
+      "sourceTeam": "Arizona Diamondbacks"
+    },
+    "687924": {
+      "organizationId": 113,
+      "organization": "Cincinnati Reds",
+      "sourceTeamId": 113,
+      "sourceTeam": "Cincinnati Reds"
+    },
+    "642759": {
+      "organizationId": 120,
+      "organization": "Washington Nationals",
+      "sourceTeamId": 120,
+      "sourceTeam": "Washington Nationals"
+    },
+    "670062": {
+      "organizationId": 113,
+      "organization": "Cincinnati Reds",
+      "sourceTeamId": 113,
+      "sourceTeam": "Cincinnati Reds"
+    },
+    "677865": {
+      "organizationId": 138,
+      "organization": "St. Louis Cardinals",
+      "sourceTeamId": 138,
+      "sourceTeam": "St. Louis Cardinals"
+    },
+    "663795": {
+      "organizationId": 121,
+      "organization": "New York Mets",
+      "sourceTeamId": 121,
+      "sourceTeam": "New York Mets"
+    },
+    "664875": {
+      "organizationId": 120,
+      "organization": "Washington Nationals",
+      "sourceTeamId": 120,
+      "sourceTeam": "Washington Nationals"
+    },
+    "679885": {
+      "organizationId": 109,
+      "organization": "Arizona Diamondbacks",
+      "sourceTeamId": 109,
+      "sourceTeam": "Arizona Diamondbacks"
+    },
+    "686580": {
+      "organizationId": 111,
+      "organization": "Boston Red Sox",
+      "sourceTeamId": 111,
+      "sourceTeam": "Boston Red Sox"
+    },
+    "686993": {
+      "organizationId": 133,
+      "organization": "Athletics",
+      "sourceTeamId": 133,
+      "sourceTeam": "Athletics"
+    },
+    "623437": {
+      "organizationId": 147,
+      "organization": "New York Yankees",
+      "sourceTeamId": 147,
+      "sourceTeam": "New York Yankees"
+    },
+    "434378": {
+      "organizationId": 116,
+      "organization": "Detroit Tigers",
+      "sourceTeamId": 116,
+      "sourceTeam": "Detroit Tigers"
+    },
+    "680736": {
+      "organizationId": 119,
+      "organization": "Los Angeles Dodgers",
+      "sourceTeamId": 119,
+      "sourceTeam": "Los Angeles Dodgers"
+    },
+    "807739": {
+      "organizationId": 136,
+      "organization": "Seattle Mariners",
+      "sourceTeamId": 136,
+      "sourceTeam": "Seattle Mariners"
+    },
+    "695034": {
+      "organizationId": 133,
+      "organization": "Athletics",
+      "sourceTeamId": 133,
+      "sourceTeam": "Athletics"
+    },
+    "669704": {
+      "organizationId": 109,
+      "organization": "Arizona Diamondbacks",
+      "sourceTeamId": 109,
+      "sourceTeam": "Arizona Diamondbacks"
+    },
+    "678906": {
+      "organizationId": 117,
+      "organization": "Houston Astros",
+      "sourceTeamId": 117,
+      "sourceTeam": "Houston Astros"
+    },
+    "676775": {
+      "organizationId": 137,
+      "organization": "San Francisco Giants",
+      "sourceTeamId": 137,
+      "sourceTeam": "San Francisco Giants"
+    },
+    "669211": {
+      "organizationId": 110,
+      "organization": "Baltimore Orioles",
+      "sourceTeamId": 110,
+      "sourceTeam": "Baltimore Orioles"
+    },
+    "624522": {
+      "organizationId": 115,
+      "organization": "Colorado Rockies",
+      "sourceTeamId": 115,
+      "sourceTeam": "Colorado Rockies"
+    },
+    "672456": {
+      "organizationId": 116,
+      "organization": "Detroit Tigers",
+      "sourceTeamId": 116,
+      "sourceTeam": "Detroit Tigers"
+    },
+    "686610": {
+      "organizationId": 120,
+      "organization": "Washington Nationals",
+      "sourceTeamId": 120,
+      "sourceTeam": "Washington Nationals"
+    },
+    "696070": {
+      "organizationId": 142,
+      "organization": "Minnesota Twins",
+      "sourceTeamId": 142,
+      "sourceTeam": "Minnesota Twins"
+    },
+    "445276": {
+      "organizationId": 116,
+      "organization": "Detroit Tigers",
+      "sourceTeamId": 116,
+      "sourceTeam": "Detroit Tigers"
+    },
+    "592288": {
+      "organizationId": 113,
+      "organization": "Cincinnati Reds",
+      "sourceTeamId": 113,
+      "sourceTeam": "Cincinnati Reds"
+    },
+    "665645": {
+      "organizationId": 147,
+      "organization": "New York Yankees",
+      "sourceTeamId": 147,
+      "sourceTeam": "New York Yankees"
+    },
+    "592332": {
+      "organizationId": 112,
+      "organization": "Chicago Cubs",
+      "sourceTeamId": 112,
+      "sourceTeam": "Chicago Cubs"
+    },
+    "656464": {
+      "organizationId": 109,
+      "organization": "Arizona Diamondbacks",
+      "sourceTeamId": 109,
+      "sourceTeam": "Arizona Diamondbacks"
+    },
+    "643361": {
+      "organizationId": 121,
+      "organization": "New York Mets",
+      "sourceTeamId": 121,
+      "sourceTeam": "New York Mets"
+    },
+    "687330": {
+      "organizationId": 139,
+      "organization": "Tampa Bay Rays",
+      "sourceTeamId": 139,
+      "sourceTeam": "Tampa Bay Rays"
+    },
+    "694753": {
+      "organizationId": 134,
+      "organization": "Pittsburgh Pirates",
+      "sourceTeamId": 134,
+      "sourceTeam": "Pittsburgh Pirates"
+    },
+    "489446": {
+      "organizationId": 134,
+      "organization": "Pittsburgh Pirates",
+      "sourceTeamId": 134,
+      "sourceTeam": "Pittsburgh Pirates"
+    },
+    "673540": {
+      "organizationId": 121,
+      "organization": "New York Mets",
+      "sourceTeamId": 121,
+      "sourceTeam": "New York Mets"
+    },
+    "681892": {
+      "organizationId": 142,
+      "organization": "Minnesota Twins",
+      "sourceTeamId": 142,
+      "sourceTeam": "Minnesota Twins"
+    },
+    "684442": {
+      "organizationId": 109,
+      "organization": "Arizona Diamondbacks",
+      "sourceTeamId": 109,
+      "sourceTeam": "Arizona Diamondbacks"
+    },
+    "663465": {
+      "organizationId": 114,
+      "organization": "Cleveland Guardians",
+      "sourceTeamId": 114,
+      "sourceTeam": "Cleveland Guardians"
+    },
+    "663460": {
+      "organizationId": 119,
+      "organization": "Los Angeles Dodgers",
+      "sourceTeamId": 119,
+      "sourceTeam": "Los Angeles Dodgers"
+    },
+    "677958": {
+      "organizationId": 140,
+      "organization": "Texas Rangers",
+      "sourceTeamId": 140,
+      "sourceTeam": "Texas Rangers"
+    },
+    "679775": {
+      "organizationId": 143,
+      "organization": "Philadelphia Phillies",
+      "sourceTeamId": 143,
+      "sourceTeam": "Philadelphia Phillies"
+    },
+    "680694": {
+      "organizationId": 110,
+      "organization": "Baltimore Orioles",
+      "sourceTeamId": 110,
+      "sourceTeam": "Baltimore Orioles"
+    },
+    "640448": {
+      "organizationId": 116,
+      "organization": "Detroit Tigers",
+      "sourceTeamId": 116,
+      "sourceTeam": "Detroit Tigers"
+    },
+    "607536": {
+      "organizationId": 115,
+      "organization": "Colorado Rockies",
+      "sourceTeamId": 115,
+      "sourceTeam": "Colorado Rockies"
+    },
+    "690986": {
+      "organizationId": 158,
+      "organization": "Milwaukee Brewers",
+      "sourceTeamId": 158,
+      "sourceTeam": "Milwaukee Brewers"
+    },
+    "606996": {
+      "organizationId": 135,
+      "organization": "San Diego Padres",
+      "sourceTeamId": 135,
+      "sourceTeam": "San Diego Padres"
+    },
+    "669165": {
+      "organizationId": 119,
+      "organization": "Los Angeles Dodgers",
+      "sourceTeamId": 119,
+      "sourceTeam": "Los Angeles Dodgers"
+    },
+    "681517": {
+      "organizationId": 138,
+      "organization": "St. Louis Cardinals",
+      "sourceTeamId": 138,
+      "sourceTeam": "St. Louis Cardinals"
+    },
+    "693312": {
+      "organizationId": 113,
+      "organization": "Cincinnati Reds",
+      "sourceTeamId": 113,
+      "sourceTeam": "Cincinnati Reds"
+    },
+    "669199": {
+      "organizationId": 134,
+      "organization": "Pittsburgh Pirates",
+      "sourceTeamId": 134,
+      "sourceTeam": "Pittsburgh Pirates"
+    },
+    "621121": {
+      "organizationId": 158,
+      "organization": "Milwaukee Brewers",
+      "sourceTeamId": 158,
+      "sourceTeam": "Milwaukee Brewers"
+    },
+    "694738": {
+      "organizationId": 137,
+      "organization": "San Francisco Giants",
+      "sourceTeamId": 137,
+      "sourceTeam": "San Francisco Giants"
+    },
+    "689017": {
+      "organizationId": 119,
+      "organization": "Los Angeles Dodgers",
+      "sourceTeamId": 119,
+      "sourceTeam": "Los Angeles Dodgers"
+    },
+    "681751": {
+      "organizationId": 141,
+      "organization": "Toronto Blue Jays",
+      "sourceTeamId": 141,
+      "sourceTeam": "Toronto Blue Jays"
+    },
+    "671106": {
+      "organizationId": 114,
+      "organization": "Cleveland Guardians",
+      "sourceTeamId": 114,
+      "sourceTeam": "Cleveland Guardians"
+    },
+    "669302": {
+      "organizationId": 136,
+      "organization": "Seattle Mariners",
+      "sourceTeamId": 136,
+      "sourceTeam": "Seattle Mariners"
+    },
+    "701656": {
+      "organizationId": 158,
+      "organization": "Milwaukee Brewers",
+      "sourceTeamId": 158,
+      "sourceTeam": "Milwaukee Brewers"
+    },
+    "701121": {
+      "organizationId": 117,
+      "organization": "Houston Astros",
+      "sourceTeamId": 117,
+      "sourceTeam": "Houston Astros"
+    },
+    "657277": {
+      "organizationId": 137,
+      "organization": "San Francisco Giants",
+      "sourceTeamId": 137,
+      "sourceTeam": "San Francisco Giants"
+    },
+    "642152": {
+      "organizationId": 143,
+      "organization": "Philadelphia Phillies",
+      "sourceTeamId": 143,
+      "sourceTeam": "Philadelphia Phillies"
+    },
+    "686973": {
+      "organizationId": 141,
+      "organization": "Toronto Blue Jays",
+      "sourceTeamId": 141,
+      "sourceTeam": "Toronto Blue Jays"
+    },
+    "668674": {
+      "organizationId": 118,
+      "organization": "Kansas City Royals",
+      "sourceTeamId": 118,
+      "sourceTeam": "Kansas City Royals"
+    },
+    "608337": {
+      "organizationId": 135,
+      "organization": "San Diego Padres",
+      "sourceTeamId": 135,
+      "sourceTeam": "San Diego Padres"
+    },
+    "608371": {
+      "organizationId": 145,
+      "organization": "Chicago White Sox",
+      "sourceTeamId": 145,
+      "sourceTeam": "Chicago White Sox"
+    },
+    "679883": {
+      "organizationId": 118,
+      "organization": "Kansas City Royals",
+      "sourceTeamId": 118,
+      "sourceTeam": "Kansas City Royals"
+    },
+    "622491": {
+      "organizationId": 145,
+      "organization": "Chicago White Sox",
+      "sourceTeamId": 145,
+      "sourceTeam": "Chicago White Sox"
+    },
+    "681168": {
+      "organizationId": 140,
+      "organization": "Texas Rangers",
+      "sourceTeamId": 140,
+      "sourceTeam": "Texas Rangers"
+    },
+    "801725": {
+      "organizationId": 110,
+      "organization": "Baltimore Orioles",
+      "sourceTeamId": 110,
+      "sourceTeam": "Baltimore Orioles"
+    },
+    "472610": {
+      "organizationId": 142,
+      "organization": "Minnesota Twins",
+      "sourceTeamId": 142,
+      "sourceTeam": "Minnesota Twins"
+    },
+    "703725": {
+      "organizationId": 138,
+      "organization": "St. Louis Cardinals",
+      "sourceTeamId": 138,
+      "sourceTeam": "St. Louis Cardinals"
+    },
+    "661563": {
+      "organizationId": 147,
+      "organization": "New York Yankees",
+      "sourceTeamId": 147,
+      "sourceTeam": "New York Yankees"
+    },
+    "665622": {
+      "organizationId": 133,
+      "organization": "Athletics",
+      "sourceTeamId": 133,
+      "sourceTeam": "Athletics"
+    },
+    "682825": {
+      "organizationId": 113,
+      "organization": "Cincinnati Reds",
+      "sourceTeamId": 113,
+      "sourceTeam": "Cincinnati Reds"
+    },
+    "806960": {
+      "organizationId": 133,
+      "organization": "Athletics",
+      "sourceTeamId": 133,
+      "sourceTeam": "Athletics"
+    },
+    "691384": {
+      "organizationId": 120,
+      "organization": "Washington Nationals",
+      "sourceTeamId": 120,
+      "sourceTeam": "Washington Nationals"
+    },
+    "622663": {
+      "organizationId": 133,
+      "organization": "Athletics",
+      "sourceTeamId": 133,
+      "sourceTeam": "Athletics"
+    },
+    "681432": {
+      "organizationId": 112,
+      "organization": "Chicago Cubs",
+      "sourceTeamId": 112,
+      "sourceTeam": "Chicago Cubs"
+    },
+    "684665": {
+      "organizationId": 108,
+      "organization": "Los Angeles Angels",
+      "sourceTeamId": 108,
+      "sourceTeam": "Los Angeles Angels"
+    },
+    "596133": {
+      "organizationId": 134,
+      "organization": "Pittsburgh Pirates",
+      "sourceTeamId": 134,
+      "sourceTeam": "Pittsburgh Pirates"
+    },
+    "680689": {
+      "organizationId": 158,
+      "organization": "Milwaukee Brewers",
+      "sourceTeamId": 158,
+      "sourceTeam": "Milwaukee Brewers"
+    },
+    "669022": {
+      "organizationId": 140,
+      "organization": "Texas Rangers",
+      "sourceTeamId": 140,
+      "sourceTeam": "Texas Rangers"
+    },
+    "655889": {
+      "organizationId": 139,
+      "organization": "Tampa Bay Rays",
+      "sourceTeamId": 139,
+      "sourceTeam": "Tampa Bay Rays"
+    },
+    "594835": {
+      "organizationId": 140,
+      "organization": "Texas Rangers",
+      "sourceTeamId": 140,
+      "sourceTeam": "Texas Rangers"
+    },
+    "694397": {
+      "organizationId": 142,
+      "organization": "Minnesota Twins",
+      "sourceTeamId": 142,
+      "sourceTeam": "Minnesota Twins"
+    },
+    "643410": {
+      "organizationId": 133,
+      "organization": "Athletics",
+      "sourceTeamId": 133,
+      "sourceTeam": "Athletics"
+    },
+    "815081": {
+      "organizationId": 115,
+      "organization": "Colorado Rockies",
+      "sourceTeamId": 115,
+      "sourceTeam": "Colorado Rockies"
+    },
+    "527048": {
+      "organizationId": 144,
+      "organization": "Atlanta Braves",
+      "sourceTeamId": 144,
+      "sourceTeam": "Atlanta Braves"
+    },
+    "690279": {
+      "organizationId": 115,
+      "organization": "Colorado Rockies",
+      "sourceTeamId": 115,
+      "sourceTeam": "Colorado Rockies"
+    },
+    "686930": {
+      "organizationId": 133,
+      "organization": "Athletics",
+      "sourceTeamId": 133,
+      "sourceTeam": "Athletics"
+    },
+    "696131": {
+      "organizationId": 118,
+      "organization": "Kansas City Royals",
+      "sourceTeamId": 118,
+      "sourceTeam": "Kansas City Royals"
+    },
+    "669438": {
+      "organizationId": 139,
+      "organization": "Tampa Bay Rays",
+      "sourceTeamId": 139,
+      "sourceTeam": "Tampa Bay Rays"
+    },
+    "689254": {
+      "organizationId": 141,
+      "organization": "Toronto Blue Jays",
+      "sourceTeamId": 141,
+      "sourceTeam": "Toronto Blue Jays"
+    },
+    "695243": {
+      "organizationId": 135,
+      "organization": "San Diego Padres",
+      "sourceTeamId": 135,
+      "sourceTeam": "San Diego Padres"
+    },
+    "682254": {
+      "organizationId": 134,
+      "organization": "Pittsburgh Pirates",
+      "sourceTeamId": 134,
+      "sourceTeam": "Pittsburgh Pirates"
+    },
+    "666374": {
+      "organizationId": 136,
+      "organization": "Seattle Mariners",
+      "sourceTeamId": 136,
+      "sourceTeam": "Seattle Mariners"
+    },
+    "670036": {
+      "organizationId": 114,
+      "organization": "Cleveland Guardians",
+      "sourceTeamId": 114,
+      "sourceTeam": "Cleveland Guardians"
+    },
+    "657424": {
+      "organizationId": 137,
+      "organization": "San Francisco Giants",
+      "sourceTeamId": 137,
+      "sourceTeam": "San Francisco Giants"
+    },
+    "640454": {
+      "organizationId": 120,
+      "organization": "Washington Nationals",
+      "sourceTeamId": 120,
+      "sourceTeam": "Washington Nationals"
+    },
+    "690155": {
+      "organizationId": 138,
+      "organization": "St. Louis Cardinals",
+      "sourceTeamId": 138,
+      "sourceTeam": "St. Louis Cardinals"
+    },
+    "676910": {
+      "organizationId": 121,
+      "organization": "New York Mets",
+      "sourceTeamId": 121,
+      "sourceTeam": "New York Mets"
+    },
+    "621381": {
+      "organizationId": 118,
+      "organization": "Kansas City Royals",
+      "sourceTeamId": 118,
+      "sourceTeam": "Kansas City Royals"
+    },
+    "694335": {
+      "organizationId": 138,
+      "organization": "St. Louis Cardinals",
+      "sourceTeamId": 138,
+      "sourceTeam": "St. Louis Cardinals"
+    },
+    "663362": {
+      "organizationId": 120,
+      "organization": "Washington Nationals",
+      "sourceTeamId": 120,
+      "sourceTeam": "Washington Nationals"
+    },
+    "683363": {
+      "organizationId": 137,
+      "organization": "San Francisco Giants",
+      "sourceTeamId": 137,
+      "sourceTeam": "San Francisco Giants"
+    },
+    "571510": {
+      "organizationId": 112,
+      "organization": "Chicago Cubs",
+      "sourceTeamId": 112,
+      "sourceTeam": "Chicago Cubs"
+    },
+    "669461": {
+      "organizationId": 138,
+      "organization": "St. Louis Cardinals",
+      "sourceTeamId": 138,
+      "sourceTeam": "St. Louis Cardinals"
+    },
+    "608331": {
+      "organizationId": 147,
+      "organization": "New York Yankees",
+      "sourceTeamId": 147,
+      "sourceTeam": "New York Yankees"
+    },
+    "668820": {
+      "organizationId": 120,
+      "organization": "Washington Nationals",
+      "sourceTeamId": 120,
+      "sourceTeam": "Washington Nationals"
+    },
+    "676661": {
+      "organizationId": 143,
+      "organization": "Philadelphia Phillies",
+      "sourceTeamId": 143,
+      "sourceTeam": "Philadelphia Phillies"
+    },
+    "676974": {
+      "organizationId": 146,
+      "organization": "Miami Marlins",
+      "sourceTeamId": 146,
+      "sourceTeam": "Miami Marlins"
+    },
+    "691008": {
+      "organizationId": 138,
+      "organization": "St. Louis Cardinals",
+      "sourceTeamId": 138,
+      "sourceTeam": "St. Louis Cardinals"
+    },
+    "453286": {
+      "organizationId": 141,
+      "organization": "Toronto Blue Jays",
+      "sourceTeamId": 141,
+      "sourceTeam": "Toronto Blue Jays"
+    },
+    "518876": {
+      "organizationId": 109,
+      "organization": "Arizona Diamondbacks",
+      "sourceTeamId": 109,
+      "sourceTeam": "Arizona Diamondbacks"
+    },
+    "605242": {
+      "organizationId": 147,
+      "organization": "New York Yankees",
+      "sourceTeamId": 147,
+      "sourceTeam": "New York Yankees"
+    },
+    "675627": {
+      "organizationId": 139,
+      "organization": "Tampa Bay Rays",
+      "sourceTeamId": 139,
+      "sourceTeam": "Tampa Bay Rays"
+    },
+    "547184": {
+      "organizationId": 133,
+      "organization": "Athletics",
+      "sourceTeamId": 133,
+      "sourceTeam": "Athletics"
+    },
+    "650633": {
+      "organizationId": 135,
+      "organization": "San Diego Padres",
+      "sourceTeamId": 135,
+      "sourceTeam": "San Diego Padres"
+    },
+    "547179": {
+      "organizationId": 141,
+      "organization": "Toronto Blue Jays",
+      "sourceTeamId": 141,
+      "sourceTeam": "Toronto Blue Jays"
+    },
+    "700241": {
+      "organizationId": 138,
+      "organization": "St. Louis Cardinals",
+      "sourceTeamId": 138,
+      "sourceTeam": "St. Louis Cardinals"
+    },
+    "656848": {
+      "organizationId": 146,
+      "organization": "Miami Marlins",
+      "sourceTeamId": 146,
+      "sourceTeam": "Miami Marlins"
+    },
+    "621074": {
+      "organizationId": 136,
+      "organization": "Seattle Mariners",
+      "sourceTeamId": 136,
+      "sourceTeam": "Seattle Mariners"
+    },
+    "647336": {
+      "organizationId": 109,
+      "organization": "Arizona Diamondbacks",
+      "sourceTeamId": 109,
+      "sourceTeam": "Arizona Diamondbacks"
+    },
+    "608379": {
+      "organizationId": 118,
+      "organization": "Kansas City Royals",
+      "sourceTeamId": 118,
+      "sourceTeam": "Kansas City Royals"
+    },
+    "690953": {
+      "organizationId": 142,
+      "organization": "Minnesota Twins",
+      "sourceTeamId": 142,
+      "sourceTeam": "Minnesota Twins"
+    },
+    "699044": {
+      "organizationId": 117,
+      "organization": "Houston Astros",
+      "sourceTeamId": 117,
+      "sourceTeam": "Houston Astros"
+    },
+    "681347": {
+      "organizationId": 117,
+      "organization": "Houston Astros",
+      "sourceTeamId": 117,
+      "sourceTeam": "Houston Astros"
+    },
+    "702474": {
+      "organizationId": 142,
+      "organization": "Minnesota Twins",
+      "sourceTeamId": 142,
+      "sourceTeam": "Minnesota Twins"
+    },
+    "571945": {
+      "organizationId": 120,
+      "organization": "Washington Nationals",
+      "sourceTeamId": 120,
+      "sourceTeam": "Washington Nationals"
+    },
+    "683352": {
+      "organizationId": 109,
+      "organization": "Arizona Diamondbacks",
+      "sourceTeamId": 109,
+      "sourceTeam": "Arizona Diamondbacks"
+    },
+    "815083": {
+      "organizationId": 108,
+      "organization": "Los Angeles Angels",
+      "sourceTeamId": 108,
+      "sourceTeam": "Los Angeles Angels"
+    },
+    "656605": {
+      "organizationId": 134,
+      "organization": "Pittsburgh Pirates",
+      "sourceTeamId": 134,
+      "sourceTeam": "Pittsburgh Pirates"
+    },
+    "687765": {
+      "organizationId": 118,
+      "organization": "Kansas City Royals",
+      "sourceTeamId": 118,
+      "sourceTeam": "Kansas City Royals"
+    },
+    "680730": {
+      "organizationId": 120,
+      "organization": "Washington Nationals",
+      "sourceTeamId": 120,
+      "sourceTeam": "Washington Nationals"
+    },
+    "681320": {
+      "organizationId": 121,
+      "organization": "New York Mets",
+      "sourceTeamId": 121,
+      "sourceTeam": "New York Mets"
+    },
+    "663878": {
+      "organizationId": 118,
+      "organization": "Kansas City Royals",
+      "sourceTeamId": 118,
+      "sourceTeam": "Kansas City Royals"
+    },
+    "543135": {
+      "organizationId": 140,
+      "organization": "Texas Rangers",
+      "sourceTeamId": 140,
+      "sourceTeam": "Texas Rangers"
+    },
+    "689546": {
+      "organizationId": 136,
+      "organization": "Seattle Mariners",
+      "sourceTeamId": 136,
+      "sourceTeam": "Seattle Mariners"
+    },
+    "693308": {
+      "organizationId": 115,
+      "organization": "Colorado Rockies",
+      "sourceTeamId": 115,
+      "sourceTeam": "Colorado Rockies"
+    },
+    "666157": {
+      "organizationId": 113,
+      "organization": "Cincinnati Reds",
+      "sourceTeamId": 113,
+      "sourceTeam": "Cincinnati Reds"
+    },
+    "607259": {
+      "organizationId": 139,
+      "organization": "Tampa Bay Rays",
+      "sourceTeamId": 139,
+      "sourceTeam": "Tampa Bay Rays"
+    },
+    "683232": {
+      "organizationId": 118,
+      "organization": "Kansas City Royals",
+      "sourceTeamId": 118,
+      "sourceTeam": "Kansas City Royals"
+    },
+    "601713": {
+      "organizationId": 135,
+      "organization": "San Diego Padres",
+      "sourceTeamId": 135,
+      "sourceTeam": "San Diego Padres"
+    },
+    "675919": {
+      "organizationId": 110,
+      "organization": "Baltimore Orioles",
+      "sourceTeamId": 110,
+      "sourceTeam": "Baltimore Orioles"
+    },
+    "680704": {
+      "organizationId": 108,
+      "organization": "Los Angeles Angels",
+      "sourceTeamId": 108,
+      "sourceTeam": "Los Angeles Angels"
+    },
+    "702070": {
+      "organizationId": 118,
+      "organization": "Kansas City Royals",
+      "sourceTeamId": 118,
+      "sourceTeam": "Kansas City Royals"
+    },
+    "668716": {
+      "organizationId": 134,
+      "organization": "Pittsburgh Pirates",
+      "sourceTeamId": 134,
+      "sourceTeam": "Pittsburgh Pirates"
+    },
+    "702273": {
+      "organizationId": 145,
+      "organization": "Chicago White Sox",
+      "sourceTeamId": 145,
+      "sourceTeam": "Chicago White Sox"
+    },
+    "676510": {
+      "organizationId": 118,
+      "organization": "Kansas City Royals",
+      "sourceTeamId": 118,
+      "sourceTeam": "Kansas City Royals"
+    },
+    "663884": {
+      "organizationId": 140,
+      "organization": "Texas Rangers",
+      "sourceTeamId": 140,
+      "sourceTeam": "Texas Rangers"
+    },
+    "690997": {
+      "organizationId": 121,
+      "organization": "New York Mets",
+      "sourceTeamId": 121,
+      "sourceTeam": "New York Mets"
+    },
+    "689147": {
+      "organizationId": 143,
+      "organization": "Philadelphia Phillies",
+      "sourceTeamId": 143,
+      "sourceTeam": "Philadelphia Phillies"
+    },
+    "687377": {
+      "organizationId": 120,
+      "organization": "Washington Nationals",
+      "sourceTeamId": 120,
+      "sourceTeam": "Washington Nationals"
+    },
+    "674370": {
+      "organizationId": 145,
+      "organization": "Chicago White Sox",
+      "sourceTeamId": 145,
+      "sourceTeam": "Chicago White Sox"
+    },
+    "702566": {
+      "organizationId": 144,
+      "organization": "Atlanta Braves",
+      "sourceTeamId": 144,
+      "sourceTeam": "Atlanta Braves"
+    },
+    "676571": {
+      "organizationId": 120,
+      "organization": "Washington Nationals",
+      "sourceTeamId": 120,
+      "sourceTeam": "Washington Nationals"
+    },
+    "800048": {
+      "organizationId": 114,
+      "organization": "Cleveland Guardians",
+      "sourceTeamId": 114,
+      "sourceTeam": "Cleveland Guardians"
+    },
+    "656786": {
+      "organizationId": 115,
+      "organization": "Colorado Rockies",
+      "sourceTeamId": 115,
+      "sourceTeam": "Colorado Rockies"
+    },
+    "571578": {
+      "organizationId": 141,
+      "organization": "Toronto Blue Jays",
+      "sourceTeamId": 141,
+      "sourceTeam": "Toronto Blue Jays"
+    },
+    "687287": {
+      "organizationId": 146,
+      "organization": "Miami Marlins",
+      "sourceTeamId": 146,
+      "sourceTeam": "Miami Marlins"
+    },
+    "663776": {
+      "organizationId": 111,
+      "organization": "Boston Red Sox",
+      "sourceTeamId": 111,
+      "sourceTeam": "Boston Red Sox"
+    },
+    "621112": {
+      "organizationId": 147,
+      "organization": "New York Yankees",
+      "sourceTeamId": 147,
+      "sourceTeam": "New York Yankees"
+    },
+    "801434": {
+      "organizationId": 119,
+      "organization": "Los Angeles Dodgers",
+      "sourceTeamId": 119,
+      "sourceTeam": "Los Angeles Dodgers"
+    },
+    "623149": {
+      "organizationId": 141,
+      "organization": "Toronto Blue Jays",
+      "sourceTeamId": 141,
+      "sourceTeam": "Toronto Blue Jays"
+    },
+    "694973": {
+      "organizationId": 134,
+      "organization": "Pittsburgh Pirates",
+      "sourceTeamId": 134,
+      "sourceTeam": "Pittsburgh Pirates"
+    },
+    "687606": {
+      "organizationId": 120,
+      "organization": "Washington Nationals",
+      "sourceTeamId": 120,
+      "sourceTeam": "Washington Nationals"
+    },
+    "801139": {
+      "organizationId": 111,
+      "organization": "Boston Red Sox",
+      "sourceTeamId": 111,
+      "sourceTeam": "Boston Red Sox"
+    },
+    "664126": {
+      "organizationId": 146,
+      "organization": "Miami Marlins",
+      "sourceTeamId": 146,
+      "sourceTeam": "Miami Marlins"
+    },
+    "663567": {
+      "organizationId": 117,
+      "organization": "Houston Astros",
+      "sourceTeamId": 117,
+      "sourceTeam": "Houston Astros"
+    },
+    "657265": {
+      "organizationId": 138,
+      "organization": "St. Louis Cardinals",
+      "sourceTeamId": 138,
+      "sourceTeam": "St. Louis Cardinals"
+    },
+    "682608": {
+      "organizationId": 140,
+      "organization": "Texas Rangers",
+      "sourceTeamId": 140,
+      "sourceTeam": "Texas Rangers"
+    },
+    "688883": {
+      "organizationId": 114,
+      "organization": "Cleveland Guardians",
+      "sourceTeamId": 114,
+      "sourceTeam": "Cleveland Guardians"
+    },
+    "664208": {
+      "organizationId": 112,
+      "organization": "Chicago Cubs",
+      "sourceTeamId": 112,
+      "sourceTeam": "Chicago Cubs"
+    },
+    "691769": {
+      "organizationId": 137,
+      "organization": "San Francisco Giants",
+      "sourceTeamId": 137,
+      "sourceTeam": "San Francisco Giants"
+    },
+    "572955": {
+      "organizationId": 113,
+      "organization": "Cincinnati Reds",
+      "sourceTeamId": 113,
+      "sourceTeam": "Cincinnati Reds"
+    },
+    "687273": {
+      "organizationId": 138,
+      "organization": "St. Louis Cardinals",
+      "sourceTeamId": 138,
+      "sourceTeam": "St. Louis Cardinals"
+    },
+    "628452": {
+      "organizationId": 144,
+      "organization": "Atlanta Braves",
+      "sourceTeamId": 144,
+      "sourceTeam": "Atlanta Braves"
+    },
+    "677976": {
+      "organizationId": 118,
+      "organization": "Kansas City Royals",
+      "sourceTeamId": 118,
+      "sourceTeam": "Kansas City Royals"
+    },
+    "681190": {
+      "organizationId": 135,
+      "organization": "San Diego Padres",
+      "sourceTeamId": 135,
+      "sourceTeam": "San Diego Padres"
+    },
+    "624133": {
+      "organizationId": 111,
+      "organization": "Boston Red Sox",
+      "sourceTeamId": 111,
+      "sourceTeam": "Boston Red Sox"
+    },
+    "678061": {
+      "organizationId": 144,
+      "organization": "Atlanta Braves",
+      "sourceTeamId": 144,
+      "sourceTeam": "Atlanta Braves"
+    },
+    "670103": {
+      "organizationId": 111,
+      "organization": "Boston Red Sox",
+      "sourceTeamId": 111,
+      "sourceTeam": "Boston Red Sox"
+    },
+    "672282": {
+      "organizationId": 108,
+      "organization": "Los Angeles Angels",
+      "sourceTeamId": 108,
+      "sourceTeam": "Los Angeles Angels"
+    },
+    "665665": {
+      "organizationId": 137,
+      "organization": "San Francisco Giants",
+      "sourceTeamId": 137,
+      "sourceTeam": "San Francisco Giants"
+    },
+    "625643": {
+      "organizationId": 144,
+      "organization": "Atlanta Braves",
+      "sourceTeamId": 144,
+      "sourceTeam": "Atlanta Braves"
+    },
+    "695076": {
+      "organizationId": 113,
+      "organization": "Cincinnati Reds",
+      "sourceTeamId": 113,
+      "sourceTeam": "Cincinnati Reds"
+    },
+    "663992": {
+      "organizationId": 120,
+      "organization": "Washington Nationals",
+      "sourceTeamId": 120,
+      "sourceTeam": "Washington Nationals"
+    },
+    "694357": {
+      "organizationId": 141,
+      "organization": "Toronto Blue Jays",
+      "sourceTeamId": 141,
+      "sourceTeam": "Toronto Blue Jays"
+    },
+    "676568": {
+      "organizationId": 116,
+      "organization": "Detroit Tigers",
+      "sourceTeamId": 116,
+      "sourceTeam": "Detroit Tigers"
+    },
+    "670329": {
+      "organizationId": 110,
+      "organization": "Baltimore Orioles",
+      "sourceTeamId": 110,
+      "sourceTeam": "Baltimore Orioles"
+    },
+    "683000": {
+      "organizationId": 120,
+      "organization": "Washington Nationals",
+      "sourceTeamId": 120,
+      "sourceTeam": "Washington Nationals"
+    },
+    "702303": {
+      "organizationId": 112,
+      "organization": "Chicago Cubs",
+      "sourceTeamId": 112,
+      "sourceTeam": "Chicago Cubs"
+    },
+    "676617": {
+      "organizationId": 138,
+      "organization": "St. Louis Cardinals",
+      "sourceTeamId": 138,
+      "sourceTeam": "St. Louis Cardinals"
+    },
+    "689981": {
+      "organizationId": 116,
+      "organization": "Detroit Tigers",
+      "sourceTeamId": 116,
+      "sourceTeam": "Detroit Tigers"
+    },
+    "592662": {
+      "organizationId": 135,
+      "organization": "San Diego Padres",
+      "sourceTeamId": 135,
+      "sourceTeam": "San Diego Padres"
+    },
+    "695239": {
+      "organizationId": 140,
+      "organization": "Texas Rangers",
+      "sourceTeamId": 140,
+      "sourceTeam": "Texas Rangers"
+    },
+    "702281": {
+      "organizationId": 146,
+      "organization": "Miami Marlins",
+      "sourceTeamId": 146,
+      "sourceTeam": "Miami Marlins"
+    },
+    "676395": {
+      "organizationId": 140,
+      "organization": "Texas Rangers",
+      "sourceTeamId": 140,
+      "sourceTeam": "Texas Rangers"
+    },
+    "688107": {
+      "organizationId": 158,
+      "organization": "Milwaukee Brewers",
+      "sourceTeamId": 158,
+      "sourceTeam": "Milwaukee Brewers"
+    },
+    "476594": {
+      "organizationId": 121,
+      "organization": "New York Mets",
+      "sourceTeamId": 121,
+      "sourceTeam": "New York Mets"
+    },
+    "663158": {
+      "organizationId": 144,
+      "organization": "Atlanta Braves",
+      "sourceTeamId": 144,
+      "sourceTeam": "Atlanta Braves"
+    },
+    "682610": {
+      "organizationId": 117,
+      "organization": "Houston Astros",
+      "sourceTeamId": 117,
+      "sourceTeam": "Houston Astros"
+    },
+    "808963": {
+      "organizationId": 119,
+      "organization": "Los Angeles Dodgers",
+      "sourceTeamId": 119,
+      "sourceTeam": "Los Angeles Dodgers"
+    },
+    "691548": {
+      "organizationId": 144,
+      "organization": "Atlanta Braves",
+      "sourceTeamId": 144,
+      "sourceTeam": "Atlanta Braves"
+    },
+    "676760": {
+      "organizationId": 113,
+      "organization": "Cincinnati Reds",
+      "sourceTeamId": 113,
+      "sourceTeam": "Cincinnati Reds"
+    },
+    "669854": {
+      "organizationId": 117,
+      "organization": "Houston Astros",
+      "sourceTeamId": 117,
+      "sourceTeam": "Houston Astros"
+    },
+    "621366": {
+      "organizationId": 137,
+      "organization": "San Francisco Giants",
+      "sourceTeamId": 137,
+      "sourceTeam": "San Francisco Giants"
+    },
+    "663372": {
+      "organizationId": 115,
+      "organization": "Colorado Rockies",
+      "sourceTeamId": 115,
+      "sourceTeam": "Colorado Rockies"
+    },
+    "681676": {
+      "organizationId": 138,
+      "organization": "St. Louis Cardinals",
+      "sourceTeamId": 138,
+      "sourceTeam": "St. Louis Cardinals"
+    },
+    "687473": {
+      "organizationId": 146,
+      "organization": "Miami Marlins",
+      "sourceTeamId": 146,
+      "sourceTeam": "Miami Marlins"
+    },
+    "664854": {
+      "organizationId": 110,
+      "organization": "Baltimore Orioles",
+      "sourceTeamId": 110,
+      "sourceTeam": "Baltimore Orioles"
+    },
+    "696270": {
+      "organizationId": 108,
+      "organization": "Los Angeles Angels",
+      "sourceTeamId": 108,
+      "sourceTeam": "Los Angeles Angels"
+    },
+    "669020": {
+      "organizationId": 112,
+      "organization": "Chicago Cubs",
+      "sourceTeamId": 112,
+      "sourceTeam": "Chicago Cubs"
+    },
+    "657044": {
+      "organizationId": 109,
+      "organization": "Arizona Diamondbacks",
+      "sourceTeamId": 109,
+      "sourceTeam": "Arizona Diamondbacks"
+    },
+    "676254": {
+      "organizationId": 137,
+      "organization": "San Francisco Giants",
+      "sourceTeamId": 137,
+      "sourceTeam": "San Francisco Giants"
+    },
+    "670245": {
+      "organizationId": 108,
+      "organization": "Los Angeles Angels",
+      "sourceTeamId": 108,
+      "sourceTeam": "Los Angeles Angels"
+    },
+    "677960": {
+      "organizationId": 147,
+      "organization": "New York Yankees",
+      "sourceTeamId": 147,
+      "sourceTeam": "New York Yankees"
+    },
+    "680802": {
+      "organizationId": 117,
+      "organization": "Houston Astros",
+      "sourceTeamId": 117,
+      "sourceTeam": "Houston Astros"
+    },
+    "642232": {
+      "organizationId": 147,
+      "organization": "New York Yankees",
+      "sourceTeamId": 147,
+      "sourceTeam": "New York Yankees"
+    },
+    "666171": {
+      "organizationId": 112,
+      "organization": "Chicago Cubs",
+      "sourceTeamId": 112,
+      "sourceTeam": "Chicago Cubs"
+    },
+    "669194": {
+      "organizationId": 109,
+      "organization": "Arizona Diamondbacks",
+      "sourceTeamId": 109,
+      "sourceTeam": "Arizona Diamondbacks"
+    },
+    "592773": {
+      "organizationId": 138,
+      "organization": "St. Louis Cardinals",
+      "sourceTeamId": 138,
+      "sourceTeam": "St. Louis Cardinals"
+    },
+    "691951": {
+      "organizationId": 108,
+      "organization": "Los Angeles Angels",
+      "sourceTeamId": 108,
+      "sourceTeam": "Los Angeles Angels"
+    },
+    "696147": {
+      "organizationId": 108,
+      "organization": "Los Angeles Angels",
+      "sourceTeamId": 108,
+      "sourceTeam": "Los Angeles Angels"
+    },
+    "656529": {
+      "organizationId": 137,
+      "organization": "San Francisco Giants",
+      "sourceTeamId": 137,
+      "sourceTeam": "San Francisco Giants"
+    },
+    "594580": {
+      "organizationId": 113,
+      "organization": "Cincinnati Reds",
+      "sourceTeamId": 113,
+      "sourceTeam": "Cincinnati Reds"
+    },
+    "671111": {
+      "organizationId": 108,
+      "organization": "Los Angeles Angels",
+      "sourceTeamId": 108,
+      "sourceTeam": "Los Angeles Angels"
+    },
+    "696519": {
+      "organizationId": 108,
+      "organization": "Los Angeles Angels",
+      "sourceTeamId": 108,
+      "sourceTeam": "Los Angeles Angels"
+    },
+    "645261": {
+      "organizationId": 146,
+      "organization": "Miami Marlins",
+      "sourceTeamId": 146,
+      "sourceTeam": "Miami Marlins"
+    },
+    "605130": {
+      "organizationId": 133,
+      "organization": "Athletics",
+      "sourceTeamId": 133,
+      "sourceTeam": "Athletics"
+    },
+    "656240": {
+      "organizationId": 133,
+      "organization": "Athletics",
+      "sourceTeamId": 133,
+      "sourceTeam": "Athletics"
+    },
+    "680732": {
+      "organizationId": 145,
+      "organization": "Chicago White Sox",
+      "sourceTeamId": 145,
+      "sourceTeam": "Chicago White Sox"
+    },
+    "640455": {
+      "organizationId": 121,
+      "organization": "New York Mets",
+      "sourceTeamId": 121,
+      "sourceTeam": "New York Mets"
+    },
+    "656794": {
+      "organizationId": 145,
+      "organization": "Chicago White Sox",
+      "sourceTeamId": 145,
+      "sourceTeam": "Chicago White Sox"
+    },
+    "807743": {
+      "organizationId": 115,
+      "organization": "Colorado Rockies",
+      "sourceTeamId": 115,
+      "sourceTeam": "Colorado Rockies"
+    },
+    "622554": {
+      "organizationId": 136,
+      "organization": "Seattle Mariners",
+      "sourceTeamId": 136,
+      "sourceTeam": "Seattle Mariners"
+    },
+    "678020": {
+      "organizationId": 119,
+      "organization": "Los Angeles Dodgers",
+      "sourceTeamId": 119,
+      "sourceTeam": "Los Angeles Dodgers"
+    },
+    "686751": {
+      "organizationId": 133,
+      "organization": "Athletics",
+      "sourceTeamId": 133,
+      "sourceTeam": "Athletics"
+    },
+    "675920": {
+      "organizationId": 137,
+      "organization": "San Francisco Giants",
+      "sourceTeamId": 137,
+      "sourceTeam": "San Francisco Giants"
+    },
+    "607625": {
+      "organizationId": 118,
+      "organization": "Kansas City Royals",
+      "sourceTeamId": 118,
+      "sourceTeam": "Kansas City Royals"
+    },
+    "661527": {
+      "organizationId": 111,
+      "organization": "Boston Red Sox",
+      "sourceTeamId": 111,
+      "sourceTeam": "Boston Red Sox"
+    },
+    "669358": {
+      "organizationId": 110,
+      "organization": "Baltimore Orioles",
+      "sourceTeamId": 110,
+      "sourceTeam": "Baltimore Orioles"
+    },
+    "669456": {
+      "organizationId": 141,
+      "organization": "Toronto Blue Jays",
+      "sourceTeamId": 141,
+      "sourceTeam": "Toronto Blue Jays"
+    },
+    "675660": {
+      "organizationId": 158,
+      "organization": "Milwaukee Brewers",
+      "sourceTeamId": 158,
+      "sourceTeam": "Milwaukee Brewers"
+    },
+    "663556": {
+      "organizationId": 139,
+      "organization": "Tampa Bay Rays",
+      "sourceTeamId": 139,
+      "sourceTeam": "Tampa Bay Rays"
+    },
+    "681343": {
+      "organizationId": 145,
+      "organization": "Chicago White Sox",
+      "sourceTeamId": 145,
+      "sourceTeam": "Chicago White Sox"
+    },
+    "641312": {
+      "organizationId": 108,
+      "organization": "Los Angeles Angels",
+      "sourceTeamId": 108,
+      "sourceTeam": "Los Angeles Angels"
+    },
+    "542888": {
+      "organizationId": 114,
+      "organization": "Cleveland Guardians",
+      "sourceTeamId": 114,
+      "sourceTeam": "Cleveland Guardians"
+    },
+    "684007": {
+      "organizationId": 112,
+      "organization": "Chicago Cubs",
+      "sourceTeamId": 112,
+      "sourceTeam": "Chicago Cubs"
+    },
+    "680573": {
+      "organizationId": 141,
+      "organization": "Toronto Blue Jays",
+      "sourceTeamId": 141,
+      "sourceTeam": "Toronto Blue Jays"
+    },
+    "677944": {
+      "organizationId": 114,
+      "organization": "Cleveland Guardians",
+      "sourceTeamId": 114,
+      "sourceTeam": "Cleveland Guardians"
+    },
+    "543243": {
+      "organizationId": 111,
+      "organization": "Boston Red Sox",
+      "sourceTeamId": 111,
+      "sourceTeam": "Boston Red Sox"
+    },
+    "681293": {
+      "organizationId": 141,
+      "organization": "Toronto Blue Jays",
+      "sourceTeamId": 141,
+      "sourceTeam": "Toronto Blue Jays"
+    },
+    "702352": {
+      "organizationId": 118,
+      "organization": "Kansas City Royals",
+      "sourceTeamId": 118,
+      "sourceTeam": "Kansas City Royals"
+    },
+    "693686": {
+      "organizationId": 141,
+      "organization": "Toronto Blue Jays",
+      "sourceTeamId": 141,
+      "sourceTeam": "Toronto Blue Jays"
+    },
+    "675911": {
+      "organizationId": 144,
+      "organization": "Atlanta Braves",
+      "sourceTeamId": 144,
+      "sourceTeam": "Atlanta Braves"
+    },
+    "663568": {
+      "organizationId": 118,
+      "organization": "Kansas City Royals",
+      "sourceTeamId": 118,
+      "sourceTeam": "Kansas City Royals"
+    },
+    "674444": {
+      "organizationId": 118,
+      "organization": "Kansas City Royals",
+      "sourceTeamId": 118,
+      "sourceTeam": "Kansas City Royals"
+    },
+    "571927": {
+      "organizationId": 139,
+      "organization": "Tampa Bay Rays",
+      "sourceTeamId": 139,
+      "sourceTeam": "Tampa Bay Rays"
+    },
+    "595345": {
+      "organizationId": 117,
+      "organization": "Houston Astros",
+      "sourceTeamId": 117,
+      "sourceTeam": "Houston Astros"
+    },
+    "669298": {
+      "organizationId": 115,
+      "organization": "Colorado Rockies",
+      "sourceTeamId": 115,
+      "sourceTeam": "Colorado Rockies"
+    },
+    "592836": {
+      "organizationId": 143,
+      "organization": "Philadelphia Phillies",
+      "sourceTeamId": 143,
+      "sourceTeam": "Philadelphia Phillies"
+    },
+    "671737": {
+      "organizationId": 142,
+      "organization": "Minnesota Twins",
+      "sourceTeamId": 142,
+      "sourceTeam": "Minnesota Twins"
+    },
+    "681084": {
+      "organizationId": 141,
+      "organization": "Toronto Blue Jays",
+      "sourceTeamId": 141,
+      "sourceTeam": "Toronto Blue Jays"
+    },
+    "621383": {
+      "organizationId": 143,
+      "organization": "Philadelphia Phillies",
+      "sourceTeamId": 143,
+      "sourceTeam": "Philadelphia Phillies"
+    },
+    "676440": {
+      "organizationId": 114,
+      "organization": "Cleveland Guardians",
+      "sourceTeamId": 114,
+      "sourceTeam": "Cleveland Guardians"
+    },
+    "685299": {
+      "organizationId": 115,
+      "organization": "Colorado Rockies",
+      "sourceTeamId": 115,
+      "sourceTeam": "Colorado Rockies"
+    },
+    "656557": {
+      "organizationId": 111,
+      "organization": "Boston Red Sox",
+      "sourceTeamId": 111,
+      "sourceTeam": "Boston Red Sox"
+    },
+    "701780": {
+      "organizationId": 145,
+      "organization": "Chicago White Sox",
+      "sourceTeamId": 145,
+      "sourceTeam": "Chicago White Sox"
+    },
+    "663432": {
+      "organizationId": 116,
+      "organization": "Detroit Tigers",
+      "sourceTeamId": 116,
+      "sourceTeam": "Detroit Tigers"
+    },
+    "656945": {
+      "organizationId": 119,
+      "organization": "Los Angeles Dodgers",
+      "sourceTeamId": 119,
+      "sourceTeam": "Los Angeles Dodgers"
+    },
+    "669373": {
+      "organizationId": 119,
+      "organization": "Los Angeles Dodgers",
+      "sourceTeamId": 119,
+      "sourceTeam": "Los Angeles Dodgers"
+    },
+    "837227": {
+      "organizationId": 117,
+      "organization": "Houston Astros",
+      "sourceTeamId": 117,
+      "sourceTeam": "Houston Astros"
+    },
+    "642048": {
+      "organizationId": 108,
+      "organization": "Los Angeles Angels",
+      "sourceTeamId": 108,
+      "sourceTeam": "Los Angeles Angels"
+    },
+    "664199": {
+      "organizationId": 109,
+      "organization": "Arizona Diamondbacks",
+      "sourceTeamId": 109,
+      "sourceTeam": "Arizona Diamondbacks"
+    },
+    "688497": {
+      "organizationId": 133,
+      "organization": "Athletics",
+      "sourceTeamId": 133,
+      "sourceTeam": "Athletics"
+    },
+    "573124": {
+      "organizationId": 142,
+      "organization": "Minnesota Twins",
+      "sourceTeamId": 142,
+      "sourceTeam": "Minnesota Twins"
+    },
+    "622088": {
+      "organizationId": 113,
+      "organization": "Cincinnati Reds",
+      "sourceTeamId": 113,
+      "sourceTeam": "Cincinnati Reds"
+    },
+    "623381": {
+      "organizationId": 158,
+      "organization": "Milwaukee Brewers",
+      "sourceTeamId": 158,
+      "sourceTeam": "Milwaukee Brewers"
+    },
+    "682120": {
+      "organizationId": 114,
+      "organization": "Cleveland Guardians",
+      "sourceTeamId": 114,
+      "sourceTeam": "Cleveland Guardians"
+    },
+    "657612": {
+      "organizationId": 147,
+      "organization": "New York Yankees",
+      "sourceTeamId": 147,
+      "sourceTeam": "New York Yankees"
+    },
+    "641835": {
+      "organizationId": 143,
+      "organization": "Philadelphia Phillies",
+      "sourceTeamId": 143,
+      "sourceTeam": "Philadelphia Phillies"
+    },
+    "668964": {
+      "organizationId": 121,
+      "organization": "New York Mets",
+      "sourceTeamId": 121,
+      "sourceTeam": "New York Mets"
+    },
+    "676680": {
+      "organizationId": 120,
+      "organization": "Washington Nationals",
+      "sourceTeamId": 120,
+      "sourceTeam": "Washington Nationals"
+    },
+    "592454": {
+      "organizationId": 111,
+      "organization": "Boston Red Sox",
+      "sourceTeamId": 111,
+      "sourceTeam": "Boston Red Sox"
+    },
+    "667297": {
+      "organizationId": 142,
+      "organization": "Minnesota Twins",
+      "sourceTeamId": 142,
+      "sourceTeam": "Minnesota Twins"
+    },
+    "608372": {
+      "organizationId": 115,
+      "organization": "Colorado Rockies",
+      "sourceTeamId": 115,
+      "sourceTeam": "Colorado Rockies"
+    },
+    "664062": {
+      "organizationId": 118,
+      "organization": "Kansas City Royals",
+      "sourceTeamId": 118,
+      "sourceTeam": "Kansas City Royals"
+    },
+    "663574": {
+      "organizationId": 113,
+      "organization": "Cincinnati Reds",
+      "sourceTeamId": 113,
+      "sourceTeam": "Cincinnati Reds"
+    },
+    "701519": {
+      "organizationId": 142,
+      "organization": "Minnesota Twins",
+      "sourceTeamId": 142,
+      "sourceTeam": "Minnesota Twins"
+    },
+    "805345": {
+      "organizationId": 137,
+      "organization": "San Francisco Giants",
+      "sourceTeamId": 137,
+      "sourceTeam": "San Francisco Giants"
+    },
+    "663423": {
+      "organizationId": 112,
+      "organization": "Chicago Cubs",
+      "sourceTeamId": 112,
+      "sourceTeam": "Chicago Cubs"
+    },
+    "694680": {
+      "organizationId": 108,
+      "organization": "Los Angeles Angels",
+      "sourceTeamId": 108,
+      "sourceTeam": "Los Angeles Angels"
+    },
+    "686790": {
+      "organizationId": 137,
+      "organization": "San Francisco Giants",
+      "sourceTeamId": 137,
+      "sourceTeam": "San Francisco Giants"
+    },
+    "656730": {
+      "organizationId": 158,
+      "organization": "Milwaukee Brewers",
+      "sourceTeamId": 158,
+      "sourceTeam": "Milwaukee Brewers"
+    },
+    "670950": {
+      "organizationId": 145,
+      "organization": "Chicago White Sox",
+      "sourceTeamId": 145,
+      "sourceTeam": "Chicago White Sox"
+    },
+    "669432": {
+      "organizationId": 110,
+      "organization": "Baltimore Orioles",
+      "sourceTeamId": 110,
+      "sourceTeam": "Baltimore Orioles"
+    },
+    "592866": {
+      "organizationId": 140,
+      "organization": "Texas Rangers",
+      "sourceTeamId": 140,
+      "sourceTeam": "Texas Rangers"
+    },
+    "694346": {
+      "organizationId": 110,
+      "organization": "Baltimore Orioles",
+      "sourceTeamId": 110,
+      "sourceTeam": "Baltimore Orioles"
+    },
+    "702056": {
+      "organizationId": 141,
+      "organization": "Toronto Blue Jays",
+      "sourceTeamId": 141,
+      "sourceTeam": "Toronto Blue Jays"
+    },
+    "663941": {
+      "organizationId": 137,
+      "organization": "San Francisco Giants",
+      "sourceTeamId": 137,
+      "sourceTeam": "San Francisco Giants"
+    },
+    "675512": {
+      "organizationId": 116,
+      "organization": "Detroit Tigers",
+      "sourceTeamId": 116,
+      "sourceTeam": "Detroit Tigers"
+    },
+    "700187": {
+      "organizationId": 136,
+      "organization": "Seattle Mariners",
+      "sourceTeamId": 136,
+      "sourceTeam": "Seattle Mariners"
+    },
+    "621389": {
+      "organizationId": 112,
+      "organization": "Chicago Cubs",
+      "sourceTeamId": 112,
+      "sourceTeam": "Chicago Cubs"
+    },
+    "694494": {
+      "organizationId": 139,
+      "organization": "Tampa Bay Rays",
+      "sourceTeamId": 139,
+      "sourceTeam": "Tampa Bay Rays"
+    },
+    "680744": {
+      "organizationId": 116,
+      "organization": "Detroit Tigers",
+      "sourceTeamId": 116,
+      "sourceTeam": "Detroit Tigers"
+    },
+    "641302": {
+      "organizationId": 140,
+      "organization": "Texas Rangers",
+      "sourceTeamId": 140,
+      "sourceTeam": "Texas Rangers"
+    },
+    "699823": {
+      "organizationId": 145,
+      "organization": "Chicago White Sox",
+      "sourceTeamId": 145,
+      "sourceTeam": "Chicago White Sox"
+    },
+    "621053": {
+      "organizationId": 112,
+      "organization": "Chicago Cubs",
+      "sourceTeamId": 112,
+      "sourceTeam": "Chicago Cubs"
+    },
+    "656457": {
+      "organizationId": 145,
+      "organization": "Chicago White Sox",
+      "sourceTeamId": 145,
+      "sourceTeam": "Chicago White Sox"
+    },
+    "607192": {
+      "organizationId": 119,
+      "organization": "Los Angeles Dodgers",
+      "sourceTeamId": 119,
+      "sourceTeam": "Los Angeles Dodgers"
+    },
+    "663947": {
+      "organizationId": 116,
+      "organization": "Detroit Tigers",
+      "sourceTeamId": 116,
+      "sourceTeam": "Detroit Tigers"
+    },
+    "641755": {
+      "organizationId": 116,
+      "organization": "Detroit Tigers",
+      "sourceTeamId": 116,
+      "sourceTeam": "Detroit Tigers"
+    },
+    "641816": {
+      "organizationId": 144,
+      "organization": "Atlanta Braves",
+      "sourceTeamId": 144,
+      "sourceTeam": "Atlanta Braves"
+    },
+    "663969": {
+      "organizationId": 146,
+      "organization": "Miami Marlins",
+      "sourceTeamId": 146,
+      "sourceTeam": "Miami Marlins"
+    },
+    "643511": {
+      "organizationId": 141,
+      "organization": "Toronto Blue Jays",
+      "sourceTeamId": 141,
+      "sourceTeam": "Toronto Blue Jays"
+    },
+    "701719": {
+      "organizationId": 111,
+      "organization": "Boston Red Sox",
+      "sourceTeamId": 111,
+      "sourceTeam": "Boston Red Sox"
+    },
+    "805326": {
+      "organizationId": 145,
+      "organization": "Chicago White Sox",
+      "sourceTeamId": 145,
+      "sourceTeam": "Chicago White Sox"
+    },
+    "700413": {
+      "organizationId": 111,
+      "organization": "Boston Red Sox",
+      "sourceTeamId": 111,
+      "sourceTeam": "Boston Red Sox"
+    },
+    "669330": {
+      "organizationId": 139,
+      "organization": "Tampa Bay Rays",
+      "sourceTeamId": 139,
+      "sourceTeam": "Tampa Bay Rays"
+    },
+    "676604": {
+      "organizationId": 146,
+      "organization": "Miami Marlins",
+      "sourceTeamId": 146,
+      "sourceTeam": "Miami Marlins"
+    },
+    "594027": {
+      "organizationId": 111,
+      "organization": "Boston Red Sox",
+      "sourceTeamId": 111,
+      "sourceTeam": "Boston Red Sox"
+    },
+    "678368": {
+      "organizationId": 115,
+      "organization": "Colorado Rockies",
+      "sourceTeamId": 115,
+      "sourceTeam": "Colorado Rockies"
+    },
+    "682989": {
+      "organizationId": 144,
+      "organization": "Atlanta Braves",
+      "sourceTeamId": 144,
+      "sourceTeam": "Atlanta Braves"
+    },
+    "680767": {
+      "organizationId": 146,
+      "organization": "Miami Marlins",
+      "sourceTeamId": 146,
+      "sourceTeam": "Miami Marlins"
+    },
+    "592826": {
+      "organizationId": 112,
+      "organization": "Chicago Cubs",
+      "sourceTeamId": 112,
+      "sourceTeam": "Chicago Cubs"
+    },
+    "700712": {
+      "organizationId": 108,
+      "organization": "Los Angeles Angels",
+      "sourceTeamId": 108,
+      "sourceTeam": "Los Angeles Angels"
+    },
+    "621111": {
+      "organizationId": 135,
+      "organization": "San Diego Padres",
+      "sourceTeamId": 135,
+      "sourceTeam": "San Diego Padres"
+    },
+    "593974": {
+      "organizationId": 135,
+      "organization": "San Diego Padres",
+      "sourceTeamId": 135,
+      "sourceTeam": "San Diego Padres"
+    },
+    "700327": {
+      "organizationId": 115,
+      "organization": "Colorado Rockies",
+      "sourceTeamId": 115,
+      "sourceTeam": "Colorado Rockies"
+    },
+    "696062": {
+      "organizationId": 134,
+      "organization": "Pittsburgh Pirates",
+      "sourceTeamId": 134,
+      "sourceTeam": "Pittsburgh Pirates"
+    },
+    "678576": {
+      "organizationId": 137,
+      "organization": "San Francisco Giants",
+      "sourceTeamId": 137,
+      "sourceTeam": "San Francisco Giants"
+    },
+    "702021": {
+      "organizationId": 120,
+      "organization": "Washington Nationals",
+      "sourceTeamId": 120,
+      "sourceTeam": "Washington Nationals"
+    },
+    "694361": {
+      "organizationId": 119,
+      "organization": "Los Angeles Dodgers",
+      "sourceTeamId": 119,
+      "sourceTeam": "Los Angeles Dodgers"
+    },
+    "676684": {
+      "organizationId": 116,
+      "organization": "Detroit Tigers",
+      "sourceTeamId": 116,
+      "sourceTeam": "Detroit Tigers"
+    },
+    "701542": {
+      "organizationId": 147,
+      "organization": "New York Yankees",
+      "sourceTeamId": 147,
+      "sourceTeam": "New York Yankees"
+    },
+    "687531": {
+      "organizationId": 146,
+      "organization": "Miami Marlins",
+      "sourceTeamId": 146,
+      "sourceTeam": "Miami Marlins"
+    },
+    "692437": {
+      "organizationId": 140,
+      "organization": "Texas Rangers",
+      "sourceTeamId": 140,
+      "sourceTeam": "Texas Rangers"
+    },
+    "808970": {
+      "organizationId": 142,
+      "organization": "Minnesota Twins",
+      "sourceTeamId": 142,
+      "sourceTeam": "Minnesota Twins"
+    },
+    "670090": {
+      "organizationId": 119,
+      "organization": "Los Angeles Dodgers",
+      "sourceTeamId": 119,
+      "sourceTeam": "Los Angeles Dodgers"
+    },
+    "681544": {
+      "organizationId": 111,
+      "organization": "Boston Red Sox",
+      "sourceTeamId": 111,
+      "sourceTeam": "Boston Red Sox"
+    },
+    "675540": {
+      "organizationId": 121,
+      "organization": "New York Mets",
+      "sourceTeamId": 121,
+      "sourceTeam": "New York Mets"
+    },
+    "605441": {
+      "organizationId": 112,
+      "organization": "Chicago Cubs",
+      "sourceTeamId": 112,
+      "sourceTeam": "Chicago Cubs"
+    },
+    "682274": {
+      "organizationId": 110,
+      "organization": "Baltimore Orioles",
+      "sourceTeamId": 110,
+      "sourceTeam": "Baltimore Orioles"
+    },
+    "684320": {
+      "organizationId": 141,
+      "organization": "Toronto Blue Jays",
+      "sourceTeamId": 141,
+      "sourceTeam": "Toronto Blue Jays"
+    },
+    "666974": {
+      "organizationId": 110,
+      "organization": "Baltimore Orioles",
+      "sourceTeamId": 110,
+      "sourceTeam": "Baltimore Orioles"
+    },
+    "660787": {
+      "organizationId": 147,
+      "organization": "New York Yankees",
+      "sourceTeamId": 147,
+      "sourceTeam": "New York Yankees"
+    },
+    "700270": {
+      "organizationId": 116,
+      "organization": "Detroit Tigers",
+      "sourceTeamId": 116,
+      "sourceTeam": "Detroit Tigers"
+    },
+    "672782": {
+      "organizationId": 142,
+      "organization": "Minnesota Twins",
+      "sourceTeamId": 142,
+      "sourceTeam": "Minnesota Twins"
+    },
+    "670990": {
+      "organizationId": 134,
+      "organization": "Pittsburgh Pirates",
+      "sourceTeamId": 134,
+      "sourceTeam": "Pittsburgh Pirates"
+    },
+    "808967": {
+      "organizationId": 119,
+      "organization": "Los Angeles Dodgers",
+      "sourceTeamId": 119,
+      "sourceTeam": "Los Angeles Dodgers"
+    },
+    "672442": {
+      "organizationId": 120,
+      "organization": "Washington Nationals",
+      "sourceTeamId": 120,
+      "sourceTeam": "Washington Nationals"
+    },
+    "673513": {
+      "organizationId": 135,
+      "organization": "San Diego Padres",
+      "sourceTeamId": 135,
+      "sourceTeam": "San Diego Padres"
+    },
+    "628708": {
+      "organizationId": 113,
+      "organization": "Cincinnati Reds",
+      "sourceTeamId": 113,
+      "sourceTeam": "Cincinnati Reds"
+    },
+    "805074": {
+      "organizationId": 137,
+      "organization": "San Francisco Giants",
+      "sourceTeamId": 137,
+      "sourceTeam": "San Francisco Giants"
+    },
+    "814305": {
+      "organizationId": 133,
+      "organization": "Athletics",
+      "sourceTeamId": 133,
+      "sourceTeam": "Athletics"
+    },
+    "579328": {
+      "organizationId": 108,
+      "organization": "Los Angeles Angels",
+      "sourceTeamId": 108,
+      "sourceTeam": "Los Angeles Angels"
+    },
+    "668678": {
+      "organizationId": 109,
+      "organization": "Arizona Diamondbacks",
+      "sourceTeamId": 109,
+      "sourceTeam": "Arizona Diamondbacks"
+    },
+    "804267": {
+      "organizationId": 121,
+      "organization": "New York Mets",
+      "sourceTeamId": 121,
+      "sourceTeam": "New York Mets"
+    },
+    "688642": {
+      "organizationId": 115,
+      "organization": "Colorado Rockies",
+      "sourceTeamId": 115,
+      "sourceTeam": "Colorado Rockies"
+    },
+    "694350": {
+      "organizationId": 146,
+      "organization": "Miami Marlins",
+      "sourceTeamId": 146,
+      "sourceTeam": "Miami Marlins"
+    },
+    "621107": {
+      "organizationId": 110,
+      "organization": "Baltimore Orioles",
+      "sourceTeamId": 110,
+      "sourceTeam": "Baltimore Orioles"
+    },
+    "687209": {
+      "organizationId": 113,
+      "organization": "Cincinnati Reds",
+      "sourceTeamId": 113,
+      "sourceTeam": "Cincinnati Reds"
+    },
+    "685112": {
+      "organizationId": 113,
+      "organization": "Cincinnati Reds",
+      "sourceTeamId": 113,
+      "sourceTeam": "Cincinnati Reds"
+    },
+    "647315": {
+      "organizationId": 143,
+      "organization": "Philadelphia Phillies",
+      "sourceTeamId": 143,
+      "sourceTeam": "Philadelphia Phillies"
+    },
+    "677161": {
+      "organizationId": 111,
+      "organization": "Boston Red Sox",
+      "sourceTeamId": 111,
+      "sourceTeam": "Boston Red Sox"
+    },
+    "641793": {
+      "organizationId": 109,
+      "organization": "Arizona Diamondbacks",
+      "sourceTeamId": 109,
+      "sourceTeam": "Arizona Diamondbacks"
+    },
+    "554430": {
+      "organizationId": 143,
+      "organization": "Philadelphia Phillies",
+      "sourceTeamId": 143,
+      "sourceTeam": "Philadelphia Phillies"
+    },
+    "687849": {
+      "organizationId": 120,
+      "organization": "Washington Nationals",
+      "sourceTeamId": 120,
+      "sourceTeam": "Washington Nationals"
+    },
+    "805673": {
+      "organizationId": 142,
+      "organization": "Minnesota Twins",
+      "sourceTeamId": 142,
+      "sourceTeam": "Minnesota Twins"
     }
   }
 }
