@@ -21,6 +21,14 @@ const tabs: { id: Category; label: string }[] = [
 const columns: Record<Category, { key: PlayerKey; label: string }[]> = {
   established_mlb_hitter: [
     { key: "player_name", label: "Player" },
+    { key: "conditional_PA_2027", label: "PA" },
+    { key: "projected_AB", label: "AB" },
+    { key: "projected_H", label: "H" },
+    { key: "projected_2B", label: "2B" },
+    { key: "projected_3B", label: "3B" },
+    { key: "projected_HR", label: "HR" },
+    { key: "projected_BB", label: "BB" },
+    { key: "projected_SO", label: "SO" },
     { key: "AVG", label: "AVG" },
     { key: "OBP", label: "OBP" },
     { key: "SLG", label: "SLG" },
@@ -77,7 +85,7 @@ function formatValue(key: PlayerKey, value: Player[PlayerKey]) {
 export default function ProjectionsPage() {
   const [category, setCategory] = useState<Category>("established_mlb_hitter");
   const [search, setSearch] = useState("");
-  const [sortKey, setSortKey] = useState<PlayerKey>("OPS");
+  const [sortKey, setSortKey] = useState<PlayerKey>("projected_HR");
   const [descending, setDescending] = useState(true);
 
   const players = useMemo(() => {
@@ -111,7 +119,7 @@ export default function ProjectionsPage() {
     setDescending(true);
     setSortKey(
       next === "established_mlb_hitter"
-        ? "OPS"
+        ? "projected_HR"
         : next === "mlb_debut_candidate"
           ? "debut_probability_2027"
           : "last_mlb_PA"
@@ -178,7 +186,7 @@ export default function ProjectionsPage() {
 
           <p className="mt-2 text-sm leading-relaxed text-slate-400">
             {category === "established_mlb_hitter"
-              ? "Hitting statistics are model estimates. Expected plate appearances incorporate the estimated probability of returning to MLB and projected playing time conditional on returning."
+              ? "Projected counting statistics use estimated plate appearances conditional on playing in MLB during 2027. Expected PA separately accounts for the probability of returning to MLB. All estimates are experimental and subject to playing-time uncertainty."
               : category === "mlb_debut_candidate"
                 ? "Debut probability estimates the likelihood of a first MLB appearance in 2027. These players do not have projected MLB hitting statistics or plate appearances."
                 : "Potential returnees previously appeared in MLB but did not appear in the 2026 eligible hitter dataset. Inclusion does not imply a confirmed contract, active status, or projected MLB return."}
