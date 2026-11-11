@@ -3,6 +3,8 @@
 import { useMemo, useState } from "react";
 import Link from "next/link";
 import projectionData from "../../../public/data/mlb-player-projections-2027-experimental.json";
+import teamData from "../../../public/data/mlb-projection-team-assignments-2027.json";
+import { freeAgents } from "../../lib/freeAgency";
 
 type Player = (typeof projectionData.players)[number];
 type PlayerKey = Extract<keyof Player, string>;
@@ -85,6 +87,17 @@ function formatValue(key: PlayerKey, value: Player[PlayerKey]) {
 export default function ProjectionsPage() {
   const [category, setCategory] = useState<Category>("established_mlb_hitter");
   const [search, setSearch] = useState("");
+  const [selectedTeam, setSelectedTeam] = useState("all");
+
+  const availableFreeAgents = useMemo(
+    () =>
+      new Set(
+        freeAgents
+          .filter((player) => player.status === "Available")
+          .map((player) => player.name.toLocaleLowerCase())
+      ),
+    []
+  );
   const [sortKey, setSortKey] = useState<PlayerKey>("projected_HR");
   const [descending, setDescending] = useState(true);
 
@@ -95,7 +108,18 @@ export default function ProjectionsPage() {
       .filter(
         (player) =>
           player.projection_type === category &&
-          (player.player_name ?? "").toLowerCase().includes(query)
+          (player.player_name ?? "").toLowerCase().includes(query) &&
+          (selectedTeam === "all" ||
+            (selectedTeam === "free-agents"
+              ? availableFreeAgents.has(player.player_name.toLocaleLowerCase())
+              : !availableFreeAgents.has(player.player_name.toLocaleLowerCase()) &&
+                (selectedTeam === "other"
+                  ? teamData.players[
+                      String(player.player_id) as keyof typeof teamData.players
+                    ]?.organizationId == null
+                  : teamData.players[
+                      String(player.player_id) as keyof typeof teamData.players
+                    ]?.organizationId === Number(selectedTeam))))
       )
       .sort((a, b) => {
         const av = a[sortKey];
@@ -111,11 +135,12 @@ export default function ProjectionsPage() {
 
         return descending ? -comparison : comparison;
       });
-  }, [category, search, sortKey, descending]);
+  }, [category, search, selectedTeam, sortKey, descending, availableFreeAgents]);
 
   function changeCategory(next: Category) {
     setCategory(next);
     setSearch("");
+    setSelectedTeam("all");
     setDescending(true);
     setSortKey(
       next === "established_mlb_hitter"
@@ -193,7 +218,7 @@ export default function ProjectionsPage() {
           </p>
         </div>
 
-        <div className="mt-8">
+        <div className="mt-8 grid gap-3 sm:grid-cols-[minmax(0,1fr)_280px]">
           <input
             type="search"
             value={search}
@@ -202,7 +227,25 @@ export default function ProjectionsPage() {
             aria-label="Search projected players"
             className="w-full rounded-lg border border-white/10 bg-[#0d1d30] px-4 py-3 text-white outline-none placeholder:text-slate-500 focus:border-blue-400"
           />
+          <select
+            value={selectedTeam}
+            onChange={(event) => setSelectedTeam(event.target.value)}
+            aria-label="Filter by MLB organization"
+            className="w-full rounded-lg border border-white/10 bg-[#0d1d30] px-4 py-3 text-white outline-none focus:border-blue-400"
+          >
+            <option value="all">All Teams</option>
+            {teamData.organizations.map((team) => (
+              <option key={team.id} value={String(team.id)}>
+                {team.name}
+              </option>
+            ))}
+            <option value="free-agents">Free Agents</option>
+            <option value="other">Unassigned / Other</option>
+          </select>
         </div>
+        <p className="mt-2 text-xs text-slate-500">
+          Team filters use latest recorded affiliations, not confirmed 2027 rosters.
+        </p>
 
         <p className="mt-4 text-sm text-slate-400">
           Showing {players.length.toLocaleString()} players
