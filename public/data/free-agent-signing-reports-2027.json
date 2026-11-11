@@ -1,7 +1,44 @@
 {
   "season": 2027,
-  "lastUpdated": "2026-11-08T09:20:18.294228+00:00",
+  "lastUpdated": "2026-11-11T05:29:08.437737+00:00",
   "signings": [
+    {
+      "playerId": 680802,
+      "playerName": "Ryan Weiss",
+      "team": "San Diego Padres",
+      "date": "2026-11-11",
+      "status": "Signing Reported",
+      "sources": [
+        {
+          "team": "San Diego Padres",
+          "date": "2026-11-11",
+          "headline": "Padres sign right-hander Ryan Weiss to 1-year deal with option for '28",
+          "publisher": null,
+          "url": "https://www.mlb.com/news/ryan-weiss-contract-with-padres"
+        },
+        {
+          "team": "San Diego Padres",
+          "date": "2026-11-11",
+          "headline": "Padres Sign Ryan Weiss",
+          "publisher": null,
+          "url": "https://www.mlbtraderumors.com/2026/11/padres-ryan-weiss-agree-to-major-league-deal.html"
+        },
+        {
+          "team": "San Diego Padres",
+          "date": "2026-11-11",
+          "headline": "Padres sign right-hander Ryan Weiss to 1-year deal with option for '28 - MLB.com",
+          "publisher": "mlb.com",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBmU0U2YUxvUUhUZ3VPeWlEUkZXNFhZcUt5bE0td094czFOeHVrbUh0YVhRa3pDVXpZQnRubTdMdk1ZSTZlSVR0TjY3b3Rxcnh4ekdiN2d5Q3BWcXF3anBCT2tIQVQ4OG_SAXNBVV95cUxQamRRZDlJQnVxR3lyRjZIVVNycnYxeTlpRW1QU25hUXl6eW0zc0FfZVJWX3FRLWhjSUVoTEtLWm5LTVBwSmx2ZHYwWTloRk1aTG5BXzJ4R0xPOXc5TVR1akFrTm9tUldDeUZZVEhGVUFUNHEw?oc=5"
+        },
+        {
+          "team": "San Diego Padres",
+          "date": "2026-11-11",
+          "headline": "Right-hander Ryan Weiss agrees to 1-year contract with San Diego Padres - AOL.com",
+          "publisher": "aol.com",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9GSjdndXkzNUoyZjhCOFBVTWowbTRkUVY1WUtheUJXRU92UlRPbDYzR0xYZUFkNXdINGdleFRILTVVaDRCZEVqRWYtNVhiSGxrZHRMVFNqT2JKQU1nSTkydndkVFFyamVBMnhlcXlpMkhzUExwaEZCZDdR?oc=5"
+        }
+      ]
+    },
     {
       "playerId": 657097,
       "playerName": "Jacob Webb",
