@@ -1,7 +1,37 @@
 {
   "season": 2027,
-  "lastUpdated": "2026-11-11T05:29:08.437737+00:00",
+  "lastUpdated": "2026-11-12T00:22:28.616677+00:00",
   "signings": [
+    {
+      "playerId": 641941,
+      "playerName": "Emilio Pagán",
+      "team": "Detroit Tigers",
+      "date": "2026-11-12",
+      "status": "Signing Reported",
+      "sources": [
+        {
+          "team": "Detroit Tigers",
+          "date": "2026-11-11",
+          "headline": "Tigers To Sign Emilio Pagán",
+          "publisher": null,
+          "url": "https://www.mlbtraderumors.com/2026/11/tigers-to-sign-emilio-pagan.html"
+        },
+        {
+          "team": "Detroit Tigers",
+          "date": "2026-11-12",
+          "headline": "Emilio Pagán reportedly signs with the Tigers - MLB.com",
+          "publisher": "mlb.com",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5yMm5hQ2h5YVVpUExGTEtNYkdqWktFSXpfSTBibGF4QjJxdmZfMDQxcHJHcW9wWXUyQ1R6SHZnYWtZNHg1bmJFcGtISWJ0VUZaTWRQS3lxY213UUVWaEVYbHdZbENrSU5jOE5wTHBvVVdzZ3pXZHVQV0Z3bw?oc=5"
+        },
+        {
+          "team": "Detroit Tigers",
+          "date": "2026-11-11",
+          "headline": "Detroit Tigers sign reliever Emilio Pagán to 1-year deal - Detroit Free Press",
+          "publisher": "detroit free press",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNVHVZYnEzM0ZrV09pTDJWNFo0ZU00anhKR3VSTV9ralhLTmJpWFJVS2RCdkd0VzQxbkdlenhpdXByVlJZZnMwNU1qbmcwMVJja2hheEptMGhSdFhTV2pnbEU3c1JsVVJVVUdsWXlMZGNHV3lfYmo4ajRqc3Q2SWdMVURWQUVWUlNfSDJ3SEVGZmJvb1RCS21EejBkS1QzWFBHaXlqREVUV2dEb3hNMGVxRnhYV1lRTXZzcUh4bnkwblpBQ3VKQzZISHROY01fb09SaW9RSjktcWxYa0pVS05R?oc=5"
+        }
+      ]
+    },
     {
       "playerId": 680802,
       "playerName": "Ryan Weiss",
