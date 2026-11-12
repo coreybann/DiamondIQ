@@ -78,6 +78,12 @@ const toolGroups = [
         href: "/scouting",
         icon: Binoculars,
       },
+      {
+        title: "Pitcher Stuff+ Lab",
+        description: "Explore pitcher Stuff+ ratings, pitch quality, and arsenal analysis.",
+        href: "/stuff-plus",
+        icon: BarChart3,
+      },
     ],
   },
   {

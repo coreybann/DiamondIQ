@@ -34,6 +34,7 @@ const toolGroups = [
     title: "Scouting",
     links: [
       { label: "Scouting", href: "/scouting" },
+      { label: "Pitcher Stuff+ Lab", href: "/stuff-plus" },
       { label: "Prospect Development Hub", href: "/prospects" },
     ],
   },
