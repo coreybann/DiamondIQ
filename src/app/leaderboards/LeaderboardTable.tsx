@@ -51,6 +51,7 @@ const PITCHING_COLUMNS: Column[] = [
   { key: "hitsPer9Inn", label: "H/9" },
   { key: "strikeoutRate", label: "K%" },
   { key: "walkRate", label: "BB%" },
+  { key: "stuffPlus", label: "Stuff+" },
 ];
 
 export default function LeaderboardTable({
@@ -134,7 +135,11 @@ export default function LeaderboardTable({
                   key={column.key}
                   className="px-4 py-3 tabular-nums text-slate-200"
                 >
-                  {player.stats[column.key] ?? "—"}
+                  {column.key === "stuffPlus"
+                    ? player.stats.stuffPlus == null
+                      ? "—"
+                      : Number(player.stats.stuffPlus).toFixed(2)
+                    : player.stats[column.key] ?? "—"}
                 </td>
               ))}
             </tr>

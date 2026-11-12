@@ -41,3 +41,5 @@ yarn-error.log*
 next-env.d.ts
 # Python virtual environment
 .venv/
+# DiamondIQ Stuff+ model datasets and artifacts
+/data/stuff-plus/

@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { getPitcherStuffPlus } from "@/lib/stuffPlus";
 
 export async function GET(request: NextRequest) {
   const season = request.nextUrl.searchParams.get("season") ?? "2026";
@@ -47,6 +48,11 @@ export async function GET(request: NextRequest) {
     const data = await response.json();
     const splits = data.stats?.[0]?.splits ?? [];
 
+    const stuffPlus =
+      group === "pitching"
+        ? await getPitcherStuffPlus(year)
+        : new Map();
+
     const players = splits
       .filter(
         (entry: any) =>
@@ -60,6 +66,14 @@ export async function GET(request: NextRequest) {
         teamName: entry.team?.name ?? "Unknown",
         stats: {
           ...entry.stat,
+          ...(group === "pitching"
+            ? {
+                stuffPlus:
+                  stuffPlus.get(entry.player.id)?.stuff_plus ?? null,
+                stuffPlusPitches:
+                  stuffPlus.get(entry.player.id)?.pitches ?? null,
+              }
+            : {}),
           ...(group === "hitting"
             ? {
                 iso:

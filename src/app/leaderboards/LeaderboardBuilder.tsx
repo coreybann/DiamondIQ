@@ -77,6 +77,7 @@ export default function LeaderboardBuilder() {
       { key: "hitsPer9Inn", label: "Hits per 9 (H/9)", category: "Advanced" },
       { key: "strikeoutRate", label: "Strikeout Rate (K%)", category: "Advanced" },
       { key: "walkRate", label: "Walk Rate (BB%)", category: "Advanced" },
+      { key: "stuffPlus", label: "DiamondIQ Stuff+", category: "Advanced" },
     ],
   };
 
