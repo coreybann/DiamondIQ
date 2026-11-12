@@ -97,6 +97,12 @@ const toolGroups = [
     description: "Explore baseball analytics projects and research.",
     tools: [
       {
+        title: "MLB Leaderboards",
+        description: "Build custom MLB hitting and pitching leaderboards with advanced statistics, filters, sorting, and CSV exports.",
+        href: "/leaderboards",
+        icon: BarChart3,
+      },
+      {
         title: "Research",
         description: "View baseball analytics research and portfolio projects.",
         href: "/research",
