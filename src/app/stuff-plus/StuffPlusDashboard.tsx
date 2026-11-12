@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import PlayerSearch from "@/app/compare/PlayerSearch";
 import PitchMovementChart from "./PitchMovementChart";
 import PitchUsageChart from "./PitchUsageChart";
+import YearOverYearComparison from "./YearOverYearComparison";
 
 type Player = {
   id: number;
@@ -58,8 +59,13 @@ export default function StuffPlusDashboard() {
     useState<Player | null>(null);
 
   const [season, setSeason] = useState(2026);
+  const [activeTab, setActiveTab] =
+    useState<"current" | "history">("current");
   const [ratings, setRatings] =
     useState<StuffPlusResponse | null>(null);
+  const [currentSection, setCurrentSection] = useState<
+    "overview" | "arsenal" | "movement" | "usage"
+  >("overview");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
@@ -118,7 +124,28 @@ export default function StuffPlusDashboard() {
         </p>
       </div>
 
-      <div className="grid gap-3 lg:grid-cols-2">
+      <div className="flex gap-2 border-b border-white/10 pb-3">
+          {([
+            ["current", "Current Season"],
+            ["history", "Year-over-Year"],
+          ] as const).map(([value, label]) => (
+            <button
+              key={value}
+              type="button"
+              onClick={() => setActiveTab(value)}
+              aria-pressed={activeTab === value}
+              className={`rounded-lg px-4 py-2 text-sm font-semibold transition ${
+                activeTab === value
+                  ? "bg-blue-600 text-white"
+                  : "bg-white/5 text-slate-400 hover:bg-white/10 hover:text-white"
+              }`}
+            >
+              {label}
+            </button>
+          ))}
+        </div>
+
+        <div className="grid gap-3 lg:grid-cols-2">
         <PlayerSearch
           label="Search MLB Pitcher"
           onSelect={setSelectedPlayer}
@@ -176,7 +203,7 @@ export default function StuffPlusDashboard() {
         </div>
       </div>
 
-      {selectedPlayer && (
+      {activeTab === "current" && selectedPlayer && (
         <div className="space-y-3">
           {loading && (
             <p className="text-sm text-slate-400">
@@ -189,8 +216,111 @@ export default function StuffPlusDashboard() {
           )}
 
           {!loading && !error && ratings && (
-            <>
-              <div className="overflow-hidden rounded-xl border border-white/10 bg-[#0d1d30]">
+<>
+            <div className="flex flex-wrap gap-2">
+              {([
+                ["overview", "Overview"],
+                ["arsenal", "Pitch Arsenal"],
+                ["movement", "Pitch Movement"],
+                ["usage", "Pitch Usage"],
+              ] as const).map(([section, label]) => (
+                <button
+                  key={section}
+                  type="button"
+                  onClick={() => setCurrentSection(section)}
+                  aria-pressed={currentSection === section}
+                  className={`rounded-lg px-4 py-2 text-sm font-semibold transition ${
+                    currentSection === section
+                      ? "bg-blue-600 text-white"
+                      : "border border-white/10 bg-white/5 text-slate-300 hover:bg-white/10"
+                  }`}
+                >
+                  {label}
+                </button>
+              ))}
+            </div>
+
+
+              {currentSection === "overview" && (
+                <div className="rounded-xl border border-white/10 bg-[#0d1d30] p-5">
+                  <h3 className="text-lg font-semibold text-white">
+                    Season Stuff+ Overview
+                  </h3>
+                  <p className="mt-1 text-sm text-slate-400">
+                    Summary of the selected pitcher's modeled pitch quality.
+                  </p>
+
+                  <div className="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                    {[
+                      {
+                        label: "Overall Stuff+",
+                        value: ratings.overall
+                          ? ratings.overall.stuff_plus.toFixed(2)
+                          : "—",
+                      },
+                      {
+                        label: "Total Pitches",
+                        value: ratings.overall
+                          ? ratings.overall.pitches.toLocaleString()
+                          : "—",
+                      },
+                      {
+                        label: "Qualifying Pitch Types",
+                        value: String(ratings.pitches.length),
+                      },
+                      {
+                        label: "Highest-Rated Pitch",
+                        value: ratings.pitches.length
+                          ? PITCH_NAMES[
+                              [...ratings.pitches].sort(
+                                (a, b) => b.stuff_plus - a.stuff_plus
+                              )[0].pitch_type
+                            ] ??
+                            [...ratings.pitches].sort(
+                              (a, b) => b.stuff_plus - a.stuff_plus
+                            )[0].pitch_type
+                          : "—",
+                      },
+                      {
+                        label: "Highest Pitch Stuff+",
+                        value: ratings.pitches.length
+                          ? Math.max(
+                              ...ratings.pitches.map((pitch) => pitch.stuff_plus)
+                            ).toFixed(2)
+                          : "—",
+                      },
+                      {
+                        label: "Lowest-Rated Pitch",
+                        value: ratings.pitches.length
+                          ? PITCH_NAMES[
+                              [...ratings.pitches].sort(
+                                (a, b) => a.stuff_plus - b.stuff_plus
+                              )[0].pitch_type
+                            ] ??
+                            [...ratings.pitches].sort(
+                              (a, b) => a.stuff_plus - b.stuff_plus
+                            )[0].pitch_type
+                          : "—",
+                      },
+                    ].map((metric) => (
+                      <div
+                        key={metric.label}
+                        className="rounded-lg border border-white/10 bg-white/5 p-4"
+                      >
+                        <p className="text-xs font-medium uppercase tracking-wide text-slate-400">
+                          {metric.label}
+                        </p>
+                        <p className="mt-2 text-xl font-bold text-white">
+                          {metric.value}
+                        </p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {currentSection === "arsenal" && (
+<div className="overflow-hidden rounded-xl border border-white/10 bg-[#0d1d30]">
                 <div className="p-4">
                   <h3 className="text-lg font-semibold">
                     Pitch Arsenal Stuff+
@@ -273,11 +403,14 @@ export default function StuffPlusDashboard() {
                   </p>
                 )}
               </div>
+              )}
 
               {ratings.pitches.length > 0 && (
                 <>
-                  <PitchMovementChart pitches={ratings.pitches} />
-                  {ratings.overall && (
+                  {currentSection === "movement" && (
+                    <PitchMovementChart pitches={ratings.pitches} />
+                  )}
+                  {currentSection === "usage" && ratings.overall && (
                     <PitchUsageChart
                       pitches={ratings.pitches}
                       totalPitches={ratings.overall.pitches}
@@ -289,6 +422,16 @@ export default function StuffPlusDashboard() {
           )}
         </div>
       )}
+      {activeTab === "history" && (
+        selectedPlayer ? (
+          <YearOverYearComparison player={selectedPlayer} />
+        ) : (
+          <p className="text-sm text-slate-400">
+            Search for a pitcher above to begin the comparison.
+          </p>
+        )
+      )}
+
     </section>
   );
 }

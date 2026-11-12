@@ -96,11 +96,19 @@ export async function GET(request: NextRequest) {
       }))
       .sort((a, b) => b.pitches - a.pitches);
 
+    const arsenal = Array.from(metrics.entries())
+      .map(([pitch_type, values]) => ({
+        pitch_type,
+        ...values,
+      }))
+      .sort((a, b) => b.metrics_pitches - a.metrics_pitches);
+
     return NextResponse.json({
       pitcher,
       season,
       overall,
       pitches,
+      arsenal,
     });
   } catch (error) {
     console.error("Stuff+ API error:", error);
