@@ -51,17 +51,6 @@ export default function StuffPlusPage() {
           </div>
         </div>
 
-        <div className="mt-8 rounded-xl border border-white/10 bg-[#0d1d30] p-6">
-          <h2 className="text-xl font-semibold">
-            Pitch Arsenal Analysis
-          </h2>
-
-          <p className="mt-3 text-sm text-slate-400">
-            Individual pitch-type ratings, arsenal breakdowns,
-            and interactive pitch visualizations will be
-            available here as the Lab develops.
-          </p>
-        </div>
       </div>
     </main>
   );

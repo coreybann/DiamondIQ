@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import PlayerSearch from "@/app/compare/PlayerSearch";
 import PitchMovementChart from "./PitchMovementChart";
+import PitchUsageChart from "./PitchUsageChart";
 
 type Player = {
   id: number;
@@ -274,7 +275,15 @@ export default function StuffPlusDashboard() {
               </div>
 
               {ratings.pitches.length > 0 && (
-                <PitchMovementChart pitches={ratings.pitches} />
+                <>
+                  <PitchMovementChart pitches={ratings.pitches} />
+                  {ratings.overall && (
+                    <PitchUsageChart
+                      pitches={ratings.pitches}
+                      totalPitches={ratings.overall.pitches}
+                    />
+                  )}
+                </>
               )}
             </>
           )}
