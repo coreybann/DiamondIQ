@@ -1,7 +1,44 @@
 {
   "season": 2027,
-  "lastUpdated": "2026-11-12T00:22:28.616677+00:00",
+  "lastUpdated": "2026-11-13T03:23:32.054368+00:00",
   "signings": [
+    {
+      "playerId": 623465,
+      "playerName": "Evan Phillips",
+      "team": "Atlanta Braves",
+      "date": "2026-11-13",
+      "status": "Signing Reported",
+      "sources": [
+        {
+          "team": "Atlanta Braves",
+          "date": "2026-11-12",
+          "headline": "Braves Sign Evan Phillips To Three-Year Deal",
+          "publisher": null,
+          "url": "https://www.mlbtraderumors.com/2026/11/braves-sign-evan-phillips-to-three-year-deal.html"
+        },
+        {
+          "team": "Atlanta Braves",
+          "date": "2026-11-12",
+          "headline": "Evan Phillips signs with Braves for 3 years, $35 million - Yahoo Sports",
+          "publisher": "yahoo sports",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTnJmQUx1a0NyX3pGS1NMTU8xdGdieTh2NGoxLU1vd2Y2QTN2OFJMXzN3T3d0YkFqUzVmU1RXZmxoaDNlUjBaX1ZaTGpENFhFUlY0YU5jWkcwM2pTWWVJeEV1LUJYMW5MdmhrMC0xNWtDeE5BWlZ2LURsVlJyQk5PUFpyQQ?oc=5"
+        },
+        {
+          "team": "Atlanta Braves",
+          "date": "2026-11-13",
+          "headline": "Atlanta Braves Sign Evan Phillips to Three-Year, $35M Deal - 조선일보",
+          "publisher": "조선일보",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNN3FWbEo0WTlQRG55OE80cVhjaXAzeHo2VlBlXzRHcUNFcVdwSGt5Q0lveTV3YXk2Tzh1V05CcGwxS1dfbExaaFJZUGExSld3UVRqZWRHelRqNzJrVFQwZmhvNVNJV2VvRkw2aFFUVTZuSjA3bUV1MXBPVE5HUWxEMmR6UHVwZw?oc=5"
+        },
+        {
+          "team": "Atlanta Braves",
+          "date": "2026-11-12",
+          "headline": "Evan Phillips signs 3-year, $35 million deal with Braves - Yahoo Sports",
+          "publisher": "yahoo sports",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTHQzQkp0NGMxSUtxVUdDOFhHakhJQWVpZEItN0x5SkZqdDNNOXVHRjNBVDM1N0ZnclV4S0VIU1dFaFdsX1phR0hONDVjTDdsNXBfMlpwMzA0TDI4TlJ3dUt6Smhyd3RsaGhXRlp5aXJCQlV0WndPNDNzM2paM2o3cF9Lc0NQV1h0azZTR1NkeTE4Ym1OTlNub201b2dSVXBJZ05aTFBtUmlFU0pmTWc3Q0V4SGdnS2oyNmstYg?oc=5"
+        }
+      ]
+    },
     {
       "playerId": 641941,
       "playerName": "Emilio Pagán",
