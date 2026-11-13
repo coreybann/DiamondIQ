@@ -16,7 +16,8 @@
       "estimated_raise_millions": 1.53,
       "war_2026": 5.371,
       "war_2yr_avg": 4.0440000000000005,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 672515
     },
     {
       "player": "Jesús Sánchez",
@@ -29,7 +30,8 @@
       "estimated_raise_millions": 0.0,
       "war_2026": -0.413,
       "war_2yr_avg": 0.32099999999999995,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 660821
     },
     {
       "player": "Lars Nootbaar",
@@ -42,7 +44,8 @@
       "estimated_raise_millions": 0.535,
       "war_2026": 0.991,
       "war_2yr_avg": 0.896,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 663457
     },
     {
       "player": "Pavin Smith",
@@ -55,7 +58,8 @@
       "estimated_raise_millions": 0.0,
       "war_2026": -0.579,
       "war_2yr_avg": 0.07250000000000001,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 656976
     },
     {
       "player": "Ryne Nelson",
@@ -68,7 +72,8 @@
       "estimated_raise_millions": 0.3,
       "war_2026": -0.01,
       "war_2yr_avg": 1.0805,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 669194
     },
     {
       "player": "Bailey Falter",
@@ -81,7 +86,8 @@
       "estimated_raise_millions": 0.0,
       "war_2026": -0.289,
       "war_2yr_avg": 0.143,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 663559
     },
     {
       "player": "Danny Young",
@@ -94,7 +100,8 @@
       "estimated_raise_millions": 0.0,
       "war_2026": -0.513,
       "war_2yr_avg": -0.1355,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 664849
     },
     {
       "player": "Dylan Lee",
@@ -107,7 +114,8 @@
       "estimated_raise_millions": 0.55,
       "war_2026": 2.081,
       "war_2yr_avg": 1.208,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 669276
     },
     {
       "player": "Joel Payamps",
@@ -120,7 +128,8 @@
       "estimated_raise_millions": 0.0,
       "war_2026": -0.121,
       "war_2yr_avg": -0.10250000000000001,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 606303
     },
     {
       "player": "Joey Wentz",
@@ -133,7 +142,8 @@
       "estimated_raise_millions": 0.225,
       "war_2026": null,
       "war_2yr_avg": 1.151,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 666214
     },
     {
       "player": "Félix Bautista",
@@ -146,7 +156,8 @@
       "estimated_raise_millions": 0.225,
       "war_2026": -0.066,
       "war_2yr_avg": 0.27449999999999997,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 642585
     },
     {
       "player": "Gunnar Henderson",
@@ -159,7 +170,8 @@
       "estimated_raise_millions": 5.1,
       "war_2026": 3.553,
       "war_2yr_avg": 4.201499999999999,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 683002
     },
     {
       "player": "Adley Rutschman",
@@ -172,7 +184,8 @@
       "estimated_raise_millions": 2.9,
       "war_2026": 3.025,
       "war_2yr_avg": 2.109,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 668939
     },
     {
       "player": "Connor Wong",
@@ -185,7 +198,8 @@
       "estimated_raise_millions": 0.0,
       "war_2026": -0.164,
       "war_2yr_avg": -0.40750000000000003,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 657136
     },
     {
       "player": "Eli White",
@@ -198,7 +212,8 @@
       "estimated_raise_millions": 0.09,
       "war_2026": 0.673,
       "war_2yr_avg": 0.7205,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 642201
     },
     {
       "player": "Jarren Duran",
@@ -211,7 +226,8 @@
       "estimated_raise_millions": 1.925,
       "war_2026": 0.486,
       "war_2yr_avg": 2.2655,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 680776
     },
     {
       "player": "Johan Oviedo",
@@ -224,7 +240,8 @@
       "estimated_raise_millions": 0.0,
       "war_2026": -0.124,
       "war_2yr_avg": 0.055999999999999994,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 670912
     },
     {
       "player": "Kutter Crawford",
@@ -237,7 +254,8 @@
       "estimated_raise_millions": 0.688,
       "war_2026": null,
       "war_2yr_avg": null,
-      "projection_method": "three_year_war_fallback"
+      "projection_method": "three_year_war_fallback",
+      "mlb_player_id": 676710
     },
     {
       "player": "Romy Gonzalez",
@@ -250,7 +268,8 @@
       "estimated_raise_millions": 0.16,
       "war_2026": -0.205,
       "war_2yr_avg": 0.6625,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 663853
     },
     {
       "player": "Tanner Houck",
@@ -263,7 +282,8 @@
       "estimated_raise_millions": 0.0,
       "war_2026": -0.154,
       "war_2yr_avg": -0.259,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 656557
     },
     {
       "player": "Triston Casas",
@@ -276,7 +296,8 @@
       "estimated_raise_millions": 0.0,
       "war_2026": null,
       "war_2yr_avg": -0.591,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 671213
     },
     {
       "player": "Braxton Garrett",
@@ -289,7 +310,8 @@
       "estimated_raise_millions": 0.0,
       "war_2026": -0.067,
       "war_2yr_avg": -0.067,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 666129
     },
     {
       "player": "Edward Cabrera",
@@ -302,7 +324,8 @@
       "estimated_raise_millions": 0.445,
       "war_2026": -0.06,
       "war_2yr_avg": 0.968,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 665795
     },
     {
       "player": "Javier Assad",
@@ -315,7 +338,8 @@
       "estimated_raise_millions": 0.0,
       "war_2026": -0.137,
       "war_2yr_avg": 0.1,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 665871
     },
     {
       "player": "Justin Steele",
@@ -328,7 +352,8 @@
       "estimated_raise_millions": 0.678,
       "war_2026": null,
       "war_2yr_avg": 0.049,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 657006
     },
     {
       "player": "Brenton Doyle",
@@ -341,7 +366,8 @@
       "estimated_raise_millions": 0.0,
       "war_2026": -0.282,
       "war_2yr_avg": 0.11400000000000002,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 686668
     },
     {
       "player": "Huascar Brazobán",
@@ -354,7 +380,8 @@
       "estimated_raise_millions": 0.105,
       "war_2026": 0.733,
       "war_2yr_avg": 0.5515,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 623211
     },
     {
       "player": "Joey Bart",
@@ -367,7 +394,8 @@
       "estimated_raise_millions": 0.253,
       "war_2026": 0.298,
       "war_2yr_avg": 0.7855,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 663698
     },
     {
       "player": "Graham Ashcraft",
@@ -380,7 +408,8 @@
       "estimated_raise_millions": 0.175,
       "war_2026": 0.364,
       "war_2yr_avg": 0.9704999999999999,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 668933
     },
     {
       "player": "JJ Bleday",
@@ -393,7 +422,8 @@
       "estimated_raise_millions": 0.14,
       "war_2026": 1.326,
       "war_2yr_avg": 0.48650000000000004,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 668709
     },
     {
       "player": "Matt McLain",
@@ -406,7 +436,8 @@
       "estimated_raise_millions": 0.23,
       "war_2026": 0.242,
       "war_2yr_avg": 0.9265,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 680574
     },
     {
       "player": "Nick Lodolo",
@@ -419,7 +450,8 @@
       "estimated_raise_millions": 0.472,
       "war_2026": -0.1,
       "war_2yr_avg": 1.307,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 666157
     },
     {
       "player": "Oswaldo Cabrera",
@@ -432,7 +464,8 @@
       "estimated_raise_millions": 0.0,
       "war_2026": -0.277,
       "war_2yr_avg": -0.098,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 665828
     },
     {
       "player": "Spencer Steer",
@@ -445,7 +478,8 @@
       "estimated_raise_millions": 1.0,
       "war_2026": 0.97,
       "war_2yr_avg": 1.0655000000000001,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 668715
     },
     {
       "player": "TJ Friedl",
@@ -458,7 +492,8 @@
       "estimated_raise_millions": 0.38,
       "war_2026": -0.743,
       "war_2yr_avg": 1.191,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 670770
     },
     {
       "player": "Tony Santillan",
@@ -471,7 +506,8 @@
       "estimated_raise_millions": 0.0,
       "war_2026": -1.19,
       "war_2yr_avg": -0.09450000000000003,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 663574
     },
     {
       "player": "Will Benson",
@@ -484,7 +520,8 @@
       "estimated_raise_millions": 0.0,
       "war_2026": -0.148,
       "war_2yr_avg": -0.023,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 666181
     },
     {
       "player": "Colin Holderman",
@@ -497,7 +534,8 @@
       "estimated_raise_millions": 0.15,
       "war_2026": 0.798,
       "war_2yr_avg": 0.17500000000000002,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 670059
     },
     {
       "player": "Connor Brogdon",
@@ -510,7 +548,8 @@
       "estimated_raise_millions": 0.0,
       "war_2026": -0.309,
       "war_2yr_avg": -0.3365,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 641401
     },
     {
       "player": "David Fry",
@@ -523,7 +562,8 @@
       "estimated_raise_millions": 0.138,
       "war_2026": 0.164,
       "war_2yr_avg": -0.21399999999999997,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 681807
     },
     {
       "player": "Jo Adell",
@@ -536,7 +576,8 @@
       "estimated_raise_millions": 0.52,
       "war_2026": 0.62,
       "war_2yr_avg": 0.9924999999999999,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 666176
     },
     {
       "player": "Matt Festa",
@@ -549,7 +590,8 @@
       "estimated_raise_millions": 0.1,
       "war_2026": 0.574,
       "war_2yr_avg": 0.6845,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 670036
     },
     {
       "player": "Steven Kwan",
@@ -562,7 +604,8 @@
       "estimated_raise_millions": 4.632,
       "war_2026": 3.773,
       "war_2yr_avg": 3.4435000000000002,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 680757
     },
     {
       "player": "Brennan Bernardino",
@@ -575,7 +618,8 @@
       "estimated_raise_millions": 0.093,
       "war_2026": 0.992,
       "war_2yr_avg": 0.79,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 657514
     },
     {
       "player": "Jake McCarthy",
@@ -588,7 +632,8 @@
       "estimated_raise_millions": 0.608,
       "war_2026": 2.726,
       "war_2yr_avg": 1.303,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 664983
     },
     {
       "player": "Jimmy Herget",
@@ -601,7 +646,8 @@
       "estimated_raise_millions": 0.0,
       "war_2026": -0.305,
       "war_2yr_avg": 0.4570000000000001,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 623474
     },
     {
       "player": "Ryan Feltner",
@@ -614,7 +660,8 @@
       "estimated_raise_millions": 0.245,
       "war_2026": 0.755,
       "war_2yr_avg": 0.5675,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 663372
     },
     {
       "player": "Tyler Freeman",
@@ -627,7 +674,8 @@
       "estimated_raise_millions": 0.0,
       "war_2026": -1.122,
       "war_2yr_avg": -0.9105000000000001,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 671289
     },
     {
       "player": "Beau Brieske",
@@ -640,7 +688,8 @@
       "estimated_raise_millions": 0.0,
       "war_2026": 0.009,
       "war_2yr_avg": -0.218,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 689225
     },
     {
       "player": "Kerry Carpenter",
@@ -653,7 +702,8 @@
       "estimated_raise_millions": 0.0,
       "war_2026": -0.63,
       "war_2yr_avg": 0.426,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 681481
     },
     {
       "player": "Matt Vierling",
@@ -666,7 +716,8 @@
       "estimated_raise_millions": 0.0,
       "war_2026": -0.4,
       "war_2yr_avg": -0.21300000000000002,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 663837
     },
     {
       "player": "Riley Greene",
@@ -679,7 +730,8 @@
       "estimated_raise_millions": 3.0,
       "war_2026": 3.196,
       "war_2yr_avg": 3.0410000000000004,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 682985
     },
     {
       "player": "Spencer Torkelson",
@@ -692,7 +744,8 @@
       "estimated_raise_millions": 1.02,
       "war_2026": 1.212,
       "war_2yr_avg": 1.7585000000000002,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 679529
     },
     {
       "player": "Tyler Holton",
@@ -705,7 +758,8 @@
       "estimated_raise_millions": 0.157,
       "war_2026": 0.348,
       "war_2yr_avg": 0.118,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 663947
     },
     {
       "player": "Will Vest",
@@ -718,7 +772,8 @@
       "estimated_raise_millions": 0.395,
       "war_2026": 0.335,
       "war_2yr_avg": 1.0675000000000001,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 676684
     },
     {
       "player": "Zach McKinstry",
@@ -731,7 +786,8 @@
       "estimated_raise_millions": 1.05,
       "war_2026": 0.723,
       "war_2yr_avg": 1.9395,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 656716
     },
     {
       "player": "Bennett Sousa",
@@ -744,7 +800,8 @@
       "estimated_raise_millions": 0.091,
       "war_2026": -0.179,
       "war_2yr_avg": 0.4495,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 656986
     },
     {
       "player": "Hayden Wesneski",
@@ -757,7 +814,8 @@
       "estimated_raise_millions": 0.244,
       "war_2026": 1.245,
       "war_2yr_avg": 0.7065,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 669713
     },
     {
       "player": "Hunter Brown",
@@ -770,7 +828,8 @@
       "estimated_raise_millions": 2.284,
       "war_2026": 1.861,
       "war_2yr_avg": 3.189,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 686613
     },
     {
       "player": "Jake Meyers",
@@ -783,7 +842,8 @@
       "estimated_raise_millions": 0.355,
       "war_2026": -0.023,
       "war_2yr_avg": 1.138,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 676694
     },
     {
       "player": "Jeremy Peña",
@@ -796,7 +856,8 @@
       "estimated_raise_millions": 5.682,
       "war_2026": 3.375,
       "war_2yr_avg": 4.569,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 665161
     },
     {
       "player": "Nick Allen",
@@ -809,7 +870,8 @@
       "estimated_raise_millions": 0.14,
       "war_2026": 0.661,
       "war_2yr_avg": 0.704,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 669397
     },
     {
       "player": "Taylor Trammell",
@@ -822,7 +884,8 @@
       "estimated_raise_millions": 0.0,
       "war_2026": -0.016,
       "war_2yr_avg": -0.08449999999999999,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 666211
     },
     {
       "player": "Yainer Diaz",
@@ -835,7 +898,8 @@
       "estimated_raise_millions": 1.125,
       "war_2026": 1.679,
       "war_2yr_avg": 1.6560000000000001,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 673237
     },
     {
       "player": "Alex Lange",
@@ -848,7 +912,8 @@
       "estimated_raise_millions": 0.0,
       "war_2026": -1.066,
       "war_2yr_avg": -0.5325000000000001,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 656638
     },
     {
       "player": "Daniel Lynch IV",
@@ -861,7 +926,8 @@
       "estimated_raise_millions": 0.102,
       "war_2026": 0.521,
       "war_2yr_avg": 0.20400000000000001,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 663738
     },
     {
       "player": "James McArthur",
@@ -874,7 +940,8 @@
       "estimated_raise_millions": 0.081,
       "war_2026": null,
       "war_2yr_avg": null,
-      "projection_method": "three_year_war_fallback"
+      "projection_method": "three_year_war_fallback",
+      "mlb_player_id": 663704
     },
     {
       "player": "Kyle Isbel",
@@ -887,7 +954,8 @@
       "estimated_raise_millions": 0.27,
       "war_2026": 0.101,
       "war_2yr_avg": 0.615,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 664728
     },
     {
       "player": "Michael Massey",
@@ -900,7 +968,8 @@
       "estimated_raise_millions": 0.393,
       "war_2026": 2.305,
       "war_2yr_avg": 0.9395000000000001,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 686681
     },
     {
       "player": "Nate Pearson",
@@ -913,7 +982,8 @@
       "estimated_raise_millions": 0.135,
       "war_2026": 0.249,
       "war_2yr_avg": 0.035,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 663878
     },
     {
       "player": "Nick Mears",
@@ -926,7 +996,8 @@
       "estimated_raise_millions": 0.19,
       "war_2026": -0.011,
       "war_2yr_avg": 0.21,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 683232
     },
     {
       "player": "Josh Lowe",
@@ -939,7 +1010,8 @@
       "estimated_raise_millions": 0.26,
       "war_2026": 0.644,
       "war_2yr_avg": 0.273,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 666139
     },
     {
       "player": "Reid Detmers",
@@ -952,7 +1024,8 @@
       "estimated_raise_millions": 1.572,
       "war_2026": 4.892,
       "war_2yr_avg": 3.013,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 672282
     },
     {
       "player": "Tyler Heineman",
@@ -965,7 +1038,8 @@
       "estimated_raise_millions": 0.124,
       "war_2026": -0.154,
       "war_2yr_avg": 0.9135000000000001,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 623168
     },
     {
       "player": "Zach Neto",
@@ -978,7 +1052,8 @@
       "estimated_raise_millions": 2.49,
       "war_2026": 3.928,
       "war_2yr_avg": 3.597,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 687263
     },
     {
       "player": "Alek Thomas",
@@ -991,7 +1066,8 @@
       "estimated_raise_millions": 0.0,
       "war_2026": -0.135,
       "war_2yr_avg": 0.1765,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 677950
     },
     {
       "player": "Alex Call",
@@ -1004,7 +1080,8 @@
       "estimated_raise_millions": 0.16,
       "war_2026": 0.426,
       "war_2yr_avg": 0.654,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 669743
     },
     {
       "player": "Ben Rortvedt",
@@ -1017,7 +1094,8 @@
       "estimated_raise_millions": 0.0,
       "war_2026": -0.24,
       "war_2yr_avg": -0.348,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 666163
     },
     {
       "player": "Brock Stewart",
@@ -1030,7 +1108,8 @@
       "estimated_raise_millions": 0.13,
       "war_2026": 0.335,
       "war_2yr_avg": 0.501,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 592779
     },
     {
       "player": "Andrew Nardi",
@@ -1043,7 +1122,8 @@
       "estimated_raise_millions": 0.0,
       "war_2026": -0.058,
       "war_2yr_avg": -0.058,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 677053
     },
     {
       "player": "Anthony Bender",
@@ -1056,7 +1136,8 @@
       "estimated_raise_millions": 0.281,
       "war_2026": 0.829,
       "war_2yr_avg": 0.6325,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 669622
     },
     {
       "player": "Calvin Faucher",
@@ -1069,7 +1150,8 @@
       "estimated_raise_millions": 0.18,
       "war_2026": 1.17,
       "war_2yr_avg": 0.57,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 676534
     },
     {
       "player": "Max Meyer",
@@ -1082,7 +1164,8 @@
       "estimated_raise_millions": 0.245,
       "war_2026": 2.34,
       "war_2yr_avg": 1.4235,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 676974
     },
     {
       "player": "Andrew Vaughn",
@@ -1095,7 +1178,8 @@
       "estimated_raise_millions": 1.912,
       "war_2026": 1.335,
       "war_2yr_avg": 0.9684999999999999,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 683734
     },
     {
       "player": "Angel Zerpa",
@@ -1108,7 +1192,8 @@
       "estimated_raise_millions": 0.0,
       "war_2026": -0.161,
       "war_2yr_avg": 0.105,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 672582
     },
     {
       "player": "Brice Turang",
@@ -1121,7 +1206,8 @@
       "estimated_raise_millions": 2.49,
       "war_2026": 5.905,
       "war_2yr_avg": 5.171,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 668930
     },
     {
       "player": "Garrett Mitchell",
@@ -1134,7 +1220,8 @@
       "estimated_raise_millions": 0.38,
       "war_2026": 3.049,
       "war_2yr_avg": 1.7075,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 669003
     },
     {
       "player": "Trevor Megill",
@@ -1147,7 +1234,8 @@
       "estimated_raise_millions": 1.88,
       "war_2026": 2.499,
       "war_2yr_avg": 2.017,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 656730
     },
     {
       "player": "Alex Jackson",
@@ -1160,7 +1248,8 @@
       "estimated_raise_millions": 0.135,
       "war_2026": 0.092,
       "war_2yr_avg": 0.5740000000000001,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 656577
     },
     {
       "player": "Anthony Banda",
@@ -1173,7 +1262,8 @@
       "estimated_raise_millions": 0.0,
       "war_2026": -0.013,
       "war_2yr_avg": 0.0065,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 607455
     },
     {
       "player": "Bailey Ober",
@@ -1186,7 +1276,8 @@
       "estimated_raise_millions": 1.3,
       "war_2026": 1.274,
       "war_2yr_avg": 1.1785,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 641927
     },
     {
       "player": "Cole Sands",
@@ -1199,7 +1290,8 @@
       "estimated_raise_millions": 0.0,
       "war_2026": -0.253,
       "war_2yr_avg": 0.2535,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 663485
     },
     {
       "player": "Dean Kremer",
@@ -1212,7 +1304,8 @@
       "estimated_raise_millions": 0.575,
       "war_2026": 0.535,
       "war_2yr_avg": 1.5665,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 665152
     },
     {
       "player": "Royce Lewis",
@@ -1225,7 +1318,8 @@
       "estimated_raise_millions": 0.285,
       "war_2026": 0.535,
       "war_2yr_avg": 0.77,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 668904
     },
     {
       "player": "Trevor Larnach",
@@ -1238,7 +1332,8 @@
       "estimated_raise_millions": 1.117,
       "war_2026": 2.241,
       "war_2yr_avg": 1.2435,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 663616
     },
     {
       "player": "Christopher Morel",
@@ -1251,7 +1346,8 @@
       "estimated_raise_millions": 0.0,
       "war_2026": -1.047,
       "war_2yr_avg": -0.571,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 666624
     },
     {
       "player": "Francisco Alvarez",
@@ -1264,7 +1360,8 @@
       "estimated_raise_millions": 0.6,
       "war_2026": 1.432,
       "war_2yr_avg": 1.6084999999999998,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 682626
     },
     {
       "player": "MJ Melendez",
@@ -1277,7 +1374,8 @@
       "estimated_raise_millions": 0.0,
       "war_2026": 0.065,
       "war_2yr_avg": -0.262,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 669004
     },
     {
       "player": "Reed Garrett",
@@ -1290,7 +1388,8 @@
       "estimated_raise_millions": 0.13,
       "war_2026": null,
       "war_2yr_avg": 0.775,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 657585
     },
     {
       "player": "Tylor Megill",
@@ -1303,7 +1402,8 @@
       "estimated_raise_millions": 0.625,
       "war_2026": null,
       "war_2yr_avg": 1.498,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 656731
     },
     {
       "player": "Vidal Bruján",
@@ -1316,7 +1416,8 @@
       "estimated_raise_millions": 0.0,
       "war_2026": -0.1,
       "war_2yr_avg": -0.060500000000000005,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 660644
     },
     {
       "player": "Anthony Volpe",
@@ -1329,7 +1430,8 @@
       "estimated_raise_millions": 0.87,
       "war_2026": 1.384,
       "war_2yr_avg": 1.1709999999999998,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 683011
     },
     {
       "player": "Clarke Schmidt",
@@ -1342,7 +1444,8 @@
       "estimated_raise_millions": 0.45,
       "war_2026": 0.039,
       "war_2yr_avg": 0.6649999999999999,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 657376
     },
     {
       "player": "Fernando Cruz",
@@ -1355,7 +1458,8 @@
       "estimated_raise_millions": 0.145,
       "war_2026": 0.375,
       "war_2yr_avg": 0.5800000000000001,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 518585
     },
     {
       "player": "José Caballero",
@@ -1368,7 +1472,8 @@
       "estimated_raise_millions": 0.5,
       "war_2026": 1.327,
       "war_2yr_avg": 1.6545,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 676609
     },
     {
       "player": "Luis García Jr.",
@@ -1381,7 +1486,8 @@
       "estimated_raise_millions": 2.752,
       "war_2026": 2.607,
       "war_2yr_avg": 1.6125,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 671277
     },
     {
       "player": "Luis Gil",
@@ -1394,7 +1500,8 @@
       "estimated_raise_millions": 0.0,
       "war_2026": -0.469,
       "war_2yr_avg": 0.05199999999999999,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 661563
     },
     {
       "player": "Ryan Weathers",
@@ -1407,7 +1514,8 @@
       "estimated_raise_millions": 0.54,
       "war_2026": 2.547,
       "war_2yr_avg": 1.3675000000000002,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 677960
     },
     {
       "player": "Luis Medina",
@@ -1420,7 +1528,8 @@
       "estimated_raise_millions": 0.083,
       "war_2026": 0.934,
       "war_2yr_avg": 0.934,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 665622
     },
     {
       "player": "Shea Langeliers",
@@ -1433,7 +1542,8 @@
       "estimated_raise_millions": 2.1,
       "war_2026": 2.298,
       "war_2yr_avg": 2.9605,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 669127
     },
     {
       "player": "Brandon Marsh",
@@ -1446,7 +1556,8 @@
       "estimated_raise_millions": 0.52,
       "war_2026": 0.345,
       "war_2yr_avg": 1.3424999999999998,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 669016
     },
     {
       "player": "Bryson Stott",
@@ -1459,7 +1570,8 @@
       "estimated_raise_millions": 3.54,
       "war_2026": 3.844,
       "war_2yr_avg": 3.402,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 681082
     },
     {
       "player": "Derek Hill",
@@ -1472,7 +1584,8 @@
       "estimated_raise_millions": 0.09,
       "war_2026": 0.948,
       "war_2yr_avg": 0.8065,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 656537
     },
     {
       "player": "Garrett Stubbs",
@@ -1485,7 +1598,8 @@
       "estimated_raise_millions": 0.0,
       "war_2026": -0.469,
       "war_2yr_avg": -0.2495,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 596117
     },
     {
       "player": "Jhoan Duran",
@@ -1498,7 +1612,8 @@
       "estimated_raise_millions": 3.0,
       "war_2026": 2.867,
       "war_2yr_avg": 2.4855,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 661395
     },
     {
       "player": "Rafael Marchán",
@@ -1511,7 +1626,8 @@
       "estimated_raise_millions": 0.0,
       "war_2026": -0.489,
       "war_2yr_avg": -0.1225,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 665561
     },
     {
       "player": "Tanner Banks",
@@ -1524,7 +1640,8 @@
       "estimated_raise_millions": 0.12,
       "war_2026": -0.186,
       "war_2yr_avg": 0.3085,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 621383
     },
     {
       "player": "Oneil Cruz",
@@ -1537,7 +1654,8 @@
       "estimated_raise_millions": 1.32,
       "war_2026": 3.287,
       "war_2yr_avg": 2.3975,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 665833
     },
     {
       "player": "Yohan Ramírez",
@@ -1550,7 +1668,8 @@
       "estimated_raise_millions": 0.206,
       "war_2026": 1.226,
       "war_2yr_avg": 0.701,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 670990
     },
     {
       "player": "Freddy Fermin",
@@ -1563,7 +1682,8 @@
       "estimated_raise_millions": 0.525,
       "war_2026": 1.02,
       "war_2yr_avg": 0.999,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 666023
     },
     {
       "player": "Gavin Sheets",
@@ -1576,7 +1696,8 @@
       "estimated_raise_millions": 0.45,
       "war_2026": 0.216,
       "war_2yr_avg": 0.7905,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 657757
     },
     {
       "player": "JP Sears",
@@ -1589,7 +1710,8 @@
       "estimated_raise_millions": 0.275,
       "war_2026": 0.01,
       "war_2yr_avg": 0.3755,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 676664
     },
     {
       "player": "Luis Campusano",
@@ -1602,7 +1724,8 @@
       "estimated_raise_millions": 0.225,
       "war_2026": 1.778,
       "war_2yr_avg": 0.712,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 669134
     },
     {
       "player": "Mason Miller",
@@ -1615,7 +1738,8 @@
       "estimated_raise_millions": 2.4,
       "war_2026": 3.736,
       "war_2yr_avg": 2.9320000000000004,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 695243
     },
     {
       "player": "Andy Ibáñez",
@@ -1628,7 +1752,8 @@
       "estimated_raise_millions": 0.0,
       "war_2026": -0.593,
       "war_2yr_avg": -0.10949999999999999,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 628451
     },
     {
       "player": "Brendan Donovan",
@@ -1641,7 +1766,8 @@
       "estimated_raise_millions": 1.45,
       "war_2026": 0.962,
       "war_2yr_avg": 1.895,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 680977
     },
     {
       "player": "Gabe Speier",
@@ -1654,7 +1780,8 @@
       "estimated_raise_millions": 0.212,
       "war_2026": 0.262,
       "war_2yr_avg": 0.9875,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 642100
     },
     {
       "player": "George Kirby",
@@ -1667,7 +1794,8 @@
       "estimated_raise_millions": 2.62,
       "war_2026": 2.509,
       "war_2yr_avg": 2.465,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 669923
     },
     {
       "player": "Logan Gilbert",
@@ -1680,7 +1808,8 @@
       "estimated_raise_millions": 4.372,
       "war_2026": 2.853,
       "war_2yr_avg": 2.7135,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 669302
     },
     {
       "player": "Luke Raley",
@@ -1693,7 +1822,8 @@
       "estimated_raise_millions": 0.205,
       "war_2026": 0.285,
       "war_2yr_avg": 0.22999999999999998,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 670042
     },
     {
       "player": "Matt Brash",
@@ -1706,7 +1836,8 @@
       "estimated_raise_millions": 0.155,
       "war_2026": 0.322,
       "war_2yr_avg": 0.549,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 666374
     },
     {
       "player": "Nolan Jones",
@@ -1719,7 +1850,8 @@
       "estimated_raise_millions": 0.0,
       "war_2026": null,
       "war_2yr_avg": -0.473,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 666134
     },
     {
       "player": "Camilo Doval",
@@ -1732,7 +1864,8 @@
       "estimated_raise_millions": 0.61,
       "war_2026": 0.129,
       "war_2yr_avg": 0.3785,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 666808
     },
     {
       "player": "Jason Foley",
@@ -1745,7 +1878,8 @@
       "estimated_raise_millions": 0.2,
       "war_2026": 0.035,
       "war_2yr_avg": 0.035,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 671345
     },
     {
       "player": "Sam Hentges",
@@ -1758,7 +1892,8 @@
       "estimated_raise_millions": 0.14,
       "war_2026": 0.538,
       "war_2yr_avg": 0.538,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 656529
     },
     {
       "player": "Alec Burleson",
@@ -1771,7 +1906,8 @@
       "estimated_raise_millions": 1.32,
       "war_2026": 3.199,
       "war_2yr_avg": 2.6295,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 676475
     },
     {
       "player": "Andre Pallante",
@@ -1784,7 +1920,8 @@
       "estimated_raise_millions": 1.6,
       "war_2026": 2.695,
       "war_2yr_avg": 1.7229999999999999,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 669467
     },
     {
       "player": "Nolan Gorman",
@@ -1797,7 +1934,8 @@
       "estimated_raise_millions": 0.0,
       "war_2026": -0.547,
       "war_2yr_avg": -0.373,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 669357
     },
     {
       "player": "Bryan Baker",
@@ -1810,7 +1948,8 @@
       "estimated_raise_millions": 0.317,
       "war_2026": 1.326,
       "war_2yr_avg": 0.9,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 641329
     },
     {
       "player": "Cole Sulser",
@@ -1823,7 +1962,8 @@
       "estimated_raise_millions": 0.105,
       "war_2026": 0.567,
       "war_2yr_avg": 0.46249999999999997,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 642121
     },
     {
       "player": "Edwin Uceta",
@@ -1836,7 +1976,8 @@
       "estimated_raise_millions": 0.152,
       "war_2026": null,
       "war_2yr_avg": 0.816,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 670955
     },
     {
       "player": "Griffin Jax",
@@ -1849,7 +1990,8 @@
       "estimated_raise_millions": 0.89,
       "war_2026": 1.607,
       "war_2yr_avg": 1.638,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 643377
     },
     {
       "player": "Jack Suwinski",
@@ -1862,7 +2004,8 @@
       "estimated_raise_millions": 0.0,
       "war_2026": null,
       "war_2yr_avg": -0.568,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 669261
     },
     {
       "player": "Kevin Kelly",
@@ -1875,7 +2018,8 @@
       "estimated_raise_millions": 0.231,
       "war_2026": 1.414,
       "war_2yr_avg": 0.43449999999999994,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 687330
     },
     {
       "player": "Nick Fortes",
@@ -1888,7 +2032,8 @@
       "estimated_raise_millions": 0.635,
       "war_2026": 1.207,
       "war_2yr_avg": 1.1275,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 663743
     },
     {
       "player": "Richie Palacios",
@@ -1901,7 +2046,8 @@
       "estimated_raise_millions": 0.095,
       "war_2026": 1.021,
       "war_2yr_avg": 0.5515,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 680700
     },
     {
       "player": "Ryan Pepiot",
@@ -1914,7 +2060,8 @@
       "estimated_raise_millions": 0.755,
       "war_2026": null,
       "war_2yr_avg": 1.941,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 686752
     },
     {
       "player": "Shane McClanahan",
@@ -1927,7 +2074,8 @@
       "estimated_raise_millions": 1.44,
       "war_2026": 2.408,
       "war_2yr_avg": 2.408,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 663556
     },
     {
       "player": "Steven Wilson",
@@ -1940,7 +2088,8 @@
       "estimated_raise_millions": 0.152,
       "war_2026": null,
       "war_2yr_avg": 0.373,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 621051
     },
     {
       "player": "Tyler Wells",
@@ -1953,7 +2102,8 @@
       "estimated_raise_millions": 0.61,
       "war_2026": 1.314,
       "war_2yr_avg": 0.8170000000000001,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 669330
     },
     {
       "player": "Ezequiel Duran",
@@ -1966,7 +2116,8 @@
       "estimated_raise_millions": 0.828,
       "war_2026": 4.399,
       "war_2yr_avg": 2.224,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 677649
     },
     {
       "player": "Jake Burger",
@@ -1979,7 +2130,8 @@
       "estimated_raise_millions": 0.8,
       "war_2026": 1.476,
       "war_2yr_avg": 0.724,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 669394
     },
     {
       "player": "John King",
@@ -1992,7 +2144,8 @@
       "estimated_raise_millions": 0.0,
       "war_2026": -0.263,
       "war_2yr_avg": -0.3435,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 667463
     },
     {
       "player": "Josh Jung",
@@ -2005,7 +2158,8 @@
       "estimated_raise_millions": 1.16,
       "war_2026": 3.18,
       "war_2yr_avg": 2.4425,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 673962
     },
     {
       "player": "Logan O'Hoppe",
@@ -2018,7 +2172,8 @@
       "estimated_raise_millions": 0.0,
       "war_2026": -0.896,
       "war_2yr_avg": -0.788,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 681351
     },
     {
       "player": "MacKenzie Gore",
@@ -2031,7 +2186,8 @@
       "estimated_raise_millions": 2.24,
       "war_2026": 2.831,
       "war_2yr_avg": 2.9105,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 669022
     },
     {
       "player": "Ernie Clement",
@@ -2044,7 +2200,8 @@
       "estimated_raise_millions": 1.15,
       "war_2026": 0.626,
       "war_2yr_avg": 1.919,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 676391
     },
     {
       "player": "Josh Smith",
@@ -2057,7 +2214,8 @@
       "estimated_raise_millions": 0.323,
       "war_2026": 0.082,
       "war_2yr_avg": 0.9460000000000001,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 669701
     },
     {
       "player": "José Soriano",
@@ -2070,7 +2228,8 @@
       "estimated_raise_millions": 1.16,
       "war_2026": 2.567,
       "war_2yr_avg": 2.6705,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 667755
     },
     {
       "player": "CJ Abrams",
@@ -2083,7 +2242,8 @@
       "estimated_raise_millions": 2.52,
       "war_2026": 3.678,
       "war_2yr_avg": 3.347,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 682928
     },
     {
       "player": "Jake Bird",
@@ -2096,7 +2256,8 @@
       "estimated_raise_millions": 0.1,
       "war_2026": 0.086,
       "war_2yr_avg": 0.2565,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 656234
     },
     {
       "player": "Jake Irvin",
@@ -2109,7 +2270,8 @@
       "estimated_raise_millions": 0.28,
       "war_2026": 0.496,
       "war_2yr_avg": 0.1225,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 663623
     },
     {
       "player": "Josiah Gray",
@@ -2122,7 +2284,8 @@
       "estimated_raise_millions": 0.135,
       "war_2026": 0.088,
       "war_2yr_avg": 0.088,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 680686
     },
     {
       "player": "Justin Lawrence",
@@ -2135,7 +2298,8 @@
       "estimated_raise_millions": 0.0,
       "war_2026": -0.879,
       "war_2yr_avg": -0.1975,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 664875
     },
     {
       "player": "Ken Waldichuk",
@@ -2148,7 +2312,8 @@
       "estimated_raise_millions": 0.0,
       "war_2026": -0.391,
       "war_2yr_avg": -0.391,
-      "projection_method": "recent_war_weighted"
+      "projection_method": "recent_war_weighted",
+      "mlb_player_id": 686610
     }
   ]
 }
