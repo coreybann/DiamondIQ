@@ -43,11 +43,23 @@ jobs:
           ):
               path = base / name
               data = json.loads(path.read_text())
+              records = data.get("records")
 
-              if not isinstance(data.get("records"), list):
-                  raise SystemExit(f"Invalid records: {name}")
+              if not isinstance(records, list):
+                  raise SystemExit(f"Invalid records list: {name}")
 
-              print(f"PASS: {name}")
+              if len(records) < 1000:
+                  raise SystemExit(
+                      f"Insufficient records in {name}: {len(records)}"
+                  )
+
+              if any(
+                  not isinstance(record, dict)
+                  for record in records
+              ):
+                  raise SystemExit(f"Invalid record structure: {name}")
+
+              print(f"PASS: {name} ({len(records)} records)")
 
           VALIDATE
 
