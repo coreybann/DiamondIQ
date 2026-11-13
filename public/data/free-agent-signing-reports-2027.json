@@ -1,6 +1,6 @@
 {
   "season": 2027,
-  "lastUpdated": "2026-11-13T03:23:32.054368+00:00",
+  "lastUpdated": "2026-11-13T19:29:36.918233+00:00",
   "signings": [
     {
       "playerId": 623465,
@@ -36,6 +36,36 @@
           "headline": "Evan Phillips signs 3-year, $35 million deal with Braves - Yahoo Sports",
           "publisher": "yahoo sports",
           "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTHQzQkp0NGMxSUtxVUdDOFhHakhJQWVpZEItN0x5SkZqdDNNOXVHRjNBVDM1N0ZnclV4S0VIU1dFaFdsX1phR0hONDVjTDdsNXBfMlpwMzA0TDI4TlJ3dUt6Smhyd3RsaGhXRlp5aXJCQlV0WndPNDNzM2paM2o3cF9Lc0NQV1h0azZTR1NkeTE4Ym1OTlNub201b2dSVXBJZ05aTFBtUmlFU0pmTWc3Q0V4SGdnS2oyNmstYg?oc=5"
+        }
+      ]
+    },
+    {
+      "playerId": 641343,
+      "playerName": "Jake Bauers",
+      "team": "Boston Red Sox",
+      "date": "2026-11-13",
+      "status": "Signing Reported",
+      "sources": [
+        {
+          "team": "Boston Red Sox",
+          "date": "2026-11-13",
+          "headline": "Red Sox To Sign Jake Bauers",
+          "publisher": null,
+          "url": "https://www.mlbtraderumors.com/2026/11/red-sox-sign-jake-bauers.html"
+        },
+        {
+          "team": "Boston Red Sox",
+          "date": "2026-11-13",
+          "headline": "Jake Bauers signs with Boston Red Sox - Yahoo Sports",
+          "publisher": "yahoo sports",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOT0JLNG5uRW5SbDl2cm9TalNPQzVOSmNEVVlseTZLS0hISFNzaXQzdDJJTzBKWmlwMmJmeWFQT2RMOUxfdTZYbG5DNU5NZUdZRWMwRnQ3blVzSjd5NGRMd2tIUU1sd1cyTWlJcS1GMUthSER2RDlZNTJ2cnhCandyVjhUYw?oc=5"
+        },
+        {
+          "team": "Boston Red Sox",
+          "date": "2026-11-13",
+          "headline": "Report: Jake Bauers agrees to four-year, $58-million deal with Red Sox - Sportsnet.ca",
+          "publisher": "sportsnet.ca",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUHZ2OGVVR3FGZGd3QXdMNHdMNVVJa1M0WFFMODJzLWxMaTRGSGd1Q1VZaG5DRUJVX2lPQW1fOGduYkJjZFJKQjNSdkJPWXhmM1pDRi1rWHhLVk9yX21iX0l3aGp6X3JzZ0F6aGdURk40Q2ctSzM0Vl9lbGU3VmdMSW1rSDFWZmV4OWY4amttaUpzZXd0blJSWHFVQUNubU1YV3dmcUZVcWY?oc=5"
         }
       ]
     },
