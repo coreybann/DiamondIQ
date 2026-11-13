@@ -263,6 +263,25 @@ def main():
                     "salary_by_year", {}
                 )
 
+                # Preserve salary years omitted entirely by the source.
+                for year, old_salary in previous_salaries.items():
+                    if year in refreshed["salary_by_year"]:
+                        continue
+
+                    if not isinstance(old_salary, dict):
+                        continue
+
+                    if old_salary.get("status") not in (
+                        "salary_listed",
+                        "salary_with_fa_marker",
+                    ):
+                        continue
+
+                    if old_salary.get("salary_millions") is None:
+                        continue
+
+                    refreshed["salary_by_year"][year] = old_salary.copy()
+
                 for year, new_salary in refreshed["salary_by_year"].items():
                     old_salary = previous_salaries.get(year)
 
