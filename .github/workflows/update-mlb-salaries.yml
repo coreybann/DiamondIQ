@@ -1,0 +1,67 @@
+name: Update MLB Salaries
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-mlb-salaries
+  cancel-in-progress: false
+
+jobs:
+  update-salaries:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install salary collector dependencies
+        run: python3 -m pip install requests pandas lxml
+
+      - name: Refresh MLB salary database
+        run: python3 scripts/build-mlb-contract-database.py
+
+      - name: Validate salary datasets
+        run: |
+          python3 - <<'VALIDATE'
+          import json
+          from pathlib import Path
+
+          base = Path("public/data")
+
+          for name in (
+              "mlb-contracts-2026.json",
+              "mlb-contract-history.json",
+          ):
+              path = base / name
+              data = json.loads(path.read_text())
+
+              if not isinstance(data.get("records"), list):
+                  raise SystemExit(f"Invalid records: {name}")
+
+              print(f"PASS: {name}")
+
+          VALIDATE
+
+      - name: Commit verified salary updates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add             public/data/mlb-contracts-2026.json             public/data/mlb-contract-history.json
+
+          if git diff --cached --quiet; then
+            echo "No salary changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Update MLB salary database and history"
+          git push

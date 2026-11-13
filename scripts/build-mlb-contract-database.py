@@ -136,6 +136,17 @@ def main():
             previous = {}
 
     records = list(previous.get("records", []))
+
+    # Preserve previously verified MLB player IDs during refreshes.
+    existing_player_ids = {}
+
+    for record in records:
+        player_id = record.get("mlb_player_id")
+        player_name = record.get("player", "").strip().casefold()
+
+        if isinstance(player_id, int) and player_id > 0:
+            existing_player_ids.setdefault(player_name, set()).add(player_id)
+
     successful = list(previous.get("successful_teams", []))
     failed = [
         item for item in previous.get("failed_teams", [])
@@ -143,6 +154,7 @@ def main():
     ]
 
     requested_teams = sys.argv[1:] or list(TEAMS)
+    refreshed_team_count = 0
 
     for team in requested_teams:
         if team not in TEAMS:
@@ -163,7 +175,7 @@ def main():
             if not response.ok:
                 raise RuntimeError(f"HTTP {response.status_code}")
 
-            tables = pd.read_html(StringIO(response.text))
+            tables = pd.read_html(StringIO(response.content.decode("utf-8")))
             table = next(
                 (t for t in tables if "Name" in t.columns),
                 None,
@@ -208,8 +220,19 @@ def main():
                     for year in year_columns
                 }
 
+                known_ids = existing_player_ids.get(
+                    name.casefold(), set()
+                )
+
+                preserved_id = (
+                    next(iter(known_ids))
+                    if len(known_ids) == 1
+                    else None
+                )
+
                 team_records.append({
                     "player": name,
+                    "mlb_player_id": preserved_id,
                     "team_code": team,
                     "age": clean(row.get("Age")),
                     "service_time": clean(row.get("SrvTm")),
@@ -221,6 +244,51 @@ def main():
                     "source_checked": date.today().isoformat(),
                 })
 
+            # Reject incomplete or suspiciously small salary tables.
+            previous_team_count = sum(
+                1 for record in records
+                if record.get("team_code") == team
+            )
+
+            new_team_count = len(team_records)
+
+            if new_team_count < 10:
+                raise RuntimeError(
+                    f"Suspicious salary table: only "
+                    f"{new_team_count} players"
+                )
+
+            if (
+                previous_team_count >= 10
+                and new_team_count < previous_team_count * 0.5
+            ):
+                raise RuntimeError(
+                    f"Suspicious salary table reduction: "
+                    f"{previous_team_count} -> {new_team_count}"
+                )
+
+            # Reject refreshes that lose previously known player IDs.
+            previous_ids_by_name = {
+                record["player"].strip().casefold(): record["mlb_player_id"]
+                for record in records
+                if record.get("team_code") == team
+                and isinstance(record.get("mlb_player_id"), int)
+                and record["mlb_player_id"] > 0
+            }
+
+            for refreshed in team_records:
+                player_name = refreshed["player"].strip().casefold()
+                previous_id = previous_ids_by_name.get(player_name)
+
+                if (
+                    previous_id is not None
+                    and refreshed.get("mlb_player_id") != previous_id
+                ):
+                    raise RuntimeError(
+                        f"Player ID lost during refresh: "
+                        f"{refreshed['player']}"
+                    )
+
             # Replace this team's previous records only after a
             # successful fetch and parse.
             records = [
@@ -228,6 +296,7 @@ def main():
                 if record.get("team_code") != team
             ]
             records.extend(team_records)
+            refreshed_team_count += 1
 
             if team not in successful:
                 successful.append(team)
@@ -243,10 +312,70 @@ def main():
 
         time.sleep(5)
 
+    # Preserve historical contract snapshots before saving refreshed data.
+    archive_path = BASE / "mlb-contract-history.json"
+
+    if refreshed_team_count > 0:
+        archive = {
+            "description": "DiamondIQ historical MLB salary records",
+            "created": date.today().isoformat(),
+            "source_dataset": OUTPUT.name,
+            "record_count": 0,
+            "records": [],
+        }
+
+        if archive_path.exists():
+            archive = json.loads(archive_path.read_text())
+
+        historical_records = archive.get("records", [])
+
+        def record_key(record):
+            return json.dumps(
+                {
+                    "player": record.get("player"),
+                    "mlb_player_id": record.get("mlb_player_id"),
+                    "team_code": record.get("team_code"),
+                    "salary_by_year": record.get("salary_by_year"),
+                },
+                sort_keys=True,
+                ensure_ascii=False,
+            )
+
+        existing_keys = {
+            record_key(record)
+            for record in historical_records
+        }
+
+        for record in previous.get("records", []):
+            key = record_key(record)
+
+            if key not in existing_keys:
+                historical_records.append(record)
+                existing_keys.add(key)
+
+        archive["records"] = historical_records
+        archive["record_count"] = len(historical_records)
+
+        archive_path.write_text(
+            json.dumps(
+                archive,
+                indent=2,
+                ensure_ascii=False
+            ) + "\n"
+        )
+
+        print(
+            f"Historical archive: {len(historical_records)} records"
+        )
+
     result = {
         "season": 2026,
         "source": "Baseball-Reference team salary tables",
-        "source_checked": date.today().isoformat(),
+        "source_checked": (
+            date.today().isoformat()
+            if refreshed_team_count > 0
+            else previous.get("source_checked")
+        ),
         "successful_teams": successful,
         "failed_teams": failed,
         "player_records": len(records),
@@ -269,6 +398,18 @@ def main():
         for item in failed:
             print(f"  {item['team']}: {item['error']}")
 
+    # Report requested-team failures to scheduled workflows.
+    requested_failures = [
+        item for item in failed
+        if item.get("team") in requested_teams
+    ]
+
+    if requested_failures:
+        print(
+            f"WARNING: {len(requested_failures)} requested "
+            "team refresh(es) failed."
+        )
+
     for target in ("Aaron Judge", "Juan Soto", "Shohei Ohtani"):
         matches = [
             record for record in records
@@ -281,6 +422,9 @@ def main():
             print("2026:", player["salary_by_year"].get("2026"))
             print("2027:", player["salary_by_year"].get("2027"))
 
+    # Return failure only after saving all preserved and refreshed data.
+    return 1 if requested_failures else 0
+
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())
