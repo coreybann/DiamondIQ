@@ -1,6 +1,8 @@
 name: Update MLB Salaries
 
 on:
+  schedule:
+    - cron: "17 11 * * *"
   workflow_dispatch:
 
 permissions:
