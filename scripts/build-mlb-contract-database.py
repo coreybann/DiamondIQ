@@ -244,6 +244,48 @@ def main():
                     "source_checked": date.today().isoformat(),
                 })
 
+            # Preserve previously listed salaries when the source
+            # temporarily returns an unavailable or unparsed value.
+            previous_team_records = {
+                record.get("player", "").strip().casefold(): record
+                for record in records
+                if record.get("team_code") == team
+            }
+
+            for refreshed in team_records:
+                player_key = refreshed["player"].strip().casefold()
+                previous_record = previous_team_records.get(player_key)
+
+                if previous_record is None:
+                    continue
+
+                previous_salaries = previous_record.get(
+                    "salary_by_year", {}
+                )
+
+                for year, new_salary in refreshed["salary_by_year"].items():
+                    old_salary = previous_salaries.get(year)
+
+                    if not isinstance(old_salary, dict):
+                        continue
+
+                    if new_salary.get("status") not in (
+                        "unavailable",
+                        "unparsed",
+                    ):
+                        continue
+
+                    if old_salary.get("status") not in (
+                        "salary_listed",
+                        "salary_with_fa_marker",
+                    ):
+                        continue
+
+                    if old_salary.get("salary_millions") is None:
+                        continue
+
+                    refreshed["salary_by_year"][year] = old_salary.copy()
+
             # Reject incomplete or suspiciously small salary tables.
             previous_team_count = sum(
                 1 for record in records
