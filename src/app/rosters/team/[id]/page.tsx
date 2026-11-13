@@ -1,10 +1,17 @@
 import Link from "next/link";
+import RosterTabs from "./RosterTabs";
+import { getTeamSalaryRecords, getTeamSalaryProjections } from "@/lib/teamPayroll";
+import { getMLBSeasonCalendar } from "@/lib/mlbSeasonCalendar";
 
 type MLBPlayer = {
   id: number;
   name: string;
   number: string | null;
   position: string;
+  status: string;
+  age: number | null;
+  bats: string;
+  throws: string;
 };
 
 type MLBTeam = {
@@ -13,17 +20,22 @@ type MLBTeam = {
   abbreviation: string;
 };
 
-const groups = [
-  { title: "Pitchers", positions: ["P", "SP", "RP", "TWP"] },
-  { title: "Catchers", positions: ["C"] },
-  { title: "Infielders", positions: ["1B", "2B", "3B", "SS", "IF"] },
-  { title: "Outfielders", positions: ["LF", "CF", "RF", "OF"] },
-  { title: "Designated Hitters", positions: ["DH"] },
-];
+async function getRoster(
+  teamId: number,
+  rosterType: "active" | "40Man" | "depthChart" | "fullRoster" = "active",
+  date?: string
+): Promise<MLBPlayer[]> {
+  const params = new URLSearchParams({
+    rosterType,
+    hydrate: "person",
+  });
 
-async function getRoster(teamId: number): Promise<MLBPlayer[]> {
+  if (date) {
+    params.set("date", date);
+  }
+
   const response = await fetch(
-    `https://statsapi.mlb.com/api/v1/teams/${teamId}/roster?rosterType=active&hydrate=person`,
+    `https://statsapi.mlb.com/api/v1/teams/${teamId}/roster?${params.toString()}`,
     { cache: "no-store" }
   );
 
@@ -35,14 +47,25 @@ async function getRoster(teamId: number): Promise<MLBPlayer[]> {
 
   return (data.roster ?? []).map(
     (entry: {
-      person: { id: number; fullName: string };
+      person: {
+        id: number;
+        fullName: string;
+        currentAge?: number;
+        batSide?: { code?: string };
+        pitchHand?: { code?: string };
+      };
       jerseyNumber?: string;
       position?: { abbreviation: string };
+      status?: { description?: string };
     }) => ({
       id: entry.person.id,
       name: entry.person.fullName,
       number: entry.jerseyNumber ?? null,
       position: entry.position?.abbreviation ?? "N/A",
+      status: entry.status?.description ?? "Unknown",
+      age: entry.person.currentAge ?? null,
+      bats: entry.person.batSide?.code ?? "—",
+      throws: entry.person.pitchHand?.code ?? "—",
     })
   );
 }
@@ -77,31 +100,82 @@ export default async function TeamRosterPage({
 
   let team: MLBTeam | null = null;
   let players: MLBPlayer[] = [];
+  let fortyManPlayers: MLBPlayer[] = [];
+  let depthChartPlayers: MLBPlayer[] = [];
+  let fullRosterPlayers: MLBPlayer[] = [];
+  let teamSalaryRecords: ReturnType<typeof getTeamSalaryRecords> = [];
+  let teamSalaryProjections: ReturnType<typeof getTeamSalaryProjections> = [];
+  let activeRosterLabel = "Active Roster";
+  let activeRosterDescription: string | undefined;
   let error = false;
 
   if (!Number.isInteger(teamId) || teamId <= 0) {
     error = true;
   } else {
     try {
-      [team, players] = await Promise.all([
-        getTeam(teamId),
-        getRoster(teamId),
-      ]);
+      const today = new Date().toISOString().slice(0, 10);
+      const year = Number(today.slice(0, 4));
+
+      const currentSeason = await getMLBSeasonCalendar(year);
+
+      const inRegularSeason =
+        today >= currentSeason.firstDate &&
+        today <= currentSeason.lastDate;
+
+      let snapshotDate: string | undefined;
+
+      if (!inRegularSeason) {
+        if (today < currentSeason.firstDate) {
+          const previousSeason = await getMLBSeasonCalendar(year - 1);
+          snapshotDate = previousSeason.lastDate;
+        } else {
+          snapshotDate = currentSeason.lastDate;
+        }
+
+        activeRosterLabel = "Last Regular-Season Roster";
+        activeRosterDescription =
+          `Historical active-roster snapshot: ${snapshotDate}. ` +
+          "This is not the current active roster.";
+      }
+
+      [team, players, fortyManPlayers, depthChartPlayers, fullRosterPlayers] =
+        await Promise.all([
+          getTeam(teamId),
+          getRoster(teamId, "active", snapshotDate),
+          getRoster(teamId, "40Man"),
+          getRoster(teamId, "depthChart"),
+          getRoster(teamId, "fullRoster"),
+        ]);
     } catch {
       error = true;
     }
   }
 
-  const sortedPlayers = [...players].sort((a, b) =>
-    a.name.localeCompare(b.name)
-  );
+  if (!error && team) {
+    const currentFortyManIds = new Set(
+      fortyManPlayers.map((player) => player.id)
+    );
 
-  const otherPlayers = sortedPlayers.filter(
-    (player) =>
-      !groups.some((group) =>
-        group.positions.includes(player.position)
-      )
-  );
+    teamSalaryRecords = getTeamSalaryRecords(
+      team.abbreviation,
+      2027,
+      fortyManPlayers.map((player) => player.id)
+    ).filter(
+      (record) =>
+        record.mlbPlayerId !== null &&
+        currentFortyManIds.has(record.mlbPlayerId)
+    );
+    const fortyManIds = new Set(
+      fortyManPlayers.map((player) => player.id)
+    );
+
+    teamSalaryProjections = getTeamSalaryProjections(
+      team.abbreviation,
+      fortyManPlayers.map((player) => player.id)
+    ).filter((projection) =>
+      fortyManIds.has(projection.mlbPlayerId)
+    );
+  }
 
   return (
     <main className="min-h-screen bg-[#081321] px-6 py-12 text-white">
@@ -127,82 +201,17 @@ export default async function TeamRosterPage({
               {team.name}
             </h1>
 
-            <p className="mt-3 text-slate-400">
-              Active Roster · {players.length} Players
-            </p>
-
-            <div className="mt-10 space-y-6">
-              {groups.map((group) => {
-                const members = sortedPlayers.filter((player) =>
-                  group.positions.includes(player.position)
-                );
-
-                if (members.length === 0) return null;
-
-                return (
-                  <section
-                    key={group.title}
-                    className="overflow-hidden rounded-xl border border-white/10 bg-[#0d1d30]"
-                  >
-                    <div className="flex items-center justify-between border-b border-white/10 bg-[#12243a] px-6 py-4">
-                      <h2 className="text-xl font-bold">{group.title}</h2>
-                      <span className="text-sm text-slate-400">
-                        {members.length} players
-                      </span>
-                    </div>
-
-                    <div className="divide-y divide-white/5">
-                      {members.map((player) => (
-                        <div
-                          key={player.id}
-                          className="grid grid-cols-[60px_1fr_70px] items-center gap-4 px-6 py-4 hover:bg-white/[0.03]"
-                        >
-                          <span className="font-semibold text-blue-400">
-                            #{player.number ?? "—"}
-                          </span>
-                          <span className="font-medium">
-                            {player.name}
-                          </span>
-                          <span className="text-right text-sm text-slate-400">
-                            {player.position}
-                          </span>
-                        </div>
-                      ))}
-                    </div>
-                  </section>
-                );
-              })}
-
-              {otherPlayers.length > 0 && (
-                <section className="overflow-hidden rounded-xl border border-white/10 bg-[#0d1d30]">
-                  <h2 className="border-b border-white/10 bg-[#12243a] px-6 py-4 text-xl font-bold">
-                    Other Players
-                  </h2>
-                  <div className="divide-y divide-white/5">
-                    {otherPlayers.map((player) => (
-                      <div
-                        key={player.id}
-                        className="grid grid-cols-[60px_1fr_70px] gap-4 px-6 py-4"
-                      >
-                        <span className="text-blue-400">
-                          #{player.number ?? "—"}
-                        </span>
-                        <span>{player.name}</span>
-                        <span className="text-right text-slate-400">
-                          {player.position}
-                        </span>
-                      </div>
-                    ))}
-                  </div>
-                </section>
-              )}
+            <div className="mt-8">
+              <RosterTabs
+                activePlayers={players}
+                fortyManPlayers={fortyManPlayers}
+                depthChartPlayers={depthChartPlayers}
+                teamSalaryRecords={teamSalaryRecords}
+                teamSalaryProjections={teamSalaryProjections}
+                activeRosterLabel={activeRosterLabel}
+                activeRosterDescription={activeRosterDescription}
+              />
             </div>
-
-            {players.length === 0 && (
-              <p className="mt-8 text-slate-400">
-                No active roster players were returned.
-              </p>
-            )}
           </>
         )}
       </div>
