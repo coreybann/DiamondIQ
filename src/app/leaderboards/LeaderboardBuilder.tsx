@@ -27,6 +27,15 @@ export default function LeaderboardBuilder() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
   const [search, setSearch] = useState("");
+  const [statFilters, setStatFilters] = useState<
+    {
+      id: number;
+      stat: string;
+      operator: ">" | ">=" | "<" | "<=" | "=" | "!=";
+      value: string;
+    }[]
+  >([]);
+  const [filterLogic, setFilterLogic] = useState<"AND" | "OR">("AND");
   const [teamId, setTeamId] = useState("all");
   const [minimumPlayingTime, setMinimumPlayingTime] = useState(0);
   const [sortKey, setSortKey] = useState("gamesPlayed");
@@ -167,6 +176,46 @@ export default function LeaderboardBuilder() {
     ).values()
   ).sort((a, b) => a.name.localeCompare(b.name));
 
+  function matchesStatFilter(
+    player: Player,
+    filter: (typeof statFilters)[number]
+  ): boolean {
+    const rawValue = player.stats[filter.stat];
+
+    if (
+      rawValue === undefined ||
+      rawValue === null ||
+      rawValue === "" ||
+      filter.value.trim() === ""
+    ) {
+      return false;
+    }
+
+    const actual = Number(rawValue);
+    const target = Number(filter.value);
+
+    if (!Number.isFinite(actual) || !Number.isFinite(target)) {
+      return false;
+    }
+
+    switch (filter.operator) {
+      case ">":
+        return actual > target;
+      case ">=":
+        return actual >= target;
+      case "<":
+        return actual < target;
+      case "<=":
+        return actual <= target;
+      case "=":
+        return actual === target;
+      case "!=":
+        return actual !== target;
+      default:
+        return false;
+    }
+  }
+
   const filteredPlayers = players.filter((player) => {
     const matchesSearch = player.name
       .toLowerCase()
@@ -188,10 +237,23 @@ export default function LeaderboardBuilder() {
       playingTime = Number(whole) + outs / 3;
     }
 
+    const activeStatFilters = statFilters.filter(
+      (filter) =>
+        filter.value.trim() !== "" &&
+        Number.isFinite(Number(filter.value))
+    );
+
+    const matchesStatFilters =
+      activeStatFilters.length === 0 ||
+      (filterLogic === "AND"
+        ? activeStatFilters.every((filter) => matchesStatFilter(player, filter))
+        : activeStatFilters.some((filter) => matchesStatFilter(player, filter)));
+
     return (
       matchesSearch &&
       matchesTeam &&
-      playingTime >= minimumPlayingTime
+      playingTime >= minimumPlayingTime &&
+      matchesStatFilters
     );
   });
 
@@ -320,7 +382,12 @@ export default function LeaderboardBuilder() {
               <button
                 key={option}
                 type="button"
-                onClick={() => setGroup(option)}
+                onClick={() => {
+                  if (group === option) return;
+                  setStatFilters([]);
+                  setFilterLogic("AND");
+                  setGroup(option);
+                }}
                 className={`rounded-md px-4 py-2 text-sm font-medium transition ${
                   group === option
                     ? "bg-blue-600 text-white"
@@ -378,6 +445,168 @@ export default function LeaderboardBuilder() {
           />
         </label>
       </div>
+
+      <section className="mb-6 rounded-xl border border-white/10 bg-[#142940] p-4">
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <div>
+            <h3 className="font-semibold text-white">
+              Advanced Statistical Filters
+            </h3>
+            <p className="mt-1 text-xs text-slate-400">
+              Find players who meet your custom statistical criteria.
+            </p>
+          </div>
+
+          <button
+            type="button"
+            onClick={() =>
+              setStatFilters((current) => [
+                ...current,
+                {
+                  id: Math.max(0, ...current.map((filter) => filter.id)) + 1,
+                  stat: columnOptions[group][0].key,
+                  operator: ">",
+                  value: "",
+                },
+              ])
+            }
+            className="rounded-lg bg-blue-600 px-4 py-2 text-sm font-semibold text-white hover:bg-blue-500"
+          >
+            + Add Filter
+          </button>
+        </div>
+
+        {statFilters.length === 0 && (
+          <p className="mt-4 text-sm text-slate-400">
+            No statistical filters applied. All eligible players are shown.
+          </p>
+        )}
+
+        {statFilters.length > 0 && (
+          <div className="mt-4 flex flex-wrap items-center justify-between gap-3">
+            <div className="flex items-center gap-3">
+              <span className="text-sm text-slate-300">
+                Match conditions:
+              </span>
+              <select
+                aria-label="Filter matching logic"
+                value={filterLogic}
+                onChange={(event) =>
+                  setFilterLogic(event.target.value as "AND" | "OR")
+                }
+                className="rounded-lg border border-white/15 bg-[#0d1d30] px-3 py-2 text-sm text-white"
+              >
+                <option value="AND">Match ALL (AND)</option>
+                <option value="OR">Match ANY (OR)</option>
+              </select>
+            </div>
+
+            <button
+              type="button"
+              onClick={() => {
+                setStatFilters([]);
+                setFilterLogic("AND");
+              }}
+              className="rounded-lg border border-white/15 px-3 py-2 text-sm text-slate-300 hover:bg-white/10"
+            >
+              Clear All Filters
+            </button>
+          </div>
+        )}
+
+        {statFilters.length > 0 && (
+          <div className="mt-4 space-y-3">
+            {statFilters.map((filter) => (
+              <div
+                key={filter.id}
+                className="grid gap-3 rounded-lg border border-white/10 bg-[#0d1d30] p-3 md:grid-cols-[2fr_1fr_1fr_auto]"
+              >
+                <label className="flex flex-col gap-1 text-xs text-slate-400">
+                  Statistic
+                  <select
+                    value={filter.stat}
+                    onChange={(event) =>
+                      setStatFilters((current) =>
+                        current.map((item) =>
+                          item.id === filter.id
+                            ? { ...item, stat: event.target.value }
+                            : item
+                        )
+                      )
+                    }
+                    className="rounded-lg border border-white/15 bg-[#142940] px-3 py-2 text-sm text-white"
+                  >
+                    {columnOptions[group].map((column) => (
+                      <option key={column.key} value={column.key}>
+                        {column.label}
+                      </option>
+                    ))}
+                  </select>
+                </label>
+
+                <label className="flex flex-col gap-1 text-xs text-slate-400">
+                  Comparison
+                  <select
+                    value={filter.operator}
+                    onChange={(event) =>
+                      setStatFilters((current) =>
+                        current.map((item) =>
+                          item.id === filter.id
+                            ? {
+                                ...item,
+                                operator: event.target.value as typeof item.operator,
+                              }
+                            : item
+                        )
+                      )
+                    }
+                    className="rounded-lg border border-white/15 bg-[#142940] px-3 py-2 text-sm text-white"
+                  >
+                    <option value=">">Greater than</option>
+                    <option value=">=">At least</option>
+                    <option value="<">Less than</option>
+                    <option value="<=">At most</option>
+                    <option value="=">Equal to</option>
+                    <option value="!=">Not equal to</option>
+                  </select>
+                </label>
+
+                <label className="flex flex-col gap-1 text-xs text-slate-400">
+                  Value
+                  <input
+                    type="number"
+                    step="any"
+                    value={filter.value}
+                    onChange={(event) =>
+                      setStatFilters((current) =>
+                        current.map((item) =>
+                          item.id === filter.id
+                            ? { ...item, value: event.target.value }
+                            : item
+                        )
+                      )
+                    }
+                    placeholder="Enter value"
+                    className="rounded-lg border border-white/15 bg-[#142940] px-3 py-2 text-sm text-white"
+                  />
+                </label>
+
+                <button
+                  type="button"
+                  onClick={() =>
+                    setStatFilters((current) =>
+                      current.filter((item) => item.id !== filter.id)
+                    )
+                  }
+                  className="self-end rounded-lg border border-red-500/30 px-3 py-2 text-sm text-red-400 hover:bg-red-500/10"
+                >
+                  Remove
+                </button>
+              </div>
+            ))}
+          </div>
+        )}
+      </section>
 
       <section className="mb-6 rounded-xl border border-white/10 bg-[#142940] p-4">
         <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
