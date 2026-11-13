@@ -1,0 +1,6 @@
+{
+  "season": 2027,
+  "description": "Verified annual MLB salary updates for 2027. Records must have a confirmed player identity, team, salary amount, and supporting source.",
+  "salary_unit": "millions_usd",
+  "records": []
+}
