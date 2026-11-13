@@ -63,7 +63,7 @@ def parse_salary(raw):
     """Return salary in millions and retain the original source text."""
     text = clean(raw)
 
-    if not text or text.lower() in {"nan", "none", "-"}:
+    if not text or text.lower() in {"nan", "none", "-", "0"}:
         return {
             "raw": text,
             "salary_millions": None,
