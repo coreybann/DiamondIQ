@@ -20,6 +20,7 @@ const toolGroups = [
       { label: "Team Needs", href: "/team-needs" },
       { label: "Roster Constructor", href: "/roster-constructor" },
       { label: "Lineup Optimizer", href: "/lineup-optimizer" },
+      { label: "Bullpen Usage & Fatigue", href: "/bullpen-usage" },
     ],
   },
   {
