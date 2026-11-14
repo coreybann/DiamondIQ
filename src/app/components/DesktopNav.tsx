@@ -44,6 +44,7 @@ const toolGroups = [
       { label: "Research", href: "/research" },
       { label: "MLB Leaderboards", href: "/leaderboards" },
       { label: "2027 Player Projections", href: "/projections" },
+      { label: "Breakout & Regression Predictor", href: "/breakout-regression" },
     ],
   },
 ];

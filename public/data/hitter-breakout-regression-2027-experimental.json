@@ -1,0 +1,3257 @@
+{
+  "season": 2027,
+  "status": "experimental",
+  "model": "Advanced Ridge Regression",
+  "description": "Experimental MLB hitter breakout and regression projections based on 2026 performance and underlying statistical indicators.",
+  "players": [
+    {
+      "player_id": 663647,
+      "player_name": "Ke'Bryan Hayes",
+      "PA_2026": 242,
+      "OPS_2026": 0.419,
+      "projected_OPS_2027": 0.69,
+      "projected_OPS_change": 0.271,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 665966,
+      "player_name": "Carlos Narv\u00e1ez",
+      "PA_2026": 285,
+      "OPS_2026": 0.467,
+      "projected_OPS_2027": 0.625,
+      "projected_OPS_change": 0.158,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 623168,
+      "player_name": "Tyler Heineman",
+      "PA_2026": 200,
+      "OPS_2026": 0.444,
+      "projected_OPS_2027": 0.582,
+      "projected_OPS_change": 0.138,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 700337,
+      "player_name": "Edgar Quero",
+      "PA_2026": 217,
+      "OPS_2026": 0.54,
+      "projected_OPS_2027": 0.673,
+      "projected_OPS_change": 0.133,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 682668,
+      "player_name": "Luisangel Acu\u00f1a",
+      "PA_2026": 224,
+      "OPS_2026": 0.537,
+      "projected_OPS_2027": 0.656,
+      "projected_OPS_change": 0.118,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 666397,
+      "player_name": "Edouard Julien",
+      "PA_2026": 276,
+      "OPS_2026": 0.615,
+      "projected_OPS_2027": 0.731,
+      "projected_OPS_change": 0.116,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 666971,
+      "player_name": "Lourdes Gurriel Jr.",
+      "PA_2026": 201,
+      "OPS_2026": 0.544,
+      "projected_OPS_2027": 0.658,
+      "projected_OPS_change": 0.114,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 680779,
+      "player_name": "Henry Davis",
+      "PA_2026": 298,
+      "OPS_2026": 0.585,
+      "projected_OPS_2027": 0.697,
+      "projected_OPS_change": 0.113,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 663837,
+      "player_name": "Matt Vierling",
+      "PA_2026": 291,
+      "OPS_2026": 0.59,
+      "projected_OPS_2027": 0.698,
+      "projected_OPS_change": 0.108,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 670770,
+      "player_name": "TJ Friedl",
+      "PA_2026": 272,
+      "OPS_2026": 0.51,
+      "projected_OPS_2027": 0.616,
+      "projected_OPS_change": 0.106,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 691011,
+      "player_name": "Drew Romo",
+      "PA_2026": 206,
+      "OPS_2026": 0.535,
+      "projected_OPS_2027": 0.634,
+      "projected_OPS_change": 0.1,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 669357,
+      "player_name": "Nolan Gorman",
+      "PA_2026": 302,
+      "OPS_2026": 0.58,
+      "projected_OPS_2027": 0.675,
+      "projected_OPS_change": 0.096,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 694208,
+      "player_name": "Mois\u00e9s Ballesteros",
+      "PA_2026": 352,
+      "OPS_2026": 0.612,
+      "projected_OPS_2027": 0.703,
+      "projected_OPS_change": 0.091,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 672275,
+      "player_name": "Patrick Bailey",
+      "PA_2026": 345,
+      "OPS_2026": 0.607,
+      "projected_OPS_2027": 0.696,
+      "projected_OPS_change": 0.088,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 691785,
+      "player_name": "Marcelo Mayer",
+      "PA_2026": 245,
+      "OPS_2026": 0.57,
+      "projected_OPS_2027": 0.658,
+      "projected_OPS_change": 0.088,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 666969,
+      "player_name": "Adolis Garc\u00eda",
+      "PA_2026": 259,
+      "OPS_2026": 0.599,
+      "projected_OPS_2027": 0.686,
+      "projected_OPS_change": 0.087,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 681351,
+      "player_name": "Logan O'Hoppe",
+      "PA_2026": 275,
+      "OPS_2026": 0.575,
+      "projected_OPS_2027": 0.662,
+      "projected_OPS_change": 0.086,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 592663,
+      "player_name": "J.T. Realmuto",
+      "PA_2026": 467,
+      "OPS_2026": 0.614,
+      "projected_OPS_2027": 0.699,
+      "projected_OPS_change": 0.086,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 683083,
+      "player_name": "Nasim Nu\u00f1ez",
+      "PA_2026": 493,
+      "OPS_2026": 0.535,
+      "projected_OPS_2027": 0.618,
+      "projected_OPS_change": 0.083,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 622761,
+      "player_name": "Jorge Mateo",
+      "PA_2026": 221,
+      "OPS_2026": 0.559,
+      "projected_OPS_2027": 0.638,
+      "projected_OPS_change": 0.079,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 682622,
+      "player_name": "Noelvi Marte",
+      "PA_2026": 201,
+      "OPS_2026": 0.55,
+      "projected_OPS_2027": 0.626,
+      "projected_OPS_change": 0.076,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 521692,
+      "player_name": "Salvador Perez",
+      "PA_2026": 627,
+      "OPS_2026": 0.656,
+      "projected_OPS_2027": 0.73,
+      "projected_OPS_change": 0.074,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 669224,
+      "player_name": "Austin Wells",
+      "PA_2026": 388,
+      "OPS_2026": 0.624,
+      "projected_OPS_2027": 0.697,
+      "projected_OPS_change": 0.073,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 542303,
+      "player_name": "Marcell Ozuna",
+      "PA_2026": 280,
+      "OPS_2026": 0.612,
+      "projected_OPS_2027": 0.682,
+      "projected_OPS_change": 0.07,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 656716,
+      "player_name": "Zach McKinstry",
+      "PA_2026": 423,
+      "OPS_2026": 0.582,
+      "projected_OPS_2027": 0.652,
+      "projected_OPS_change": 0.07,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 686217,
+      "player_name": "Sal Frelick",
+      "PA_2026": 384,
+      "OPS_2026": 0.614,
+      "projected_OPS_2027": 0.683,
+      "projected_OPS_change": 0.069,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 669236,
+      "player_name": "Jeremiah Jackson",
+      "PA_2026": 293,
+      "OPS_2026": 0.611,
+      "projected_OPS_2027": 0.679,
+      "projected_OPS_change": 0.068,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 543760,
+      "player_name": "Marcus Semien",
+      "PA_2026": 547,
+      "OPS_2026": 0.62,
+      "projected_OPS_2027": 0.688,
+      "projected_OPS_change": 0.068,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 676439,
+      "player_name": "Hunter Feduccia",
+      "PA_2026": 251,
+      "OPS_2026": 0.625,
+      "projected_OPS_2027": 0.692,
+      "projected_OPS_change": 0.067,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 605170,
+      "player_name": "Victor Caratini",
+      "PA_2026": 382,
+      "OPS_2026": 0.627,
+      "projected_OPS_2027": 0.693,
+      "projected_OPS_change": 0.066,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 650859,
+      "player_name": "Luis Rengifo",
+      "PA_2026": 354,
+      "OPS_2026": 0.636,
+      "projected_OPS_2027": 0.7,
+      "projected_OPS_change": 0.064,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 680574,
+      "player_name": "Matt McLain",
+      "PA_2026": 496,
+      "OPS_2026": 0.608,
+      "projected_OPS_2027": 0.672,
+      "projected_OPS_change": 0.064,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 682177,
+      "player_name": "Daniel Schneemann",
+      "PA_2026": 286,
+      "OPS_2026": 0.608,
+      "projected_OPS_2027": 0.671,
+      "projected_OPS_change": 0.063,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 665489,
+      "player_name": "Vladimir Guerrero Jr.",
+      "PA_2026": 609,
+      "OPS_2026": 0.688,
+      "projected_OPS_2027": 0.749,
+      "projected_OPS_change": 0.062,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 668901,
+      "player_name": "Mark Vientos",
+      "PA_2026": 295,
+      "OPS_2026": 0.652,
+      "projected_OPS_2027": 0.713,
+      "projected_OPS_change": 0.062,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 680776,
+      "player_name": "Jarren Duran",
+      "PA_2026": 608,
+      "OPS_2026": 0.627,
+      "projected_OPS_2027": 0.687,
+      "projected_OPS_change": 0.06,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 666023,
+      "player_name": "Freddy Fermin",
+      "PA_2026": 265,
+      "OPS_2026": 0.589,
+      "projected_OPS_2027": 0.646,
+      "projected_OPS_change": 0.057,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 663757,
+      "player_name": "Trent Grisham",
+      "PA_2026": 484,
+      "OPS_2026": 0.703,
+      "projected_OPS_2027": 0.76,
+      "projected_OPS_change": 0.056,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 641680,
+      "player_name": "Jonah Heim",
+      "PA_2026": 390,
+      "OPS_2026": 0.627,
+      "projected_OPS_2027": 0.683,
+      "projected_OPS_change": 0.056,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 686780,
+      "player_name": "Pedro Pag\u00e9s",
+      "PA_2026": 211,
+      "OPS_2026": 0.588,
+      "projected_OPS_2027": 0.643,
+      "projected_OPS_change": 0.056,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 671289,
+      "player_name": "Tyler Freeman",
+      "PA_2026": 288,
+      "OPS_2026": 0.63,
+      "projected_OPS_2027": 0.685,
+      "projected_OPS_change": 0.055,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 641857,
+      "player_name": "Ryan McMahon",
+      "PA_2026": 360,
+      "OPS_2026": 0.635,
+      "projected_OPS_2027": 0.69,
+      "projected_OPS_change": 0.054,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 663728,
+      "player_name": "Cal Raleigh",
+      "PA_2026": 530,
+      "OPS_2026": 0.664,
+      "projected_OPS_2027": 0.718,
+      "projected_OPS_change": 0.054,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 686611,
+      "player_name": "Dylan Crews",
+      "PA_2026": 443,
+      "OPS_2026": 0.663,
+      "projected_OPS_2027": 0.715,
+      "projected_OPS_change": 0.052,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 667670,
+      "player_name": "Brent Rooker",
+      "PA_2026": 202,
+      "OPS_2026": 0.673,
+      "projected_OPS_2027": 0.725,
+      "projected_OPS_change": 0.052,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 694378,
+      "player_name": "Jacob Gonzalez",
+      "PA_2026": 227,
+      "OPS_2026": 0.638,
+      "projected_OPS_2027": 0.69,
+      "projected_OPS_change": 0.052,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 593428,
+      "player_name": "Xander Bogaerts",
+      "PA_2026": 606,
+      "OPS_2026": 0.676,
+      "projected_OPS_2027": 0.726,
+      "projected_OPS_change": 0.05,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 666211,
+      "player_name": "Taylor Trammell",
+      "PA_2026": 289,
+      "OPS_2026": 0.626,
+      "projected_OPS_2027": 0.675,
+      "projected_OPS_change": 0.049,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 694497,
+      "player_name": "Evan Carter",
+      "PA_2026": 455,
+      "OPS_2026": 0.602,
+      "projected_OPS_2027": 0.651,
+      "projected_OPS_change": 0.049,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 694728,
+      "player_name": "Brice Matthews",
+      "PA_2026": 233,
+      "OPS_2026": 0.587,
+      "projected_OPS_2027": 0.635,
+      "projected_OPS_change": 0.048,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 657656,
+      "player_name": "Ram\u00f3n Laureano",
+      "PA_2026": 206,
+      "OPS_2026": 0.66,
+      "projected_OPS_2027": 0.708,
+      "projected_OPS_change": 0.048,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 701358,
+      "player_name": "Cam Smith",
+      "PA_2026": 568,
+      "OPS_2026": 0.669,
+      "projected_OPS_2027": 0.717,
+      "projected_OPS_change": 0.048,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 695731,
+      "player_name": "Braden Montgomery",
+      "PA_2026": 365,
+      "OPS_2026": 0.662,
+      "projected_OPS_2027": 0.71,
+      "projected_OPS_change": 0.048,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 663457,
+      "player_name": "Lars Nootbaar",
+      "PA_2026": 334,
+      "OPS_2026": 0.721,
+      "projected_OPS_2027": 0.769,
+      "projected_OPS_change": 0.047,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 802139,
+      "player_name": "JJ Wetherholt",
+      "PA_2026": 619,
+      "OPS_2026": 0.704,
+      "projected_OPS_2027": 0.751,
+      "projected_OPS_change": 0.047,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 663586,
+      "player_name": "Austin Riley",
+      "PA_2026": 630,
+      "OPS_2026": 0.654,
+      "projected_OPS_2027": 0.7,
+      "projected_OPS_change": 0.046,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 647304,
+      "player_name": "Josh Naylor",
+      "PA_2026": 650,
+      "OPS_2026": 0.667,
+      "projected_OPS_2027": 0.713,
+      "projected_OPS_change": 0.046,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 662139,
+      "player_name": "Daulton Varsho",
+      "PA_2026": 526,
+      "OPS_2026": 0.637,
+      "projected_OPS_2027": 0.682,
+      "projected_OPS_change": 0.046,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 608070,
+      "player_name": "Jos\u00e9 Ram\u00edrez",
+      "PA_2026": 544,
+      "OPS_2026": 0.688,
+      "projected_OPS_2027": 0.733,
+      "projected_OPS_change": 0.045,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 664761,
+      "player_name": "Alec Bohm",
+      "PA_2026": 629,
+      "OPS_2026": 0.698,
+      "projected_OPS_2027": 0.742,
+      "projected_OPS_change": 0.045,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 669701,
+      "player_name": "Josh Smith",
+      "PA_2026": 243,
+      "OPS_2026": 0.611,
+      "projected_OPS_2027": 0.655,
+      "projected_OPS_change": 0.043,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 669707,
+      "player_name": "Jared Triolo",
+      "PA_2026": 362,
+      "OPS_2026": 0.61,
+      "projected_OPS_2027": 0.653,
+      "projected_OPS_change": 0.043,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 678662,
+      "player_name": "Ezequiel Tovar",
+      "PA_2026": 506,
+      "OPS_2026": 0.617,
+      "projected_OPS_2027": 0.659,
+      "projected_OPS_change": 0.042,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 691176,
+      "player_name": "Jasson Dom\u00ednguez",
+      "PA_2026": 222,
+      "OPS_2026": 0.635,
+      "projected_OPS_2027": 0.678,
+      "projected_OPS_change": 0.042,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 621493,
+      "player_name": "Taylor Ward",
+      "PA_2026": 607,
+      "OPS_2026": 0.67,
+      "projected_OPS_2027": 0.712,
+      "projected_OPS_change": 0.042,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 608369,
+      "player_name": "Corey Seager",
+      "PA_2026": 436,
+      "OPS_2026": 0.736,
+      "projected_OPS_2027": 0.778,
+      "projected_OPS_change": 0.042,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 810938,
+      "player_name": "Ben Williamson",
+      "PA_2026": 286,
+      "OPS_2026": 0.62,
+      "projected_OPS_2027": 0.661,
+      "projected_OPS_change": 0.041,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 691026,
+      "player_name": "Masyn Winn",
+      "PA_2026": 532,
+      "OPS_2026": 0.625,
+      "projected_OPS_2027": 0.666,
+      "projected_OPS_change": 0.041,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 800325,
+      "player_name": "Luis Lara",
+      "PA_2026": 212,
+      "OPS_2026": 0.636,
+      "projected_OPS_2027": 0.677,
+      "projected_OPS_change": 0.041,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 694203,
+      "player_name": "Denzer Guzman",
+      "PA_2026": 304,
+      "OPS_2026": 0.601,
+      "projected_OPS_2027": 0.641,
+      "projected_OPS_change": 0.039,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 663538,
+      "player_name": "Nico Hoerner",
+      "PA_2026": 689,
+      "OPS_2026": 0.667,
+      "projected_OPS_2027": 0.704,
+      "projected_OPS_change": 0.037,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 668904,
+      "player_name": "Royce Lewis",
+      "PA_2026": 509,
+      "OPS_2026": 0.667,
+      "projected_OPS_2027": 0.704,
+      "projected_OPS_change": 0.037,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 686555,
+      "player_name": "Isaac Collins",
+      "PA_2026": 519,
+      "OPS_2026": 0.641,
+      "projected_OPS_2027": 0.676,
+      "projected_OPS_change": 0.035,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 664728,
+      "player_name": "Kyle Isbel",
+      "PA_2026": 323,
+      "OPS_2026": 0.591,
+      "projected_OPS_2027": 0.626,
+      "projected_OPS_change": 0.035,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 694374,
+      "player_name": "Tim Tawa",
+      "PA_2026": 351,
+      "OPS_2026": 0.689,
+      "projected_OPS_2027": 0.722,
+      "projected_OPS_change": 0.033,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 656775,
+      "player_name": "Cedric Mullins",
+      "PA_2026": 502,
+      "OPS_2026": 0.628,
+      "projected_OPS_2027": 0.661,
+      "projected_OPS_change": 0.033,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 545121,
+      "player_name": "Ildemaro Vargas",
+      "PA_2026": 486,
+      "OPS_2026": 0.675,
+      "projected_OPS_2027": 0.707,
+      "projected_OPS_change": 0.032,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 702616,
+      "player_name": "Jackson Holliday",
+      "PA_2026": 354,
+      "OPS_2026": 0.64,
+      "projected_OPS_2027": 0.671,
+      "projected_OPS_change": 0.031,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 666139,
+      "player_name": "Josh Lowe",
+      "PA_2026": 343,
+      "OPS_2026": 0.633,
+      "projected_OPS_2027": 0.664,
+      "projected_OPS_change": 0.031,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 694212,
+      "player_name": "Samuel Basallo",
+      "PA_2026": 399,
+      "OPS_2026": 0.696,
+      "projected_OPS_2027": 0.727,
+      "projected_OPS_change": 0.03,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 683146,
+      "player_name": "Brett Baty",
+      "PA_2026": 473,
+      "OPS_2026": 0.685,
+      "projected_OPS_2027": 0.716,
+      "projected_OPS_change": 0.03,
+      "prediction": "Breakout"
+    },
+    {
+      "player_id": 592518,
+      "player_name": "Manny Machado",
+      "PA_2026": 677,
+      "OPS_2026": 0.711,
+      "projected_OPS_2027": 0.741,
+      "projected_OPS_change": 0.03,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 543877,
+      "player_name": "Christian V\u00e1zquez",
+      "PA_2026": 266,
+      "OPS_2026": 0.583,
+      "projected_OPS_2027": 0.613,
+      "projected_OPS_change": 0.03,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 683766,
+      "player_name": "Christian Koss",
+      "PA_2026": 221,
+      "OPS_2026": 0.562,
+      "projected_OPS_2027": 0.592,
+      "projected_OPS_change": 0.029,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 664702,
+      "player_name": "Myles Straw",
+      "PA_2026": 330,
+      "OPS_2026": 0.646,
+      "projected_OPS_2027": 0.675,
+      "projected_OPS_change": 0.029,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 642708,
+      "player_name": "Amed Rosario",
+      "PA_2026": 244,
+      "OPS_2026": 0.684,
+      "projected_OPS_2027": 0.713,
+      "projected_OPS_change": 0.029,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 671218,
+      "player_name": "Heliot Ramos",
+      "PA_2026": 442,
+      "OPS_2026": 0.716,
+      "projected_OPS_2027": 0.744,
+      "projected_OPS_change": 0.027,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 682626,
+      "player_name": "Francisco Alvarez",
+      "PA_2026": 420,
+      "OPS_2026": 0.71,
+      "projected_OPS_2027": 0.737,
+      "projected_OPS_change": 0.027,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 668952,
+      "player_name": "Ryan Kreidler",
+      "PA_2026": 267,
+      "OPS_2026": 0.664,
+      "projected_OPS_2027": 0.691,
+      "projected_OPS_change": 0.026,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 641933,
+      "player_name": "Tyler O'Neill",
+      "PA_2026": 260,
+      "OPS_2026": 0.677,
+      "projected_OPS_2027": 0.702,
+      "projected_OPS_change": 0.025,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 690976,
+      "player_name": "Alex Freeland",
+      "PA_2026": 269,
+      "OPS_2026": 0.652,
+      "projected_OPS_2027": 0.675,
+      "projected_OPS_change": 0.023,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 666176,
+      "player_name": "Jo Adell",
+      "PA_2026": 660,
+      "OPS_2026": 0.7,
+      "projected_OPS_2027": 0.723,
+      "projected_OPS_change": 0.023,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 666182,
+      "player_name": "Bo Bichette",
+      "PA_2026": 696,
+      "OPS_2026": 0.702,
+      "projected_OPS_2027": 0.725,
+      "projected_OPS_change": 0.023,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 677594,
+      "player_name": "Julio Rodr\u00edguez",
+      "PA_2026": 654,
+      "OPS_2026": 0.708,
+      "projected_OPS_2027": 0.729,
+      "projected_OPS_change": 0.021,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 596019,
+      "player_name": "Francisco Lindor",
+      "PA_2026": 469,
+      "OPS_2026": 0.733,
+      "projected_OPS_2027": 0.753,
+      "projected_OPS_change": 0.021,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 691781,
+      "player_name": "Brady House",
+      "PA_2026": 355,
+      "OPS_2026": 0.71,
+      "projected_OPS_2027": 0.73,
+      "projected_OPS_change": 0.02,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 606466,
+      "player_name": "Ketel Marte",
+      "PA_2026": 624,
+      "OPS_2026": 0.748,
+      "projected_OPS_2027": 0.768,
+      "projected_OPS_change": 0.02,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 665877,
+      "player_name": "Jos\u00e9 Ferm\u00edn",
+      "PA_2026": 370,
+      "OPS_2026": 0.663,
+      "projected_OPS_2027": 0.683,
+      "projected_OPS_change": 0.02,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 656555,
+      "player_name": "Rhys Hoskins",
+      "PA_2026": 317,
+      "OPS_2026": 0.682,
+      "projected_OPS_2027": 0.701,
+      "projected_OPS_change": 0.019,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 664954,
+      "player_name": "Brett Sullivan",
+      "PA_2026": 237,
+      "OPS_2026": 0.658,
+      "projected_OPS_2027": 0.676,
+      "projected_OPS_change": 0.018,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 500743,
+      "player_name": "Miguel Rojas",
+      "PA_2026": 252,
+      "OPS_2026": 0.703,
+      "projected_OPS_2027": 0.721,
+      "projected_OPS_change": 0.017,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 683011,
+      "player_name": "Anthony Volpe",
+      "PA_2026": 246,
+      "OPS_2026": 0.658,
+      "projected_OPS_2027": 0.675,
+      "projected_OPS_change": 0.017,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 624585,
+      "player_name": "Jorge Soler",
+      "PA_2026": 361,
+      "OPS_2026": 0.664,
+      "projected_OPS_2027": 0.681,
+      "projected_OPS_change": 0.017,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 607043,
+      "player_name": "Brandon Nimmo",
+      "PA_2026": 655,
+      "OPS_2026": 0.728,
+      "projected_OPS_2027": 0.745,
+      "projected_OPS_change": 0.017,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 673357,
+      "player_name": "Luis Robert Jr.",
+      "PA_2026": 230,
+      "OPS_2026": 0.707,
+      "projected_OPS_2027": 0.723,
+      "projected_OPS_change": 0.017,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 672724,
+      "player_name": "Oswald Peraza",
+      "PA_2026": 370,
+      "OPS_2026": 0.616,
+      "projected_OPS_2027": 0.633,
+      "projected_OPS_change": 0.017,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 806068,
+      "player_name": "Colt Emerson",
+      "PA_2026": 241,
+      "OPS_2026": 0.581,
+      "projected_OPS_2027": 0.597,
+      "projected_OPS_change": 0.016,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 641487,
+      "player_name": "J.P. Crawford",
+      "PA_2026": 489,
+      "OPS_2026": 0.687,
+      "projected_OPS_2027": 0.702,
+      "projected_OPS_change": 0.016,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 701675,
+      "player_name": "Nathan Church",
+      "PA_2026": 470,
+      "OPS_2026": 0.654,
+      "projected_OPS_2027": 0.67,
+      "projected_OPS_change": 0.016,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 607208,
+      "player_name": "Trea Turner",
+      "PA_2026": 700,
+      "OPS_2026": 0.675,
+      "projected_OPS_2027": 0.689,
+      "projected_OPS_change": 0.014,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 630105,
+      "player_name": "Jake Cronenworth",
+      "PA_2026": 425,
+      "OPS_2026": 0.629,
+      "projected_OPS_2027": 0.643,
+      "projected_OPS_change": 0.014,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 701538,
+      "player_name": "Jackson Merrill",
+      "PA_2026": 664,
+      "OPS_2026": 0.743,
+      "projected_OPS_2027": 0.757,
+      "projected_OPS_change": 0.013,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 670042,
+      "player_name": "Luke Raley",
+      "PA_2026": 287,
+      "OPS_2026": 0.723,
+      "projected_OPS_2027": 0.736,
+      "projected_OPS_change": 0.013,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 573262,
+      "player_name": "Mike Yastrzemski",
+      "PA_2026": 408,
+      "OPS_2026": 0.688,
+      "projected_OPS_2027": 0.701,
+      "projected_OPS_change": 0.013,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 660821,
+      "player_name": "Jes\u00fas S\u00e1nchez",
+      "PA_2026": 315,
+      "OPS_2026": 0.713,
+      "projected_OPS_2027": 0.725,
+      "projected_OPS_change": 0.012,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 699912,
+      "player_name": "Jose Fernandez",
+      "PA_2026": 222,
+      "OPS_2026": 0.643,
+      "projected_OPS_2027": 0.655,
+      "projected_OPS_change": 0.012,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 655316,
+      "player_name": "Andruw Monasterio",
+      "PA_2026": 347,
+      "OPS_2026": 0.665,
+      "projected_OPS_2027": 0.677,
+      "projected_OPS_change": 0.012,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 663656,
+      "player_name": "Kyle Tucker",
+      "PA_2026": 627,
+      "OPS_2026": 0.715,
+      "projected_OPS_2027": 0.727,
+      "projected_OPS_change": 0.012,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 702284,
+      "player_name": "Cole Young",
+      "PA_2026": 638,
+      "OPS_2026": 0.694,
+      "projected_OPS_2027": 0.705,
+      "projected_OPS_change": 0.011,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 668885,
+      "player_name": "Austin Martin",
+      "PA_2026": 358,
+      "OPS_2026": 0.655,
+      "projected_OPS_2027": 0.666,
+      "projected_OPS_change": 0.011,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 676391,
+      "player_name": "Ernie Clement",
+      "PA_2026": 621,
+      "OPS_2026": 0.649,
+      "projected_OPS_2027": 0.66,
+      "projected_OPS_change": 0.011,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 677588,
+      "player_name": "Jos\u00e9 Tena",
+      "PA_2026": 288,
+      "OPS_2026": 0.672,
+      "projected_OPS_2027": 0.682,
+      "projected_OPS_change": 0.011,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 592885,
+      "player_name": "Christian Yelich",
+      "PA_2026": 500,
+      "OPS_2026": 0.692,
+      "projected_OPS_2027": 0.703,
+      "projected_OPS_change": 0.01,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 700932,
+      "player_name": "Kyle Manzardo",
+      "PA_2026": 356,
+      "OPS_2026": 0.684,
+      "projected_OPS_2027": 0.695,
+      "projected_OPS_change": 0.01,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 678218,
+      "player_name": "Brandon Valenzuela",
+      "PA_2026": 271,
+      "OPS_2026": 0.68,
+      "projected_OPS_2027": 0.69,
+      "projected_OPS_change": 0.01,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 681297,
+      "player_name": "Colton Cowser",
+      "PA_2026": 392,
+      "OPS_2026": 0.687,
+      "projected_OPS_2027": 0.696,
+      "projected_OPS_change": 0.009,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 682987,
+      "player_name": "Spencer Jones",
+      "PA_2026": 289,
+      "OPS_2026": 0.742,
+      "projected_OPS_2027": 0.751,
+      "projected_OPS_change": 0.009,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 678391,
+      "player_name": "Jorbit Vivas",
+      "PA_2026": 364,
+      "OPS_2026": 0.652,
+      "projected_OPS_2027": 0.661,
+      "projected_OPS_change": 0.009,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 621020,
+      "player_name": "Dansby Swanson",
+      "PA_2026": 486,
+      "OPS_2026": 0.694,
+      "projected_OPS_2027": 0.703,
+      "projected_OPS_change": 0.009,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 663886,
+      "player_name": "Tyler Stephenson",
+      "PA_2026": 468,
+      "OPS_2026": 0.727,
+      "projected_OPS_2027": 0.735,
+      "projected_OPS_change": 0.009,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 701350,
+      "player_name": "Roman Anthony",
+      "PA_2026": 242,
+      "OPS_2026": 0.735,
+      "projected_OPS_2027": 0.743,
+      "projected_OPS_change": 0.008,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 668715,
+      "player_name": "Spencer Steer",
+      "PA_2026": 384,
+      "OPS_2026": 0.739,
+      "projected_OPS_2027": 0.747,
+      "projected_OPS_change": 0.008,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 669257,
+      "player_name": "Will Smith",
+      "PA_2026": 276,
+      "OPS_2026": 0.781,
+      "projected_OPS_2027": 0.788,
+      "projected_OPS_change": 0.008,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 553869,
+      "player_name": "Elias D\u00edaz",
+      "PA_2026": 237,
+      "OPS_2026": 0.67,
+      "projected_OPS_2027": 0.677,
+      "projected_OPS_change": 0.007,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 696030,
+      "player_name": "Alejandro Osuna",
+      "PA_2026": 233,
+      "OPS_2026": 0.653,
+      "projected_OPS_2027": 0.66,
+      "projected_OPS_change": 0.007,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 642086,
+      "player_name": "Dominic Smith",
+      "PA_2026": 300,
+      "OPS_2026": 0.694,
+      "projected_OPS_2027": 0.701,
+      "projected_OPS_change": 0.007,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 643446,
+      "player_name": "Jeff McNeil",
+      "PA_2026": 520,
+      "OPS_2026": 0.681,
+      "projected_OPS_2027": 0.688,
+      "projected_OPS_change": 0.007,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 683002,
+      "player_name": "Gunnar Henderson",
+      "PA_2026": 702,
+      "OPS_2026": 0.712,
+      "projected_OPS_2027": 0.718,
+      "projected_OPS_change": 0.006,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 665750,
+      "player_name": "Leody Taveras",
+      "PA_2026": 482,
+      "OPS_2026": 0.633,
+      "projected_OPS_2027": 0.639,
+      "projected_OPS_change": 0.006,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 672580,
+      "player_name": "Maikel Garcia",
+      "PA_2026": 344,
+      "OPS_2026": 0.715,
+      "projected_OPS_2027": 0.72,
+      "projected_OPS_change": 0.005,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 805999,
+      "player_name": "A.J. Ewing",
+      "PA_2026": 492,
+      "OPS_2026": 0.7,
+      "projected_OPS_2027": 0.705,
+      "projected_OPS_change": 0.005,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 682663,
+      "player_name": "Agust\u00edn Ram\u00edrez",
+      "PA_2026": 255,
+      "OPS_2026": 0.672,
+      "projected_OPS_2027": 0.677,
+      "projected_OPS_change": 0.005,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 669394,
+      "player_name": "Jake Burger",
+      "PA_2026": 620,
+      "OPS_2026": 0.722,
+      "projected_OPS_2027": 0.727,
+      "projected_OPS_change": 0.005,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 681715,
+      "player_name": "Heriberto Hern\u00e1ndez",
+      "PA_2026": 505,
+      "OPS_2026": 0.755,
+      "projected_OPS_2027": 0.759,
+      "projected_OPS_change": 0.004,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 661388,
+      "player_name": "William Contreras",
+      "PA_2026": 640,
+      "OPS_2026": 0.758,
+      "projected_OPS_2027": 0.762,
+      "projected_OPS_change": 0.004,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 687093,
+      "player_name": "Vaughn Grissom",
+      "PA_2026": 474,
+      "OPS_2026": 0.693,
+      "projected_OPS_2027": 0.697,
+      "projected_OPS_change": 0.004,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 605137,
+      "player_name": "Josh Bell",
+      "PA_2026": 631,
+      "OPS_2026": 0.738,
+      "projected_OPS_2027": 0.741,
+      "projected_OPS_change": 0.003,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 702222,
+      "player_name": "Justin Crawford",
+      "PA_2026": 465,
+      "OPS_2026": 0.662,
+      "projected_OPS_2027": 0.665,
+      "projected_OPS_change": 0.003,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 681481,
+      "player_name": "Kerry Carpenter",
+      "PA_2026": 259,
+      "OPS_2026": 0.692,
+      "projected_OPS_2027": 0.694,
+      "projected_OPS_change": 0.003,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 687637,
+      "player_name": "Dylan Beavers",
+      "PA_2026": 363,
+      "OPS_2026": 0.68,
+      "projected_OPS_2027": 0.683,
+      "projected_OPS_change": 0.003,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 657757,
+      "player_name": "Gavin Sheets",
+      "PA_2026": 419,
+      "OPS_2026": 0.709,
+      "projected_OPS_2027": 0.711,
+      "projected_OPS_change": 0.002,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 691788,
+      "player_name": "Joe Mack",
+      "PA_2026": 330,
+      "OPS_2026": 0.685,
+      "projected_OPS_2027": 0.686,
+      "projected_OPS_change": 0.002,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 695734,
+      "player_name": "Daylen Lile",
+      "PA_2026": 655,
+      "OPS_2026": 0.725,
+      "projected_OPS_2027": 0.725,
+      "projected_OPS_change": 0.001,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 683357,
+      "player_name": "Owen Caissie",
+      "PA_2026": 330,
+      "OPS_2026": 0.7,
+      "projected_OPS_2027": 0.701,
+      "projected_OPS_change": 0.0,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 677951,
+      "player_name": "Bobby Witt Jr.",
+      "PA_2026": 632,
+      "OPS_2026": 0.8,
+      "projected_OPS_2027": 0.8,
+      "projected_OPS_change": 0.0,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 671732,
+      "player_name": "Lawrence Butler",
+      "PA_2026": 540,
+      "OPS_2026": 0.719,
+      "projected_OPS_2027": 0.719,
+      "projected_OPS_change": 0.0,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 686469,
+      "player_name": "Vinnie Pasquantino",
+      "PA_2026": 481,
+      "OPS_2026": 0.76,
+      "projected_OPS_2027": 0.76,
+      "projected_OPS_change": -0.001,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 643217,
+      "player_name": "Andrew Benintendi",
+      "PA_2026": 468,
+      "OPS_2026": 0.715,
+      "projected_OPS_2027": 0.714,
+      "projected_OPS_change": -0.001,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 620443,
+      "player_name": "Luis Torrens",
+      "PA_2026": 281,
+      "OPS_2026": 0.691,
+      "projected_OPS_2027": 0.689,
+      "projected_OPS_change": -0.002,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 690993,
+      "player_name": "Colt Keith",
+      "PA_2026": 423,
+      "OPS_2026": 0.728,
+      "projected_OPS_2027": 0.725,
+      "projected_OPS_change": -0.003,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 691777,
+      "player_name": "Max Muncy",
+      "PA_2026": 284,
+      "OPS_2026": 0.682,
+      "projected_OPS_2027": 0.68,
+      "projected_OPS_change": -0.003,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 657041,
+      "player_name": "Lane Thomas",
+      "PA_2026": 374,
+      "OPS_2026": 0.702,
+      "projected_OPS_2027": 0.698,
+      "projected_OPS_change": -0.004,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 668709,
+      "player_name": "JJ Bleday",
+      "PA_2026": 545,
+      "OPS_2026": 0.74,
+      "projected_OPS_2027": 0.736,
+      "projected_OPS_change": -0.004,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 695657,
+      "player_name": "Colson Montgomery",
+      "PA_2026": 638,
+      "OPS_2026": 0.685,
+      "projected_OPS_2027": 0.681,
+      "projected_OPS_change": -0.005,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 596115,
+      "player_name": "Trevor Story",
+      "PA_2026": 266,
+      "OPS_2026": 0.621,
+      "projected_OPS_2027": 0.616,
+      "projected_OPS_change": -0.005,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 670764,
+      "player_name": "Taylor Walls",
+      "PA_2026": 433,
+      "OPS_2026": 0.607,
+      "projected_OPS_2027": 0.6,
+      "projected_OPS_change": -0.007,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 657136,
+      "player_name": "Connor Wong",
+      "PA_2026": 238,
+      "OPS_2026": 0.655,
+      "projected_OPS_2027": 0.648,
+      "projected_OPS_change": -0.008,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 545361,
+      "player_name": "Mike Trout",
+      "PA_2026": 634,
+      "OPS_2026": 0.803,
+      "projected_OPS_2027": 0.796,
+      "projected_OPS_change": -0.008,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 608348,
+      "player_name": "Carson Kelly",
+      "PA_2026": 425,
+      "OPS_2026": 0.713,
+      "projected_OPS_2027": 0.705,
+      "projected_OPS_change": -0.008,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 666126,
+      "player_name": "Carlos Cortes",
+      "PA_2026": 381,
+      "OPS_2026": 0.714,
+      "projected_OPS_2027": 0.706,
+      "projected_OPS_change": -0.008,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 624641,
+      "player_name": "Edmundo Sosa",
+      "PA_2026": 250,
+      "OPS_2026": 0.712,
+      "projected_OPS_2027": 0.703,
+      "projected_OPS_change": -0.009,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 677800,
+      "player_name": "Wilyer Abreu",
+      "PA_2026": 681,
+      "OPS_2026": 0.773,
+      "projected_OPS_2027": 0.764,
+      "projected_OPS_change": -0.009,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 663743,
+      "player_name": "Nick Fortes",
+      "PA_2026": 323,
+      "OPS_2026": 0.68,
+      "projected_OPS_2027": 0.671,
+      "projected_OPS_change": -0.009,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 665019,
+      "player_name": "Kody Clemens",
+      "PA_2026": 583,
+      "OPS_2026": 0.758,
+      "projected_OPS_2027": 0.749,
+      "projected_OPS_change": -0.009,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 687462,
+      "player_name": "Spencer Horwitz",
+      "PA_2026": 451,
+      "OPS_2026": 0.707,
+      "projected_OPS_2027": 0.698,
+      "projected_OPS_change": -0.009,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 668939,
+      "player_name": "Adley Rutschman",
+      "PA_2026": 410,
+      "OPS_2026": 0.74,
+      "projected_OPS_2027": 0.731,
+      "projected_OPS_change": -0.009,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 681082,
+      "player_name": "Bryson Stott",
+      "PA_2026": 608,
+      "OPS_2026": 0.736,
+      "projected_OPS_2027": 0.726,
+      "projected_OPS_change": -0.009,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 665926,
+      "player_name": "Andr\u00e9s Gim\u00e9nez",
+      "PA_2026": 508,
+      "OPS_2026": 0.649,
+      "projected_OPS_2027": 0.64,
+      "projected_OPS_change": -0.009,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 687551,
+      "player_name": "Drew Gilbert",
+      "PA_2026": 393,
+      "OPS_2026": 0.724,
+      "projected_OPS_2027": 0.714,
+      "projected_OPS_change": -0.01,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 645277,
+      "player_name": "Ozzie Albies",
+      "PA_2026": 683,
+      "OPS_2026": 0.685,
+      "projected_OPS_2027": 0.674,
+      "projected_OPS_change": -0.011,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 642350,
+      "player_name": "Jose Siri",
+      "PA_2026": 251,
+      "OPS_2026": 0.712,
+      "projected_OPS_2027": 0.701,
+      "projected_OPS_change": -0.011,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 696285,
+      "player_name": "Jacob Young",
+      "PA_2026": 471,
+      "OPS_2026": 0.707,
+      "projected_OPS_2027": 0.696,
+      "projected_OPS_change": -0.012,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 670032,
+      "player_name": "Nicky Lopez",
+      "PA_2026": 270,
+      "OPS_2026": 0.634,
+      "projected_OPS_2027": 0.622,
+      "projected_OPS_change": -0.012,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 805779,
+      "player_name": "Jacob Wilson",
+      "PA_2026": 337,
+      "OPS_2026": 0.685,
+      "projected_OPS_2027": 0.673,
+      "projected_OPS_change": -0.013,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 671056,
+      "player_name": "Iv\u00e1n Herrera",
+      "PA_2026": 717,
+      "OPS_2026": 0.735,
+      "projected_OPS_2027": 0.722,
+      "projected_OPS_change": -0.013,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 543807,
+      "player_name": "George Springer",
+      "PA_2026": 517,
+      "OPS_2026": 0.726,
+      "projected_OPS_2027": 0.711,
+      "projected_OPS_change": -0.014,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 656305,
+      "player_name": "Matt Chapman",
+      "PA_2026": 352,
+      "OPS_2026": 0.692,
+      "projected_OPS_2027": 0.677,
+      "projected_OPS_change": -0.015,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 807799,
+      "player_name": "Masataka Yoshida",
+      "PA_2026": 297,
+      "OPS_2026": 0.746,
+      "projected_OPS_2027": 0.731,
+      "projected_OPS_change": -0.015,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 669016,
+      "player_name": "Brandon Marsh",
+      "PA_2026": 568,
+      "OPS_2026": 0.713,
+      "projected_OPS_2027": 0.698,
+      "projected_OPS_change": -0.015,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 808959,
+      "player_name": "Munetaka Murakami",
+      "PA_2026": 553,
+      "OPS_2026": 0.825,
+      "projected_OPS_2027": 0.81,
+      "projected_OPS_change": -0.015,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 686668,
+      "player_name": "Brenton Doyle",
+      "PA_2026": 223,
+      "OPS_2026": 0.637,
+      "projected_OPS_2027": 0.621,
+      "projected_OPS_change": -0.016,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 572233,
+      "player_name": "Christian Walker",
+      "PA_2026": 635,
+      "OPS_2026": 0.727,
+      "projected_OPS_2027": 0.711,
+      "projected_OPS_change": -0.016,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 691723,
+      "player_name": "Coby Mayo",
+      "PA_2026": 454,
+      "OPS_2026": 0.759,
+      "projected_OPS_2027": 0.743,
+      "projected_OPS_change": -0.016,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 693307,
+      "player_name": "Dillon Dingler",
+      "PA_2026": 607,
+      "OPS_2026": 0.749,
+      "projected_OPS_2027": 0.733,
+      "projected_OPS_change": -0.016,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 666152,
+      "player_name": "David Hamilton",
+      "PA_2026": 387,
+      "OPS_2026": 0.65,
+      "projected_OPS_2027": 0.633,
+      "projected_OPS_change": -0.017,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 808982,
+      "player_name": "Jung Hoo Lee",
+      "PA_2026": 579,
+      "OPS_2026": 0.724,
+      "projected_OPS_2027": 0.706,
+      "projected_OPS_change": -0.018,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 669003,
+      "player_name": "Garrett Mitchell",
+      "PA_2026": 531,
+      "OPS_2026": 0.771,
+      "projected_OPS_2027": 0.752,
+      "projected_OPS_change": -0.019,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 605141,
+      "player_name": "Mookie Betts",
+      "PA_2026": 528,
+      "OPS_2026": 0.78,
+      "projected_OPS_2027": 0.761,
+      "projected_OPS_change": -0.019,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 592450,
+      "player_name": "Aaron Judge",
+      "PA_2026": 285,
+      "OPS_2026": 0.871,
+      "projected_OPS_2027": 0.851,
+      "projected_OPS_change": -0.02,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 683737,
+      "player_name": "Michael Busch",
+      "PA_2026": 710,
+      "OPS_2026": 0.745,
+      "projected_OPS_2027": 0.724,
+      "projected_OPS_change": -0.021,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 643289,
+      "player_name": "Mauricio Dub\u00f3n",
+      "PA_2026": 619,
+      "OPS_2026": 0.719,
+      "projected_OPS_2027": 0.698,
+      "projected_OPS_change": -0.021,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 686681,
+      "player_name": "Michael Massey",
+      "PA_2026": 452,
+      "OPS_2026": 0.735,
+      "projected_OPS_2027": 0.714,
+      "projected_OPS_change": -0.022,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 680700,
+      "player_name": "Richie Palacios",
+      "PA_2026": 399,
+      "OPS_2026": 0.704,
+      "projected_OPS_2027": 0.681,
+      "projected_OPS_change": -0.023,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 665862,
+      "player_name": "Jazz Chisholm Jr.",
+      "PA_2026": 532,
+      "OPS_2026": 0.711,
+      "projected_OPS_2027": 0.688,
+      "projected_OPS_change": -0.023,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 676475,
+      "player_name": "Alec Burleson",
+      "PA_2026": 670,
+      "OPS_2026": 0.816,
+      "projected_OPS_2027": 0.793,
+      "projected_OPS_change": -0.023,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 660670,
+      "player_name": "Ronald Acu\u00f1a Jr.",
+      "PA_2026": 469,
+      "OPS_2026": 0.796,
+      "projected_OPS_2027": 0.773,
+      "projected_OPS_change": -0.023,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 805300,
+      "player_name": "Jakob Marsee",
+      "PA_2026": 616,
+      "OPS_2026": 0.706,
+      "projected_OPS_2027": 0.682,
+      "projected_OPS_change": -0.024,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 650402,
+      "player_name": "Gleyber Torres",
+      "PA_2026": 420,
+      "OPS_2026": 0.727,
+      "projected_OPS_2027": 0.704,
+      "projected_OPS_change": -0.024,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 694384,
+      "player_name": "Nolan Schanuel",
+      "PA_2026": 446,
+      "OPS_2026": 0.736,
+      "projected_OPS_2027": 0.711,
+      "projected_OPS_change": -0.024,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 677587,
+      "player_name": "Brayan Rocchio",
+      "PA_2026": 592,
+      "OPS_2026": 0.705,
+      "projected_OPS_2027": 0.68,
+      "projected_OPS_change": -0.025,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 669477,
+      "player_name": "Casey Schmitt",
+      "PA_2026": 409,
+      "OPS_2026": 0.784,
+      "projected_OPS_2027": 0.759,
+      "projected_OPS_change": -0.025,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 643376,
+      "player_name": "Danny Jansen",
+      "PA_2026": 227,
+      "OPS_2026": 0.677,
+      "projected_OPS_2027": 0.651,
+      "projected_OPS_change": -0.026,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 668804,
+      "player_name": "Bryan Reynolds",
+      "PA_2026": 699,
+      "OPS_2026": 0.789,
+      "projected_OPS_2027": 0.763,
+      "projected_OPS_change": -0.026,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 681807,
+      "player_name": "David Fry",
+      "PA_2026": 214,
+      "OPS_2026": 0.677,
+      "projected_OPS_2027": 0.651,
+      "projected_OPS_change": -0.026,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 609280,
+      "player_name": "Miguel Andujar",
+      "PA_2026": 254,
+      "OPS_2026": 0.726,
+      "projected_OPS_2027": 0.699,
+      "projected_OPS_change": -0.027,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 664023,
+      "player_name": "Ian Happ",
+      "PA_2026": 636,
+      "OPS_2026": 0.738,
+      "projected_OPS_2027": 0.711,
+      "projected_OPS_change": -0.027,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 676724,
+      "player_name": "Jared Young",
+      "PA_2026": 342,
+      "OPS_2026": 0.759,
+      "projected_OPS_2027": 0.732,
+      "projected_OPS_change": -0.027,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 665487,
+      "player_name": "Fernando Tatis Jr.",
+      "PA_2026": 704,
+      "OPS_2026": 0.828,
+      "projected_OPS_2027": 0.801,
+      "projected_OPS_change": -0.027,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 672960,
+      "player_name": "Kazuma Okamoto",
+      "PA_2026": 636,
+      "OPS_2026": 0.762,
+      "projected_OPS_2027": 0.733,
+      "projected_OPS_change": -0.029,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 642715,
+      "player_name": "Willy Adames",
+      "PA_2026": 505,
+      "OPS_2026": 0.713,
+      "projected_OPS_2027": 0.684,
+      "projected_OPS_change": -0.029,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 595978,
+      "player_name": "Austin Hedges",
+      "PA_2026": 247,
+      "OPS_2026": 0.702,
+      "projected_OPS_2027": 0.672,
+      "projected_OPS_change": -0.03,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 676609,
+      "player_name": "Jos\u00e9 Caballero",
+      "PA_2026": 456,
+      "OPS_2026": 0.655,
+      "projected_OPS_2027": 0.625,
+      "projected_OPS_change": -0.03,
+      "prediction": "Stable"
+    },
+    {
+      "player_id": 682998,
+      "player_name": "Corbin Carroll",
+      "PA_2026": 671,
+      "OPS_2026": 0.795,
+      "projected_OPS_2027": 0.765,
+      "projected_OPS_change": -0.03,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 677942,
+      "player_name": "Blaze Alexander",
+      "PA_2026": 289,
+      "OPS_2026": 0.772,
+      "projected_OPS_2027": 0.741,
+      "projected_OPS_change": -0.031,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 686948,
+      "player_name": "Drake Baldwin",
+      "PA_2026": 615,
+      "OPS_2026": 0.817,
+      "projected_OPS_2027": 0.786,
+      "projected_OPS_change": -0.031,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 641355,
+      "player_name": "Cody Bellinger",
+      "PA_2026": 562,
+      "OPS_2026": 0.768,
+      "projected_OPS_2027": 0.736,
+      "projected_OPS_change": -0.032,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 691720,
+      "player_name": "Kyle Karros",
+      "PA_2026": 475,
+      "OPS_2026": 0.761,
+      "projected_OPS_2027": 0.729,
+      "projected_OPS_change": -0.032,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 672695,
+      "player_name": "Geraldo Perdomo",
+      "PA_2026": 680,
+      "OPS_2026": 0.747,
+      "projected_OPS_2027": 0.715,
+      "projected_OPS_change": -0.032,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 663993,
+      "player_name": "Nathaniel Lowe",
+      "PA_2026": 429,
+      "OPS_2026": 0.761,
+      "projected_OPS_2027": 0.729,
+      "projected_OPS_change": -0.032,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 606192,
+      "player_name": "Teoscar Hern\u00e1ndez",
+      "PA_2026": 491,
+      "OPS_2026": 0.759,
+      "projected_OPS_2027": 0.727,
+      "projected_OPS_change": -0.033,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 679845,
+      "player_name": "Nick Loftin",
+      "PA_2026": 426,
+      "OPS_2026": 0.71,
+      "projected_OPS_2027": 0.678,
+      "projected_OPS_change": -0.033,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 701398,
+      "player_name": "Sal Stewart",
+      "PA_2026": 700,
+      "OPS_2026": 0.787,
+      "projected_OPS_2027": 0.755,
+      "projected_OPS_change": -0.033,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 699393,
+      "player_name": "Pedro Ram\u00edrez",
+      "PA_2026": 266,
+      "OPS_2026": 0.723,
+      "projected_OPS_2027": 0.69,
+      "projected_OPS_change": -0.033,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 669364,
+      "player_name": "Xavier Edwards",
+      "PA_2026": 595,
+      "OPS_2026": 0.73,
+      "projected_OPS_2027": 0.696,
+      "projected_OPS_change": -0.035,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 668723,
+      "player_name": "Ryan Vilade",
+      "PA_2026": 278,
+      "OPS_2026": 0.75,
+      "projected_OPS_2027": 0.714,
+      "projected_OPS_change": -0.036,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 518692,
+      "player_name": "Freddie Freeman",
+      "PA_2026": 657,
+      "OPS_2026": 0.792,
+      "projected_OPS_2027": 0.755,
+      "projected_OPS_change": -0.037,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 691023,
+      "player_name": "Jordan Walker",
+      "PA_2026": 667,
+      "OPS_2026": 0.793,
+      "projected_OPS_2027": 0.756,
+      "projected_OPS_change": -0.037,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 642201,
+      "player_name": "Eli White",
+      "PA_2026": 204,
+      "OPS_2026": 0.687,
+      "projected_OPS_2027": 0.649,
+      "projected_OPS_change": -0.038,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 669065,
+      "player_name": "Kyle Stowers",
+      "PA_2026": 512,
+      "OPS_2026": 0.789,
+      "projected_OPS_2027": 0.751,
+      "projected_OPS_change": -0.038,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 804606,
+      "player_name": "Konnor Griffin",
+      "PA_2026": 339,
+      "OPS_2026": 0.728,
+      "projected_OPS_2027": 0.69,
+      "projected_OPS_change": -0.038,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 672386,
+      "player_name": "Alejandro Kirk",
+      "PA_2026": 313,
+      "OPS_2026": 0.767,
+      "projected_OPS_2027": 0.728,
+      "projected_OPS_change": -0.039,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 621566,
+      "player_name": "Matt Olson",
+      "PA_2026": 698,
+      "OPS_2026": 0.823,
+      "projected_OPS_2027": 0.784,
+      "projected_OPS_change": -0.039,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 686797,
+      "player_name": "Brooks Lee",
+      "PA_2026": 631,
+      "OPS_2026": 0.728,
+      "projected_OPS_2027": 0.689,
+      "projected_OPS_change": -0.039,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 806198,
+      "player_name": "Cooper Pratt",
+      "PA_2026": 266,
+      "OPS_2026": 0.718,
+      "projected_OPS_2027": 0.679,
+      "projected_OPS_change": -0.04,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 667472,
+      "player_name": "Dane Myers",
+      "PA_2026": 334,
+      "OPS_2026": 0.721,
+      "projected_OPS_2027": 0.681,
+      "projected_OPS_change": -0.04,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 664770,
+      "player_name": "Nathan Lukes",
+      "PA_2026": 450,
+      "OPS_2026": 0.715,
+      "projected_OPS_2027": 0.675,
+      "projected_OPS_change": -0.04,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 678246,
+      "player_name": "Miguel Vargas",
+      "PA_2026": 704,
+      "OPS_2026": 0.837,
+      "projected_OPS_2027": 0.797,
+      "projected_OPS_change": -0.04,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 681393,
+      "player_name": "Connor Norby",
+      "PA_2026": 383,
+      "OPS_2026": 0.719,
+      "projected_OPS_2027": 0.679,
+      "projected_OPS_change": -0.04,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 650490,
+      "player_name": "Yandy D\u00edaz",
+      "PA_2026": 686,
+      "OPS_2026": 0.805,
+      "projected_OPS_2027": 0.764,
+      "projected_OPS_change": -0.04,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 701678,
+      "player_name": "Hao-Yu Lee",
+      "PA_2026": 364,
+      "OPS_2026": 0.747,
+      "projected_OPS_2027": 0.706,
+      "projected_OPS_change": -0.041,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 669127,
+      "player_name": "Shea Langeliers",
+      "PA_2026": 467,
+      "OPS_2026": 0.802,
+      "projected_OPS_2027": 0.76,
+      "projected_OPS_change": -0.041,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 695578,
+      "player_name": "James Wood",
+      "PA_2026": 623,
+      "OPS_2026": 0.891,
+      "projected_OPS_2027": 0.85,
+      "projected_OPS_change": -0.041,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 660688,
+      "player_name": "Keibert Ruiz",
+      "PA_2026": 354,
+      "OPS_2026": 0.759,
+      "projected_OPS_2027": 0.718,
+      "projected_OPS_change": -0.041,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 596142,
+      "player_name": "Gary S\u00e1nchez",
+      "PA_2026": 275,
+      "OPS_2026": 0.771,
+      "projected_OPS_2027": 0.73,
+      "projected_OPS_change": -0.042,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 669242,
+      "player_name": "Tommy Edman",
+      "PA_2026": 331,
+      "OPS_2026": 0.714,
+      "projected_OPS_2027": 0.672,
+      "projected_OPS_change": -0.042,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 514888,
+      "player_name": "Jose Altuve",
+      "PA_2026": 573,
+      "OPS_2026": 0.701,
+      "projected_OPS_2027": 0.658,
+      "projected_OPS_change": -0.043,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 702332,
+      "player_name": "Caleb Durbin",
+      "PA_2026": 586,
+      "OPS_2026": 0.71,
+      "projected_OPS_2027": 0.665,
+      "projected_OPS_change": -0.045,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 687401,
+      "player_name": "Joey Ortiz",
+      "PA_2026": 415,
+      "OPS_2026": 0.73,
+      "projected_OPS_2027": 0.685,
+      "projected_OPS_change": -0.045,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 687859,
+      "player_name": "Troy Johnston",
+      "PA_2026": 449,
+      "OPS_2026": 0.741,
+      "projected_OPS_2027": 0.696,
+      "projected_OPS_change": -0.046,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 694671,
+      "player_name": "Wyatt Langford",
+      "PA_2026": 471,
+      "OPS_2026": 0.754,
+      "projected_OPS_2027": 0.708,
+      "projected_OPS_change": -0.046,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 807713,
+      "player_name": "Matt Shaw",
+      "PA_2026": 202,
+      "OPS_2026": 0.737,
+      "projected_OPS_2027": 0.691,
+      "projected_OPS_change": -0.046,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 802415,
+      "player_name": "Chandler Simpson",
+      "PA_2026": 612,
+      "OPS_2026": 0.689,
+      "projected_OPS_2027": 0.642,
+      "projected_OPS_change": -0.047,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 805808,
+      "player_name": "Kevin McGonigle",
+      "PA_2026": 707,
+      "OPS_2026": 0.806,
+      "projected_OPS_2027": 0.759,
+      "projected_OPS_change": -0.047,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 686527,
+      "player_name": "Dominic Canzone",
+      "PA_2026": 533,
+      "OPS_2026": 0.82,
+      "projected_OPS_2027": 0.771,
+      "projected_OPS_change": -0.049,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 814439,
+      "player_name": "Ryan Waldschmidt",
+      "PA_2026": 284,
+      "OPS_2026": 0.693,
+      "projected_OPS_2027": 0.644,
+      "projected_OPS_change": -0.049,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 666018,
+      "player_name": "Jonathan Aranda",
+      "PA_2026": 668,
+      "OPS_2026": 0.792,
+      "projected_OPS_2027": 0.743,
+      "projected_OPS_change": -0.049,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 672640,
+      "player_name": "Otto Lopez",
+      "PA_2026": 687,
+      "OPS_2026": 0.786,
+      "projected_OPS_2027": 0.737,
+      "projected_OPS_change": -0.049,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 805811,
+      "player_name": "Bryce Eldridge",
+      "PA_2026": 448,
+      "OPS_2026": 0.825,
+      "projected_OPS_2027": 0.775,
+      "projected_OPS_change": -0.05,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 665804,
+      "player_name": "Miguel Amaya",
+      "PA_2026": 254,
+      "OPS_2026": 0.717,
+      "projected_OPS_2027": 0.666,
+      "projected_OPS_change": -0.051,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 663968,
+      "player_name": "Jake Mangum",
+      "PA_2026": 479,
+      "OPS_2026": 0.694,
+      "projected_OPS_2027": 0.644,
+      "projected_OPS_change": -0.051,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 803011,
+      "player_name": "Sam Antonacci",
+      "PA_2026": 557,
+      "OPS_2026": 0.766,
+      "projected_OPS_2027": 0.715,
+      "projected_OPS_change": -0.051,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 686765,
+      "player_name": "Nick Sogard",
+      "PA_2026": 277,
+      "OPS_2026": 0.727,
+      "projected_OPS_2027": 0.675,
+      "projected_OPS_change": -0.052,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 592626,
+      "player_name": "Joc Pederson",
+      "PA_2026": 432,
+      "OPS_2026": 0.816,
+      "projected_OPS_2027": 0.764,
+      "projected_OPS_change": -0.052,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 683953,
+      "player_name": "Travis Bazzana",
+      "PA_2026": 517,
+      "OPS_2026": 0.742,
+      "projected_OPS_2027": 0.689,
+      "projected_OPS_change": -0.053,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 673237,
+      "player_name": "Yainer Diaz",
+      "PA_2026": 361,
+      "OPS_2026": 0.772,
+      "projected_OPS_2027": 0.719,
+      "projected_OPS_change": -0.054,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 677649,
+      "player_name": "Ezequiel Duran",
+      "PA_2026": 597,
+      "OPS_2026": 0.74,
+      "projected_OPS_2027": 0.685,
+      "projected_OPS_change": -0.055,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 665742,
+      "player_name": "Juan Soto",
+      "PA_2026": 482,
+      "OPS_2026": 0.908,
+      "projected_OPS_2027": 0.853,
+      "projected_OPS_change": -0.055,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 687263,
+      "player_name": "Zach Neto",
+      "PA_2026": 704,
+      "OPS_2026": 0.766,
+      "projected_OPS_2027": 0.711,
+      "projected_OPS_change": -0.055,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 553993,
+      "player_name": "Eugenio Su\u00e1rez",
+      "PA_2026": 498,
+      "OPS_2026": 0.74,
+      "projected_OPS_2027": 0.686,
+      "projected_OPS_change": -0.055,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 695600,
+      "player_name": "Carter Jensen",
+      "PA_2026": 603,
+      "OPS_2026": 0.79,
+      "projected_OPS_2027": 0.735,
+      "projected_OPS_change": -0.055,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 680777,
+      "player_name": "Ryan Jeffers",
+      "PA_2026": 369,
+      "OPS_2026": 0.811,
+      "projected_OPS_2027": 0.756,
+      "projected_OPS_change": -0.056,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 624413,
+      "player_name": "Pete Alonso",
+      "PA_2026": 700,
+      "OPS_2026": 0.884,
+      "projected_OPS_2027": 0.829,
+      "projected_OPS_change": -0.056,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 701807,
+      "player_name": "Carson Benge",
+      "PA_2026": 654,
+      "OPS_2026": 0.776,
+      "projected_OPS_2027": 0.719,
+      "projected_OPS_change": -0.056,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 679529,
+      "player_name": "Spencer Torkelson",
+      "PA_2026": 612,
+      "OPS_2026": 0.766,
+      "projected_OPS_2027": 0.71,
+      "projected_OPS_change": -0.056,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 800050,
+      "player_name": "Chase DeLauter",
+      "PA_2026": 559,
+      "OPS_2026": 0.82,
+      "projected_OPS_2027": 0.762,
+      "projected_OPS_change": -0.058,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 650489,
+      "player_name": "Willi Castro",
+      "PA_2026": 477,
+      "OPS_2026": 0.748,
+      "projected_OPS_2027": 0.69,
+      "projected_OPS_change": -0.058,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 703607,
+      "player_name": "Henry Bolte",
+      "PA_2026": 473,
+      "OPS_2026": 0.764,
+      "projected_OPS_2027": 0.705,
+      "projected_OPS_change": -0.059,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 502671,
+      "player_name": "Paul Goldschmidt",
+      "PA_2026": 380,
+      "OPS_2026": 0.765,
+      "projected_OPS_2027": 0.706,
+      "projected_OPS_change": -0.059,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 680757,
+      "player_name": "Steven Kwan",
+      "PA_2026": 637,
+      "OPS_2026": 0.731,
+      "projected_OPS_2027": 0.672,
+      "projected_OPS_change": -0.059,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 624424,
+      "player_name": "Michael Conforto",
+      "PA_2026": 314,
+      "OPS_2026": 0.8,
+      "projected_OPS_2027": 0.74,
+      "projected_OPS_change": -0.059,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 671739,
+      "player_name": "Michael Harris II",
+      "PA_2026": 621,
+      "OPS_2026": 0.812,
+      "projected_OPS_2027": 0.753,
+      "projected_OPS_change": -0.06,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 693304,
+      "player_name": "Nick Gonzales",
+      "PA_2026": 608,
+      "OPS_2026": 0.755,
+      "projected_OPS_2027": 0.695,
+      "projected_OPS_change": -0.06,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 691016,
+      "player_name": "Tyler Soderstrom",
+      "PA_2026": 453,
+      "OPS_2026": 0.81,
+      "projected_OPS_2027": 0.75,
+      "projected_OPS_change": -0.06,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 695506,
+      "player_name": "Jac Caglianone",
+      "PA_2026": 553,
+      "OPS_2026": 0.834,
+      "projected_OPS_2027": 0.773,
+      "projected_OPS_change": -0.061,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 656811,
+      "player_name": "Ryan O'Hearn",
+      "PA_2026": 451,
+      "OPS_2026": 0.77,
+      "projected_OPS_2027": 0.709,
+      "projected_OPS_change": -0.061,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 701762,
+      "player_name": "Nick Kurtz",
+      "PA_2026": 434,
+      "OPS_2026": 0.879,
+      "projected_OPS_2027": 0.818,
+      "projected_OPS_change": -0.061,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 660271,
+      "player_name": "Shohei Ohtani",
+      "PA_2026": 618,
+      "OPS_2026": 0.889,
+      "projected_OPS_2027": 0.827,
+      "projected_OPS_change": -0.062,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 650333,
+      "player_name": "Luis Arraez",
+      "PA_2026": 655,
+      "OPS_2026": 0.765,
+      "projected_OPS_2027": 0.703,
+      "projected_OPS_change": -0.062,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 671277,
+      "player_name": "Luis Garc\u00eda Jr.",
+      "PA_2026": 543,
+      "OPS_2026": 0.831,
+      "projected_OPS_2027": 0.768,
+      "projected_OPS_change": -0.062,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 621439,
+      "player_name": "Byron Buxton",
+      "PA_2026": 408,
+      "OPS_2026": 0.829,
+      "projected_OPS_2027": 0.767,
+      "projected_OPS_change": -0.062,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 665052,
+      "player_name": "Griffin Conine",
+      "PA_2026": 323,
+      "OPS_2026": 0.846,
+      "projected_OPS_2027": 0.779,
+      "projected_OPS_change": -0.067,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 663616,
+      "player_name": "Trevor Larnach",
+      "PA_2026": 433,
+      "OPS_2026": 0.788,
+      "projected_OPS_2027": 0.721,
+      "projected_OPS_change": -0.067,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 682985,
+      "player_name": "Riley Greene",
+      "PA_2026": 592,
+      "OPS_2026": 0.844,
+      "projected_OPS_2027": 0.776,
+      "projected_OPS_change": -0.067,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 681508,
+      "player_name": "Mickey Gasper",
+      "PA_2026": 225,
+      "OPS_2026": 0.823,
+      "projected_OPS_2027": 0.756,
+      "projected_OPS_change": -0.067,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 687221,
+      "player_name": "Dalton Rushing",
+      "PA_2026": 253,
+      "OPS_2026": 0.788,
+      "projected_OPS_2027": 0.719,
+      "projected_OPS_change": -0.068,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 666160,
+      "player_name": "Mickey Moniak",
+      "PA_2026": 436,
+      "OPS_2026": 0.758,
+      "projected_OPS_2027": 0.689,
+      "projected_OPS_change": -0.069,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 656941,
+      "player_name": "Kyle Schwarber",
+      "PA_2026": 701,
+      "OPS_2026": 0.857,
+      "projected_OPS_2027": 0.787,
+      "projected_OPS_change": -0.07,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 680869,
+      "player_name": "Zack Gelof",
+      "PA_2026": 435,
+      "OPS_2026": 0.796,
+      "projected_OPS_2027": 0.724,
+      "projected_OPS_change": -0.072,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 681624,
+      "player_name": "Andy Pages",
+      "PA_2026": 574,
+      "OPS_2026": 0.811,
+      "projected_OPS_2027": 0.738,
+      "projected_OPS_change": -0.073,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 673962,
+      "player_name": "Josh Jung",
+      "PA_2026": 444,
+      "OPS_2026": 0.827,
+      "projected_OPS_2027": 0.754,
+      "projected_OPS_change": -0.073,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 682657,
+      "player_name": "Angel Mart\u00ednez",
+      "PA_2026": 416,
+      "OPS_2026": 0.756,
+      "projected_OPS_2027": 0.682,
+      "projected_OPS_change": -0.073,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 656537,
+      "player_name": "Derek Hill",
+      "PA_2026": 216,
+      "OPS_2026": 0.733,
+      "projected_OPS_2027": 0.66,
+      "projected_OPS_change": -0.074,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 682829,
+      "player_name": "Elly De La Cruz",
+      "PA_2026": 636,
+      "OPS_2026": 0.88,
+      "projected_OPS_2027": 0.805,
+      "projected_OPS_change": -0.075,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 571970,
+      "player_name": "Max Muncy",
+      "PA_2026": 561,
+      "OPS_2026": 0.837,
+      "projected_OPS_2027": 0.763,
+      "projected_OPS_change": -0.075,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 694192,
+      "player_name": "Jackson Chourio",
+      "PA_2026": 573,
+      "OPS_2026": 0.837,
+      "projected_OPS_2027": 0.762,
+      "projected_OPS_change": -0.076,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 685133,
+      "player_name": "Wade Meckler",
+      "PA_2026": 337,
+      "OPS_2026": 0.76,
+      "projected_OPS_2027": 0.683,
+      "projected_OPS_change": -0.077,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 691594,
+      "player_name": "Javier Sanoja",
+      "PA_2026": 490,
+      "OPS_2026": 0.791,
+      "projected_OPS_2027": 0.712,
+      "projected_OPS_change": -0.079,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 669134,
+      "player_name": "Luis Campusano",
+      "PA_2026": 248,
+      "OPS_2026": 0.795,
+      "projected_OPS_2027": 0.717,
+      "projected_OPS_change": -0.079,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 665833,
+      "player_name": "Oneil Cruz",
+      "PA_2026": 419,
+      "OPS_2026": 0.854,
+      "projected_OPS_2027": 0.774,
+      "projected_OPS_change": -0.08,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 641343,
+      "player_name": "Jake Bauers",
+      "PA_2026": 578,
+      "OPS_2026": 0.874,
+      "projected_OPS_2027": 0.794,
+      "projected_OPS_change": -0.08,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 671976,
+      "player_name": "Tristan Peters",
+      "PA_2026": 491,
+      "OPS_2026": 0.774,
+      "projected_OPS_2027": 0.692,
+      "projected_OPS_change": -0.082,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 691406,
+      "player_name": "Junior Caminero",
+      "PA_2026": 702,
+      "OPS_2026": 0.885,
+      "projected_OPS_2027": 0.802,
+      "projected_OPS_change": -0.083,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 807712,
+      "player_name": "Luke Keaschall",
+      "PA_2026": 620,
+      "OPS_2026": 0.781,
+      "projected_OPS_2027": 0.698,
+      "projected_OPS_change": -0.083,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 683748,
+      "player_name": "Victor Mesa Jr.",
+      "PA_2026": 262,
+      "OPS_2026": 0.825,
+      "projected_OPS_2027": 0.741,
+      "projected_OPS_change": -0.084,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 608324,
+      "player_name": "Alex Bregman",
+      "PA_2026": 702,
+      "OPS_2026": 0.819,
+      "projected_OPS_2027": 0.735,
+      "projected_OPS_change": -0.084,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 676356,
+      "player_name": "Jonny DeLuca",
+      "PA_2026": 370,
+      "OPS_2026": 0.728,
+      "projected_OPS_2027": 0.643,
+      "projected_OPS_change": -0.086,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 668930,
+      "player_name": "Brice Turang",
+      "PA_2026": 680,
+      "OPS_2026": 0.816,
+      "projected_OPS_2027": 0.73,
+      "projected_OPS_change": -0.086,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 699013,
+      "player_name": "Esmerlyn Valdez",
+      "PA_2026": 287,
+      "OPS_2026": 0.855,
+      "projected_OPS_2027": 0.769,
+      "projected_OPS_change": -0.086,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 664040,
+      "player_name": "Brandon Lowe",
+      "PA_2026": 655,
+      "OPS_2026": 0.825,
+      "projected_OPS_2027": 0.738,
+      "projected_OPS_change": -0.087,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 678554,
+      "player_name": "Curtis Mead",
+      "PA_2026": 329,
+      "OPS_2026": 0.851,
+      "projected_OPS_2027": 0.764,
+      "projected_OPS_change": -0.087,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 547180,
+      "player_name": "Bryce Harper",
+      "PA_2026": 693,
+      "OPS_2026": 0.865,
+      "projected_OPS_2027": 0.777,
+      "projected_OPS_change": -0.088,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 805367,
+      "player_name": "Chase Meidroth",
+      "PA_2026": 643,
+      "OPS_2026": 0.765,
+      "projected_OPS_2027": 0.676,
+      "projected_OPS_change": -0.089,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 703601,
+      "player_name": "Max Clark",
+      "PA_2026": 206,
+      "OPS_2026": 0.766,
+      "projected_OPS_2027": 0.677,
+      "projected_OPS_change": -0.09,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 646240,
+      "player_name": "Rafael Devers",
+      "PA_2026": 633,
+      "OPS_2026": 0.865,
+      "projected_OPS_2027": 0.774,
+      "projected_OPS_change": -0.091,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 689414,
+      "player_name": "Liam Hicks",
+      "PA_2026": 554,
+      "OPS_2026": 0.801,
+      "projected_OPS_2027": 0.708,
+      "projected_OPS_change": -0.093,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 679822,
+      "player_name": "Justin Foscue",
+      "PA_2026": 247,
+      "OPS_2026": 0.816,
+      "projected_OPS_2027": 0.721,
+      "projected_OPS_change": -0.095,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 665923,
+      "player_name": "Esteury Ruiz",
+      "PA_2026": 255,
+      "OPS_2026": 0.7,
+      "projected_OPS_2027": 0.604,
+      "projected_OPS_change": -0.096,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 670623,
+      "player_name": "Isaac Paredes",
+      "PA_2026": 659,
+      "OPS_2026": 0.806,
+      "projected_OPS_2027": 0.71,
+      "projected_OPS_change": -0.096,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 678882,
+      "player_name": "Ceddanne Rafaela",
+      "PA_2026": 576,
+      "OPS_2026": 0.764,
+      "projected_OPS_2027": 0.668,
+      "projected_OPS_change": -0.096,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 683734,
+      "player_name": "Andrew Vaughn",
+      "PA_2026": 331,
+      "OPS_2026": 0.834,
+      "projected_OPS_2027": 0.735,
+      "projected_OPS_change": -0.099,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 665161,
+      "player_name": "Jeremy Pe\u00f1a",
+      "PA_2026": 483,
+      "OPS_2026": 0.802,
+      "projected_OPS_2027": 0.702,
+      "projected_OPS_change": -0.099,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 700250,
+      "player_name": "Ben Rice",
+      "PA_2026": 667,
+      "OPS_2026": 0.897,
+      "projected_OPS_2027": 0.796,
+      "projected_OPS_change": -0.101,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 682928,
+      "player_name": "CJ Abrams",
+      "PA_2026": 654,
+      "OPS_2026": 0.834,
+      "projected_OPS_2027": 0.731,
+      "projected_OPS_change": -0.103,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 696100,
+      "player_name": "Hunter Goodman",
+      "PA_2026": 574,
+      "OPS_2026": 0.839,
+      "projected_OPS_2027": 0.734,
+      "projected_OPS_change": -0.105,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 687952,
+      "player_name": "Christian Encarnacion-Strand",
+      "PA_2026": 213,
+      "OPS_2026": 0.838,
+      "projected_OPS_2027": 0.733,
+      "projected_OPS_change": -0.105,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 673548,
+      "player_name": "Seiya Suzuki",
+      "PA_2026": 634,
+      "OPS_2026": 0.841,
+      "projected_OPS_2027": 0.735,
+      "projected_OPS_change": -0.106,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 672515,
+      "player_name": "Gabriel Moreno",
+      "PA_2026": 549,
+      "OPS_2026": 0.874,
+      "projected_OPS_2027": 0.767,
+      "projected_OPS_change": -0.107,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 622268,
+      "player_name": "Donovan Walton",
+      "PA_2026": 268,
+      "OPS_2026": 0.806,
+      "projected_OPS_2027": 0.698,
+      "projected_OPS_change": -0.108,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 675961,
+      "player_name": "Alika Williams",
+      "PA_2026": 231,
+      "OPS_2026": 0.735,
+      "projected_OPS_2027": 0.626,
+      "projected_OPS_change": -0.108,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 621438,
+      "player_name": "Tyrone Taylor",
+      "PA_2026": 241,
+      "OPS_2026": 0.827,
+      "projected_OPS_2027": 0.714,
+      "projected_OPS_change": -0.113,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 571448,
+      "player_name": "Nolan Arenado",
+      "PA_2026": 599,
+      "OPS_2026": 0.806,
+      "projected_OPS_2027": 0.687,
+      "projected_OPS_change": -0.119,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 664983,
+      "player_name": "Jake McCarthy",
+      "PA_2026": 596,
+      "OPS_2026": 0.809,
+      "projected_OPS_2027": 0.69,
+      "projected_OPS_change": -0.12,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 694249,
+      "player_name": "Cole Carrigg",
+      "PA_2026": 372,
+      "OPS_2026": 0.818,
+      "projected_OPS_2027": 0.696,
+      "projected_OPS_change": -0.122,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 664034,
+      "player_name": "Ty France",
+      "PA_2026": 500,
+      "OPS_2026": 0.865,
+      "projected_OPS_2027": 0.741,
+      "projected_OPS_change": -0.124,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 545341,
+      "player_name": "Randal Grichuk",
+      "PA_2026": 280,
+      "OPS_2026": 0.88,
+      "projected_OPS_2027": 0.756,
+      "projected_OPS_change": -0.124,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 665953,
+      "player_name": "Andr\u00e9s Chaparro",
+      "PA_2026": 228,
+      "OPS_2026": 0.885,
+      "projected_OPS_2027": 0.759,
+      "projected_OPS_change": -0.126,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 668227,
+      "player_name": "Randy Arozarena",
+      "PA_2026": 670,
+      "OPS_2026": 0.865,
+      "projected_OPS_2027": 0.739,
+      "projected_OPS_change": -0.126,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 681198,
+      "player_name": "TJ Rumfield",
+      "PA_2026": 631,
+      "OPS_2026": 0.843,
+      "projected_OPS_2027": 0.712,
+      "projected_OPS_change": -0.132,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 575929,
+      "player_name": "Willson Contreras",
+      "PA_2026": 535,
+      "OPS_2026": 0.901,
+      "projected_OPS_2027": 0.769,
+      "projected_OPS_change": -0.132,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 670541,
+      "player_name": "Yordan Alvarez",
+      "PA_2026": 691,
+      "OPS_2026": 1.035,
+      "projected_OPS_2027": 0.884,
+      "projected_OPS_change": -0.151,
+      "prediction": "Regression"
+    },
+    {
+      "player_id": 691718,
+      "player_name": "Pete Crow-Armstrong",
+      "PA_2026": 726,
+      "OPS_2026": 0.943,
+      "projected_OPS_2027": 0.783,
+      "projected_OPS_change": -0.16,
+      "prediction": "Regression"
+    }
+  ]
+}
