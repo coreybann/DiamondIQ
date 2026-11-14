@@ -18,7 +18,7 @@ const positionGroups = [
   },
   {
     title: "Pitching Staff",
-    positions: ["SP", "P", "RP", "TWP"],
+    positions: ["SP", "P", "TWP"],
   },
 ];
 
@@ -39,7 +39,10 @@ export default function DepthChart({
           .map((position) => ({
             position,
             players: players.filter(
-              (player) => player.position === position
+              (player) =>
+                position === "P"
+                  ? ["P", "RP"].includes(player.position)
+                  : player.position === position
             ),
           }))
           .filter((section) => section.players.length > 0);

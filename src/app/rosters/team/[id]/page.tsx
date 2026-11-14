@@ -1,5 +1,7 @@
 import Link from "next/link";
 import RosterTabs from "./RosterTabs";
+import { getDepthChartRelieverRankings } from "@/lib/depthChartRelievers";
+import { sortDepthChartRelievers } from "@/lib/sortDepthChartRelievers";
 import { getTeamSalaryRecords, getTeamSalaryProjections } from "@/lib/teamPayroll";
 import { getMLBSeasonCalendar } from "@/lib/mlbSeasonCalendar";
 
@@ -220,6 +222,34 @@ export default async function TeamRosterPage({
       depthChartPlayers = await supplementDepthChart(
         fortyManPlayers,
         depthChartPlayers
+      );
+
+      // Rank relievers using team-specific pitching statistics.
+      // Preserve the existing order for all other positions.
+      const rankingSeason =
+        today < currentSeason.firstDate ? year - 1 : year;
+
+      const relieverRankings = await getDepthChartRelieverRankings(
+        depthChartPlayers,
+        teamId,
+        rankingSeason
+      );
+
+      const relievers = depthChartPlayers.filter(
+        (player) => ["P", "RP"].includes(player.position)
+      );
+
+      const sortedRelievers = sortDepthChartRelievers(
+        relievers,
+        relieverRankings
+      );
+
+      let relieverIndex = 0;
+
+      depthChartPlayers = depthChartPlayers.map((player) =>
+        ["P", "RP"].includes(player.position)
+          ? sortedRelievers[relieverIndex++]
+          : player
       );
     } catch {
       error = true;
