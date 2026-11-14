@@ -43,6 +43,12 @@ const toolGroups = [
         href: "/lineup-optimizer",
         icon: LineChart,
       },
+      {
+        title: "Bullpen Usage & Fatigue",
+        description: "Analyze historical bullpen workloads, pitcher rest, and fatigue indicators.",
+        href: "/bullpen-usage",
+        icon: BarChart3,
+      },
     ],
   },
   {
