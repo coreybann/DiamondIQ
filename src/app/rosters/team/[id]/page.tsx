@@ -70,6 +70,77 @@ async function getRoster(
   );
 }
 
+async function supplementDepthChart(
+  fortyManPlayers: MLBPlayer[],
+  depthChartPlayers: MLBPlayer[]
+): Promise<MLBPlayer[]> {
+  const existingIds = new Set(
+    depthChartPlayers.map((player) => player.id)
+  );
+
+  const missingPitchers = fortyManPlayers.filter(
+    (player) =>
+      !existingIds.has(player.id) &&
+      ["P", "RP", "SP"].includes(player.position) &&
+      player.status === "Active"
+  );
+
+  const additions = await Promise.all(
+    missingPitchers.map(async (player) => {
+      try {
+        const response = await fetch(
+          `https://statsapi.mlb.com/api/v1/people/${player.id}/stats?stats=season&group=pitching&season=2025`,
+          { cache: "no-store" }
+        );
+
+        if (!response.ok) return null;
+
+        const data = await response.json();
+
+        const splits = (data.stats ?? []).flatMap(
+          (group: {
+            splits?: {
+              stat?: {
+                gamesPlayed?: number;
+                gamesStarted?: number;
+              };
+            }[];
+          }) => group.splits ?? []
+        );
+
+        const games = splits.reduce(
+          (total: number, split: {
+            stat?: { gamesPlayed?: number };
+          }) => total + (split.stat?.gamesPlayed ?? 0),
+          0
+        );
+
+        const starts = splits.reduce(
+          (total: number, split: {
+            stat?: { gamesStarted?: number };
+          }) => total + (split.stat?.gamesStarted ?? 0),
+          0
+        );
+
+        if (games >= 5 && starts === 0) {
+          return { ...player, position: "P" };
+        }
+
+        return null;
+      } catch {
+        return null;
+      }
+    })
+  );
+
+  return [
+    ...depthChartPlayers,
+    ...additions.filter(
+      (player): player is MLBPlayer => player !== null
+    ),
+  ];
+}
+
 async function getTeam(teamId: number): Promise<MLBTeam> {
   const response = await fetch(
     `https://statsapi.mlb.com/api/v1/teams/${teamId}`,
@@ -146,6 +217,10 @@ export default async function TeamRosterPage({
           getRoster(teamId, "depthChart"),
           getRoster(teamId, "fullRoster"),
         ]);
+      depthChartPlayers = await supplementDepthChart(
+        fortyManPlayers,
+        depthChartPlayers
+      );
     } catch {
       error = true;
     }
