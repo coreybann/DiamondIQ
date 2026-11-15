@@ -1,7 +1,37 @@
 {
   "season": 2027,
-  "lastUpdated": "2026-11-13T19:29:36.918233+00:00",
+  "lastUpdated": "2026-11-15T18:07:33.151233+00:00",
   "signings": [
+    {
+      "playerId": 657612,
+      "playerName": "Tim Hill",
+      "team": "New York Yankees",
+      "date": "2026-11-15",
+      "status": "Signing Reported",
+      "sources": [
+        {
+          "team": "New York Yankees",
+          "date": "2026-11-15",
+          "headline": "Yankees Re-Sign Tim Hill To One-Year Deal",
+          "publisher": null,
+          "url": "https://www.mlbtraderumors.com/2026/11/yankees-re-sign-tim-hill-to-one-year-deal.html"
+        },
+        {
+          "team": "New York Yankees",
+          "date": "2026-11-15",
+          "headline": "Yankees' Tim Hill: Re-signs with Yankees - CBS Sports",
+          "publisher": "cbs sports",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQOUV5WEVMVmYyckVsZWNGSzcxQU16RG9JMkQ4OGhQV3FiZzFFbXotSzF5U0llTmlxS2t3M3JuSHNvRFlWY3Raa3d3OXhsN2l3QUp4dnY0TXEzMEtGX2NiUElZMkpsOWVqVEFsbEhpNXZMS1VLNXNsRHFkN3NlQk1qSHEyMEtUS3BHa2xyaEhrekQ?oc=5"
+        },
+        {
+          "team": "New York Yankees",
+          "date": "2026-11-15",
+          "headline": "Veteran left-handed reliever Tim Hill re-signs with Yankees on one-year deal - Yardbarker",
+          "publisher": "yardbarker",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPX2dHcURBX3BhTzBlMDlXVnMtYTd0MWExV2h1RlBnZFFBZXRySnFkdWc2MDFCZjhSVTh6MjA2NWt1OV9ZMEF4SWIxU0hyVnRxWHpveVBqUUprQi1uVXRkbG1vaVFfemVkZklqbDcyRVJHckRHZ1pjWEtLSDJqSGg5dkc4MmZRSk1EWmRoQXBmbHAtRG5rUjFHVWJ4eW5ZNmR2YUJ3M1M3SGZJQXd1R2VRaWFGd3JlTzcxTDJkRm5KRWVDOFozYllPeW9sczVYbXM?oc=5"
+        }
+      ]
+    },
     {
       "playerId": 623465,
       "playerName": "Evan Phillips",
