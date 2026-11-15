@@ -1,0 +1,26 @@
+{
+  "simulationStartDate": "2026-11-14",
+  "decisions": [
+    {
+      "playerId": 543309,
+      "name": "Kyle Higashioka",
+      "decisionDate": "2026-10-30",
+      "decision": "mutual-option-declined",
+      "source": "https://www.mlb.com/amp/news/joc-pederson-kyle-higashioka-jakob-junis-mutual-options-declined.html"
+    },
+    {
+      "playerId": 609280,
+      "name": "Miguel Andujar",
+      "decisionDate": "2026-11-01",
+      "decision": "mutual-option-declined",
+      "source": "https://www.nbcsports.com/fantasy/baseball/player-news/2026-11-01/miguel-andujar-turns-down-mutual-option"
+    },
+    {
+      "playerId": 650633,
+      "name": "Michael King",
+      "decisionDate": "2026-10-29",
+      "decision": "player-option-declined",
+      "source": "https://www.mlbtraderumors.com/2026/10/michael-king-declines-player-option.html"
+    }
+  ]
+}
