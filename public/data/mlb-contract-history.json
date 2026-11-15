@@ -2,7 +2,7 @@
   "description": "DiamondIQ historical MLB salary records",
   "created": "2026-11-13",
   "source_dataset": "mlb-contracts-2026.json",
-  "record_count": 2156,
+  "record_count": 2159,
   "records": [
     {
       "player": "Nolan Arenado",
@@ -107392,6 +107392,147 @@
       },
       "source": "https://www.baseball-reference.com/teams/WSN/washington-nationals-salaries-and-contracts.shtml",
       "source_checked": "2026-11-13"
+    },
+    {
+      "player": "Evan Phillips",
+      "mlb_player_id": null,
+      "team_code": "ATL",
+      "age": "32",
+      "service_time": "6.136",
+      "contract_status": "",
+      "salary_by_year": {
+        "2027": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2028": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2029": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2030": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2033": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/ATL/atlanta-braves-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-14"
+    },
+    {
+      "player": "Sammy Peralta",
+      "mlb_player_id": null,
+      "team_code": "LAA",
+      "age": "29",
+      "service_time": "0.156",
+      "contract_status": "",
+      "salary_by_year": {
+        "2027": {
+          "raw": "Pre-Arb",
+          "salary_millions": null,
+          "status": "pre_arbitration"
+        },
+        "2028": {
+          "raw": "Pre-Arb-2",
+          "salary_millions": null,
+          "status": "pre_arbitration"
+        },
+        "2029": {
+          "raw": "Arb-1",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb-2",
+          "salary_millions": null,
+          "status": "arbitration"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/ANA/los-angeles-angels-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-14"
+    },
+    {
+      "player": "Jackson Chourio",
+      "mlb_player_id": 694192,
+      "team_code": "MIL",
+      "age": "23",
+      "service_time": "3.000",
+      "contract_status": "8 yrs/$84M (24-31) & 32-33 team option",
+      "salary_by_year": {
+        "2027": {
+          "raw": "$8.25M",
+          "salary_millions": 8.25,
+          "status": "salary_listed"
+        },
+        "2028": {
+          "raw": "$9.25M",
+          "salary_millions": 9.25,
+          "status": "salary_listed"
+        },
+        "2029": {
+          "raw": "$15.25M",
+          "salary_millions": 15.25,
+          "status": "salary_listed"
+        },
+        "2030": {
+          "raw": "$16.25M",
+          "salary_millions": 16.25,
+          "status": "salary_listed"
+        },
+        "2031": {
+          "raw": "$17.25M",
+          "salary_millions": 17.25,
+          "status": "salary_listed"
+        },
+        "2032": {
+          "raw": "$2M [FA-*]",
+          "salary_millions": 2.0,
+          "status": "salary_with_fa_marker"
+        },
+        "2033": {
+          "raw": "$2M [FA-*]",
+          "salary_millions": 2.0,
+          "status": "salary_with_fa_marker"
+        },
+        "2034": {
+          "raw": "0",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2035": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2026": {
+          "raw": "$7.25M",
+          "salary_millions": 7.25,
+          "status": "salary_listed"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/MIL/milwaukee-brewers-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-14"
     }
   ]
 }
