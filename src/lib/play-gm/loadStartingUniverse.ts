@@ -1,4 +1,5 @@
 import { createUniverse } from "./createUniverse";
+import { applySalaries } from "./applySalaries";
 import { loadMLBTeams } from "./loadMLBTeams";
 import { loadMLBRoster } from "./loadMLBRoster";
 import { loadFreeAgentCandidates } from "./loadFreeAgentCandidates";
@@ -137,5 +138,5 @@ export async function loadStartingUniverse(): Promise<GMUniverse> {
     };
   });
 
-  return universe;
+  return applySalaries(universe);
 }

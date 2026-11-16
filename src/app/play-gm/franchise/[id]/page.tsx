@@ -157,6 +157,21 @@ export default function FranchiseDashboardPage() {
 
               <div className="mt-6 grid gap-4 sm:grid-cols-2">
                 <Link
+                  href={`/play-gm/franchise/${params.id}/roster`}
+                  className="rounded-xl border border-blue-400/30 bg-blue-500/10 p-5 transition-colors hover:border-blue-400 hover:bg-blue-500/20"
+                >
+                  <h3 className="text-lg font-bold text-white">
+                    Roster Management
+                  </h3>
+                  <p className="mt-2 text-sm text-slate-300">
+                    Review your 40-man roster, player salaries,
+                    positions, and contract information.
+                  </p>
+                  <p className="mt-4 text-sm font-semibold text-blue-400">
+                    View Roster →
+                  </p>
+                </Link>
+                <Link
                   href={`/play-gm/franchise/${params.id}/free-agency`}
                   className="rounded-xl border border-blue-400/30 bg-blue-500/10 p-5 transition-colors hover:border-blue-400 hover:bg-blue-500/20"
                 >
