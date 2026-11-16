@@ -30,8 +30,8 @@ export async function refreshFranchiseSalaries(
     });
 
     // Recalculate payroll from the final, protected salaries.
-    const salariesById = new Map(
-      players.map((player) => [player.id, player.salaryMillions])
+    const playersById = new Map(
+      players.map((player) => [player.id, player])
     );
 
     const teams = refreshed.teams.map((team) => {
@@ -39,12 +39,20 @@ export async function refreshFranchiseSalaries(
       let payrollKnown = true;
 
       for (const playerId of team.playerIds) {
-        const salary = salariesById.get(playerId);
+        const player = playersById.get(playerId);
 
-        if (salary === undefined || salary === null) {
+        if (!player) {
+          throw new Error(
+            `Missing player ${playerId} for ${team.name}.`
+          );
+        }
+
+        if (!player.onFortyMan) continue;
+
+        if (player.salaryMillions === null) {
           payrollKnown = false;
         } else {
-          payrollMillions += salary;
+          payrollMillions += player.salaryMillions;
         }
       }
 

@@ -2,6 +2,8 @@ import { createUniverse } from "./createUniverse";
 import { applySalaries } from "./applySalaries";
 import { loadMLBTeams } from "./loadMLBTeams";
 import { loadMLBRoster } from "./loadMLBRoster";
+import { loadMinorLeagueAffiliates } from "./loadMinorLeagueAffiliates";
+import { loadMinorLeaguePlayers } from "./loadMinorLeaguePlayers";
 import { loadFreeAgentCandidates } from "./loadFreeAgentCandidates";
 import { loadFreeAgentPlayers } from "./loadFreeAgentPlayers";
 import { enrichFreeAgentPlayers } from "./enrichFreeAgentPlayers";
@@ -54,6 +56,30 @@ export async function loadStartingUniverse(): Promise<GMUniverse> {
     };
   });
 
+  const affiliates = await loadMinorLeagueAffiliates(
+    teams.map((team) => team.id)
+  );
+
+  const minorLeaguePlayers = await loadMinorLeaguePlayers(
+    affiliates,
+    players
+  );
+
+  const organizationalPlayers = [
+    ...players,
+    ...minorLeaguePlayers,
+  ];
+
+  const teamsWithAllPlayers = teamsWithRosters.map((team) => ({
+    ...team,
+    playerIds: [
+      ...team.playerIds,
+      ...minorLeaguePlayers
+        .filter((player) => player.organizationId === team.id)
+        .map((player) => player.id),
+    ],
+  }));
+
   const { candidates, unmatched } = loadFreeAgentCandidates();
 
   if (unmatched.length > 0) {
@@ -64,7 +90,7 @@ export async function loadStartingUniverse(): Promise<GMUniverse> {
 
   const freeAgentPlayers = loadFreeAgentPlayers(
     candidates,
-    players
+    organizationalPlayers
   );
 
   const enrichedFreeAgents = await enrichFreeAgentPlayers(
@@ -73,8 +99,8 @@ export async function loadStartingUniverse(): Promise<GMUniverse> {
   );
 
   const universe = createUniverse({
-    teams: teamsWithRosters,
-    players: [...players, ...enrichedFreeAgents],
+    teams: teamsWithAllPlayers,
+    players: [...organizationalPlayers, ...enrichedFreeAgents],
     currentDate: START_DATE,
     season: START_SEASON,
   });
@@ -92,14 +118,15 @@ export async function loadStartingUniverse(): Promise<GMUniverse> {
       (evidence) => evidence.type === "mlbpa-free-agent"
     );
 
-    if (
-      candidate.availability === "reported-signed" ||
-      rostered
-    ) {
+    if (rostered) {
       return {
         ...candidate,
-        availability: candidate.availability,
+        availability: "under-contract" as const,
       };
+    }
+
+    if (candidate.availability === "reported-signed") {
+      return candidate;
     }
 
     const verifiedDecision = verifiedOptionData.decisions.find(

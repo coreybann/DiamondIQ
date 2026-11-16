@@ -33,7 +33,12 @@ export function applySalaries(
   );
 
   const teams = universe.teams.map((team) => {
-    const rosterIds = team.playerIds;
+    // Minor-league players belong to the organization but
+    // do not automatically count toward the MLB payroll.
+    const rosterIds = team.playerIds.filter((playerId) => {
+      const player = playersById.get(playerId);
+      return player?.onFortyMan === true;
+    });
 
     const salaries = getTeamSalaryRecords(
       team.abbreviation,

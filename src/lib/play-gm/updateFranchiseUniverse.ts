@@ -8,7 +8,8 @@ import type { GMUniverse } from "./universeTypes";
 
 export async function updateFranchiseUniverse(
   franchiseId: string,
-  updater: (universe: GMUniverse) => GMUniverse
+  updater: (universe: GMUniverse) => GMUniverse,
+  expectedRevision?: number
 ): Promise<FranchiseSave> {
   if (!franchiseId.trim()) {
     throw new Error("Franchise ID is required.");
@@ -23,6 +24,17 @@ export async function updateFranchiseUniverse(
   if (!franchise.universe) {
     throw new Error(
       "This franchise does not have an initialized universe."
+    );
+  }
+
+  if (
+    expectedRevision !== undefined &&
+    (!Number.isSafeInteger(expectedRevision) ||
+      expectedRevision < 0 ||
+      (franchise.revision ?? 0) !== expectedRevision)
+  ) {
+    throw new Error(
+      "Franchise changed since the migration preview. Generate a new preview."
     );
   }
 
