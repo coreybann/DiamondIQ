@@ -2,7 +2,7 @@
   "description": "DiamondIQ historical MLB salary records",
   "created": "2026-11-13",
   "source_dataset": "mlb-contracts-2026.json",
-  "record_count": 2159,
+  "record_count": 2161,
   "records": [
     {
       "player": "Nolan Arenado",
@@ -107533,6 +107533,110 @@
       },
       "source": "https://www.baseball-reference.com/teams/MIL/milwaukee-brewers-salaries-and-contracts.shtml",
       "source_checked": "2026-11-14"
+    },
+    {
+      "player": "Ryan Walker",
+      "mlb_player_id": null,
+      "team_code": "MIL",
+      "age": "31",
+      "service_time": "3.050",
+      "contract_status": "",
+      "salary_by_year": {
+        "2027": {
+          "raw": "Arb-1 (~$1.6M)",
+          "salary_millions": 1.6,
+          "status": "salary_listed"
+        },
+        "2028": {
+          "raw": "Arb-2",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2029": {
+          "raw": "Arb-3",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2033": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2034": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2035": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/MIL/milwaukee-brewers-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-16"
+    },
+    {
+      "player": "Geoff Hartlieb",
+      "mlb_player_id": null,
+      "team_code": "PHI",
+      "age": "33",
+      "service_time": "2.056",
+      "contract_status": "",
+      "salary_by_year": {
+        "2027": {
+          "raw": "Pre-Arb-3",
+          "salary_millions": null,
+          "status": "pre_arbitration"
+        },
+        "2028": {
+          "raw": "Arb-1",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2029": {
+          "raw": "Arb-2",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb-3",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2033": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/PHI/philadelphia-phillies-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-16"
     }
   ]
 }
