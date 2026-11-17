@@ -5,6 +5,7 @@ import {
 } from "./franchiseStorage";
 
 import type { GMUniverse } from "./universeTypes";
+import { validateUniverseRosters } from "./validateUniverseRosters";
 
 export async function updateFranchiseUniverse(
   franchiseId: string,
@@ -50,6 +51,12 @@ export async function updateFranchiseUniverse(
   if (updatedUniverse.schemaVersion !== 1) {
     throw new Error("Unsupported franchise universe version.");
   }
+
+  // Reject inconsistent player ownership before saving.
+  validateUniverseRosters(
+    updatedUniverse.teams,
+    updatedUniverse.players
+  );
 
   const updatedFranchise: FranchiseSave = {
     ...franchise,
