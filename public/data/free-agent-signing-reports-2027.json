@@ -1,7 +1,44 @@
 {
   "season": 2027,
-  "lastUpdated": "2026-11-15T18:07:33.151233+00:00",
+  "lastUpdated": "2026-11-17T17:33:44.333342+00:00",
   "signings": [
+    {
+      "playerId": 669160,
+      "playerName": "Dustin May",
+      "team": "Chicago White Sox",
+      "date": "2026-11-17",
+      "status": "Signing Reported",
+      "sources": [
+        {
+          "team": "Chicago White Sox",
+          "date": "2026-11-17",
+          "headline": "White Sox To Sign Dustin May",
+          "publisher": null,
+          "url": "https://www.mlbtraderumors.com/2026/11/white-sox-to-sign-dustin-may.html"
+        },
+        {
+          "team": "Chicago White Sox",
+          "date": "2026-11-17",
+          "headline": "Dustin May reportedly signs with White Sox - MLB.com",
+          "publisher": "mlb.com",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9McDlGRXRTZUVDeC1yMkdwSlprRXZLTGVNUnlLUkhsTmtaN0RqQlZjSkU4Y0xPMmk3bXlDMzJHeWFaYmxiT3NGTmFnQjFOMkpJX3Rydm9QeHd1N0tHVUw2S1d4ajJma1J3ZzNRY2lLOWk3QXFJMnZJ?oc=5"
+        },
+        {
+          "team": "Chicago White Sox",
+          "date": "2026-11-17",
+          "headline": "Dustin May signs $52.5 million deal with White Sox in early free-agency splash - New York Post",
+          "publisher": "new york post",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWEhQb0huRXRiMnMyZVBjOTBIQVNEREdCS2kySGZ2OUdjclkwdzhObGlobG0wWEJKYmRBU25sWWJwNFAtdDBGSlZXZHhyY3ItMmd1bk52YXA5Wl9yRm1aQ1FST1dnOHNEam5DREVVOC1lUE0xTG9YQkNISWRJOVlVSWpMQng2Q1ppTWtNQTA5N0JDbV9jeDBLcThtZUNKODRZUi1ESkdnSHdQekR4QTNrLVBRWjdOdw?oc=5"
+        },
+        {
+          "team": "Chicago White Sox",
+          "date": "2026-11-17",
+          "headline": "White Sox Projected Rotation After Dustin May Signs Big Contract - Heavy.com",
+          "publisher": "heavy.com",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRFlyaER2WDhEQXlDOHY4SEdDMEZqLVJNd0xhang3V3lqcVNVaUVyY2RoelhLS000dUkxcDQwR0lBSTVxT3pMdGZnby05OEc3bHRqMGtjLWhKb1pjUHBMTkdPa1BXNVJUTUFxNW54bGE0RlB1TWhhTWVBaEdCMXh2c1dQeHpUeUMzZklWRm0wZ1RoS3A0YzlyTW5MOHhZZlVlc09DaThYNGpaZw?oc=5"
+        }
+      ]
+    },
     {
       "playerId": 657612,
       "playerName": "Tim Hill",
