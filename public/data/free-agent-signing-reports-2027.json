@@ -1,7 +1,37 @@
 {
   "season": 2027,
-  "lastUpdated": "2026-11-17T17:33:44.333342+00:00",
+  "lastUpdated": "2026-11-18T22:23:51.495135+00:00",
   "signings": [
+    {
+      "playerId": 543243,
+      "playerName": "Sonny Gray",
+      "team": "Minnesota Twins",
+      "date": "2026-11-18",
+      "status": "Signing Reported",
+      "sources": [
+        {
+          "team": "Minnesota Twins",
+          "date": "2026-11-18",
+          "headline": "Twins Sign Sonny Gray",
+          "publisher": null,
+          "url": "https://www.mlbtraderumors.com/2026/11/twins-sign-sonny-gray.html"
+        },
+        {
+          "team": "Minnesota Twins",
+          "date": "2026-11-18",
+          "headline": "Twins Sign Sonny Gray to Two-Year Contract - MLB.com",
+          "publisher": "mlb.com",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNS3JfZVdqa3B5Vktld1lHZWkwWW5CdW0xaW5lVUFOb3RaaXFNU2JsbFBPaUJHNjR4N1RrbEVSQXFqN2U1ZFI3S21nZnRyN0szWER1MGNKSVJaZjdLSjJfY0R1Zl9ieGJhU2xKWTJhR0ZOSWUxTUYxeTBUaUpReEROZk9hZG95dDc1M0M1amhB0gGOAUFVX3lxTE1Lcl9lV2prcHlWS2V3WUdlaTBZbkJ1bTFpbmVVQU5vdFppcU1TYmxsUE9pQkc2NHg3VGtsRVJBcWo3ZTVkUjdLbWdmdHI3SzNYRHUwY0pJUlpmN0tKMl9jRHVmX2J4YmFTbEpZMmFHRk5JZTFNRjF5MFRpSlF4RE5mT2Fkb3l0NzUzQzVqaEE?oc=5"
+        },
+        {
+          "team": "Minnesota Twins",
+          "date": "2026-11-18",
+          "headline": "Veteran Pitcher Sonny Gray Signs With Twins - Yahoo Sports",
+          "publisher": "yahoo sports",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTjhiMEpfejdiU2xyTkQ0WVAxUjRzWDJkQTlyS0FVQ0tDNVVpZ3Z1aXZKNlRndTlVTUl4d2ljcmVucWFUSk05bGs4ZmloYW5JRUFxRmpkV2htckRlQURUdl9ILVNOUEcyVk0wNnU4X25QNWtiaVNIUE5ZSnRsMnZtU0RVV1g5N3h0?oc=5"
+        }
+      ]
+    },
     {
       "playerId": 669160,
       "playerName": "Dustin May",
