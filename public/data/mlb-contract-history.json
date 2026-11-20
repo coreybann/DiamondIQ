@@ -2,7 +2,7 @@
   "description": "DiamondIQ historical MLB salary records",
   "created": "2026-11-13",
   "source_dataset": "mlb-contracts-2026.json",
-  "record_count": 2173,
+  "record_count": 2186,
   "records": [
     {
       "player": "Nolan Arenado",
@@ -108186,6 +108186,642 @@
       },
       "source": "https://www.baseball-reference.com/teams/WSN/washington-nationals-salaries-and-contracts.shtml",
       "source_checked": "2026-11-18"
+    },
+    {
+      "player": "Junior Perez",
+      "mlb_player_id": null,
+      "team_code": "BAL",
+      "age": "25",
+      "service_time": "0.039",
+      "contract_status": "",
+      "salary_by_year": {
+        "2027": {
+          "raw": "Pre-Arb",
+          "salary_millions": null,
+          "status": "pre_arbitration"
+        },
+        "2028": {
+          "raw": "Pre-Arb-2",
+          "salary_millions": null,
+          "status": "pre_arbitration"
+        },
+        "2029": {
+          "raw": "Pre-Arb-3",
+          "salary_millions": null,
+          "status": "pre_arbitration"
+        },
+        "2030": {
+          "raw": "Arb-1",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "Arb-2",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2032": {
+          "raw": "Arb-3",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2033": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2034": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/BAL/baltimore-orioles-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-19"
+    },
+    {
+      "player": "Nick Fortes",
+      "mlb_player_id": null,
+      "team_code": "BOS",
+      "age": "30",
+      "service_time": "4.149",
+      "contract_status": "",
+      "salary_by_year": {
+        "2027": {
+          "raw": "Arb-2 (~$3.4M)",
+          "salary_millions": 3.4,
+          "status": "salary_listed"
+        },
+        "2028": {
+          "raw": "Arb-3",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2029": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2030": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2033": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2034": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/BOS/boston-red-sox-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-19"
+    },
+    {
+      "player": "Dustin May",
+      "mlb_player_id": null,
+      "team_code": "CHW",
+      "age": "29",
+      "service_time": "7.059",
+      "contract_status": "",
+      "salary_by_year": {
+        "2027": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2028": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2029": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/CHW/chicago-white-sox-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-19"
+    },
+    {
+      "player": "Bryce Miller",
+      "mlb_player_id": 682243,
+      "team_code": "KCR",
+      "age": "28",
+      "service_time": "3.153",
+      "contract_status": "",
+      "salary_by_year": {
+        "2027": {
+          "raw": "Arb-1 (~$3.9M)",
+          "salary_millions": 3.9,
+          "status": "salary_listed"
+        },
+        "2028": {
+          "raw": "Arb-2",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2029": {
+          "raw": "Arb-3",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2033": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2034": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2035": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2036": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2037": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/KCR/kansas-city-royals-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-19"
+    },
+    {
+      "player": "Jose A. Ferrer",
+      "mlb_player_id": null,
+      "team_code": "KCR",
+      "age": "27",
+      "service_time": "3.094",
+      "contract_status": "",
+      "salary_by_year": {
+        "2027": {
+          "raw": "Arb-1 (~$1.6M)",
+          "salary_millions": 1.6,
+          "status": "salary_listed"
+        },
+        "2028": {
+          "raw": "Arb-2",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2029": {
+          "raw": "Arb-3",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2033": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2034": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2035": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2036": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2037": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/KCR/kansas-city-royals-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-19"
+    },
+    {
+      "player": "Logan Evans",
+      "mlb_player_id": null,
+      "team_code": "KCR",
+      "age": "26",
+      "service_time": "1.124",
+      "contract_status": "",
+      "salary_by_year": {
+        "2027": {
+          "raw": "Pre-Arb-2",
+          "salary_millions": null,
+          "status": "pre_arbitration"
+        },
+        "2028": {
+          "raw": "Pre-Arb-3",
+          "salary_millions": null,
+          "status": "pre_arbitration"
+        },
+        "2029": {
+          "raw": "Arb-1",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb-2",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "Arb-3",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2032": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2033": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2034": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2035": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2036": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2037": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/KCR/kansas-city-royals-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-19"
+    },
+    {
+      "player": "Jace Jung",
+      "mlb_player_id": null,
+      "team_code": "LAA",
+      "age": "26",
+      "service_time": "0.093",
+      "contract_status": "",
+      "salary_by_year": {
+        "2027": {
+          "raw": "Pre-Arb",
+          "salary_millions": null,
+          "status": "pre_arbitration"
+        },
+        "2028": {
+          "raw": "Pre-Arb-2",
+          "salary_millions": null,
+          "status": "pre_arbitration"
+        },
+        "2029": {
+          "raw": "Pre-Arb-3",
+          "salary_millions": null,
+          "status": "pre_arbitration"
+        },
+        "2030": {
+          "raw": "Arb-1",
+          "salary_millions": null,
+          "status": "arbitration"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/ANA/los-angeles-angels-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-19"
+    },
+    {
+      "player": "Sonny Gray",
+      "mlb_player_id": null,
+      "team_code": "MIN",
+      "age": "37",
+      "service_time": "13.061",
+      "contract_status": "",
+      "salary_by_year": {
+        "2027": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2028": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2029": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/MIN/minnesota-twins-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-19"
+    },
+    {
+      "player": "Luke Little",
+      "mlb_player_id": null,
+      "team_code": "OAK",
+      "age": "26",
+      "service_time": "1.032",
+      "contract_status": "",
+      "salary_by_year": {
+        "2027": {
+          "raw": "Pre-Arb-2",
+          "salary_millions": null,
+          "status": "pre_arbitration"
+        },
+        "2028": {
+          "raw": "Pre-Arb-3",
+          "salary_millions": null,
+          "status": "pre_arbitration"
+        },
+        "2029": {
+          "raw": "Arb-1",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb-2",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "Arb-3",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2032": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2033": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/OAK/athletics-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-19"
+    },
+    {
+      "player": "Wilkin Ramos",
+      "mlb_player_id": null,
+      "team_code": "OAK",
+      "age": "26",
+      "service_time": "0.000",
+      "contract_status": "",
+      "salary_by_year": {
+        "2027": {
+          "raw": "Pre-Arb",
+          "salary_millions": null,
+          "status": "pre_arbitration"
+        },
+        "2028": {
+          "raw": "Pre-Arb-2",
+          "salary_millions": null,
+          "status": "pre_arbitration"
+        },
+        "2029": {
+          "raw": "Pre-Arb-3",
+          "salary_millions": null,
+          "status": "pre_arbitration"
+        },
+        "2030": {
+          "raw": "Arb-1",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "Arb-2",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2032": {
+          "raw": "Arb-3",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2033": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/OAK/athletics-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-19"
+    },
+    {
+      "player": "Brian Navarreto",
+      "mlb_player_id": null,
+      "team_code": "PHI",
+      "age": "32",
+      "service_time": "0.160",
+      "contract_status": "",
+      "salary_by_year": {
+        "2027": {
+          "raw": "Pre-Arb",
+          "salary_millions": null,
+          "status": "pre_arbitration"
+        },
+        "2028": {
+          "raw": "Pre-Arb-2",
+          "salary_millions": null,
+          "status": "pre_arbitration"
+        },
+        "2029": {
+          "raw": "Arb-1",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb-2",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "Arb-3",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2032": {
+          "raw": "Arb-4",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2033": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/PHI/philadelphia-phillies-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-19"
+    },
+    {
+      "player": "Maikel Garcia",
+      "mlb_player_id": 672580,
+      "team_code": "SEA",
+      "age": "27",
+      "service_time": "3.168",
+      "contract_status": "5 yrs/$57.5M (26-30) & 31 team option",
+      "salary_by_year": {
+        "2027": {
+          "raw": "$7.2M",
+          "salary_millions": 7.2,
+          "status": "salary_listed"
+        },
+        "2028": {
+          "raw": "$10.3M",
+          "salary_millions": 10.3,
+          "status": "salary_listed"
+        },
+        "2029": {
+          "raw": "$13.3M",
+          "salary_millions": 13.3,
+          "status": "salary_listed"
+        },
+        "2030": {
+          "raw": "$19.3M",
+          "salary_millions": 19.3,
+          "status": "salary_listed"
+        },
+        "2031": {
+          "raw": "$3.2M [FA-*]",
+          "salary_millions": 3.2,
+          "status": "salary_with_fa_marker"
+        },
+        "2032": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2033": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2034": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/SEA/seattle-mariners-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-19"
+    },
+    {
+      "player": "James McArthur",
+      "mlb_player_id": null,
+      "team_code": "SEA",
+      "age": "30",
+      "service_time": "3.150",
+      "contract_status": "",
+      "salary_by_year": {
+        "2027": {
+          "raw": "Arb-1 (~$800k)",
+          "salary_millions": 0.8,
+          "status": "salary_listed"
+        },
+        "2028": {
+          "raw": "Arb-2",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2029": {
+          "raw": "Arb-3",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2033": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2034": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/SEA/seattle-mariners-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-19"
     }
   ]
 }
