@@ -2,7 +2,7 @@
   "description": "DiamondIQ historical MLB salary records",
   "created": "2026-11-13",
   "source_dataset": "mlb-contracts-2026.json",
-  "record_count": 2202,
+  "record_count": 2205,
   "records": [
     {
       "player": "Nolan Arenado",
@@ -109559,6 +109559,107 @@
       },
       "source": "https://www.baseball-reference.com/teams/TBD/tampa-bay-rays-salaries-and-contracts.shtml",
       "source_checked": "2026-11-21"
+    },
+    {
+      "player": "Dean Kremer",
+      "mlb_player_id": null,
+      "team_code": "MIN",
+      "age": "31",
+      "service_time": "5.107",
+      "contract_status": "",
+      "salary_by_year": {
+        "2027": {
+          "raw": "Arb-3 (~$6.5M)",
+          "salary_millions": 6.5,
+          "status": "salary_listed"
+        },
+        "2028": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2029": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/MIN/minnesota-twins-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-22"
+    },
+    {
+      "player": "Joe Ryan",
+      "mlb_player_id": null,
+      "team_code": "MIN",
+      "age": "31",
+      "service_time": "5.033",
+      "contract_status": "",
+      "salary_by_year": {
+        "2027": {
+          "raw": "Arb-3 (~$9.6M)",
+          "salary_millions": 9.6,
+          "status": "salary_listed"
+        },
+        "2028": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2029": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/MIN/minnesota-twins-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-22"
+    },
+    {
+      "player": "Josh Simpson",
+      "mlb_player_id": null,
+      "team_code": "PHI",
+      "age": "29",
+      "service_time": "1.143",
+      "contract_status": "",
+      "salary_by_year": {
+        "2027": {
+          "raw": "Pre-Arb-2",
+          "salary_millions": null,
+          "status": "pre_arbitration"
+        },
+        "2028": {
+          "raw": "Pre-Arb-3",
+          "salary_millions": null,
+          "status": "pre_arbitration"
+        },
+        "2029": {
+          "raw": "Arb-1",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb-2",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "Arb-3",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2032": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2033": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/PHI/philadelphia-phillies-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-22"
     }
   ]
 }
