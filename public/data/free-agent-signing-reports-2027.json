@@ -1,7 +1,44 @@
 {
   "season": 2027,
-  "lastUpdated": "2026-11-18T22:23:51.495135+00:00",
+  "lastUpdated": "2026-11-23T22:11:42.555866+00:00",
   "signings": [
+    {
+      "playerId": 502671,
+      "playerName": "Paul Goldschmidt",
+      "team": "New York Mets",
+      "date": "2026-11-23",
+      "status": "Signing Reported",
+      "sources": [
+        {
+          "team": "New York Mets",
+          "date": "2026-11-23",
+          "headline": "Mets To Sign Paul Goldschmidt",
+          "publisher": null,
+          "url": "https://www.mlbtraderumors.com/2026/11/mets-sign-paul-goldschmidt.html"
+        },
+        {
+          "team": "New York Mets",
+          "date": "2026-11-23",
+          "headline": "Report: Paul Goldschmidt agrees to deal with Mets - MLB.com",
+          "publisher": "mlb.com",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1zYzRMemdaZFpLTm45SnBuUEd3Q2hMb09fU2cyY0xEQmJ5bGJ4cHN6N2Vva2cyanRuZmFPajdIVnBqc25xeHlrQWhxU0VKU1Y3c0htQUFNWkQwYnZnSE5qMExFbFdnT1VQWEhNMW03WV9ydGQyYnZRRy1vZ09hVDA?oc=5"
+        },
+        {
+          "team": "New York Mets",
+          "date": "2026-11-23",
+          "headline": "Report: Paul Goldschmidt agrees to deal with Mets - MLB.com",
+          "publisher": "mlb.com",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSjJ1cGNhSUFHSkJQcWt5UzJSQW9FQjNteUoxaDgxVjI0MUFFck5jX0swYTQxQzRmZFV1OVI3VGZFR1htbktiTE9sUEFtVHpseTRlOTAyNzVHMktiMU1UTk9COGFiOFFIWElmM1cydmh0am5KUENMNTcyejg2cnQ1OEktQlVUV2lwekkw?oc=5"
+        },
+        {
+          "team": "New York Mets",
+          "date": "2026-11-12",
+          "headline": "Mets' Paul Goldschmidt: Agrees to deal with Mets - CBS Sports",
+          "publisher": "cbs sports",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdVo0dmw4NUc4N011Y1RiV3VpUEU2RFNuUF95cnVpZTJWajhZSXFRazZxekkxWjVWdGhGTlpWVmpzRG9YTEZjV2hGTXVsX3Jwb0pjRmFWRXZXRmIzMEFYbzFUV2xEcWxsa2QyV01xMmo5YXpQT0wtWWU1elJ1ejhUMm9vMUY5VkFLV1dMY0M0d0RFS041Vl9HaWNKYw?oc=5"
+        }
+      ]
+    },
     {
       "playerId": 543243,
       "playerName": "Sonny Gray",
