@@ -1,7 +1,37 @@
 {
   "season": 2027,
-  "lastUpdated": "2026-11-23T22:11:42.555866+00:00",
+  "lastUpdated": "2026-11-24T06:19:08.673313+00:00",
   "signings": [
+    {
+      "playerId": 669432,
+      "playerName": "Trevor Rogers",
+      "team": "Chicago Cubs",
+      "date": "2026-11-24",
+      "status": "Signing Reported",
+      "sources": [
+        {
+          "team": "Chicago Cubs",
+          "date": "2026-11-24",
+          "headline": "Cubs To Sign Trevor Rogers",
+          "publisher": null,
+          "url": "https://www.mlbtraderumors.com/2026/11/cubs-to-sign-trevor-rogers.html"
+        },
+        {
+          "team": "Chicago Cubs",
+          "date": "2026-11-24",
+          "headline": "Trevor Rogers reportedly signs with Cubs - MLB.com",
+          "publisher": "mlb.com",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1SZ2t5ZUc4LVVtQjdfMlpubzg0RGVnUXYxQnI1Tm50bElPY3NXbFVqVzNkcXBsRXU3RGJ6cXlkbTRtV2Yta0JGSkVBWFFOaWhUY2lTQ3loTl9Dal9pbW1lZDIteXBYQkpkMndQY3hmdm11TXE5?oc=5"
+        },
+        {
+          "team": "Chicago Cubs",
+          "date": "2026-11-24",
+          "headline": "Report: Trevor Rogers agrees to five-year, $120M deal with Cubs - Sportsnet.ca",
+          "publisher": "sportsnet.ca",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNaUNPN1BhNTNFcVA4ZU1iNW1jOTJzZ05sZnljV2pKaUV2cHdpT2dodTVvOTVtbkQ5R1o1ZXpEVTZrdnoyejREeDllZEo4bk5RRVBaUlU3My1tY05DVkZPVkMtTGlzYzQxY1A1cVdERVBDT3RwSGt6aTVCTGk4emNWVmxjX2ZaOXVUd09LUnljVnRIZEJ3ZU9iQg?oc=5"
+        }
+      ]
+    },
     {
       "playerId": 502671,
       "playerName": "Paul Goldschmidt",
