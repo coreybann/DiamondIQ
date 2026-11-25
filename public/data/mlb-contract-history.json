@@ -2,7 +2,7 @@
   "description": "DiamondIQ historical MLB salary records",
   "created": "2026-11-13",
   "source_dataset": "mlb-contracts-2026.json",
-  "record_count": 2205,
+  "record_count": 2207,
   "records": [
     {
       "player": "Nolan Arenado",
@@ -109660,6 +109660,110 @@
       },
       "source": "https://www.baseball-reference.com/teams/PHI/philadelphia-phillies-salaries-and-contracts.shtml",
       "source_checked": "2026-11-22"
+    },
+    {
+      "player": "TJ Shook",
+      "mlb_player_id": null,
+      "team_code": "COL",
+      "age": "29",
+      "service_time": "0.015",
+      "contract_status": "",
+      "salary_by_year": {
+        "2027": {
+          "raw": "Pre-Arb",
+          "salary_millions": null,
+          "status": "pre_arbitration"
+        },
+        "2028": {
+          "raw": "Pre-Arb-2",
+          "salary_millions": null,
+          "status": "pre_arbitration"
+        },
+        "2029": {
+          "raw": "Pre-Arb-3",
+          "salary_millions": null,
+          "status": "pre_arbitration"
+        },
+        "2030": {
+          "raw": "Arb-1",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "Arb-2",
+          "salary_millions": null,
+          "status": "arbitration"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/COL/colorado-rockies-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-24"
+    },
+    {
+      "player": "Caleb Thielbar",
+      "mlb_player_id": null,
+      "team_code": "KCR",
+      "age": "40",
+      "service_time": "8.131",
+      "contract_status": "",
+      "salary_by_year": {
+        "2027": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2028": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2029": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2030": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2033": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2034": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2035": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2036": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2037": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/KCR/kansas-city-royals-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-24"
     }
   ]
 }
