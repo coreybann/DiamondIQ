@@ -1,7 +1,37 @@
 {
   "season": 2027,
-  "lastUpdated": "2026-11-24T06:19:08.673313+00:00",
+  "lastUpdated": "2026-11-25T13:24:45.950997+00:00",
   "signings": [
+    {
+      "playerId": 642547,
+      "playerName": "Freddy Peralta",
+      "team": "Baltimore Orioles",
+      "date": "2026-11-25",
+      "status": "Signing Reported",
+      "sources": [
+        {
+          "team": "Baltimore Orioles",
+          "date": "2026-11-25",
+          "headline": "Orioles Sign Freddy Peralta",
+          "publisher": null,
+          "url": "https://www.mlbtraderumors.com/2026/11/orioles-sign-freddy-peralta.html"
+        },
+        {
+          "team": "Baltimore Orioles",
+          "date": "2026-11-24",
+          "headline": "Report: Freddy Peralta agrees to deal with Orioles - MLB.com",
+          "publisher": "mlb.com",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRFJhTWxFbkZOdm00VXRKQ1pMYURqMnhzaWg2aG1VSTZJUEFnbDA1RC1YeFluTENNZ0pNWWNnRVZwNFZCX2RDWXhraFJlRWpqaUVEWThadC02Z3ZjdGw0eFFuRGhtaXd3T1JyejlGYWJHdUxtazliOE9DcXRBSTJqTg?oc=5"
+        },
+        {
+          "team": "Baltimore Orioles",
+          "date": "2026-11-24",
+          "headline": "Freddy Peralta signs $125 million deal with Orioles before MLB lockout - USA Today",
+          "publisher": "usa today",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQYmNWQVVwcG90WjBSRl9pSVNibkdnS1NGZlpuOGN0cks1M2liZWN2NU14ak5xMTBvWkJJcnZlZUhaYUFaZGlfc3hGZHBrRll2OGlUa2gzY1Zkc3F6WGpwc1VDcDNCd1A1YW9DcUpKY3lubFJzblg2V1EzckhKaWRFRHpIdThuSWZqSjdWNlRrVXFLaVJOVkZSZUhkZzVGN3hEWVhVTnlPZ3ZVaGpBZWg4UQ?oc=5"
+        }
+      ]
+    },
     {
       "playerId": 669432,
       "playerName": "Trevor Rogers",
