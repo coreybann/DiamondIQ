@@ -2,7 +2,7 @@
   "description": "DiamondIQ historical MLB salary records",
   "created": "2026-11-13",
   "source_dataset": "mlb-contracts-2026.json",
-  "record_count": 2207,
+  "record_count": 2218,
   "records": [
     {
       "player": "Nolan Arenado",
@@ -109764,6 +109764,488 @@
       },
       "source": "https://www.baseball-reference.com/teams/KCR/kansas-city-royals-salaries-and-contracts.shtml",
       "source_checked": "2026-11-24"
+    },
+    {
+      "player": "Evan Phillips",
+      "mlb_player_id": null,
+      "team_code": "ATL",
+      "age": "32",
+      "service_time": "6.136",
+      "contract_status": "3 yrs/$35M (27-29)",
+      "salary_by_year": {
+        "2027": {
+          "raw": "$11M",
+          "salary_millions": 11.0,
+          "status": "salary_listed"
+        },
+        "2028": {
+          "raw": "$11M",
+          "salary_millions": 11.0,
+          "status": "salary_listed"
+        },
+        "2029": {
+          "raw": "$13M",
+          "salary_millions": 13.0,
+          "status": "salary_listed"
+        },
+        "2030": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2033": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/ATL/atlanta-braves-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-25"
+    },
+    {
+      "player": "Freddy Peralta",
+      "mlb_player_id": null,
+      "team_code": "BAL",
+      "age": "31",
+      "service_time": "8.090",
+      "contract_status": "",
+      "salary_by_year": {
+        "2027": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2028": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2029": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2030": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2033": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2034": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/BAL/baltimore-orioles-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-25"
+    },
+    {
+      "player": "Jake Bauers",
+      "mlb_player_id": null,
+      "team_code": "BOS",
+      "age": "31",
+      "service_time": "6.084",
+      "contract_status": "4 yrs/$58M (27-30)",
+      "salary_by_year": {
+        "2027": {
+          "raw": "$16M",
+          "salary_millions": 16.0,
+          "status": "salary_listed"
+        },
+        "2028": {
+          "raw": "$16M",
+          "salary_millions": 16.0,
+          "status": "salary_listed"
+        },
+        "2029": {
+          "raw": "$15M",
+          "salary_millions": 15.0,
+          "status": "salary_listed"
+        },
+        "2030": {
+          "raw": "$11M",
+          "salary_millions": 11.0,
+          "status": "salary_listed"
+        },
+        "2031": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2033": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2034": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/BOS/boston-red-sox-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-25"
+    },
+    {
+      "player": "Jacob Webb",
+      "mlb_player_id": null,
+      "team_code": "CHC",
+      "age": "33",
+      "service_time": "6.046",
+      "contract_status": "1 yr/$2.5M (27) & 28 team option",
+      "salary_by_year": {
+        "2027": {
+          "raw": "$2M",
+          "salary_millions": 2.0,
+          "status": "salary_listed"
+        },
+        "2028": {
+          "raw": "$500k [FA-*]",
+          "salary_millions": 0.5,
+          "status": "salary_with_fa_marker"
+        },
+        "2029": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2030": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2026": {
+          "raw": "$1.5M",
+          "salary_millions": 1.5,
+          "status": "salary_listed"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/CHC/chicago-cubs-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-25"
+    },
+    {
+      "player": "Dustin May",
+      "mlb_player_id": null,
+      "team_code": "CHW",
+      "age": "29",
+      "service_time": "7.059",
+      "contract_status": "3 yrs/$52.5M (27-29)",
+      "salary_by_year": {
+        "2027": {
+          "raw": "$17.5M",
+          "salary_millions": 17.5,
+          "status": "salary_listed"
+        },
+        "2028": {
+          "raw": "$17.5M",
+          "salary_millions": 17.5,
+          "status": "salary_listed"
+        },
+        "2029": {
+          "raw": "$17.5M",
+          "salary_millions": 17.5,
+          "status": "salary_listed"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/CHW/chicago-white-sox-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-25"
+    },
+    {
+      "player": "Emilio Pagán",
+      "mlb_player_id": null,
+      "team_code": "DET",
+      "age": "36",
+      "service_time": "9.091",
+      "contract_status": "1 yr/$11.5M (27)",
+      "salary_by_year": {
+        "2027": {
+          "raw": "$11.5M",
+          "salary_millions": 11.5,
+          "status": "salary_listed"
+        },
+        "2028": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2029": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2030": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2033": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2034": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/DET/detroit-tigers-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-25"
+    },
+    {
+      "player": "Ryan Jeffers",
+      "mlb_player_id": null,
+      "team_code": "MIN",
+      "age": "30",
+      "service_time": "6.089",
+      "contract_status": "1 yr/$23.15M (27)",
+      "salary_by_year": {
+        "2027": {
+          "raw": "$23.15M",
+          "salary_millions": 23.15,
+          "status": "salary_listed"
+        },
+        "2028": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2029": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/MIN/minnesota-twins-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-25"
+    },
+    {
+      "player": "David Bednar",
+      "mlb_player_id": null,
+      "team_code": "NYY",
+      "age": "32",
+      "service_time": "6.076",
+      "contract_status": "1 yr/$23.15M (27)",
+      "salary_by_year": {
+        "2027": {
+          "raw": "$23.15M",
+          "salary_millions": 23.15,
+          "status": "salary_listed"
+        },
+        "2028": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2029": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2030": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/NYY/new-york-yankees-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-25"
+    },
+    {
+      "player": "Tim Hill",
+      "mlb_player_id": null,
+      "team_code": "NYY",
+      "age": "37",
+      "service_time": "8.112",
+      "contract_status": "1 yr/$2.25M (27) & 28 team option",
+      "salary_by_year": {
+        "2027": {
+          "raw": "$2.25M",
+          "salary_millions": 2.25,
+          "status": "salary_listed"
+        },
+        "2028": {
+          "raw": "$0 [FA-*]",
+          "salary_millions": 0.0,
+          "status": "salary_with_fa_marker"
+        },
+        "2029": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2030": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/NYY/new-york-yankees-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-25"
+    },
+    {
+      "player": "Brent Suter",
+      "mlb_player_id": null,
+      "team_code": "NYY",
+      "age": "37",
+      "service_time": "9.161",
+      "contract_status": "",
+      "salary_by_year": {
+        "2027": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2028": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2029": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2030": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/NYY/new-york-yankees-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-25"
+    },
+    {
+      "player": "Tim Mayza",
+      "mlb_player_id": null,
+      "team_code": "PHI",
+      "age": "35",
+      "service_time": "7.129",
+      "contract_status": "1 yr/$2.75M (27)",
+      "salary_by_year": {
+        "2027": {
+          "raw": "$2.75M",
+          "salary_millions": 2.75,
+          "status": "salary_listed"
+        },
+        "2028": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2029": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2030": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2033": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2026": {
+          "raw": "$1.75M",
+          "salary_millions": 1.75,
+          "status": "salary_listed"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/PHI/philadelphia-phillies-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-25"
     }
   ]
 }
