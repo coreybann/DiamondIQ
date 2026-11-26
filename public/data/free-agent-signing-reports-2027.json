@@ -1,7 +1,37 @@
 {
   "season": 2027,
-  "lastUpdated": "2026-11-25T13:24:45.950997+00:00",
+  "lastUpdated": "2026-11-26T05:22:36.549435+00:00",
   "signings": [
+    {
+      "playerId": 592332,
+      "playerName": "Kevin Gausman",
+      "team": "Detroit Tigers",
+      "date": "2026-11-26",
+      "status": "Signing Reported",
+      "sources": [
+        {
+          "team": "Detroit Tigers",
+          "date": "2026-11-25",
+          "headline": "Tigers To Sign Kevin Gausman",
+          "publisher": null,
+          "url": "https://www.mlbtraderumors.com/2026/11/tigers-to-sign-kevin-gausman.html"
+        },
+        {
+          "team": "Detroit Tigers",
+          "date": "2026-11-26",
+          "headline": "Veteran workhorse Kevin Gausman agrees to deal with Tigers - Yardbarker",
+          "publisher": "yardbarker",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMnhVT2RwRk5zMGlRVTBIN095NlZvQnNQR1RMM0x5R2NrZzN0aUphNkNZMi1ZOG9pYXV3ZEp2ZFBkeWFHRjVFTVRLdDg3S0xyUHBBT3RSQ0tEREZETElTRGE3Yi1ZQ2szdmt2a3NwR1NUMVpGQUZtUHJ0aDRsQzFteUVOcjlRTnUzZFF2U2RqdGtZM0V1UVdSdU10WnZjbGN3ZUtKYmJYeVhDQ0VibGJQeTJGSE1udzA?oc=5"
+        },
+        {
+          "team": "Detroit Tigers",
+          "date": "2026-11-26",
+          "headline": "Report: Kevin Gausman Agrees to One-Year Deal with Tigers - Yahoo Sports",
+          "publisher": "yahoo sports",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWjhMYlhyZEJhZmlFdlhUcWNULTk2Q21yZEtjaUZLWUFQeVFjME9HSEdaVGNNWmRMbG1kbjQ2NUJXUE1WcDNwN3B1Uzg5U1JjOG8xdS1wQUI4ejJaZkpVTnBVQVJnRDYwekw3UXpTc0gzVkRjUk5hZDQwT0oyaWcxR2Mtal9UbG5lcllOXw?oc=5"
+        }
+      ]
+    },
     {
       "playerId": 642547,
       "playerName": "Freddy Peralta",
@@ -29,6 +59,59 @@
           "headline": "Freddy Peralta signs $125 million deal with Orioles before MLB lockout - USA Today",
           "publisher": "usa today",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQYmNWQVVwcG90WjBSRl9pSVNibkdnS1NGZlpuOGN0cks1M2liZWN2NU14ak5xMTBvWkJJcnZlZUhaYUFaZGlfc3hGZHBrRll2OGlUa2gzY1Zkc3F6WGpwc1VDcDNCd1A1YW9DcUpKY3lubFJzblg2V1EzckhKaWRFRHpIdThuSWZqSjdWNlRrVXFLaVJOVkZSZUhkZzVGN3hEWVhVTnlPZ3ZVaGpBZWg4UQ?oc=5"
+        }
+      ]
+    },
+    {
+      "playerId": 664761,
+      "playerName": "Alec Bohm",
+      "team": "Kansas City Royals",
+      "date": "2026-11-25",
+      "status": "Signing Reported",
+      "sources": [
+        {
+          "team": "Kansas City Royals",
+          "date": "2026-11-25",
+          "headline": "Alec Bohm Signs With Kansas City Royals - 97.5 The Fanatic",
+          "publisher": "97.5 the fanatic",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWnhxb0F0bWRJaDBXNGZnYTNXQ2NtNE45RTduUW0zVmcxZ2VtSlBldUdUVmVXQ21XcF9KaENFMXFVdlU5dVlNTkdBUVFINUExNzZwQlhpU3VjbTJjM2EzdjdfdTRQTUpBWmtxNzhXVnUtaHJ3R2k2bThxeC1FTXRZQXBsZVU?oc=5"
+        },
+        {
+          "team": "Kansas City Royals",
+          "date": "2026-11-25",
+          "headline": "Alec Bohm reportedly signs with Royals after team traded away Maikel Garcia - Yahoo Sports",
+          "publisher": "yahoo sports",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPUkJJYWRGcUtXcm5IcmwtSjFBOHNaVWlzZVhMZHplQXNBSjNvelhyV1J1cVBnNzVmMGdIWEJ5M3RnNF9sX3dMc0t3dldRVjNEcXNFdVhpTzlnN2Mtc0hWeXVOQ3ZPOGIyVzR3VUl0MEszNW1LVk5iSHRCUWUyVWhsV3c3cXItVDUyLXhsQnEyLUtmQmRZNnhIX1ZRajVHUXRUblFkcHEwTFFfaWtEUEtoanF0ZHBUSk14WHh4NHpaRndFU2tPTUp5QTBOTDdnNnpLUmw3N1JKWDQ?oc=5"
+        }
+      ]
+    },
+    {
+      "playerId": 668941,
+      "playerName": "JoJo Romero",
+      "team": "San Diego Padres",
+      "date": "2026-11-25",
+      "status": "Signing Reported",
+      "sources": [
+        {
+          "team": "San Diego Padres",
+          "date": "2026-11-25",
+          "headline": "JoJo Romero signs with Padres, per report - MLB.com",
+          "publisher": "mlb.com",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1VNUttdE1GOEluaEtWUTRtajBWMGpyNFBTUEZWTFpyNXpnSU81a3RPVy16Z2RLeUw4ZGZfZXYyNXgzZjRqV2NfYTJrVG9FV3FQc1lSSUpyT1RaOThKaGh1U25ySFdkZHBuVEVFZG9iRkNOMG93?oc=5"
+        },
+        {
+          "team": "San Diego Padres",
+          "date": "2026-11-25",
+          "headline": "Report: Free Agent Reliever JoJo Romero Signs with the Padres - Yahoo Sports",
+          "publisher": "yahoo sports",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdTBiSmdnTHk4cEh6akJJaXJhaVUyTDdMVlZlbzZ2anVzZjk4NzJkaUZoNVgxZ3RkVWc4OUg2Qkc0c3BsVkFobTl3czVpNmNGTTRrMGRLTWFBQ1o4NnEtRkc3WEdrcm43QVRmVEN5QmJ1SUR0cWJsUjV6VVBDZm1oeUczT2hrOUZYQWdiMw?oc=5"
+        },
+        {
+          "team": "San Diego Padres",
+          "date": "2026-11-25",
+          "headline": "JoJo Romero reportedly signs with the Padres - MLB.com",
+          "publisher": "mlb.com",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE83TWlOWEdqVi1BUnp2NkQydXZxZVU0RXdnSElZMXdhUS0tcVZKSTJXLUc3WlVzUjl2VTZqTUNMbFJyZ1pyZHBWTko0Ui1hV0g2ZVNDOExLRl9OUGprdUFSM1E4ZTA2T1FGczNNeFBYb2hXYldWRVQtbVRB?oc=5"
         }
       ]
     },
