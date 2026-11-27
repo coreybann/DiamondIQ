@@ -2,7 +2,7 @@
   "description": "DiamondIQ historical MLB salary records",
   "created": "2026-11-13",
   "source_dataset": "mlb-contracts-2026.json",
-  "record_count": 2218,
+  "record_count": 2227,
   "records": [
     {
       "player": "Nolan Arenado",
@@ -110246,6 +110246,514 @@
       },
       "source": "https://www.baseball-reference.com/teams/PHI/philadelphia-phillies-salaries-and-contracts.shtml",
       "source_checked": "2026-11-25"
+    },
+    {
+      "player": "Trevor Rogers",
+      "mlb_player_id": null,
+      "team_code": "CHC",
+      "age": "29",
+      "service_time": "6.047",
+      "contract_status": "",
+      "salary_by_year": {
+        "2027": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2028": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2029": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2030": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/CHC/chicago-cubs-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-26"
+    },
+    {
+      "player": "Tyler Stephenson",
+      "mlb_player_id": null,
+      "team_code": "CIN",
+      "age": "30",
+      "service_time": "6.056",
+      "contract_status": "",
+      "salary_by_year": {
+        "2027": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2028": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2029": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2030": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2033": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/CIN/cincinnati-reds-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-26"
+    },
+    {
+      "player": "Kris Bubic",
+      "mlb_player_id": null,
+      "team_code": "CLE",
+      "age": "29",
+      "service_time": "6.135",
+      "contract_status": "",
+      "salary_by_year": {
+        "2027": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2028": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2029": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2030": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/CLE/cleveland-guardians-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-26"
+    },
+    {
+      "player": "Antonio Senzatela",
+      "mlb_player_id": null,
+      "team_code": "MIL",
+      "age": "32",
+      "service_time": "9.106",
+      "contract_status": "",
+      "salary_by_year": {
+        "2027": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2028": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2029": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2030": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2033": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2034": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2035": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/MIL/milwaukee-brewers-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-26"
+    },
+    {
+      "player": "Paul Goldschmidt",
+      "mlb_player_id": null,
+      "team_code": "NYM",
+      "age": "39",
+      "service_time": "15.059",
+      "contract_status": "",
+      "salary_by_year": {
+        "2027": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2028": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2029": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2030": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2033": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2034": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2035": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2036": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2037": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2038": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2039": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/NYM/new-york-mets-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-26"
+    },
+    {
+      "player": "Tarik Skubal",
+      "mlb_player_id": null,
+      "team_code": "NYM",
+      "age": "30",
+      "service_time": "6.114",
+      "contract_status": "",
+      "salary_by_year": {
+        "2027": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2028": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2029": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2030": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2033": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2034": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2035": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2036": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2037": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2038": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2039": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/NYM/new-york-mets-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-26"
+    },
+    {
+      "player": "Joel Kuhnel",
+      "mlb_player_id": null,
+      "team_code": "NYM",
+      "age": "32",
+      "service_time": "2.127",
+      "contract_status": "",
+      "salary_by_year": {
+        "2027": {
+          "raw": "Pre-Arb-3",
+          "salary_millions": null,
+          "status": "pre_arbitration"
+        },
+        "2028": {
+          "raw": "Arb-1",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2029": {
+          "raw": "Arb-2",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2030": {
+          "raw": "Arb-3",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2033": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2034": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2035": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2036": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2037": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2038": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2039": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/NYM/new-york-mets-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-26"
+    },
+    {
+      "player": "Jonathan Loaisiga",
+      "mlb_player_id": null,
+      "team_code": "NYY",
+      "age": "32",
+      "service_time": "8.022",
+      "contract_status": "",
+      "salary_by_year": {
+        "2027": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        },
+        "2028": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2029": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2030": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2031": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        },
+        "2032": {
+          "raw": "",
+          "salary_millions": null,
+          "status": "unavailable"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/NYY/new-york-yankees-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-26"
+    },
+    {
+      "player": "Alexander Cornielle",
+      "mlb_player_id": null,
+      "team_code": "TBR",
+      "age": "25",
+      "service_time": "0.003",
+      "contract_status": "",
+      "salary_by_year": {
+        "2027": {
+          "raw": "Pre-Arb",
+          "salary_millions": null,
+          "status": "pre_arbitration"
+        },
+        "2028": {
+          "raw": "Pre-Arb-2",
+          "salary_millions": null,
+          "status": "pre_arbitration"
+        },
+        "2029": {
+          "raw": "Pre-Arb-3",
+          "salary_millions": null,
+          "status": "pre_arbitration"
+        },
+        "2030": {
+          "raw": "Arb-1",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2031": {
+          "raw": "Arb-2",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2032": {
+          "raw": "Arb-3",
+          "salary_millions": null,
+          "status": "arbitration"
+        },
+        "2033": {
+          "raw": "FA",
+          "salary_millions": null,
+          "status": "free_agent"
+        }
+      },
+      "source": "https://www.baseball-reference.com/teams/TBD/tampa-bay-rays-salaries-and-contracts.shtml",
+      "source_checked": "2026-11-26"
     }
   ]
 }
